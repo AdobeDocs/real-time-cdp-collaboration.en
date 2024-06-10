@@ -10,6 +10,7 @@ user-guide-description: This is a description for the user guide that will be di
 * [Key Features](./features.md)
 * [Use Cases and Benefits](./use-cases-benefits.md)
 * Set Up {#setup}
+  * [Set up overview](./setup/setup-overview.md)
   * [Onboard organization](./setup/onboard-organization.md)
   * [Onboard audiences](./setup/onboard-audiences.md)
   * [Onboard measurement data](./setup/onboard-measurement-data.md)
