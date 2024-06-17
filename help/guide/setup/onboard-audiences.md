@@ -11,20 +11,6 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 This document outlines the steps to add an audience using Adobe Real-Time CDP Collaboration.
 
-## Workflow Steps
-
-- [Onboard audiences](#onboard-audiences)
-  - [Overview](#overview)
-  - [Workflow Steps](#workflow-steps)
-  - [Select audience source](#select-audience-source)
-  - [Select audience](#select-audience)
-  - [Map fields](#map-fields)
-    - [Identity crosswalks](#identity-crosswalks)
-  - [Manage privacy](#manage-privacy)
-  - [Schedule](#schedule)
-  - [Review](#review)
-  - [Next steps](#next-steps)
-
 ## Select audience source
 
 ![Select audience source screen showing options for AEP RTCDP, CSV File, Amazon S3, and Snowflake.](/help/assets/setup/add-audiences/Step-Select-Audience-Source.png)
