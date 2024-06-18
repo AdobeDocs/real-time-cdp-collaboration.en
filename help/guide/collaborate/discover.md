@@ -1,3 +1,10 @@
+---
+title: Discover overlaps
+description: Discover overlaps between your and your collaborators' audiences
+audience: admin, publisher, advertiser
+badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+---
+
 # Discover overlaps
 
 After creating a project within a collaboration space between an advertiser and a publisher, you can discover overlaps between your and your collaborator's audiences

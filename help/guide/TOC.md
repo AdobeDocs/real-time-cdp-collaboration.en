@@ -9,6 +9,7 @@ user-guide-description: This is a description for the user guide that will be di
 * [Overview](./overview.md)
 * [Key Features](./features.md)
 * [Use Cases and Benefits](./use-cases-benefits.md)
+* [End to end workflow](./end-to-end-workflow.md)
 * Set Up {#setup}
   * [Set up overview](./setup/setup-overview.md)
   * [Onboard organization](./setup/onboard-organization.md)
@@ -32,4 +33,5 @@ user-guide-description: This is a description for the user guide that will be di
   * [Support and Resources](./faqs/support-and-resources.md)
 * Glossary {#glossary}
   * [Key Terms and Definitions](./glossary/key-terms-and-definitions.md)
+* [Glossary](./glossary.md)
 * [Release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest)

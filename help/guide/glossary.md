@@ -59,7 +59,3 @@ A project in Adobe Real-Time CDP Collaboration is a workspace where users can co
 ### Use Case
 
 A use case defines a specific business scenario or problem that can be addressed using Adobe Real-Time CDP Collaboration. It outlines the steps and processes involved in leveraging the platform to achieve a particular goal, such as audience discovery or campaign measurement.
-
----
-
-For further reading, visit the [Adobe Real-Time CDP Documentation](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) or the [glossary](#) on our website.
