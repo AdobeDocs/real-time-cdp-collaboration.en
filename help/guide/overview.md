@@ -23,11 +23,11 @@ You can collaborate with publishers and advertisers in a privacy-safe environmen
 
 ## Scale reach and deliver cross-channel campaigns
 
-Publishers can securely access and activate advertiser segments across multiple channels, scaling reach faster using identity partners and look-alike modeling. Advertisers can guide audiences through the funnel and suppress already-converted audiences, ensuring message relevance and efficient spending through a secure activation workflow.
+Publishers can securely access and activate advertiser segments across multiple channels, scaling reach faster using identity partners and look-alike modeling (available in upcoming releases). Advertisers can guide audiences through the funnel and suppress already-converted audiences, ensuring message relevance and efficient spending through a secure activation workflow.
 
 ## Understand aggregate campaign performance
 
-Use collaborative measurement tools to track the impact of your ads. Publishers can report campaign performance to brands, helping improve current and future ads. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for holistic insights.
+Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights.
 
 ## Additional benefits
 
