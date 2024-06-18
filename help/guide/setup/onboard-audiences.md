@@ -55,7 +55,7 @@ You can add more fields as necessary to ensure accurate data mapping.
 
 An identity crosswalk is a tool used to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. Select **[!UICONTROL Add identity crosswalks]** to see a screen where you can choose from various identity crosswalks. Each entry includes details such as the table name, type, description, and creation date.
 
-For further reading, see the [glossary](/help/guide/glossary/key-terms-and-definitions.md).
+For further reading, see the [glossary](/help/guide/glossary.md).
 
 ## Manage privacy
 
