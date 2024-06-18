@@ -7,7 +7,6 @@ user-guide-description: This is a description for the user guide that will be di
 # Real-Time Customer Data Platform Collaboration {#using}
 
 * [Overview](./overview.md)
-* [Key Features](./features.md)
 * [Use Cases and Benefits](./use-cases-benefits.md)
 * [End to end workflow](./end-to-end-workflow.md)
 * Set Up {#setup}
@@ -19,8 +18,6 @@ user-guide-description: This is a description for the user guide that will be di
   * [Discover publishers](./connect-publisher-advertiser/discover-publishers.md)
   * [Discover advertisers](./connect-publisher-advertiser/discover-advertisers.md)
   * [Establishing Connections](./connect-publisher-advertiser/establishing-connections.md)
-  * [Data Sharing Agreements](./connect-publisher-advertiser/data-sharing-agreements.md)
-  * [Configuring Data Sharing](./connect-publisher-advertiser/configuring-data-sharing.md)
 * Collaborate {#collaborate}
   * [Manage projects](./collaborate/manage-projects.md)
   * [Discover](./collaborate/discover.md)
@@ -31,7 +28,5 @@ user-guide-description: This is a description for the user guide that will be di
   * [Common Questions](./faqs/common-questions.md)
   * [Troubleshooting Tips](./faqs/troubleshooting-tips.md)
   * [Support and Resources](./faqs/support-and-resources.md)
-* Glossary {#glossary}
-  * [Key Terms and Definitions](./glossary/key-terms-and-definitions.md)
 * [Glossary](./glossary.md)
 * [Release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest)
