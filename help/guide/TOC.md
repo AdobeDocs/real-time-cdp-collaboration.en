@@ -6,8 +6,8 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 
 # Real-Time Customer Data Platform Collaboration {#using}
 
+* [Real-Time CDP Collaboration home](./home.md)
 * Overview {#overview}
-  * [Overview](./overview.md)
   * [Use Cases and Benefits](./use-cases-benefits.md)
   * [End to end workflow](./end-to-end-workflow.md)
 * Set Up {#setup}
