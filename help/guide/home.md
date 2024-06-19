@@ -37,7 +37,7 @@ Embedded controls ensure governance and privacy requirements are met, guiding re
 
 ### Agnostic and interoperable
 
-You can use your choice of data warehouse, identity measurement, and walled garden partners, efficiently connecting your data collaboration program to Adobe Experience Platform's tools.
+Bring in audiences various sources such as from Real-Time CDP, data warehouse (available in an upcoming release), and other partners, efficiently connecting your data collaboration program to other Adobe Experience Platform tools.
 
 ### Built-in reputation
 
@@ -45,14 +45,14 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Getting started
 
-To begin, connect your data sources to Adobe Real-Time CDP Collaboration to start building unified customer profiles. Utilize the collaboration tools to create and manage customer segments effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences.
+To begin, connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences.
 
 ## Resources
 
-Explore the [Adobe Real-Time CDP Documentation](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) for detailed information. For support, access our [Customer Support](https://business.adobe.com/support.html) page.
+Explore the [glossary](/help/guide/glossary.md) for detailed information on terms used in the product. For support, access the Adobe [Customer Support](https://business.adobe.com/support.html) page.
 
 ## Contact us
 
-For more information or to schedule a demo, contact your Adobe representative or visit our [Contact Page](https://business.adobe.com/contact.html).
+For more information or to schedule a demo, contact your Adobe representative.
 
 
