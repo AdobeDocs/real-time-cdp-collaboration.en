@@ -8,6 +8,8 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Glossary
 
+**Work in progress**
+
 This glossary provides definitions for key terms related to our new product, Adobe Real-Time CDP Collaboration. Understanding these terms will help you better utilize the platform and its features.
 
 ## C

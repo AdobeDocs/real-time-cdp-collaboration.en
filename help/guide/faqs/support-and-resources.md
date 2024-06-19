@@ -7,4 +7,6 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Support and resources
 
+**Work in progress**
+
 Need help with Adobe Real-Time CDP Collaboration? This document provides information on available support and resources, including documentation, tutorials, and customer support options to help you make the most of the platform.

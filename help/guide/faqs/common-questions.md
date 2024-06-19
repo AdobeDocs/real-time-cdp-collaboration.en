@@ -7,4 +7,6 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Common questions
 
+**Work in progress**
+
 This document provides answers to the most frequently asked questions about Adobe Real-Time CDP Collaboration. Whether you're just getting started or need clarification on specific features, you'll find the information you need here.

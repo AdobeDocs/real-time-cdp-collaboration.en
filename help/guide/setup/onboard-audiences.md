@@ -18,9 +18,9 @@ This document outlines the steps to add an audience using Adobe Real-Time CDP Co
 In this step, you will choose the source of your audience data. The available sources include:
 
 - **AEP RTCDP**: Adobe Experience Platform Real-Time CDP, ideal for leveraging integrated data within Adobe's ecosystem.
-- **CSV File**: Upload a CSV file containing your audience data for quick and straightforward data ingestion.
-- **Amazon S3**: Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
-- **Snowflake**: Use your Snowflake data warehouse to pull in audience data seamlessly.
+- **CSV File** (Future release): Upload a CSV file containing your audience data for quick and straightforward data ingestion.
+- **Amazon S3** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
+- **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
 
 ## Select audience
 
@@ -39,7 +39,7 @@ Here are the target fields you can map for your audiences. You can change the ma
   - **HASHED PHONE**
   - Add additional fields as needed.
 
-- **Target fields**: The fields in Adobe Real-Time CDP.
+- **Target fields**: The field names that will be sent downstream for activation
   - **Hashed email**
   - **Hashed phone number**
   - **Email**
@@ -66,7 +66,7 @@ For further reading, see the [glossary](/help/guide/glossary.md).
 Define the privacy settings of the selected audiences. You can change the connection access and metadata visibility from the audience inventory.
 
 - **Connection access**: Choose how your audiences can be accessed:
-  - **Private audiences**: None of the connections can use them.
+  - **Private audiences**: None of the collaborators can use them, available to your organization only.
   - **Public audiences**: All connections can use them self-serve.
   - **Custom audiences**: Only selected connections can use them.
 
@@ -75,13 +75,8 @@ Define the privacy settings of the selected audiences. You can change the connec
   - Show Audience Counts.
   - Show Audience Overlap %.
 
-- **Use cases for identities**: Configure use cases for different identity fields:
+- **Use cases for identities**: Configure use cases for different identity fields for example: 
   - **Hashed email**: Discover, Share, Activate, Measure.
-  - **Hashed phone number**: Discover, Share, Activate, Measure.
-  - **Email**: Discover, Share, Activate.
-  - **Phone number**: Discover, Share, Activate.
-  - **IP Address v4**: Discover, Share, Activate, Measure.
-  - **ECID**: Discover, Share, Activate, Measure.
 
 ## Schedule
 

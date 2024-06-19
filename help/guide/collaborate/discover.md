@@ -7,6 +7,8 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Discover overlaps
 
+**Work in progress**
+
 After creating a project within a collaboration space between an advertiser and a publisher, you can discover overlaps between your and your collaborator's audiences
 
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)

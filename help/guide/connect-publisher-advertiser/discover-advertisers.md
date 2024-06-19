@@ -7,4 +7,4 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Discover advertisers
 
-Learn how to discover and connect with potential advertisers for collaboration using Adobe Real-Time CDP Collaboration. This guide will help you identify the right partners and leverage audience data to create mutually beneficial marketing strategies.
+Learn how to discover and connect with potential advertisers for collaboration using Adobe Real-Time CDP Collaboration. This guide will help you identify the right partners and leverage audience data to create mutually beneficial marketing strategies and maximize returns on ad spend on your web properties.

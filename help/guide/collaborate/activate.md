@@ -7,4 +7,6 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Activate audiences
 
-Discover how to activate your audiences in real-time across multiple channels using Adobe Real-Time CDP Collaboration. This guide provides step-by-step instructions for effective audience targeting and campaign execution.
+**Work in progress**
+
+As a publisher, discover how to activate audiences across multiple channels using Adobe Real-Time CDP Collaboration.

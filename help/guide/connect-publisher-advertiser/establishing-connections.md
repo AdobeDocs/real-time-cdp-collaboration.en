@@ -7,6 +7,8 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Set up connection
 
+**Work in progress**
+
 Both publishers and advertisers can set up connections. Whichever party initiates the connection will afterwards be the connection owner. 
 
 To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the discover publishers screen.

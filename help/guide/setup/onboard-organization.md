@@ -9,4 +9,6 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 ## Overview
 
-This document outlines the steps to add an audience using Adobe Real-Time CDP Collaboration.
+**Work in progress**
+
+This document outlines the steps to onboard an organization using Adobe Real-Time CDP Collaboration, including setting your match keys, preferred identities, and more options. 

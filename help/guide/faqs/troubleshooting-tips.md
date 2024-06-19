@@ -7,4 +7,6 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Troubleshooting tips
 
+**Work in progress**
+
 Encountering issues with Adobe Real-Time CDP Collaboration? This guide offers troubleshooting tips and solutions to help you resolve common problems and ensure a smooth user experience.
