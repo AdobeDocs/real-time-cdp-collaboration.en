@@ -11,7 +11,7 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 This document outlines the steps to add an audience using Adobe Real-Time CDP Collaboration.
 
-## Select audience source
+## Select data connection
 
 ![Select audience source screen showing options for AEP RTCDP, CSV File, Amazon S3, and Snowflake.](/help/assets/setup/add-audiences/Step-Select-Audience-Source.png)
 

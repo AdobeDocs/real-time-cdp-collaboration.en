@@ -38,6 +38,12 @@ A device identifier is a unique number associated with a device, such as a smart
 
 An invite in Adobe Real-Time CDP Collaboration refers to a request sent to another user or organization to join a project or data collaboration effort. Invites help facilitate secure and controlled access to shared data and resources.
 
+## J
+
+### Join key
+
+In the context of identity crosswalks, a join key is a unique identifier used to match and link different identifiers across datasets, enabling the integration and unification of audience data from various sources. For example, a hashed email (HEM) can be a join key.
+
 ## M
 
 ### Match Keys
@@ -56,8 +62,12 @@ Overlap refers to the common audience segments that exist between different data
 
 A project in Adobe Real-Time CDP Collaboration is a workspace where users can collaborate on specific data integration and audience segmentation tasks. Projects help organize and manage data-sharing efforts, making collaboration more efficient and streamlined.
 
+### Public audience
+
+
+
 ## U
 
 ### Use Case
 
-A use case defines a specific business scenario or problem that can be addressed using Adobe Real-Time CDP Collaboration. It outlines the steps and processes involved in leveraging the platform to achieve a particular goal, such as audience discovery or campaign measurement.
+A use case defines a specific business scenario or problem that can be addressed using Adobe Real-Time CDP Collaboration. Sample use cases available in Real-Time CDP Collaboration in order to achieve a particular goal, are audience discovery or campaign measurement.

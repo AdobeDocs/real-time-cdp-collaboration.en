@@ -17,3 +17,12 @@ The match keys are set when you connect with a publisher. To change the overlaps
 
 ![Edit match keys screen](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
 
+## Recommended audiences 
+
+The **[!UICONTROL Recommended audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five recommended audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
+
+For extensive information about the overlapping identities count and percentages, read the overlap calculations reference documentation.
+
+![Recommended audiences view](/help/assets/collaborate/discover-overlaps/recommended-audiences-highlighted.png)
+
+
