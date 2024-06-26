@@ -9,4 +9,4 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 **Work in progress**
 
-Learn all about identity crosswalks in Real-Time CDP Collaboration, including how bring identity crosswalks in from different sources, and how to manage identity crosswalks.
+Learn all about identity crosswalks in Real-Time CDP Collaboration, including how to bring identity crosswalks in from different sources, and how to manage identity crosswalks.
