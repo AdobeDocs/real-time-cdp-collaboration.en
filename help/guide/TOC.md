@@ -14,6 +14,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Set up overview](./setup/setup-overview.md)
   * [Onboard organization](./setup/onboard-organization.md)
   * [Onboard audiences](./setup/onboard-audiences.md)
+  * [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Onboard measurement data](./setup/onboard-measurement-data.md)
 * Connect with Publisher/Advertiser {#connect-publisher-advertiser}
   * [Discover publishers](./connect-publisher-advertiser/discover-publishers.md)
@@ -26,6 +27,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Activate](./collaborate/activate.md)
   * [Measure](./collaborate/measure.md)
 * Reference {#reference}
+  * [How overlap counts and percentages are calculated](/help/guide/reference/overlap-calculations.md)
   * [Common Questions](./faqs/common-questions.md)
   * [Troubleshooting Tips](./faqs/troubleshooting-tips.md)
   * [Support and Resources](./faqs/support-and-resources.md)
