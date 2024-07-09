@@ -13,10 +13,10 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 ## Overview
 
-Use the setup screens to:
+Use the functionality in the setup section to:
 
-* Onboard your organization onto Adobe Real-Time CDP Collaboration
-* Onboard audience data
+* [Onboard and manage various aspects of your organization](/help/guide/setup/onboard-organization.md) in Adobe Real-Time CDP Collaboration and 
+* Import and manage audiences
 * Onboard measurement data
 
 ![Setup page](/help/assets/setup/setup-page.png)
