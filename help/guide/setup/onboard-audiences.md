@@ -1,17 +1,38 @@
 ---
-title: Add audiences
-description: Learn how to onboard audiences into 
+title: Import and manage audiences
+description: Learn how to import and manage audiences
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
 
-# Onboard audiences
+# Import and manage audiences
 
-## Overview
+>[!AVAILABILITY]
+>
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
-This document outlines the steps to add an audience using Adobe Real-Time CDP Collaboration.
+Understand all the relevant metrics that you can view related to your audiences, as well as the workflow steps to import an audience into Adobe Real-Time CDP Collaboration.
 
-## Select data connection
+## View audiences dashboard
+
+The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
+
+| Item | Description|
+|----------|---------|
+| **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
+| **[!UICONTROL Projects]** | Indicates the number of projects in which this audience is being used. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. |
+| **[!UICONTROL Schedule]** | Indicates how often the audience is scheduled to refresh. Available options are ... |
+| **[!UICONTROL Created]** | Indicates the source where this audience was imported from |
+| **[!UICONTROL Last updated]** | Indicates the latest date and time when any aspect of this audience was updated. |
+
+Select **[!UICONTROL View]** to inspect or edit individual audiences. 
+
+## Inspect individual audiences
+
+## Import audiences into Real-Time CDP Collaboration
+
+### Select data connection
 
 ![Select audience source screen showing options for AEP RTCDP, CSV File, Amazon S3, and Snowflake.](/help/assets/setup/add-audiences/Step-Select-Audience-Source.png)
 
@@ -22,13 +43,13 @@ In this step, you will choose the source of your audience data. The available so
 - **Amazon S3** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
 - **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
 
-## Select audience
+### Select audience
 
 ![Select audience screen showing a list of available audiences with checkboxes to select them.](/help/assets/setup/add-audiences/Step-Select-Audience.png)
 
 After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences.
 
-## Map fields
+### Map fields
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-audiences/Step-Map-Fields.png)
 
@@ -49,7 +70,7 @@ Here are the target fields you can map for your audiences. You can change the ma
 
 You can add more fields as necessary to ensure accurate data mapping.
 
-### Identity crosswalks
+#### Identity crosswalks
 
 ![Identity crosswalks screen showing a list of available identity crosswalks with details.](/help/assets/setup/add-audiences/Step-Identity-Crosswalks.png)
 
@@ -57,7 +78,7 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 For further reading, see the [glossary](/help/guide/glossary.md).
 
-## Manage privacy
+### Manage privacy
 
 ![Manage privacy screen showing options for setting connection access and metadata visibility.](/help/assets/setup/add-audiences/Step-Manage-Privacy-1.png)
 
@@ -78,7 +99,7 @@ Define the privacy settings of the selected audiences. You can change the connec
 - **Use cases for identities**: Configure use cases for different identity fields for example: 
   - **Hashed email**: Discover, Share, Activate, Measure.
 
-## Schedule
+### Schedule
 
 ![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-audiences/Step-Schedule.png)
 
@@ -87,7 +108,7 @@ Schedule when to start and end populating the audiences. The audience will be up
 - **Start date**: Set the start date for populating the audience.
 - **End date**: Set the end date for populating the audience.
 
-## Review
+### Review
 
 Review all the configurations and settings before finalizing the audience addition. Ensure all details are correct and complete the process.
 
