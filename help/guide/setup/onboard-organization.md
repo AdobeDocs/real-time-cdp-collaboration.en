@@ -28,7 +28,18 @@ When onboarding your company, you can select the use cases that you will be able
 
 ## Set up match keys
 
-Select the match keys that you want the audiences to be keyed off of. It is important in this step to plan for the future and select the match keys that you anticipate will use in publisher-advertiser campaigns. The available match keys for the first release of Real-Time CDP Collaboration are:
+Select the match keys that you want the audiences to be keyed off of. It is important in this step to plan for the future and select the match keys that you anticipate will use in publisher-advertiser campaigns. 
+
+
+Select up to 5 match keys you plan to use; you can remove unwanted match keys but cannot add new ones later for each connection. Set the minimum count of identities for selected match keys. Identities below the minimum count will not appear in the identity breakdown for some use cases. 
+
+Available match keys in Real-Time CDP Collaboration can be of three types:
+
+* First-party people IDs
+* First-party device IDs
+* Partner IDs
+
+The available match keys for the first release of Real-Time CDP Collaboration are:
 
 * LiveRamp ID
 * Merkury ID
