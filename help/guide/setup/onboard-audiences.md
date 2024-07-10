@@ -94,8 +94,8 @@ After selecting the audience source, you will choose specific audiences to inclu
 
 Schedule when to start and end populating the audiences. The audience will be updated according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option
 
-- **Start date**: Set the start date for populating the audience.
-- **End date**: Set the end date for populating the audience.
+* **Start date**: Set the start date for populating the audience.
+* **End date**: Set the end date for populating the audience.
 
 ### Review
 
