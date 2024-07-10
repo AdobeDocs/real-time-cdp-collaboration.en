@@ -42,10 +42,10 @@ From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and se
 
 In this step, you will choose the source of your audience data. The available sources include:
 
-- **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform Real-Time CDP. 
-- **CSV File** (Future release): Upload a CSV file containing your audience data for quick and straightforward data ingestion.
-- **Amazon S3** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
-- **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
+* **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform Real-Time CDP. 
+* **CSV File** (Future release): Upload a CSV file containing your audience data for quick and straightforward data ingestion.
+* **Amazon S3** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
+* **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
 
 ### Provide details
 
