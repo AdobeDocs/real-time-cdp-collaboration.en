@@ -13,11 +13,14 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 ## Overview
 
+The setup section is your go-to place to add information about your company as you get started with the product and then to come back to for managing various resources, like audiences, measurement data, and more. 
+
 Use the functionality in the setup section to:
 
 * [Onboard and manage various aspects of your organization](/help/guide/setup/onboard-organization.md) in Adobe Real-Time CDP Collaboration and 
 * Import and manage audiences
-* Onboard measurement data
+* Import and manage identity crosswalks
+* Onboard measurement data for your advertising campaigns 
 
 ![Setup page](/help/assets/setup/setup-page.png)
 

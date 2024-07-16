@@ -15,7 +15,7 @@ Learn how to onboard your organization onto Real-Time CDP Collaboration and mana
 
 >[!IMPORTANT]
 >
->Any use cases and match keys that you select at the organization level will then trickle down to the project level in the collaboration between advertisers and publishers. At the project level, you are able to remove use cases and match keys, but not add any additional ones that were not selected at the organization level in this screen. 
+>Any use cases and match keys that you select at the organization level will then trickle down to the project level in the collaboration between advertisers and publishers. At the project level, you are able to remove use cases and match keys, but you are not able to add any additional ones that were not selected at the organization level in this screen. 
 
 ![Setup page](/help/assets/setup/manage-organization/my-organization.png)
 
@@ -28,8 +28,7 @@ When onboarding your company, you can select the use cases that you will be able
 
 ## Set up match keys
 
-Select the match keys that you want the audiences to be keyed off of. It is important in this step to plan for the future and select the match keys that you anticipate will use in publisher-advertiser campaigns. 
-
+Select the match keys that you want the audiences to be keyed off of. It is important in this step to plan for the future and select the match keys that you anticipate you will be using in publisher-advertiser campaigns. 
 
 Select up to 5 match keys you plan to use; you can remove unwanted match keys but cannot add new ones later for each connection. Set the minimum count of identities for selected match keys. Identities below the minimum count will not appear in the identity breakdown for some use cases. 
 
