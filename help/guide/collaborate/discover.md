@@ -7,6 +7,10 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Discover overlaps
 
+>[!AVAILABILITY]
+>
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
+
 **Work in progress**
 
 After creating a project within a collaboration space between an advertiser and a publisher, you can discover overlaps between your and your collaborator's audiences
@@ -21,7 +25,7 @@ The match keys are set when you connect with a publisher. To change the overlaps
 
 The **[!UICONTROL Recommended audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five recommended audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
 
-For extensive information about the overlapping identities count and percentages, read the overlap calculations reference documentation.
+For extensive information about the overlapping identities count and percentages, read the [overlap calculations reference documentation](/help/guide/reference/overlap-calculations.md).
 
 ![Recommended audiences view](/help/assets/collaborate/discover-overlaps/recommended-audiences-highlighted.png)
 
