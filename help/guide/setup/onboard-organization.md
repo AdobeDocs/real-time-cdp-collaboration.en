@@ -21,6 +21,11 @@ Learn how to onboard your organization onto Real-Time CDP Collaboration and mana
 
 ## Set up use cases
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_onboarding_usecases"
+>title="Supported use cases"
+>abstract="Insert content about use cases"
+
 When onboarding your company, you can select the use cases that you will be able to use for your campaigns. The available use cases for the first release of Real-Time CDP Collaboration are:
 
 * Audience insights: Add this use case to your organization in order to ...

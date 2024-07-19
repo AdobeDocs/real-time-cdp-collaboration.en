@@ -17,7 +17,7 @@ In a cookieless future, a data collaboration tool is exactly what your company n
 
 ## Discover
 
-Use dashboards and reports to discover audiences for transverse brand-to-publisher collaboration.
+Use dashboards and reports to discover audiences for brand-to-publisher collaboration.
 As an advertiser working with the platform, access and understand audience overlaps, reach, suppression, and possible prospecting opportunities from a wide inventory of publishers.
 
 ## Reach
@@ -30,3 +30,5 @@ Work with the identity partners selected to leverage real identities and intelli
 Combine and explore known customer engagement from various sources such as web impressions and more.
 View campaign performance in simplified and customizable reports.
 Use cross-channel conversion data and insights from dashboards and reports to improve in-flight campaigns, calculate ROAS (Return On Ad Spend), and initiate future campaign planning.
+
+Note that some of the measurement functionality is not available in the alpha release.
