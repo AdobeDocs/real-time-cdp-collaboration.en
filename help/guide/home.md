@@ -19,15 +19,15 @@ With Adobe Real-Time Customer Data Platform (CDP) Collaboration, you can discove
 
 ## Identify audiences through trusted partners
 
-You can collaborate with publishers and advertisers in a privacy-safe environment to match your audiences and discover potential new customers. The easy-to-use interface allows you to surface these audiences without relying on technical resources, connecting with premium publishers and global advertisers for data collaboration opportunities.
+Publishers and advertisers can collaborate in a privacy-safe environment to match audiences, discover potential new customers, and maximize ad return on available inventory. The easy-to-use interface allows you to surface these audiences without relying on technical resources, connecting premium publishers and advertisers for data collaboration opportunities.
 
 ## Scale reach and deliver cross-channel campaigns
 
-Publishers can securely access and activate advertiser segments across multiple channels, scaling reach faster using identity partners and look-alike modeling (available in upcoming releases). Advertisers can guide audiences through the funnel and suppress already-converted audiences, ensuring message relevance and efficient spending through a secure activation workflow.
+Publishers can securely access and activate advertiser audiences across multiple channels, scaling reach faster using identity partners and look-alike modeling (available in upcoming releases). Advertisers can guide audiences through the funnel and suppress already-converted audiences, ensuring message relevance and efficient spending through a secure activation workflow.
 
 ## Understand aggregate campaign performance
 
-Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights.
+Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement functionality is not available in the alpha release.
 
 ## Additional benefits
 
@@ -43,7 +43,7 @@ Bring in audiences various sources such as from Real-Time CDP, data warehouse (a
 
 Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
 
-## Getting started
+## Get started
 
 To begin, connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences.
 

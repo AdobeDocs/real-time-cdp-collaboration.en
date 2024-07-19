@@ -15,15 +15,17 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers an
 
 ## Advertiser end-to-end
 
-As an advertiser, start by onboarding your company onto Real-Time CDP Collaboration. Use the setup page to edit your company settings, decide which data to bring in. In the first release, the product only allows you to bring in data from Real-Time CDP. 
+As an advertiser, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to edit your company settings, add your preferred match keys that you will be working with, and decide which data to bring in. In the first release, the product allows you to import audiences from Real-Time CDP only. 
 
-Use the discover tab to find publishers that you want to work with for campaigns. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, you can extend a formal connection invite to connect with the publisher.
+![Discover, share, measure for advertisers.](/help/assets/end-to-end-workflow/discover-share-measure.png)
 
-After the publisher accepts your connection request, it is time to explore the overlapping audiences between you and them. Set up a project for a campaign and run extensive overlap reports to discover the best audiences, depending on the collaboration use case - targeting, suppression, and others. 
+Use the [discover tab to find publishers](/help/guide/connect-publisher-advertiser/discover-publishers.md) that you want to work with for campaigns. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, you can extend a formal connection invite to connect with the publisher.
 
-Once you discovered the ideal audiences, it is time to share these with the publisher and they will activate them and thereby kick off the campaign. 
+After the publisher accepts your connection request, it is time to explore the overlapping audiences between you and them. Set up a project for a campaign and [run extensive overlap reports](/help/guide/collaborate/discover.md) to discover the best audiences, depending on the collaboration use case - targeting, suppression, and others. 
 
-The final step in the collaboration loop is measurement. You will want to know how your campaigns did, so the final step is to upload extensive measurement data like ad logs and then run the reports provided in the program to understand how your audiences performed. 
+Once you discovered the ideal audiences, it is time to [share these with the publisher](/help/guide/collaborate/share.md) and they will activate them and thereby kick off the campaign. 
+
+The final step in the collaboration loop is [measurement](/help/guide/collaborate/measure.md). You will want to know how your campaigns did, so the final step is to upload extensive measurement data like ad logs and then run the reports provided in the program to understand how your audiences performed. 
 
 ## Publisher end-to-end
 
@@ -31,7 +33,7 @@ As a publisher, start by onboarding your company onto Real-Time CDP Collaboratio
 
 Extend a publisher invite to advertisers that you would like to collaborate with on your properties. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, wait for the advertiser to extend a formal connection invite to connect with you.
 
-After you publisher accept their connection request, it is time to explore the overlapping audiences between you and them. The advertiser will set up a project for a campaign and run extensive overlap reports between their audiences and yours, based on the desired use case. 
+After you accept their connection request, it is time to explore the overlapping audiences between you and them. The advertiser will set up a project for a campaign and run extensive overlap reports between their audiences and yours, based on the desired use case. 
 
 Once the advertiser discovered the ideal audiences, they will share these with you and you can activate them and thereby kick off the campaign. 
 
