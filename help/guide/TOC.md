@@ -26,6 +26,11 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Share](./collaborate/share.md)
   * [Activate](./collaborate/activate.md)
   * [Measure](./collaborate/measure.md)
+* Sample use cases {#use-cases}
+  * [Campaign measurement](./use-cases/campaign-measurement.md)
+  * [Prospecting](./use-cases/prospecting.md)
+  * [Retargeting](./use-cases/retargeting.md)
+  * [Suppression](./use-cases/suppression.md)
 * Reference {#reference}
   * [How overlap counts and percentages are calculated](/help/guide/reference/overlap-calculations.md)
   * [Common Questions](./faqs/common-questions.md)

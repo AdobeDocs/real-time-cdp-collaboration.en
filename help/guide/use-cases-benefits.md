@@ -11,7 +11,14 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
-In a cookieless future, a data collaboration tool is exactly what your company needs to continue delivering personalized and impactful customer experiences. Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, reach, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
+Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, reach, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
+
+Some use cases that you can get started with immediately are:
+
+* [Campaign measurement](/help/guide/use-cases/campaign-measurement.md)
+* [Prospecting](/help/guide/use-cases/prospecting.md)
+* [Retargeting](/help/guide/use-cases/retargeting.md)
+* [Suppression](/help/guide/use-cases/suppression.md)
 
 ![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/benefits-use-cases.png)
 
