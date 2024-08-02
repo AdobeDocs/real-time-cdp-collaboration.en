@@ -11,15 +11,21 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
-**Work in progress**
-
-After creating a project within a collaboration space between an advertiser and a publisher, you can discover overlaps between your and your collaborator's audiences
+After creating a project within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. Thereby, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation, depending on the desired use case.
 
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
 The match keys are set when you connect with a publisher. To change the overlaps percentages indicated in preparation for running campaigns, you can remove match keys but you cannot add new match keys. To do that, head to the connection settings between the collaborators (add link here).
 
 ![Edit match keys screen](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
+
+## Prerequisites {#prerequisites}
+
+To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the **[!UICONTROL Collaborate]** workflow, you have already:
+
+* [Imported audiences](/help/guide/setup/onboard-audiences.md) and [identity crosswalks](/help/guide/setup/identity-crosswalk.md)
+* [Connected](/help/guide/connect-publisher-advertiser/establishing-connections.md) with a desired advertiser or publisher
+* [Created a project](/help/guide/collaborate/manage-projects.md) between you and a collaborator
 
 ## Compare audiences {#compare-audiences}
 

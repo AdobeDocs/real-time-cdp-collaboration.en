@@ -9,7 +9,7 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 **Work in progress**
 
-Both publishers and advertisers can set up connections. Whichever party initiates the connection will afterwards be the connection owner. 
+Establishing a connection between two parties of a collaboration (most commonly an advertiser and a publisher) is the prerequisite to companies working together on campaigns. Both publishers and advertisers can set up connections. Whichever party initiates the connection will afterwards be the connection owner. 
 
 ## High-level workflow
 

@@ -15,7 +15,11 @@ Learn all about identity crosswalks in Real-Time CDP Collaboration, including ho
 
 Identity crosswalks facilitate the secure and privacy-compliant linking of customer identities across multiple datasets and platforms. By utilizing hashed identifiers, Real-Time CDP Collaboration ensures that users can synchronize and reconcile identities without exposing personal identifiable information (PII). This enables a unified view of the customer for better collaboration and targeted marketing efforts.
 
-To bring in identity crosswalks, see the s
+>[!NOTE]
+>
+>In the alpha release of Real-Time CDP Collaboration, you can import identity crosswalks from your datasets in Real-Time CDP. Further options will be available in subsequent releases.
+
+To bring in identity crosswalks, see the section below:
 
 ## Import identity crosswalks into Real-Time CDP Collaboration
 
@@ -35,13 +39,19 @@ Content to follow
 
 ### Provide Details
 
-
+Content to follow
 
 ### Select Join Key {#select-join-key}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="Join key"
->abstract="Insert information about the join key"
+>abstract="A join key is a unique identifier used to match and link records across different datasets. It ensures that data from various sources can be accurately associated with the same individual or entity. Any of the column headers from the selected crosswalk can serve as join key."
+
+A join key is a unique identifier used to match and link records across different datasets. It ensures that data from various sources can be accurately associated with the same individual or entity. By selecting the appropriate join key, you can effectively merge and reconcile data, enhancing the accuracy and completeness of your campaigns.
+
+Any of the column headers from the selected crosswalk can serve as join key.
 
 ### Review
+
+You can edit any of the selections in the previous screens. When satisfied with your selection, select Next to complete the workflow.
