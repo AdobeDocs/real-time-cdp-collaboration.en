@@ -37,6 +37,11 @@ Content to follow
 
 
 
-### Select Join Key
+### Select Join Key {#select-join-key}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_crosswalk_join_key"
+>title="Join key"
+>abstract="Insert information about the join key"
 
 ### Review

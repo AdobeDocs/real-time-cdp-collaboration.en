@@ -30,7 +30,7 @@ Select **[!UICONTROL View]** to inspect or edit individual audiences.
 
 ## Inspect individual audiences
 
-The audience view reveals information about your audience, as described below:
+The audience view reveals further information about your audience, as described below:
 
 | Item | Description|
 |----------|---------|
@@ -62,11 +62,34 @@ In this step, you will choose the source of your audience data. The available so
 * **Amazon S3** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
 * **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
 
+When selecting **Adobe Experience Platform** as data connection, you must select the sandbox which include the audiences that you will be importing. 
+
+![Select sandbox for importing audiences](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
+
+Select **[!UICONTROL Next]** after you selected the desired sandbox.
+
 ### Provide details
 
 Next, provide a name and a description for you to recognize this data connection name in the future. 
 
-### Map fields
+Note the terminology difference that the sandbox is considered a dataset in the UI
+
+### Map fields {#map-fields}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_audience_mapping_source_fields"
+>title="Source fields"
+>abstract="Insert content about apply transformation"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_audience_mapping_target_fields"
+>title="Target fields"
+>abstract="Insert content about apply transformation"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
+>title="Apply transformation"
+>abstract="Insert content about apply transformation"
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -76,6 +99,8 @@ Add as many mapping pairs as you need and select **[!UICONTROL Next]** to procee
 
 You can add more fields as necessary to ensure accurate data mapping.
 
+In this step, you can also add any identity crosswalks that you would like to use.
+
 #### Identity crosswalks
 
 ![Identity crosswalks screen showing a list of available identity crosswalks with details.](/help/assets/setup/add-manage-audiences/Step-Identity-Crosswalks.png)
@@ -84,11 +109,16 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 For further reading, see the [glossary](/help/guide/glossary.md).
 
-### Manage use cases
+### Manage use cases {#manage-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_audience_usecases"
+>title="Use cases for identities"
+>abstract="Insert content about use cases"
 
 ![Manage use cases screen.](/help/assets/setup/add-manage-audiences/Step-manage-use-cases.png)
 
-For every identity selected in the mapping step, select the use cases thst you can use the identity for. Available use cases are: 
+For every identity selected in the mapping step, select the use cases that you can use the identity for. Available use cases are: 
 
 * Discover
 * Share
@@ -96,12 +126,6 @@ For every identity selected in the mapping step, select the use cases thst you c
 * Measure
 
 After selecting the desired use cases for each identity, proceed to the next step. 
-
-### Select audience
-
-![Select audience screen showing a list of available audiences with checkboxes to select them.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
-
-After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences.
 
 ### Schedule
 
@@ -112,11 +136,17 @@ Schedule when to start and end populating the audiences. The audience will be up
 * **Start date**: Set the start date for populating the audience.
 * **End date**: Set the end date for populating the audience.
 
+### Select audience
+
+![Select audience screen showing a list of available audiences with checkboxes to select them.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
+
+After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences.
+
 ### Review
 
 Review all the configurations and settings before finalizing the audience addition. Ensure all details are correct and complete the process.
 
 ## Next steps
 
-After onboarding audiences, use the Connect section to discover publishers to connect with and start collaborating on projects.
+After onboarding audiences, use the [Connect](/help/guide/connect-publisher-advertiser/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.
 
