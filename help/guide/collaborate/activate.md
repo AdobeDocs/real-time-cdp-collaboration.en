@@ -7,6 +7,10 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Activate audiences
 
-**Work in progress**
+>[!AVAILABILITY]
+>
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
 As a publisher, discover how to activate audiences across multiple channels using Adobe Real-Time CDP Collaboration.
+
+The functionality to activate audiences for campaigns is available to publisher organizations only. Advertiser organizations can share audiences with publishers, who will activate these audiences in campaigns. Read more about the [end-to-end workflow](/help/guide/end-to-end-workflow.md) for advertisers and publishers.
