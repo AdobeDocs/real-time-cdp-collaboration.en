@@ -11,11 +11,17 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
+Audiences are specific groups of users or customers segmented based on various attributes, enabling advertisers and publishers to collaborate on targeted marketing and personalized experiences for more effective advertising campaigns.
+
 Use this page as your go-to for understanding all the relevant metrics that you can view related to your audiences, as well as the workflow steps to import an audience into Adobe Real-Time CDP Collaboration.
+
+>[!TIP]
+>
+>Use the information in this screen to get all the information you need about your audiences, and the [discover and overlaps screens](/help/guide/collaborate/discover.md) to get insights regarding which of your audiences would work best for different campaign types, when intersected with publisher inventory.
 
 ## View audiences dashboard
 
-The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. You can view relevant information about each audience:
+The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. You can view the following relevant information about each audience:
 
 | Item | Description|
 |----------|---------|
@@ -47,7 +53,7 @@ The audience view reveals further information about your audience, as described 
 
 ## Import audiences into Real-Time CDP Collaboration
 
-Before you can share audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the following sections.
+Before you can share audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
 
 From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and select **Audience**
 
@@ -93,11 +99,17 @@ Note the terminology difference that the sandbox is considered a dataset in the 
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
-In the mapping step, you can select how any identity fields for the profiles brought in from the data connection should map to the match keys that you selected in your organization. 
+In the map fields step, you can select how any identity fields for the profiles brought in from the data connection should map to the match keys that you selected in your organization. 
+
+>[!BEGINSHADEBOX]
+
+**[!UICONTROL Source fields]** indicate how the identities are referred to in the source where you are importing data from.
+
+**[!UICONTROL Target fields]** indicate how the identities are referred to in Real-Time CDP Collaboration. The values that you can select here correspond to the match keys that you set up in the company onboarding workflow. 
+
+>[!ENDSHADEBOX]
 
 Add as many mapping pairs as you need and select **[!UICONTROL Next]** to proceed to the next step.
-
-You can add more fields as necessary to ensure accurate data mapping.
 
 In this step, you can also add any identity crosswalks that you would like to use.
 

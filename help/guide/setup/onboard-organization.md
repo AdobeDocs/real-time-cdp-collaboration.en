@@ -11,11 +11,11 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
-Learn how to onboard your organization onto Real-Time CDP Collaboration and manage various aspects of your organization. This page outlines the steps to onboard an organization using Adobe Real-Time CDP Collaboration, including setting your match keys, preferred identities, and more options. 
+Learn how to onboard your organization onto Real-Time CDP Collaboration and manage various aspects of your company. This page outlines the steps to onboard an organization using Adobe Real-Time CDP Collaboration, including setting your match keys, preferred identities, and more options. 
 
 >[!IMPORTANT]
 >
->Any use cases and match keys that you select at the organization level will then trickle down to the project level in the collaboration between advertisers and publishers. At the project level, you are able to remove use cases and match keys, but you are not able to add any additional ones that were not selected at the organization level in this screen. 
+>Any use cases and match keys that you select at the organization level will then trickle down to the project level in the collaboration between advertisers and publishers. At the project level, you are then able to remove any use cases and match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.
 
 ![Setup page](/help/assets/setup/manage-organization/my-organization.png)
 
@@ -33,7 +33,9 @@ When onboarding your company, you can select the use cases that you will be able
 
 ## Set up match keys
 
-Select the match keys that you want the audiences to be keyed off of. It is important in this step to plan for the future and select the match keys that you anticipate you will be using in publisher-advertiser campaigns. 
+Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
+
+Select any match keys that you want to use when reconciling members of publisher and advertiser audiences. Include any match keys that your company can work with. It is important in this step to plan for the future and select the match keys that you anticipate you will be using in publisher-advertiser campaigns.
 
 Select up to 5 match keys you plan to use; you can remove unwanted match keys but cannot add new ones later for each connection. Set the minimum count of identities for selected match keys. Identities below the minimum count will not appear in the identity breakdown for some use cases. 
 
@@ -48,5 +50,7 @@ The available match keys for the first release of Real-Time CDP Collaboration ar
 * LiveRamp ID
 * Merkury ID
 * Hashed Email
+
+Note that we need to update this with realistic IDs by PM
 
 
