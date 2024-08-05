@@ -29,12 +29,20 @@ The final step in the collaboration loop is [measurement](/help/guide/collaborat
 
 ## Publisher end-to-end
 
-As a publisher, start by onboarding your company onto Real-Time CDP Collaboration. Use the setup page to edit your company settings, and decide which audience data to bring in. In the first release, the product only allows you to bring in data from Real-Time CDP. 
+As a publisher, start by onboarding your company onto Real-Time CDP Collaboration. Use the setup page to edit various company settings. For example, make sure to include the identities that your company works with. 
 
-Extend a publisher invite to advertisers that you would like to collaborate with on your properties. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, wait for the advertiser to extend a formal connection invite to connect with you.
+Decide which audience data to import and which audiences to make discoverable and viewable to the advertisers who looking to connect with you in the **[!UICONTROL Connect]** area of the product. In the first release, the product only allows you to bring in data from Real-Time CDP. 
 
-After you accept their connection request, it is time to explore the overlapping audiences between you and them. The advertiser will set up a project for a campaign and run extensive overlap reports between their audiences and yours, based on the desired use case. 
+As you import audiences into Real-Time CDP Collaboration, make sure to tag and categorize the audiences. Real-Time CDP follows the established IAB taxonomy for categorizing audiences.
 
-Once the advertiser discovered the ideal audiences, they will share these with you and you can activate them and thereby kick off the campaign. 
+Extend a publisher invite to advertisers that you would like to collaborate with on your properties. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, wait for the advertiser to extend a formal connection invite to connect with you. Generally, you should also monitor pending connection requests from advertiser brands who are looking to work with you on campaigns. Review the connection settings proposed by your potential collaborator and agree or amend those before starting the collaboration.
 
-The final step in the collaboration loop is measurement. You will want to know how your campaigns did, so the final step is to upload extensive measurement data like ad logs and then run the reports provided in the program to understand how your audiences performed. 
+After you accept their connection request, it is time to explore the overlapping audiences between you and your collaborator. The advertiser will set up a project for a campaign and run extensive overlap reports between their audiences and yours, based on their desired objectives - prospecting, suppression, and more.  
+
+Once the advertiser discovered the ideal audiences to target for a campaign, they will share these with you and you can activate them and thereby kick off the campaign. 
+
+The final step in the collaboration loop is measurement. You will want to know how your campaigns did, so the final step is to upload extensive measurement data like ad logs and then run the reports provided in the program to understand how the audiences performed.
+
+## Next steps
+
+After understanding the high-level end-to-end workflow based on company role, read about sample use cases supported in the product.
