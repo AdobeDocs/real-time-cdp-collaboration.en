@@ -7,4 +7,8 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Share audiences
 
+>[!AVAILABILITY]
+>
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
+
 **Work in progress**

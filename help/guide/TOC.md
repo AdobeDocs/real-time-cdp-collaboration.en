@@ -8,18 +8,18 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 
 * [Real-Time CDP Collaboration home](./home.md)
 * Overview {#overview}
-  * [Use Cases and Benefits](./use-cases-benefits.md)
+  * [Use cases and benefits](./use-cases-benefits.md)
   * [End to end workflow](./end-to-end-workflow.md)
 * Set Up {#setup}
-  * [Set up overview](./setup/setup-overview.md)
+  * [Overview of setup section](./setup/setup-overview.md)
   * [Onboard and manage your organization](./setup/onboard-organization.md)
   * [Import and manage audiences](./setup/onboard-audiences.md)
   * [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
-* Connect with Publisher/Advertiser {#connect-publisher-advertiser}
+* Connect with publisher or advertiser {#connect-publisher-advertiser}
   * [Discover publishers](./connect-publisher-advertiser/discover-publishers.md)
   * [Discover advertisers](./connect-publisher-advertiser/discover-advertisers.md)
-  * [Establishing Connections](./connect-publisher-advertiser/establishing-connections.md)
+  * [Set up connections](./connect-publisher-advertiser/establishing-connections.md)
 * Collaborate {#collaborate}
   * [Manage projects](./collaborate/manage-projects.md)
   * [Discover](./collaborate/discover.md)
@@ -33,8 +33,8 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Suppression](./use-cases/suppression.md)
 * Reference {#reference}
   * [How overlap counts and percentages are calculated](/help/guide/reference/overlap-calculations.md)
-  * [Common Questions](./faqs/common-questions.md)
-  * [Troubleshooting Tips](./faqs/troubleshooting-tips.md)
-  * [Support and Resources](./faqs/support-and-resources.md)
+  * [Common questions](./faqs/common-questions.md)
+  * [Troubleshooting tips](./faqs/troubleshooting-tips.md)
+  * [Support and resources](./faqs/support-and-resources.md)
   * [Glossary](./glossary.md)
   * [Release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest)

@@ -8,9 +8,13 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Glossary
 
+>[!AVAILABILITY]
+>
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
+
 **Work in progress**
 
-This glossary provides definitions for key terms related to our new product, Adobe Real-Time CDP Collaboration. Understanding these terms will help you better utilize the platform and its features.
+This glossary provides definitions for key terms identified in the Adobe Real-Time CDP Collaboration product and documentation. Understanding these terms will help you better utilize the product and its features.
 
 ## C
 

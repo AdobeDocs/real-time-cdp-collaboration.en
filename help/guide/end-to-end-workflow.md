@@ -11,9 +11,9 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers and publishers to collaborate on campaigns in a privacy-first manner. Read this page to understand the workflow to get the most out of the product, as an advertiser or publisher
+Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers and publishers to collaborate on campaigns in a privacy-first manner. Read this page to understand the workflow to get the most out of the product, as an advertiser or publisher.
 
-## Advertiser end-to-end
+## Advertiser end-to-end workflow
 
 As an advertiser, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to edit your company settings, add your preferred match keys that you will be working with, and decide which data to bring in. In the first release, the product allows you to import audiences from Real-Time CDP only. 
 
@@ -27,7 +27,7 @@ Once you discovered the ideal audiences, it is time to [share these with the pub
 
 The final step in the collaboration loop is [measurement](/help/guide/collaborate/measure.md). You will want to know how your campaigns did, so the final step is to upload extensive measurement data like ad logs and then run the reports provided in the program to understand how your audiences performed. 
 
-## Publisher end-to-end
+## Publisher end-to-end workflow
 
 As a publisher, start by onboarding your company onto Real-Time CDP Collaboration. Use the setup page to edit various company settings. For example, make sure to include the identities that your company works with. 
 
