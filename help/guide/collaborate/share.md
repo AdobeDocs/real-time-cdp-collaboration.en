@@ -42,7 +42,12 @@ The page also provides controls for you to **[!UICONTROL Pause sharing]** and **
 | **[!UICONTROL Target identities]** | The number of identities across all audiences shared in this project for which you selected to target the profiles. |
 | **[!UICONTROL Suppress identities]** | The number of identities across all audiences shared in this project for which you selected to suppress the profiles and thereby not target them in campaigns. |
 
-## Edit audiences
+## Edit audiences {#edit-audiences}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_share_edit_audiences_usecases"
+>title="Target or suppress use case"
+>abstract="<p>Select **Target** if you want the profiles in the audience to be shown ads in the campaign.</p> <p>Select **Suppress** if you want to exclude the profiles in the audience from the campaign messaging.</p>"
 
 Select **[!UICONTROL Edit audiences]** to change with audiences are shared in an audience sharing module, as well as to change several configurations related to how audiences are being shared.
 

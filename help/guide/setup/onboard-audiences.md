@@ -59,6 +59,10 @@ From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and se
 
 ### Select data connection
 
+A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. For the first release of Real-Time CDP Collaboration, the only supported data connection is Real-Time CDP.
+
+Any settings such as identity mapping or scheduling that you configure for your data connection are applied to all audiences imported from the data connection. 
+
 ![Select audience source screen showing options for AEP RTCDP, CSV File, Amazon S3, and Snowflake.](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
 
 In this step, you will choose the source of your audience data. The available sources include:
