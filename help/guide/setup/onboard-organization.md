@@ -31,7 +31,22 @@ When onboarding your company, you can select the use cases that you will be able
 * Audience insights: Add this use case to your organization in order to ...
 * Measurement: Add this use case to your organization in order to ...
 
-## Set up match keys
+## Set up match keys {#set-up-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_onboarding_peopleIDs"
+>title="Supported people IDs"
+>abstract="Insert content about supported people IDs"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_onboarding_deviceIDs"
+>title="Supported device IDs"
+>abstract="Insert content about supported device IDs"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_onboarding_partnerIDs"
+>title="Supported partner IDs"
+>abstract="Insert content about supported partner IDs"
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
 

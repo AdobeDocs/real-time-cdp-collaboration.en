@@ -15,13 +15,13 @@ Learn all about identity crosswalks in Real-Time CDP Collaboration, including ho
 
 Identity crosswalks facilitate the secure and privacy-compliant linking of customer identities across multiple datasets and platforms. By utilizing hashed identifiers, Real-Time CDP Collaboration ensures that users can synchronize and reconcile identities without exposing personal identifiable information (PII). This enables a unified view of the customer for better collaboration and targeted marketing efforts.
 
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [....] insert material here
+In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here
 
 >[!NOTE]
 >
 >In the alpha release of Real-Time CDP Collaboration, you can import identity crosswalks from your datasets in Real-Time CDP. Further options will be available in subsequent releases.
 
-To import identity crosswalks into Real-Time CDP Collaboration, see the section below:
+To import identity crosswalks into Real-Time CDP Collaboration, read the section below:
 
 ## Import identity crosswalks into Real-Time CDP Collaboration
 
@@ -41,7 +41,7 @@ Content to follow
 
 ### Provide Details
 
-Content to follow
+Provide a name and a description for the identity crosswalk that you are importing into the product. 
 
 ### Select Join Key {#select-join-key}
 
@@ -54,6 +54,12 @@ A join key is a unique identifier used to match and link records across differen
 
 Any of the column headers from the selected crosswalk can serve as join key.
 
+Select the desired join key for the crosswalk table and select **[!UICONTROL Next]** to proceed to the next step.
+
 ### Review
 
-You can edit any of the selections in the previous screens. When satisfied with your selection, select Next to complete the workflow. Now, you can view all the identity crosswalks that you have so far added to Real-Time CDP Collaboration.
+Review any of the selections in the previous screens. When satisfied with your selection, select **[!UICONTROL Next]** to complete the workflow. 
+
+## Next steps
+
+After learning how to import identity crosswalks into Real-Time CDP, you can view all the identity crosswalks that you have so far added to Real-Time CDP Collaboration. You can also now use the identity crosswalks that you have imported when importing audiences into Real-Time CDP Collaboration. 
