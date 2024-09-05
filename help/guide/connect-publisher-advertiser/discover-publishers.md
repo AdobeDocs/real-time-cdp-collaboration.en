@@ -9,7 +9,7 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 Find out how to discover and connect with potential publishers for collaboration using Adobe Real-Time CDP Collaboration. This guide provides insights on identifying suitable partners and leveraging their audience data to enhance your marketing efforts.
 
-To discover publishers, go to **[!UICONTROL Connect]** > **[!UICONTROL Discover publishers]** tab
+To discover publishers, go to the **[!UICONTROL Connect]** > **[!UICONTROL Discover publishers]** tab.
 
 ![Discover publishers page](/help/assets/connect/discover-publishers/discover-publishers-overview.png)
 
@@ -19,4 +19,7 @@ Select **[!UICONTROL View publisher]** to learn more about the publisher, includ
 
 ## My connections
 
-Use the My connections view to understand where any action is required on your side and to get a glimpse of all the publishers that you are connected with. 
+Use the **[!UICONTROL My connections]** view to understand where any action is required on your side and to get a 
+glimpse of all the publishers that you are connected with. 
+
+TODO add more information about all the states in the connection activity

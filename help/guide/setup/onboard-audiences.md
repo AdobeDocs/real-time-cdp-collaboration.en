@@ -21,7 +21,11 @@ Use this page as your go-to for understanding all the relevant metrics that you 
 
 ## View audiences dashboard
 
-The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. You can view the following relevant information about each audience:
+The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
+
+![Audiences overview page showing all audiences imported by an advertiser](/help/assets/setup/add-manage-audiences/audiences-overview.png)
+
+You can view the following relevant information about each audience:
 
 | Item | Description|
 |----------|---------|
@@ -56,7 +60,11 @@ Select **[!UICONTROL View]** to inspect or edit individual audiences.
 >title="Metadata visibility"
 >abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization."
 
-The audience view reveals further information about your audience, as described below:
+The audience view reveals further information about your audience.
+
+![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
+
+Metrics that you can view in this screen are described below:
 
 | Item | Description|
 |----------|---------|
@@ -69,7 +77,11 @@ The audience view reveals further information about your audience, as described 
 | **[!UICONTROL Audience overlap]** | Indicates if overlap calculations should be computed between this audience and all collaborators or only a subset of collaborators. |
 | **[!UICONTROL Shared in Projects]** | Indicates the number of projects in which this audience is being used. |
 
-![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
+In this scree, three controls are available to you:
+
+* **[!UICONTROL Archive]**: TODO - get information about what the Archive control does
+* **[!UICONTROL Delete]**: Remove the audience from your inventory
+* **[!UICONTROL Edit]**: Edit audience metadata like its name. or description.
 
 ## Import audiences into Real-Time CDP Collaboration
 
@@ -78,6 +90,10 @@ Before you can share audiences with collaborators and run overlap calculations, 
 From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and select **Audience**.
 
 ### Select data connection
+
+>[!IMPORTANT]
+>
+>After connecting to your first data connection and importing your first audience, you can then select to add multiple audiences from this existing data connection. In this case, the workflow will take you directly to the [select audience](#select-audience) step, since all the prerequisite information from the other steps will be imported from the existing connection.
 
 A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. For the first release of Real-Time CDP Collaboration, the only supported data connection is Real-Time CDP.
 
@@ -89,6 +105,8 @@ Any settings such as identity mapping or scheduling that you configure for your 
 
 In this step, you will choose the source of your audience data. The available sources include:
 
+TODO: settle on available data sources for milestone one
+
 * **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform Real-Time CDP. 
 * **CSV File** (Future release): Upload a CSV file containing your audience data for quick and straightforward data ingestion.
 * **Amazon S3** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
@@ -96,7 +114,7 @@ In this step, you will choose the source of your audience data. The available so
 
 #### Select sandbox
 
-When selecting **Adobe Experience Platform** as data connection, you must select the sandbox which include the audiences that you will be importing. 
+When selecting **Adobe Experience Platform** as data source, you must select the sandbox which includes the audiences that you will be importing. 
 
 ![Select sandbox for importing audiences](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
 
@@ -110,9 +128,12 @@ Next, you must provide consent for data imported from Real-Time CDP to be used f
 
 ### Provide details
 
-Next, provide a name and a description for you to recognize this data connection name in the future. 
+Next, provide a name and a description for you to recognize this data connection in the future. 
 
-Note the terminology difference that the sandbox is considered a dataset in the UI
+
+>[!IMPORTANT]
+>
+>Note a difference in terminology difference where the sandbox is considered a dataset in the UI
 
 ### Map fields {#map-fields}
 
@@ -185,16 +206,16 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 ![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
-Schedule when to start and end populating the audiences. The audience will be updated according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option
+Schedule when to start and end populating the audiences. The audience membership will be refreshed according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option
 
 * **Start date**: Set the start date for populating the audience.
 * **End date**: Set the end date for populating the audience.
 
-### Select audience
+### Select audience {#select-audience}
 
 ![Select audience screen showing a list of available audiences with checkboxes to select them.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
 
-After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences.
+After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences from your selected data source.
 
 ### Review
 
