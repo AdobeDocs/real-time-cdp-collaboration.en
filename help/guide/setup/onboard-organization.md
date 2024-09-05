@@ -34,6 +34,11 @@ When onboarding your company, you can select the use cases that you will be able
 ## Set up match keys {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_onboarding_matchkeys"
+>title="Match keys"
+>abstract="Insert content about match keys"
+
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="Supported people IDs"
 >abstract="Insert content about supported people IDs"
