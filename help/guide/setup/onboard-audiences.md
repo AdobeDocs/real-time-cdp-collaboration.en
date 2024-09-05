@@ -34,7 +34,27 @@ The default view in the **[!UICONTROL My audiences]** page displays all audience
 
 Select **[!UICONTROL View]** to inspect or edit individual audiences. 
 
-## Inspect individual audiences
+## View individual audiences {#view-individual-audiences}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_identities"
+>title="Identities"
+>abstract="Insert content about the identities that make up this audience"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_categories"
+>title="Categories"
+>abstract="The audience is tagged with several category tags"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_connection_access"
+>title="Connection access"
+>abstract="Insert content about the connection access for this audience"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_metadata_visibility"
+>title="Metadata visibility"
+>abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization."
 
 The audience view reveals further information about your audience, as described below:
 
