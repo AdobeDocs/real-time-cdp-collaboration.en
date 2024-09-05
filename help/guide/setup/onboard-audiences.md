@@ -11,7 +11,7 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
-Audiences are specific groups of users or customers segmented based on various attributes, enabling advertisers and publishers to collaborate on targeted marketing and personalized experiences for more effective advertising campaigns.
+Audiences are specific groups of users or customers segmented based on various attributes. These enable advertisers and publishers to collaborate on targeted marketing and personalized experiences for more effective advertising campaigns.
 
 Use this page as your go-to for understanding all the relevant metrics that you can view related to your audiences, as well as the workflow steps to import an audience into Adobe Real-Time CDP Collaboration.
 
@@ -34,7 +34,27 @@ The default view in the **[!UICONTROL My audiences]** page displays all audience
 
 Select **[!UICONTROL View]** to inspect or edit individual audiences. 
 
-## Inspect individual audiences
+## View individual audiences {#view-individual-audiences}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_identities"
+>title="Identities"
+>abstract="Insert content about the identities that make up this audience"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_categories"
+>title="Categories"
+>abstract="The audience is tagged with several category tags"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_connection_access"
+>title="Connection access"
+>abstract="Insert content about the connection access for this audience"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_metadata_visibility"
+>title="Metadata visibility"
+>abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization."
 
 The audience view reveals further information about your audience, as described below:
 
@@ -55,7 +75,7 @@ The audience view reveals further information about your audience, as described 
 
 Before you can share audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
 
-From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and select **Audience**
+From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and select **Audience**.
 
 ### Select data connection
 
@@ -65,6 +85,8 @@ Any settings such as identity mapping or scheduling that you configure for your 
 
 ![Select audience source screen showing options for AEP RTCDP, CSV File, Amazon S3, and Snowflake.](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
 
+#### Select data source 
+
 In this step, you will choose the source of your audience data. The available sources include:
 
 * **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform Real-Time CDP. 
@@ -72,11 +94,19 @@ In this step, you will choose the source of your audience data. The available so
 * **Amazon S3** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
 * **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
 
+#### Select sandbox
+
 When selecting **Adobe Experience Platform** as data connection, you must select the sandbox which include the audiences that you will be importing. 
 
 ![Select sandbox for importing audiences](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
 
 Select **[!UICONTROL Next]** after you selected the desired sandbox.
+
+#### Provide consent to data use
+
+Next, you must provide consent for data imported from Real-Time CDP to be used for data collaboration. Check the required marketing actions as shown below.
+
+![Required marketing actions for data collaboration.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
 ### Provide details
 
@@ -117,13 +147,21 @@ Add as many mapping pairs as you need and select **[!UICONTROL Next]** to procee
 
 In this step, you can also add any identity crosswalks that you would like to use.
 
-#### Identity crosswalks
+#### Add identity crosswalk
 
-![Identity crosswalks screen showing a list of available identity crosswalks with details.](/help/assets/setup/add-manage-audiences/Step-Identity-Crosswalks.png)
+Use identity crosswalks to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. 
 
-An identity crosswalk is a tool used to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. Select **[!UICONTROL Add identity crosswalks]** to see a screen where you can choose from various identity crosswalks. Each entry includes details such as the table name, type, description, and creation date.
+TODO add GIF Identity crosswalks screen showing a list of available identity crosswalks with details.
 
-For further reading, see the [glossary](/help/guide/glossary.md).
+Select **[!UICONTROL Add identity crosswalk]** to see a screen where you can choose from various identity crosswalks that you have previously [imported into Real-Time CDP Collaboration](/help/guide/setup/identity-crosswalk.md#import-crosswalk). Each entry includes details such as the table name, type, description, and creation date.
+
+After selecting the desired crosswalk, use a source field join key to map to the crosswalk table join key. 
+
+>[!NOTE]
+>
+>After selecting an identity crosswalk, the **[!UICONTROL Add identity crosswalk]** control is greyed out. 
+
+For further reading about identity crosswalks, refer to the [glossary](/help/guide/glossary.md).
 
 ### Manage use cases {#manage-use-cases}
 

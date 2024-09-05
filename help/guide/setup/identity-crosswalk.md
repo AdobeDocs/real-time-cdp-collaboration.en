@@ -15,17 +15,19 @@ Learn all about identity crosswalks in Real-Time CDP Collaboration, including ho
 
 Identity crosswalks facilitate the secure and privacy-compliant linking of customer identities across multiple datasets and platforms. By utilizing hashed identifiers, Real-Time CDP Collaboration ensures that users can synchronize and reconcile identities without exposing personal identifiable information (PII). This enables a unified view of the customer for better collaboration and targeted marketing efforts.
 
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here
+In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
+
+As a first step, you must import identity crosswalks into Real-Time CDP Collaboration. To import identity crosswalks into Real-Time CDP Collaboration, read the section below:
 
 >[!NOTE]
 >
 >In the alpha release of Real-Time CDP Collaboration, you can import identity crosswalks from your datasets in Real-Time CDP. Further options will be available in subsequent releases.
 
-To import identity crosswalks into Real-Time CDP Collaboration, read the section below:
-
-## Import identity crosswalks into Real-Time CDP Collaboration
+## Import identity crosswalks into Real-Time CDP Collaboration {#import-crosswalk}
 
 Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** tab, select the Plus **+** symbol, and select **[!UICONTROL Identity crosswalk]**
+
+TODO add GIF Recording of how to get to the screen to add identity crosswalks
 
 ### Select Crosswalk Source
 
@@ -35,9 +37,11 @@ Select a source where you will be importing the identity crosswalk from. In the 
 >
 >The crosswalks that you are importing from Experience Platform are referred to as *datasets* in Platform.
 
+After selecting Experience Platform as the source of your crosswalks, select the [Experience Platform sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) from which you are importing the identity crosswalk.
+
 ### Select Crosswalk
 
-Content to follow
+After selecting Experience Platform as the source of your crosswalks, 
 
 ### Provide Details
 

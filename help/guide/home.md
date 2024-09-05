@@ -37,7 +37,7 @@ Embedded controls ensure governance and privacy requirements are met, guiding re
 
 ### Agnostic and interoperable
 
-Bring in audiences various sources such as from Real-Time CDP, data warehouse (available in an upcoming release), and other partners, efficiently connecting your data collaboration program to other Adobe Experience Platform tools.
+Bring in audiences from various sources such as from Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration program to other Adobe Experience Platform tools.
 
 ### Built-in reputation
 
@@ -45,7 +45,9 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Get started
 
-To begin, connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences.
+To begin, set up your organization, then connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences. 
+
+View the [advertiser and publisher end-to-end workflow](/help/guide/end-to-end-workflow.md) to get started.
 
 ## Resources
 
