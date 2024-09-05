@@ -131,7 +131,7 @@ In this step, you can also add any identity crosswalks that you would like to us
 
 Use identity crosswalks to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. 
 
-![Identity crosswalks screen showing a list of available identity crosswalks with details.](/help/assets/setup/add-manage-audiences/add-identity-crosswalk.gif)
+TODO add GIF Identity crosswalks screen showing a list of available identity crosswalks with details.
 
 Select **[!UICONTROL Add identity crosswalk]** to see a screen where you can choose from various identity crosswalks that you have previously [imported into Real-Time CDP Collaboration](/help/guide/setup/identity-crosswalk.md#import-crosswalk). Each entry includes details such as the table name, type, description, and creation date.
 
