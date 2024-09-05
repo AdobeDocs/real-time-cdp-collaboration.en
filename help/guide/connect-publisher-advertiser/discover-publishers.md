@@ -16,3 +16,7 @@ To discover publishers, go to **[!UICONTROL Connect]** > **[!UICONTROL Discover 
 Select **[!UICONTROL View publisher]** to learn more about the publisher, including the match keys and use cases (for example measurement, audience sharing) that they support. You can also view and inspect any public audiences that the publisher has decided to share.
 
 ![View publisher profile](/help/assets/connect/discover-publishers/view-publisher-profile.png)
+
+## My connections
+
+Use the My connections view to understand where any action is required on your side and to get a glimpse of all the publishers that you are connected with. 
