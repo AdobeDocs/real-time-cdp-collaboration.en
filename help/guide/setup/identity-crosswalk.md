@@ -27,7 +27,7 @@ As a first step, you must import identity crosswalks into Real-Time CDP Collabor
 
 Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** tab, select the Plus **+** symbol, and select **[!UICONTROL Identity crosswalk]**
 
-TODO add GIF Recording of how to get to the screen to add identity crosswalks
+![Recording of how to get to the screen to add identity crosswalks](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
 ### Select Crosswalk Source
 
@@ -38,6 +38,8 @@ Select a source where you will be importing the identity crosswalk from. In the 
 >The crosswalks that you are importing from Experience Platform are referred to as *datasets* in Platform.
 
 After selecting Experience Platform as the source of your crosswalks, select the [Experience Platform sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home) from which you are importing the identity crosswalk.
+
+![Recording of how to select a crosswalk source](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
 ### Select Crosswalk
 
