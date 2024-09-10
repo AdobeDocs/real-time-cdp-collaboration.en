@@ -31,7 +31,7 @@ To set up a connection, select **[!UICONTROL Connect]** when browsing the publis
 
 ![Connect selector](/help/assets/connect/establish-connection/connect-selection.png)
 
-## Connection settings {#connection settings}
+## Connection settings {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
