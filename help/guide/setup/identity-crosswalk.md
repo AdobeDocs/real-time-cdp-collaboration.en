@@ -29,7 +29,7 @@ Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** tab, s
 
 ![Recording of how to get to the screen to add identity crosswalks](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
-### Select Crosswalk Source
+### Select crosswalk source
 
 Select a source where you will be importing the identity crosswalk from. In the first release of Real-Time CDP Collaboration, Experience Platform is the only supported source for importing crosswalks. 
 
@@ -41,15 +41,15 @@ After selecting Experience Platform as the source of your crosswalks, select the
 
 ![Recording of how to select a crosswalk source](/help/assets/setup/identity-crosswalks/select-crosswalk-source.gif)
 
-### Select Crosswalk
+### Select crosswalk
 
 After selecting Experience Platform as the source of your crosswalks, 
 
-### Provide Details
+### Provide details
 
 Provide a name and a description for the identity crosswalk that you are importing into the product. 
 
-### Select Join Key {#select-join-key}
+### Select join key {#select-join-key}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
