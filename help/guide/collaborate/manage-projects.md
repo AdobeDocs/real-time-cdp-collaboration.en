@@ -19,7 +19,7 @@ You can use filters to only view the projects that you have started with certain
 
 ![Filtered view of projects with a single collaborator.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png)
 
-## Create project
+## Create project {#create-project}
 
 To create a project, select the + symbol in the upper right corner. Next, select one or more objectives for your project. Provide a name and description for your project and confirm your selection.
 
@@ -35,5 +35,5 @@ To view extensive information about these areas that form an individual project,
 
 * [Discover](/help/guide/collaborate/discover.md)
 * [Share](/help/guide/collaborate/share.md)
-* Activate (publisher-only)
+* [Activate](/help/guide/collaborate/activate.md) (publisher-only)
 * [Measure](/help/guide/collaborate/measure.md)
