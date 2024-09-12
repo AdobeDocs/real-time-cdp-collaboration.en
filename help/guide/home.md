@@ -19,7 +19,7 @@ With Adobe Real-Time Customer Data Platform (CDP) Collaboration, you can discove
 
 ## Identify audiences through trusted partners
 
-Publishers and advertisers can collaborate in a privacy-safe environment to match audiences, discover potential new customers, and maximize ad return on available inventory. The easy-to-use interface allows you to surface these audiences without relying on technical resources, connecting premium publishers and advertisers for data collaboration opportunities.
+Publishers and advertisers can collaborate in a privacy-safe environment to match audiences, discover potential new customers, and maximize ad return on available inventory. The easy-to-use interface allows you to surface these audiences in a no-code environment, connecting premium publishers and advertisers for data collaboration opportunities.
 
 ## Scale reach and deliver cross-channel campaigns
 
@@ -27,17 +27,17 @@ Publishers can securely access and activate advertiser audiences across multiple
 
 ## Understand aggregate campaign performance
 
-Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement functionality is not available in the alpha release.
+Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement functionality is not available in the alpha release.
 
 ## Additional benefits
 
 ### Privacy focused
 
-Embedded controls ensure governance and privacy requirements are met, guiding responsible use of audience data across partners.
+Embedded controls ensure that governance and privacy requirements are met, guiding the responsible use of audience data across partners.
 
 ### Agnostic and interoperable
 
-Bring in audiences from various sources such as from Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration program to other Adobe Experience Platform tools.
+Bring in audiences from various sources such as Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration application to other Adobe Experience Platform tools.
 
 ### Built-in reputation
 
