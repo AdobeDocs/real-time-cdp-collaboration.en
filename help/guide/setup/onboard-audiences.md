@@ -83,21 +83,21 @@ In this scree, three controls are available to you:
 * **[!UICONTROL Delete]**: Remove the audience from your inventory
 * **[!UICONTROL Edit]**: Edit audience metadata like its name. or description.
 
-## Import audiences into Real-Time CDP Collaboration
+## Import audiences into Real-Time CDP Collaboration {#import-audiences}
 
 Before you can share audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
 
 From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and select **Audience**.
 
-### Select data connection
+### Select data connection {#select-data-connection}
 
 >[!IMPORTANT]
 >
->After connecting to your first data connection and importing your first audience, you can then select to add multiple audiences from this existing data connection. In this case, the workflow will take you directly to the [select audience](#select-audience) step, since all the prerequisite information from the other steps will be imported from the existing connection.
+>After connecting to your first data connection and importing your first audience, you can then select to import multiple audiences from this existing data connection. In this case, the workflow will take you directly to the [select audience](#select-audience) step, since all the prerequisite information from the other steps will be imported from the existing connection.
 
 A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. For the first release of Real-Time CDP Collaboration, the only supported data connection is Real-Time CDP.
 
-Any settings such as identity mapping or scheduling that you configure for your data connection are applied to all audiences imported from the data connection. 
+Any settings such as identity mapping or scheduling that you configure for your data connection are applied to all the audiences imported from this data connection. 
 
 ![Select audience source screen showing options for AEP RTCDP, CSV File, Amazon S3, and Snowflake.](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
 
@@ -202,11 +202,13 @@ For every identity selected in the mapping step, select the use cases that you c
 
 After selecting the desired use cases for each identity, proceed to the next step. 
 
+[TODO] - are we showing any of this for alpha?
+
 ### Schedule
 
 ![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
-Schedule when to start and end populating the audiences. The audience membership will be refreshed according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option
+Schedule when to start and end populating the audiences. The audience membership will be refreshed according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option.
 
 * **Start date**: Set the start date for populating the audience.
 * **End date**: Set the end date for populating the audience.
@@ -223,5 +225,5 @@ Review all the configurations and settings before finalizing the audience additi
 
 ## Next steps
 
-After onboarding audiences, use the [Connect](/help/guide/connect-publisher-advertiser/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.
+After importing audiences, use the [Connect](/help/guide/connect-publisher-advertiser/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.
 
