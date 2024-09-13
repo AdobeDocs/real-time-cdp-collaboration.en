@@ -104,3 +104,6 @@ After initially setting up your organization, you can at any time edit certain a
 
 At this point, you are able to update the organization name, description, logo, and photo.
 
+## Next steps
+
+After setting up your organization, [import audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration.
