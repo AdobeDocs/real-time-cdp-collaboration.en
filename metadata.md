@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-solution: Real-Time Customer Data Platform
+solution: Real-Time Customer Data Platform Collaboration
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2
