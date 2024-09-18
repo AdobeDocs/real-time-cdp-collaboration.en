@@ -9,7 +9,9 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
+>
+>You will at all times be bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative to if you have any questions.
 
 After creating a project within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. Thereby, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation, depending on the desired use case.
 

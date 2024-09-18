@@ -10,17 +10,21 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
-
-**Work in progress**
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
+>
+>You will at all times be bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative to if you have any questions.
 
 This glossary provides definitions for key terms identified in the Adobe Real-Time CDP Collaboration product and documentation. Understanding these terms will help you better utilize the product and its features.
 
 ## C
 
-### Connection Request
+### Connection request
 
 A connection request is a formal request sent from one organization to another to establish a data-sharing connection. Once accepted, it allows the two parties to collaborate and share audience data securely.
+
+### Connection settings
+
+After a connection request is accepted, the initiator of that request sends connection settings for approval to the collaborator. These connection settings govern the way that the collaborators work together on projects and include match keys to be used, billing percentages, and more. 
 
 ### Crosswalk
 
@@ -50,7 +54,7 @@ In the context of identity crosswalks, a join key is a unique identifier used to
 
 ## M
 
-### Match Keys
+### Match keys
 
 Match keys are unique identifiers used to link records across different datasets. They help ensure that data from different sources can be accurately matched and integrated, facilitating better data analysis and audience segmentation.
 
@@ -72,6 +76,6 @@ A project in Adobe Real-Time CDP Collaboration is a workspace where users can co
 
 ## U
 
-### Use Case
+### Use case
 
 A use case defines a specific business scenario or problem that can be addressed using Adobe Real-Time CDP Collaboration. Sample use cases available in Real-Time CDP Collaboration in order to achieve a particular goal, are audience discovery or campaign measurement.
