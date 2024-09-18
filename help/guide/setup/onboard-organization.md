@@ -11,13 +11,16 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
 
-Learn how to onboard your organization onto Real-Time CDP Collaboration and manage various aspects of your company. This page outlines the steps to onboard an organization using Adobe Real-Time CDP Collaboration, including setting your match keys, preferred identities, and more options. 
+Learn how to onboard your organization onto Real-Time CDP Collaboration and manage various aspects of your company. This page outlines the steps to onboard an organization to Adobe Real-Time CDP Collaboration, including setting your match keys, preferred identities, and more options. 
 
 ![Setup page](/help/assets/setup/manage-organization/my-organization.png)
 
 ## Initial organization setup
 
-As a first step to start using Real-Time CDP Collaboration, you must set up your organization and organizational details. The workflow includes the two pages below.
+As a first step to start using Real-Time CDP Collaboration, you must set up your organization and organizational details. The workflow includes the two pages below:
+
+* [Set up details and use cases](#set-up-details-use-cases)
+* [Set up match keys](#set-up-match-keys) 
 
 >[!IMPORTANT]
 >
@@ -28,19 +31,19 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_usecases"
 >title="Supported use cases"
->abstract="Insert content about use cases"
+>abstract="This option is disabled in the initial release of Real-Time CDP Collaboration."
 
 1. Add an **[!UICONTROL organization]** name for your company.
 2. Add a **[!UICONTROL description]** about your company.
 3. Select your **[!UICONTROL company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 4. Select the **[!UICONTROL region]** for your organization. In the alpha release, **[!UICONTROL North America]** is the preset default selection.
 5. When onboarding your company, you can select the **[!UICONTROL use cases]** that you will be able to use for your campaigns. In the alpha release of Real-Time CDP Collaboration, this selection is not available or required.
-6. Upload a **[!UICONTROL logo]**. Currently, svg type images are supported.
+6. Upload a **[!UICONTROL logo]** for your company. Currently, SVG-type images are supported.
 7. Select a **[!UICONTROL background image]** for your organization.
 
 ![The details and use cases step to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
 
-When satisfied with your selection, use **[!UICONTROL Next]** to go to proceed to the next page.
+When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the next page.
 
 <!--
 The available use cases for the first release of Real-Time CDP Collaboration are:
@@ -60,17 +63,17 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="Supported people IDs"
->abstract="Insert content about supported people IDs"
+>abstract="First-party people IDs such as hashed email addresses or phone numbers are directly connected to an individual profile. Currently supported IDs are hashed emails and phone numbers."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="Supported device IDs"
->abstract="Insert content about supported device IDs"
+>abstract="First-party device IDs such as ECID or IP addresses are directly connected to devices, which may be shared between several individuals"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="Supported partner IDs"
->abstract="Insert content about supported partner IDs"
+>abstract="Partner IDs associated with profiles expand the reach to a certain profile. Currently supported partner IDs are ."
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
 
@@ -78,7 +81,7 @@ Select any match keys that you want to use when reconciling members of publisher
 
 ![Match keys selection step.](/help/assets/setup/manage-organization/add-organization-match-keys.png)
 
-Select up to five match key thats you plan to use; you can remove unwanted match keys but cannot add new ones later for each connection. Set the minimum count of identities for selected match keys. Identities below the minimum count will not appear in the identity breakdown for some use cases. 
+Select up to five match key thats you plan to use. Later, when setting up connections, you can remove unwanted match keys but cannot add new ones later. Set the minimum count of identities for selected match keys. Identities below the minimum count will not appear in the identity breakdown for some use cases. 
 
 Available match keys in Real-Time CDP Collaboration can be of three types:
 

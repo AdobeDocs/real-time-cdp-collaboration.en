@@ -13,29 +13,31 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, reach, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
 
-Some use cases that you can get started with immediately are:
-
-* [Campaign measurement](/help/guide/use-cases/campaign-measurement.md)
-* [Prospecting](/help/guide/use-cases/prospecting.md)
-* [Retargeting](/help/guide/use-cases/retargeting.md)
-* [Suppression](/help/guide/use-cases/suppression.md)
+<!--* [Campaign measurement](/help/guide/use-cases/campaign-measurement.md)-->
 
 ![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/benefits-use-cases.png)
 
-## Discover
+## Discover {#discover}
 
 Use dashboards and reports to discover audiences for brand-to-publisher collaboration.
-As an advertiser working with the platform, access and understand audience overlaps, reach, suppression, and possible prospecting opportunities from a wide inventory of publishers.
+As an advertiser working with Real-Time CDP Collaboration, access and understand audience overlaps to unlock retargeting, suppression, and possible prospecting opportunities from a wide inventory of publishers.
 
-## Reach
+## Reach {#reach}
 
-Securely allow publishers to activate audiences from Adobe Real-Time CDP, cloud data warehouses, and other systems to applications.
-Work with the identity partners selected to leverage real identities and intelligence to expand reach (coming in a future release).
+Publishers can securely activate audiences from Adobe Real-Time CDP, cloud data warehouses (future release), and other systems (future release) for campaigns.
+In a future release, work with the identity partners selected to leverage real identities and use identity crosswalks to expand reach.
 
-## Measure
+## Measure {#measure}
 
 Combine and explore known customer engagement from various sources such as web impressions and more.
 View campaign performance in simplified and customizable reports.
-Use cross-channel conversion data and insights from dashboards and reports to improve in-flight campaigns, calculate ROAS (Return On Ad Spend), and initiate future campaign planning.
 
 Note that some of the measurement functionality is not available in the alpha release.
+
+## Sample use cases
+
+Some use cases that you can explore are:
+
+* [Prospecting](/help/guide/use-cases/prospecting.md)
+* [Retargeting](/help/guide/use-cases/retargeting.md)
+* [Suppression](/help/guide/use-cases/suppression.md)

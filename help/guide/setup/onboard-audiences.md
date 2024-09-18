@@ -17,7 +17,7 @@ Use this page as your go-to for understanding all the relevant metrics that you 
 
 >[!TIP]
 >
->Use the information in this screen to get all the information you need about your audiences, and the [discover and overlaps screens](/help/guide/collaborate/discover.md) to get insights regarding which of your audiences would work best for different campaign types, when intersected with publisher inventory.
+>Use the information in this screen to get all the information you need about your audiences, and the [discover and overlaps screens](/help/guide/collaborate/discover.md) to get insights regarding which of your audiences would work best for different campaign types, when compared with publisher inventory.
 
 ## View audiences dashboard
 
@@ -32,9 +32,9 @@ You can view the following relevant information about each audience:
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Projects]** | Indicates the number of projects in which this audience is being used. |
 | **[!UICONTROL Source]** | Indicates the source where this audience was imported from. |
-| **[!UICONTROL Schedule]** | Indicates how often the audience is scheduled to refresh. Available options are ... |
-| **[!UICONTROL Created]** | Indicates the source where this audience was imported from |
-| **[!UICONTROL Last updated]** | Indicates the latest date and time when any aspect of this audience was updated. |
+| **[!UICONTROL Schedule]** | Indicates how often the audience is scheduled to refresh. Available options are [TODO] - what is the refresh schedule supported at alpha release time? |
+| **[!UICONTROL Created]** | Indicates the source where this audience was imported from. |
+| **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
 
 Select **[!UICONTROL View]** to inspect or edit individual audiences. 
 
@@ -43,17 +43,17 @@ Select **[!UICONTROL View]** to inspect or edit individual audiences.
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identities"
->abstract="Insert content about the identities that make up this audience"
+>abstract="Get a breakdown view of the identities that make up this audience."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="Categories"
->abstract="The audience is tagged with several category tags"
+>abstract="The audience is tagged with several category tags. View the documentation for a list of all supported categories."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Connection access"
->abstract="Insert content about the connection access for this audience"
+>abstract="Audiences can be of three types: public, private, and custom. Their availability for use in collaborator campaigns differs based on type."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -72,7 +72,7 @@ Metrics that you can view in this screen are described below:
 | **[!UICONTROL Created]** | Indicates the source where this audience was imported from |
 | **[!UICONTROL Created by]** | Indicates the source where this audience was imported from |
 | **[!UICONTROL Last updated by]** | Indicates the source where this audience was imported from |
-| **[!UICONTROL Status]** | Indicates the status of the audience. For example, the audience in the screenshot above is **[!UICONTROL archived]**. |
+| **[!UICONTROL Status]** | Indicates the status of the audience, which can be **[!UICONTROL active]**, **[!UICONTROL paused]**, or **[!UICONTROL archived]**. For example, the audience in the screenshot above is **[!UICONTROL archived]**. [TODO] - what are all the supported statuses for audiences? |
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Audience overlap]** | Indicates if overlap calculations should be computed between this audience and all collaborators or only a subset of collaborators. |
 | **[!UICONTROL Shared in Projects]** | Indicates the number of projects in which this audience is being used. |
@@ -140,12 +140,12 @@ Next, provide a name and a description for you to recognize this data connection
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Source fields"
->abstract="Insert content about apply transformation"
+>abstract="Source fields are identity namespaces and attributes from your existing implementation of Real-Time CDP. You can map these to target fields defined in Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Target fields"
->abstract="Insert content about apply transformation"
+>abstract="Visit the product documentation to see a list of supported target fields defined in Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -168,6 +168,10 @@ Add as many mapping pairs as you need and select **[!UICONTROL Next]** to procee
 
 In this step, you can also add any identity crosswalks that you would like to use.
 
+<!--
+
+Identity crosswalks will be supported after the alpha release.
+
 #### Add identity crosswalk
 
 Use identity crosswalks to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. 
@@ -184,12 +188,14 @@ After selecting the desired crosswalk, use a source field join key to map to the
 
 For further reading about identity crosswalks, refer to the [glossary](/help/guide/glossary.md).
 
+-->
+
 ### Manage use cases {#manage-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_usecases"
 >title="Use cases for identities"
->abstract="Insert content about use cases"
+>abstract="This control is disabled in the initial release of Real-Time CDP Collaboration"
 
 ![Manage use cases screen.](/help/assets/setup/add-manage-audiences/Step-manage-use-cases.png)
 
@@ -200,9 +206,9 @@ For every identity selected in the mapping step, select the use cases that you c
 * Activate
 * Measure
 
-After selecting the desired use cases for each identity, proceed to the next step. 
+Note that this control is disabled in the initial release of Real-Time CDP Collaboration.
 
-[TODO] - are we showing any of this for alpha?
+<!-- After selecting the desired use cases for each identity, proceed to the next step. -->
 
 ### Schedule
 
