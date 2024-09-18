@@ -9,7 +9,9 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more. 
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
+>
+>You will at all times be bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative to if you have any questions.
 
 The setup section in Real-Time CDP Collaboration is your go-to place to add information about your company as you get started with the product. This screen is also the place to return to for managing various resources, such as audiences, measurement data, and identity crosswalks. 
 
