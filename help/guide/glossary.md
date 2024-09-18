@@ -24,7 +24,7 @@ A connection request is a formal request sent from one organization to another t
 
 ### Connection settings
 
-After a connection request is accepted, the initiator of that request sends connection settings for approval to the collaborator. These connection settings govern the way that the collaborators work together on projects and include match keys to be used, billing percentages, and more. 
+After a connection request is accepted, the initiator of that request sends connection settings for approval to the collaborator. These connection settings govern the way that the collaborators work together on projects and include match keys to be used, billing ownership, and more. 
 
 ### Crosswalk
 
