@@ -97,7 +97,7 @@ The available match keys for the first release of Real-Time CDP Collaboration ar
 * Merkury ID
 * Hashed Email
 
-[TODO] discuss the supported match keys.
+<!--[TODO] discuss the supported match keys. -->
 
 When ready, select **[!UICONTROL Complete]** to finish the organization set up workflow. 
 

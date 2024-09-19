@@ -17,7 +17,10 @@ Learn all about identity crosswalks in Real-Time CDP Collaboration, including ho
 
 Identity crosswalks facilitate the secure and privacy-compliant linking of customer identities across multiple datasets and platforms. By utilizing hashed identifiers, Real-Time CDP Collaboration ensures that users can synchronize and reconcile identities without exposing personal identifiable information (PII). This enables a unified view of the customer for better collaboration and targeted marketing efforts.
 
+<!--
 In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
+-->
+
 
 As a first step, you must import identity crosswalks into Real-Time CDP Collaboration. To import identity crosswalks into Real-Time CDP Collaboration, read the section below:
 

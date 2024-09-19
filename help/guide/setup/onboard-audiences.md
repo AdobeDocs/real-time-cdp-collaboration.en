@@ -34,7 +34,6 @@ You can view the following relevant information about each audience:
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Projects]** | Indicates the number of projects in which this audience is being used. |
 | **[!UICONTROL Source]** | Indicates the source where this audience was imported from. |
-| **[!UICONTROL Schedule]** | Indicates how often the audience is scheduled to refresh. Available options are [TODO] - what is the refresh schedule supported at alpha release time? |
 | **[!UICONTROL Created]** | Indicates the source where this audience was imported from. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
 
@@ -106,8 +105,6 @@ Any settings such as identity mapping or scheduling that you configure for your 
 #### Select data source 
 
 In this step, you will choose the source of your audience data. The available sources include:
-
-TODO: settle on available data sources for milestone one
 
 * **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform Real-Time CDP. 
 * **CSV File** (Future release): Upload a CSV file containing your audience data for quick and straightforward data ingestion.
