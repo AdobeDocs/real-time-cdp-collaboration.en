@@ -31,13 +31,13 @@ The final step in the collaboration loop is [measurement](/help/guide/collaborat
 
 ## Publisher end-to-end workflow {#publisher}
 
-As a publisher, start by onboarding your company onto Real-Time CDP Collaboration. Use the setup page to edit various company settings. For example, make sure to include the identities that your company works with. 
+As a publisher, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to edit various company settings. For example, make sure to include the identities that your company works with. 
 
 Decide which audience data to import and which audiences to make discoverable and viewable to the advertisers who looking to connect with you in the **[!UICONTROL Connect]** area of the product. In the first release, the product only allows you to bring in data from Real-Time CDP. 
 
 As you import audiences into Real-Time CDP Collaboration, make sure to tag and categorize the audiences. Real-Time CDP follows the established IAB taxonomy for categorizing audiences.
 
-Extend a publisher invite to advertisers that you would like to collaborate with on your properties. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, wait for the advertiser to extend a formal connection invite to connect with you. Generally, you should also monitor pending connection requests from advertiser brands who are looking to work with you on campaigns. Review the connection settings proposed by your potential collaborator and agree or amend those before starting the collaboration.
+Decide which advertisers you would like to work with and contact the advertiser to discuss collaboration terms outside of the product. Once agreed on a set of terms, wait for the advertiser to extend a formal connection invite to connect with you. Generally, you should also monitor pending connection requests from advertiser brands who are looking to work with you on campaigns. Review the connection settings proposed by your potential collaborator and agree or amend those before starting the collaboration.
 
 After you accept their connection request, it is time to explore the overlapping audiences between you and your collaborator. The advertiser will set up a project for a campaign and run extensive overlap reports between their audiences and yours, based on their desired objectives - prospecting, suppression, and more.  
 

@@ -27,7 +27,7 @@ The banner at the top of the page shows figures across all audience sharing modu
 
 |Metric | Description |
 |---------|----------|
-| **[!UICONTROL Identity count]** | Indicates the number of profiles across all identities tied to this audience, as per the latest identity count evaluation. These numbers are refreshed [TODO: HOW OFTEN ARE THESE NUMBERS REFRESHED] |
+| **[!UICONTROL Identity count]** | Indicates the number of profiles across all identities tied to this audience, as per the latest identity count evaluation. These numbers are refreshed every 24-hours. |
 | **[!UICONTROL Overlapping identities]** | Indicates the number of overlapping identities between the members of this audience and the total population of profiles across the collaborator's inventory. |
 | **[!UICONTROL Match key breakdown]** | Shows the identity count for each identity used in the audience. For example, a total identity count of 500k users might consist of 400k users keyed off the hashed email identity and 100k users keyed off a mobile ID identity. Note that the same person might be present in the audience twice in this case with their email and mobile ID identities. |
 | **[!UICONTROL Objective]** | **[!UICONTROL Suppress]** or **[!UICONTROL Target]**. Indicates if the members of an audience should be targeted or excluded from campaigns. |
