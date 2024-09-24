@@ -34,27 +34,27 @@ To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the *
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="Compare audiences"
->abstract="Insert information about the compare audiences view"
+>abstract="Discover overlaps between your and your collaborator's audiences by running overlap reports,"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Your identity count"
->abstract="Insert information about the compare audiences view"
+>abstract="The number of profiles with that selected identity that are part of your selected audience"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Collaborator identity count"
->abstract="Insert information about the compare audiences view"
+>abstract="The number of profiles with that selected identity that are part of your collaborator's selected audience"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Overlapping identities count"
->abstract="Insert information about the compare audiences view"
+>abstract="The number of profiles with that selected identity that are present both in your and your collaborator's audience"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Overlapping identities percentage"
->abstract="Insert information about the compare audiences view"
+>abstract="The percentage of profiles overlapping between your and your collaborator's selected audience."
 
 Use the compare audiences card to get rich information about the overlap between your and your collaborator's audiences. Select to compare:
 
@@ -80,7 +80,7 @@ The information displayed relates to:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_recommended_audiences"
 >title="Recommended audiences"
->abstract="Insert information about the compare audiences view"
+>abstract="Based on overlap percentages and other factors, these audiences are recommended for your campaign."
 
 The **[!UICONTROL Recommended audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five recommended audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
 
@@ -93,7 +93,7 @@ For extensive information about the overlapping identities count and percentages
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="Discover overlaps with audience"
->abstract="Insert information about the compare audiences view"
+>abstract="Information related to this audience and its overlaps with the collaborator's universe of identities."
 
 ![Discover overlaps with different audiences view](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 
