@@ -11,9 +11,9 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
 >
->You will at all times be bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative to if you have any questions.
+>You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
 
-Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you have discovered the collaborators that you want to work with, it's time to create a project. The project is the space where you will be running overlap calculations to compare your and your collaborators' audiences, where audiences are then shared between collaborators, activated by publishers, and where finally both parties can view measurement reports about audience performances. 
+Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators'. Audiences are then shared between collaborators, activated by publishers and both parties can then view measurement reports about audience performance.
 
 ![View of all projects, unfiltered.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png)
 
@@ -27,11 +27,11 @@ To create a project, select the + symbol in the upper right corner. Next, select
 
 ![Workflow to create a new project](/help/assets/collaborate/manage-view-projects/create-project.gif)
 
-You can now view your new project and information about it. Next, you can start running overlap calculations between your and your collaborator's audiences.
+You can now view your new project and its details. Next, you can start running overlap calculations between your and your collaborator's audiences.
 
 ## View individual projects
 
-Drill into individual projects to run overlap reports, discover audiences, share these audiences with your collaborator, and view measurement information. 
+Drill into individual projects to run overlap reports, discover and share audiences with your collaborator, and view measurement information.
 
 To view extensive information about these areas that form an individual project, select **[!UICONTROL View]**. The project surface consists of three sections, each offering you a myriad of options and controls. These are detailed in the following documentation pages:
 

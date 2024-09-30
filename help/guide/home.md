@@ -11,7 +11,7 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
 >
->You will at all times be bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative to if you have any questions.
+>You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
 
 ## Overview
 
@@ -25,7 +25,7 @@ Publishers and advertisers can collaborate in a privacy-safe environment to matc
 
 ## Scale reach and deliver cross-channel campaigns
 
-Publishers can securely access and activate advertiser audiences across multiple channels, scaling reach faster using identity partners and look-alike modeling (available in upcoming releases). Advertisers can guide audiences through the funnel and suppress already-converted audiences, ensuring message relevance and efficient spending through a secure activation workflow.
+Publishers can securely access and activate advertiser audiences across multiple channels, scaling their reach faster using identity partners and look-alike modeling (available in upcoming releases). Advertisers can guide audiences through the funnel and suppress already-converted audiences, ensuring message relevance and efficient spending through a secure activation workflow.
 
 ## Understand aggregate campaign performance
 
