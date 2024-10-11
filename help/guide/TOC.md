@@ -14,6 +14,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Overview of setup section](./setup/setup-overview.md)
   * [Onboard and manage your organization](./setup/onboard-organization.md)
   * [Import and manage audiences](./setup/onboard-audiences.md)
+  * [View and edit data connections](./setup/manage-data-connection.md)
   * [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
 * Connect with publisher or advertiser {#connect-publisher-advertiser}

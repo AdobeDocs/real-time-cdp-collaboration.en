@@ -78,11 +78,42 @@ Metrics that you can view in this screen are described below:
 | **[!UICONTROL Audience overlap]** | Indicates if overlap calculations should be computed between this audience and all collaborators or only a subset of collaborators. |
 | **[!UICONTROL Shared in Projects]** | Indicates the number of projects in which this audience is being used. |
 
-In this scree, three controls are available to you:
+You can use two further controls on the page to edit or remove audiences:
 
-* **[!UICONTROL Archive]**: TODO - get information about what the Archive control does
 * **[!UICONTROL Delete]**: Remove the audience from your inventory
-* **[!UICONTROL Edit]**: Edit audience metadata like its name. or description.
+* **[!UICONTROL Edit]**: Edit audience metadata like its name or description.
+
+![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
+
+Further information about the audience is available and partially editable in widgets below: 
+
+![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
+
+* Identities
+* Categories
+* Connection access
+* Metadata visibility
+
+### Identities 
+
+This section indicates the number of profiles present in the audience with any of the identities that you specified when importing the audiences. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
+
+### Categories
+
+For easier organization, tag your audiences.
+
+### Connection access
+
+Select if the audience should be private to you, or usable and discoverable in connections. The three available options are:
+
+* Public audience
+* Private audience
+* Custom audience
+
+### Metadata visibility
+
+
+
 
 ## Import audiences into Real-Time CDP Collaboration {#import-audiences}
 
@@ -132,7 +163,7 @@ Next, provide a name and a description for you to recognize this data connection
 
 >[!IMPORTANT]
 >
->Note a difference in terminology difference where the sandbox is considered a dataset in the UI
+>Note a difference in terminology where the sandbox selected from Real-Time CDP is considered a dataset in the UI in Real-Time CDP Collaboration.
 
 ### Map fields {#map-fields}
 
