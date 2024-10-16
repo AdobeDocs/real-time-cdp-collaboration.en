@@ -1,6 +1,6 @@
 ---
 title: Share audiences
-description: Share audiences securely between your and your collaborators' systems
+description: Learn how to share audiences with your collaborators for advertising campaigns.
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
@@ -13,17 +13,57 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
 
+Learn how to share audiences with your publishers so they can run campaigns. Ensure that you've already run overlap reports in the [Discover tab](/help/guide/collaborate/discover.md) to identify the best audiences for sharing.
+
 ## Share new audiences
 
-This module is work in progress.
+To start sharing audiences, navigate to the **[!UICONTROL Share]** tab in your project workspace. In this tab, you can review and manage shared audiences.
+
+![Default view with no audiences shared.](/help/assets/collaborate/share/share-new-audiences.png)
+
+Select the **Plus symbol (+)** to begin the audience sharing process. A new panel appears, allowing you to select the audiences you want to share with your collaborators. 
+
+![Share new audiences workflow.](/help/assets/collaborate/share/share-audiences-workflow.png)
+
+### Select audiences to share
+
+In the audience selection window, you can search for specific audiences to share by entering the audience name in the search bar. Select **[!UICONTROL Browse audiences]** and use the available sorting options to find the exact audiences you need.
+
+![Browse audiences view with audiences selected.](/help/assets/collaborate/share/browse-audiences-view.png)
+
+### Edit match kays and set targeting options
+
+After selecting the desired audiences to share, you can now select other configuration options for the sharing activity.
+
+![Edit match keys and target or suppress selector highlighted](/help/assets/collaborate/share/match-keys-and-targeting.png)
+
+Select **[!UICONTROL Edit match keys]** to indicate which match keys should be used for the identities in the audience. These options are inherited from the settings that were selected when the connection between collaborators was initially set up. You can remove match keys that were selected at that point if they don't apply to this specific campaign, but you cannot add new match keys at this point. 
+
+![Edit match keys.](/help/assets/collaborate/share/update-match-keys.png)
+
+For each audience, select whether you would like the members of that audience to be targeted or suppressed in the campaign. Suppressed audiences will specifically not be part of the activated audience.
+
+### Set audience refresh frequency and interval
+
+Finally, set the desired frequency and date range for the audience refresh. The currently supported modes for audience refresh are **[!UICONTROL Once]** and **[!UICONTROL Daily]**. 
+
+When selecting **[!UICONTROL Once]**, the audience membership is not refreshed throughout the duration of a campaign. When selecting **[!UICONTROL Daily]**, the audience membership is refreshed once per day throughout the duration of a campaign.
+
+![Frequency options highlighted.](/help/assets/collaborate/share/audience-refresh-frequency.png)
+
+When satisfied with your selections, select **[!UICONTROL Share]** to complete the workflow. 
+
+>[!SUCCESS]
+>
+>You can now see a new audience sharing activity in the **[!UICONTROL Sharing]** tab. If desired, you can go back and edit any of the selections you made. 
 
 ## View currently shared audiences
 
-In the Sharing tab, you can view the audiences that are currently being shared between the collaborators, grouped together in audience sharing modules. 
+In the Sharing tab, you can view the audiences that are currently being shared between the collaborators, grouped together in audience sharing activities. 
 
 ![Overview of the sharing tab.](/help/assets/collaborate/share/share-tab-overview.png)
 
-The banner at the top of the page shows figures across all audience sharing modules. Within each audience sharing module, you can get information about each shared audience. 
+The banner at the top of the page shows figures across all audience sharing modules. Within each audience sharing activity, you can get information about each shared audience. 
 
 |Metric | Description |
 |---------|----------|
