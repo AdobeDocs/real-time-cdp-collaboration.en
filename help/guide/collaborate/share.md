@@ -41,6 +41,8 @@ Select **[!UICONTROL Edit match keys]** to indicate which match keys should be u
 
 ![Edit match keys.](/help/assets/collaborate/share/update-match-keys.png)
 
+For each audience, select whether you would like the members of that audience to be targeted or suppressed in the campaign. Suppressed audiences will specifically not be part of the activated audience.
+
 ### Set audience refresh frequency and interval
 
 Finally, set the desired frequency and date range for the audience refresh. The currently supported modes for audience refresh are **[!UICONTROL Once]** and **[!UICONTROL Daily]**. 
