@@ -76,4 +76,4 @@ Use the dropdown menus in the audience list table to apply filters, helping you 
 
 ## Next steps
 
-Once you've configured your data connections, you can proceed with audience activation or data sharing as needed. For more advanced options, explore the [Audience Configuration](/help/audience-configuration) guide.
+
