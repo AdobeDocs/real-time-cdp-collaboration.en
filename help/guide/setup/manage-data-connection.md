@@ -1,15 +1,15 @@
 ---
-title: Managing data connections
+title: Manage data connections
 description: Learn how to manage data connections, including match keys, scheduling, use cases, and audience filtering in Real-Time CDP Collaboration.
 audience: administrator, data engineer
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html" newtab=true
 ---
 
-# Managing data connections in Real-Time CDP Collaboration
+# Manage data connections
 
 ## Overview
 
-Data connections in Real-Time CDP Collaboration allow you to import audiences from various sources, enabling seamless integration for data activation and collaboration across platforms. In this guide, you'll learn how to manage match keys, schedule data imports, and configure use cases for your connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
+Use data connections in Real-Time CDP Collaboration to import audiences from various sources, enabling seamless integration for data activation and collaboration across platforms. Learn how to manage match keys, schedule data imports, and configure use cases for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
 
 >[!TIP]
 >
@@ -23,9 +23,6 @@ Before managing your data connections here, you should initially set them up dur
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Match keys"
 >abstract="Match keys determine how data from different sources will be matched. Choose the match keys that are most relevant to your use cases and privacy guidelines."
-
->[!CONTEXTUALHELP]
-> Match keys determine how data from different sources will be matched. Choose the match keys that are most relevant to your use cases and privacy guidelines.
 
 Match keys are identifiers used to reconcile members across audiences from different data sources. Available match keys include:
 
@@ -68,9 +65,6 @@ Use cases define how the imported audience data can be leveraged in Real-Time CD
 You can configure different use cases for each match key (e.g., hashed email, hashed phone number). To modify use case settings, click the **Edit** button in the Use Cases section.
 
 ## Filtering audiences {#filtering-audiences}
-
->[!CONTEXTUALHELP]
-> Filtering audiences by source, access level, and category helps you focus on the data that matters most to your specific collaboration needs.
 
 When viewing the list of audiences from your data connection, you can filter them by several criteria:
 
