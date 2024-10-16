@@ -11,7 +11,7 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 Data connections in Real-Time CDP Collaboration allow you to import audiences from various sources, enabling seamless integration for data activation and collaboration across platforms. In this guide, you'll learn how to manage match keys, schedule data imports, and configure use cases for your connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
 
-> [!TIP]
+>[!TIP]
 >
 > Make sure to define your match keys carefully, as they impact how data will be matched and used across collaborations.
 
