@@ -9,13 +9,19 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 ## Overview
 
-Use data connections in Real-Time CDP Collaboration to import audiences from various sources, enabling seamless integration for data activation and collaboration across platforms. Learn how to manage match keys, schedule data imports, and configure use cases for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
-
->[!TIP]
->
-> Make sure to define your match keys carefully, as they impact how data will be matched and used across collaborations.
+Use data connections in Real-Time CDP Collaboration to import audiences from various sources. Learn how to manage match keys, schedule data imports, and configure use cases for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
 
 Before managing your data connections here, you should initially set them up during the [audience onboarding workflow](./onboard-audiences.md). This will ensure the correct data sources are connected for use in Real-Time CDP Collaboration.
+
+## View and edit data connections
+
+To view and edit existing data connections, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, and select **[!UICONTROL Manage data connections]**.
+
+![View of the audiences screen, with Manage data connections highlighted](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
+
+This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more.
+
+
 
 ## Match keys {#match-keys}
 
