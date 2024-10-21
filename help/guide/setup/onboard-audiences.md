@@ -131,6 +131,10 @@ A data connection is the source of data from where you are importing audiences i
 
 Any settings such as identity mapping or scheduling that you configure for your data connection are applied to all the audiences imported from this data connection. 
 
+>[!TIP]
+>
+>You can always view and edit all the data connections that you added in this step. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md).
+
 ![Select audience source screen showing options for AEP RTCDP, CSV File, Amazon S3, and Snowflake.](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
 
 #### Select data source 
