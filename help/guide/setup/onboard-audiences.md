@@ -244,7 +244,7 @@ Note that this control is disabled in the initial release of Real-Time CDP Colla
 
 <!-- After selecting the desired use cases for each identity, proceed to the next step. -->
 
-### Schedule
+### Schedule {#schedule}
 
 ![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 

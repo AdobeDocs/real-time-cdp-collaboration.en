@@ -17,13 +17,13 @@ Before managing your data connections here, you should initially set them up dur
 
 To view and edit existing data connections, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, and select **[!UICONTROL Manage data connections]**.
 
-![View of the audiences screen, with Manage data connections highlighted](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
+![View of the audiences screen, with Manage data connections highlighted.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
 
-This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more.
+This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more. Select **[!UICONTROL View data connection]** to view and edit information about the match keys, scheduling, use cases, and the audiences that are part of this data connection. 
 
+![View of the data connection screen, with View data connections highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
 
-
-## Match keys {#match-keys}
+### Match keys {#match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
@@ -32,34 +32,27 @@ This brings up a view of all your currently set up data connections, with inform
 
 Match keys are identifiers used to reconcile members across audiences from different data sources. Available match keys include:
 
-- **Identity crosswalk** (e.g., lookup_1)
 - **Hashed email**
 - **Hashed phone number**
 - **IP Address v4**
-- **ECID**
 
-You can edit the match keys by selecting the pencil icon next to the match key name. Ensure that the match keys align with the identity data in your source.
+You can edit the match keys by selecting the pencil icon next to the match key name.
 
-## Scheduling {#scheduling}
+### Scheduling {#scheduling}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Scheduling"
->abstract="Scheduling ensures that your data is always up-to-date without manual intervention. Make sure to choose a frequency that fits the pace of your campaign needs."
+>abstract="You can edit the scheduling options that you selected initially for your data connection."
 
-Set the date range and frequency for importing data from your connections. This allows you to control how often new data will be pulled into the platform.
+You can edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
 
-- **Date range**: Specify the start and end date (e.g., 05/15/2024 - 05/15/2025)
-- **Frequency**: Set how often the data import occurs (e.g., Daily, Weekly)
-
-To adjust the scheduling details, click the **Edit** button next to the scheduling section.
-
-## Use cases {#use-cases}
+### Use cases {#use-cases}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_usecases"
 >title="Use cases"
->abstract="Configuring use cases allows you to specify what actions can be taken on the data, from simple sharing to full activation in advertising campaigns. Not available in alpha"
+>abstract="Use cases selection is not part of the alpha release of Real-Time CDP Collaboration"
 
 Use cases define how the imported audience data can be leveraged in Real-Time CDP Collaboration. Available use cases include:
 
@@ -68,18 +61,12 @@ Use cases define how the imported audience data can be leveraged in Real-Time CD
 - **Activate**
 - **Measure**
 
-You can configure different use cases for each match key (e.g., hashed email, hashed phone number). To modify use case settings, click the **Edit** button in the Use Cases section.
+You can configure different use cases for each match key (for example hashed email, hashed phone number). To modify use case settings, select the **[!UICONTROL Edit]** button in the Use Cases section.
 
-## Filtering audiences {#filtering-audiences}
+## Manage audiences {#manage-audiences}
 
-When viewing the list of audiences from your data connection, you can filter them by several criteria:
-
-- **Source**: Filter by the data connection source (e.g., Real-Time CDP, Sandbox1, Sandbox2).
-- **Access level**: Filter by access level (e.g., Custom, Standard).
-- **Category**: Filter by audience category (e.g., Marketing, Product, Service).
-
-Use the dropdown menus in the audience list table to apply filters, helping you narrow down the displayed audiences to the most relevant ones.
+When viewing the list of audiences from your data connection, you can select to view the audiences, edit their categories, or remove them from the data connection.
 
 ## Next steps
 
-
+After managing your data connections, you can [discover overlaps](/help/guide/collaborate/discover.md) between your audiences and the audiences that your collaborator has made discoverable. 
