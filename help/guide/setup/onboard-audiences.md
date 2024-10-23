@@ -167,10 +167,13 @@ Next, you must provide consent for data imported from Real-Time CDP to be used f
 
 Next, provide a name and a description for you to recognize this data connection in the future. 
 
+<!--
 
 >[!IMPORTANT]
 >
 >Note a difference in terminology where the sandbox selected from Real-Time CDP is considered a dataset in the UI in Real-Time CDP Collaboration.
+
+-->
 
 ### Map fields {#map-fields}
 
@@ -197,15 +200,17 @@ In the map fields step, you can select how any identity fields for the profiles 
 
 **[!UICONTROL Source fields]** indicate how the identities are referred to in the source where you are importing data from.
 
-**[!UICONTROL Target fields]** indicate how the identities are referred to in Real-Time CDP Collaboration. The values that you can select here correspond to the match keys that you set up in the company onboarding workflow. 
+**[!UICONTROL Target fields]** indicate how the identities are referred to in Real-Time CDP Collaboration. The values that you can select here correspond to the match keys that you set up in the company onboarding workflow.
+
+Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Real-Time CDP Collaboration will apply the hashing and transform the fields.
 
 >[!ENDSHADEBOX]
 
 Add as many mapping pairs as you need and select **[!UICONTROL Next]** to proceed to the next step.
 
-In this step, you can also add any identity crosswalks that you would like to use.
-
 <!--
+
+In this step, you can also add any identity crosswalks that you would like to use.
 
 Identity crosswalks will be supported after the alpha release.
 
@@ -249,18 +254,19 @@ Note that this control is disabled in the initial release of Real-Time CDP Colla
 
 ### Schedule {#schedule}
 
-![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
-
 Schedule when to start and end populating the audiences. The audience membership will be refreshed according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option.
 
-* **Start date**: Set the start date for populating the audience.
-* **End date**: Set the end date for populating the audience.
+>[!IMPORTANT]
+>
+>After the end date in the date range, all audiences imported from this data connection will stop refreshing. To renew the connection, go to [Manage data connection](/help/guide/setup/manage-data-connection.md), and set a new end date.
+
+![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
 ### Select audience {#select-audience}
 
-![Select audience screen showing a list of available audiences with checkboxes to select them.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
+After selecting the audience source, you will choose specific audiences to include. Use the search and filter options on the page to find the relevant audiences from your selected data source.
 
-After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences from your selected data source.
+![Select audience screen showing a list of available audiences with checkboxes to select them.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
 
 ### Review
 
