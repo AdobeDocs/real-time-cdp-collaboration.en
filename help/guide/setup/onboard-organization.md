@@ -38,10 +38,11 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 1. Add an **[!UICONTROL organization]** name for your company.
 2. Add a **[!UICONTROL description]** about your company.
 3. Select your **[!UICONTROL company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
-4. Select the **[!UICONTROL region]** for your organization. In the alpha release, **[!UICONTROL North America]** is the preset default selection.
-5. When onboarding your company, you can select the **[!UICONTROL use cases]** that you will be able to use for your campaigns. In the alpha release of Real-Time CDP Collaboration, this selection is not available or required.
-6. Upload a **[!UICONTROL logo]** for your company. Currently, SVG-type images are supported.
-7. Select a **[!UICONTROL background image]** for your organization.
+4. Select the **[!UICONTROL Industry]** for your organization. In the alpha release, **[!UICONTROL CTV]** is the preset default selection.
+5. Select the **[!UICONTROL Region]** for your organization. In the alpha release, **[!UICONTROL North America]** is the preset default selection.
+6. When onboarding your company, you can select the **[!UICONTROL use cases]** that you will be able to use for your campaigns. In the alpha release of Real-Time CDP Collaboration, this selection is not available or required.
+7. Upload a **[!UICONTROL logo]** for your company. Currently, SVG-type images are supported.
+8. Select a **[!UICONTROL background image]** for your organization.
 
 ![The details and use cases step to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
 
@@ -93,9 +94,9 @@ Available match keys in Real-Time CDP Collaboration can be of three types:
 
 The available match keys for the first release of Real-Time CDP Collaboration are:
 
-* LiveRamp ID
-* Merkury ID
-* Hashed Email
+* Hashed email
+* Hashed phone
+* IPv4
 
 <!--[TODO] discuss the supported match keys. -->
 
