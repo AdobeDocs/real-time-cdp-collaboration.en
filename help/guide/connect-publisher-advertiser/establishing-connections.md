@@ -1,11 +1,11 @@
 ---
-title: Set up connection
-description: Establish connections with other users and systems using Adobe Real-Time CDP Collaboration
+title: Connect with advertisers or publishers
+description: After discovering potential collaborators, learn how to establish connections and start collaborating on projects.
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
 
-# Set up connection
+# Connect with advertisers or publishers
 
 >[!AVAILABILITY]
 >
@@ -19,19 +19,21 @@ Establishing a connection between two parties of a collaboration (most commonly 
 
 At a high level, to establish a connection between an advertiser and a publisher, the workflow looks like below:
 
-1. The advertiser browses publishers and discovers one that they would like to work with 
-2. Send connection invite 
-3. Publisher accepts the invite 
-4. Advertiser sends connection settings including match keys and others
-5. Publisher accepts connection settings. If desired, the publisher can reject the initial connection settings and request that the advertiser submits revised connection settings.
+1. The advertiser [browses publishers and discovers](/help/guide/connect-publisher-advertiser/discover-publishers.md) one that they would like to work with 
+2. The advertiser sends a connection invite.
+3. The publisher accepts the invite.
+4. The advertiser sends connection settings including match keys and others.
+5. The publisher accepts connection settings. If desired, the publisher can reject the initial connection settings and request that the advertiser submits revised connection settings.
 
-Once the items above are completed, the collaborators can proceed to [create a project](/help/guide/collaborate/manage-projects.md#create-project) to run overlap reports and kick off advertising campaigns. 
+Once the items above are completed, the collaborators can proceed to [create a project](/help/guide/collaborate/manage-projects.md#create-project) to [run overlap reports](/help/guide/collaborate/discover.md) and kick off advertising campaigns.
 
 ## Send invite
 
 To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the discover publishers screen.
 
 ![Connect selector](/help/assets/connect/establish-connection/connect-selection.png)
+
+At this point, the invite is out and you can preview the connection settings, but cannot edit them. Once the collaborator accepts the invite, you can configure the connection settings and send them to the collaborator to review and accept.  
 
 ## Connection settings {#connection-settings}
 
@@ -62,7 +64,7 @@ After the invite is sent and accepted by your collaborator, you can now start se
 +++Use cases
 
 
-Use cases are prefilled with the ones you selected at your organizational level. You can edit the use cases.
+Use cases are prefilled with the ones you selected at your organizational level. You can edit the use cases to be used in this connection. Note that for alpha, the use case selection has no effect on your projects.
 
 ![Use cases](/help/assets/connect/establish-connection/edit-use-cases.png)
 
@@ -84,13 +86,17 @@ Billing ownership determines how the costs for the campaigns will be shared betw
 
 +++
 
+<!--
+
 +++Legal agreement
 
 Verify that a data sharing agreement between the two parties exists. 
 
 +++
 
-After you have made your selection, select **[!UICONTROL Submit to collaborator]** to send the suggested settings to your collaborator.
+-->
+
+After you have made your selection, select **[!UICONTROL Submit]** to send the suggested settings to your collaborator.
 
 If you are receiving proposed connection settings from your collaborator, you can either **[!UICONTROL Accept]** or **[!UICONTROL Reject]** those. If you are rejecting connection settings, reach out to your collaborator outside of the product and discuss how they should revise the connection settings for you to accept them.
 
