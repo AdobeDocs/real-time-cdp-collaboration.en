@@ -20,13 +20,13 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * Connect with publisher or advertiser {#connect-publisher-advertiser}
   * [Discover publishers](./connect-publisher-advertiser/discover-publishers.md)
   * [Discover advertisers](./connect-publisher-advertiser/discover-advertisers.md)
-  * [Set up connections](./connect-publisher-advertiser/establishing-connections.md)
+  * [Connect with advertisers or publishers](./connect-publisher-advertiser/establishing-connections.md)
 * Collaborate {#collaborate}
   * [Manage projects](./collaborate/manage-projects.md)
   * [Discover](./collaborate/discover.md)
   * [Share](./collaborate/share.md)
-  * [Measure](./collaborate/measure.md)
   * [Activate](./collaborate/activate.md)
+  * [Measure](./collaborate/measure.md)
 * Sample use cases {#use-cases}
   * [Campaign measurement](./use-cases/campaign-measurement.md)
   * [Prospecting](./use-cases/prospecting.md)
