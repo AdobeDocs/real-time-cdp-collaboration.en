@@ -33,9 +33,5 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Retargeting](./use-cases/retargeting.md)
   * [Suppression](./use-cases/suppression.md)
 * Reference {#reference}
-  * [How overlap counts and percentages are calculated](/help/guide/reference/overlap-calculations.md)
-  * [Common questions](./faqs/common-questions.md)
-  * [Troubleshooting tips](./faqs/troubleshooting-tips.md)
-  * [Support and resources](./faqs/support-and-resources.md)
+  * [Common questions and troubleshooting tips](./faqs/common-questions.md)
   * [Glossary](./glossary.md)
-  * [Release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest)
