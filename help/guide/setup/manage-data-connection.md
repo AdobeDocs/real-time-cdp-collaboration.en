@@ -36,7 +36,9 @@ Match keys are identifiers used to reconcile members across audiences from diffe
 - **Hashed phone number**
 - **IP Address v4**
 
-You can edit the match keys by selecting the pencil icon next to the match key name.
+You can edit the match keys used in this data connection by selecting the Edit control next to the match key name.
+
+![View of the data connection, with Match keys highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
 
 ### Scheduling {#scheduling}
 
@@ -47,12 +49,18 @@ You can edit the match keys by selecting the pencil icon next to the match key n
 
 You can edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
 
+![View of the data connection, with Scheduling highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
+
 ### Use cases {#use-cases}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_usecases"
 >title="Use cases"
 >abstract="Use cases selection is not part of the alpha release of Real-Time CDP Collaboration"
+
+>[!IMPORTANT]
+>
+>In the alpha release, the use cases are preselected and do not have an effect on campaigns.
 
 Use cases define how the imported audience data can be leveraged in Real-Time CDP Collaboration. Available use cases include:
 
@@ -63,9 +71,13 @@ Use cases define how the imported audience data can be leveraged in Real-Time CD
 
 You can configure different use cases for each match key (for example hashed email, hashed phone number). To modify use case settings, select the **[!UICONTROL Edit]** button in the Use Cases section.
 
+![View of the data connection, with Use cases highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-use-cases.png)
+
 ## Manage audiences {#manage-audiences}
 
 When viewing the list of audiences from your data connection, you can select to view the audiences, edit their categories, or remove them from the data connection.
+
+![View of the data connection, with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png)
 
 ## Next steps
 

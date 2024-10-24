@@ -35,14 +35,14 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 >title="Supported use cases"
 >abstract="This option is disabled in the initial release of Real-Time CDP Collaboration."
 
-1. Add an **[!UICONTROL organization]** name for your company.
-2. Add a **[!UICONTROL description]** about your company.
-3. Select your **[!UICONTROL company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
+1. Add an **[!UICONTROL Organization]** name for your company.
+2. Add a **[!UICONTROL Description]** about your company.
+3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 4. Select the **[!UICONTROL Industry]** for your organization. In the alpha release, **[!UICONTROL CTV]** is the preset default selection.
 5. Select the **[!UICONTROL Region]** for your organization. In the alpha release, **[!UICONTROL North America]** is the preset default selection.
-6. When onboarding your company, you can select the **[!UICONTROL use cases]** that you will be able to use for your campaigns. In the alpha release of Real-Time CDP Collaboration, this selection is not available or required.
-7. Upload a **[!UICONTROL logo]** for your company. Currently, SVG-type images are supported.
-8. Select a **[!UICONTROL background image]** for your organization.
+6. When onboarding your company, you can select the **[!UICONTROL Use cases]** that you will be able to use for your campaigns. In the alpha release of Real-Time CDP Collaboration, this selection is not available or required.
+7. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
+8. Select a **[!UICONTROL Background image]** for your organization.
 
 ![The details and use cases step to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
 
@@ -61,7 +61,7 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Match keys"
->abstract="Insert content about match keys"
+>abstract="Match keys are identifiers used to reconcile members across audiences from different data sources. Include any match keys that your company can work with."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
