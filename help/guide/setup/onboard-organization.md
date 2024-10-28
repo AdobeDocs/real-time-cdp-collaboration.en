@@ -26,7 +26,7 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 
 >[!IMPORTANT]
 >
->Any use cases and match keys that you select at the organization level will then trickle down to the project level in the collaboration between advertisers and publishers. At the project level, you are then able to remove any use cases and match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.
+>Any *use cases* and *match keys* that you select at the organization level will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md) in the collaboration between advertisers and publishers. At the project level, you are then able to remove any use cases and match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.
 
 ### Set up details and use cases {#set-up-details-use-cases}
 
@@ -65,18 +65,18 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="Supported people IDs"
+>title="First-party people IDs"
 >abstract="First-party people IDs such as hashed email addresses or phone numbers are directly connected to an individual profile. Currently supported IDs are hashed emails and phone numbers."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="Supported device IDs"
->abstract="First-party device IDs such as ECID or IP addresses are directly connected to devices, which may be shared between several individuals"
+>title="First-party device IDs"
+>abstract="First-party device IDs such as ECID or IP addresses are directly connected to devices, which may be shared between several individuals. IPv4 is the only first-party device ID currently supported."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="Supported partner IDs"
->abstract="Partner IDs associated with profiles expand the reach to a certain profile. Currently supported partner IDs are ."
+>abstract="Partner IDs associated with profiles expand the reach to a certain profile."
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
 
@@ -106,9 +106,11 @@ When ready, select **[!UICONTROL Complete]** to finish the organization set up w
 
 After initially setting up your organization, you can at any time edit certain aspects and details of the organization. To edit your organization, select the pencil icon in the **[!UICONTROL My organization]** view.
 
-![Edit organization control highlighted](/help/assets/setup/manage-organization/edit-organization.png)
+![Edit organization control highlighted.](/help/assets/setup/manage-organization/edit-organization.png)
 
-At this point, you are able to update the organization name, description, logo, and photo.
+At this point, you are able to update the organization name, description, logo, and organization profile picture.
+
+![Editable options for organizations.](/help/assets/setup/manage-organization/editable-options.png)
 
 ## Next steps
 
