@@ -23,17 +23,21 @@ You can use filters to only view the projects that you have started with certain
 
 ## Create project {#create-project}
 
-To create a project, select the + symbol in the upper right corner. Next, select one or more objectives for your project. Provide a name and description for your project and confirm your selection.
+To create a project, select the Plus **+** symbol in the upper right corner. Or, if this is your first project, navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]**, and select **[!UICONTROL Create a project]**.
 
-![Workflow to create a new project](/help/assets/collaborate/manage-view-projects/create-project.gif)
+![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png)
 
-You can now view your new project and its details. Next, you can start running overlap calculations between your and your collaborator's audiences.
+Next, select the collaborator that you are creating the project with, provide a name and description for your project, select an image header to easily distinguish the project, and confirm your selection.
 
-## View individual projects
+![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png)
+
+You can now view your new project and its details. Next, use the [Discover](/help/guide/collaborate/discover.md) tab to start running overlap calculations between your and your collaborator's audiences.
+
+## View individual projects and next steps
 
 Drill into individual projects to run overlap reports, discover and share audiences with your collaborator, and view measurement information.
 
-To view extensive information about these areas that form an individual project, select **[!UICONTROL View]**. The project surface consists of three sections, each offering you a myriad of options and controls. These are detailed in the following documentation pages:
+To view extensive information about these areas that form an individual project, select **[!UICONTROL View]**. The project surface consists of three sections, each offering you a rich set of options and controls. These are detailed in the following documentation pages:
 
 * [Discover](/help/guide/collaborate/discover.md)
 * [Share](/help/guide/collaborate/share.md)
