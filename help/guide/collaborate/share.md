@@ -91,9 +91,11 @@ The page also provides controls for you to **[!UICONTROL Pause sharing]** and **
 >title="Target or suppress use case"
 >abstract="<p>Select **Target** if you want the profiles in the audience to be shown ads in the campaign.</p> <p>Select **Suppress** if you want to exclude the profiles in the audience from the campaign messaging.</p>"
 
-Select **[!UICONTROL Edit audiences]** to change with audiences are shared in an audience sharing module, as well as to change several configurations related to how audiences are being shared.
+Select **[!UICONTROL Edit audiences]** to change which audiences are shared in an audience sharing module, as well as to change several configurations related to how audiences are being shared.
 
 ![View of the edit audiences modal](/help/assets/collaborate/share/edit-audiences-modal.png)
+
+<!--
 
 Search for audiences that you want to add to the sharing module. 
 
@@ -105,6 +107,6 @@ Select how often you would like the audience membership to be refreshed and the 
 
 TODO: are there any limitations for frequency in the M1 release?
 
-
+-->
 
 
