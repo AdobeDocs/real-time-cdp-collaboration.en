@@ -17,4 +17,8 @@ As a publisher, discover how to activate audiences across multiple channels usin
 
 The functionality to activate audiences for campaigns is available to publisher organizations only. Advertiser organizations can share audiences with publishers, who will activate these audiences in campaigns. Read more about the [end-to-end workflow](/help/guide/end-to-end-workflow.md) for advertisers and publishers.
 
+<!--
+
 In the alpha phase, activation occurs outside of the UI. TODO - check with PMs
+
+-->

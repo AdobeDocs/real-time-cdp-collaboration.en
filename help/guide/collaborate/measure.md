@@ -7,6 +7,12 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 # Measure performance
 
+>[!AVAILABILITY]
+>
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
+>
+>You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+
 **Work in progress**
 
-Understand how to measure and analyze the performance of your marketing campaigns across various channels. This guide will help you track key metrics and use insights to improve your marketing strategies and calculate Return On Ad Spend (ROAS).
+Understand how to measure and analyze the performance of your marketing campaigns across various channels. Learn about the available reports in Real-Time CDP Collaboration. 
