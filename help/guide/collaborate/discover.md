@@ -103,6 +103,6 @@ For extensive information about the overlapping identities count and percentages
 
 Get extensive information about any of your collaborator's audiences and view overlap information comparing these audiences against either your entire population count across all your audiences, or against specific audiences of yours.
 
-# Next steps
+## Next steps
 
 After exploring and discovering the desired audiences, it's time to [share](/help/guide/collaborate/share.md) with the publisher the audiences that should be used in the campaigns.
