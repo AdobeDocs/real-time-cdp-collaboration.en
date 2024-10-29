@@ -185,16 +185,20 @@ Next, provide a name and a description for you to recognize this data connection
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Target fields"
->abstract="Visit the product documentation to see a list of supported target fields defined in Real-Time CDP Collaboration."
+>abstract="The target fields correspond to the match keys that you selected when onboarding your company. In the alpha program, hashed emails, hashed phone numbers, and IPv4 are supported."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Apply transformation"
->abstract="Insert content about apply transformation"
+>abstract="When importing *non-hashed* fields from your source, use this option to have Real-Time CDP Collaboration apply the hashing and transform the plain fields into hashed fields."
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
 In the map fields step, you can select how any identity fields for the profiles brought in from the data connection should map to the match keys that you selected in your organization. 
+
+>[!TIP]
+>
+>You can map multiple source fields to the same target field. For example, if you have email addresses in two separate fields in Experience Platform, you can map both of those to the **[!UICONTROL Hashed email]** target field as two separate rows.
 
 >[!BEGINSHADEBOX]
 
