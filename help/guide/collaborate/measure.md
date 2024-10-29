@@ -13,6 +13,24 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
 
-**Work in progress**
-
 Understand how to measure and analyze the performance of your marketing campaigns across various channels. Learn about the available reports in Real-Time CDP Collaboration. 
+
+## Summary view
+
+
+
+## Daily impressions
+
+Use the daily impressions view to understand the breakdown of how many impressions where shown to each unique user. 
+
+Daily impressions view
+
+## Frequency distribution
+
+Use the frequency distribution view to understand the breakdown of how many impressions were shown to each unique user. 
+
+![Frequency distribution view.](/help/assets/collaborate/measure/frequency-distribution.gif)
+
+## Cumulative reach curve
+
+## Impressions by placement
