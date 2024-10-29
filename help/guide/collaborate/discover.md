@@ -29,6 +29,8 @@ To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the *
 * [Connected](/help/guide/connect-publisher-advertiser/establishing-connections.md) with a desired advertiser or publisher
 * [Created a project](/help/guide/collaborate/manage-projects.md) between you and a collaborator
 
+Once the prerequisites noted above are met, you can start exploring and comparing the overlap between your and your collaborator's audiences.
+
 ## Compare audiences {#compare-audiences}
 
 >[!CONTEXTUALHELP]
@@ -56,7 +58,7 @@ To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the *
 >title="Overlapping identities percentage"
 >abstract="The percentage of profiles overlapping between your and your collaborator's selected audience."
 
-Use the compare audiences card to get rich information about the overlap between your and your collaborator's audiences. Select to compare:
+Use the compare audiences card to get rich information about the overlap between your and your collaborator's audiences. You can select to compare any of the following combinations:
 
 * One of your audiences against one of your collaborator's audiences
 * One of your audiences against all of your collaborator's audiences
@@ -80,7 +82,7 @@ The information displayed relates to:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_recommended_audiences"
 >title="Recommended audiences"
->abstract="Based on overlap percentages and other factors, these publisher audiences are recommended for your campaign. <br> The <b>identity count</b> is the publisher's audience size. Overlapping identities represents the overlap between the recommended publisher audience and all advertiser audiences. The Overlap % represents the overlapping identities number divided by the size of <i>all</i> advertiser audiences."
+>abstract="Based on overlap percentages and other factors, these publisher audiences are recommended for your campaign. <br> The <b>identity count</b> is the publisher's audience size. <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. The <b>Overlap %</b> represents the overlapping identities number divided by the size of <i>all</i> advertiser audiences."
 
 The **[!UICONTROL Recommended audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five recommended audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
 
