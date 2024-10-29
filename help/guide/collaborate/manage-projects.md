@@ -15,6 +15,10 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 
 Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators'. Audiences are then shared between collaborators, activated by publishers and both parties can then view measurement reports about audience performance.
 
+>[!TIP]
+>
+>Projects should generally be associated to a single campaign.
+
 ![View of all projects, unfiltered.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png)
 
 You can use filters to only view the projects that you have started with certain collaborators, as shown below:

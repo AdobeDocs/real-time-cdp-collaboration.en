@@ -82,9 +82,13 @@ The information displayed relates to:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_recommended_audiences"
 >title="Recommended audiences"
->abstract="Based on overlap percentages and other factors, these publisher audiences are recommended for your campaign. <br> The <b>identity count</b> is the publisher's audience size. <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. The <b>Overlap %</b> represents the overlapping identities number divided by the size of <i>all</i> advertiser audiences."
+>abstract="Based on overlap percentages and other factors, these publisher audiences are recommended for your campaign. <br><br> The <b>identity count</b> is the publisher's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> advertiser audiences."
 
 The **[!UICONTROL Recommended audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five recommended audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
+
+* **[!UICONTROL Identity count]** is the publisher's audience size.
+* **[!UICONTROL Overlapping identities]** represents the overlap between the recommended publisher audience and all advertiser audiences.
+* **[!UICONTROL Overlap %]** represents the number of overlapping identities divided by the size of *all* advertiser audiences.
 
 <!--
 
@@ -98,8 +102,8 @@ For extensive information about the overlapping identities count and percentages
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="Discover overlaps with audience"
->abstract="Information related to this audience and its overlaps with the collaborator's universe of identities."
+>title="Discover overlaps with individual audiences"
+>abstract="Get insights around the population of this audience and its overlaps with the collaborator's universe of identities."
 
 ![Discover overlaps with different audiences view](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 
