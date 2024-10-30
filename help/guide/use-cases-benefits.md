@@ -17,7 +17,7 @@ Adobe Real-Time CDP Collaboration provides the essential capabilities to discove
 
 <!--* [Campaign measurement](/help/guide/use-cases/campaign-measurement.md)-->
 
-![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/benefits-use-cases.png)
+![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-reach-measure.png)
 
 ## Discover {#discover}
 
@@ -33,8 +33,6 @@ In a future release, work with the identity partners selected to leverage real i
 
 Combine and explore known customer engagement from various sources such as web impressions and more.
 View campaign performance in simplified and customizable reports.
-
-Note that some of the measurement functionality is not available in the alpha release.
 
 ## Sample use cases
 
