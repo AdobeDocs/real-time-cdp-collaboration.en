@@ -63,6 +63,8 @@ In the **[!UICONTROL Sharing]** tab, you can view the audiences that are current
 
 ![Overview of the sharing tab.](/help/assets/collaborate/share/share-tab-overview.png)
 
+<!--
+
 The banner at the top of the page shows figures across all audience sharing activities. 
 
 ![The hero banner in the sharing tab.](/help/assets/collaborate/share/share-hero-banner.png)
@@ -74,6 +76,8 @@ The banner at the top of the page shows figures across all audience sharing acti
 | **[!UICONTROL Estimated addressable reach]** | Indicates the approximate number of profiles that you can reach across all the audiences that are currently shared in the project. [TODO: ADD INFORMATION ABOUT HOW THIS IS CALCULATED] |
 | **[!UICONTROL Target identities]** | The number of identities across all audiences shared in this project for which you selected to target the profiles. |
 | **[!UICONTROL Suppress identities]** | The number of identities across all audiences shared in this project for which you selected to suppress the profiles and thereby not target them in campaigns. |
+
+-->
 
 Within each audience sharing activity, you can get information about each shared audience. 
 
