@@ -63,8 +63,7 @@ After the invite is sent and accepted by your collaborator, you can now start se
 
 +++Use cases
 
-
-Use cases are prefilled with the ones you selected at your organizational level. You can edit the use cases to be used in this connection. Note that for alpha, the use case selection has no effect on your projects.
+Use cases are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-details-use-cases). You can edit the use cases to be used in this connection. Note that in the alpha release of Real-Time CDP, the use case selection has no effect on your projects.
 
 ![Use cases](/help/assets/connect/establish-connection/edit-use-cases.png)
 
@@ -72,7 +71,7 @@ Use cases are prefilled with the ones you selected at your organizational level.
 
 +++Match keys
 
-Match keys are prefilled with the ones you selected at your organizational level. You can edit the match keys.
+Match keys are prefilled with the ones you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot at this point add any match keys that were not selected when setting up the organization.
 
 ![Match keys](/help/assets/connect/establish-connection/edit-match-keys.png)
 
@@ -96,9 +95,9 @@ Verify that a data sharing agreement between the two parties exists.
 
 -->
 
-After you have made your selection, select **[!UICONTROL Submit]** to send the suggested settings to your collaborator.
+After you have made your selection, select **[!UICONTROL Submit]** to send the suggested settings to your collaborator for review.
 
-If you are receiving proposed connection settings from your collaborator, you can either **[!UICONTROL Accept]** or **[!UICONTROL Reject]** those. If you are rejecting connection settings, reach out to your collaborator outside of the product and discuss how they should revise the connection settings for you to accept them.
+If you are receiving proposed connection settings from your collaborator, you can either **[!UICONTROL Accept]** or **[!UICONTROL Reject]** those settings. If you are rejecting connection settings, reach out to your collaborator outside of the product and discuss how they should revise the connection settings for you to accept them.
 
 ## Next steps
 
