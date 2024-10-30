@@ -80,6 +80,8 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
 
+![Slide showing the available identifiers for the alpha program of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
+
 Select any match keys that you want to use when reconciling members of publisher and advertiser audiences. Include any match keys that your company can work with. Plan for the future and select the match keys that you anticipate you will be using in future publisher-advertiser campaigns. If you do need to select additional match keys for your organization, you can also do that at a later time, in the [edit organization](#edit-organization) workflow.
 
 ![Match keys selection step.](/help/assets/setup/manage-organization/add-organization-match-keys.png)
@@ -112,7 +114,9 @@ At this point, you are able to update the organization name, description, logo, 
 
 ![Editable options for organizations.](/help/assets/setup/manage-organization/editable-options.png)
 
-You can also update the match keys that you selected initially when onboarding your organization. Select **[!UICONTROL Edit]** in the **[!UICONTROL Match kays]** tab and add any additional desired match keys.
+You can also update the match keys that you selected initially when onboarding your organization, as well as the minimum threshold for identities corresponding to match keys to be visible and usable in audience overlaps and other product areas. Select **[!UICONTROL Edit]** in the **[!UICONTROL Match kays]** tab to add any additional desired match keys or update identity thresholds.
+
+![Edit match keys](/help/assets/setup/manage-organization/edit-match-keys.png)
 
 ## Next steps
 

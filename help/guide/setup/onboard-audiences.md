@@ -192,6 +192,18 @@ Next, provide a name and a description for you to recognize this data connection
 >title="Apply transformation"
 >abstract="When importing *non-hashed* fields from your source, use this option to have Real-Time CDP Collaboration apply the hashing and transform the plain fields into hashed fields."
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
+>title="Identity namespaces"
+>abstract="Select an identity namespace from the standard and custom identity namespaces in your Experience Platform organization."
+>additional-url="https://www.adobe.com/go/identity-standard-namespaces-en" text="Standard and identity namespaces in Experience Platform"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
+>title="Profile attributes"
+>abstract="Select attributes from the Union Schema for the Profile class"
+>additional-url="https://www.adobe.com/go/union-schema-ui-en" text="Union schema in Experience Platform"
+
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
 In the map fields step, you can select how any identity fields for the profiles brought in from the data connection should map to the match keys that you selected in your organization. 
