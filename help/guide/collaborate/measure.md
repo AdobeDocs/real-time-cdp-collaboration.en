@@ -24,7 +24,7 @@ Before you can access the measurement reports in Real-Time CDP Collaboration, yo
 
 ## View reports
 
-To view the campaign reports: 
+To view the reports available in the measurement tab: 
 
 1. Navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]**.
 2. For your desired project and select **[!UICONTROL View]**. 
@@ -36,9 +36,9 @@ Select **[!UICONTROL View full report]** to access the various available reports
 
 The top-of-page view in the measurement tab shows a campaign summary with some high-level numbers for you to reference:
 
-**[!UICONTROL Impressions]**: the total number of times that the creative was displayed. 
-**[!UICONTROL Unique reach]**: the number of individual identities who have seen the creative.
-**[!UICONTROL Total average frequency]**: The number of impressions divided by unique identities reached. Indicates how often every identity was displayed the creative. 
+**[!UICONTROL Impressions]**: The total number of times that the creative was displayed. 
+**[!UICONTROL Unique reach]**: The number of individual identities who have seen the creative.
+**[!UICONTROL Total average frequency]**: The number of impressions divided by unique identities reached. This figure indicates how often every identity was displayed the creative. 
 
 ![Campaign summary view](/help/assets/collaborate/measure/campaign-summary.png)
 
@@ -50,7 +50,7 @@ Use the daily impressions view to understand the total number of impressions dis
 
 ### Frequency distribution
 
-Use the frequency distribution view to understand the breakdown of how many impressions were shown to each unique user. This view can help you in future campaigns to decide as of which point you want to suppress audiences. For example, you may want to suppress profiles who have already seen a creative three times. 
+Use the frequency distribution view to understand the breakdown of how many impressions were shown to each unique user. This view can help you in future campaigns to decide as of which point you want to start suppressing audiences. For example, you may want to suppress profiles who have already seen a creative three times. 
 
 ![Frequency distribution view.](/help/assets/collaborate/measure/frequency-distribution.gif)
 
@@ -62,7 +62,7 @@ As the campaign progressed and the number of impressions went up, understand whe
 
 ### Impressions by placement
 
-Understand which medium is driving impressions for your creative. This can help you decide in future campaigns where to invest your ad spend.
+Understand which medium is driving impressions for your creative. This can help you decide where to invest your ad spend in future campaigns.
 
 ![Impressions by placement.](/help/assets/collaborate/measure/impressions-by-placement.png)
 
