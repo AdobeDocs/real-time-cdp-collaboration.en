@@ -32,6 +32,8 @@ To view the reports available in the measurement tab:
 
 Select **[!UICONTROL View full report]** to access the various available reports, detailed further below.
 
+![How to get to the measurement tab in a project.](/help/assets/collaborate/measure/measurement.gif)
+
 ### Summary view
 
 The top-of-page view in the measurement tab shows a campaign summary with some high-level numbers for you to reference:
