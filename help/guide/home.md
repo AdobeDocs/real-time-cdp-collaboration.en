@@ -3,8 +3,8 @@ title: Overview
 description: This is the article overview.
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 ---
-
 # Adobe Real-Time CDP Collaboration
 
 >[!AVAILABILITY]
@@ -58,5 +58,3 @@ Explore the [glossary](/help/guide/glossary.md) for detailed information on term
 ## Contact us
 
 For more information or to schedule a demo, contact your Adobe representative.
-
-

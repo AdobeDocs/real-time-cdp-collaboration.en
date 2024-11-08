@@ -3,8 +3,8 @@ title: Measure performance
 description: Measure the performance of your campaigns across different channels
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 ---
-
 # Measure performance
 
 >[!AVAILABILITY]

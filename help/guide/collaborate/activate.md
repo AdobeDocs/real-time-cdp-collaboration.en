@@ -3,8 +3,8 @@ title: Activate audiences
 description: Activate audiences across multiple channels for real-time targeting
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 ---
-
 # Activate audiences
 
 >[!AVAILABILITY]

@@ -3,8 +3,8 @@ title: Onboard measurement data
 description: Learn how to ad measurement data
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 ---
-
 # Create and manage projects
 
 >[!AVAILABILITY]
@@ -13,15 +13,15 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
 
-Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators'. Audiences are then shared between collaborators, activated by publishers and both parties can then view measurement reports about audience performance.
+Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators' and discover recommended audiences that you can use in campaigns. Audiences are then shared between collaborators, activated by publishers, and both parties can then view measurement reports about audience performance.
 
 >[!TIP]
 >
->Projects should generally be associated to a single campaign.
+>Projects should generally be associated with a single campaign.
 
 ![View of all projects, unfiltered.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png)
 
-You can use filters to only view the projects that you have started with certain collaborators, as shown below:
+You can use filters to view only the projects that you have started with certain collaborators, as shown below:
 
 ![Filtered view of projects with a single collaborator.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png)
 

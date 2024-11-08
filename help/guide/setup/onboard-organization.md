@@ -1,10 +1,10 @@
 ---
 title: Onboard organization
-description: Learn how to onboard your organization onto Real-Time CDP Collaboration 
+description: Learn how to onboard your organization onto Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 ---
-
 # Onboard and manage organization
 
 >[!AVAILABILITY]
@@ -80,11 +80,13 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
 
-Select any match keys that you want to use when reconciling members of publisher and advertiser audiences. Include any match keys that your company can work with. It is important in this step to plan for the future and select the match keys that you anticipate you will be using in future publisher-advertiser campaigns.
+![Slide showing the available identifiers for the alpha program of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
+
+Select any match keys that you want to use when reconciling members of publisher and advertiser audiences. Include any match keys that your company can work with. Plan for the future and select the match keys that you anticipate you will be using in future publisher-advertiser campaigns. If you do need to select additional match keys for your organization, you can also do that at a later time, in the [edit organization](#edit-organization) workflow.
 
 ![Match keys selection step.](/help/assets/setup/manage-organization/add-organization-match-keys.png)
 
-Select up to five match key thats you plan to use. Later, when setting up connections, you can remove unwanted match keys but cannot add new ones later. Set the minimum count of identities for selected match keys. Identities below the minimum count will not appear in the identity breakdown for some use cases. 
+Select up to five match keys that you plan to use. Later, when setting up connections, you can remove unwanted match keys but cannot add new ones. Set the identity count threshold (minimum count) for each selected match key. Match keys with fewer than the minimum count will not appear in the identity breakdowns for some use cases.
 
 Available match keys in Real-Time CDP Collaboration can be of three types:
 
@@ -108,9 +110,13 @@ After initially setting up your organization, you can at any time edit certain a
 
 ![Edit organization control highlighted.](/help/assets/setup/manage-organization/edit-organization.png)
 
-At this point, you are able to update the organization name, description, logo, and organization profile picture.
+At this point, you are able to update the organization name, description, logo, and organization profile picture. 
 
 ![Editable options for organizations.](/help/assets/setup/manage-organization/editable-options.png)
+
+You can also update the match keys that you selected initially when onboarding your organization, as well as the minimum threshold for identities corresponding to match keys to be visible and usable in audience overlaps and other product areas. Select **[!UICONTROL Edit]** in the **[!UICONTROL Match kays]** tab to add any additional desired match keys or update identity thresholds.
+
+![Edit match keys](/help/assets/setup/manage-organization/edit-match-keys.png)
 
 ## Next steps
 

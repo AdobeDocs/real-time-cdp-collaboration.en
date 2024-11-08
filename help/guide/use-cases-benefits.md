@@ -1,10 +1,10 @@
 ---
 title: Add audiences
-description: Learn how to onboard audiences into 
+description: Learn how to onboard audiences into
 audience: admin, publisher, advertiser, decision-maker
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 ---
-
 # Main benefits and use cases of Adobe Real-Time CDP Collaboration
 
 >[!AVAILABILITY]
@@ -17,7 +17,7 @@ Adobe Real-Time CDP Collaboration provides the essential capabilities to discove
 
 <!--* [Campaign measurement](/help/guide/use-cases/campaign-measurement.md)-->
 
-![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/benefits-use-cases.png)
+![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-reach-measure.png)
 
 ## Discover {#discover}
 
@@ -33,8 +33,6 @@ In a future release, work with the identity partners selected to leverage real i
 
 Combine and explore known customer engagement from various sources such as web impressions and more.
 View campaign performance in simplified and customizable reports.
-
-Note that some of the measurement functionality is not available in the alpha release.
 
 ## Sample use cases
 

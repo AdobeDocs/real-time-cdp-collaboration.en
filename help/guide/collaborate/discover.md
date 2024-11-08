@@ -1,10 +1,10 @@
 ---
-title: Discover overlaps
-description: Discover overlaps between your and your collaborators' audiences
+title: Discover overlaps and compare audiences
+description: Discover overlaps between your and your collaborators' audiences. Learn how to discover the best audiences for use in your campaigns.
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 ---
-
 # Discover overlaps and compare audiences
 
 >[!AVAILABILITY]
@@ -13,11 +13,11 @@ badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/
 >
 >You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
 
-After [creating a project](/help/guide/collaborate/manage-projects.md) within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. Thereby, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation, depending on the desired use case.
+After [creating a project](/help/guide/collaborate/manage-projects.md) within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation, depending on the desired use case.
 
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
-The match keys are set when you connect with a publisher. To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect-publisher-advertiser/establishing-connections.md#connection-settings) between the collaborators.
+The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect-publisher-advertiser/establishing-connections.md#connection-settings). To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect-publisher-advertiser/establishing-connections.md#connection-settings) between the collaborators.
 
 ![Edit match keys screen](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
 
