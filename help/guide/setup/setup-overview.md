@@ -1,10 +1,10 @@
 ---
 title: Setup Overview
-description: Understand all available options for setup 
+description: Understand all available options for setup
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 ---
-
 # Overview of the setup section
 
 >[!AVAILABILITY]
@@ -23,5 +23,3 @@ Use the functionality in the setup section to:
 * [Onboard measurement data](/help/guide/setup/onboard-measurement-data.md) for your advertising campaigns 
 
 ![Setup page](/help/assets/setup/setup-page.png)
-
-

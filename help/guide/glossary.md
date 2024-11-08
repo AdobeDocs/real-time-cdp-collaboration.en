@@ -3,9 +3,8 @@ title: Glossary
 description: Understand key terminology for Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 ---
-
-
 # Glossary
 
 >[!AVAILABILITY]

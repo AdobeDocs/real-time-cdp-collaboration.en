@@ -1,11 +1,11 @@
 ---
 title: Identity crosswalks
-description: Learn all about identity crosswalks in Real-Time CDP Collaboration, including how bring identity crosswalks in from different sources, and how to manage identity crosswalks. 
+description: Learn all about identity crosswalks in Real-Time CDP Collaboration, including how bring identity crosswalks in from different sources, and how to manage identity crosswalks.
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 hidefromtoc: yes
+exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 ---
-
 # Identity crosswalks
 
 >[!AVAILABILITY]
@@ -74,4 +74,4 @@ Review any of the selections in the previous screens. When satisfied with your s
 
 ## Next steps
 
-After learning how to import identity crosswalks into Real-Time CDP, you can view all the identity crosswalks that you have so far added to Real-Time CDP Collaboration. You can also now use the identity crosswalks that you have imported when importing audiences into Real-Time CDP Collaboration. 
+After learning how to import identity crosswalks into Real-Time CDP, you can view all the identity crosswalks that you have so far added to Real-Time CDP Collaboration. You can also now use the identity crosswalks that you have imported when importing audiences into Real-Time CDP Collaboration.

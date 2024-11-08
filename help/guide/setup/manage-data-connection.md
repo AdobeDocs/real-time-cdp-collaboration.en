@@ -3,8 +3,8 @@ title: Manage data connections
 description: Learn how to manage data connections, including match keys, scheduling, use cases, and audience filtering in Real-Time CDP Collaboration.
 audience: administrator, data engineer
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html" newtab=true
+exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 ---
-
 # Manage data connections
 
 ## Overview
@@ -81,4 +81,4 @@ When viewing the list of audiences from your data connection, you can select to 
 
 ## Next steps
 
-After managing your data connections, you can [discover overlaps](/help/guide/collaborate/discover.md) between your audiences and the audiences that your collaborator has made discoverable. 
+After managing your data connections, you can [discover overlaps](/help/guide/collaborate/discover.md) between your audiences and the audiences that your collaborator has made discoverable.

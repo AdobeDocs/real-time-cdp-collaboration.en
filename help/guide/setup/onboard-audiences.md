@@ -3,8 +3,8 @@ title: Import and manage audiences
 description: Learn how to import and manage audiences
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 ---
-
 # Import and manage audiences
 
 >[!AVAILABILITY]
@@ -291,4 +291,3 @@ Review all the configurations and settings before finalizing the audience additi
 ## Next steps
 
 After importing audiences, use the [Connect](/help/guide/connect-publisher-advertiser/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.
-

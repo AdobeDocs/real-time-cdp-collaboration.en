@@ -1,10 +1,10 @@
 ---
 title: Add audiences
-description: Learn how to onboard audiences into 
+description: Learn how to onboard audiences into
 audience: admin, publisher, advertiser, decision-maker
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 ---
-
 # Main benefits and use cases of Adobe Real-Time CDP Collaboration
 
 >[!AVAILABILITY]

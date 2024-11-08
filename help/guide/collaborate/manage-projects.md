@@ -3,8 +3,8 @@ title: Onboard measurement data
 description: Learn how to ad measurement data
 audience: admin, publisher, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 ---
-
 # Create and manage projects
 
 >[!AVAILABILITY]

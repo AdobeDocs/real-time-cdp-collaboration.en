@@ -3,8 +3,8 @@ title: Discover publishers
 description: Discover potential publishers to collaborate with using Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
 badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 ---
-
 # Discover publishers
 
 >[!AVAILABILITY]
@@ -41,4 +41,3 @@ Some reasons why a connection is displayed in the **[!UICONTROL Action required]
 In the **[!UICONTROL Existing connections]** view, you can explore existing connections with collaborators and proceed to create projects to start collaborating on campaigns.  
 
 ![Existing connections view in the My connections screen](/help/assets/connect/discover-publishers/existing-connections-view.png)
-
