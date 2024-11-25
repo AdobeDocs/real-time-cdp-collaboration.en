@@ -1,17 +1,15 @@
 ---
-title: Onboard organization
-description: Learn how to onboard your organization onto Real-Time CDP Collaboration
+title: Onboard and manage organization
+description: Learn how to onboard and manage various aspects of your organization in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 ---
 # Onboard and manage organization
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Learn how to onboard your organization onto Real-Time CDP Collaboration and manage various aspects of your company. This page outlines the steps to onboard an organization to Adobe Real-Time CDP Collaboration, including setting your match keys, preferred identities, and more options. 
 
@@ -38,9 +36,9 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 1. Add an **[!UICONTROL Organization]** name for your company.
 2. Add a **[!UICONTROL Description]** about your company.
 3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
-4. Select the **[!UICONTROL Industry]** for your organization. In the alpha release, **[!UICONTROL CTV]** is the preset default selection.
-5. Select the **[!UICONTROL Region]** for your organization. In the alpha release, **[!UICONTROL North America]** is the preset default selection.
-6. When onboarding your company, you can select the **[!UICONTROL Use cases]** that you will be able to use for your campaigns. In the alpha release of Real-Time CDP Collaboration, this selection is not available or required.
+4. Select the **[!UICONTROL Industry]** for your organization. In the beta release, **[!UICONTROL CTV]** is the preset default selection.
+5. Select the **[!UICONTROL Region]** for your organization. In the beta release, **[!UICONTROL North America]** is the preset default selection.
+6. When onboarding your company, you can select the **[!UICONTROL Use cases]** that you will be able to use for your campaigns. In the beta release of Real-Time CDP Collaboration, this selection is not available or required.
 7. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
 8. Select a **[!UICONTROL Background image]** for your organization.
 
@@ -80,7 +78,7 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
 
-![Slide showing the available identifiers for the alpha program of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
+![Slide showing the available identifiers for the beta program of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
 Select any match keys that you want to use when reconciling members of publisher and advertiser audiences. Include any match keys that your company can work with. Plan for the future and select the match keys that you anticipate you will be using in future publisher-advertiser campaigns. If you do need to select additional match keys for your organization, you can also do that at a later time, in the [edit organization](#edit-organization) workflow.
 

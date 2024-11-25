@@ -2,16 +2,14 @@
 title: Discover overlaps and compare audiences
 description: Discover overlaps between your and your collaborators' audiences. Learn how to discover the best audiences for use in your campaigns.
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 ---
 # Discover overlaps and compare audiences
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 After [creating a project](/help/guide/collaborate/manage-projects.md) within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation, depending on the desired use case.
 

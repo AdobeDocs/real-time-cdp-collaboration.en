@@ -1,17 +1,15 @@
 ---
 title: Overview
-description: This is the article overview.
+description: Learn how to use Adobe Real-Time Customer Data Platform (CDP) Collaboration to discover, reach, and measure high-value audiences without relying on third-party cookies.
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 ---
 # Adobe Real-Time CDP Collaboration
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 ## Overview
 
@@ -29,7 +27,7 @@ Publishers can securely access and activate advertiser audiences across multiple
 
 ## Understand aggregate campaign performance
 
-Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement functionality is not available in the alpha release.
+Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement functionality is not available in the beta release.
 
 ## Additional benefits
 

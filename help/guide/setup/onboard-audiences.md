@@ -1,17 +1,15 @@
 ---
 title: Import and manage audiences
-description: Learn how to import and manage audiences
+description: Learn how to import and manage audiences in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 ---
 # Import and manage audiences
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Audiences are specific groups of users or customers segmented based on various attributes. These enable advertisers and publishers to collaborate on targeted marketing and personalized experiences for more effective advertising campaigns.
 
@@ -33,7 +31,7 @@ You can view the following relevant information about each audience:
 |----------|---------|
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the alpha release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Connection access]** | Defines whether this audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
 | **[!UICONTROL Created]** | Indicates when this audience was imported into Real-Time CDP Collaboration. |
@@ -72,7 +70,7 @@ Metrics that you can view in this screen are described below:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the alpha release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
 | **[!UICONTROL Last updated by]** | Indicates the user who last updated this audience. |
@@ -185,7 +183,7 @@ Next, provide a name and a description for you to recognize this data connection
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Target fields"
->abstract="The target fields correspond to the match keys that you selected when onboarding your company. In the alpha program, hashed emails, hashed phone numbers, and IPv4 are supported."
+>abstract="The target fields correspond to the match keys that you selected when onboarding your company. In the beta program, hashed emails, hashed phone numbers, and IPv4 are supported."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -228,7 +226,7 @@ Add as many mapping pairs as you need and select **[!UICONTROL Next]** to procee
 
 In this step, you can also add any identity crosswalks that you would like to use.
 
-Identity crosswalks will be supported after the alpha release.
+Identity crosswalks will be supported after the beta release.
 
 #### Add identity crosswalk
 

@@ -1,17 +1,15 @@
 ---
-title: Onboard measurement data
-description: Learn how to ad measurement data
+title: Create and manage projects
+description: Learn how create and manage projects in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 ---
 # Create and manage projects
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators' and discover recommended audiences that you can use in campaigns. Audiences are then shared between collaborators, activated by publishers, and both parties can then view measurement reports about audience performance.
 

@@ -1,17 +1,15 @@
 ---
 title: Discover publishers
-description: Discover potential publishers to collaborate with using Adobe Real-Time CDP Collaboration
+description: As an advertiser, learn how to discover potential publishers to collaborate with using Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 ---
 # Discover publishers
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Find out how to discover and connect with potential publishers for collaboration using Adobe Real-Time CDP Collaboration. This guide provides insights on identifying suitable partners and leveraging their audience data to enhance your marketing efforts.
 

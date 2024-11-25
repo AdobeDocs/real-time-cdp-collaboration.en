@@ -1,17 +1,15 @@
 ---
 title: Measure performance
-description: Measure the performance of your campaigns across different channels
+description: Measure the performance of your campaigns across different channels. Learn how to use and interpret various reports.
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 ---
 # Measure performance
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Learn about the available reports in Real-Time CDP Collaboration and understand how to measure and analyze the performance of your marketing campaigns across various channels.
 

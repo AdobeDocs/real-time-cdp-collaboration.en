@@ -1,8 +1,8 @@
 ---
 title: Identity crosswalks
-description: Learn all about identity crosswalks in Real-Time CDP Collaboration, including how bring identity crosswalks in from different sources, and how to manage identity crosswalks.
+description: Learn all about identity crosswalks in Real-Time CDP Collaboration, including how bring identity crosswalks in from different sources, and how to manage identity crosswalks
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 hidefromtoc: yes
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 ---
@@ -10,9 +10,7 @@ exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Learn all about identity crosswalks in Real-Time CDP Collaboration, including how to bring identity crosswalks in from different sources, and how to manage identity crosswalks.
 
@@ -27,7 +25,7 @@ As a first step, you must import identity crosswalks into Real-Time CDP Collabor
 
 >[!NOTE]
 >
->In the alpha release of Real-Time CDP Collaboration, you can import identity crosswalks from your datasets in Real-Time CDP. Further options will be available in subsequent releases.
+>In the beta release of Real-Time CDP Collaboration, you can import identity crosswalks from your datasets in Real-Time CDP. Further options will be available in subsequent releases.
 
 ## Import identity crosswalks into Real-Time CDP Collaboration {#import-crosswalk}
 
