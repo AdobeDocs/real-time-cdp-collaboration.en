@@ -1,6 +1,6 @@
 ---
 title: Setup Overview
-description: Understand all available options for setup
+description: Understand all available options and workflows in the setup section of Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7

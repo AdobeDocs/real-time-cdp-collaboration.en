@@ -1,6 +1,6 @@
 ---
-title: Onboard organization
-description: Learn how to onboard your organization onto Real-Time CDP Collaboration
+title: Onboard and manage organization
+description: Learn how to onboard and manage various aspects of your organization in Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7

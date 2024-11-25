@@ -1,6 +1,6 @@
 ---
 title: Activate audiences
-description: Activate audiences across multiple channels for real-time targeting
+description: As a publisher, learn how to activate in campaigns audiences shared with you by your collaborator. 
 audience: admin, publisher, advertiser
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431

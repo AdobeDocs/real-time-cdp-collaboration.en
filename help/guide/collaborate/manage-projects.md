@@ -1,6 +1,6 @@
 ---
-title: Onboard measurement data
-description: Learn how to ad measurement data
+title: Create and manage projects
+description: Learn how create and manage projects in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c

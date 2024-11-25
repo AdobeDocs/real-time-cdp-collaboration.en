@@ -1,6 +1,6 @@
 ---
 title: Import and manage audiences
-description: Learn how to import and manage audiences
+description: Learn how to import and manage audiences in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
