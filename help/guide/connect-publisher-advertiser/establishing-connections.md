@@ -2,16 +2,14 @@
 title: Connect with advertisers or publishers
 description: After discovering potential collaborators, learn how to establish connections and start collaborating on projects.
 audience: admin, publisher, advertiser
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 ---
 # Connect with advertisers or publishers
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Establishing a connection between two parties of a collaboration (most commonly an advertiser and a publisher) is the prerequisite in Real-Time CDP Collaboration to companies working together on campaigns. Publishers and advertisers alike can set up connections. Whichever party initiates the connection will afterwards be the *connection owner*. 
 
@@ -63,7 +61,7 @@ After the invite is sent and accepted by your collaborator, you can now start se
 
 +++Use cases
 
-Use cases are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-details-use-cases). You can edit the use cases to be used in this connection. Note that in the alpha release of Real-Time CDP, the use case selection has no effect on your projects.
+Use cases are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-details-use-cases). You can edit the use cases to be used in this connection. Note that in the beta release of Real-Time CDP, the use case selection has no effect on your projects.
 
 ![Use cases](/help/assets/connect/establish-connection/edit-use-cases.png)
 

@@ -2,16 +2,14 @@
 title: Add audiences
 description: Learn how to onboard audiences into
 audience: admin, publisher, advertiser, decision-maker
-badgealpha: label="Alpha" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 ---
 # Main benefits and use cases of Adobe Real-Time CDP Collaboration
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently an alpha product, available to select customers. Contact your Adobe representative to learn more.
->
->You are at all times bound by the terms and conditions in the non-disclosure agreement(s) you have executed. Contact your Adobe representative if you have any questions.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
 
 Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, reach, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
 
