@@ -13,7 +13,17 @@ exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 
 This glossary provides definitions for key terms identified in the Adobe Real-Time CDP Collaboration product and documentation. Understanding these terms will help you better utilize the product and its features.
 
+## A
+
+### Advertiser
+
+Any entity that will spend marketing budget to reach audiences across publishers or other brand partners to achieve goals of brand awareness, prospecting, re-engagement, and conversions.
+
 ## C
+
+### Cloud storage
+
+Cloud storage is a cloud computing solution that enables storing data and files on the internet through a cloud computing provider and is almost always a part of an organization's data stack. Examples include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
 
 ### Connection request
 
@@ -29,11 +39,19 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 ## D
 
-### Data Sharing Agreement
+### Data clean room
+
+A secure collaboration environment which allows two or more participants to leverage data assets for specific, mutually agreed upon uses, while guaranteeing enforcement of strict data access limitations. This infrastructure layer is often provided by cloud storage providers and/or by data warehouses like Snowflake and Databricks and is best suited for technical users like data engineers and data scientists proficient in skills such as SQL.
+
+### Data collaboration
+
+Data collaboration involves combining and analyzing data within a company or alongside partners for various purposes, such as audience targeting, measurement, and insights. Data collaboration platforms offer secure environments to share data safely while meeting privacy and security concerns.
+
+### Data sharing agreement
 
 A data sharing agreement is a formal contract between two or more parties outlining the terms and conditions for sharing data. It ensures that all parties comply with legal and privacy requirements and establishes guidelines for data usage and protection.
 
-### Device Identifier
+### Device identifier
 
 A device identifier is a unique number associated with a device, such as a smartphone or tablet. It is used to track and identify the device across various platforms and services, enabling personalized user experiences and targeted advertising.
 
@@ -69,7 +87,11 @@ A project in Adobe Real-Time CDP Collaboration is a workspace where users can co
 
 ### Public audience
 
+Within the context of projects, this is an audience that is discoverable by your collaborator. Audiences can be private, custom, or public. Private audiences are not discoverable by any other collaborators. Custom audiences can be discovered by certain collaborators only, and public audiences can be discovered by all collaborators. 
 
+### Publisher
+
+A Publisher is an owner or operator of online content or services where personal data is collected with consent and is available for use by other entities for for digital advertising and audience measurement.
 
 ## U
 
