@@ -9,7 +9,7 @@ exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change Contact your Adobe representative to learn more.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
 Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, reach, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
 
