@@ -42,25 +42,36 @@ The top-of-page view in the measurement tab shows a campaign summary with some h
 
 ![Campaign summary view](/help/assets/collaborate/measure/campaign-summary.png)
 
-### Daily impressions
+### Metrics over time {#metrics-over-time}
 
-Use the daily impressions view to understand the total number of impressions displayed for your creative throughout the period of the campaign.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measure_metricsovertime"
+>title="Metrics over time"
+>abstract="Use the metrics over time view to understand the total number of impressions displayed for your creative throughout the period of the campaign. You can select a maximum of two dimensions to display in the report."
 
-![Daily impressions view.](/help/assets/collaborate/measure/daily-impressions.png)
+Use the metrics over time view to understand the total number of impressions displayed for your creative throughout the period of the campaign. Note that you can select a maximum of two metrics to display and analyze in the report.
 
-### Frequency distribution
+![Metrics over time view.](/help/assets/collaborate/measure/metrics-over-time.png)
+
+### Frequency distribution {#frequency-distribution}
 
 Use the frequency distribution view to understand the breakdown of how many impressions were shown to each unique user. This view can help you in future campaigns to decide as of which point you want to start suppressing audiences. For example, you may want to suppress profiles who have already seen a creative three times. 
 
 ![Frequency distribution view.](/help/assets/collaborate/measure/frequency-distribution.gif)
 
-### Cumulative reach curve
+### Metric by dimension {#metric-by-dimension}
+
+Analyze different metrics like impressions, viewable impressions, unique reach, cost, and more in the context of the placement medium. Analyze which medium (for example mobile streaming, CTV programmatic, or others) are driving the best results for your campaigns. 
+
+![Metric by dimension.](/help/assets/collaborate/measure/metric-by-dimension.png)
+
+### Cumulative reach curve {#cumulative-reach-curve}
 
 As the campaign progressed and the number of impressions went up, understand whether the number of users that you were able to reach has also grown. A common pattern in campaigns is that after a certain point a plateau is reached where the creative is displayed to the same people over and over again. This view can help you adjust the length of future campaigns, depending on the moment that new people were not being reached anymore.
 
 ![Cumulative reach curve.](/help/assets/collaborate/measure/cumulative-reach-curve.png)
 
-### Impressions by placement
+### Impressions by placement {#impressions-by-placement}
 
 Understand which medium is driving impressions for your creative. This can help you decide where to invest your ad spend in future campaigns.
 
