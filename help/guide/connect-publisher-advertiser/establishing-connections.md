@@ -20,10 +20,16 @@ At a high level, to establish a connection between an advertiser and a publisher
 1. The advertiser [browses publishers and discovers](/help/guide/connect-publisher-advertiser/discover-publishers.md) one that they would like to work with 
 2. The advertiser sends a connection invite.
 3. The publisher accepts the invite.
-4. The advertiser sends connection settings including match keys and others.
+4. The advertiser sends connection settings including match keys and others. These connection settings represent the in-product terms of the collaboration.
 5. The publisher accepts connection settings. If desired, the publisher can reject the initial connection settings and request that the advertiser submits revised connection settings.
 
+![High-level diagram of the advertiser-publisher connection process.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png "High-level diagram of the advertiser-publisher connection process"){zoomable="yes"}
+
 Once the items above are completed, the collaborators can proceed to [create a project](/help/guide/collaborate/manage-projects.md#create-project) to [run overlap reports](/help/guide/collaborate/discover.md) and kick off advertising campaigns.
+
+>[!IMPORTANT]
+>
+>Once the connection between two collaborators has been established, the connection settings cannot be revised anymore. 
 
 ## Send invite
 
@@ -31,7 +37,11 @@ To set up a connection, select **[!UICONTROL Connect]** when browsing the publis
 
 ![Connect selector](/help/assets/connect/establish-connection/connect-selection.png)
 
-At this point, the invite is out and you can preview the connection settings, but cannot edit them. Once the collaborator accepts the invite, you can configure the connection settings and send them to the collaborator to review and accept.  
+At this point, the invite is out and you can preview the connection settings, but cannot edit them. You can view the pending invite in the **[!UICONTROL My connections]** tab. The status of the connection is **[!UICONTROL Invite sent]**.
+
+![Pending invite sent to publisher displayed in the My connections view.](/help/assets/connect/establish-connection/pending-invite-sent.png)
+
+Once the collaborator accepts the invite, you can configure the connection settings and send them to the collaborator to review and accept.  
 
 ## Connection settings {#connection-settings}
 
@@ -46,16 +56,18 @@ At this point, the invite is out and you can preview the connection settings, bu
 >abstract="Match keys are prefilled with the ones you selected at your organizational level. You can toggle off any match keys that you do not want to use in this connection."
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_billingownership"
->title="Billing ownership"
->abstract="Billing ownership determines how the costs for the campaigns will be shared between the two collaborating parties. You can edit the billing ownership percentage."
+>id="rtcdp_collaboration_connection_settings_creditsplit"
+>title="Credit split"
+>abstract="Use the credit split section to determine how the costs for the campaigns will be shared between the two collaborating parties. You can edit the credit split percentage."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
 
-After the invite is sent and accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. You can edit and define the fields below: 
+After the invite is sent and accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
+
+To set up and share connection settings with your collaborator, navigate to **[!UICONTROL My connections]**. For any connections with the status **[!UICONTROL Pending]**, you can select **[!UICONTROL Set up connection]** to configure the connection settings. You can edit and define the fields below: 
 
 ![Set up connection view](/help/assets/connect/establish-connection/connection-view.png)
 
@@ -75,11 +87,11 @@ Match keys are prefilled with the ones you [selected at your organizational leve
 
 +++
 
-+++Billing ownership
++++Credit split
 
-Billing ownership determines how the costs for the campaigns will be shared between the two collaborating parties. You can edit the billing ownership percentage.
+Use the credit split section to determine how the costs for the campaigns will be shared between the two collaborating parties. You can edit the credit split percentage.
 
-![Billing ownership](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+![Credit split](/help/assets/connect/establish-connection/edit-billing-ownership.png)
 
 +++
 
