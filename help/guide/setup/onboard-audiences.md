@@ -19,106 +19,21 @@ Use this page as your go-to for understanding all the relevant metrics that you 
 >
 >Use the information in this screen to get all the information you need about your audiences, and the [discover and overlaps screens](/help/guide/collaborate/discover.md) to get insights regarding which of your audiences would work best for different campaign types, when compared with publisher inventory.
 
-## View audiences dashboard
+>[!BEGINSHADEBOX]
 
-The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
+What you'll find on this documentation page:
 
-![Audiences overview page showing all audiences imported by an advertiser](/help/assets/setup/add-manage-audiences/audiences-overview.png)
+* [Import audiences into Real-Time CDP Collaboration](#import-audiences)
+* [View audiences dashboard](#view-audiences-dashboard)
+* [View individual audiences](#view-individual-audiences)
 
-You can view the following relevant information about each audience:
-
-| Item | Description|
-|----------|---------|
-| **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
-| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
-| **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
-| **[!UICONTROL Connection access]** | Defines whether this audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
-| **[!UICONTROL Created]** | Indicates when this audience was imported into Real-Time CDP Collaboration. |
-| **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
-
-Select **[!UICONTROL View]** or select the audience name to inspect or edit individual audiences. 
-
-## View individual audiences {#view-individual-audiences}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_view_audience_identities"
->title="Identities"
->abstract="Get a breakdown view of the identities that make up this audience."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_view_audience_categories"
->title="Categories"
->abstract="Tag your audiences for easy organization, filtering, and retrieval. You can tag an audience with multiple categories and then you can use these category tags to filter your desired audiences in other areas of the product."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_view_audience_connection_access"
->title="Connection access"
->abstract="Audiences can be of three types: public, private, and custom. Their availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_view_audience_metadata_visibility"
->title="Metadata visibility"
->abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization."
-
-The audience view reveals further information about your audience.
-
-![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
-
-Metrics that you can view in this screen are described below:
-
-| Item | Description|
-|----------|---------|
-| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
-| **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
-| **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
-| **[!UICONTROL Last updated by]** | Indicates the user who last updated this audience. |
-| **[!UICONTROL Created]** | Indicates when this audience was imported into Real-Time CDP Collaboration. |
-| **[!UICONTROL Created by]** | Indicates the user who imported the audience into Real-Time CDP Collaboration. |
-
-
-You can use two further controls on the page to edit or remove audiences:
-
-* **[!UICONTROL Delete]**: Remove the audience from your inventory
-* **[!UICONTROL Edit]**: Edit audience metadata like its name or description.
-
-![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
-
-Further information about the audience is available and partially editable in widgets below: 
-
-![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
-
-* [Identities](#identities)
-* [Categories](#categories)
-* [Connection access](#connection-access)
-* [Metadata visibility](#metadata-visibility)
-
-### Identities {#identities}
-
-This section indicates the number of profiles present in the audience with any of the identities that you specified when importing the audiences. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
-
-### Categories {#categories}
-
-For easy audience organization, filtering, and retrieval, you can tag your audiences. You can tag an audience with multiple categories and then you can use these category tags to filter your desired audiences in the [discover](/help/guide/collaborate/discover.md) product area, when running audience overlap reports. 
-
-### Connection access {#connection-access}
-
-Select if the audience should be private to you, or usable and discoverable in connections. The three available options are:
-
-* Public audience
-* Private audience
-* Custom audience
-
-Audience availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
-
-### Metadata visibility {#metadata-visibility}
-
-Indicates which of the audience metadata information is visible to other organizations before they connect with your organization.
+>[!ENDSHADEBOX]
 
 ## Import audiences into Real-Time CDP Collaboration {#import-audiences}
 
 Before you can share audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
+
+![My audiences screen before any audiences have been added to the org.](/help/assets/setup/add-manage-audiences/org-without-audiences-added.png)
 
 From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and select **Audience**.
 
@@ -149,7 +64,7 @@ In this step, you will choose the source of your audience data. The available so
 
 #### Select sandbox
 
-When selecting **Adobe Experience Platform** as data source, you must select the sandbox which includes the audiences that you will be importing. 
+After selecting **Adobe Experience Platform** as data source, you must select the sandbox which includes the audiences that you will be importing. 
 
 ![Select sandbox for importing audiences](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
 
@@ -246,6 +161,9 @@ For further reading about identity crosswalks, refer to the [glossary](/help/gui
 
 -->
 
+
+<!-- will uncomment this part when Manage use cases part becomes available
+
 ### Manage use cases {#manage-use-cases}
 
 >[!CONTEXTUALHELP]
@@ -264,7 +182,9 @@ For every identity selected in the mapping step, select the use cases that you c
 
 Note that this control is disabled in the initial release of Real-Time CDP Collaboration.
 
-<!-- After selecting the desired use cases for each identity, proceed to the next step. -->
+After selecting the desired use cases for each identity, proceed to the next step. 
+
+-->
 
 ### Schedule {#schedule}
 
@@ -276,7 +196,7 @@ Schedule when to start and end populating the audiences. The audience membership
 
 ![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
-### Select audience {#select-audience}
+### Select audiences {#select-audience}
 
 After selecting the audience source, you will choose specific audiences to include. Use the search and filter options on the page to find the relevant audiences from your selected data source.
 
@@ -284,7 +204,107 @@ After selecting the audience source, you will choose specific audiences to inclu
 
 ### Review
 
-Review all the configurations and settings before finalizing the audience addition. Ensure all details are correct and complete the process.
+Review all the configurations and settings before finalizing the audience addition. Ensure all details are correct and select **[!UICONTROL Complete]** to finalize the process.
+
+## View audiences dashboard {#view-audiences-dashboard}
+
+After importing audiences into Real-Time CDP Collaboration, you can get information about them in a dashboard view. The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
+
+![Audiences overview page showing all audiences imported by an advertiser](/help/assets/setup/add-manage-audiences/audiences-overview.png)
+
+You can view the following relevant information about each audience:
+
+| Item | Description|
+|----------|---------|
+| **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
+| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences usually populate with profiles within 24-hours. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
+| **[!UICONTROL Connection access]** | Defines whether this audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
+| **[!UICONTROL Created]** | Indicates when this audience was imported into Real-Time CDP Collaboration. |
+| **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
+
+Select **[!UICONTROL Manage data connections]** to view and edit all data connections that you have set up.
+Select the elipsis and **[!UICONTROL Delete]** to remove the audience.
+Select the elipsis and **[!UICONTROL Edit categories]** to add different category tags to the audience. Get more information in the [categories](/#categories) section below. 
+Select the audience name to inspect or edit individual audiences.
+
+## View individual audiences {#view-individual-audiences}
+
+The audience view reveals further information about your audience.
+
+![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
+
+Metrics that you can view in this screen are described below:
+
+| Item | Description|
+|----------|---------|
+| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
+| **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
+| **[!UICONTROL Last updated by]** | Indicates the user who last updated this audience. |
+| **[!UICONTROL Created]** | Indicates when this audience was imported into Real-Time CDP Collaboration. |
+| **[!UICONTROL Created by]** | Indicates the user who imported the audience into Real-Time CDP Collaboration. |
+
+
+You can use two further controls on the page to edit or remove audiences:
+
+* **[!UICONTROL Delete]**: Remove the audience from your inventory
+* **[!UICONTROL Edit]**: Edit audience metadata like its name or description.
+
+![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
+
+Further information about the audience is available and partially editable in widgets below: 
+
+![View and inspect individual audience.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
+
+* [Identities](#identities)
+* [Categories](#categories)
+* [Connection access](#connection-access)
+* [Metadata visibility](#metadata-visibility)
+
+### Identities {#identities}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_identities"
+>title="Identities"
+>abstract="Get a breakdown view of the identities that make up this audience."
+
+This section indicates the number of profiles present in the audience with any of the identities that you specified when importing the audiences. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
+
+### Categories {#categories}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_categories"
+>title="Categories"
+>abstract="Tag your audiences for easy organization, filtering, and retrieval. You can tag an audience with multiple categories and then you can use these category tags to filter your desired audiences in other areas of the product."
+
+For easy audience organization, filtering, and retrieval, you can tag your audiences. You can tag an audience with multiple categories and then you can use these category tags to filter your desired audiences in the [discover](/help/guide/collaborate/discover.md) product area, when running audience overlap reports. 
+
+### Connection access {#connection-access}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_connection_access"
+>title="Connection access"
+>abstract="Audiences can be of three types: public, private, and custom. Their availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators."
+
+Select if the audience should be private to you, or usable and discoverable in connections. The three available options are:
+
+* **[!UICONTROL Public audience]**. These audiences are available for use in overlap reports and for sharing and activation in connections with any collaborators.
+* **[!UICONTROL Private audience]**. These audiences are *not* available for use in overlap reports and for sharing and activation in connections with any collaborators. Change the setting to public or custom to use the audiences in connections with collaborators.
+* **[!UICONTROL Custom audience]**. These audiences are available for use in overlap reports and for sharing and activation in specified connections only.
+
+Audience availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
+
+### Metadata visibility {#metadata-visibility}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_metadata_visibility"
+>title="Metadata visibility"
+>abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization."
+
+Indicates which of the audience metadata information is visible to other organizations before they connect with your organization.
 
 ## Next steps
 

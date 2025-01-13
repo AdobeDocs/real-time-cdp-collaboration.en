@@ -36,11 +36,11 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 1. Add an **[!UICONTROL Organization]** name for your company.
 2. Add a **[!UICONTROL Description]** about your company.
 3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
-4. Select the **[!UICONTROL Industry]** for your organization. In the beta release, **[!UICONTROL CTV]** is the preset default selection.
+4. Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 5. Select the **[!UICONTROL Region]** for your organization. In the beta release, **[!UICONTROL North America]** is the preset default selection.
 6. When onboarding your company, you can select the **[!UICONTROL Use cases]** that you will be able to use for your campaigns. In the beta release of Real-Time CDP Collaboration, this selection is not available or required.
 7. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
-8. Select a **[!UICONTROL Background image]** for your organization.
+8. Select an image for your company header picture.
 
 ![The details and use cases step to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
 
@@ -118,4 +118,4 @@ You can also update the match keys that you selected initially when onboarding y
 
 ## Next steps
 
-After setting up your organization, [import audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration.
+After setting up your organization, you are ready to [import audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration.
