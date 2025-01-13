@@ -17,7 +17,12 @@ Use the functionality in the setup section to:
 
 * [Onboard and manage various aspects of your organization](/help/guide/setup/onboard-organization.md) in Adobe Real-Time CDP Collaboration 
 * [Import and manage audiences](/help/guide/setup/onboard-audiences.md)
-* [Import and manage identity crosswalks](/help/guide/setup/identity-crosswalk.md) *(not part of the beta release)*
 * [Onboard measurement data](/help/guide/setup/onboard-measurement-data.md) for your advertising campaigns 
+
+<!--
+
+* [Import and manage identity crosswalks](/help/guide/setup/identity-crosswalk.md) *(not part of the beta release)*
+
+-->
 
 ![Setup page](/help/assets/setup/setup-page.png)
