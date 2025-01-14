@@ -17,6 +17,7 @@ Use the functionality in the setup section to:
 
 * [Onboard and manage various aspects of your organization](/help/guide/setup/onboard-organization.md) in Adobe Real-Time CDP Collaboration 
 * [Import and manage audiences](/help/guide/setup/onboard-audiences.md)
+* Track your credits activity
 * [Onboard measurement data](/help/guide/setup/onboard-measurement-data.md) for your advertising campaigns 
 
 <!--
