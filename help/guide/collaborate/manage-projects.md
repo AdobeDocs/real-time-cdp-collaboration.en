@@ -1,6 +1,6 @@
 ---
 title: Create and manage projects
-description: Learn how create and manage projects in Adobe Real-Time CDP Collaboration
+description: Learn how to create and manage projects in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
@@ -29,7 +29,7 @@ To create a project, select the Plus **+** symbol in the upper right corner. Or,
 
 ![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png)
 
-Next, select the collaborator that you are creating the project with, provide a name and description for your project, select an image header to easily distinguish the project, and confirm your selection.
+Next, select the collaborator that you are creating the project with. Provide a name and description for your project, select an image header to easily distinguish the project, and confirm your selection.
 
 ![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png)
 
