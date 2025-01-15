@@ -29,7 +29,7 @@ In the audience selection window, you can search for specific audiences to share
 
 ![Browse audiences view with audiences selected.](/help/assets/collaborate/share/browse-audiences-view.png)
 
-### Edit match kays and set targeting options
+### Edit match keys and set targeting options
 
 After selecting the desired audiences to share, you can now select other configuration options for the sharing activity.
 
