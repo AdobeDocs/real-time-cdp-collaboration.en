@@ -3,7 +3,6 @@ title: Manage user access through permissions
 description: Understand all available permissions and how to grant users access to different parts of the Real-Time CDP Collaboration UI.
 audience: admin
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
-exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 ---
 # Manage user access through permissions
 
@@ -19,11 +18,13 @@ The Permissions UI allows admins to grant users access to specific parts of the 
 
 ## Accessing the Permissions UI
 
-To access the Permissions UI, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Permissions]**. This page is only available to users with admin privileges.
+To access the Permissions UI, navigate to **[!UICONTROL Admin]** > **[!UICONTROL Permissions]**. This page is only available to users with admin privileges in Experience Platform. If you are not seeing the Permissions item as highlighted below, you are not a system administrator and you need to contact a system administrator in your organization.
 
-!Permissions UI Overview
+![Permissions UI Overview](/help/assets/permissions/permissions-landing-page.png)
 
-## Creating and Managing Roles
+
+
+## Create and manage roles
 
 Roles are groups of permissions that can be assigned to users. To create a new role:
 
@@ -31,7 +32,10 @@ Roles are groups of permissions that can be assigned to users. To create a new r
 2. Provide a name and description for the role.
 3. Add the necessary permissions to the role by selecting from the available options.
 
-!Create Role
+![Create Role and add required permissions](/help/assets/permissions/create-role-assign-permissions.gif)
+
+Get extensive information about this step in the [manage roles section](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles){target=_blank} of the Experience Platform documentation.
+
 
 ### Example: Creating a "Manage Projects" Role
 
@@ -45,7 +49,7 @@ To create a role that allows users to manage projects:
 
 !Manage Projects Role
 
-## Assigning Roles to Users
+## Assign roles to users
 
 Once roles are created, they can be assigned to users:
 
@@ -73,11 +77,11 @@ Admins can view and edit the permissions assigned to each role:
 
 >[!TIP]
 >
->Regularly review and update roles to ensure they meet the evolving needs of your organization.
+>Regularly review and update roles to ensure they meet the needs of your organization.
 
 ## Permissions Reference
 
-For extensive information about roles, consult this link.
+The table below includes a reference of all available permissions in Real-Time CDP Collaboration.
 
 | High Level Permission | Description |
 | --- | --- |
