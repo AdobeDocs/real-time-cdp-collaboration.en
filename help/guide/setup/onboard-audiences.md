@@ -98,7 +98,7 @@ Next, provide a name and a description for you to recognize this data connection
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Target fields"
->abstract="The target fields correspond to the match keys that you selected when onboarding your company. In the beta program, hashed emails, hashed phone numbers, and IPv4 are supported."
+>abstract="The target fields correspond to the match keys that you selected when onboarding your company. Currently, hashed emails are the only supported match keys."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
