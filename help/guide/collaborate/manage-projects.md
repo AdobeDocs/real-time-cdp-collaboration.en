@@ -11,7 +11,7 @@ exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
-Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators' and discover recommended audiences that you can use in campaigns. Audiences are then shared between collaborators, activated by publishers, and both parties can then view measurement reports about audience performance.
+Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover and connect with the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators' and discover recommended audiences that you can use in campaigns. Audiences are then shared between collaborators, activated by publishers, and both parties can then view measurement reports about audience performance.
 
 >[!TIP]
 >
