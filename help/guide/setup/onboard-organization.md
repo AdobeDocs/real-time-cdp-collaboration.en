@@ -33,7 +33,7 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 >title="Supported use cases"
 >abstract="This option is disabled in the initial release of Real-Time CDP Collaboration."
 
-![The details and use cases step to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
+![The details and use cases steps to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
 
 1. Add an **[!UICONTROL Organization]** name for your company.
 2. Add a **[!UICONTROL Description]** about your company.
