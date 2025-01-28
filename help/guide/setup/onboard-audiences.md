@@ -108,14 +108,14 @@ Next, provide a name and a description for you to recognize this data connection
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identity namespaces"
->abstract="Select an identity namespace from the standard and custom identity namespaces in your Experience Platform organization."
->additional-url="https://www.adobe.com/go/identity-standard-namespaces-en" text="Standard and identity namespaces in Experience Platform"
+>abstract="Select an identity namespace from the standard and custom identity namespaces available in your Experience Platform organization."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard" text="Standard and identity namespaces in Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profile attributes"
->abstract="Select attributes from the Union Schema for the Profile class"
->additional-url="https://www.adobe.com/go/union-schema-ui-en" text="Union schema in Experience Platform"
+>abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/profile/union-schemas/union-schema" text="Union schema in Experience Platform"
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 

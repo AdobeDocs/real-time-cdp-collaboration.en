@@ -100,7 +100,7 @@ The available match keys for the first release of Real-Time CDP Collaboration ar
 
 <!--[TODO] discuss the supported match keys. -->
 
-When ready, select **[!UICONTROL Complete]** to finish the organization set up workflow. 
+When ready, select **[!UICONTROL Complete]** to finish the organization setup workflow. 
 
 ## Edit organization {#edit-organization}
 
@@ -112,7 +112,7 @@ At this point, you are able to update the organization name, description, logo, 
 
 ![Editable options for organizations.](/help/assets/setup/manage-organization/editable-options.png)
 
-You can also update the match keys that you selected initially when onboarding your organization, as well as the minimum threshold for identities corresponding to match keys to be visible and usable in audience overlaps and other product areas. Select **[!UICONTROL Edit]** in the **[!UICONTROL Match kays]** tab to add any additional desired match keys or update identity thresholds.
+You can also update the match keys that you selected initially when onboarding your organization, as well as the minimum threshold for identities corresponding to match keys to be visible and usable in audience overlaps and other product areas. Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** tab to add any additional desired match keys or update identity thresholds.
 
 ![Edit match keys](/help/assets/setup/manage-organization/edit-match-keys.png)
 

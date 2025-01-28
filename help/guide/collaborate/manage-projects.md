@@ -1,6 +1,6 @@
 ---
 title: Create and manage projects
-description: Learn how create and manage projects in Adobe Real-Time CDP Collaboration
+description: Learn how to create and manage projects in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
@@ -11,7 +11,7 @@ exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
-Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborators' and discover recommended audiences that you can use in campaigns. Audiences are then shared between collaborators, activated by publishers, and both parties can then view measurement reports about audience performance.
+Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover and connect with the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborator's audiences and discover recommended audiences that you can use in campaigns. Audiences are then shared between collaborators, activated by publishers, and both parties can then view measurement reports about audience performance.
 
 >[!TIP]
 >
@@ -29,7 +29,7 @@ To create a project, select the Plus **+** symbol in the upper right corner. Or,
 
 ![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png)
 
-Next, select the collaborator that you are creating the project with, provide a name and description for your project, select an image header to easily distinguish the project, and confirm your selection.
+Next, select the collaborator that you are creating the project with. Provide a **[!UICONTROL project name]** and **[!UICONTROL description]** for your project, select an image header to easily distinguish the project, and confirm your selection.
 
 ![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png)
 
