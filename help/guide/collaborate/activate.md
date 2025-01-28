@@ -13,8 +13,6 @@ exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 
 As a publisher, discover how to activate audiences across multiple channels using Adobe Real-Time CDP Collaboration.
 
-The functionality to activate audiences for campaigns is available to publisher organizations only. Advertiser organizations can share audiences with publishers, who will activate these audiences in campaigns. Read more about the [end-to-end workflow](/help/guide/end-to-end-workflow.md) for advertisers and publishers.
-
-As a publisher, you can activate audiences [shared](/help/guide/collaborate/share.md) with you by your collaborator.
+The functionality to activate audiences for campaigns is available to publisher organizations only. Advertiser organizations can [share audiences](/help/guide/collaborate/share.md) with publishers, who will activate these audiences in campaigns. Read more about the [end-to-end workflow](/help/guide/end-to-end-workflow.md) for advertisers and publishers.
 
 ![Activate workflow to an Amazon S3 destination.](/help/assets/collaborate/activate/activate-to-amazon-s3.png)
