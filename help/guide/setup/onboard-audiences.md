@@ -286,7 +286,7 @@ Further information about the audience is available and partially editable in wi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identities"
->abstract="Get a breakdown view of the identities that make up this audience."
+>abstract="Get a breakdown view of the identities that make up this audience, as well as a total count of profiles with the respective identities."
 
 This section indicates the number of profiles present in the audience with any of the identities that you specified when importing the audiences. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
 
@@ -304,13 +304,13 @@ For easy audience organization, filtering, and retrieval, you can tag your audie
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Connection access"
->abstract="Audiences can be of three types: public, private, and custom. Their availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators."
+>abstract="<p>Audiences can be of three types: public, private, and custom.</p><p> Their availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.</p>"
 
 Select if the audience should be private to you, or usable and discoverable in connections. The three available options are:
 
 * **[!UICONTROL Public audience]**. These audiences are available for use in overlap reports and for sharing and activation in connections with any collaborators.
-* **[!UICONTROL Private audience]**. These audiences are *not* available for use in overlap reports and for sharing and activation in connections with any collaborators. Change the setting to public or custom to use the audiences in connections with collaborators.
-* **[!UICONTROL Custom audience]**. These audiences are available for use in overlap reports and for sharing and activation in specified connections only.
+* **[!UICONTROL Private audience]**. These audiences are *not* available for use in overlap reports and for sharing and activation in connections with any collaborators. Though not available for collaborators to view or use, the population of this audience still contributes to the total population in the All audiences view in the [discover and overlaps section](/help/guide/collaborate/discover.md#compare-audiences). Change the setting to public or custom to use the audiences in connections with collaborators.
+* **[!UICONTROL Custom audience]**. These audiences are available for use in overlap reports and for sharing and activation in specified connections only. Though not available for all collaborators to view or use, the population of this audience still contributes to the total population in the All audiences view in the [discover and overlaps section](/help/guide/collaborate/discover.md).
 
 Audience availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
 
@@ -319,9 +319,12 @@ Audience availability for use in campaigns with collaborators differs based on t
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
->abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization."
+>abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. For example, "
 
 Indicates which of the audience metadata information is visible to other organizations before they connect with your organization.
+
+**[!UICONTROL Show identity count]**
+**[!UICONTROL Show audience overlap]**
 
 ## Next steps
 
