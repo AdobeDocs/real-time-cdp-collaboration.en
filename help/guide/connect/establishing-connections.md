@@ -17,7 +17,7 @@ Establishing a connection between two parties of a collaboration (most commonly 
 
 At a high level, to establish a connection between an advertiser and a publisher, the workflow looks like below:
 
-1. The advertiser [browses publishers and discovers](/help/guide/connect-publisher-advertiser/discover-publishers.md) one that they would like to work with 
+1. The advertiser [browses publishers and discovers](/help/guide/connect/discover-publishers.md) one that they would like to work with 
 2. The advertiser sends a connection invite.
 3. The publisher accepts the invite.
 4. The advertiser sends connection settings including match keys and others. These connection settings represent the in-product terms of the collaboration.

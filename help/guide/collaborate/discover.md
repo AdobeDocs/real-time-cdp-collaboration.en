@@ -15,7 +15,7 @@ After [creating a project](/help/guide/collaborate/manage-projects.md) within a 
 
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
-The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect-publisher-advertiser/establishing-connections.md#connection-settings). To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect-publisher-advertiser/establishing-connections.md#connection-settings) between the collaborators.
+The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect/establishing-connections.md#connection-settings). To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings) between the collaborators.
 
 ![Edit match keys screen](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
 
@@ -24,7 +24,7 @@ The match keys used to discover and compare audiences are set when you [connect 
 To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the **[!UICONTROL Collaborate]** workflow, you have already:
 
 * [Imported audiences](/help/guide/setup/onboard-audiences.md)
-* [Connected](/help/guide/connect-publisher-advertiser/establishing-connections.md) with a desired advertiser or publisher
+* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher
 * [Created a project](/help/guide/collaborate/manage-projects.md) between you and a collaborator
 
 Once the prerequisites noted above are met, you can start exploring and comparing the overlap between your and your collaborator's audiences.
