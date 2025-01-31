@@ -325,4 +325,4 @@ Indicates which of the audience metadata information is visible to other organiz
 
 ## Next steps
 
-After importing audiences, use the [Connect](/help/guide/connect-publisher-advertiser/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.
+After importing audiences, use the [Connect](/help/guide/connect/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.
