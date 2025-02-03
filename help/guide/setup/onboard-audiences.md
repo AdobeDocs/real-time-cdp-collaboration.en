@@ -321,7 +321,13 @@ Audience availability for use in campaigns with collaborators differs based on t
 >title="Metadata visibility"
 >abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. For example, "
 
-Indicates which of the audience metadata information is visible to other organizations before they connect with your organization.
+Indicates which of the audience metadata information is visible to other organizations before they connect with your organization or within different project views.
+
+**[!UICONTROL Identity count]**: 
+**[!UICONTROL Audience overlap %]**: When set to true, collaborators are able to disdover overlap percentages between their audience and this specific audience that belongs to you. For example, in the recording below, the audience `agora-advertiser-aud3` has this configuration set to true and a collaborator can view overlap percentages with that audience, and the audience `agora-advertiser-aud1` has this setting set to false.
+
+![Audience overlap percentage for two different audiences.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
+
 
 **[!UICONTROL Show identity count]**
 **[!UICONTROL Show audience overlap]**
