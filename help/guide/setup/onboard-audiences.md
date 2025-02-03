@@ -312,7 +312,11 @@ Select if the audience should be private to you, or usable and discoverable in c
 * **[!UICONTROL Private audience]**. These audiences are *not* available for use in overlap reports and for sharing and activation in connections with any collaborators. Though not available for collaborators to view or use, the population of this audience still contributes to the total population in the All audiences view in the [discover and overlaps section](/help/guide/collaborate/discover.md#compare-audiences). Change the setting to public or custom to use the audiences in connections with collaborators.
 * **[!UICONTROL Custom audience]**. These audiences are available for use in overlap reports and for sharing and activation in specified connections only. Though not available for all collaborators to view or use, the population of this audience still contributes to the total population in the All audiences view in the [discover and overlaps section](/help/guide/collaborate/discover.md).
 
-Audience availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
+>[!IMPORTANT]
+>
+>Regardless of access status (public, private, or custom), the population of any audience contributes to the **[!UICONTROL All audiences]** population in the Audience Discovery overlap analysis view. <br> ![The system-generated **All audiences** audience in the Audience Discovery overlap analysis is inclusive of audiences with all connection access statuses (public, private, custom).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "The system-generated **All audiences** audience in the Audience Discovery overlap analysis is inclusive of audiences with all connection access statuses (public, private, custom)."){width="100" zoomable="yes"}
+
+Audience availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
 
 ### Metadata visibility {#metadata-visibility}
 
@@ -323,14 +327,13 @@ Audience availability for use in campaigns with collaborators differs based on t
 
 Indicates which of the audience metadata information is visible to other organizations before they connect with your organization or within different project views.
 
-**[!UICONTROL Identity count]**: 
-**[!UICONTROL Audience overlap %]**: When set to true, collaborators are able to disdover overlap percentages between their audience and this specific audience that belongs to you. For example, in the recording below, the audience `agora-advertiser-aud3` has this configuration set to true and a collaborator can view overlap percentages with that audience, and the audience `agora-advertiser-aud1` has this setting set to false.
+**[!UICONTROL Show identity count]**: This setting controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. 
+
+![Side-by-side images with the show identity count option deselected and selected.](/help/assets/setup/add-manage-audiences/show-identity-count.png)
+
+**[!UICONTROL Show audience overlap %]**: When set to true, collaborators are able to discover overlap percentages between their audiences and this specific audience that belongs to you. For example, in the recording below, the audience `agora-advertiser-aud3` has this configuration set to true and a collaborator can view overlap percentages with that audience, and the audience `agora-advertiser-aud1` has this setting set to false.
 
 ![Audience overlap percentage for two different audiences.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
-
-
-**[!UICONTROL Show identity count]**
-**[!UICONTROL Show audience overlap]**
 
 ## Next steps
 
