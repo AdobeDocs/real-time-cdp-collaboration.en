@@ -23,6 +23,13 @@ To access the Permissions UI, navigate to **[!UICONTROL Admin]** > **[!UICONTROL
 ![Permissions UI Overview](/help/assets/permissions/permissions-landing-page.png)
 
 
+## System administrators using the product for the first time - grant the necessary permissions for yourself and for your role
+
+
+
+## System administrators - grant the necessary permissions for the team
+
+
 
 ## Create and manage roles
 
