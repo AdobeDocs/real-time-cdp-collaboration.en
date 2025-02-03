@@ -39,6 +39,13 @@ From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and se
 
 ### Select data connection {#select-data-connection}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_audience_marketing_actions"
+>title="Marketing actions"
+>abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox *enabled*, any data that is marked with the labels called out above will be imported into Real-Time CDP Collaboration.</li><li> With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.</li></ul></p>"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Data usage labels overview"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference" text="Data usage labels glossary"
+
 >[!IMPORTANT]
 >
 >After connecting to your first data connection and importing your first audience, you can then select to import multiple audiences from this existing data connection. In this case, the workflow will take you directly to the [select audience](#select-audience) step, since all the prerequisite information from the other steps will be imported from the existing connection.
@@ -70,9 +77,19 @@ After selecting **Adobe Experience Platform** as data source, you must select th
 
 Select **[!UICONTROL Next]** after you selected the desired sandbox.
 
-#### Provide consent to use data
+#### Provide consent to use data {#provide-consent-to-use-data}
 
-Next, you must provide consent for data imported from Real-Time CDP to be used for data collaboration. Check the required marketing actions as shown below.
+Next, you must provide consent for data imported from Real-Time CDP to be used for data collaboration.
+
+Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
+
+* With the checkbox *enabled*, any data that is marked with the labels called out above will be imported into Real-Time CDP Collaboration.
+* With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.
+
+Read more about data usage labels in the Experience Platform documentation:
+
+* [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target=_blank}
+* [Data usage labels glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target=_blank}
 
 ![Required marketing actions for data collaboration.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -98,7 +115,7 @@ Next, provide a name and a description for you to recognize this data connection
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Target fields"
->abstract="The target fields correspond to the match keys that you selected when onboarding your company. In the beta program, hashed emails, hashed phone numbers, and IPv4 are supported."
+>abstract="The target fields correspond to the match keys that you selected when onboarding your company. Currently, hashed emails are the only supported match keys."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -108,14 +125,14 @@ Next, provide a name and a description for you to recognize this data connection
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identity namespaces"
->abstract="Select an identity namespace from the standard and custom identity namespaces in your Experience Platform organization."
->additional-url="https://www.adobe.com/go/identity-standard-namespaces-en" text="Standard and identity namespaces in Experience Platform"
+>abstract="Select an identity namespace from the standard and custom identity namespaces available in your Experience Platform organization."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard" text="Standard and identity namespaces in Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profile attributes"
->abstract="Select attributes from the Union Schema for the Profile class"
->additional-url="https://www.adobe.com/go/union-schema-ui-en" text="Union schema in Experience Platform"
+>abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/profile/union-schemas/union-schema" text="Union schema in Experience Platform"
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -308,4 +325,4 @@ Indicates which of the audience metadata information is visible to other organiz
 
 ## Next steps
 
-After importing audiences, use the [Connect](/help/guide/connect-publisher-advertiser/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.
+After importing audiences, use the [Connect](/help/guide/connect/establishing-connections.md) section to discover publishers to connect with and start collaborating on projects.

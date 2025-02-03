@@ -17,7 +17,7 @@ Learn about the available reports in Real-Time CDP Collaboration and understand 
 
 Before you can access the measurement reports in Real-Time CDP Collaboration, you have already:
 
-* [Connected](/help/guide/connect-publisher-advertiser/establishing-connections.md) with a desired advertiser or publisher and started collaborating on [projects](/help/guide/collaborate/manage-projects.md).
+* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher and started collaborating on [projects](/help/guide/collaborate/manage-projects.md).
 * Run a campaign and [uploaded measurement data](/help/guide/setup/onboard-measurement-data.md) into Real-Time CDP Collaboration.
 
 ## View reports
