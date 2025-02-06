@@ -75,6 +75,10 @@ The information displayed relates to:
 
 {style="table-layout:auto"}
 
+>[!TIP]
+>
+>The overlap percentage figure may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
 ## Recommended audiences {#recommended-audiences}
 
 >[!CONTEXTUALHELP]
@@ -106,6 +110,10 @@ For extensive information about the overlapping identities count and percentages
 ![Discover overlaps with different audiences view](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 
 Get extensive information about any of your collaborator's audiences and view overlap information comparing these audiences against either your entire population count across all your audiences, or against specific audiences of yours.
+
+>[!TIP]
+>
+>Some of the numbers indicated in the screenshot may not be always available for all audiences. Their visibility depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ## Next steps
 
