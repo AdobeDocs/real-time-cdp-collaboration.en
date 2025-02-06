@@ -1,6 +1,6 @@
 ---
 title: Manage roles
-description: Understand all available resources that can be added to roles to provide access to different parts of the Real-Time CDP Collaboration UI.
+description: Understand all available role resources that provide access to different components within the Real-Time CDP Collaboration UI.
 audience: admin
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
@@ -16,10 +16,10 @@ To manage user access to different components of the Real-Time CDP Collaboration
 
 As an administrator, you need to create and assign yourself an all-access role that contains two core resources:
 
-- access to the `Prod` sandboxe
-- access to all resources within Real-Time CDP Collaboraton
+- access to the `Prod` sandbox
+- access to all resources within Real-Time CDP Collaboration
 
-Begin by [creating a new role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role), providing a clear name such as **Real-Time CDP Collaboration All Access**. Within the resources workspace, ensure that **[!UICONTROL Sandboxes]** has **Prod** added (this should be added by default when creating the role). Next, select **[!UICONTROL Collaborations]** from the list of resources.
+Begin by [creating a new role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role), providing a meaningful name such as **Real-Time CDP Collaboration All Access**. Within the resources workspace, ensure that **[!UICONTROL Sandboxes]** has **Prod** added (this should be added by default when creating the role). Next, select **[!UICONTROL Collaborations]** from the list of resources.
 
 ![The role dashboard with the Sandboxes resources chosen and the Collaborations resource highlighted.](../../assets/permissions/add-resources.png)
 
