@@ -4,7 +4,7 @@ description: Understand how to manage users access to different parts of the Rea
 audience: admin
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
-# Manage user access through Permissions
+# Manage user access through Permissions {#manage-user-access}
 
 >[!AVAILABILITY]
 >
@@ -14,9 +14,9 @@ Manage permissions and user access to individual components within Real-Time CDP
 
 To access the Permissions UI, you must be an administrator that has a subscription to Adobe Experience Platform. Refer to the sections below to gain access as a system administrator, or to grant access to your team.
 
-## System administrators: grant the necessary permissions for yourself and your role
+## System administrators: grant the necessary permissions for yourself and your role {#system-admin-gain-access}
 
-### Gain access to Experience Platform and Permissions
+### Gain access to Experience Platform and Permissions {#experience-platform-and-permissions}
 
 As a [system administrator](https://helpx.adobe.com/enterprise/using/admin-roles.html), you have out-of-the box access to specific Experience Cloud products, such as Adobe Admin Console. However, to use products such as Permissions and Experience Platform, you are also required to give yourself administrator and user access to the Experience Platform product. This access allows you to use the product as well as grant and manage user access to your team. Follow the step-by-step guide below to give yourself administrative access to these products as a system admin.
 
@@ -60,7 +60,9 @@ Return to Adobe Experience Cloud. You should now see **[!UICONTROL Experience Pl
 >
 > The products can take several minutes to gain access to and you'll receive an email alerting you you've recieved access. If you're not seeing Experience Platform or Permissions in Adobe Experience Cloud after receiving the email, log out and then back in to your account. 
 
-At this stage, you can now access **[!UICONTROL Permissions]**. If you try to access **[!UICONTROL Experience Platform]**, you'll get a warning that no sandboxes are enabled, as shown below. To solve this, select **[!UICONTROL Permissions]**
+At this stage, you can now access **[!UICONTROL Permissions]**. If you try to access **[!UICONTROL Experience Platform]**, you'll get a warning that no sandboxes are enabled, as shown below. To solve this, you need to assign the [default roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles) to your user.
+
+Select **[!UICONTROL Permissions]**
 
 ![Experience Cloud's home view with a warning displayed and Permissions highlighted.](../../assets/permissions/experience-cloud-warning.png)
 
@@ -80,6 +82,9 @@ You now have access to Experience Platform and Permissions. Next, you'll give yo
 
 ### Gain access to Real-Time CDP Collaboration
 
+To access the Real-Time CDP Collaboration UI, you'll need to define an all-access role within Permissions. To learn how to create an all-access role for Real-Time CDP Collaboration, refer to the [manage roles](./manage-roles.md#all-access-role) guide. 
 
+Once your role is created, add that role to your user following the same steps as before, or by adding a user directly to the role. Next, return to Experience Cloud. You should now see **[!UICONTROL RTCDP Collaboration]** listed as a product under **[!UICONTROL Quick Access]**.
 
 ## System administrators: grant the necessary permissions for the team
+
