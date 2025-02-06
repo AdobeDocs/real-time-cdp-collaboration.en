@@ -327,11 +327,11 @@ Audience availability for use in projects with collaborators differs based on th
 
 Indicates which of the audience metadata information is visible to other organizations before they connect with your organization or within different project views.
 
-**[!UICONTROL Show identity count]**: This setting controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. 
+**[!UICONTROL Show identity count]**: This setting controls whether your partner can view identity counts for your audiences when [viewing overlap reports in the discovery tab](/help/guide/collaborate/discover.md#discover-overlaps). 
 
 ![Side-by-side images with the show identity count option deselected and selected.](/help/assets/setup/add-manage-audiences/show-identity-count.png)
 
-**[!UICONTROL Show audience overlap %]**: When set to true, collaborators are able to discover overlap percentages between their audiences and the audience that belongs to you. For example, in the recording below, the audience `agora-advertiser-aud3` has this configuration set to true and a collaborator can view overlap percentages with that audience. The audience `agora-advertiser-aud1` has this setting set to false, so the collaborator cannot view overlap percentages.
+**[!UICONTROL Show audience overlap %]**: When set to true, collaborators are able to [discover overlap percentages](/help/guide/collaborate/discover.md#compare-audiences) between their audiences and the audience that belongs to you. For example, in the recording below, the audience `agora-advertiser-aud3` has this configuration set to true and a collaborator can view overlap percentages with that audience. The audience `agora-advertiser-aud1` has this setting set to false, so the collaborator cannot view overlap percentages.
 
 ![Audience overlap percentage for two different audiences.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
 
