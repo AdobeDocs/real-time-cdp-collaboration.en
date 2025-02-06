@@ -14,14 +14,9 @@ Manage permissions and user access to individual components within Real-Time CDP
 
 To access the Permissions UI, you must be an administrator that has a subscription to Adobe Experience Platform. Refer to the sections below to gain access as a system administrator, or to grant access to your team.
 
-<!-- TO DO 
-- search for existing admin console guides
-- discuss how a system admin needs to give themselves the correct access through the admin console (first time setup)
-- step-by-step tutorial of using the admin console
-- discuss how to provide users admin and product access
- -->
-
 ## System administrators: grant the necessary permissions for yourself and your role
+
+### Gain access to Experience Platform and Permissions
 
 As a [system administrator](https://helpx.adobe.com/enterprise/using/admin-roles.html), you have out-of-the box access to specific Experience Cloud products, such as Adobe Admin Console. However, to use products such as Permissions and Experience Platform, you are also required to give yourself administrator and user access to the Experience Platform product. This access allows you to use the product as well as grant and manage user access to your team. Follow the step-by-step guide below to give yourself administrative access to these products as a system admin.
 
@@ -63,6 +58,28 @@ Return to Adobe Experience Cloud. You should now see **[!UICONTROL Experience Pl
 
 >[!NOTE]
 >
-> The products can take several minutes to gain access to and you'll receive an email alerting you you've recieved access. If you're not seeing Experience Platform or Permissions in Adobe Experience Cloud, log out and then back in to your account. 
+> The products can take several minutes to gain access to and you'll receive an email alerting you you've recieved access. If you're not seeing Experience Platform or Permissions in Adobe Experience Cloud after receiving the email, log out and then back in to your account. 
+
+At this stage, you can now access **[!UICONTROL Permissions]**. If you try to access **[!UICONTROL Experience Platform]**, you'll get a warning that no sandboxes are enabled, as shown below. To solve this, select **[!UICONTROL Permissions]**
+
+![Experience Cloud's home view with a warning displayed and Permissions highlighted.](../../assets/permissions/experience-cloud-warning.png)
+
+The **[!UICONTROL Permissions]** dashboard will display. Select **Users** from the panel and then select your name.
+
+![Permissions dashboard with the Users workspace displayed and a user highlighted.](../../assets/permissions/permissions-user.png)
+
+Select the **[!UICONTROL Roles]** tab and then select **[!UICONTROL Add roles]**.
+
+![The user workspace with the Roles tab displayed and Add roles highlighted.](../../assets/permissions/user-roles.png)
+
+The **[!UICONTROL Add Roles]** dialog appears. Select **[!UICONTROL Default Production All Access]** and **[!UICONTROL Sandbox Administrators]** and then select **[!UICONTROL Save]**.
+
+![The Add Roles dialog with Default Production All Access and Sandbox Administrators selected, and Save highlighted.](../../assets/permissions/add-roles.png)
+
+You now have access to Experience Platform and Permissions. Next, you'll give yourself access to Real-Time CDP Collaboration.
+
+### Gain access to Real-Time CDP Collaboration
+
+
 
 ## System administrators: grant the necessary permissions for the team
