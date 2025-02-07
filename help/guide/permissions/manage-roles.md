@@ -1,5 +1,5 @@
 ---
-title: Manage roles
+title: Manage roles through Permissions
 description: Understand all available role resources that provide access to different components within the Real-Time CDP Collaboration UI.
 audience: admin
 badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
@@ -57,4 +57,4 @@ Below is a list of available permissions within the Collaborations resource:
 
 ## Next steps
 
-After creating roles that define access to Real-Time CDP Collaborations, you'll need to [assign the roles](./mange-user-access.md) to administrators and users. Refer to the [manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) guide for a complete overview of managing roles. 
+After creating roles that define access to Real-Time CDP Collaborations, you'll need to [assign the roles](./mange-user-access.md#assign-a-role) to administrators and users. Refer to the [manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) guide for a complete overview of managing roles. 

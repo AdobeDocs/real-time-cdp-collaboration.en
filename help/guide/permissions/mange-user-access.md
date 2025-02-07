@@ -16,13 +16,15 @@ To access the Permissions UI, you must be an administrator that has a subscripti
 
 ## System administrators: grant the necessary permissions for yourself and your role {#system-admin-gain-access}
 
-### Gain access to Experience Platform and Permissions {#experience-platform-and-permissions}
-
 As a [system administrator](https://helpx.adobe.com/enterprise/using/admin-roles.html), you have out-of-the box access to specific Experience Cloud products, such as Adobe Admin Console. However, to use products such as Permissions and Experience Platform, you are also required to give yourself administrator and user access to the Experience Platform product. This access allows you to use the product as well as grant and manage user access to your team. Follow the step-by-step guide below to give yourself administrative access to these products as a system admin.
+
+### Gain access to Experience Platform and Permissions {#experience-platform-and-permissions}
 
 Log in to [Adobe Experience Cloud](https://experience.adobe.com/) with your credentials. The home view displays with the **[!UICONTROL Quick access]** section providing access to your available products. To begin gaining access to Experience Platform and Permissions, select **[!UICONTROL Admin Console]**.
 
 ![Experience Cloud's home view with Admin Console highlighted.](../../assets/permissions/experience-cloud.png)
+
+#### Gain admin access
 
 The [Adobe Admin Console](https://adminconsole.adobe.com/) overview dashboard displays. Select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
 
@@ -35,6 +37,8 @@ The Adobe Experience Plaform dashboard displays. Select the **[!UICONTROL Admins
 The **[!UICONTROL Add product administrators]** dialog appears. Enter your email or username into the **[!UICONTROL Email or username]** text field and then select your account from the dropdown. Select **[!UICONTROL Save]** to finish adding yourself as an administrator.
 
 ![The Add product administrators dialog with a users information filled in and the Save option selected.](../../assets/permissions/add-product-administrators.png)
+
+#### Gain product access
 
 Next, select the **[!UICONTROL Users]** tab and then select **[!UICONTROL Add users]**.
 
@@ -51,6 +55,8 @@ The **[!UICONTROL Select product profiles]** dialog appears. Select **[!UICONTRO
 Confirm your information is correct and then select **[!UICONTROL Save]**.
 
 ![The Add users to products dialog with the users information and product profiles displayed and Save highlighted.](../../assets/permissions/save-selections.png)
+
+#### Gain Experience Platform access
 
 Return to Adobe Experience Cloud. You should now see **[!UICONTROL Experience Platform]** and **[!UICONTROL Permissions]** inside of **[!UICONTROL Quick access]**. 
 
@@ -84,7 +90,35 @@ You now have access to Experience Platform and Permissions. Next, you'll give yo
 
 To access the Real-Time CDP Collaboration UI, you'll need to define an all-access role within Permissions. To learn how to create an all-access role for Real-Time CDP Collaboration, refer to the [manage roles](./manage-roles.md#all-access-role) guide. 
 
-Once your role is created, add that role to your user following the same steps as before, or by adding a user directly to the role. Next, return to Experience Cloud. You should now see **[!UICONTROL RTCDP Collaboration]** listed as a product under **[!UICONTROL Quick Access]**.
+#### Assign a role
 
-## System administrators: grant the necessary permissions for the team
+Once your role is created, add that role to your user following the same steps [as before](#gain-experience-platform-access), or by adding a user directly to the role as follows.
+
+In **[!UICONTROL Permissions]** select **[!UICONTROL Roles]** from the panel and then select your role from the list.
+
+![The Permissions dashboard with the Roles workspace displayed and a role highlighted.](../../assets/permissions/select-role.png)
+
+The role's detail page displays. Select the **[!UICONTROL Users]** tab and then select **[!UICONTROL Add Users]**.
+
+![The role's detail workspace with the Users tab displayed and Add Users highlighted.](../../assets/permissions/role-users.png)
+
+The **[!UICONTROL Add Users]** dialog appears. Select the user(s) from the list and then select **[!UICONTROL Save]**.
+
+![The Add Users dialog with a user select and the Save option highlighted.](../../assets/permissions/add-users-to-role.png)
+
+Next, return to Experience Cloud. You should now see **[!UICONTROL RTCDP Collaboration]** listed as a product under **[!UICONTROL Quick Access]**.
+
+<!-- GET SCREENSHOT FOR THIS -->
+
+## System administrators: grant the necessary permissions for your team
+
+Next, you'll give Real-Time CDP Collaboration access to your team. Every user will need product access for Experience Platform even if they're only working with Real-Time CDP Collaboration. Follow the steps in the [gain product access](#gain-product-access) section for each user of your team to give them access.
+
+Once you've provided product access to each user, navigate to **[!UICONTROL Permissions]**. You'll need to assign users roles containing the correct resource permissions for the access they need. Follow the guide on creating [specific access roles](./manage-roles.md#specific-access-roles) for information on how to create the roles as well as detailed information about each resource permission.
+
+When you've created your roles, follow the [assign a role to a user](#assign-a-role) guide for each user to finish granting access to your team.
+
+## Next Steps
+
+Now that you and your team have access to Real-Time CDP Collaboration you can begin using the product. To learn more about the product as a whole, read the [overview guide](../home.md). 
 
