@@ -15,11 +15,15 @@ Use the **[!UICONTROL My Activity]** tab to monitor and track your organization'
 
 >[!IMPORTANT]
 >
->The credit consumption table is rounded and aggregated by day for monitoring. The actual credit consumption used for billing is tracked in internal systems and is available fo you upon request. Contact your Adobe representative to obtain that information.
+>The credit consumption table is rounded and aggregated by day for monitoring. The figures in the **[!UICONTROL My Activity]** dashboard represent an *estimated* credit consumption. The *actual* credit consumption used for billing is tracked in internal systems and is available fo you upon request. Contact your Adobe representative to obtain that information.
 
-To access your *estimated* credit consumption activity, navigate to **[!UICONTROL Setup]** in the main navigation, then select the **[!UICONTROL My activity]** tab.
+To access your estimated credit consumption activity, navigate to **[!UICONTROL Setup]** in the main navigation, then select the **[!UICONTROL My activity]** tab.
 
 ![My Activity dashboard showing credit consumption details](/help/assets/setup/my-activity-credits/activity-dashboard.png)
+
+>[!TIP]
+>
+>The My activity view does not include information about user actions in difference parts of the Real-Time Collaboration UI. Use the audit logs functionality to get that information. 
 
 ## Understand your activity dashboard
 
@@ -40,7 +44,7 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 
 {style="table-layout:auto"}
 
-## Types of activities
+## Types of activities {#types-of-activities}
 
 The Activity column shows different types of credit-consuming operations.
 
@@ -53,7 +57,7 @@ Collaboration Measurement – Credits are consumed as a function of the number o
 -->
 
 
-## Manage your credit consumption
+## Manage your credit consumption {#manage-credit-consumption}
 
 To effectively manage your credit consumption:
 
