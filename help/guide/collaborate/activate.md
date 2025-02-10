@@ -11,8 +11,20 @@ exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
-As a publisher, discover how to activate audiences across multiple channels using Adobe Real-Time CDP Collaboration.
+As a publisher, discover how to activate audiences using Adobe Real-Time CDP Collaboration. In the first release, you can activate audiences to Amazon S3 locations. Additional activation channels are planned.
 
 The functionality to activate audiences for campaigns is available to publisher organizations only. Advertiser organizations can [share audiences](/help/guide/collaborate/share.md) with publishers, who will activate these audiences in campaigns. Read more about the [end-to-end workflow](/help/guide/end-to-end-workflow.md) for advertisers and publishers.
 
+## Prerequisites {#prerequisites}
+
+As a publisher using Real-Time CDP Collaboration, you must first work with the Adobe enablement and engineering team to set up a connection to your desired Amazon S3 location. Once this is set up, you are able to activate, or export, audiences from Real-Time CDP Collaboration to your Amazon S3 location.
+
+## Activation behavior {#activation-behavior}
+
+After an advertiser that you connected with shares an audience for you for activation, this audience immediately shows in your activation screen and will be exported to your indicated location at the cadence set by the advertiser in their audience share screen.
+
 ![Activate workflow to an Amazon S3 destination.](/help/assets/collaborate/activate/activate-to-amazon-s3.png)
+
+## Next steps {#next-steps}
+
+After activating data and running campaigns, work with the Adobe enablement and engineering team to upload measurement data and view the corresponding [measurement reports](/help/guide/collaborate/measure.md).
