@@ -225,6 +225,11 @@ Review all the configurations and settings before finalizing the audience additi
 
 ## View audiences dashboard {#view-audiences-dashboard}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_missing_identities"
+>title="Missing identities"
+>abstract="The identities count displays a `-` for approximately the first 24-hours after an audience has been imported into Real-Time CDP Collaboration. After this timeframe, the identities count will update with the number of profiles present in the audience."
+
 After importing audiences into Real-Time CDP Collaboration, you can get information about them in a dashboard view. The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
 
 ![Audiences overview page showing all audiences imported by an advertiser](/help/assets/setup/add-manage-audiences/audiences-overview.png)
