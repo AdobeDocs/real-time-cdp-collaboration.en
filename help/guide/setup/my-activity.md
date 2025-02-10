@@ -23,7 +23,7 @@ To access your estimated credit consumption activity, navigate to **[!UICONTROL 
 
 >[!TIP]
 >
->The My activity view does not include information about user actions in difference parts of the Real-Time Collaboration UI. Use the audit logs functionality to get that information. 
+>The **[!UICONTROL My activity]** view does not include information about user actions in different parts of the Real-Time Collaboration UI. Use the audit logs functionality to get that information. 
 
 ## Understand your activity dashboard
 
@@ -35,12 +35,12 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 
 | Column | Description |
 |--------|-------------|
-| **[!UICONTROL Date]** | The date when the activity occurred, displayed in MM/DD/YYYY format |
-| **[!UICONTROL Connection ID]** | A unique identifier for each connection associated with a credit-consuming activity, represented as an alphanumeric string |
+| **[!UICONTROL Date]** | The date when the activity occurred, displayed in MM/DD/YYYY format. |
+| **[!UICONTROL Connection ID]** | A unique identifier for each connection associated with a credit-consuming activity, represented as an alphanumeric string. |
 | **[!UICONTROL Connection name]** | The name of the collaborator associated with the connection and the credit-consuming activity. |
-| **[!UICONTROL Activity]** | The type of activity performed, such as **Activation - Sharing**, **Activation - Egress**, or **Audience managenent** |
-| **[!UICONTROL Total credits used]** | The total number of credits consumed by the activity |
-| **[!UICONTROL My credit share]** | Your organization's portion of the credits used for the activity |
+| **[!UICONTROL Activity]** | The type of activity performed, such as **Activation - Sharing**, **Activation - Egress**, or **Audience managenent**. |
+| **[!UICONTROL Total credits used]** | The total number of credits consumed by the activity. |
+| **[!UICONTROL My credit share]** | Your organization's portion of the credits used for the activity. |
 
 {style="table-layout:auto"}
 
