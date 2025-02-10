@@ -79,14 +79,14 @@ The information displayed relates to:
 >
 >The overlap percentage figure may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-## Recommended audiences {#recommended-audiences}
+## Relevant audiences {#relevant-audiences}
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_discover_recommended_audiences"
->title="Recommended audiences"
->abstract="Based on overlap percentages and other factors, these publisher audiences are recommended for your campaign. <br><br> The <b>identity count</b> is the publisher's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> advertiser audiences."
+>id="rtcdp_collaboration_discover_relevant_audiences"
+>title="Relevant audiences"
+>abstract="Based on overlap percentages, these publisher audiences might be a good fit for your campaign. <br><br> The <b>identity count</b> is the publisher's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> advertiser audiences."
 
-The **[!UICONTROL Recommended audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five recommended audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
+The **[!UICONTROL Relevant audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
 
 * **[!UICONTROL Identity count]** is the publisher's audience size.
 * **[!UICONTROL Overlapping identities]** represents the overlap between the recommended publisher audience and all advertiser audiences.
@@ -98,7 +98,7 @@ For extensive information about the overlapping identities count and percentages
 
 -->
 
-![Recommended audiences view](/help/assets/collaborate/discover-overlaps/recommended-audiences-highlighted.png)
+![Relevant audiences view](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
 ## Discover overlaps {#discover-overlaps}
 
