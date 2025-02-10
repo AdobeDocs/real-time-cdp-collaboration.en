@@ -33,18 +33,20 @@ As a first step to start using Real-Time CDP Collaboration, you must set up your
 >title="Supported use cases"
 >abstract="This option is disabled in the initial release of Real-Time CDP Collaboration."
 
+![The details and use cases steps to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
+
 1. Add an **[!UICONTROL Organization]** name for your company.
 2. Add a **[!UICONTROL Description]** about your company.
 3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 4. Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 5. Select the **[!UICONTROL Region]** for your organization. In the beta release, **[!UICONTROL North America]** is the preset default selection.
 6. When onboarding your company, you can select the **[!UICONTROL Use cases]** that you will be able to use for your campaigns. In the beta release of Real-Time CDP Collaboration, this selection is not available or required.
-7. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
-8. Select an image for your company header picture.
+7. <span class="preview"> Publisher-only</span>: When setting up a publisher organization, you must read and acknowledge that you will be discoverable by advertisers in the publisher catalog.
+    ![Publisher-specific opt-in message.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png)
+8. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
+9. Select an image for your company header picture.
 
-![The details and use cases step to set up an organization](/help/assets/setup/manage-organization/add-organization-details-use-cases.png)
-
-When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the next page.
+When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the next page and select the desired match keys that your organization should use.
 
 <!--
 The available use cases for the first release of Real-Time CDP Collaboration are:
@@ -95,10 +97,15 @@ Available match keys in Real-Time CDP Collaboration can be of three types:
 The available match keys for the first release of Real-Time CDP Collaboration are:
 
 * Hashed email
+
+<!--
+
+not available in the Limited GA release
+
 * Hashed phone
 * IPv4
 
-<!--[TODO] discuss the supported match keys. -->
+-->
 
 When ready, select **[!UICONTROL Complete]** to finish the organization setup workflow. 
 
