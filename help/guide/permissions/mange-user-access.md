@@ -108,7 +108,7 @@ The **[!UICONTROL Add Users]** dialog appears. Select the user(s) from the list 
 
 Next, return to Experience Cloud. You should now see **[!UICONTROL RTCDP Collaboration]** listed as a product under **[!UICONTROL Quick Access]**.
 
-<!-- GET SCREENSHOT FOR THIS -->
+![Experience Cloud with RTCDP Collaboration product highlighted under Quick access](../../assets/permissions/rtcdp-experience-cloud.png)
 
 ## System administrators: grant the necessary permissions for your team
 
