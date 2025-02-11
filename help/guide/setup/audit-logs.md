@@ -62,11 +62,11 @@ These logs create a comprehensive trail of all activities within your Real-Time 
 
 The audit logs UI provides several filters to help you search for specific logs:
 
-* **Category**: Refers to the resource type (e.g., collaboration instance, connection, project).
-* **Action**: The type of action performed (e.g., create, delete, update).
+* **Category**: Refers to the resource type (for example: collaboration instance, connection, project).
+* **Action**: The type of action performed (for example: create, delete, update).
 * **Request ID**: A unique identifier for the request.
 * **User Email**: The email address of the user who performed the action.
-* **Status**: The status of the action (e.g., allowed, denied).
+* **Status**: The status of the action (for example: allowed, denied).
 * **Date Range**: The range of dates for which you want to view logs.
 
 Read more about [filtering audit logs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
@@ -79,9 +79,11 @@ Audit logs are generated and displayed in the Experience Platform audits UI when
 
 ## Benefits
 
-* **Data Governance**: Helps ensure that all activities within the platform are tracked and auditable.
-* **Regulatory Compliance**: Provides a trail of user activities to meet regulatory requirements.
-* **Troubleshooting**: Assists in identifying and resolving issues by providing detailed logs of user actions.
+Understand some of the benefits of using audit logs:
+
+* **Data Governance**: Use audit logs to ensure that all activities within the platform are tracked and auditable.
+* **Regulatory Compliance**: The feature provides a trail of user activities to meet regulatory requirements.
+* **Troubleshooting**: Audit logs assist in identifying and resolving issues by providing detailed logs of user actions.
 
 ## Categories and actions reference
 
@@ -95,9 +97,9 @@ The table below provides a reference of all categories and actions for Real-Time
 | **[!UICONTROL Collaboration Connection Invite]** | create, update, delete, approve, reject | Manage connection invites, including creating, updating, deleting, approving, and rejecting invites. Read more about [connection invites](/help/guide/connect/establishing-connections.md). |
 | **[!UICONTROL Collaboration Connection]**      | create, update, delete, approve, reject, request approval | Manage collaboration connections, including creating, updating, deleting, approving, rejecting, and requesting approval for connections. |
 | **[!UICONTROL Collaboration Data Connection]** | create, update, delete                   | Manage data connections for collaboration to import and manage audiences, including creating, updating, and deleting data connections. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md). |
-| **[!UICONTROL Collaboration Data Entity]**     | create, update, delete                   | Manage data entities for collaboration, including creating, updating, and deleting data entities. |
-| **[!UICONTROL Collaboration Project]**         | create, update, delete                   | Manage projects within collaboration, including creating, updating, and deleting projects. Read more about manai |
-| **[!UICONTROL Collaboration Module]**          | create, update, delete                   | Manage different modules within collaboration projects, including creating, updating, and deleting modules. For example, the ability to [run overlap reports](/help/guide/collaborate/discover.md) or [share audiences](/help/guide/collaborate/share.md). |
+| **[!UICONTROL Collaboration Data Entity]**     | create, update, delete                   | Manage data entities for collaboration, including creating, updating, and deleting data entities. Data entities in this context refers to audiences. Read more about [importing and managing audiences](/help/guide/setup/onboard-audiences.md). |
+| **[!UICONTROL Collaboration Project]**         | create, update, delete                   | Manage projects within collaboration, including creating, updating, and deleting projects. Read more about [managing projects](/help/guide/collaborate/manage-projects.md). |
+| **[!UICONTROL Collaboration Module]**          | create, update, delete                   | Manage different modules within collaboration projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [run overlap reports](/help/guide/collaborate/discover.md) or [share audiences](/help/guide/collaborate/share.md). |
 
 {style="table-layout:auto"}
 
