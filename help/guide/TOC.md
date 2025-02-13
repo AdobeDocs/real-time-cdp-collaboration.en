@@ -28,6 +28,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Activate](./collaborate/activate.md)
   * [Measure](./collaborate/measure.md)
 * Permissions {#permissions}
+  * [Overview](/help/guide/permissions/overview.md)
   * [Manage user access](/help/guide/permissions/mange-user-access.md)
   * [Manage roles](/help/guide/permissions/manage-roles.md)
 * Sample use cases {#use-cases}

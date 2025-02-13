@@ -10,30 +10,23 @@ badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/pr
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
-To manage user access to different components of the Real-Time CDP Collaboration UI, an [administrator](./mange-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization. To learn how to create and manage roles, refer to the [roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles) guide.
+To manage user access to different components of the Real-Time CDP Collaboration UI, an [administrator](./mange-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target=_blank} in your organization. 
 
-## Create an all-access role {#all-access-role}
+## Standard roles {#standard-roles}
 
-As an administrator, you need to create and assign yourself an all-access role that contains two core resources:
+There are two roles standard role provided to you that fill two common access control use cases. These are "read only" roles meaning they cannot be customized.
 
-- access to the `Prod` sandbox
-- access to all resources within Real-Time CDP Collaboration
+| Role name | Role description | Permissions |
+| --- | --- | --- | 
+| Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to view, create, and edit all data. | All from the table below. |
+| Collaboration Viewers | This is a read only access permission. A user can view and discover data, activities, connections, and more. | All read permissions from the table below. |
 
-Begin by [creating a new role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role), providing a meaningful name such as **Real-Time CDP Collaboration All Access**. Within the resources workspace, ensure that **[!UICONTROL Sandboxes]** has **Prod** added (this should be added by default when creating the role). Next, select **[!UICONTROL Collaborations]** from the list of resources.
+{style="table-layout:auto"}
 
-![The role dashboard with the Sandboxes resources chosen and the Collaborations resource highlighted.](../../assets/permissions/add-resources.png)
-
-Select the dropdown menu next to **[!UICONTROL Collaborations]** and then select **[!UICONTROL Add all]**. 
-
-![The role dashboard with the Collaborations resources Add all option highlighted.](../../assets/permissions/add-all-resources.png)
-
-The dashboard will display all the added permissions next to the **[!UICONTROL Collaborations]** resource. Select **[!UICONTROL Save]** to finish creating your role.
-
-![The role dashboard with the Collaborations resources add showing the complete list of permissions and Save highlighted.](../../assets/permissions/all-resource-permissions.png)
 
 ## Create specific access roles {#specific-access-roles}
 
-You'll likely want to create additional roles to provide varying levels of access to different users. When creating roles, you can manage different access levels by selecting specific permissions within the **[!UICONTROL Collaborations]** resource.
+You'll likely want to create additional roles to provide varying levels of access to different users. When creating roles, you can manage different access levels by selecting specific permissions within the **[!UICONTROL Collaborations]** resource. To learn how to create and manage roles, refer to the [roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target=_blank} guide.
 
 Below is a list of available permissions within the Collaborations resource:
 
@@ -54,6 +47,9 @@ Below is a list of available permissions within the Collaborations resource:
 | Read User Activities | Read user activities. |
 | Export User Activities | Export user activities. |
 | Read Collaboration Credit Monitoring | Credit wallet monitoring at the organization and instance level. |
+
+{style="table-layout:auto"}
+
 
 ## Next steps
 
