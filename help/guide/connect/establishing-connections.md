@@ -58,7 +58,12 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit split"
->abstract="Use the credit split section to determine how the costs for the campaigns will be shared between the two collaborating parties. You can edit the credit split percentage."
+>abstract="This section determines who is paying for the corresponding activities within Real-Time CDP Collaboration. Currently, only the audience sharing use case is configurable."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
+>title="Audience sharing"
+>abstract="Audience Sharing is the activity a party takes when requesting their matched data to be activated by their collaboration partner."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -89,7 +94,7 @@ Match keys are prefilled with the ones you [selected at your organizational leve
 
 +++Credit split
 
-Use the credit split section to determine how the costs for the campaigns will be shared between the two collaborating parties. You can edit the credit split percentage.
+Use the credit split section to determine which of the two collaborating parties will cover the the costs for the activites.
 
 ![Credit split](/help/assets/connect/establish-connection/edit-billing-ownership.png)
 
