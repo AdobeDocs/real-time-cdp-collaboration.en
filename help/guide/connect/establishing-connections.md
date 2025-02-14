@@ -31,7 +31,7 @@ Once the items above are completed, the collaborators can proceed to [create a p
 >
 >Once the connection between two collaborators has been established, the connection settings cannot be revised anymore. 
 
-## Send invite
+## Send invite {#send-invite}
 
 To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the discover publishers screen.
 
@@ -69,6 +69,10 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
+
+>[!IMPORTANT]
+>
+>Deleting a connection setting is currently not supported in the Real-Time CDP Collaboration user interface. To delete a connection setting, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target=_blank}. If you decide to delete existing connection settings with a collaoration, you need to restart the [connection invite workflow](#send-invite).
 
 After the invite is sent and accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
 
