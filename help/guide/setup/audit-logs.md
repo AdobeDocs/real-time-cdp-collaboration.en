@@ -73,7 +73,7 @@ Read more about [filtering audit logs](https://experienceleague.adobe.com/en/doc
 
 ### Example usage
 
-Audit logs are generated and displayed in the Experience Platform audits UI when you perform actions within the Real-Time CDP Collaboration UI, such as importing audiences, extending connection invites, creating projects, and so on. For example, operations to create or update parts of a project are captured as shown below:
+Audit logs are generated and displayed in the Experience Platform audits UI when you perform actions within the Real-Time CDP Collaboration UI, such as managing audiences, extending connection invites, creating projects, and so on. For example, operations to create or update parts of a project are captured as shown below:
 
 ![Example of audit logs generated when creating and updating parts of a project.](/help/assets/setup/audit-logs/create-project-audits.png)
 
@@ -99,7 +99,7 @@ The table below provides a reference of all categories and actions for Real-Time
 | **[!UICONTROL Collaboration Data Connection]** | create, update, delete                   | Manage data connections for collaboration to import and manage audiences, including creating, updating, and deleting data connections. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md). |
 | **[!UICONTROL Collaboration Data Entity]**     | create, update, delete                   | Manage data entities for collaboration, including creating, updating, and deleting data entities. Data entities in this context refers to audiences. Read more about [importing and managing audiences](/help/guide/setup/onboard-audiences.md). |
 | **[!UICONTROL Collaboration Project]**         | create, update, delete                   | Manage projects within collaboration, including creating, updating, and deleting projects. Read more about [managing projects](/help/guide/collaborate/manage-projects.md). |
-| **[!UICONTROL Collaboration Module]**          | create, update, delete                   | Manage different modules within collaboration projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [run overlap reports](/help/guide/collaborate/discover.md) or [share audiences](/help/guide/collaborate/share.md). |
+| **[!UICONTROL Collaboration Module]**          | create, update, delete                   | Manage different modules within collaboration projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [share audiences](/help/guide/collaborate/share.md). |
 
 {style="table-layout:auto"}
 
