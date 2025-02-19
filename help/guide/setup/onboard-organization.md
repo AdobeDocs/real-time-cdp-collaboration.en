@@ -17,7 +17,7 @@ Learn how to onboard your organization onto Real-Time CDP Collaboration and mana
 
 ## Initial organization setup
 
-As a first step to start using Real-Time CDP Collaboration, you must set up your organization and organizational details. To achieve this, navigate to **[!UICONTROL Setup]** in the left rail, select the **Plus** symbol in the upper right corner, and select **[!UICONTROL Account]**.
+You must first set up your organization and organizational details. Navigate to **[!UICONTROL Setup]** in the left rail, select the **+** symbol in the upper right corner, and select **[!UICONTROL Account]**.
 
 ![Select Account to add new organization to Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png)
 
