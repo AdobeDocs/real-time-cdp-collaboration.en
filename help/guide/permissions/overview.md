@@ -76,13 +76,18 @@ Refer to the chart below to determine who is needed to configure the privileges 
 
 Once you've gained access to Real-Time CDP Collaboration, you may need some additional Experience Platform permissions for specific functionality. 
 
-### Audience importation
+### Audience importation {#audience-importation}
 
-Before you can begin sharing audiences with collaborators, you need to import audiences into Real-Time CDP Collaboration. Currently, the only data connection supported for importing audiences is Experience Platform. To begin, the user who will be importing the audiences will need to be assigned a role containing the following Profile Management resource permissions:
+Before you can begin sharing audiences with collaborators, you need to import audiences into Real-Time CDP Collaboration. Currently, the only data connection supported for importing audiences is Experience Platform. To begin, the user(s) managing audience onboarding will need to be assigned a role containing the following **Profile Management** resource permissions:
 
-<!-- AUDIENCES PERMISSIONS CHART HERE -->
+| Permission | Description |
+| ---- | ---- |
+| View Segments | Allows the user to see the list of available audiences in a sandbox. |
+| View Profiles | Allows the user to see the fields available for mapping to collaboration fields. |
 
-For more information on creating or assigning roles, refer to the [manage roles](./manage-roles.md) guide.
+Below, you can see an example role with the above permissions added. For more information on creating or assigning roles, refer to the [manage roles](./manage-roles.md) guide. 
+
+![The resources workspace in Permissions with the View Segments and View Profiles permissions added to the Profile Management resource.](../../assets/permissions/sample-audience-role.png)
 
 >[!NOTE]
 >

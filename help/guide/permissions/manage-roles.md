@@ -16,12 +16,12 @@ To begin managing roles, an administrator will need access to the Experience Pla
 
 ## Standard roles {#standard-roles}
 
-There are two roles standard role provided to you that fill two common access control use cases. These are "read only" roles meaning they cannot be customized.
+There are two standard roles provided to you that fill two common access control use cases. These are "read only" roles meaning they cannot be customized.
 
 | Role name | Role description | Permissions |
 | --- | --- | --- | 
-| Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to view, create, and edit all data. | All from the table below. |
-| Collaboration Viewers | This is a read only access permission. A user can view and discover data, activities, connections, and more. | All read permissions from the table below. |
+| Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to read, create, and edit all data. | All from the table below. |
+| Collaboration Viewers | This is a read-only access permission. A user can read and discover data, activities, connections, and more. | All read permissions from the table below. |
 
 {style="table-layout:auto"}
 
@@ -47,7 +47,7 @@ Below is a list of available permissions within the Collaborations resource:
 | Read Projects | View projects. |
 | Read User Activities | Read user activities. |
 | Export User Activities | Export user activities. |
-| Read Collaboration Credit Monitoring | Credit wallet monitoring at the organization and instance level. |
+| Read Collaboration Credit Monitoring | Credit monitoring at the organization and instance level. |
 
 {style="table-layout:auto"}
 
