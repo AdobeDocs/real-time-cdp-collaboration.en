@@ -77,13 +77,15 @@ After selecting **Adobe Experience Platform** as data source, you must select th
 
 Select **[!UICONTROL Next]** after you selected the desired sandbox.
 
-#### Provide consent to use data {#provide-consent-to-use-data}
+#### Governance policy and enforcement actions {#governance-policy-and-enforcement-actions}
 
-Next, you must provide consent for data imported from Real-Time CDP to be used for data collaboration.
+Next, you must make sure that the correct marketing actions are set on the imported data. You are also required to provide consent for data imported from Real-Time CDP to be used for data collaboration.
 
 Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
 
-* With the checkbox *enabled*, any data that is marked with the labels called out above will be imported into Real-Time CDP Collaboration.
+Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target=_blank}.
+
+* With the checkbox *enabled*, any data that is marked with the labels called out above in Experience Platform is excluded and is *not* brought into Real-Time CDP Collaboration.
 * With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.
 
 Read more about data usage labels in the Experience Platform documentation:
