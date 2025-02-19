@@ -10,22 +10,22 @@ badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/pr
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
-Access control for Real-Time Customer Data Platform (CDP) Collaboration is provided through the Admin Console and Permissions in [Adobe Experience Cloud](https://experience.adobe.com/){target=_blank}. In this guide, you'll learn how to give access to yourself or other members of your team, depending on your use case. 
-
 >[!IMPORTANT]
 >
 > If you're an end user wanting access to Real-Time CDP Collaboration, reach out to your system or product administrator to check for existing access. If you don't know who your system administrator is, please reach out to your Adobe representative.
+
+Access control for Real-Time Customer Data Platform (CDP) Collaboration is provided through the Admin Console and Permissions in [Adobe Experience Cloud](https://experience.adobe.com/){target=_blank}. In this guide, you'll learn how to give access to yourself or other members of your team, depending on your use case. 
 
 ## Access control hierarchy {#hierarchy}
 
 To configure access control to Real-Time CDP Collaboration, you **must** have system or product administrator privileges. A system administrator has no restrictions and is provisioned during the onboarding process. Meanwhile, a product administrator can provide administrative functions for all products they've been assigned to. A product administrator must be given product and administrative access by a system administrator. 
 
-Throughout the guides, we'll discuss configuring access for system administrators, product adminstrators, and end users. Refer to the table below to understand the key difference between the roles.
+These guides will describe configuring access for system administrators, product adminstrators, and end users. Refer to the table below to understand the key difference between the roles.
 
 | Role | Description |
 | --- | --- | 
 | System administrator | The super user for the organization. They are able to perform all administrative tasks in the Admin Console and have permissions to delegate administrative functions to other users.  |
-| Product administrator | Administers the products assigned them and all associated administrative functions, such as adding users to organizations, adding or removing users from product profiles, and adding or removing other product administrators from a product. |
+| Product administrator | Administers the products assigned to them and all associated administrative functions, such as adding users to organizations, adding or removing users from product profiles, and adding or removing other product administrators from a product. |
 | End user | The users in your organization who use the products. | 
 
 {style="table-layout:auto"}
@@ -42,16 +42,16 @@ Before you can give access to Real-Time CDP Collaboration, you'll need access to
 
 | Product | Uses |
 | --- | --- |
-| Admin Console | Administrators use this to assign users product and/or admin access. |
-| Permissions | Administrators use this to assign administrators or end users roles. |
-| Experience Platform | Administrators and end users need to be given access to Experience Platform product to assign them to roles. There is no need to interact with the Experience Platform UI. |
+| [Admin Console](https://adminconsole.adobe.com/) | Administrators use this to assign users product and/or admin access. |
+| [Permissions](https://experience.adobe.com/) | Administrators use this to assign administrators or end users roles. |
+| [Experience Platform](https://platform.adobe.com/) | Administrators and end users need to be given access to Experience Platform product to assign them to roles. |
 
 ## Where to begin {#use-cases}
 
 Now that you have a deeper understanding of the user and administrative roles, as well as the different Experience Cloud products, you can begin giving access to Real-Time CDP Collaboration. There are two main factors that influence the steps you'll need to take:
 
-- if you're an administrator or end user 
-- if already have access to the Experience Platform product
+- if you're assigning administrator or end user access
+- if the users already has access to the Experience Platform product
   
 Refer to the chart below to determine who is needed to configure the privileges and where to start based off your access control use case. **Be sure to follow the tutorial through to the end of the guide from your starting place.**
 
@@ -72,7 +72,23 @@ Refer to the chart below to determine who is needed to configure the privileges 
 
 {style="table-layout:auto"}
 
+## Additional Permissions
+
+Once you've gained access to Real-Time CDP Collaboration, you may need some additional Experience Platform permissions for specific functionality. 
+
+### Audience importation
+
+Before you can begin sharing audiences with collaborators, you need to import audiences into Real-Time CDP Collaboration. Currently, the only data connection supported for importing audiences is Experience Platform. To begin, the user who will be importing the audiences will need to be assigned a role containing the following Profile Management resource permissions:
+
+<!-- AUDIENCES PERMISSIONS CHART HERE -->
+
+For more information on creating or assigning roles, refer to the [manage roles](./manage-roles.md) guide.
+
+>[!NOTE]
+>
+>Users are able to work with audiences within Real-Time CDP Collaboration after they've been imported without any of the above permissions.
+
 ## Next steps
 
-Once you've determined where to begin, follow your use case's link to get started configuring access. If you're wanting to learn about configuring access to Real-Time CDP Collaboration as an administrator beyond those use cases, refer to the [manage user access](mange-user-access.md) guide. To learn about roles and their part in configuring access, refer to the [manage roles](manage-roles.md) guide.
+Once you've determined where to begin, follow your use case's link to get started configuring access. If you're wanting to learn about configuring access to Real-Time CDP Collaboration as an administrator beyond those use cases, refer to the [manage user access](mange-user-access.md) guide. To learn about roles and their part in configuring access to various components of Real-Time CDP Collaboration, refer to the [manage roles](manage-roles.md) guide.
 

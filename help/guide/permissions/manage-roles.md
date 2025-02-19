@@ -10,7 +10,9 @@ badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/pr
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
-To manage user access to different components of the Real-Time CDP Collaboration UI, an [administrator](./mange-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target=_blank} in your organization. 
+To manage user access to different components of the Real-Time CDP Collaboration UI, an [administrator](./mange-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target=_blank} in your organization. This guide will provide information on the standard roles provided in Real-Time CDP Collaboration, as well as the individual permissions you that can be assign to custom roles.
+
+To begin managing roles, an administrator will need access to the Experience Platform product. For information on gaining administrative access, or on gaining access to Experience Platform, read the [manage user access](./mange-user-access.md#manage-user-access-through-permissions) guide.
 
 ## Standard roles {#standard-roles}
 
@@ -22,7 +24,6 @@ There are two roles standard role provided to you that fill two common access co
 | Collaboration Viewers | This is a read only access permission. A user can view and discover data, activities, connections, and more. | All read permissions from the table below. |
 
 {style="table-layout:auto"}
-
 
 ## Create specific access roles {#specific-access-roles}
 
@@ -49,7 +50,6 @@ Below is a list of available permissions within the Collaborations resource:
 | Read Collaboration Credit Monitoring | Credit wallet monitoring at the organization and instance level. |
 
 {style="table-layout:auto"}
-
 
 ## Next steps
 
