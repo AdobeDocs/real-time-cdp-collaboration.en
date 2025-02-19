@@ -13,13 +13,17 @@ Use data connections in Real-Time CDP Collaboration to import audiences from var
 
 Before managing your data connections here, you should initially set them up during the [audience onboarding workflow](./onboard-audiences.md). This will ensure the correct data sources are connected for use in Real-Time CDP Collaboration.
 
-## View and edit data connections
+## View data connections
 
-To view and edit existing data connections, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, and select **[!UICONTROL Manage data connections]**.
+>[!IMPORTANT]
+>
+>Deleting a data connection is currently not supported in the Real-Time CDP Collaboration user interface. To delete a data connection, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target=_blank}.
+
+To view existing data connections, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, and select **[!UICONTROL Manage data connections]**.
 
 ![View of the audiences screen, with Manage data connections highlighted.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
 
-This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more. Select **[!UICONTROL View data connection]** to view and edit information about the match keys, scheduling, use cases, and the audiences that are part of this data connection. 
+This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more. Select **[!UICONTROL View data connection]** to view information about the match keys, scheduling, use cases, and the audiences that are part of this data connection. 
 
 ![View of the data connection screen, with View data connections highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
 
@@ -33,10 +37,8 @@ This brings up a view of all your currently set up data connections, with inform
 Match keys are identifiers used to reconcile members across audiences from different data sources. Available match keys include:
 
 - **Hashed email**
-- **Hashed phone number**
-- **IP Address v4**
 
-You can edit the match keys used in this data connection by selecting the Edit control next to the match key name.
+You cannot edit the match keys used in this data connection.
 
 ![View of the data connection, with Match keys highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
 
@@ -45,11 +47,13 @@ You can edit the match keys used in this data connection by selecting the Edit c
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Scheduling"
->abstract="You can edit the scheduling options that you selected initially for your data connection."
+>abstract="This view displays the scheduling options that you selected initially for your data connection."
 
-You can edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
+You cannot edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
 
 ![View of the data connection, with Scheduling highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
+
+<!--
 
 ### Use cases {#use-cases}
 
@@ -72,6 +76,8 @@ Use cases define how the imported audience data can be leveraged in Real-Time CD
 You can configure different use cases for each match key (for example hashed email, hashed phone number). To modify use case settings, select the **[!UICONTROL Edit]** button in the Use Cases section.
 
 ![View of the data connection, with Use cases highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-use-cases.png)
+
+-->
 
 ## Manage audiences {#manage-audiences}
 
