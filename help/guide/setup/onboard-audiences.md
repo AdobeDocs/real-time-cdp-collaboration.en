@@ -77,13 +77,15 @@ After selecting **Adobe Experience Platform** as data source, you must select th
 
 Select **[!UICONTROL Next]** after you selected the desired sandbox.
 
-#### Provide consent to use data {#provide-consent-to-use-data}
+#### Governance policy and enforcement actions {#governance-policy-and-enforcement-actions}
 
-Next, you must provide consent for data imported from Real-Time CDP to be used for data collaboration.
+Next, you must make sure that the correct marketing actions are set on the imported data. You are also required to provide consent for data imported from Real-Time CDP to be used for data collaboration.
 
 Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
 
-* With the checkbox *enabled*, any data that is marked with the labels called out above will be imported into Real-Time CDP Collaboration.
+Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target=_blank}.
+
+* With the checkbox *enabled*, any data that is marked with the labels called out above in Experience Platform is excluded and is *not* brought into Real-Time CDP Collaboration.
 * With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.
 
 Read more about data usage labels in the Experience Platform documentation:
@@ -225,6 +227,11 @@ Review all the configurations and settings before finalizing the audience additi
 
 ## View audiences dashboard {#view-audiences-dashboard}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_view_audience_missing_identities"
+>title="Missing identities"
+>abstract="The identities count displays a `-` for approximately the first 24-hours after an audience has been imported into Real-Time CDP Collaboration. After this timeframe, the identities count will update with the number of profiles present in the audience."
+
 After importing audiences into Real-Time CDP Collaboration, you can get information about them in a dashboard view. The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
 
 ![Audiences overview page showing all audiences imported by an advertiser](/help/assets/setup/add-manage-audiences/audiences-overview.png)
@@ -286,7 +293,7 @@ Further information about the audience is available and partially editable in wi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identities"
->abstract="Get a breakdown view of the identities that make up this audience."
+>abstract="Get a breakdown view of the identities that make up this audience, as well as a total count of profiles with the respective identities."
 
 This section indicates the number of profiles present in the audience with any of the identities that you specified when importing the audiences. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
 
@@ -304,24 +311,36 @@ For easy audience organization, filtering, and retrieval, you can tag your audie
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Connection access"
->abstract="Audiences can be of three types: public, private, and custom. Their availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators."
+>abstract="<p>Audiences can be of three types: public, private, and custom.</p><p> Their availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.</p>"
 
 Select if the audience should be private to you, or usable and discoverable in connections. The three available options are:
 
 * **[!UICONTROL Public audience]**. These audiences are available for use in overlap reports and for sharing and activation in connections with any collaborators.
-* **[!UICONTROL Private audience]**. These audiences are *not* available for use in overlap reports and for sharing and activation in connections with any collaborators. Change the setting to public or custom to use the audiences in connections with collaborators.
-* **[!UICONTROL Custom audience]**. These audiences are available for use in overlap reports and for sharing and activation in specified connections only.
+* **[!UICONTROL Private audience]**. These audiences are *not* available for use in overlap reports and for sharing and activation in connections with any collaborators. Though not available for collaborators to view or use, the population of this audience still contributes to the total population in the **[!UICONTROL All audiences]** view in the [discover and overlaps section](/help/guide/collaborate/discover.md#compare-audiences). Change the setting to public or custom to use the audiences in connections with collaborators.
+* **[!UICONTROL Custom audience]**. These audiences are available for use in overlap reports and for sharing and activation in specified connections only. Though not available for all collaborators to view or use, the population of this audience still contributes to the total population in the **[!UICONTROL All audiences]** view in the [discover and overlaps section](/help/guide/collaborate/discover.md).
 
-Audience availability for use in campaigns with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
+>[!IMPORTANT]
+>
+>Regardless of access status (public, private, or custom), the population of any audience contributes to the **[!UICONTROL All audiences]** population in the Audience Discovery overlap analysis view. <br> ![The system-generated **All audiences** audience in the Audience Discovery overlap analysis is inclusive of audiences with all connection access statuses (public, private, custom).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "The system-generated **All audiences** audience in the **Audience Discovery** overlap analysis is inclusive of audiences with all connection access statuses (public, private, custom)."){width="100" zoomable="yes"}
+
+Audience availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
 
 ### Metadata visibility {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
->abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization."
+>abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. **Show identity count** controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Show audience overlap** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
 
-Indicates which of the audience metadata information is visible to other organizations before they connect with your organization.
+Indicates which of the audience metadata information is visible to other organizations before they connect with your organization or within different project views.
+
+**[!UICONTROL Show identity count]**: This setting controls whether your partner can view identity counts for your audiences when [viewing overlap reports in the discovery tab](/help/guide/collaborate/discover.md#discover-overlaps). 
+
+![Side-by-side images with the show identity count option deselected and selected.](/help/assets/setup/add-manage-audiences/show-identity-count.png)
+
+**[!UICONTROL Show audience overlap %]**: When set to true, collaborators are able to [discover overlap percentages](/help/guide/collaborate/discover.md#compare-audiences) between their audiences and the audience that belongs to you. For example, in the recording below, the audience `agora-advertiser-aud3` has this configuration set to true and a collaborator can view overlap percentages with that audience. The audience `agora-advertiser-aud1` has this setting set to false, so the collaborator cannot view overlap percentages.
+
+![Audience overlap percentage for two different audiences.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
 
 ## Next steps
 
