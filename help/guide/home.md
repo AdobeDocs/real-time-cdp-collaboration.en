@@ -27,13 +27,15 @@ Publishers can securely access and activate advertiser audiences across multiple
 
 ## Understand aggregate campaign performance
 
-Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement functionality is not available in the beta release.
+Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement automation is not available in the first release.
+
+## Privacy focused
+
+Embedded controls ensure that governance and privacy requirements are met, guiding the responsible use of audience data at every step of your workflows.
+
+<!--
 
 ## Additional benefits
-
-### Privacy focused
-
-Embedded controls ensure that governance and privacy requirements are met, guiding the responsible use of audience data across partners.
 
 ### Agnostic and interoperable
 
@@ -42,6 +44,8 @@ Bring in audiences from various sources such as Real-Time CDP, data warehouses (
 ### Built-in reputation
 
 Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
+
+-->
 
 ## Get started
 
