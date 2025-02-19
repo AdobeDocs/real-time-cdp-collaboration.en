@@ -8,7 +8,7 @@ badgebeta: label="Limited availability" type="Informative" url="https://helpx.ad
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a limited availability release, available to US customers only. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
 In order to increase the transparency and visibility of activities performed in the system, you can audit user activity for various services and capabilities in the form of audit logs in Adobe Real-Time Customer Data Platform (CDP). These logs form an audit trail that can help with troubleshooting issues in Real-Time CDP Collaboration, and help your business effectively comply with corporate data stewardship policies and regulatory requirements.
 
@@ -26,16 +26,16 @@ You can access audit logs in two ways, as described in the sections below. Both 
 
 ### Access audit logs from the Real-Time CDP Collaboration user interface
 
-1. Navigate to the Adobe Experience Platform UI and select the **[!UICONTROL Audits]** section from the left-hand menu. Make sure that you have the necessary permissions to access audit logs.
+1. Navigate to the **[!UICONTROL My Activity]** tab in the Real-Time CDP Collaboration UI.
+2. Select the Experience Platform link in the UI text at the top of the page.
 
-![Access audit logs from the Experience Platform UI](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
+![Access audit logs from the Real-Time CDP Collaboration UI](/help/assets/setup/audit-logs/access-from-collaboration-ui.png)
 
 ### Access audit logs directly in the Experience Platform user interface
 
-1. Navigate to the **[!UICONTROL My Activity]** tab in the Real-Time CDP Collaboration UI.
-2. Select the link in the UI copy at the top of the page.
+1. Navigate to the Adobe Experience Platform UI and select the **[!UICONTROL Audits]** section from the left-hand menu. Reach out to your organization's system administrators to obtain the necessary permissions if you cannot view audit logs.
 
-![Access audit logs from the Real-Time CDP Collaboration UI](/help/assets/setup/audit-logs/access-from-collaboration-ui.png)
+![Access audit logs from the Experience Platform UI](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
 
 ## View and use audit logs
 
