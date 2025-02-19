@@ -15,7 +15,7 @@ After [creating a project](/help/guide/collaborate/manage-projects.md) within a 
 
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
-The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect-publisher-advertiser/establishing-connections.md#connection-settings). To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect-publisher-advertiser/establishing-connections.md#connection-settings) between the collaborators.
+The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect/establishing-connections.md#connection-settings). To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings) between the collaborators.
 
 ![Edit match keys screen](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
 
@@ -24,7 +24,7 @@ The match keys used to discover and compare audiences are set when you [connect 
 To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the **[!UICONTROL Collaborate]** workflow, you have already:
 
 * [Imported audiences](/help/guide/setup/onboard-audiences.md)
-* [Connected](/help/guide/connect-publisher-advertiser/establishing-connections.md) with a desired advertiser or publisher
+* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher
 * [Created a project](/help/guide/collaborate/manage-projects.md) between you and a collaborator
 
 Once the prerequisites noted above are met, you can start exploring and comparing the overlap between your and your collaborator's audiences.
@@ -75,14 +75,18 @@ The information displayed relates to:
 
 {style="table-layout:auto"}
 
-## Recommended audiences {#recommended-audiences}
+>[!TIP]
+>
+>The overlap percentage figure may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+## Relevant audiences {#relevant-audiences}
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_discover_recommended_audiences"
->title="Recommended audiences"
->abstract="Based on overlap percentages and other factors, these publisher audiences are recommended for your campaign. <br><br> The <b>identity count</b> is the publisher's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> advertiser audiences."
+>id="rtcdp_collaboration_discover_relevant_audiences"
+>title="Relevant audiences"
+>abstract="Based on overlap percentages, these publisher audiences might be a good fit for your campaign. <br><br> The <b>identity count</b> is the publisher's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> advertiser audiences."
 
-The **[!UICONTROL Recommended audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five recommended audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
+The **[!UICONTROL Relevant audiences]** view in the **[!UICONTROL Discover]** module provides a curated list of the top five audiences based on overlap percentage. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively.
 
 * **[!UICONTROL Identity count]** is the publisher's audience size.
 * **[!UICONTROL Overlapping identities]** represents the overlap between the recommended publisher audience and all advertiser audiences.
@@ -94,7 +98,7 @@ For extensive information about the overlapping identities count and percentages
 
 -->
 
-![Recommended audiences view](/help/assets/collaborate/discover-overlaps/recommended-audiences-highlighted.png)
+![Relevant audiences view](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
 ## Discover overlaps {#discover-overlaps}
 
@@ -106,6 +110,10 @@ For extensive information about the overlapping identities count and percentages
 ![Discover overlaps with different audiences view](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 
 Get extensive information about any of your collaborator's audiences and view overlap information comparing these audiences against either your entire population count across all your audiences, or against specific audiences of yours.
+
+>[!TIP]
+>
+>Some of the numbers indicated in the screenshot may not be always available for all audiences. Their visibility depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ## Next steps
 

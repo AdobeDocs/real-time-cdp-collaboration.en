@@ -19,7 +19,7 @@ As an advertiser, start by [onboarding your company](/help/guide/setup/onboard-o
 
 ![Discover, share, measure for advertisers.](/help/assets/end-to-end-workflow/discover-share-measure.png)
 
-Use the [discover tab to find publishers](/help/guide/connect-publisher-advertiser/discover-publishers.md) that you want to work with for campaigns. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, you can [send a connection invite](/help/guide/connect-publisher-advertiser/establishing-connections.md) and propose collaboration settings to connect with the publisher.
+Use the [discover tab to find publishers](/help/guide/connect/discover-publishers.md) that you want to work with for campaigns. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, you can [send a connection invite](/help/guide/connect/establishing-connections.md) and propose collaboration settings to connect with the publisher.
 
 After the publisher accepts your connection request, it is time to explore the overlapping audiences between your organization and theirs. Set up a project for a campaign and [run overlap reports](/help/guide/collaborate/discover.md) to discover the best audiences for your next advertising campaign, depending on the collaboration use case - targeting, suppression, and others. 
 
