@@ -1,6 +1,6 @@
 ---
 title: Track your credit consumption activity
-description: Learn how to track your organization's credit consumption activity in Real-Time CDP Collaboration
+description: Learn how to track your organization's credit consumption activity in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgebeta: label="Limited availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
@@ -15,7 +15,7 @@ Use the **[!UICONTROL My Activity]** tab to monitor and track your organization'
 
 >[!IMPORTANT]
 >
->The credit consumption table is rounded and aggregated by day for monitoring. The figures in the **[!UICONTROL My Activity]** dashboard represent an *estimated* credit consumption. The *actual* credit consumption used for billing is tracked in internal systems and is available fo you upon request. Contact your Adobe representative to obtain that information.
+>The credit consumption table is rounded up and aggregated by day for monitoring. The figures in the **[!UICONTROL My Activity]** dashboard represent an *estimated* credit consumption. The *actual* credit consumption used for billing is tracked in internal systems and is available to you upon request. Contact your Adobe representative to obtain that information.
 
 To access your estimated credit consumption activity, navigate to **[!UICONTROL Setup]** in the main navigation, then select the **[!UICONTROL My activity]** tab.
 
@@ -23,7 +23,7 @@ To access your estimated credit consumption activity, navigate to **[!UICONTROL 
 
 >[!TIP]
 >
->The **[!UICONTROL My activity]** view does not include information about user actions in different parts of the Real-Time Collaboration UI. Use the audit logs functionality to get that information. 
+>The **[!UICONTROL My activity]** view does not include information about user actions in different parts of the Real-Time Collaboration CDP user interface. Use the audit logs functionality to get that information. 
 
 ## Understand your activity dashboard
 
@@ -46,7 +46,7 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 
 ## Types of activities {#types-of-activities}
 
-The Activity column shows different types of credit-consuming operations.
+The **[!UICONTROL Activity]** column shows different types of credit-consuming operations.
 
 * **[!UICONTROL Audience Management]**: Credits are consumed when audiences are imported into Real-Time CDP Collaboration. Credits are consumed as a function of the number of IDs (in millions) indexed within Real-Time CDP Collaboration across all audiences, and the frequency of that indexing (daily, every three days, or weekly) throughout the billing period. Read more about [importing and managing audiences](/help/guide/setup/onboard-audiences.md).
 * **[!UICONTROL Activation - Sharing]** – Credits are consumed as a function of the number of IDs activated from Real-Time CDP Collaboration throughout the billing period. Read more about [sharing](/help/guide/collaborate/share.md) and [activating audiences](/help/guide/collaborate/activate.md) in Real-Time CDP Collaboration.
