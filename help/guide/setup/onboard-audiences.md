@@ -244,7 +244,7 @@ You can view the following relevant information about each audience:
 |----------|---------|
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences usually populate with profiles within 24-hours. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Connection access]** | Defines whether this audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
 | **[!UICONTROL Created]** | Indicates when this audience was imported into Real-Time CDP Collaboration. |
@@ -266,7 +266,7 @@ Metrics that you can view in this screen are described below:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
 | **[!UICONTROL Last updated by]** | Indicates the user who last updated this audience. |

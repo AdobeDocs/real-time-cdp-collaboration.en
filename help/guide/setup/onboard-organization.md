@@ -45,8 +45,8 @@ The workflow to set up your organization includes the two pages below:
 2. Add a **[!UICONTROL Description]** about your company.
 3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 4. Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
-5. Select the **[!UICONTROL Region]** for your organization. In the beta release, **[!UICONTROL North America]** is the preset default selection.
-6. When onboarding your company, you can select the **[!UICONTROL Use cases]** that you will be able to use for your campaigns. In the beta release of Real-Time CDP Collaboration, this selection is not available or required.
+5. Select the **[!UICONTROL Region]** for your organization. In the current version of the product, **[!UICONTROL North America]** is the preset default selection.
+6. When onboarding your company, you can select the **[!UICONTROL Use cases]** that you will be able to use for your campaigns. In the current release of Real-Time CDP Collaboration, this selection is not available or required.
 7. <span class="preview"> Publisher-only</span>: When setting up a publisher organization, you must read and acknowledge that you will be discoverable by advertisers in the publisher catalog.
     ![Publisher-specific opt-in message.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png)
 8. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
@@ -86,7 +86,7 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
 
-![Slide showing the available identifiers for the beta program of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
+![Slide showing the available identifiers for the first release of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
 Select any match keys that you want to use when reconciling members of publisher and advertiser audiences. Include any match keys that your company can work with. Plan for the future and select the match keys that you anticipate you will be using in future publisher-advertiser campaigns. If you do need to select additional match keys for your organization, you can also do that at a later time, in the [edit organization](#edit-organization) workflow.
 
