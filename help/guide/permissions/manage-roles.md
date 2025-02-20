@@ -2,7 +2,7 @@
 title: Manage roles through Permissions
 description: Understand all available role resources that provide access to different components within the Real-Time CDP Collaboration UI.
 audience: admin
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
 # Manage roles {#manage-roles}
 

@@ -2,7 +2,7 @@
 title: Calculating overlap counts and percentages
 description: Understand how overlap counts and percentages are calculated in various areas of Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
 
 # Calculating overlap counts and percentages

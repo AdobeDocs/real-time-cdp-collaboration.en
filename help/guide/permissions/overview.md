@@ -2,7 +2,7 @@
 title: Access Control Overview
 description: Learn how to gain access to Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
 # Access control overview
 

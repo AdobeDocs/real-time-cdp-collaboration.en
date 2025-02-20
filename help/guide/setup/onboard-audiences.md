@@ -2,7 +2,7 @@
 title: Import and manage audiences
 description: Learn how to import and manage audiences in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 ---
 # Import and manage audiences
@@ -52,7 +52,7 @@ From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and se
 >
 >After connecting to your first data connection and importing your first audience, you can then select to import multiple audiences from this existing data connection. In this case, the workflow will take you directly to the [select audience](#select-audience) step, since all the prerequisite information from the other steps will be imported from the existing connection.
 
-A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. For the first release of Real-Time CDP Collaboration, the only supported data connection is Real-Time CDP.
+A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. For the first release of Real-Time CDP Collaboration, the only supported data connection is Adobe Experience Platform.
 
 Any settings such as identity mapping or scheduling that you configure for your data connection are applied to all the audiences imported from this data connection. 
 
@@ -152,7 +152,7 @@ In the map fields step, you can select how any identity fields for the profiles 
 
 **[!UICONTROL Target fields]** indicate how the identities are referred to in Real-Time CDP Collaboration. The values that you can select here correspond to the match keys that you set up in the company onboarding workflow.
 
-Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Real-Time CDP Collaboration will apply the hashing and transform the fields.
+Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Real-Time CDP Collaboration will apply the hashing and transform the fields. The hashing almorithm used by Adobe is SHA256.
 
 >[!ENDSHADEBOX]
 
