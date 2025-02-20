@@ -43,7 +43,7 @@ Bring in audiences from various sources such as Real-Time CDP, data warehouses (
 
 Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
 
-## Get started {#get-started}
+## Get started
 
 To begin, set up your organization, then connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences. 
 
