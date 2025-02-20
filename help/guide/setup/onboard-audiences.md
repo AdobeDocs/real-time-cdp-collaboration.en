@@ -332,6 +332,10 @@ Audience availability for use in projects with collaborators differs based on th
 >title="Metadata visibility"
 >abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. **Show identity count** controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Show audience overlap** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
 
+>[!NOTE]
+>
+>If your collaborator has all audiences set to private, the **[!UICONTROL Relevant audiences]** view in audience insights will be blank. [Read more](/help/guide/collaborate/discover.md#relevant-audiences).
+
 Indicates which of the audience metadata information is visible to other organizations before they connect with your organization or within different project views.
 
 **[!UICONTROL Show identity count]**: This setting controls whether your partner can view identity counts for your audiences when [viewing overlap reports in the discovery tab](/help/guide/collaborate/discover.md#discover-overlaps). 
