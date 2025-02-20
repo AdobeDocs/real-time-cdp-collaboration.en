@@ -7,4 +7,6 @@ exl-id: caee65fa-63bf-4cb1-80c7-6fdc38c4285b
 ---
 # Discover advertisers
 
-Learn how to discover and connect with potential advertisers for collaboration using Adobe Real-Time CDP Collaboration. This guide will help you identify the right partners and leverage audience data to create mutually beneficial marketing strategies and maximize returns on ad spend on your web properties.
+{{limited-availability-release-note}}
+
+To discover and connect with potential advertisers for collaboration using Adobe Real-Time CDP Collaboration, contact your Adobe representative. 

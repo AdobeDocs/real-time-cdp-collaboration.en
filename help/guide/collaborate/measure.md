@@ -7,9 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 ---
 # Measure performance
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Learn about the available reports in Real-Time CDP Collaboration and understand how to measure and analyze the performance of your marketing campaigns across various channels.
 

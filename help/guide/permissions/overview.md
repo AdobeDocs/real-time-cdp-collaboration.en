@@ -6,9 +6,7 @@ badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/pr
 ---
 # Access control overview
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 >[!IMPORTANT]
 >

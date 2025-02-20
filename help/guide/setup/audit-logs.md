@@ -6,9 +6,7 @@ badgebeta: label="Limited availability" type="Informative" url="https://helpx.ad
 ---
 # Audit Logs
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 In order to increase the transparency and visibility of activities performed in the system, you can audit user activity for various services and capabilities in the form of audit logs in Adobe Real-Time Customer Data Platform (CDP). These logs form an audit trail that can help with troubleshooting issues in Real-Time CDP Collaboration, and help your business effectively comply with corporate data stewardship policies and regulatory requirements.
 

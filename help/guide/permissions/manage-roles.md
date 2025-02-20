@@ -6,9 +6,7 @@ badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/pr
 ---
 # Manage roles {#manage-roles}
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 To manage user access to different components of the Real-Time CDP Collaboration UI, an [administrator](./mange-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target=_blank} in your organization. This guide will provide information on the standard roles provided in Real-Time CDP Collaboration, as well as the individual permissions you that can be assign to custom roles.
 

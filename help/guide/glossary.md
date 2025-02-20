@@ -7,9 +7,7 @@ exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 ---
 # Glossary
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 This glossary provides definitions for key terms identified in the Adobe Real-Time CDP Collaboration product and documentation. Understanding these terms will help you better utilize the product and its features.
 
@@ -33,9 +31,13 @@ A connection request is a formal request sent from one organization to another t
 
 After a connection request is accepted, the initiator of that request sends the connection settings to the collaborator for approval. These connection settings govern the way that the collaborators work together on projects and include match keys to be used, billing ownership, and more. 
 
+<!--
+
 ### Crosswalk
 
 An identity crosswalk is a tool used to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. It creates a bridge between different data points, allowing for a more comprehensive and cohesive view of the data.
+
+-->
 
 ## D
 

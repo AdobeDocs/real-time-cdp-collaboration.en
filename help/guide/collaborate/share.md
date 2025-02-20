@@ -7,9 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 ---
 # Share audiences
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+ {{limited-availability-release-note}}
 
 Learn how to share audiences with your publishers so they can run campaigns. Ensure that you've already run overlap reports in the [Discover tab](/help/guide/collaborate/discover.md) to identify the best audiences for sharing.
 

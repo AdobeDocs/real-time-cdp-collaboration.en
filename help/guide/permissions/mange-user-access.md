@@ -6,9 +6,7 @@ badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/pr
 ---
 # Manage user access through Permissions {#manage-user-access}
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Manage permissions and user access to individual components within Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target=_blank} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md){target=_blank} to manage user access to specific features and resources. 
 

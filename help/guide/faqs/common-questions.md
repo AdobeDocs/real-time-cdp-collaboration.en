@@ -7,6 +7,8 @@ exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
 ---
 # Common questions
 
-**Work in progress**
+{{limited-availability-release-note}}
+
+**This page will be updated with frequently asked questions from customers**
 
 This document provides answers to the most frequently asked questions about Adobe Real-Time CDP Collaboration. Whether you're just getting started or need clarification on specific features, you'll find the information you need here.

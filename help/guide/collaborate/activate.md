@@ -7,9 +7,7 @@ exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 ---
 # Activate audiences
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 As a publisher, discover how to activate audiences using Adobe Real-Time CDP Collaboration. Currently, you can activate audiences to Amazon S3 locations. Additional activation channels are planned.
 
