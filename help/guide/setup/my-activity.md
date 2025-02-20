@@ -69,7 +69,6 @@ To effectively manage your credit consumption:
 1. **Monitor regularly**: Check your activity dashboard frequently to understand usage patterns.
 2. **Track by connection**: Use the connection name to identify which partnerships are consuming the most credits.
 3. **Analyze activity types**: Understand which activities are using the most credits to optimize your operations.
-4. **Review credit share**: Compare your credit share against total credits used to understand cost distribution in partnerships.
 
 <!--
 
