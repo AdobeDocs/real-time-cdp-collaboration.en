@@ -51,9 +51,9 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 To begin using Real-Time CDP Collaboration, system administrators will need to give themselves, product administrators, and end users access. There are multiple required steps dependent on the user and level of access required. Refer to the [access control overview](/help/guide/permissions/overview.md) guide to get started.
 
-To begin, set up your organization, then connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences. 
+Once you have access, you're ready to set up your organization and connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Read the [advertiser and publisher end-to-end workflow](/help/guide/end-to-end-workflow.md) to get started.
 
-View the [advertiser and publisher end-to-end workflow](/help/guide/end-to-end-workflow.md) to get started.
+<!-- Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences.  -->
 
 ## Resources
 
