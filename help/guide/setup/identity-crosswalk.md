@@ -4,6 +4,7 @@ description: Learn all about identity crosswalks in Real-Time CDP Collaboration,
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 hidefromtoc: yes
+hide: yes
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 ---
 # Identity crosswalks
