@@ -31,6 +31,10 @@ What you'll find on this documentation page:
 
 ## Import audiences into Real-Time CDP Collaboration {#import-audiences}
 
+>[!IMPORTANT]
+>
+>To import audiences, your user needs to be assigned to a role containing two Profile Management permissions - View Profiles and View Segments. For information about assigning the necessary permissions, refer to the [audience importation](../permissions/overview.md#audience-importation) guide.
+
 Before you can share audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
 
 ![My audiences screen before any audiences have been added to the org.](/help/assets/setup/add-manage-audiences/org-without-audiences-added.png)
