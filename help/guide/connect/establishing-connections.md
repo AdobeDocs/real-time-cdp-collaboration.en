@@ -31,7 +31,7 @@ Once the items above are completed, the collaborators can proceed to [create a p
 >
 >Once the connection between two collaborators has been established, the connection settings cannot be revised anymore. 
 
-## Send invite
+## Send invite {#send-invite}
 
 To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the discover publishers screen.
 
@@ -58,12 +58,21 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit split"
->abstract="Use the credit split section to determine how the costs for the campaigns will be shared between the two collaborating parties. You can edit the credit split percentage."
+>abstract="This section determines who is paying for the corresponding activities within Real-Time CDP Collaboration. Currently, only the audience sharing use case is configurable."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
+>title="Audience sharing"
+>abstract="Audience Sharing is the activity a party takes when requesting their matched data to be activated by their collaboration partner."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
+
+>[!IMPORTANT]
+>
+>Deleting a connection setting is currently not supported in the Real-Time CDP Collaboration user interface. To delete a connection setting, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target=_blank}. If you decide to delete existing connection settings with a collaoration, you need to restart the [connection invite workflow](#send-invite).
 
 After the invite is sent and accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
 
@@ -89,7 +98,7 @@ Match keys are prefilled with the ones you [selected at your organizational leve
 
 +++Credit split
 
-Use the credit split section to determine how the costs for the campaigns will be shared between the two collaborating parties. You can edit the credit split percentage.
+Use the credit split section to determine which of the two collaborating parties will cover the the costs for the activites.
 
 ![Credit split](/help/assets/connect/establish-connection/edit-billing-ownership.png)
 

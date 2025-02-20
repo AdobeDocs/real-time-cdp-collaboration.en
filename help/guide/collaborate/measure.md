@@ -79,6 +79,6 @@ Understand which medium is driving impressions for your creative. This can help 
 
 ## Next steps
 
-![Discover, share, measure for advertisers.](/help/assets/end-to-end-workflow/discover-share-measure.png)
+![Discover, activate, measure for advertisers.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 In the spirit of the cyclicity in the image above, use the insights you obtained from viewing the reports in planning your next campaign. As an advertiser, ff necessary, go back to discover different publishers and run overlaps to discover different audiences for your next campaigns.

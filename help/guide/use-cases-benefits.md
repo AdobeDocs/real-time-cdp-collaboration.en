@@ -11,16 +11,16 @@ exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 >
 >Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
 
-Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, reach, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
+Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, activate, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
 
-![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-reach-measure.png)
+![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-activate-measure.png)
 
 ## Discover {#discover}
 
 Use dashboards and reports to discover audiences for brand-to-publisher collaboration.
 As an advertiser working with Real-Time CDP Collaboration, access and understand audience overlaps to unlock retargeting, suppression, and possible prospecting opportunities from a wide inventory of publishers.
 
-## Reach {#reach}
+## Activate {#activate}
 
 Publishers can securely activate audiences from Adobe Real-Time CDP, cloud data warehouses (future release), and other systems (future release) for campaigns.
 In a future release, work with the identity partners selected to leverage real identities and use identity crosswalks to expand reach.
@@ -30,6 +30,8 @@ In a future release, work with the identity partners selected to leverage real i
 Combine and explore known customer engagement from various sources such as web impressions and more.
 View campaign performance in simplified and customizable reports.
 
+<!--
+
 ## Sample use cases
 
 Some use cases that you can explore are:
@@ -37,3 +39,5 @@ Some use cases that you can explore are:
 * [Prospecting](/help/guide/use-cases/prospecting.md)
 * [Retargeting](/help/guide/use-cases/retargeting.md)
 * [Suppression](/help/guide/use-cases/suppression.md)
+
+-->
