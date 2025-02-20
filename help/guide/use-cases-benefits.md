@@ -7,9 +7,7 @@ exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 ---
 # Main benefits and use cases of Adobe Real-Time CDP Collaboration
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, activate, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
 

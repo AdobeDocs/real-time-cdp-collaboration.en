@@ -7,6 +7,8 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 ---
 # Manage data connections
 
+{{limited-availability-release-note}}
+
 ## Overview
 
 Use data connections in Real-Time CDP Collaboration to import audiences from various sources. Learn how to manage match keys, schedule data imports, and configure use cases for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
