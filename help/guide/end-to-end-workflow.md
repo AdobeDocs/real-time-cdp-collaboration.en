@@ -2,14 +2,12 @@
 title: End to end workflow
 description: Understand the end to end workflow of using Real-Time CDP Collaboration as an advertiser or publisher
 audience: admin, publisher, advertiser
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 ---
 # End to end workflow
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers and publishers to collaborate on campaigns in a privacy-first manner. Read this page to understand the workflow to get the most out of the product, as an advertiser or publisher.
 

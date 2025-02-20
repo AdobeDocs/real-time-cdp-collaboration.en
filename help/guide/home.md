@@ -2,14 +2,12 @@
 title: Overview
 description: Learn how to use Adobe Real-Time Customer Data Platform (CDP) Collaboration to discover, reach, and measure high-value audiences without relying on third-party cookies.
 audience: admin, publisher, advertiser
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 ---
 # Adobe Real-Time CDP Collaboration
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 ## Overview
 
@@ -29,7 +27,7 @@ Publishers can securely access and activate advertiser audiences across multiple
 
 Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-safe engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement automation is not available in the first release.
 
-## Privacy focused
+## Privacy-focused
 
 Embedded controls ensure that governance and privacy requirements are met, guiding the responsible use of audience data at every step of your workflows.
 
@@ -47,7 +45,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 -->
 
-## Get started
+## Get started {#get-started}
 
 To begin using Real-Time CDP Collaboration, system administrators will need to give themselves, product administrators, and end users access. There are multiple required steps dependent on the user and level of access required. Refer to the [access control overview](/help/guide/permissions/overview.md) guide to get started.
 

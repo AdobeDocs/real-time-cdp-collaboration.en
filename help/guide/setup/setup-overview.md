@@ -2,14 +2,12 @@
 title: Setup Overview
 description: Understand all available options and workflows in the setup section of Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 ---
 # Overview of the setup section
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 The setup section in Real-Time CDP Collaboration is your go-to place to add information about your company as you get started with the product. This screen is also the place to return to for managing various resources, such as audiences details or match keys.
 

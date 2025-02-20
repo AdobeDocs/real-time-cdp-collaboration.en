@@ -2,14 +2,12 @@
 title: Activate audiences
 description: As a publisher, learn how to activate in campaigns audiences shared with you by your collaborator. 
 audience: admin, publisher
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 ---
 # Activate audiences
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 As a publisher, discover how to activate audiences using Adobe Real-Time CDP Collaboration. Currently, you can activate audiences to Amazon S3 locations. Additional activation channels are planned.
 

@@ -2,14 +2,12 @@
 title: Import and manage audiences
 description: Learn how to import and manage audiences in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 ---
 # Import and manage audiences
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Audiences are specific groups of users or customers segmented based on various attributes. These enable advertisers and publishers to collaborate on targeted marketing and personalized experiences for more effective advertising campaigns.
 
@@ -54,7 +52,7 @@ From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and se
 >
 >After connecting to your first data connection and importing your first audience, you can then select to import multiple audiences from this existing data connection. In this case, the workflow will take you directly to the [select audience](#select-audience) step, since all the prerequisite information from the other steps will be imported from the existing connection.
 
-A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. For the first release of Real-Time CDP Collaboration, the only supported data connection is Real-Time CDP.
+A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. For the first release of Real-Time CDP Collaboration, the only supported data connection is Adobe Experience Platform.
 
 Any settings such as identity mapping or scheduling that you configure for your data connection are applied to all the audiences imported from this data connection. 
 
@@ -154,7 +152,7 @@ In the map fields step, you can select how any identity fields for the profiles 
 
 **[!UICONTROL Target fields]** indicate how the identities are referred to in Real-Time CDP Collaboration. The values that you can select here correspond to the match keys that you set up in the company onboarding workflow.
 
-Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Real-Time CDP Collaboration will apply the hashing and transform the fields.
+Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Real-Time CDP Collaboration will apply the hashing and transform the fields. The hashing almorithm used by Adobe is SHA256.
 
 >[!ENDSHADEBOX]
 
@@ -246,7 +244,7 @@ You can view the following relevant information about each audience:
 |----------|---------|
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences usually populate with profiles within 24-hours. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Connection access]** | Defines whether this audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
 | **[!UICONTROL Created]** | Indicates when this audience was imported into Real-Time CDP Collaboration. |
@@ -268,7 +266,7 @@ Metrics that you can view in this screen are described below:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the beta release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of this audience was updated. |
 | **[!UICONTROL Last updated by]** | Indicates the user who last updated this audience. |

@@ -2,14 +2,12 @@
 title: Track your credit consumption activity
 description: Learn how to track your organization's credit consumption activity in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgebeta: label="Limited availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 ---
 
 # Track your credit consumption activity
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a limited availability release, available to US customers only. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Use the **[!UICONTROL My Activity]** tab to monitor and track your organization's estimated credit consumption across all collaboration activities. This feature provides detailed insights into how credits are being used across different connections and activities, helping you manage your resources effectively.
 

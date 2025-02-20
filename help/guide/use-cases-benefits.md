@@ -2,14 +2,12 @@
 title: Main benefits and use cases of Adobe Real-Time CDP Collaboration
 description: Understand the main benefits and use cases of Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 ---
 # Main benefits and use cases of Adobe Real-Time CDP Collaboration
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, activate, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
 

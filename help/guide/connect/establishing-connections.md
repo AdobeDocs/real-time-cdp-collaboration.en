@@ -2,14 +2,12 @@
 title: Connect with advertisers or publishers
 description: After discovering potential collaborators, learn how to establish connections and start collaborating on projects.
 audience: admin, publisher, advertiser
-badgebeta: label="Beta" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 ---
 # Connect with advertisers or publishers
 
->[!AVAILABILITY]
->
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently a beta product, available to select customers. The product and documentation are subject to change. Contact your Adobe representative to learn more.
+{{limited-availability-release-note}}
 
 Establishing a connection between two parties of a collaboration (most commonly an advertiser and a publisher) is the prerequisite in Real-Time CDP Collaboration to companies working together on campaigns. Publishers and advertisers alike can set up connections. Whichever party initiates the connection will afterwards be the *connection owner*. 
 
