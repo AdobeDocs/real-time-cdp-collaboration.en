@@ -2,7 +2,7 @@
 title: Import and manage audiences
 description: Learn how to import and manage audiences in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 ---
 # Import and manage audiences
@@ -44,7 +44,7 @@ From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and se
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing actions"
->abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox *enabled*, any data that is marked with the labels called out above will be imported into Real-Time CDP Collaboration.</li><li> With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5 and C9 data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview" text="Data usage labels overview"
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference" text="Data usage labels glossary"
 

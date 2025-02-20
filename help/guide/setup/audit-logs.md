@@ -2,7 +2,7 @@
 title: Audit Logs
 description: Learn how to use the Audit Logs functionality in Real-Time CDP Collaboration to track user activities and changes.
 audience: admin
-badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 ---
 # Audit Logs
 

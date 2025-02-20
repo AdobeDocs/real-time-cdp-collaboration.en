@@ -2,7 +2,7 @@
 title: Manage user access through Permissions
 description: Manage permissions and users access to different components of the Real-Time CDP Collaboration UI.
 audience: admin
-badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 ---
 # Manage user access through Permissions {#manage-user-access}
 
