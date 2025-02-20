@@ -1,6 +1,6 @@
 # Snippets
 
-## Limited availability relese note {#limited-availability-release-note}
+## Limited availability release note {#limited-availability-release-note}
 
 >[!AVAILABILITY]
 >
