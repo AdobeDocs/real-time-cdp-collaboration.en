@@ -2,7 +2,7 @@
 title: Discover overlaps and compare audiences
 description: Discover overlaps between your and your collaborators' audiences. Learn how to discover the best audiences for use in your campaigns.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2b-edition-prime-and-ultimate-packages.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 ---
 # Discover overlaps and compare audiences
