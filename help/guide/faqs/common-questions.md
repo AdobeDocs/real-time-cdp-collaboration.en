@@ -9,6 +9,18 @@ exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
 
 {{limited-availability-release-note}}
 
-**This page will be updated with frequently asked questions from customers**
+This document provides answers to the most frequently asked questions about Adobe Real-Time CDP Collaboration. Whether you're just getting started or need clarification on specific features, you can find the information you need here.
 
-This document provides answers to the most frequently asked questions about Adobe Real-Time CDP Collaboration. Whether you're just getting started or need clarification on specific features, you'll find the information you need here.
+## Missing permissions and cannot access the product
+
+I am seeing this screen when trying to access Real-Time CDP Collaboration. How can I get the necessary permissions to use the product?
+
+![Permissions unavailable screen when accessing Real-Time CDP Collaboration](/help/assets/reference/common-questions/permissions-missing-screen.png)
+
++++Select to view the answer
+
+If you are an end user, you need to contact your company's system or product administrator. 
+
+If you are a system or product administrator, read the permissions guide to understand how to grant yourself and your colleagues the correct permissions to use Real-Time CDP Collaboration. Start with the [access control overview](/help/guide/permissions/overview.md). 
+
++++
