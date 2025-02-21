@@ -55,7 +55,7 @@ Once you have access, you're ready to set up your organization and connect your 
 
 ## Resources
 
-Explore the [glossary](/help/guide/glossary.md) for detailed information on terms used in the product. For support, access the Adobe [Customer Support](https://business.adobe.com/support.html) page.
+Explore the [glossary](/help/guide/glossary.md) for detailed information on terms used in the product. For support, access the Adobe [Customer Support](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support) page.
 
 ## Contact us
 
