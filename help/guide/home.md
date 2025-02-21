@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Learn how to use Adobe Real-Time Customer Data Platform (CDP) Collaboration to discover, reach, and measure high-value audiences without relying on third-party cookies.
+description: Learn how to use Adobe Real-Time Customer Data Platform (CDP) Collaboration to discover, activate, and measure high-value audiences without relying on third-party cookies.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
@@ -55,7 +55,7 @@ Once you have access, you're ready to set up your organization and connect your 
 
 ## Resources
 
-Explore the [glossary](/help/guide/glossary.md) for detailed information on terms used in the product. For support, access the Adobe [Customer Support](https://business.adobe.com/support.html) page.
+Explore the [glossary](/help/guide/glossary.md) for detailed information on terms used in the product. For support, access the Adobe [Customer Support](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support) page.
 
 ## Contact us
 

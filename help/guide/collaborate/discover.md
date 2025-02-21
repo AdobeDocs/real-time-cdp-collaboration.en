@@ -54,22 +54,22 @@ Once the prerequisites noted above are met, you can start exploring and comparin
 >title="Overlapping identities percentage"
 >abstract="The percentage of profiles overlapping between your and your collaborator's selected audience."
 
-Use the compare audiences card to get rich information about the overlap between your and your collaborator's audiences. You can select to compare any of the following combinations:
+Use the compare audiences card to get rich information about the overlap between your and your collaborator's audiences. You can select to compare any of the following audience combinations:
 
 * One of your audiences against one of your collaborator's audiences
 * One of your audiences against all of your collaborator's audiences
-* All your audiences against all of your collaborator's audiences
 * All your audiences against one of your collaborator's audiences
+* All your audiences against all of your collaborator's audiences
 
 The information displayed relates to:
 
 |Metric | Description |
 |---------|----------|
-| Identity count (yours) | The number of profiles with a selected identity that are part of your selected audience. |
-| Identity count (your collaborator) | The number of profiles with a selected identity that are part of your collaborator's selected audience. |
-| Overlapping identities | The number of profiles with a selected identity that are present both in your and your collaborator's audience |
-| Overlap percentage | The percentage of profiles overlapping between your and your collaborator's selected audience. |
-| Identities breakdown by match key | Based on the match keys you and your collaborator agreed on for the project, view the composition of the identities in the overlap calculations by individual match keys. |
+| **[!UICONTROL Identity count]** (yours) | The number of profiles with a selected identity that are part of your selected audience. |
+| **[!UICONTROL Identity count]** (your collaborator) | The number of profiles with a selected identity that are part of your collaborator's selected audience. |
+| **[!UICONTROL Overlapping identities]** | The number of profiles with a selected identity that are present both in your and your collaborator's audience. |
+| **[!UICONTROL Overlap percentage]** | The percentage of profiles overlapping between your and your collaborator's selected audience. |
+| **[!UICONTROL Identities breakdown by match key]** | Based on the match keys you and your collaborator agreed on for the project, view the composition of the identities in the overlap calculations by individual match keys. |
 
 {style="table-layout:auto"}
 
