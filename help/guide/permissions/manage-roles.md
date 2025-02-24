@@ -37,12 +37,12 @@ Below is a list of available permissions within the Collaborations resource:
 | Read Connection Invites | View connection invites. |
 | Manage Collaboration Connections | An advertiser can view, create, and update settings as well as submit and delete connections. A publisher can view, accept, or decline connections. |
 | Read Collaboration Connections | View connections. |
-| Manage Audience Data | Onboard and discover audiences. Update public, private, and custom audiences and manage Audience Inventory metadata settings |
-| Read Audience Data | Read and discover audiences. Update public, private, and custom audiences and manage Audience Inventory metadata settings. |
+| Manage Audience Data | Onboard and discover audiences. Update public, private, and custom audiences and manage Audience Inventory metadata settings. |
+| Read Audience Data | Read and discover audiences. |
 | Manage Measurement Data | Onboard, update, and delete measurement data. |
 | Read Measurement Data | Read measurement data. |
-| Manage Projects | View, create, update, and delete projects. |
-| Read Projects | View projects. |
+| Manage Projects | View, create, update, and delete projects for any of the discover, share, activate, and measurement activities. |
+| Read Projects | View projects for any of the discover, share, activate, and measurement activities. |
 | Read User Activities | Read user activities. |
 | Export User Activities | Export user activities. |
 | Read Collaboration Credit Monitoring | Credit monitoring at the organization and instance level. |
