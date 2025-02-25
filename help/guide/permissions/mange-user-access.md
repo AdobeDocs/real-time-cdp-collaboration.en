@@ -115,6 +115,10 @@ When configuring individual access to Real-Time CDP Collaboration, you'll assign
 - creating [custom roles](./manage-roles.md#specific-access-roles) using the Collaboration resource
 - the list of permissions included in the Collaborations resource
 
+>[!NOTE]
+>
+>Additionally, a user must be assigned to a role containing the **[!UICONTROL Prod]** permission in the **[!UICONTROL Sandboxes]** resources. Both standard roles contain this permission. If you choose to assign a user a custom role instead of a standard role, you must ensure one of the roles they are assigned to contain this permission.
+
 Once you've chosen or created a role that encompasses the level of access your user needs, you need to assign the user to that role.
 
 #### Assign a role
