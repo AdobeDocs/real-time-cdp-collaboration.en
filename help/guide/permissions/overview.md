@@ -3,6 +3,7 @@ title: Access Control Overview
 description: Learn how to gain access to Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
 ---
 # Access control overview
 
@@ -94,4 +95,3 @@ Below, you can see an example role with the above permissions added. For more in
 ## Next steps
 
 Once you've determined where to begin, follow your use case's link to get started configuring access. If you're wanting to learn about configuring access to Real-Time CDP Collaboration as an administrator beyond those use cases, refer to the [manage user access](mange-user-access.md) guide. To learn about roles and their part in configuring access to various components of Real-Time CDP Collaboration, refer to the [manage roles](manage-roles.md) guide.
-

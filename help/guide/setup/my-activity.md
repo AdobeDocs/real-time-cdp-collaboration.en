@@ -3,8 +3,8 @@ title: Track your credit consumption activity
 description: Learn how to track your organization's credit consumption activity in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 ---
-
 # Track your credit consumption activity
 
 {{limited-availability-release-note}}

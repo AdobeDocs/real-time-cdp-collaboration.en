@@ -3,6 +3,7 @@ title: Manage user access through Permissions
 description: Manage permissions and users access to different components of the Real-Time CDP Collaboration UI.
 audience: admin
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 ---
 # Manage user access through Permissions {#manage-user-access}
 
@@ -138,5 +139,4 @@ The user should now see **[!UICONTROL RTCDP Collaboration]** listed as a product
 
 ## Next Steps
 
-Now that users have access to Real-Time CDP Collaboration, they can begin using the product. To learn more about the product as a whole, read the [overview guide](../home.md). 
-
+Now that users have access to Real-Time CDP Collaboration, they can begin using the product. To learn more about the product as a whole, read the [overview guide](../home.md).
