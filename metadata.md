@@ -5,7 +5,6 @@ product: experience cloud
 type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.en
-hide: yes
 ---
 
 # Metadata for internal use
