@@ -45,8 +45,8 @@ From the **[!UICONTROL My audiences]** tab, select the Plus **+** symbol, and se
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing actions"
 >abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5 and C9 data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.</li></ul></p>"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview.html" text="Data usage labels overview"
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference.html" text="Data usage labels glossary"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Data usage labels overview"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Data usage labels glossary"
 
 >[!IMPORTANT]
 >
@@ -130,13 +130,13 @@ Next, provide a name and a description for you to recognize this data connection
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Identity namespaces"
 >abstract="Select an identity namespace from the standard and custom identity namespaces available in your Experience Platform organization."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces.html#standard" text="Standard and identity namespaces in Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Standard and identity namespaces in Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profile attributes"
 >abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
