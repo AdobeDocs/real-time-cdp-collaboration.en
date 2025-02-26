@@ -19,8 +19,8 @@ There are two standard roles provided to you that fill two common access control
 
 | Role name | Role description | Permissions |
 | --- | --- | --- | 
-| Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to read, create, and edit all data. It also provides access to the **[!UICONTROL Prod]** sandbox. | All from the table below. |
-| Collaboration Viewers | This is a read-only access permission. A user can read and discover data, activities, connections, and more. It also provides access to the **[!UICONTROL Prod]** sandbox. | All read permissions from the table below. |
+| Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to read, create, and edit all data. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All from the table below. |
+| Collaboration Viewers | This is a read-only access permission. A user can read and discover data, activities, connections, and more. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All read permissions from the table below. |
 
 {style="table-layout:auto"}
 
@@ -29,7 +29,7 @@ There are two standard roles provided to you that fill two common access control
 You'll likely want to create additional roles to provide varying levels of access to different users. When creating roles, you can manage different access levels by selecting specific permissions within the **[!UICONTROL Collaborations]** resource. To learn how to create and manage roles, refer to the [roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target=_blank} guide.
 
 >[!NOTE]
-> To gain access to Real-Time CDP Collaboration, a user must have access to the **[!UICONTROL Prod]** sandbox. To give a user access to this sandbox, they must be assigned to a role containing the **[!UICONTROL Prod]** permission in the **[!UICONTROL Sandboxes]** resource. 
+> To gain access to Real-Time CDP Collaboration, a user must have access to the **[!UICONTROL Prod]** sandbox in Experience Platform. To give a user access to this sandbox, they must be assigned to a role containing the **[!UICONTROL Prod]** permission in the **[!UICONTROL Sandboxes]** resource. 
 
 Below is a list of available permissions within the Collaborations resource:
 
