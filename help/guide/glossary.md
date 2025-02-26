@@ -49,6 +49,10 @@ A secure collaboration environment which allows two or more participants to leve
 
 Data collaboration involves combining and analyzing data within a company or alongside partners for various purposes, such as audience targeting, measurement, and insights. Data collaboration platforms offer secure environments to share data safely while meeting privacy and security concerns.
 
+### Data connection
+
+A data connection is the source of data from where you can import data into Real-Time CDP Collaboration. Currently, Experience Platform is the only available data connection. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md).
+
 ### Data sharing agreement
 
 A data sharing agreement is a formal contract between two or more parties outlining the terms and conditions for sharing data. It ensures that all parties comply with legal and privacy requirements and establishes guidelines for data usage and protection.
@@ -63,11 +67,15 @@ A device identifier is a unique number associated with a device, such as a smart
 
 An invite in Adobe Real-Time CDP Collaboration refers to a request sent to another user or organization to join a project or data collaboration effort. Invites help facilitate secure and controlled access to shared data and resources.
 
+<!--
+
 ## J
 
 ### Join key
 
 In the context of identity crosswalks, a join key is a unique identifier used to match and link different identifiers across datasets, enabling the integration and unification of audience data from various sources. For example, a hashed email (HEM) can be a join key.
+
+-->
 
 ## M
 
@@ -79,7 +87,7 @@ Match keys are unique identifiers used to link records across different datasets
 
 ### Overlap
 
-Overlap refers to the common audience segments that exist between different datasets. Understanding audience overlap helps identify potential collaboration opportunities and allows for more targeted marketing efforts by leveraging shared audience data.
+An overlap (or audience overlap) refers to the common audience segments that exist between different datasets. Understanding audience overlap helps identify potential collaboration opportunities and allows for more targeted marketing efforts by leveraging shared audience data.
 
 ## P
 
@@ -93,7 +101,7 @@ Within the context of projects, this is an audience that is discoverable by your
 
 ### Publisher
 
-A Publisher is an owner or operator of online content or services where personal data is collected with consent and is available for use by other entities for for digital advertising and audience measurement.
+A Publisher is an owner or operator of online content or services where personal data is collected with consent and is available for use by other entities for digital advertising and audience measurement.
 
 ## U
 
