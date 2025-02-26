@@ -51,7 +51,7 @@ Data collaboration involves combining and analyzing data within a company or alo
 
 ### Data connection
 
-A data connection is the source of data from where you can import data into Real-Time CDP Collaboration. Currently, Experience Platform is the only available data connection. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md).
+A data connection is the source from where you can import data into Real-Time CDP Collaboration. Currently, Experience Platform is the only available data connection. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md).
 
 ### Data sharing agreement
 
