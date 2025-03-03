@@ -20,7 +20,7 @@ Before you can access the measurement reports in Real-Time CDP Collaboration, yo
 
 <!--
 
-## Create a report {#create-a-report}
+## Create a report {#create-report}
 
 Hidden until functionality is live. At that point, move the contextualhelp from bel
 
