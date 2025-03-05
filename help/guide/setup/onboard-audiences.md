@@ -332,7 +332,7 @@ Audience availability for use in projects with collaborators differs based on th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
->abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. **Show identity count** controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Show audience overlap** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
+>abstract="<p>Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. </p> <p> **Identity count** controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
 
 >[!NOTE]
 >
