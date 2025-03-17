@@ -4,6 +4,7 @@ solution: Real-Time Customer Data Platform
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2
+index: y
 git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.en
 ---
 
