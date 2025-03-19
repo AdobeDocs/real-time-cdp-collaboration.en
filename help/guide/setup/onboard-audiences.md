@@ -209,13 +209,17 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 ### Schedule {#schedule}
 
-Schedule when to start and end populating the audiences. The audience membership will be refreshed according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option.
+Schedule when to start and end populating and refreshing the audiences. The audience membership will be refreshed according to this schedule. 
+
+![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
+
+Select the refresh rate for the audiences. Available options are between one and six-day refresh rates.
+
+![Schedule screen showing different frequency intervals for updating audience membership.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
 
 >[!IMPORTANT]
 >
 >After the end date in the date range, all audiences imported from this data connection will stop refreshing. To renew the connection, go to [Manage data connection](/help/guide/setup/manage-data-connection.md), and set a new end date.
-
-![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
 ### Select audiences {#select-audience}
 
