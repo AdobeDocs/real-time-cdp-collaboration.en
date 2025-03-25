@@ -84,7 +84,7 @@ The available use cases for the first release of Real-Time CDP Collaboration are
 >title="Supported partner IDs"
 >abstract="Partner IDs associated with profiles expand the reach to a certain profile."
 
-Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
+Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement.
 
 ![Slide showing the available identifiers for the first release of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 

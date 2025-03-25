@@ -9,7 +9,7 @@ exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers and publishers to collaborate on campaigns in a privacy-first manner. Read this page to understand the workflow to get the most out of the product, as an advertiser or publisher.
+Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers and publishers to collaborate on campaigns in a privacy-centric manner. Read this page to understand the workflow to get the most out of the product, as an advertiser or publisher.
 
 ## Advertiser end-to-end workflow {#advertiser}
 
