@@ -215,6 +215,10 @@ Schedule when to start and end populating and refreshing the audiences. The audi
 
 Select the refresh rate for the audiences. Available options are between one and six-day refresh rates.
 
+>[!IMPORTANT]
+>
+>Adjusting the frequency of audience updates will help manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities), which is calculated per audience membership refresh. The impact of this may be less fresh data available for audience discover reports and audience sharing and activation.
+
 ![Schedule screen showing different frequency intervals for updating audience membership.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
 
 >[!IMPORTANT]
