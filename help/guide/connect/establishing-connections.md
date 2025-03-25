@@ -114,6 +114,21 @@ After you have made your selection, select **[!UICONTROL Submit]** to send the s
 
 If you are receiving proposed connection settings from your collaborator, you can either **[!UICONTROL Accept]** or **[!UICONTROL Reject]** those settings. Before accepting the connection settings, you need to acknowledge and confirm that a legal agreement is in place between you and the collaborator. If you are rejecting connection settings, reach out to your collaborator outside of the product and discuss how they should revise the connection settings for you to accept them.
 
+# Delete connections
+
+You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections: 
+
+1. Navigate to **[!UICONTROL Connect]** > **[!UICONTROL My connections]**.
+2. Select **[!UICONTROL View connection]** to access the connection that you want to delete.
+3. Select the delete icon ![delete icon](/help/assets/common/delete.svg) to bring up the delete connection confirmation dialog.
+    ![Delete connection icon highlighted.](/help/assets/connect/establish-connection/delete-icon-highlighted.png)
+4. Confirm the deletion by selecting **[!UICONTROL Delete]**.
+    ![Dialog to confirm deletion of a connection. ](/help/assets/connect/establish-connection/delete-connection-dialog.png)
+
+>[!WARNING]
+>
+>Once the connection is deleted, you will no longer be connected with the collaborator and all existing projects tht are part of the collaboration will be permanently deleted and unrecoverable.
+
 ## Next steps
 
 After establishing a connection with your collaborator, you and your collaborator can now [create projects](/help/guide/collaborate/manage-projects.md#create-project).
