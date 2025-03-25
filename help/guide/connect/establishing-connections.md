@@ -114,7 +114,7 @@ After you have made your selection, select **[!UICONTROL Submit]** to send the s
 
 If you are receiving proposed connection settings from your collaborator, you can either **[!UICONTROL Accept]** or **[!UICONTROL Reject]** those settings. Before accepting the connection settings, you need to acknowledge and confirm that a legal agreement is in place between you and the collaborator. If you are rejecting connection settings, reach out to your collaborator outside of the product and discuss how they should revise the connection settings for you to accept them.
 
-# Delete connections
+## Delete connections {#delete-connections}
 
 You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections: 
 
