@@ -119,15 +119,15 @@ If you are receiving proposed connection settings from your collaborator, you ca
 You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections: 
 
 1. Navigate to **[!UICONTROL Connect]** > **[!UICONTROL My connections]**.
-2. Select **[!UICONTROL View connection]** to access the connection that you want to delete.
+2. Select **[!UICONTROL View connection]** on the connection card to access the connection that you want to delete.
 3. Select the delete icon ![delete icon](/help/assets/common/delete.svg) to bring up the delete connection confirmation dialog.
-    ![Delete connection icon highlighted.](/help/assets/connect/establish-connection/delete-icon-highlighted.png)
+    ![Delete connection icon highlighted.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
 4. Confirm the deletion by selecting **[!UICONTROL Delete]**.
-    ![Dialog to confirm deletion of a connection. ](/help/assets/connect/establish-connection/delete-connection-dialog.png)
+    ![Dialog to confirm deletion of a connection. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >
->Once the connection is deleted, you will no longer be connected with the collaborator and all existing projects tht are part of the collaboration will be permanently deleted and unrecoverable.
+>Once the connection is deleted, you will no longer be connected with the collaborator and all existing projects that are part of the collaboration will be permanently deleted and unrecoverable.
 
 ## Next steps
 
