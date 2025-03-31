@@ -13,11 +13,11 @@ Find out how to discover and connect with potential publishers for collaboration
 
 To discover publishers, go to the **[!UICONTROL Connect]** > **[!UICONTROL Discover publishers]** tab.
 
-![Discover publishers page](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes}
+![Discover publishers page](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
 Select **[!UICONTROL View publisher]** to learn more about the publisher. You can also view and inspect any public audiences that the publisher has decided to share.
 
-![View publisher profile](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes}
+![View publisher profile](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
 ## My connections
 
@@ -25,7 +25,7 @@ Use the **[!UICONTROL My connections]** view to understand where any action is r
 
 Under **[!UICONTROL Action required]**, you can see a list of all connections where an invite has been sent but the connection has not been established yet. An action might be required, from your organization or from the collaborator. 
 
-![Action required view in the My connections screen](/help/assets/connect/discover-publishers/action-required-view.png){zoomable="yes}
+![Action required view in the My connections screen](/help/assets/connect/discover-publishers/action-required-view.png){zoomable="yes"}
 
 Some reasons why a connection is displayed in the **[!UICONTROL Action required]** view are:
 
@@ -36,4 +36,4 @@ Some reasons why a connection is displayed in the **[!UICONTROL Action required]
 
 In the **[!UICONTROL Existing connections]** view, you can explore existing connections with collaborators and proceed to create projects to start collaborating on campaigns.  
 
-![Existing connections view in the My connections screen](/help/assets/connect/discover-publishers/existing-connections-view.png){zoomable="yes}
+![Existing connections view in the My connections screen](/help/assets/connect/discover-publishers/existing-connections-view.png){zoomable="yes"}

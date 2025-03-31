@@ -15,8 +15,6 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 
 After [creating a project](/help/guide/collaborate/manage-projects.md){target="_blank"} within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation.
 
-<!-- CHECK ON MONDAY, UPDATE ALL SCREENSHOTS FOR THIS, SHARE AND ACTIVATE. GO THROUGH ALL OTHER CHANGES FILES AND ADD ZOOM AND TARGET AND FINALISE -->
-
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
 The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect/establishing-connections.md#connection-settings){target="_blank"}. To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings){target="_blank"} between the collaborators.

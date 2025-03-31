@@ -23,11 +23,11 @@ Before managing your data connections here, you should initially set them up dur
 
 To view existing data connections, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, and select **[!UICONTROL Manage data connections]**.
 
-![View of the audiences screen, with Manage data connections highlighted.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
+![Setup workspace with Manage data connections highlighted.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
 
 This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more. Select **[!UICONTROL View data connection]** to view information about the match keys, scheduling, and the audiences that are part of this data connection. 
 
-![View of the data connection screen, with View data connections highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes}
+![Manage data connections workspace with a connections View data connections highlighted. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
 ### Match keys {#match-keys}
 
@@ -42,7 +42,7 @@ Match keys are identifiers used to reconcile members across audiences from diffe
 
 You cannot edit the match keys used in this data connection.
 
-![View of the data connection, with Match keys highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes}
+![A data connections workspace with the Match keys section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### Scheduling {#scheduling}
 
@@ -53,13 +53,13 @@ You cannot edit the match keys used in this data connection.
 
 You cannot edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
 
-![View of the data connection, with Scheduling highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+![A data connections workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## Manage audiences {#manage-audiences}
 
 When viewing the list of audiences from your data connection, you can select to view the audiences, edit their categories, or remove them from the data connection.
 
-![View of the data connection, with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
+![A data connections workspace with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## Next steps
 
