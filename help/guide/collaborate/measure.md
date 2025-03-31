@@ -11,7 +11,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Share]** workspace is only available if you're a publisher and the **Campaign measurement** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#view-projects){target="_blank"} guide.
+>The **[!UICONTROL Measure]** workspace is only available if the **Campaign measurement** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#view-projects){target="_blank"} guide.
 
 Learn about the available reports in Real-Time CDP Collaboration and understand how to measure and analyze the performance of your marketing campaigns across various channels.
 
