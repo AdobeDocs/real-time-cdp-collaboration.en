@@ -9,15 +9,21 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 
  {{limited-availability-release-note}}
 
-Learn how to share audiences with your publishers so they can run campaigns. Ensure that you've already run overlap reports in the [Discover tab](/help/guide/collaborate/discover.md) to identify the best audiences for sharing.
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Share]** workspace is only available if the **Audience sharing and activation** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#view-projects){target="_blank"} guide.
+
+As an advertiser, learn how to share audiences with your publishers so they can run campaigns. If your collaboration has enabled the **Discover audiences** use case, start by running overlap reports in the [Discover tab](/help/guide/collaborate/discover.md){target="_blank"} to identify the best audiences for sharing.
 
 ## Share new audiences
 
-To start sharing audiences, navigate to the **[!UICONTROL Share]** tab in your project workspace. In this tab, you can review and manage shared audiences.
+To start sharing audiences, navigate to the **[!UICONTROL Share]** tab in your project workspace. Only **advertiser organizations** can share audiences for campaigns. In this tab, you can review and manage shared audiences. 
+
+Select the **Plus symbol (+)**, or the **[!UICONTROL Share audience]** option if no previous audiences have been shared, to begin the audience sharing process.
 
 ![Default view with no audiences shared.](/help/assets/collaborate/share/share-new-audiences.png)
 
-Select the **Plus symbol (+)** to begin the audience sharing process. A new panel appears, where you can select the audiences that you want to share with your collaborator. 
+ A new panel appears, where you can select the audiences that you want to share with your collaborator. 
 
 ![Share new audiences workflow.](/help/assets/collaborate/share/share-audiences-workflow.png)
 

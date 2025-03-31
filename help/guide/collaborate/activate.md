@@ -9,13 +9,19 @@ exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 
 {{limited-availability-release-note}}
 
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Share]** workspace is only available if you're a publisher and the **Audience sharing and activation** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#view-projects){target="_blank"} guide.
+
 As a publisher, discover how to activate audiences using Adobe Real-Time CDP Collaboration. Currently, you can activate audiences to Amazon S3 locations. Additional activation channels are planned.
 
-Only *publisher organizations* can activate audiences for campaigns. Advertiser organizations can [share audiences](/help/guide/collaborate/share.md) with publishers, who will activate these audiences in projects. Read more about the [end-to-end workflow](/help/guide/end-to-end-workflow.md) for advertisers and publishers.
+Only **publisher organizations** can activate audiences for campaigns. Advertiser organizations can [share audiences](/help/guide/collaborate/share.md) with publishers, who will activate these audiences in projects. Read more about the [end-to-end workflow](/help/guide/end-to-end-workflow.md) for advertisers and publishers.
 
 ## Prerequisites {#prerequisites}
 
 As a publisher using Real-Time CDP Collaboration, you must first work with the Adobe enablement and engineering team to set up a connection to your desired Amazon S3 location. Once this is set up, you are able to activate, or export, audiences from Real-Time CDP Collaboration to your Amazon S3 location. Contact your Adobe representative to kick off this workflow.
+
+Additionally, your connection must have the **Audience sharing and activation** use case enabled.
 
 ## Activation behavior {#activation-behavior}
 

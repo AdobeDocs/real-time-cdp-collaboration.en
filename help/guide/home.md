@@ -13,7 +13,7 @@ exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 
 With Adobe Real-Time Customer Data Platform (CDP) Collaboration, you can discover, activate, and measure high-value audiences without relying on third-party cookies. This solution enables advanced data collaboration between advertisers and publishers, helping you create personalized and impactful customer experiences in a privacy-safe, centralized environment.
 
-![Real-Time CDP Collaboration homepage](/help/assets/overview/homepage.png)
+![Real-Time CDP Collaboration homepage](/help/assets/overview/homepage.png){zoomable="yes"}
 
 ## Identify audiences through trusted partners
 
@@ -47,7 +47,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Get started {#get-started}
 
-To begin using Real-Time CDP Collaboration, system administrators need to give themselves, product administrators, and end users access. There are multiple required steps dependent on the user and level of access required. Refer to the [access control overview](/help/guide/permissions/overview.md) guide to get started.
+To begin using Real-Time CDP Collaboration, system administrators need to give themselves, product administrators, and end users access. There are multiple required steps dependent on the user and level of access required. Refer to the [access control overview](/help/guide/permissions/overview.md){target=_"blank"} guide to get started.
 
 Once you have access, you're ready to set up your organization and connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Read the [advertiser and publisher end-to-end workflow](/help/guide/end-to-end-workflow.md) to get started.
 
@@ -55,7 +55,7 @@ Once you have access, you're ready to set up your organization and connect your 
 
 ## Resources
 
-Explore the [glossary](/help/guide/glossary.md) for detailed information on terms used in the product. For support, access the Adobe [Customer Support](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support) page.
+Explore the [glossary](/help/guide/glossary.md){target="_blank"} for detailed information on terms used in the product. For support, access the Adobe [Customer Support](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} page.
 
 ## Contact us
 
