@@ -11,9 +11,9 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 
 ## Overview
 
-Use data connections in Real-Time CDP Collaboration to import audiences from various sources. Learn how to manage match keys, schedule data imports, and configure use cases for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
+Use data connections in Real-Time CDP Collaboration to import audiences from various sources. Learn how to manage match keys and schedule data imports for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
 
-Before managing your data connections here, you should initially set them up during the [audience onboarding workflow](./onboard-audiences.md). This will ensure the correct data sources are connected for use in Real-Time CDP Collaboration.
+Before managing your data connections here, you should initially set them up during the [audience onboarding workflow](./onboard-audiences.md){target="_blank"}. This will ensure the correct data sources are connected for use in Real-Time CDP Collaboration.
 
 ## View data connections
 
@@ -23,11 +23,11 @@ Before managing your data connections here, you should initially set them up dur
 
 To view existing data connections, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, and select **[!UICONTROL Manage data connections]**.
 
-![View of the audiences screen, with Manage data connections highlighted.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
+![Setup workspace with Manage data connections highlighted.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png){zoomable="yes"}
 
-This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more. Select **[!UICONTROL View data connection]** to view information about the match keys, scheduling, use cases, and the audiences that are part of this data connection. 
+This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more. Select **[!UICONTROL View data connection]** to view information about the match keys, scheduling, and the audiences that are part of this data connection. 
 
-![View of the data connection screen, with View data connections highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
+![Manage data connections workspace with a connections View data connections highlighted. ](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png){zoomable="yes"}
 
 ### Match keys {#match-keys}
 
@@ -42,7 +42,7 @@ Match keys are identifiers used to reconcile members across audiences from diffe
 
 You cannot edit the match keys used in this data connection.
 
-![View of the data connection, with Match keys highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
+![A data connections workspace with the Match keys section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### Scheduling {#scheduling}
 
@@ -53,39 +53,13 @@ You cannot edit the match keys used in this data connection.
 
 You cannot edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
 
-![View of the data connection, with Scheduling highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
-
-<!--
-
-### Use cases {#use-cases}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_manage_dataconnections_usecases"
->title="Use cases"
->abstract="Use cases selection is not part of the beta release of Real-Time CDP Collaboration"
-
->[!IMPORTANT]
->
->In the beta release, the use cases are preselected and do not have an effect on campaigns.
-
-Use cases define how the imported audience data can be leveraged in Real-Time CDP Collaboration. Available use cases include:
-
-- **Discover**
-- **Share**
-- **Activate**
-- **Measure**
-
-You can configure different use cases for each match key (for example hashed email, hashed phone number). To modify use case settings, select the **[!UICONTROL Edit]** button in the Use Cases section.
-
-![View of the data connection, with Use cases highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-use-cases.png)
-
--->
+![A data connections workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## Manage audiences {#manage-audiences}
 
 When viewing the list of audiences from your data connection, you can select to view the audiences, edit their categories, or remove them from the data connection.
 
-![View of the data connection, with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png)
+![A data connections workspace with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## Next steps
 
