@@ -15,7 +15,7 @@ These release notes cover the functionality released in Real-Time Customer Data 
 
 ## March 2025
 
-* When [importing audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration, you can now set an audience refresh frequency from **every 1 to 6 days** to better manage the [Audience Management credit activity](/help/guide/setup/my-activity.md.html#types-of-activities){target=_blank}. [Read more](/help/guide/setup/onboard-audiences.md#schedule){target=_blank}.
+* When [importing audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration, you can now set an audience refresh frequency from **every 1 to 6 days** to better manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities){target=_blank}. [Read more](/help/guide/setup/onboard-audiences.md#schedule){target=_blank}.
 * When establishing a connection with a collaborator, you can now select from predefined **use cases**. The selected use case determines which project sections and product functionality become available. [Read more](/help/guide/collaborate/manage-projects.md#project-use-cases){target=_blank}.
     * *Campaign measurement* enables the **Measure** project section.
     * *Audience discovery* enables the **Discover** project section.
