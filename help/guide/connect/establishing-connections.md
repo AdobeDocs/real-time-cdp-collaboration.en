@@ -88,7 +88,7 @@ You can edit and define the fields below:
 
 +++Use cases
 
-Use cases are prefilled with all available use cases. You can choose which you cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#view-projects){target="_blank"}.
+Use cases are prefilled with all available use cases. You can choose which you cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases){target="_blank"}.
 
 ![Use cases](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 

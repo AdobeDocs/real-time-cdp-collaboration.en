@@ -11,7 +11,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#view-projects){target="_blank"} guide.
+>The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases){target="_blank"} guide.
 
 After [creating a project](/help/guide/collaborate/manage-projects.md){target="_blank"} within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation.
 

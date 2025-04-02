@@ -33,14 +33,14 @@ Next, select the collaborator that you are creating the project with. Provide a 
 
 You can now view your new project and its details.
 
-## View individual projects and next steps {#view-projects}
+## Project use cases {#project-use-cases}
 
 Drill into individual projects to run overlap reports, discover and share audiences with your collaborator, and view measurement information. To view extensive information about these areas that form an individual project, select **[!UICONTROL View]**. The project surface consists of up to four sections, each offering you a rich set of options and controls. Available project sections depend on the use cases selected in the connection process, as follows:
 
 | Use case | Project section |
 | --- | --- |
-| Campaign measurement | [Measure](/help/guide/collaborate/measure.md){target="_blank"} |
-| Audience discovery | [Discover](/help/guide/collaborate/discover.md){target="_blank"} |
-| Audience sharing and activation | [Share](/help/guide/collaborate/share.md){target="_blank"}, [Activate](/help/guide/collaborate/activate.md) (publisher-only){target="_blank"} |
+| Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md){target="_blank"} section and all availabile functionality. |
+| Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md){target="_blank"} section and all availabile functionality. |
+| Audience sharing and activation | This use case grants access to the [Share](/help/guide/collaborate/share.md){target="_blank"} and [Activate](/help/guide/collaborate/activate.md) (publisher-only){target="_blank"} sections and all availabile functionality. |
 
 ![The project view with the available sections highlighted.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}
