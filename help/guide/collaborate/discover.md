@@ -11,6 +11,10 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 
 After [creating a project](/help/guide/collaborate/manage-projects.md) within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation, depending on the desired use case.
 
+>[!IMPORTANT]
+>
+>Any [data sketches](/help/guide/glossary.md#sketches) that are not updated or refreshed will be deleted after 7 days. When this happens, the figures displayed in the various overlap reports on this page go to zero and audience sharing becomes unavailable for these expired audiences. Data sketches are refreshed automatically for audiences with an [active refresh schedule](/help/guide/setup/onboard-audiences.md#schedule).
+
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
 The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect/establishing-connections.md#connection-settings). To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings) between the collaborators.
