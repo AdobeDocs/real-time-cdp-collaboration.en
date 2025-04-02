@@ -70,7 +70,7 @@ Once the collaborator accepts the invite, you can configure the connection setti
 
 >[!IMPORTANT]
 >
->Deleting a connection setting is currently not supported in the Real-Time CDP Collaboration user interface. To delete a connection setting, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target=_blank}. If you decide to delete existing connection settings with a collaoration, you need to restart the [connection invite workflow](#send-invite).
+>Deleting a connection setting is currently not supported in the Real-Time CDP Collaboration user interface. To delete a connection setting, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"}. If you decide to delete existing connection settings with a collaoration, you need to restart the [connection invite workflow](#send-invite).
 
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
