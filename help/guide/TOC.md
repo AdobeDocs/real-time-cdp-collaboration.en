@@ -41,3 +41,4 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * Reference {#reference}
   * [Common questions and troubleshooting tips](./faqs/common-questions.md)
   * [Glossary](./glossary.md)
+* [Latest release notes](/help/guide/release-notes/latest.md)
