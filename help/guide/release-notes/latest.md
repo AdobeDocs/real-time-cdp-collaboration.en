@@ -3,8 +3,8 @@ title: Latest Real-Time CDP Collaboration Release Notes
 description: Follow the latest releases for Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 ---
-
 # Latest Real-Time CDP Collaboration Release Notes
 
 {{limited-availability-release-note}}
