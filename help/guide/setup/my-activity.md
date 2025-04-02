@@ -21,7 +21,7 @@ To access your estimated credit consumption activity, navigate to **[!UICONTROL 
 
 >[!TIP]
 >
->The **[!UICONTROL My activity]** view does not include information about user actions in different parts of the Real-Time Collaboration CDP user interface. Use the [audit logs](/help/guide/setup/audit-logs.md){target=_blank} functionality to get that information. 
+>The **[!UICONTROL My activity]** view does not include information about user actions in different parts of the Real-Time Collaboration CDP user interface. Use the [audit logs](/help/guide/setup/audit-logs.md){target="_blank"} functionality to get that information. 
 
 ## Understand your activity dashboard
 
