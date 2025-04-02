@@ -21,7 +21,6 @@ These release notes cover the functionality released in Real-Time Customer Data 
     * *Audience discovery* enables the **Discover** project section.
     * *Audience sharing and activation* enables the **Share** and **Activate** *(publisher-only)* project sections.
 
-
 ## February 2025 - General availability for US customers
 
 Real-Time CDP Collaboration, purpose-built to enable advertisers and publishers to discover, activate, and measure high-value audiences without third-party cookies, is now generally available in the United States.
