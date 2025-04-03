@@ -11,9 +11,9 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Share]** workspace is only available if the **Audience sharing and activation** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases){target="_blank"} guide.
+>The **[!UICONTROL Share]** workspace is only available if the **Audience sharing and activation** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-As an advertiser, learn how to share audiences with your publishers so they can run campaigns. If your collaboration has enabled the **Discover audiences** use case, start by running overlap reports in the [Discover tab](/help/guide/collaborate/discover.md){target="_blank"} to identify the best audiences for sharing.
+As an advertiser, learn how to share audiences with your publishers so they can run campaigns. If your collaboration has enabled the **Discover audiences** use case, start by running overlap reports in the [Discover tab](/help/guide/collaborate/discover.md) to identify the best audiences for sharing.
 
 ## Share new audiences
 
