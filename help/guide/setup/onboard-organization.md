@@ -30,7 +30,7 @@ The workflow to set up your organization includes the two pages below:
 
 >[!IMPORTANT]
 >
->Any *match keys* that you select at the organization level will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md){target="_blank"} in the collaboration between advertisers and publishers. At the project level, you are then able to remove any match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.
+>Any *match keys* that you select at the organization level will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md) in the collaboration between advertisers and publishers. At the project level, you are then able to remove any match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.
 
 ### Set up details {#set-up-details}
 
@@ -38,7 +38,7 @@ The workflow to set up your organization includes the two pages below:
 
 1. Add an **[!UICONTROL Organization name]** for your company.
 2. Add a **[!UICONTROL Description]** about your company.
-3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md){target="_blank"} to see similarities and slight differences in workflow between the two organizational role types.
+3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 4. Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 5. Select the **[!UICONTROL Region]** for your organization. In the current version of the product, **[!UICONTROL North America]** is the preset default selection.
 6. <span class="preview"> Publisher-only</span>: When setting up a publisher organization, you must read and acknowledge that you will be discoverable by advertisers in the publisher catalog.

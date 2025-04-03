@@ -15,7 +15,7 @@ Establishing a connection between two parties of a collaboration (most commonly 
 
 At a high level, to establish a connection between an advertiser and a publisher, the workflow looks like below:
 
-1. The advertiser [browses publishers and discovers](/help/guide/connect/discover-publishers.md){target="_blank"} one that they would like to work with 
+1. The advertiser [browses publishers and discovers](/help/guide/connect/discover-publishers.md) one that they would like to work with 
 2. The advertiser sends a connection invite.
 3. The publisher accepts the invite.
 4. The advertiser sends connection settings including match keys and others. These connection settings represent the in-product terms of the collaboration.
@@ -23,7 +23,7 @@ At a high level, to establish a connection between an advertiser and a publisher
 
 ![High-level diagram of the advertiser-publisher connection process.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
 
-Once the items above are completed, the collaborators can proceed to [create a project](/help/guide/collaborate/manage-projects.md#create-project){target="_blank"} to [run overlap reports](/help/guide/collaborate/discover.md){target="_blank"} and kick off advertising campaigns.
+Once the items above are completed, the collaborators can proceed to [create a project](/help/guide/collaborate/manage-projects.md#create-project) to [run overlap reports](/help/guide/collaborate/discover.md) and kick off advertising campaigns.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ You can edit and define the fields below:
 
 +++Use cases
 
-Use cases are prefilled with all available use cases. You can choose which you cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases){target="_blank"}.
+Use cases are prefilled with all available use cases. You can choose which you cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases).
 
 ![Use cases](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
@@ -96,7 +96,7 @@ Use cases are prefilled with all available use cases. You can choose which you c
 
 +++Match keys
 
-Match keys are prefilled with the ones you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys){target="_blank"}. You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
+Match keys are prefilled with the ones you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
 
 ![Match keys](/help/assets/connect/establish-connection/match-keys.png)
 

@@ -11,9 +11,9 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases){target="_blank"} guide.
+>The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-After [creating a project](/help/guide/collaborate/manage-projects.md){target="_blank"} within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation.
+After [creating a project](/help/guide/collaborate/manage-projects.md) within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation.
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ After [creating a project](/help/guide/collaborate/manage-projects.md){target="_
 
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
-The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect/establishing-connections.md#connection-settings){target="_blank"}. To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings){target="_blank"} between the collaborators.
+The match keys used to discover and compare audiences are set when you [connect with a publisher](/help/guide/connect/establishing-connections.md#connection-settings). To change the overlap percentages indicated in preparation for running campaigns, you can remove match keys, but you cannot add new match keys at this point. To do that, head to the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings) between the collaborators.
 
 ![Edit match keys screen](/help/assets/collaborate/discover-overlaps/edit-match-keys.png)
 
@@ -29,9 +29,9 @@ The match keys used to discover and compare audiences are set when you [connect 
 
 To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the **[!UICONTROL Collaborate]** workflow, you have already:
 
-* [Imported audiences](/help/guide/setup/onboard-audiences.md){target="_blank"}
-* [Connected](/help/guide/connect/establishing-connections.md){target="_blank"} with a desired advertiser or publisher with the **Audience discovery** use case enabled
-* [Created a project](/help/guide/collaborate/manage-projects.md){target="_blank"} between you and a collaborator
+* [Imported audiences](/help/guide/setup/onboard-audiences.md)
+* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher with the **Audience discovery** use case enabled
+* [Created a project](/help/guide/collaborate/manage-projects.md) between you and a collaborator
 
 Once the prerequisites noted above are met, you can start exploring and comparing the overlap between your and your collaborator's audiences.
 
@@ -83,7 +83,7 @@ The information displayed relates to:
 
 >[!TIP]
 >
->The overlap percentage figure may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility){target="_blank"}.
+>The overlap percentage figure may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ## Relevant audiences {#relevant-audiences}
 
@@ -113,7 +113,7 @@ Get extensive information about any of your collaborator's audiences and view ov
 
 >[!TIP]
 >
->Some of the numbers indicated in the screenshot may not be always available for all audiences. Their visibility depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility){target="_blank"}.
+>Some of the numbers indicated in the screenshot may not be always available for all audiences. Their visibility depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
 ## Next steps
 

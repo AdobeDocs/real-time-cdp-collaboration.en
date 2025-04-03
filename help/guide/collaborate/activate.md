@@ -11,7 +11,7 @@ exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Activate]** workspace is only available if you're a publisher and the **Audience sharing and activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings){target="_blank"}. For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases){target="_blank"} guide.
+>The **[!UICONTROL Activate]** workspace is only available if you're a publisher and the **Audience sharing and activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
 As a publisher, discover how to activate audiences using Adobe Real-Time CDP Collaboration. Currently, you can activate audiences to Amazon S3 locations. Additional activation channels are planned.
 
