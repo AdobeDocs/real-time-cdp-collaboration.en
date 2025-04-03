@@ -29,7 +29,7 @@ Under **[!UICONTROL Action required]**, you can see a list of all connections wh
 
 Some reasons why a connection is displayed in the **[!UICONTROL Action required]** view are:
 
-* Your organization has sent a collaboration invite to another organization and you are waiting for them to accept. At this point, you can preview the [connection settings](/help/guide/glossary.md#connection-settings){target="_blank"} that you can later submit to the prospective collaborator.
+* Your organization has sent a collaboration invite to another organization and you are waiting for them to accept. At this point, you can preview the [connection settings](/help/guide/glossary.md#connection-settings) that you can later submit to the prospective collaborator.
 * Your organization has sent a collaboration invite to another organization and they have accepted it. At this point, you can proceed and set up the connection settings and submit them to the collaborator for approval.
 * Your organization has sent connection settings to the collaborator and you are waiting on them to accept or reject the proposed connection settings.
 * Your organization has sent connection settings to the collaborator and they have rejected your proposal. You can now revise the connection settings and resend. 

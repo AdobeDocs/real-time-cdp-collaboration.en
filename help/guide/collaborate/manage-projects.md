@@ -39,8 +39,8 @@ Drill into individual projects to run overlap reports, discover and share audien
 
 | Use case | Project section |
 | --- | --- |
-| Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md){target="_blank"} section and all availabile functionality. |
-| Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md){target="_blank"} section and all availabile functionality. |
-| Audience sharing and activation | This use case grants access to the [Share](/help/guide/collaborate/share.md){target="_blank"} and [Activate](/help/guide/collaborate/activate.md) (publisher-only){target="_blank"} sections and all availabile functionality. |
+| Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md) section and all availabile functionality. |
+| Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md) section and all availabile functionality. |
+| Audience sharing and activation | This use case grants access to the [Share](/help/guide/collaborate/share.md) and [Activate](/help/guide/collaborate/activate.md) (publisher-only) sections and all availabile functionality. |
 
 ![The project view with the available sections highlighted.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}
