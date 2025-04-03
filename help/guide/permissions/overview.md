@@ -60,14 +60,14 @@ Refer to the chart below to determine who is needed to configure the privileges 
 
 | Use case | Required role | Where to begin | 
 | --- | --- | --- | 
-| Super user with no existing Experience Platform product access. | A system administrator. | [Configure product administrator access](./mange-user-access.md#admin-access) |
-| Super user for an existing Experience Platform system administrator **with** Experience Platform UI access. | A system administrator. | [Configure Real-Time CDP Collaboration access](./mange-user-access.md#RTCDP-collab-access) |
-| Super user for an existing Experience Platform system administrator **without** Experience Platform UI access. | A system administrator. | [Configure product administrator access](./mange-user-access.md#admin-access) |
-| Product administrator privileges and Real-Time CDP Collaboration access for a new product administrator. | A system administrator. | [Configure product administrator access](./mange-user-access.md#admin-access) |
-| Real-Time CDP Collaboration access for an existing Experience Platform product administrator **with** Experience Platform UI access. | A system or product administrator. | [Configure Real-Time CDP Collaboration access](./mange-user-access.md#RTCDP-collab-access) |
-| Real-Time CDP Collaboration access for an existing Experience Platform product administrator **without** Experience Platform UI access. | A system or product administrator. | [Configure user access](./mange-user-access.md#user-access) |
-| Real-Time CDP Collaboration access for a new end user. | A system or product administrator. | [Configure user access](./mange-user-access.md#user-access) |
-| Real-Time CDP Collaboration access for an existing user with Experience Platform access. | A system or product administrator. | [Configure Real-Time CDP Collaboration access](./mange-user-access.md#RTCDP-collab-access) |
+| Super user with no existing Experience Platform product access. | A system administrator. | [Configure product administrator access](./manage-user-access.md#admin-access) |
+| Super user for an existing Experience Platform system administrator **with** Experience Platform UI access. | A system administrator. | [Configure Real-Time CDP Collaboration access](./manage-user-access.md#RTCDP-collab-access) |
+| Super user for an existing Experience Platform system administrator **without** Experience Platform UI access. | A system administrator. | [Configure product administrator access](./manage-user-access.md#admin-access) |
+| Product administrator privileges and Real-Time CDP Collaboration access for a new product administrator. | A system administrator. | [Configure product administrator access](./manage-user-access.md#admin-access) |
+| Real-Time CDP Collaboration access for an existing Experience Platform product administrator **with** Experience Platform UI access. | A system or product administrator. | [Configure Real-Time CDP Collaboration access](./manage-user-access.md#RTCDP-collab-access) |
+| Real-Time CDP Collaboration access for an existing Experience Platform product administrator **without** Experience Platform UI access. | A system or product administrator. | [Configure user access](./manage-user-access.md#user-access) |
+| Real-Time CDP Collaboration access for a new end user. | A system or product administrator. | [Configure user access](./manage-user-access.md#user-access) |
+| Real-Time CDP Collaboration access for an existing user with Experience Platform access. | A system or product administrator. | [Configure Real-Time CDP Collaboration access](./manage-user-access.md#RTCDP-collab-access) |
 
 {style="table-layout:auto"}
 
@@ -94,4 +94,4 @@ Below, you can see an example role with the above permissions added. For more in
 
 ## Next steps
 
-Once you've determined where to begin, follow your use case's link to get started configuring access. If you're wanting to learn about configuring access to Real-Time CDP Collaboration as an administrator beyond those use cases, refer to the [manage user access](mange-user-access.md) guide. To learn about roles and their part in configuring access to various components of Real-Time CDP Collaboration, refer to the [manage roles](manage-roles.md) guide.
+Once you've determined where to begin, follow your use case's link to get started configuring access. If you're wanting to learn about configuring access to Real-Time CDP Collaboration as an administrator beyond those use cases, refer to the [manage user access](manage-user-access.md) guide. To learn about roles and their part in configuring access to various components of Real-Time CDP Collaboration, refer to the [manage roles](manage-roles.md) guide.
