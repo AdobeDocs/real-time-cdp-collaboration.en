@@ -51,7 +51,7 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Match keys"
->abstract="Match keys are prefilled with the ones you selected at your organizational level. You can toggle off any match keys that you do not want to use in this connection."
+>abstract="Match keys are prefilled with the ones that you selected at your organizational level. You can toggle off any match keys that you do not want to use in this connection."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -61,22 +61,18 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Audience sharing"
->abstract="Audience Sharing is the activity a party takes when requesting their matched data to be activated by their collaboration partner."
+>abstract="Audience Sharing is the activity that a party takes when requesting their matched data to be activated by their collaboration partner."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
 
->[!IMPORTANT]
->
->Deleting a connection setting is currently not supported in the Real-Time CDP Collaboration user interface. To delete a connection setting, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"}. If you decide to delete existing connection settings with a collaoration, you need to restart the [connection invite workflow](#send-invite).
-
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
 ![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
-One the connection is accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
+Once the connection is accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
 
 To set up and share connection settings with your collaborator, navigate to **[!UICONTROL My connections]**. For any connections with the status **[!UICONTROL Pending]**, you can select **[!UICONTROL Set up connection]** to configure the connection settings. 
 
@@ -88,7 +84,7 @@ You can edit and define the fields below:
 
 +++Use cases
 
-Use cases are prefilled with all available use cases. You can choose which you cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases).
+Use cases are prefilled with all available use cases. You can choose which use cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases).
 
 ![Use cases](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
@@ -96,7 +92,7 @@ Use cases are prefilled with all available use cases. You can choose which you c
 
 +++Match keys
 
-Match keys are prefilled with the ones you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
+Match keys are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
 
 ![Match keys](/help/assets/connect/establish-connection/match-keys.png)
 
@@ -104,7 +100,7 @@ Match keys are prefilled with the ones you [selected at your organizational leve
 
 +++Credit split
 
-Use the credit split section to determine which of the two collaborating parties will cover the the costs for the activites.
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities.
 
 ![Credit split](/help/assets/connect/establish-connection/edit-billing-ownership.png)
 
