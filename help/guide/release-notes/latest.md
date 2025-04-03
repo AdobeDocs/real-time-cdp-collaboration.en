@@ -27,7 +27,7 @@ Real-Time CDP Collaboration, purpose-built to enable advertisers and publishers 
 
 ### Get started
 
-1. **Access Setup**: System administrators configure access permissions for users. [Read more](/help/guide/permissions/mange-user-access.md#RTCDP-collaboration-access){target="_blank"}.
+1. **Access Setup**: System administrators configure access permissions for users. [Read more](/help/guide/permissions/manage-user-access.md#RTCDP-collaboration-access){target="_blank"}.
 2. **Connect Data Sources**: Import audiences to use in Real-Time CDP Collaboration. [Read more](/help/guide/setup/onboard-audiences.md){target="_blank"}.
 3. **Establish Partner Connections**: Begin collaborating with trusted brands or publishers. [Read more](/help/guide/connect/establishing-connections.md){target="_blank"}.
 4. **Discover & Activate**: Create projects to identify valuable audience segments and activate in campaigns. [Read more](/help/guide/collaborate/manage-projects.md){target="_blank"}.
