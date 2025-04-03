@@ -85,15 +85,15 @@ Next, you must make sure that the correct marketing actions are set on the impor
 
 Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
 
-Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target=_blank}.
+Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * With the checkbox *enabled*, any data that is marked with the labels called out above in Experience Platform is excluded and is *not* brought into Real-Time CDP Collaboration.
 * With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.
 
 Read more about data usage labels in the Experience Platform documentation:
 
-* [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target=_blank}
-* [Data usage labels glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target=_blank}
+* [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Data usage labels glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Required marketing actions for data collaboration.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -209,13 +209,21 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 ### Schedule {#schedule}
 
-Schedule when to start and end populating the audiences. The audience membership will be refreshed according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option.
+Schedule when to start and end populating and refreshing the audiences. The audience membership will be refreshed according to this schedule. 
+
+![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
+
+Select the refresh rate for the audiences. Available options are between one and six-day refresh rates.
+
+>[!IMPORTANT]
+>
+>Adjusting the frequency of audience updates will help manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities), which is calculated per audience membership refresh. The impact of this may be less fresh data available for audience discover reports and audience sharing and activation.
+
+![Schedule screen showing different frequency intervals for updating audience membership.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
 
 >[!IMPORTANT]
 >
 >After the end date in the date range, all audiences imported from this data connection will stop refreshing. To renew the connection, go to [Manage data connection](/help/guide/setup/manage-data-connection.md), and set a new end date.
-
-![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
 ### Select audiences {#select-audience}
 

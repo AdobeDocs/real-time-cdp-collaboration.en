@@ -31,7 +31,7 @@ As a publisher, start by [onboarding your company](/help/guide/setup/onboard-org
 
 Decide which audience data to import and which audiences to make discoverable and viewable to the advertisers who are looking to connect with you in the **[!UICONTROL Connect]** area of the product.
 
-As you import audiences into Real-Time CDP Collaboration, make sure to tag and categorize the audiences. Real-Time CDP Collaboration follows the established [IAB taxonomy](https://www.iab.com/guidelines/content-taxonomy/){target=_blank} for categorizing audiences.
+As you import audiences into Real-Time CDP Collaboration, make sure to tag and categorize the audiences. Real-Time CDP Collaboration follows the established [IAB taxonomy](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} for categorizing audiences.
 
 Decide which advertisers you would like to work with and contact the advertiser to discuss collaboration terms outside of the product. Once agreed on a set of terms, wait for the advertiser to extend a formal connection invite to connect with you. Generally, you should also monitor pending connection requests from advertiser brands who are looking to work with you on campaigns. Review the connection settings proposed by your potential collaborator and agree or amend those before starting the collaboration.
 
