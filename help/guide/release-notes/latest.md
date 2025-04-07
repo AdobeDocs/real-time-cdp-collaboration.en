@@ -15,11 +15,11 @@ These release notes cover the functionality released in Real-Time Customer Data 
 
 ## March 2025
 
-* When [importing audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration, you can now set an audience refresh frequency from **every 1 to 6 days** to better manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities). [Read more](/help/guide/setup/onboard-audiences.md#schedule).
+* When [importing audiences](/help/guide/setup/onboard-audiences.md) into Real-Time CDP Collaboration, you can now set an audience refresh frequency from **every 1 to 6 days** to better manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities). [Read more](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Schedule screen showing different frequency intervals for updating audience membership.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "Schedule screen showing different frequency intervals for updating audience membership."){width="250" align="center" zoomable="yes"}
 * When establishing a connection with a collaborator, you can now select from predefined **use cases**. The selected use case determines which project sections and product functionality become available. [Read more](/help/guide/collaborate/manage-projects.md#project-use-cases).
     * *Campaign measurement* enables the **Measure** project section.
     * *Audience discovery* enables the **Discover** project section.
-    * *Audience sharing and activation* enables the **Share** and **Activate** *(publisher-only)* project sections.
+    * *Audience sharing and activation* enables the **Share** and **Activate** *(publisher-only)* project sections. <br> ![Use cases highlighted in the connection view.](/help/assets/release-notes/2025/use-cases.png "Use cases highlighted in the connection view."){width="250" align="center" zoomable="yes"}
 * You can now delete connections with collaborators you no longer wish to work with. [Read more](/help/guide/connect/establishing-connections.md#delete-connections). 
 
 
