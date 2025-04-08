@@ -64,7 +64,7 @@ Collaboration Measurement – Credits are consumed as a function of the number o
 
 To effectively manage your credit consumption:
 
-1. **Understand** the credit consumpton associated with each activity. Check the [Real-Time CDP Collaboration Product Description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} for a table of collaboration credits used per activity.   
+1. **Understand** the credit consumpton associated with each activity. Check the [Real-Time CDP Collaboration product description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} for a table of collaboration credits used per activity.   
 2. **Monitor regularly**: Check your activity dashboard frequently to understand usage patterns.
 3. **Track by connection**: Use the connection name to identify which partnerships are consuming the most credits.
 
