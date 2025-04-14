@@ -9,6 +9,12 @@ exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 
 {{limited-availability-release-note}}
 
+>[!BEGINSHADEBOX]
+
+**90-Day No-Overage Period**: Customers in eligible regions will benefit from a 90-day no-overage period starting from the date of availability in their region. During this time, customers will not incur overage fees for exceeding their base credit entitlement.
+
+>[!ENDSHADEBOX]
+
 Use the **[!UICONTROL My Activity]** tab to monitor and track your organization's estimated credit consumption across all collaboration activities. This feature provides detailed insights into how credits are being used across different connections and activities, helping you manage your resources effectively.
 
 >[!IMPORTANT]
