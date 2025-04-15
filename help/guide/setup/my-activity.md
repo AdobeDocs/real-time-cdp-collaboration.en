@@ -11,7 +11,19 @@ exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 
 >[!BEGINSHADEBOX]
 
-**90-Day No-Overage Period**: Customers in eligible regions will benefit from a 90-day no-overage period starting from the date of availability in their region. During this time, customers will not incur overage fees for exceeding their base credit entitlement.
+**90-Day No-Overage Period**: Customers in eligible regions benefit from a 90-day no-overage period starting from the date of availability in their region. During this time, customers do not incur overage fees for exceeding their credit entitlement.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+**Current promotional period - 90-day no-overage period for customers in the Austrialia and New Zealand region**: Customers in the Austrialia and New Zealand regions benefit from a 90-day no-overage period starting from the date of availability, `insert date`. During this time, customers do not incur overage fees for exceeding their credit entitlement.
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+**Current promotional period - 90-day no-overage period for customers in the APAC region**: Customers in the Asia-Pacific regions benefit from a 90-day no-overage period starting from the date of availability, `insert date`. During this time, customers do not incur overage fees for exceeding their credit entitlement.
 
 >[!ENDSHADEBOX]
 
