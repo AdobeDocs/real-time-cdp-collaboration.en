@@ -30,7 +30,7 @@ The workflow to set up your organization includes the two pages below:
 
 >[!IMPORTANT]
 >
->Any *match keys* that you select at the organization level will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md) in the collaboration between advertisers and publishers. At the project level, you are then able to remove any match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.  
+>Any *match keys* that you select at the organization level will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md) in the collaboration between advertisers and publishers. At the project level, you are then able to remove any match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.
 
 ### Set up details {#set-up-details}
 
