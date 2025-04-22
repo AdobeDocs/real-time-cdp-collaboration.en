@@ -23,7 +23,7 @@ To access your estimated credit consumption activity, navigate to **[!UICONTROL 
 >
 >The **[!UICONTROL My activity]** view does not include information about user actions in different parts of the Real-Time Collaboration CDP user interface. Use the [audit logs](/help/guide/setup/audit-logs.md) functionality to get that information. 
 
-## Understand your activity dashboard
+## Understand your activity dashboard {#understand-dashboard}
 
 The activity dashboard displays a comprehensive list of all credit-consuming operations within your organization. Each row represents a distinct activity and provides key information about the credit usage:
 
@@ -31,14 +31,15 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 >
 >**[!UICONTROL Audience Management]** activities are not associated with another collaborator, so the **[!UICONTROL Connection ID]** and **[!UICONTROL Connection name]** columns for these activity types indicate a **[!UICONTROL N/A]** value.
 
-| Column | Description |
-|--------|-------------|
-| **[!UICONTROL Date]** | The date when the activity occurred, displayed in MM/DD/YYYY format. |
+| Column   | Description  |
+|------------|--------------|
+| **[!UICONTROL Date]**   | The date when the activity occurred, displayed in MM/DD/YYYY format.  |
 | **[!UICONTROL Connection ID]** | A unique identifier for each connection associated with a credit-consuming activity, represented as an alphanumeric string. |
 | **[!UICONTROL Connection name]** | The name of the collaborator associated with the connection and the credit-consuming activity. |
 | **[!UICONTROL Activity]** | The type of activity performed, such as **Activation - Sharing**, **Activation - Egress**, or **Audience management**. |
+| **[!UICONTROL Inputs processed]** | The total number of inputs (for example, IDs or rows) processed for the activity, measured in millions. This helps you understand the cost of the activity by correlating it with your CPM (cost per thousand) to calculate the rough cost. |
 | **[!UICONTROL Total credits used]** | The total number of credits consumed by the activity. |
-| **[!UICONTROL My credit share]** | Your organization's portion of the credits used for the activity. |
+| **[!UICONTROL My credit share]** | Your organization's portion of the credits used for the activity.  |
 
 {style="table-layout:auto"}
 
