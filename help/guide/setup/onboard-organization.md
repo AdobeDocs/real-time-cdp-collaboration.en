@@ -34,6 +34,11 @@ The workflow to set up your organization includes the two pages below:
 
 ### Set up details {#set-up-details}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_contact_email"
+>title="Email address"
+>abstract="Please provide a team or role-based email, such as collaboration@yourcompany.com. Personal or individual email addresses should not be used."
+
 ![The details and use cases steps to set up an organization](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
 1. Add an **[!UICONTROL Organization name]** for your company.
