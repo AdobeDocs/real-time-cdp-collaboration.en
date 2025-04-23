@@ -78,7 +78,7 @@ Select any match keys that you want to use when reconciling members of publisher
 
 ![Match keys selection step.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-Select up to five match keys that you plan to use. Later, when setting up connections, you can remove unwanted match keys but cannot add new ones.
+Select up to five match keys that you plan to use. Later, when setting up connections, you can remove unwanted match keys but cannot add new ones. Set the identity count threshold (minimum count) for each selected match key. Match keys with fewer than the minimum count will not appear in the identity breakdowns for some use cases.
 
 Available match keys in Real-Time CDP Collaboration can be of three types:
 
