@@ -37,7 +37,7 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 | **[!UICONTROL Connection ID]** | A unique identifier for each connection associated with a credit-consuming activity, represented as an alphanumeric string. |
 | **[!UICONTROL Connection name]** | The name of the collaborator associated with the connection and the credit-consuming activity. |
 | **[!UICONTROL Activity]** | The type of activity performed, such as **Activation - Sharing**, **Activation - Egress**, or **Audience management**. |
-| **[!UICONTROL Inputs processed]** | The total number of inputs (for example, IDs or rows) processed for the activity, measured in millions. This helps you understand the cost of the activity by correlating it with your CPM (cost per thousand) to calculate the rough cost. |
+| **[!UICONTROL Inputs processed]** | The total number of inputs (for example, IDs or rows) processed for the activity.|
 | **[!UICONTROL Total credits used]** | The total number of credits consumed by the activity. |
 | **[!UICONTROL My credit share]** | Your organization's portion of the credits used for the activity.  |
 
