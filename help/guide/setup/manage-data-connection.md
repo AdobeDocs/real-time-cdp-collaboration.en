@@ -47,7 +47,7 @@ You cannot edit the scheduling options that you selected initially for your data
 
 ## Delete data connection
 
-Deleting this data connection will remove all underlying audiences, associated settings, and usage across the platform. This action cannot be undone.
+Deleting a data connection will remove all underlying audiences, associated settings, and usage across the platform. This action cannot be undone.
 
 To delete an existing data connection, select the delete icon (![Delete icon](/help/assets/common/delete.svg)) within an individual data connection's workspace.
 
