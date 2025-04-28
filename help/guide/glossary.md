@@ -103,6 +103,19 @@ Within the context of projects, this is an audience that is discoverable by your
 
 A Publisher is an owner or operator of online content or services where personal data is collected with consent and is available for use by other entities for digital advertising and audience measurement.
 
+## S
+
+### Sketches {#sketches}
+
+Sketches (or data sketches) are simplified summaries of audience data used in Real-Time CDP Collaboration. They allow brands and publishers to analyze audience overlaps and insights without sharing actual customer data. Think of them like anonymous headcounts rather than detailed customer profiles.
+In Adobe Real-Time CDP Collaboration, data sketches:
+
+* Help determine how similar two audiences are
+* Maintain privacy while enabling collaboration
+* Need to be refreshed at least every 7 days to remain valid
+
+If sketches aren't refreshed regularly, audience overlap reports will show zero values and audience sharing may become temporarily unavailable. Data sketches are automatically refreshed whenever an audience membership is updated in Real-Time CDP Collaboration.
+
 ## U
 
 ### Use case

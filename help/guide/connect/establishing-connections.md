@@ -21,7 +21,7 @@ At a high level, to establish a connection between an advertiser and a publisher
 4. The advertiser sends connection settings including match keys and others. These connection settings represent the in-product terms of the collaboration.
 5. The publisher accepts connection settings. If desired, the publisher can reject the initial connection settings and request that the advertiser submits revised connection settings.
 
-![High-level diagram of the advertiser-publisher connection process.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png "High-level diagram of the advertiser-publisher connection process"){zoomable="yes"}
+![High-level diagram of the advertiser-publisher connection process.](/help/assets/connect/establish-connection/advertiser-publisher-connection-process.png){zoomable="yes"}
 
 Once the items above are completed, the collaborators can proceed to [create a project](/help/guide/collaborate/manage-projects.md#create-project) to [run overlap reports](/help/guide/collaborate/discover.md) and kick off advertising campaigns.
 
@@ -33,11 +33,11 @@ Once the items above are completed, the collaborators can proceed to [create a p
 
 To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the discover publishers screen.
 
-![Connect selector](/help/assets/connect/establish-connection/connect-selection.png)
+![Connect selector](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 At this point, the invite is out and you can preview the connection settings, but cannot edit them. You can view the pending invite in the **[!UICONTROL My connections]** tab. The status of the connection is **[!UICONTROL Invite sent]**.
 
-![Pending invite sent to publisher displayed in the My connections view.](/help/assets/connect/establish-connection/pending-invite-sent.png)
+![Pending invite sent to publisher displayed in the My connections view.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
 Once the collaborator accepts the invite, you can configure the connection settings and send them to the collaborator to review and accept.  
 
@@ -46,12 +46,12 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="Use cases"
->abstract="The use cases are prefilled with the ones that you selected at your organizational level. You can edit the use cases."
+>abstract="The use cases are prefilled with all options. You can edit the use cases before submitting your connection settings."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Match keys"
->abstract="Match keys are prefilled with the ones you selected at your organizational level. You can toggle off any match keys that you do not want to use in this connection."
+>abstract="Match keys are prefilled with the ones that you selected at your organizational level. You can toggle off any match keys that you do not want to use in this connection."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -61,34 +61,38 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Audience sharing"
->abstract="Audience Sharing is the activity a party takes when requesting their matched data to be activated by their collaboration partner."
+>abstract="Audience Sharing is the activity that a party takes when requesting their matched data to be activated by their collaboration partner."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
 
->[!IMPORTANT]
->
->Deleting a connection setting is currently not supported in the Real-Time CDP Collaboration user interface. To delete a connection setting, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target=_blank}. If you decide to delete existing connection settings with a collaoration, you need to restart the [connection invite workflow](#send-invite).
+After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
-After the invite is sent and accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
+![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
-To set up and share connection settings with your collaborator, navigate to **[!UICONTROL My connections]**. For any connections with the status **[!UICONTROL Pending]**, you can select **[!UICONTROL Set up connection]** to configure the connection settings. You can edit and define the fields below: 
+Once the connection is accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
 
-![Set up connection view](/help/assets/connect/establish-connection/connection-view.png)
+To set up and share connection settings with your collaborator, navigate to **[!UICONTROL My connections]**. For any connections with the status **[!UICONTROL Pending]**, you can select **[!UICONTROL Set up connection]** to configure the connection settings. 
+
+![The My connections view with a Pending connection and its Set up connection option highlighted.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+
+You can edit and define the fields below: 
+
+![Set up connection view](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Use cases
 
-Use cases are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-details-use-cases).
+Use cases are prefilled with all available use cases. You can choose which use cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases).
 
-![Use cases](/help/assets/connect/establish-connection/view-use-cases.png)
+![Use cases](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
 +++Match keys
 
-Match keys are prefilled with the ones you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot at this point add any match keys that were not selected when setting up the organization.
+Match keys are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
 
 ![Match keys](/help/assets/connect/establish-connection/match-keys.png)
 
@@ -96,7 +100,7 @@ Match keys are prefilled with the ones you [selected at your organizational leve
 
 +++Credit split
 
-Use the credit split section to determine which of the two collaborating parties will cover the the costs for the activites.
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities.
 
 ![Credit split](/help/assets/connect/establish-connection/edit-billing-ownership.png)
 
@@ -113,6 +117,21 @@ Before you can proceed with this connection, you must acknowledge that a data sh
 After you have made your selection, select **[!UICONTROL Submit]** to send the suggested settings to your collaborator for review.
 
 If you are receiving proposed connection settings from your collaborator, you can either **[!UICONTROL Accept]** or **[!UICONTROL Reject]** those settings. Before accepting the connection settings, you need to acknowledge and confirm that a legal agreement is in place between you and the collaborator. If you are rejecting connection settings, reach out to your collaborator outside of the product and discuss how they should revise the connection settings for you to accept them.
+
+## Delete connections {#delete-connections}
+
+You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections: 
+
+1. Navigate to **[!UICONTROL Connect]** > **[!UICONTROL My connections]**.
+2. Select **[!UICONTROL View connection]** on the connection card to access the connection that you want to delete.
+3. Select the delete icon ![delete icon](/help/assets/common/delete.svg) to bring up the delete connection confirmation dialog.
+    ![Delete connection icon highlighted.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
+4. Confirm the deletion by selecting **[!UICONTROL Delete]**.
+    ![Dialog to confirm deletion of a connection. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
+
+>[!WARNING]
+>
+>Once the connection is deleted, you will no longer be connected with the collaborator and all existing projects that are part of the collaboration will be permanently deleted and unrecoverable.
 
 ## Next steps
 

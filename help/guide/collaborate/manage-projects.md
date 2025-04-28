@@ -15,31 +15,37 @@ Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. Af
 >
 >Projects should generally be associated with a single campaign.
 
-![View of all projects, unfiltered.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png)
+![View of all projects, unfiltered.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 You can use filters to view only the projects that you have started with certain collaborators, as shown below:
 
-![Filtered view of projects with a single collaborator.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png)
+![Filtered view of projects with a single collaborator.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Create project {#create-project}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_manage_projects_advertiser_name"
+>title="Advertiser Name"
+>abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the publisher in the connection settings to ensure compatibility with their systems."
+
 To create a project, select the Plus **+** symbol in the upper right corner. Or, if this is your first project, navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]**, and select **[!UICONTROL Create a project]**.
 
-![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png)
+![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
 Next, select the collaborator that you are creating the project with. Provide a **[!UICONTROL project name]** and **[!UICONTROL description]** for your project, select an image header to easily distinguish the project, and confirm your selection.
 
-![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png)
+![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
-You can now view your new project and its details. Next, use the [Discover](/help/guide/collaborate/discover.md) tab to start running overlap calculations between your and your collaborator's audiences.
+You can now view your new project and its details.
 
-## View individual projects and next steps
+## Project use cases {#project-use-cases}
 
-Drill into individual projects to run overlap reports, discover and share audiences with your collaborator, and view measurement information.
+Drill into individual projects to run overlap reports, discover and share audiences with your collaborator, and view measurement information. To view extensive information about these areas that form an individual project, select **[!UICONTROL View]**. The project surface consists of up to four sections, each offering you a rich set of options and controls. Available project sections depend on the use cases selected in the connection process, as follows:
 
-To view extensive information about these areas that form an individual project, select **[!UICONTROL View]**. The project surface consists of three sections, each offering you a rich set of options and controls. These are detailed in the following documentation pages:
+| Use case | Project section |
+| --- | --- |
+| Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md) section and all availabile functionality. |
+| Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md) section and all availabile functionality. |
+| Audience sharing and activation | This use case grants access to the [Share](/help/guide/collaborate/share.md) and [Activate](/help/guide/collaborate/activate.md) (publisher-only) sections and all availabile functionality. |
 
-* [Discover](/help/guide/collaborate/discover.md)
-* [Share](/help/guide/collaborate/share.md)
-* [Activate](/help/guide/collaborate/activate.md) (publisher-only)
-* [Measure](/help/guide/collaborate/measure.md)
+![The project view with the available sections highlighted.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}

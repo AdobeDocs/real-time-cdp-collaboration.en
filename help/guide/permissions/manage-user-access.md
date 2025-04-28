@@ -9,11 +9,11 @@ exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 
 {{limited-availability-release-note}}
 
-Manage permissions and user access to individual components within Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target=_blank} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md){target=_blank} to manage user access to specific features and resources. 
+Manage permissions and user access to individual components within Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md) to manage user access to specific features and resources. 
 
 ## Configure access to Permissions {#permissions-access}
 
-To access Permissions, you must have both product administrator and user access to the Adobe Experience Platform product. A system administrator is required to configure product administrator privileges, while user privileges can be configured by a system or product administrator. For more information on the administrative roles, read the [access control heirarchy](./overview.md#hierarchy){target=_blank} guide.
+To access Permissions, you must have both product administrator and user access to the Adobe Experience Platform product. A system administrator is required to configure product administrator privileges, while user privileges can be configured by a system or product administrator. For more information on the administrative roles, read the [access control heirarchy](./overview.md#hierarchy) guide.
 
 >[!TIP]
 >
@@ -27,7 +27,7 @@ Grant a user product administrator access to give them administrative capabiliti
 >
 >As a system administrator, you have out-of-the box access to specific Experience Cloud products, such as Adobe Admin Console. However, to use Permissions, you are required to give yourself product administrator and user access to the Experience Platform product. Follow the step-by-step guide below to give yourself access as a system administrator.
 
-Log in to [Adobe Experience Cloud](https://experience.adobe.com/){target=_blank} with your credentials. The home view displays with a list of your available products within the **[!UICONTROL Quick access]** section. Select **[!UICONTROL Admin Console]**.
+Log in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} with your credentials. The home view displays with a list of your available products within the **[!UICONTROL Quick access]** section. Select **[!UICONTROL Admin Console]**.
 
 ![Experience Cloud's home view with Admin Console highlighted.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
@@ -53,7 +53,7 @@ Now that you've granted the user product administrator access, you need to provi
 >
 >If you're following along from the previous section, you'll already be within the Adobe Experience Platform product and you may skip the first step.
 
-Navigate to the [Admin Console](https://adminconsole.adobe.com/){target=_blank} and select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
+Navigate to the [Admin Console](https://adminconsole.adobe.com/){target="_blank"} and select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
 
 ![Experience Cloud's home view with Admin Console highlighted.](../../assets/permissions/experience-cloud.png){zoomable="yes"}
 
@@ -77,7 +77,7 @@ The user should now have product administrator and product access to Experience 
 
 ### Administrators: configure Experience Platform UI access {#product-access}
 
-In Real-Time CDP Collaboration, administrators and end users will be working with data from Experience Platform, such as audiences and audit logs. This data is held within instances of Experience Platform called sandboxes. To ensure users can interact with this data, you need to assign [default roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target=_blank} to the user.
+In Real-Time CDP Collaboration, administrators and end users will be working with data from Experience Platform, such as audiences and audit logs. This data is held within instances of Experience Platform called sandboxes. To ensure users can interact with this data, you need to assign [default roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} to the user.
 
 To begin, navigate to [Adobe Experience Cloud](https://experience.adobe.com/). You should now see **[!UICONTROL Experience Platform]** and **[!UICONTROL Permissions]** inside of **[!UICONTROL Quick access]**. 
 

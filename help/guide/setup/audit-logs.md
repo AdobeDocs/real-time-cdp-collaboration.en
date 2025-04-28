@@ -17,7 +17,7 @@ Use the audit logs functionality in Real-Time CDP Collaboration to track user ac
 
 ![High-level overview screen of the audit logs functionality](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-For more comprehensive information about audit logs, visit the [Adobe Experience Platform Audit Logs documentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target=_blank}.
+For more comprehensive information about audit logs, visit the [Adobe Experience Platform Audit Logs documentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Access audit logs
 
