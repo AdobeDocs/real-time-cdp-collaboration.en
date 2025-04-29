@@ -47,7 +47,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## Get started {#get-started}
 
-To begin using Real-Time CDP Collaboration, system administrators need to give themselves, product administrators, and end users access. There are multiple required steps dependent on the user and level of access required. Refer to the [access control overview](/help/guide/permissions/overview.md){target=_"blank"} guide to get started.
+To begin using Real-Time CDP Collaboration, system administrators need to give themselves, product administrators, and end users access. There are multiple required steps dependent on the user and level of access required. Refer to the [access control overview](/help/guide/permissions/overview.md){target="_blank"} guide to get started.
 
 Once you have access, you're ready to set up your organization and connect your data sources to Adobe Real-Time CDP Collaboration to import audiences. Read the [advertiser and publisher end-to-end workflow](/help/guide/end-to-end-workflow.md) to get started.
 
