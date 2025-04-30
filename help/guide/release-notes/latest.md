@@ -15,7 +15,7 @@ These release notes cover the functionality released in Real-Time Customer Data 
 
 ## April 2025 {#april-2025}
 
-<!-- * A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"} -->
+* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
 * A new contact email option has been added to account creation. This helps partner collaborators reach out to you as needed during the connection process. [Read more](../setup/onboard-organization.md).
 
 ## March 2025 {#march-2025}
