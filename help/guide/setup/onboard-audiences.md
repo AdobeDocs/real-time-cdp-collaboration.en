@@ -240,7 +240,7 @@ Review all the configurations and settings before finalizing the audience additi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Missing identities"
->abstract="The identities count will be available after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is onboarded. Ongoing refreshes will follow the configured schedule. "
+>abstract="The identities count will be available after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up. Ongoing refreshes will follow the configured schedule. "
 
 After importing audiences into Real-Time CDP Collaboration, you can get information about them in a dashboard view. The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
 
@@ -251,7 +251,7 @@ You can view the following relevant information about each audience:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
-| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences will populate with profiles after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is onboarded. |
+| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences will populate with profiles after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up                                         . |
 | **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Connection access]** | Defines whether this audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
