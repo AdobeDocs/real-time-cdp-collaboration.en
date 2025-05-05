@@ -47,10 +47,8 @@ The workflow to set up your organization includes the two pages below:
 4. Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 5. Select the **[!UICONTROL Region]** for your organization. In the current version of the product, **[!UICONTROL North America]** is the preset default selection.
 6. Add a **[!UICONTROL Contact email]** for your organization. This should be a team or role-based email address. Personal email addresses should not be provided.
-7. <span class="preview"> Publisher-only</span>: When setting up a publisher organization, you must read and acknowledge that you will be discoverable by advertisers in the publisher catalog.
-    ![Publisher-specific opt-in message.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-8. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
-9. Select an image for your company header picture.
+7. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
+8. Select an image for your company header picture.
 
 When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the next page and select the desired match keys that your organization should use.
 
