@@ -73,6 +73,11 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_advertisername"
+>title="Advertiser names"
+>abstract="Indicates the aliases by which the advertiser is known to the publisher. "
+
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
 ![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
