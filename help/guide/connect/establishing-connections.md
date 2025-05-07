@@ -68,6 +68,11 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_advertisername"
+>title="Advertiser names"
+>abstract="Indicates the aliases by which the advertiser is known to the publisher. "
+
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
 ![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
@@ -111,6 +116,20 @@ Use the credit split section to determine which of the two collaborating parties
 Before you can proceed with this connection, you must acknowledge that a data sharing agreement between the two parties exists. 
 
 ![Legal agreements.](/help/assets/connect/establish-connection/legal-agreement.png)
+
++++
+
++++Advertiser names
+
+As an advertiser working on the connection settings, you can select to add any advertiser names by which you are known to the publisher in their systems. You can select multiple advertiser names, for example in cases when you have a presence in multiple geographies. Later in the process, when creating a project to collaborate on, you or your collaborator will be able to select the advertiser name to associate with the project.
+
+Here's how the advertiser name selection works when creating a project:
+
+1. **No advertiser name set**: If no advertiser names are added, Real-Time CDP Collaboration defaults to using the advertiser's name as the advertiser name.
+2. **One advertiser name set**: If a single advertiser name is added, Real-Time CDP Collaboration automatically uses that name as the advertiser name for the project.
+3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
+
+![Advertiser names.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 

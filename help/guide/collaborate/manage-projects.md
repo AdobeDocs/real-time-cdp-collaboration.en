@@ -24,15 +24,20 @@ You can use filters to view only the projects that you have started with certain
 ## Create project {#create-project}
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_manage_projects_advertiser_name"
+>id="rtcdp_collaboration_manage_projects_advertisername"
 >title="Advertiser Name"
->abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the publisher in the connection settings to ensure compatibility with their systems."
+>abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the advertiser in the connection settings to ensure compatibility with publisher systems."
 
 To create a project, select the Plus **+** symbol in the upper right corner. Or, if this is your first project, navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]**, and select **[!UICONTROL Create a project]**.
 
 ![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Next, select the collaborator that you are creating the project with. Provide a **[!UICONTROL project name]** and **[!UICONTROL description]** for your project, select an image header to easily distinguish the project, and confirm your selection.
+Next, select the following settings: 
+
+* The collaborator that you are creating the project with
+* Select an advertiser name if the advertiser configured multiple advertiser names in the connection settings. Otherwise, the name of the advertiser is preselected ad adertiser name. Or, if the advertiser configured a single advertiser name in the connection settings, that name is prefilled in this selection. 
+* Provide a **[!UICONTROL project name]** and **[!UICONTROL description]** for your project 
+* Select an image header to easily distinguish the project, and confirm your selection.
 
 ![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
