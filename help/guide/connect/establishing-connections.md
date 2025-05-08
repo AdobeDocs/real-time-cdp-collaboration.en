@@ -64,6 +64,11 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >abstract="Audience Sharing is the activity that a party takes when requesting their matched data to be activated by their collaboration partner."
 
 >[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="Measurement"
+>abstract="This use case enables you to execute activities in Real-Time CDP Collaboration to generate campaign performance reports and insights."
+
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
