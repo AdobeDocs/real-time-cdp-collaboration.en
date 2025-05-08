@@ -209,6 +209,11 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 ### Schedule {#schedule}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_audience_expiration"
+>title="Audience expiration"
+>abstract="Details to come regarding audience expiration."
+
 Schedule when to start and end populating and refreshing the audiences. The audience membership will be refreshed according to this schedule. 
 
 ![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
