@@ -74,6 +74,11 @@ When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the 
 >title="Supported partner IDs"
 >abstract="Partner IDs associated with profiles expand the reach to a certain profile."
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_activation_matchkeys"
+>title="Activation match keys"
+>abstract="Activation match keys are displayed based on your organization's chosen match keys."
+
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement.
 
 ![Slide showing the available identifiers for the first release of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
