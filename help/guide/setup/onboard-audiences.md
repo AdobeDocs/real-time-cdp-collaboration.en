@@ -138,6 +138,11 @@ Next, provide a name and a description for you to recognize this data connection
 >abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_target_namespaces"
+>title="Target namespaces"
+>abstract="This will be filled in with a proper description."
+
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
 In the map fields step, you can select how any identity fields for the profiles brought in from the data connection should map to the match keys that you selected in your organization. 
