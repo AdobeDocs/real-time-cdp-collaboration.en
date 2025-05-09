@@ -126,7 +126,9 @@ Before you can proceed with this connection, you must acknowledge that a data sh
 
 +++Advertiser names
 
-As an advertiser working on the connection settings, you can select to add any advertiser names by which you are known to the publisher in their systems. You can select multiple advertiser names, for example in cases when you have a presence in multiple geographies. Later in the process, when creating a project to collaborate on, you or your collaborator will be able to select the advertiser name to associate with the project.
+As an advertiser working on the connection settings, you can select to add any advertiser names by which you are known to the publisher in their systems. You can select multiple advertiser names, for example in cases when you have a presence in multiple geographies. Later in the process, when [creating a project](/help/guide/collaborate/manage-projects.md#create-project) to collaborate on, you or your collaborator will be able to select the advertiser name to associate with the project.
+
+![Add advertiser names modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
 
 Here's how the advertiser name selection works when creating a project:
 
