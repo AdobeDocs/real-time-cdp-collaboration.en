@@ -35,7 +35,7 @@ To create a project, select the Plus **+** symbol in the upper right corner. Or,
 Next, select the following settings: 
 
 * The collaborator that you are creating the project with
-* Select an advertiser name if the advertiser configured multiple advertiser names in the connection settings. Otherwise, the name of the advertiser is preselected as adertiser name. Or, if the advertiser configured a single advertiser name in the connection settings, that name is prefilled in this selection. [Read more](/help/guide/connect/establishing-connections.md#connection-settings) about advertiser names.
+* Select an advertiser name if the publisher configured multiple advertiser names in the connection settings. Otherwise, the name of the advertiser is preselected as advertiser name. Or, if the publisher configured a single advertiser name in the connection settings, that name is prefilled in this selection. [Read more](/help/guide/connect/establishing-connections.md#connection-settings) about advertiser names.
 * Provide a **[!UICONTROL project name]** and **[!UICONTROL description]** for your project 
 * Select an image header to easily distinguish the project, and confirm your selection.
 
