@@ -15,20 +15,6 @@ exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 
 >[!ENDSHADEBOX]
 
->[!BEGINSHADEBOX]
-
-**Current promotional period - 90-day no-overage period for customers in the Austrialia and New Zealand region**: Customers in the Austrialia and New Zealand regions benefit from a 90-day no-overage period starting from the date of availability, `insert date`. During this time, customers do not incur overage fees for exceeding their credit entitlement.
-
->[!ENDSHADEBOX]
-
->[!BEGINSHADEBOX]
-
-**Current promotional period - 90-day no-overage period for customers in the APAC region**: Customers in the Asia-Pacific regions benefit from a 90-day no-overage period starting from the date of availability, `insert date`. During this time, customers do not incur overage fees for exceeding their credit entitlement.
-
->[!ENDSHADEBOX]
-
-Use the **[!UICONTROL My Activity]** tab to monitor and track your organization's estimated credit consumption across all collaboration activities. This feature provides detailed insights into how credits are being used across different connections and activities, helping you manage your resources effectively.
-
 >[!IMPORTANT]
 >
 >The credit consumption table is rounded up and aggregated by day for monitoring. The figures in the **[!UICONTROL My Activity]** dashboard represent an *estimated* credit consumption. The *actual* credit consumption used for billing is tracked in internal systems and is available to you upon request. Contact your Adobe representative to obtain that information.
