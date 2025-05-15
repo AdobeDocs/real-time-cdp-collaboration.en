@@ -34,6 +34,11 @@ The workflow to set up your organization includes the two pages below:
 
 ### Set up details {#set-up-details}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="Contact email"
+>abstract="Please provide a team or role-based email, such as `collaboration@yourcompany.com`. Personal or individual email addresses should not be used."
+
 ![The details and use cases steps to set up an organization](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
 1. Add an **[!UICONTROL Organization name]** for your company.
@@ -41,8 +46,7 @@ The workflow to set up your organization includes the two pages below:
 3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 4. Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 5. Select the **[!UICONTROL Region]** for your organization. In the current version of the product, **[!UICONTROL North America]** is the preset default selection.
-6. <span class="preview"> Publisher-only</span>: When setting up a publisher organization, you must read and acknowledge that you will be discoverable by advertisers in the publisher catalog.
-    ![Publisher-specific opt-in message.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
+6. Add a **[!UICONTROL Contact email]** for your organization. This should be a team or role-based email address. Personal email addresses should not be provided.
 7. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
 8. Select an image for your company header picture.
 
@@ -70,7 +74,12 @@ When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the 
 >title="Supported partner IDs"
 >abstract="Partner IDs associated with profiles expand the reach to a certain profile."
 
-Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-compliant data synchronization, allowing for more precise audience targeting and measurement.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_activation_matchkeys"
+>title="Activation match keys"
+>abstract="Activation match keys are displayed based on your organization's chosen match keys."
+
+Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement.
 
 ![Slide showing the available identifiers for the first release of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
