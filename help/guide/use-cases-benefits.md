@@ -27,15 +27,3 @@ In a future release, work with the identity partners selected to leverage real i
 
 Combine and explore known customer engagement from various sources such as web impressions and more.
 View campaign performance in simplified and customizable reports.
-
-<!--
-
-## Sample use cases
-
-Some use cases that you can explore are:
-
-* [Prospecting](/help/guide/use-cases/prospecting.md)
-* [Retargeting](/help/guide/use-cases/retargeting.md)
-* [Suppression](/help/guide/use-cases/suppression.md)
-
--->
