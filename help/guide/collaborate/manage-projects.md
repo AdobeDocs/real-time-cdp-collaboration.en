@@ -26,7 +26,7 @@ You can use filters to view only the projects that you have started with certain
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="Advertiser Name"
->abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the advertiser in the connection settings to ensure compatibility with publisher systems."
+>abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the publisher in the connection settings to ensure compatibility with their systems."
 
 To create a project, select the Plus **+** symbol in the upper right corner. Or, if this is your first project, navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]**, and select **[!UICONTROL Create a project]**.
 
