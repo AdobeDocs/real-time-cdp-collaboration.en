@@ -85,15 +85,15 @@ Next, you must make sure that the correct marketing actions are set on the impor
 
 Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
 
-Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target=_blank}.
+Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * With the checkbox *enabled*, any data that is marked with the labels called out above in Experience Platform is excluded and is *not* brought into Real-Time CDP Collaboration.
 * With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.
 
 Read more about data usage labels in the Experience Platform documentation:
 
-* [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target=_blank}
-* [Data usage labels glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target=_blank}
+* [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Data usage labels glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Required marketing actions for data collaboration.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -137,6 +137,11 @@ Next, provide a name and a description for you to recognize this data connection
 >title="Profile attributes"
 >abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_target_namespaces"
+>title="Target namespaces"
+>abstract="This will be filled in with a proper description."
 
 ![Map fields screen showing source fields mapped to target fields.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -205,17 +210,30 @@ Note that this control is disabled in the initial release of Real-Time CDP Colla
 
 After selecting the desired use cases for each identity, proceed to the next step. 
 
--->
+-->›
 
 ### Schedule {#schedule}
 
-Schedule when to start and end populating the audiences. The audience membership will be refreshed according to this schedule. For the first release of Real-Time CDP Collaboration, a daily audience import is the only available option.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_audience_expiration"
+>title="Audience expiration"
+>abstract="Details to come regarding audience expiration."
+
+Schedule when to start and end populating and refreshing the audiences. The audience membership will be refreshed according to this schedule. 
+
+![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
+
+Select the refresh rate for the audiences. Available options are between one and six-day refresh rates.
+
+>[!IMPORTANT]
+>
+>Adjusting the frequency of audience updates will help manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities), which is calculated per audience membership refresh. The impact of this may be less fresh data available for audience discover reports and audience sharing and activation.
+
+![Schedule screen showing different frequency intervals for updating audience membership.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
 
 >[!IMPORTANT]
 >
 >After the end date in the date range, all audiences imported from this data connection will stop refreshing. To renew the connection, go to [Manage data connection](/help/guide/setup/manage-data-connection.md), and set a new end date.
-
-![Schedule screen showing start and end dates for populating the audiences.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
 
 ### Select audiences {#select-audience}
 
@@ -232,7 +250,7 @@ Review all the configurations and settings before finalizing the audience additi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Missing identities"
->abstract="The identities count displays a `-` for approximately the first 24-hours after an audience has been imported into Real-Time CDP Collaboration. After this timeframe, the identities count will update with the number of profiles present in the audience."
+>abstract="The identities count will be available after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up. Ongoing refreshes will follow the configured schedule. "
 
 After importing audiences into Real-Time CDP Collaboration, you can get information about them in a dashboard view. The default view in the **[!UICONTROL My audiences]** page displays all audiences currently imported by your organization into Real-Time CDP Collaboration. 
 
@@ -243,7 +261,7 @@ You can view the following relevant information about each audience:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
-| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences usually populate with profiles within 24-hours. |
+| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences will populate with profiles after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up                                         . |
 | **[!UICONTROL Source]** | Indicates the source where this audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | Further drill-down information about where this audience was imported from. For example, when importing audiences from the Experience Platform source, the individual sandboxes that your organization has access to are considered the data connections. |
 | **[!UICONTROL Connection access]** | Defines whether this audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
@@ -332,7 +350,7 @@ Audience availability for use in projects with collaborators differs based on th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
->abstract="Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. **Show identity count** controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Show audience overlap** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
+>abstract="<p>Indicates which of the audience metadata information is visible to other organizations before they connect with your organization. </p> <p> **Identity count** controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
 
 >[!NOTE]
 >

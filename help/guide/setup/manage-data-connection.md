@@ -11,23 +11,13 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 
 ## Overview
 
-Use data connections in Real-Time CDP Collaboration to import audiences from various sources. Learn how to manage match keys, schedule data imports, and configure use cases for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
-
-Before managing your data connections here, you should initially set them up during the [audience onboarding workflow](./onboard-audiences.md). This will ensure the correct data sources are connected for use in Real-Time CDP Collaboration.
+Use data connections in Real-Time CDP Collaboration to import audiences from various sources. Learn how to manage match keys and schedule data imports for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
 
 ## View data connections
 
->[!IMPORTANT]
->
->Deleting a data connection is currently not supported in the Real-Time CDP Collaboration user interface. To delete a data connection, please reach out to your Adobe representative or [create a customer support ticket](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target=_blank}.
+To view existing data connections, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My data connections]** tab. All your current data connection are displayed, showing a brief overview for each connection. For a complete view of a data connection's information, including its match keys, scheduling details, and audiences, select **[!UICONTROL View data connection]** on the corresponding connection.
 
-To view existing data connections, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, and select **[!UICONTROL Manage data connections]**.
-
-![View of the audiences screen, with Manage data connections highlighted.](/help/assets/setup/manage-data-connection/manage-data-connection-highlighted.png)
-
-This brings up a view of all your currently set up data connections, with information about the number of audiences in each of them, the source of the data connection, and more. Select **[!UICONTROL View data connection]** to view information about the match keys, scheduling, use cases, and the audiences that are part of this data connection. 
-
-![View of the data connection screen, with View data connections highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-highlighted.png)
+![Setup workspace with My data connections tab view displayed and highlighted.](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
 
 ### Match keys {#match-keys}
 
@@ -36,13 +26,13 @@ This brings up a view of all your currently set up data connections, with inform
 >title="Match keys"
 >abstract="Match keys determine how data from different sources will be matched. Choose the match keys that are most relevant to your use cases and privacy guidelines."
 
-Match keys are identifiers used to reconcile members across audiences from different data sources. Available match keys include:
+Match keys are identifiers used to reconcile members across audiences from different data sources. You cannot edit the match keys you initially selected for your data connection. 
+
+Available match keys include:
 
 - **Hashed email**
 
-You cannot edit the match keys used in this data connection.
-
-![View of the data connection, with Match keys highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png)
+![A data connections workspace with the Match keys section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### Scheduling {#scheduling}
 
@@ -53,39 +43,25 @@ You cannot edit the match keys used in this data connection.
 
 You cannot edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
 
-![View of the data connection, with Scheduling highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png)
+![A data connections workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
-<!--
+## Delete data connection
 
-### Use cases {#use-cases}
+Deleting a data connection will remove all underlying audiences, associated settings, and usage across the platform. This action cannot be undone.
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_manage_dataconnections_usecases"
->title="Use cases"
->abstract="Use cases selection is not part of the beta release of Real-Time CDP Collaboration"
+To delete an existing data connection, select the delete icon (![Delete icon](/help/assets/common/delete.svg)) within an individual data connection's workspace.
 
->[!IMPORTANT]
->
->In the beta release, the use cases are preselected and do not have an effect on campaigns.
+![A data connections workspace with the delete option highlighted.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
 
-Use cases define how the imported audience data can be leveraged in Real-Time CDP Collaboration. Available use cases include:
+A confirmation dialogue will appear. Select **[!UICONTROL Delete]** to finish deleting the data connection.
 
-- **Discover**
-- **Share**
-- **Activate**
-- **Measure**
-
-You can configure different use cases for each match key (for example hashed email, hashed phone number). To modify use case settings, select the **[!UICONTROL Edit]** button in the Use Cases section.
-
-![View of the data connection, with Use cases highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-use-cases.png)
-
--->
+![The Delete data connection dialog with the Delete option highlighted.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
 
 ## Manage audiences {#manage-audiences}
 
-When viewing the list of audiences from your data connection, you can select to view the audiences, edit their categories, or remove them from the data connection.
+A list of audiences attached to the data connection are displayed at the bottom of the workspace. THe list displays a brief overview of each audience, including its status, source, and connection access. To edit an audience's categories, connection access, or metadata visbility, select the audience's name. For a complete guide on managing an audience, refer to the [view individual audiences](./onboard-audiences.md#view-individual-audiences) guide.
 
-![View of the data connection, with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png)
+![A data connections workspace with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## Next steps
 

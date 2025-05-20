@@ -9,7 +9,15 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 
 {{limited-availability-release-note}}
 
-After [creating a project](/help/guide/collaborate/manage-projects.md) within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation, depending on the desired use case.
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
+
+After [creating a project](/help/guide/collaborate/manage-projects.md) within a collaboration space between an advertiser and a publisher, you can now compare your audiences against your collaborator's audiences. This way, you can discover overlaps between audiences and get insights broken down by match keys or identities. This helps advertisers decide which audiences to share with publishers for activation.
+
+>[!IMPORTANT]
+>
+>Any [data sketches](/help/guide/glossary.md#sketches) that are not updated or refreshed will be deleted after 7 days. When this happens, the figures displayed in the various overlap reports on this page go to zero and audience sharing becomes unavailable for these expired audiences. Data sketches are refreshed automatically for audiences with an [active refresh schedule](/help/guide/setup/onboard-audiences.md#schedule).
 
 ![Discover overlaps](/help/assets/collaborate/discover-overlaps/discover-overlaps.png)
 
@@ -22,7 +30,7 @@ The match keys used to discover and compare audiences are set when you [connect 
 To fully utilize the functionality in the **[!UICONTROL Discover]** tab of the **[!UICONTROL Collaborate]** workflow, you have already:
 
 * [Imported audiences](/help/guide/setup/onboard-audiences.md)
-* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher
+* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher with the **Audience discovery** use case enabled
 * [Created a project](/help/guide/collaborate/manage-projects.md) between you and a collaborator
 
 Once the prerequisites noted above are met, you can start exploring and comparing the overlap between your and your collaborator's audiences.
@@ -90,12 +98,6 @@ The **[!UICONTROL Relevant audiences]** view in the **[!UICONTROL Discover]** mo
 * **[!UICONTROL Overlapping identities]** represents the overlap between the recommended publisher audience and all advertiser audiences.
 * **[!UICONTROL Overlap %]** represents the number of overlapping identities divided by the size of *all* advertiser audiences.
 
-<!--
-
-For extensive information about the overlapping identities count and percentages, read the [overlap calculations reference documentation](/help/guide/reference/overlap-calculations.md).
-
--->
-
 ![Relevant audiences view](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
 ## Discover overlaps {#discover-overlaps}
@@ -115,4 +117,4 @@ Get extensive information about any of your collaborator's audiences and view ov
 
 ## Next steps
 
-After exploring and discovering the desired audiences, it's time to [share](/help/guide/collaborate/share.md) with the publisher the audiences that should be used in the campaigns.
+After exploring and discovering the desired audiences, it's time to [share](/help/guide/collaborate/share.md) the audiences that should be used in the campaigns with the publisher.

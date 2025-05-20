@@ -9,7 +9,7 @@ exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, activate, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-first space.
+Adobe Real-Time CDP Collaboration provides the essential capabilities to discover, activate, and measure your audiences effectively, ensuring your marketing strategies remain robust and data-driven, all of this in a privacy-centric space.
 
 ![Benefits and use cases of Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-activate-measure.png)
 
@@ -27,15 +27,3 @@ In a future release, work with the identity partners selected to leverage real i
 
 Combine and explore known customer engagement from various sources such as web impressions and more.
 View campaign performance in simplified and customizable reports.
-
-<!--
-
-## Sample use cases
-
-Some use cases that you can explore are:
-
-* [Prospecting](/help/guide/use-cases/prospecting.md)
-* [Retargeting](/help/guide/use-cases/retargeting.md)
-* [Suppression](/help/guide/use-cases/suppression.md)
-
--->

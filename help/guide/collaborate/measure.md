@@ -9,13 +9,17 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 
 {{limited-availability-release-note}}
 
+>[!IMPORTANT]
+>
+>The **[!UICONTROL Measure]** workspace is only available if the **Campaign measurement** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
+
 Learn about the available reports in Real-Time CDP Collaboration and understand how to measure and analyze the performance of your marketing campaigns across various channels.
 
 ## Prerequisites
 
 Before you can access the measurement reports in Real-Time CDP Collaboration, you have already:
 
-* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher and started collaborating on [projects](/help/guide/collaborate/manage-projects.md).
+* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher with the **Campaign measurement** use case enabled and started collaborating on [projects](/help/guide/collaborate/manage-projects.md)
 * Run a campaign and [uploaded measurement data](/help/guide/setup/onboard-measurement-data.md) into Real-Time CDP Collaboration.
 
 <!--
