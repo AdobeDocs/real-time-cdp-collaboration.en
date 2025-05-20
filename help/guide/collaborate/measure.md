@@ -26,7 +26,9 @@ Before you can access the measurement reports in Real-Time CDP Collaboration, yo
 
 ## Create a report {#create-report}
 
-Hidden until functionality is live. At that point, move the contextualhelp from bel
+Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
+
+The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
 
 -->
 
@@ -34,6 +36,11 @@ Hidden until functionality is live. At that point, move the contextualhelp from 
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report_campaignID"
+>title="Campaign IDs"
+>abstract="Placeholder to add relevant information in the UI about what the Campaign IDs are."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report"
 >title="Campaign IDs"
 >abstract="Placeholder to add relevant information in the UI about what the Campaign IDs are."
 
