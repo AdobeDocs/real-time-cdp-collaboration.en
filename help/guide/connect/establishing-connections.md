@@ -104,23 +104,22 @@ Use cases are prefilled with all available use cases. You can choose which use c
 
 Match keys are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
 
-![Match keys](/help/assets/connect/establish-connection/match-keys.png)
+![Match keys](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++Credit split
 
-Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities.
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Audience activation]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the guide [credit activity types](/help/guide/setup/my-activity.md#types-of-activities).
 
-![Credit split](/help/assets/connect/establish-connection/edit-billing-ownership.png)
-
+![The Credit split dialog with options in the connection workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++Agreements
 
 Before you can proceed with this connection, you must acknowledge that a data sharing agreement between the two parties exists. 
 
-![Legal agreements.](/help/assets/connect/establish-connection/legal-agreement.png)
+![Legal agreements.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
