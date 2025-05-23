@@ -110,7 +110,11 @@ Match keys are prefilled with the ones that you [selected at your organizational
 
 +++Credit split
 
-Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Audience activation]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the guide [credit activity types](/help/guide/setup/my-activity.md#types-of-activities).
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Audience activation]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
+
+>[!NOTE]
+>
+>Audience - Egress is always covered by the the collaborator that receives the audience, therefore no selection is required.
 
 ![The Credit split dialog with options in the connection workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
