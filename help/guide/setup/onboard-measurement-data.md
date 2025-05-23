@@ -3,6 +3,8 @@ title: Add and manage measurement data
 description: Learn how to add measurement data to Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+hidefromtoc: yes
+hide: yes
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 ---
 # Add and manage measurement data

@@ -5,32 +5,21 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 ---
-# Onboard and manage organization
+# Onboard and manage your organization 
 
 {{limited-availability-release-note}}
 
 Learn how to onboard your organization onto Real-Time CDP Collaboration and manage various aspects of your company. This page outlines the steps to onboard an organization to Adobe Real-Time CDP Collaboration, including setting your match keys, preferred identities, and more options. 
 
-![Setup page](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
+![The organization's setup workspace showcasing its current settings.](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Initial organization setup
 
-You must first set up your organization and organizational details. Navigate to **[!UICONTROL Setup]** in the left rail, select the **+** symbol in the upper right corner, and select **[!UICONTROL Account]**.
+You must first set up your organization and organizational details. If this is your first organization, you'll be directed through the onboarding process immediately, starting with setting up your [account details](#set-up-details).
 
->[!TIP]
->
->After setting up an initial account to work with, you can use the same workflow to set up additional accounts within the same organization.
+To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the **+** symbol in the upper right corner. Next, select **[!UICONTROL Account]**.
 
-![Select Account to add new organization to Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
-
-The workflow to set up your organization includes the two pages below:
-
-* [Set up details](#set-up-details)
-* [Set up match keys](#set-up-match-keys) 
-
->[!IMPORTANT]
->
->Any *match keys* that you select at the organization level will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md) in the collaboration between advertisers and publishers. At the project level, you are then able to remove any match keys, but you are *not* able to add any additional ones that were not selected at the organization level in this screen.
+![The setup workspace with the Account option highlighted.](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 ### Set up details {#set-up-details}
 
@@ -39,18 +28,24 @@ The workflow to set up your organization includes the two pages below:
 >title="Contact email"
 >abstract="Please provide a team or role-based email, such as `collaboration@yourcompany.com`. Personal or individual email addresses should not be used."
 
-![The details and use cases steps to set up an organization](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+To begin onboarding your organization, you must first set up the organization details. This requires you to add the following information:
 
-1. Add an **[!UICONTROL Organization name]** for your company.
-2. Add a **[!UICONTROL Description]** about your company.
-3. Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
-4. Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
-5. Select the **[!UICONTROL Region]** for your organization. In the current version of the product, **[!UICONTROL North America]** is the preset default selection.
-6. Add a **[!UICONTROL Contact email]** for your organization. This should be a team or role-based email address. Personal email addresses should not be provided.
-7. Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
-8. Select an image for your company header picture.
+* Add an **[!UICONTROL Organization name]** for your company.
+* Add a **[!UICONTROL Description]** about your company.
+* Select your **[!UICONTROL Company role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
+* Select the **[!UICONTROL Industry]** for your organization. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
+* Select the **[!UICONTROL Region]** for your organization. In the current version of the product, **[!UICONTROL North America]** is the preset default selection.
+* Add a **[!UICONTROL Contact email]** for your organization. This should be a team or role-based email address. Personal email addresses should not be provided.
+* Upload a **[!UICONTROL Logo]** for your company. Currently, SVG-type images are supported.
+* Select an image for your company header picture.
 
-When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the next page and select the desired match keys that your organization should use.
+>[!NOTE]
+>
+>While you're able to edit most of these details at anytime, the **[!UICONTROL Role]** and **[!UICONTROL Region]** are not editable after the initial setup.
+
+![The Set up organization workspace with the Details section displayed.](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+
+When you're finished, use **[!UICONTROL Next]** to proceed to the next page to select the desired match keys your organization will use.
 
 ### Set up match keys {#set-up-match-keys}
 
@@ -79,13 +74,17 @@ When satisfied with your selection, use **[!UICONTROL Next]** to proceed to the 
 >title="Activation match keys"
 >abstract="Activation match keys are displayed based on your organization's chosen match keys."
 
+>[!IMPORTANT]
+>
+>Any match keys that you select will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md) in the collaboration between advertisers and publishers. At the project level, you are able to remove match keys, but you are *not* able to add any additional ones. Match keys must be edited within your organization's settings.
+
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement.
 
 ![Slide showing the available identifiers for the first release of Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 
 Select any match keys that you want to use when reconciling members of publisher and advertiser audiences. Include any match keys that your company can work with. Plan for the future and select the match keys that you anticipate you will be using in future publisher-advertiser campaigns. If you do need to select additional match keys for your organization, you can also do that at a later time, in the [edit organization](#edit-organization) workflow.
 
-![Match keys selection step.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
+![The Set up organization workspace with the Match keys section displayed.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Select up to five match keys that you plan to use. Later, when setting up connections, you can remove unwanted match keys but cannot add new ones.
 
@@ -99,30 +98,21 @@ The available match keys for the first release of Real-Time CDP Collaboration ar
 
 * Hashed email
 
-<!--
-
-not available in the Limited GA release
-
-* Hashed phone
-* IPv4
-
--->
-
 When ready, select **[!UICONTROL Complete]** to finish the organization setup workflow. 
 
 ## Edit organization {#edit-organization}
 
-After initially setting up your organization, you can at any time edit certain aspects and details of the organization. To edit your organization, select **[!UICONTROL Edit]** in the **[!UICONTROL My organization]** view.
+After initially setting up your organization, you can at any time edit certain aspects and details of the organization. To edit your organization, select **[!UICONTROL Edit]** in the **[!UICONTROL My organization]** section of the **[!UICONTROL Setup] workspace**.
 
-![Edit organization control highlighted.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
+![The Setup workspace with the My organization tab and Edit option highlighted.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
-At this point, you are able to update the organization name, description, logo, and organization profile picture. 
+You can now edit your organization details, with the exception of the **[!UICONTROL Role]** and **[!UICONTROL Region]**.
 
-![Editable options for organizations.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
+![The Edit organization details dialog.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
-You can also update the match keys that you selected initially when onboarding your organization, as well as the minimum threshold for identities corresponding to match keys to be visible and usable in audience overlaps and other product areas. Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** tab to add any additional desired match keys or update identity thresholds.
+You can also update the match keys that you initially selected when onboarding your organization. Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section to add any additional desired match keys.
 
-![Edit match keys](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
+![The Setup workspace with the Edit option highlighted within the organization's Match keys section.](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Next steps
 

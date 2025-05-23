@@ -13,7 +13,7 @@ exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 
 With Adobe Real-Time Customer Data Platform (CDP) Collaboration, you can discover, activate, and measure high-value audiences without relying on third-party cookies. This solution enables advanced data collaboration between advertisers and publishers, helping you create personalized and impactful customer experiences in a privacy-centric, centralized environment.
 
-![Real-Time CDP Collaboration homepage](/help/assets/overview/homepage.png){zoomable="yes"}
+![The Real-Time CDP Collaboration set up page, displaying an organization.](/help/assets/overview/set-up.png){zoomable="yes"}
 
 ## Identify audiences through trusted partners
 
@@ -27,23 +27,11 @@ Publishers can securely access and activate advertiser audiences across multiple
 
 Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-centric engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement automation is not available in the first release.
 
+<!-- WAIT FOR FEEDBACK ON THIS SHARE INSTANCE -->
+
 ## Privacy-centric
 
 Embedded controls ensure that governance and privacy requirements are met, guiding the responsible use of audience data at every step of your workflows.
-
-<!--
-
-## Additional benefits
-
-### Agnostic and interoperable
-
-Bring in audiences from various sources such as Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration application to other Adobe Experience Platform tools.
-
-### Built-in reputation
-
-Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
-
--->
 
 ## Get started {#get-started}
 
