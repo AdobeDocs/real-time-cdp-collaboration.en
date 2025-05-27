@@ -76,7 +76,8 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser names"
->abstract="Indicates the aliases by which the advertiser is known to the publisher. "
+>abstract="<p>Optional setting. Indicates the name and ID by which the advertiser is known to the publisher.</p><p>The advertiser name that you add here will be prefilled in the create project step.</p><ul><li>If the publisher configured multiple names, select one from the list.</li><li>If only one name is configured, it's preselected automatically.</li><li>If no names are configured, the field will be prefilled with the advertiser account name from Real-Time CDP Collaboration.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Create a project"
 
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
@@ -124,6 +125,22 @@ Use the credit split section to determine which of the two collaborating parties
 Before you can proceed with this connection, you must acknowledge that a data sharing agreement between the two parties exists. 
 
 ![Legal agreements.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
+
++++
+
++++Advertiser names
+
+As a publisher working on the connection settings, you can select to add any advertiser names by which the advertiser is known to you in your systems. As a publisher, you can add multiple advertiser names to a connection, for example, in cases where the advertiser you work with has a presence in multiple geographies. Later in the process, when [creating a project](/help/guide/collaborate/manage-projects.md#create-project) to collaborate on, you or your collaborator will be able to select the advertiser name to associate with the project.
+
+![Add advertiser names modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+Here's how the advertiser name selection works when creating a project:
+
+1. **No advertiser name set**: If no advertiser names are added, Real-Time CDP Collaboration defaults to using the advertiser's name as the advertiser name.
+2. **One advertiser name set**: If a single advertiser name is added, Real-Time CDP Collaboration automatically uses that name as the advertiser name for the project.
+3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
+
+![Advertiser names.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
