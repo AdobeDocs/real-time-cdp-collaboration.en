@@ -81,7 +81,7 @@ Select your data souce and then select **[!UICONTROL Next]**.
 
 After selecting your data source, you must select the sandbox that includes the audiences that you will import. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
 
-![The Add audiences workspace with a sandbox selected.](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
+![The Add audiences workspace with a sandbox selected.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
 
 #### Governance policy and enforcement actions {#governance-policy-and-enforcement-actions}
 
