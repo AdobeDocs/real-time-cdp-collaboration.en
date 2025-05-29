@@ -140,7 +140,7 @@ The publisher will then need to review the connection settings and either accept
 
 Review the settings the collaborator has proposed. Before accepting the connection settings, you must acknowledge that a legal agreement is in place between you and the collaborator. Additionally, you can add any advertiser names by which the advertiser is known to you in your systems. 
 
-![The connection settings workspace with the proposed settings from the collaborator and the Advertiser names and Agreements sections highlighted.](/help/assets/connect/establish-connection/review-connection-settings-view.png){zoomable="yes"}
+![The connection settings workspace with the proposed settings from the collaborator and the Advertiser names and Agreements sections highlighted.](/help/assets/connect/establish-connection/publisher-connection-settings.png){zoomable="yes"}
 
 +++Advertiser names
 
