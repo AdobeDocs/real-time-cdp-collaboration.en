@@ -15,7 +15,7 @@ To discover publishers, go to the **[!UICONTROL Connect]** > **[!UICONTROL Disco
 
 ![Discover publishers page](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-Select **[!UICONTROL View publisher]** to learn more about the publisher. You can also view and inspect any public audiences that the publisher has decided to share.
+Select **[!UICONTROL View publisher]** to learn more about the publisher. You can also view and inspect any audiences that the publisher has made public.
 
 ![View publisher profile](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
