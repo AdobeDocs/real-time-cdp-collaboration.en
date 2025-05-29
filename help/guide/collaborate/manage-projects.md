@@ -34,7 +34,7 @@ Navigate to **[!UICONTROL Collaborate]** and then **[!UICONTROL My Projects]**. 
 
 The **[!UICONTROL Create project]** dialog appears. Select the **[!UICONTROL Collaborator]** you are creating the project with via the dropdown. If you're a publisher and you set advertiser names during your connection setup, you can select the **[!UICONTROL Advertiser name]**. If you configured a single advertiser name in the connection settings, that name is prefilled for you. Otherwise, the **[!UICONTROL Advertiser name]** is preselected as advertiser name.
 
-![Create project dialog with collaborator selected and advertiser name highlighted.](/help/assets/collaborate/manage-view-projects/create-project-dialog.png){zoomable="yes"}
+![Create project dialog with collaborator selected and advertiser name highlighted.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
 
 Next, add a **[!UICONTROL Project name]** and **[!UICONTROL Description]** for your project. Then, select an image to represent the project. This image will help you easily distinguish the project in the project overview page. Once you're done, select **[!UICONTROL Create]** to create the project.
 
