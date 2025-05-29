@@ -26,7 +26,6 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * Collaborate {#collaborate}
   * [Manage projects](./collaborate/manage-projects.md)
   * [Discover](./collaborate/discover.md)
-  * [Share](./collaborate/share.md)
   * [Activate](./collaborate/activate.md)
   * [Measure](./collaborate/measure.md)
 * Permissions {#permissions}
