@@ -1,6 +1,6 @@
 ---
 title: Activate audiences
-description: As a publisher, learn how to activate in campaigns audiences shared with you by your collaborator. 
+description: Learn how to activate audiences in Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
@@ -37,7 +37,7 @@ In the **[!UICONTROL Browse audiences]**, you can see the **[!UICONTROL Identity
 
 Select the audience that you want to activate in campaigns, and then select **[!UICONTROL Save]**. The audience is now, displayed and you can see the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for the selected audience.
 
-![The Audience activation workflow with the selected audience displayed.](/help/assets/collaborate/activate/selected-audience.png)
+![The Audience activation workflow with the selected audience displayed.](/help/assets/collaborate/activate/audience-selected.png)
 
 ### Edit match keys
 
@@ -63,7 +63,7 @@ When satisfied with your selections, select **[!UICONTROL Activate]** to complet
 
 You can edit the audience's name edit icon (![Pencil icon.](/help/assets/icons/edit.png)) or deactivate the audience by selecting **[!UICONTROL Deactivate]**.
 
-![The Activate tab with the activated audience displayed and the Edit and Deactivate options highlighted.](/help/assets/collaborate/activate/activated-audience.png)
+![The Activate tab with the activated audience displayed and the Edit and Deactivate options highlighted.](/help/assets/collaborate/activate/edit-activate-audience.png)
 
 ## View activated audiences
 

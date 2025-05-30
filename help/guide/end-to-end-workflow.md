@@ -15,7 +15,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers an
 
 As an advertiser, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to submit and then edit your company settings, add your preferred match keys that you will be working with, and decide which data to bring in. In the first release, the product allows you to [import audiences](/help/guide/setup/onboard-audiences.md) from Adobe Experience Platform only. 
 
-![Discover, share, measure for advertisers.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![Discover, activate, measure for advertisers.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 Use the [discover tab to find publishers](/help/guide/connect/discover-publishers.md) that you want to work with for campaigns. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, you can [send a connection invite](/help/guide/connect/establishing-connections.md) and propose collaboration settings to connect with the publisher.
 

@@ -24,7 +24,7 @@ These release notes cover the functionality released in Real-Time Customer Data 
 * When establishing a connection with a collaborator, you can now select from predefined **use cases**. The selected use case determines which project sections and product functionality become available. [Read more](/help/guide/collaborate/manage-projects.md#project-use-cases).
     * *Campaign measurement* enables the **Measure** project section.
     * *Audience discovery* enables the **Discover** project section.
-    * *Audience sharing and activation* enables the **Share** and **Activate** *(publisher-only)* project sections. <br> ![Use cases highlighted in the connection view.](/help/assets/release-notes/2025/use-cases.png "Use cases highlighted in the connection view."){width="250" align="center" zoomable="yes"}
+    * *Audience activation* enables the  **Activate** project sections <br>
 * You can now delete connections with collaborators you no longer wish to work with. [Read more](/help/guide/connect/establishing-connections.md#delete-connections). 
 
 

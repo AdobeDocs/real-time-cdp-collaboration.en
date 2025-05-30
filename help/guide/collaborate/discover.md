@@ -135,7 +135,7 @@ To change your audience selection, select **[!UICONTROL Change audience]**.
 
 The **[!UICONTROL Change audience]** dialog opens, where you can a specific audience to compare against your collaborator's audiences. Select the desired audiences, or clear your selections to select all audiences, and then select **[!UICONTROL Save]**.
 
-![The Change audience dialog in the Discover workspace.](/help/assets/collaborate/discover/change-audience-dialog.png)
+![The Change audience dialog in the Discover workspace.](/help/assets/collaborate/discover/change-audience-selection.png)
 
 Once you've selected the desired audiences, the **[!UICONTROL Discover overlaps]** section displays the following information for each audience:
 

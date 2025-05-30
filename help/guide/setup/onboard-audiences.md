@@ -33,7 +33,7 @@ What you'll find on this documentation page:
 >
 >To import audiences, your user needs to be assigned to a role containing two Profile Management permissions - View Profiles and View Segments. For information about assigning the necessary permissions, refer to the [audience importation](../permissions/overview.md#audience-importation) guide.
 
-Before you can share audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
+Before you can activate audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
 
 From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Stetup]** workspace select the Plus **+** symbol or the **[!UICONTROL Add] option** and then select **Audience**.
 
@@ -232,7 +232,7 @@ Each audience contains an overview of the following information:
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
 | **[!UICONTROL Source]** | Indicates the source where the audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. You can select the name to view the data connection.  |
-| **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be shared with collaborators. |
+| **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
 | **[!UICONTROL Created]** | Indicates when the audience was imported into Real-Time CDP Collaboration. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of the audience was updated. |
 
@@ -334,7 +334,7 @@ Select the desired connection access option and then select **[!UICONTROL Save]*
 >
 >Regardless of access status (public, private, or custom), the population of any audience contributes to the **[!UICONTROL All audiences]** population in the **[!UICONTROL Compare audiences]** section within a project.<br> 
 
-Audience availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is shared with collaborators.
+Audience availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is activated.
 
 ### Metadata visibility {#metadata-visibility}
 

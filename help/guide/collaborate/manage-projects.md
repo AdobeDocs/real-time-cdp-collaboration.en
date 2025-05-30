@@ -52,4 +52,4 @@ Once you're in the project overview, you can see the use cases that were selecte
 | --- | --- |
 | Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md) section and all availabile functionality. |
 | Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md) section and all availabile functionality. |
-| Audience activation | This use case grants access to the [Activate](/help/guide/collaborate/share.md) section and all availabile functionality. |
+| Audience activation | This use case grants access to the [Activate](/help/guide/collaborate/activate.md) section and all availabile functionality. |

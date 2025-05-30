@@ -27,8 +27,6 @@ Publishers can securely access and activate advertiser audiences across multiple
 
 Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to brands, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-centric engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement automation is not available in the first release.
 
-<!-- WAIT FOR FEEDBACK ON THIS SHARE INSTANCE -->
-
 ## Privacy-centric
 
 Embedded controls ensure that governance and privacy requirements are met, guiding the responsible use of audience data at every step of your workflows.
