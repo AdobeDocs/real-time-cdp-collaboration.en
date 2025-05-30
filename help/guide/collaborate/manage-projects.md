@@ -9,7 +9,7 @@ exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 
 {{limited-availability-release-note}}
 
-Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover and connect with the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborator's audiences and discover relevant audiences that you can use in campaigns.
+Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After connecting with collaborators, create a project to run audience overlap calculations and discover relevant audiences for campaigns.
 
 >[!TIP]
 >
@@ -28,25 +28,29 @@ You can use filters to view only the projects that you have started with certain
 >title="Advertiser Name"
 >abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the publisher in the connection settings to ensure compatibility with their systems."
 
-Navigate to **[!UICONTROL Collaborate]** and then **[!UICONTROL My Projects]**. If this is your firest project, you can select **[!UICONTROL Create a project]** . Otherwise you can select the **+** symbol to create a new project at anytime.
+Navigate to **[!UICONTROL Collaborate]** and then **[!UICONTROL My Projects]**. If this is your first project, you can select **[!UICONTROL Create a project]**. Otherwise you can select the add icon (![Add icon.](/help/assets/icons/add.png)) to create a new project at anytime.
 
 ![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-The **[!UICONTROL Create project]** dialog appears. Select the **[!UICONTROL Collaborator]** you are creating the project with via the dropdown. If you're a publisher and you set advertiser names during your connection setup, you can select the **[!UICONTROL Advertiser name]**. If you configured a single advertiser name in the connection settings, that name is prefilled for you. Otherwise, the **[!UICONTROL Advertiser name]** is preselected as advertiser name.
+The **[!UICONTROL Create project]** dialog appears. Select the **[!UICONTROL Collaborator]** you are creating the project with via the dropdown. If you're a publisher and you set advertiser names during your connection setup, you can select the **[!UICONTROL Advertiser name]**. 
+
+>[!NOTE]
+>
+> If you configured a single advertiser name in the connection settings, it appears by default. If no advertiser name was set up, the advertiser's **[!UICONTROL Name]** is preselected as the **[!UICONTROL Advertiser name]**.
 
 ![Create project dialog with collaborator selected and advertiser name highlighted.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
 
-Next, add a **[!UICONTROL Project name]** and **[!UICONTROL Description]** for your project. Then, select an image to represent the project. This image will help you easily distinguish the project in the project overview page. Once you're done, select **[!UICONTROL Create]** to create the project.
+Next, add a **[!UICONTROL Project name]** and **[!UICONTROL Description]** for your project. Then, select an image to represent the project. This image helps to distinguish the project in the project overview page. Once you're done, select **[!UICONTROL Create]** to create the project.
 
 ![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
-You can now view your new project and its details, as well as the available sections, depending on the use cases selected during the connection process.
+You can now view your new project, its details, and available sections based on the use cases selected during connection setup.
 
 ![The project overview workspace.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
 ## Project use cases {#project-use-cases}
 
-Once you're in the project overview, you can see the use cases that were selected during the connection process. These use cases determine the functionality available in the project. The use cases are:
+The project overview displays the use cases selected during the connection setup. These use cases define the functionality available in the project. The use cases are:
 
 | Use case | Project section |
 | --- | --- |

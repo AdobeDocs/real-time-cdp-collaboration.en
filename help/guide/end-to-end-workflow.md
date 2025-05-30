@@ -21,9 +21,7 @@ Use the [discover tab to find publishers](/help/guide/connect/discover-publisher
 
 After the publisher accepts your connection request, it is time to explore the overlapping audiences between your organization and theirs. Set up a project for a campaign and [run overlap reports](/help/guide/collaborate/discover.md) to discover the best audiences for your next advertising campaign, depending on the collaboration use case - targeting, suppression, and others. 
 
-Once you discover the ideal audiences, it is time to [send them to the publisher](/help/guide/collaborate/activate.md). The publisher will activate the audiences, kicking off the campaign. 
-
-<!-- CORRECT LINK ABOVE TO INCLUDE TO APPROPRIATE SECTION  -->
+Once you discover the ideal audiences, it is time to [activate them](/help/guide/collaborate/activate.md). 
 
 The final step in the collaboration loop is [measurement](/help/guide/collaborate/measure.md). To measure or know your business results, upload measurement data like ad logs and then run the reports provided in the program to understand how your audiences performed. 
 

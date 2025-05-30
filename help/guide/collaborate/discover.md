@@ -13,7 +13,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 >
 >The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-After [creating a project](/help/guide/collaborate/manage-projects.md), you can now compare your audiences and against your collaborators. This helps you identify relevant audiences for campaigns and decide which audiences to send to publishers for activation.
+After [creating a project](/help/guide/collaborate/manage-projects.md), you can compare your audiences against your collaborators. This helps you identify relevant audiences for campaigns and decide which ones to send to publishers for activation.
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ In the compare audiences section, you can see the following metrics, which are b
 >title="Relevant audiences"
 >abstract="Based on overlap percentages, these publisher audiences might be a good fit for your campaign. <br><br> The <b>identity count</b> is the publisher's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> advertiser audiences."
 
-The **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]** tab provides a curated list of the top five audiences based on the overlap percentage between the your collaborator's recommended audience, and all your audiences. This feature helps you quickly identify the audiences with the highest overlap with your current data, enabling you to target your campaigns more effectively. Switch between the recommended audiences using the page selectors in the top right of the section.
+The **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]** tab provides a curated list of the top five audiences based on the overlap percentage between the your collaborator's recommended audience, and all your audiences. This feature helps you quickly identify the audiences with the highest overlap, enabling you to target your campaigns more effectively. Switch between the recommended audiences using the page selectors in the top right of the section.
 
 ![The Discover workspace with the Relevant audiences section highlighted.](/help/assets/collaborate/discover/relevant-audiences.png)
 

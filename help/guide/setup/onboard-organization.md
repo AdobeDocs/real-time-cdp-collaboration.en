@@ -76,7 +76,7 @@ When you're finished, use **[!UICONTROL Next]** to proceed to the next page to s
 
 >[!IMPORTANT]
 >
->Any match keys that you select will then trickle down to the [project level](/help/guide/collaborate/manage-projects.md) in the collaboration between advertisers and publishers. At the project level, you are able to remove match keys, but you are *not* able to add any additional ones. Match keys must be edited within your organization's settings.
+>The match keys that you select during the organization setup will determine the available match keys for the connections that you create with other organizations. While you can remove match keys during the connection setup, you cannot add new match keys later. It is important to select all match keys that you plan to use in future campaigns during the organization setup.
 
 Match keys, such as email addresses, device IDs, or customer IDs, help advertisers and publishers work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement.
 

@@ -169,11 +169,11 @@ Select the empty source field next to the target field. The **[!UICONTROL Select
 
 ![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png)
 
-Since we have two email fields, we'll map the non-hashed email source field, utilizing **[!UICONTROL Apply transformation]**
+To handle multiple email fields, map the non-hashed email source field using **[!UICONTROL Apply transformation]**.
 
 ![The Add audiences workspace with the email source fields mapped to the target field, with Apply transformation toggled on for one.](/help/assets/setup/add-manage-audiences/apply-transformation.png)
 
-Continue addings as many mapping pairs as you need and then select **[!UICONTROL Next]** to proceed to the next step.
+Continue adding mapping pairs as needed and then select **[!UICONTROL Next]**.
 
 ### Schedule {#schedule}
 
@@ -229,7 +229,7 @@ Each audience contains an overview of the following information:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
-| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A Pending status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
+| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A **[!UICONTROL Pending]** status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
 | **[!UICONTROL Source]** | Indicates the source where the audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. You can select the name to view the data connection.  |
 | **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
@@ -259,7 +259,7 @@ The following information is displayed for each individual audience:
 | **[!UICONTROL Source]** | Indicates the source where the audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated. |
-| **[!UICONTROL Last updated by]** | Indicates the user who last updated tje audience. |
+| **[!UICONTROL Last updated by]** | Indicates the user who last updated the audience. |
 | **[!UICONTROL Created]** | Indicates when the audience was imported into Real-Time CDP Collaboration. |
 | **[!UICONTROL Created by]** | Indicates the user who imported the audience into Real-Time CDP Collaboration. |
 
