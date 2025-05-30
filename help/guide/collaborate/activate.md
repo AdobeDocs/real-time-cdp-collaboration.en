@@ -23,7 +23,7 @@ To start activating audiences, navigate to the **[!UICONTROL Activate]** tab in 
 >
 >Only **advertisers** can activate audiences in a project. 
 
-Select the **+** symbol, or the **[!UICONTROL Activate audience]** option if no previous audiences have been sent for activation.
+Select the add icon (![Add icon.](/help/assets/icons/plus.png)), or the **[!UICONTROL Activate audience]** option if no previous audiences have been sent for activation.
 
 ![The Activate workspace in a project with no audiences added.](/help/assets/collaborate/activate/activate-new-audiences.png)
 

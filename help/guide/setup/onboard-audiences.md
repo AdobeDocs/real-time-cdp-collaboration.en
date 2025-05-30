@@ -35,7 +35,7 @@ What you'll find on this documentation page:
 
 Before you can activate audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
 
-From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Stetup]** workspace select the Plus **+** symbol or the **[!UICONTROL Add] option** and then select **Audience**.
+From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Stetup]** workspace select the add icon (![Add icon.](/help/assets/icons/plus.png)) or the **[!UICONTROL Add] option** and then select **Audience**.
 
 ![My audiences workspace with the Add option and Audiences option highlighted.](/help/assets/setup/add-manage-audiences/add-audiences.png)
 

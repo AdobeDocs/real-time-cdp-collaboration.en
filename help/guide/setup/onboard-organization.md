@@ -17,7 +17,7 @@ Learn how to onboard your organization onto Real-Time CDP Collaboration and mana
 
 You must first set up your organization and organizational details. If this is your first organization, you'll be directed through the onboarding process immediately, starting with setting up your [account details](#set-up-details).
 
-To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the **+** symbol in the upper right corner. Next, select **[!UICONTROL Account]**.
+To add additional organizations, navigate to **[!UICONTROL Setup]** in the left rail and select the add icon (![Add icon.](/help/assets/icons/plus.png)) in the upper right corner. Next, select **[!UICONTROL Account]**.
 
 ![The setup workspace with the Account option highlighted.](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
