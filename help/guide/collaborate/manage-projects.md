@@ -28,7 +28,7 @@ You can use filters to view only the projects that you have started with certain
 >title="Advertiser Name"
 >abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the publisher in the connection settings to ensure compatibility with their systems."
 
-Navigate to **[!UICONTROL Collaborate]** and then **[!UICONTROL My Projects]**. If this is your first project, you can select **[!UICONTROL Create a project]**. Otherwise you can select the add icon (![Add icon.](/help/assets/icons/add.png)) to create a new project at anytime.
+Navigate to **[!UICONTROL Collaborate]** and then **[!UICONTROL My Projects]**. If this is your first project, you can select **[!UICONTROL Create a project]**. Otherwise you can select the add icon (![Add icon.](/help/assets/icons/plus.png)) to create a new project at anytime.
 
 ![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
