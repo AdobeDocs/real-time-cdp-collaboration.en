@@ -22,7 +22,27 @@ Before you can access the measurement reports in Real-Time CDP Collaboration, yo
 * [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher with the **Campaign measurement** use case enabled and started collaborating on [projects](/help/guide/collaborate/manage-projects.md)
 * Run a campaign and [uploaded measurement data](/help/guide/setup/onboard-measurement-data.md) into Real-Time CDP Collaboration.
 
-## View reports
+<!--
+
+## Create a report {#create-report}
+
+Hidden until functionality is live. At that point, move the contextualhelp from below into this section. 
+
+The syntax rtcdp_collaboration_measurement_create_report is currently implemented in the UI. However, a preference would be to imlement the other contextualhelp ID from below instead, since that explicitly includes campaignID in the syntax. Need to sync up with UI team. More details in CORE-116991.
+
+-->
+
+## View reports {#view-reports}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report_campaignID"
+>title="Campaign IDs"
+>abstract="Placeholder to add relevant information in the UI about what the Campaign IDs are."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_measurement_create_report"
+>title="Campaign IDs"
+>abstract="Placeholder to add relevant information in the UI about what the Campaign IDs are."
 
 To view the reports available in the measurement tab: 
 

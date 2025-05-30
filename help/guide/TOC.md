@@ -33,11 +33,6 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Overview](/help/guide/permissions/overview.md)
   * [Manage user access](/help/guide/permissions/manage-user-access.md)
   * [Manage roles](/help/guide/permissions/manage-roles.md)
-* Sample use cases {#use-cases}
-  * [Campaign measurement](./use-cases/campaign-measurement.md)
-  * [Prospecting](./use-cases/prospecting.md)
-  * [Retargeting](./use-cases/retargeting.md)
-  * [Suppression](./use-cases/suppression.md)
 * Reference {#reference}
   * [Common questions and troubleshooting tips](./faqs/common-questions.md)
   * [Glossary](./glossary.md)

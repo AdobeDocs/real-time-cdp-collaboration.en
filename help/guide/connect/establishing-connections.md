@@ -64,9 +64,20 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >abstract="Audience Sharing is the activity that a party takes when requesting their matched data to be activated by their collaboration partner."
 
 >[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="Measurement"
+>abstract="This use case enables you to execute activities in Real-Time CDP Collaboration to generate campaign performance reports and insights."
+
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Legal agreement"
 >abstract="Verify that a data sharing agreement between the two parties exists."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_advertisername"
+>title="Advertiser names"
+>abstract="<p>Optional setting. Indicates the name and ID by which the advertiser is known to the publisher.</p><p>The advertiser name that you add here will be prefilled in the create project step.</p><ul><li>If the publisher configured multiple names, select one from the list.</li><li>If only one name is configured, it's preselected automatically.</li><li>If no names are configured, the field will be prefilled with the advertiser account name from Real-Time CDP Collaboration.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Create a project"
 
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
@@ -94,23 +105,42 @@ Use cases are prefilled with all available use cases. You can choose which use c
 
 Match keys are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
 
-![Match keys](/help/assets/connect/establish-connection/match-keys.png)
+![Match keys](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++Credit split
 
-Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities.
+Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Audience activation]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
 
-![Credit split](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>Audience - Egress is always covered by the the collaborator that receives the audience, therefore no selection is required.
 
+![The Credit split dialog with options in the connection workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++Agreements
 
 Before you can proceed with this connection, you must acknowledge that a data sharing agreement between the two parties exists. 
 
-![Legal agreements.](/help/assets/connect/establish-connection/legal-agreement.png)
+![Legal agreements.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
+
++++
+
++++Advertiser names
+
+As a publisher working on the connection settings, you can select to add any advertiser names by which the advertiser is known to you in your systems. As a publisher, you can add multiple advertiser names to a connection, for example, in cases where the advertiser you work with has a presence in multiple geographies. Later in the process, when [creating a project](/help/guide/collaborate/manage-projects.md#create-project) to collaborate on, you or your collaborator will be able to select the advertiser name to associate with the project.
+
+![Add advertiser names modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+Here's how the advertiser name selection works when creating a project:
+
+1. **No advertiser name set**: If no advertiser names are added, Real-Time CDP Collaboration defaults to using the advertiser's name as the advertiser name.
+2. **One advertiser name set**: If a single advertiser name is added, Real-Time CDP Collaboration automatically uses that name as the advertiser name for the project.
+3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
+
+![Advertiser names.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
