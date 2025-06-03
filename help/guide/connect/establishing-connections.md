@@ -9,13 +9,13 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 
 {{limited-availability-release-note}}
 
-Before collaborators (typically an advertiser and a publisher) can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance.
+Establishing a connection between two parties of a collaboration (most commonly an advertiser and a publisher) is the prerequisite in Real-Time CDP Collaboration to companies working together on campaigns. Publishers and advertisers alike can set up connections. Whichever party initiates the connection will afterwards be the *connection owner*. 
 
 ## High-level workflow
 
-To establish a connection between an advertiser and a publisher, the following steps are required:
+At a high level, to establish a connection between an advertiser and a publisher, the workflow looks like below:
 
-1. The advertiser [browses publishers and discovers](/help/guide/connect/discover-publishers.md) one that they would like to work with.
+1. The advertiser [browses publishers and discovers](/help/guide/connect/discover-publishers.md) one that they would like to work with 
 2. The advertiser sends a connection invite.
 3. The publisher accepts the invite.
 4. The advertiser sends connection settings including match keys and others. These connection settings represent the in-product terms of the collaboration.
@@ -33,9 +33,9 @@ Once the items above are completed, the collaborators can proceed to [create a p
 
 To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the discover publishers screen.
 
-![The Connect dashboard with the Connect option highlighted on a specific publisher.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![Connect selector](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-After the invite is sent, you can preview (but not edit) the connection settings. View pending invites in the **[!UICONTROL My connections]** tab. The connection status appears as **[!UICONTROL Invite sent]**.
+At this point, the invite is out and you can preview the connection settings, but cannot edit them. You can view the pending invite in the **[!UICONTROL My connections]** tab. The status of the connection is **[!UICONTROL Invite sent]**.
 
 ![Pending invite sent to publisher displayed in the My connections view.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -56,17 +56,17 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit split"
->abstract="This section determines who is paying for the corresponding activities within Real-Time CDP Collaboration."
+>abstract="This section determines who is paying for the corresponding activities within Real-Time CDP Collaboration. Currently, only the audience sharing use case is configurable."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Audience sharing"
->abstract="Audience activation credits are consumed based on the number of matched IDs prepared for activation."
+>abstract="Audience Sharing is the activity that a party takes when requesting their matched data to be activated by their collaboration partner."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Measurement"
->abstract="Execute activities to generate campaign performance reports and insights. Credits are consumed based on the number of rows in campaign reports across all campaigns and the frequency of reporting (daily, every three days, or weekly)."
+>abstract="This use case enables you to execute activities in Real-Time CDP Collaboration to generate campaign performance reports and insights."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -83,31 +83,29 @@ After the invite is sent, you can preview the connection settings. The invite mu
 
 ![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
 
-### Advertiser connection settings {#advertiser-connection-settings}
+Once the connection is accepted by your collaborator, you can now start setting up the connection settings for the connection. The connection settings define the terms of your collaboration, such as the use cases that you will accomplish together, the match keys that you will use in projects, and more. 
 
-After your collaborator accepts the connection, set up the connection settings. These settings define your collaboration terms, including the use cases you'll work on, the match keys for projects, and other configurations. 
+To set up and share connection settings with your collaborator, navigate to **[!UICONTROL My connections]**. For any connections with the status **[!UICONTROL Pending]**, you can select **[!UICONTROL Set up connection]** to configure the connection settings. 
 
-To begin, navigate to **[!UICONTROL My connections]**. For any connections with the status **[!UICONTROL Pending]**, you can select **[!UICONTROL Set up connection]** to configure the connection settings. 
-
-![The My connections workspace with a Pending connection and its Set up connection option highlighted.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
+![The My connections view with a Pending connection and its Set up connection option highlighted.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
 
 You can edit and define the fields below: 
 
-![The connection settings workspace before it's filled in.](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
+![Set up connection view](/help/assets/connect/establish-connection/connection-view.png){zoomable="yes"}
 
 +++Use cases
 
-Use cases are prefilled with all available options. To customize them, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section and turn off any you don't want. Selected use cases determine which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases).
+Use cases are prefilled with all available use cases. You can choose which use cases your connection will use by selecting **[!UICONTROL Edit]** and toggling off any use cases you do not want. Selected use cases will affect which views and options are [available within your projects](../collaborate/manage-projects.md#project-use-cases).
 
-![The Use cases settings in the connection settings workspace.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
+![Use cases](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 +++
 
 +++Match keys
 
-Match keys are prefilled with the ones you selected while [setting up your organization](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys you don't want to use, but you can't add match keys that weren't selected during organization setup.
+Match keys are prefilled with the ones that you [selected at your organizational level](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys that you do not want used in this connection, but you cannot add any match keys that were not selected when setting up the organization.
 
-![The Match key settings in the connection settings workspace.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![Match keys](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
@@ -126,27 +124,15 @@ Use the credit split section to determine which of the two collaborating parties
 
 Before you can proceed with this connection, you must acknowledge that a data sharing agreement between the two parties exists. 
 
-![The Legal agreement section highlight and confirmed in the connection workspace.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
+![Legal agreements.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
-
-After you have made your selections, select **[!UICONTROL Submit]** to send the suggested settings to your collaborator for review.
-
-### Publisher connection settings {#publisher-connection-settings}
-
-The publisher then needs to review the connection settings and either accept or reject them. To review the connection settings, navigate to **[!UICONTROL My connections]** and select **[!UICONTROL Review connection settings]** in the connection card.
-
-![The Review connection settings option highlighted in the My connections view.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
-
-Review the settings the collaborator has proposed. Before accepting the connection settings, you must acknowledge that a legal agreement is in place between you and the collaborator. Additionally, you can add any advertiser names by which the advertiser is known to you in your systems. 
-
-![The connection settings workspace with the proposed settings from the collaborator and the Advertiser names and Agreements sections highlighted.](/help/assets/connect/establish-connection/publisher-connection-settings.png){zoomable="yes"}
 
 +++Advertiser names
 
 As a publisher working on the connection settings, you can select to add any advertiser names by which the advertiser is known to you in your systems. As a publisher, you can add multiple advertiser names to a connection, for example, in cases where the advertiser you work with has a presence in multiple geographies. Later in the process, when [creating a project](/help/guide/collaborate/manage-projects.md#create-project) to collaborate on, you or your collaborator will be able to select the advertiser name to associate with the project.
 
-![The Advertiser names dialog in the connection settings workspace.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+![Add advertiser names modal.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
 
 Here's how the advertiser name selection works when creating a project:
 
@@ -154,29 +140,24 @@ Here's how the advertiser name selection works when creating a project:
 2. **One advertiser name set**: If a single advertiser name is added, Real-Time CDP Collaboration automatically uses that name as the advertiser name for the project.
 3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
 
-![The connection settings workspace with the Advertiser names section filled in.](/help/assets/connect/establish-connection/advertiser-names.png)
+![Advertiser names.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
->[!NOTE]
->
-> Once you've accepted the connection settings, you are no longer able to add or edit advertiser names.
+After you have made your selection, select **[!UICONTROL Submit]** to send the suggested settings to your collaborator for review.
 
-If you are satisfied with the proposed connection settings, select **[!UICONTROL Accept]** to establish the connection. If you want to request changes to the connection settings, select **[!UICONTROL Reject]**. The collaborator can then revise the connection settings and resend them for review.
+If you are receiving proposed connection settings from your collaborator, you can either **[!UICONTROL Accept]** or **[!UICONTROL Reject]** those settings. Before accepting the connection settings, you need to acknowledge and confirm that a legal agreement is in place between you and the collaborator. If you are rejecting connection settings, reach out to your collaborator outside of the product and discuss how they should revise the connection settings for you to accept them.
 
 ## Delete connections {#delete-connections}
 
-You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections, navigate to **[!UICONTROL Connect]**. Advertisers should then navigate to **[!UICONTROL My connections]**. Select **[!UICONTROL View connection]** on the connection card to open the connection you want to delete.
+You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections: 
 
-![The View connection option highlighted in the My connections view.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-Select the delete icon ![delete icon](/help/assets/common/delete.svg) in the connection workspace to delete the connection.
-
-![The delete icon highlighted in the connection workspace.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-A confirmation dialog appears, asking you to confirm the deletion of the connection. Select **[!UICONTROL Delete]** to confirm the deletion.
-
-![The confirmation dialog to delete a connection.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
+1. Navigate to **[!UICONTROL Connect]** > **[!UICONTROL My connections]**.
+2. Select **[!UICONTROL View connection]** on the connection card to access the connection that you want to delete.
+3. Select the delete icon ![delete icon](/help/assets/common/delete.svg) to bring up the delete connection confirmation dialog.
+    ![Delete connection icon highlighted.](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
+4. Confirm the deletion by selecting **[!UICONTROL Delete]**.
+    ![Dialog to confirm deletion of a connection. ](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
 >

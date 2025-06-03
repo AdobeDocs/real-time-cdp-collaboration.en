@@ -45,8 +45,8 @@ Below is a list of available permissions within the Collaborations resource:
 | Read Audience Data | Read and discover audiences. |
 | Manage Measurement Data | Onboard, update, and delete measurement data. |
 | Read Measurement Data | Read measurement data. |
-| Manage Projects | View, create, update, and delete projects for any of the discover, activate, and measurement activities. |
-| Read Projects | View projects for any of the discover, activate, and measurement activities. |
+| Manage Projects | View, create, update, and delete projects for any of the discover, share, activate, and measurement activities. |
+| Read Projects | View projects for any of the discover, share, activate, and measurement activities. |
 | Read User Activities | Read user activities. |
 | Export User Activities | Export user activities. |
 | Read Collaboration Credit Monitoring | Credit monitoring at the organization and instance level. |

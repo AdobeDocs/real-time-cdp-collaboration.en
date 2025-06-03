@@ -15,19 +15,19 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers an
 
 As an advertiser, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to submit and then edit your company settings, add your preferred match keys that you will be working with, and decide which data to bring in. In the first release, the product allows you to [import audiences](/help/guide/setup/onboard-audiences.md) from Adobe Experience Platform only. 
 
-![Discover, activate, measure for advertisers.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+![Discover, share, measure for advertisers.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
 Use the [discover tab to find publishers](/help/guide/connect/discover-publishers.md) that you want to work with for campaigns. Contact the publisher and discuss collaboration terms outside of the product. Once agreed on a set of terms, you can [send a connection invite](/help/guide/connect/establishing-connections.md) and propose collaboration settings to connect with the publisher.
 
 After the publisher accepts your connection request, it is time to explore the overlapping audiences between your organization and theirs. Set up a project for a campaign and [run overlap reports](/help/guide/collaborate/discover.md) to discover the best audiences for your next advertising campaign, depending on the collaboration use case - targeting, suppression, and others. 
 
-Once you discover the ideal audiences, it is time to [activate them](/help/guide/collaborate/activate.md). 
+Once you discover the ideal audiences, it is time to [share them with the publisher](/help/guide/collaborate/share.md) for them to activate the audiences and thereby kick off the campaign. 
 
 The final step in the collaboration loop is [measurement](/help/guide/collaborate/measure.md). To measure or know your business results, upload measurement data like ad logs and then run the reports provided in the program to understand how your audiences performed. 
 
 ## Publisher end-to-end workflow {#publisher}
 
-As a publisher, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to edit various company settings.
+As a publisher, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to edit various company settings. For example, make sure to include the identities that your company works with. 
 
 Decide which audience data to import and which audiences to make discoverable and viewable to the advertisers who are looking to connect with you in the **[!UICONTROL Connect]** area of the product.
 
@@ -37,7 +37,7 @@ Decide which advertisers you would like to work with and contact the advertiser 
 
 After you accept their connection request, it is time to explore the overlapping audiences between you and your collaborator. The advertiser will set up a project for a campaign and run overlap reports between their audiences and yours, based on their desired objectives - prospecting, suppression, and more.  
 
-Once the advertiser discovers the ideal audiences to target for a campaign and sends these to you, you can activate them and kick off the campaign. 
+Once the advertiser discovers the ideal audiences to target for a campaign and shares these with you, you can activate them and thereby kick off the campaign. 
 
 The final step in the collaboration loop is measurement. To know how your campaigns did, as a final step, upload measurement data like ad logs and then run the reports provided in the program to understand how the audiences performed.
 
