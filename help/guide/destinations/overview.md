@@ -28,7 +28,7 @@ To configure a destination, navigate to **[!UICONTROL Setup]** and then select t
 
 To begin configuring a destination, select the **[!UICONTROL Set up]** option within the destination of your choice. For information on configuring specific destinations, refer to the guides in the [available destinations](#available-destinations) table.
 
-![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform desintation.](/help/assets/destinations/overview/set-up-destination.png)
+![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform desintation.](/help/assets/destinations/overview/my-destinations-set-up.png)
 
 ### Available destinations {#available-destinations}
 
