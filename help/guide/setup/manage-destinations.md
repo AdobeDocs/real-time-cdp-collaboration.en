@@ -14,7 +14,7 @@ Currently, destinations are only available to publishers in Real-Time CDP Collab
 
 ![The My destinations tab in the Setup workspace showing an active Adobe Experience Platform destinations](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
-To learn more about destinations, refer to the [destinations overview](./overview.md) guide.
+To learn more about destinations, refer to the [destinations overview](../destinations/overview.md) guide.
 
 ## Configure destinations {#configure-destinations}
 
