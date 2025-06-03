@@ -39,11 +39,31 @@ Available match keys include:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Scheduling"
->abstract="This view displays the scheduling options that you selected initially for your data connection."
+>abstract="View and edit the scheduling options for your data connection, including refresh frequency and date range."
 
-You cannot edit the scheduling options that you selected initially for your data connection. For more information about scheduling options, view the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow document.
+View and manage the scheduling settings for your data connections. Scheduling determines how often audience data is refreshed from the source system.
 
-![A data connections workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+After a data connection is created, you can update its scheduling options directly from the **Scheduling** section of the data connection workspace.
+
+>[!NOTE]
+>
+>After an audience is sourced, the first export from Real-Time CDP occurs within 24 hours. Subsequent exports follow the refresh schedule defined in the data connection settings.
+
+For more information about scheduling options during audience import, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow guide.
+
+![A data connections workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes" alt="The Scheduling section in the data connection workspace, showing frequency and date range settings."}
+
+### Edit scheduling {#edit-scheduling}
+
+You can edit the scheduling details of an existing data connection to better control how often audiences are refreshed.
+
+To edit the schedule, go to the Scheduling section and select Edit. In the Scheduling dialog, you can update the Frequency, Start date, and End date. Set the Frequency to refresh daily (every 1 day) or every 2 to 6 days. Choose a Start date beginning tomorrow or any future date, and select an End date that is at least one day after the start date. When you finish, select Save to apply your changes.
+
+>[!IMPORTANT]
+>
+>You can update the frequency, start date, and end date. Other data connection settings, including match keys, cannot be edited.
+
+![The Scheduling dialog, showing options to set frequency and date range.](/help/assets/setup/manage-data-connection/PLACEHOLDER.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency, start date, and end date."}
 
 ## Delete data connection
 
