@@ -15,7 +15,6 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Onboard and manage your organization](./setup/onboard-organization.md)
   * [Import and manage audiences](./setup/onboard-audiences.md)
   * [Manage data connections](./setup/manage-data-connection.md)
-  * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
   * [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
@@ -27,11 +26,9 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * Collaborate {#collaborate}
   * [Manage projects](./collaborate/manage-projects.md)
   * [Discover](./collaborate/discover.md)
+  * [Share](./collaborate/share.md)
   * [Activate](./collaborate/activate.md)
   * [Measure](./collaborate/measure.md)
-* Destinations {#destinations}
-  * [Overview](./destinations/overview.md)
-  * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permissions {#permissions}
   * [Overview](/help/guide/permissions/overview.md)
   * [Manage user access](/help/guide/permissions/manage-user-access.md)

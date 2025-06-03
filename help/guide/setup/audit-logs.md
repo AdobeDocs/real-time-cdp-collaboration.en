@@ -98,7 +98,7 @@ The table below provides a reference of all categories and actions for Real-Time
 | **[!UICONTROL Collaboration Data Connection]** | create, update, delete                   | Manage data connections for collaboration to import and manage audiences, including creating, updating, and deleting data connections. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md). |
 | **[!UICONTROL Collaboration Data Entity]**     | create, update, delete                   | Manage data entities for collaboration, including creating, updating, and deleting data entities. Data entities in this context refers to audiences. Read more about [importing and managing audiences](/help/guide/setup/onboard-audiences.md). |
 | **[!UICONTROL Collaboration Project]**         | create, update, delete                   | Manage projects within collaboration, including creating, updating, and deleting projects. Read more about [managing projects](/help/guide/collaborate/manage-projects.md). |
-| **[!UICONTROL Collaboration Module]**          | create, update, delete                   | Manage different modules within collaboration projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [activate audiences](/help/guide/collaborate/activate.md). |
+| **[!UICONTROL Collaboration Module]**          | create, update, delete                   | Manage different modules within collaboration projects, including creating, updating, and deleting various modules in the UI. For example, the ability to [share audiences](/help/guide/collaborate/share.md). |
 
 {style="table-layout:auto"}
 

@@ -9,15 +9,20 @@ exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 
 {{limited-availability-release-note}}
 
-The setup section in Real-Time CDP Collaboration is your go-to place to add information about your company as you get started with the product.\
-
-![An organization's set up workspace, giving an overview of its current settings.](/help/assets/setup/set-up-overview.png){zoomable="yes"}
+The setup section in Real-Time CDP Collaboration is your go-to place to add information about your company as you get started with the product. This screen is also the place to return to for managing various resources, such as audiences details or match keys.
 
 Use the functionality in the setup section to:
 
-* [Onboard and manage your organization](/help/guide/setup/onboard-organization.md)
+* [Onboard and manage various aspects of your organization](/help/guide/setup/onboard-organization.md) in Adobe Real-Time CDP Collaboration 
 * [Import and manage audiences](/help/guide/setup/onboard-audiences.md)
-* [Manage data connections](/help/guide/setup/manage-data-connection.md)
-* [Configure and manage destinations](/help/guide/setup/manage-destinations.md)
-* [Track your credit consumption activity](/help/guide/setup/my-activity.md)
-* [View audit logs](/help/guide/setup/audit-logs.md)
+* [View data connections](/help/guide/setup/manage-data-connection.md)
+* [Track your credits activity](/help/guide/setup/my-activity.md)
+* [Onboard measurement data](/help/guide/setup/onboard-measurement-data.md) for your advertising campaigns 
+
+<!--
+
+* [Import and manage identity crosswalks](/help/guide/setup/identity-crosswalk.md) *(not part of the beta release)*
+
+-->
+
+![Setup page](/help/assets/setup/setup-page.png)
