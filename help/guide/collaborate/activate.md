@@ -67,7 +67,7 @@ You can edit the audience's name edit icon (![Pencil icon.](/help/assets/icons/e
 
 ## View activated audiences
 
-In the **[!UICONTROL Activate]** tab, both publishers and advertisers can view the audiences that are currently activated. Currently, automatically sent to the publisher's configured destination after the advertiser activates the audience.
+In the **[!UICONTROL Activate]** tab, both publishers and advertisers can view the audiences that are currently activated. Currently, audiences are automatically sent to the publisher's configured destination after the advertiser activates them.
 
 ![Overview of the Activate tab, showcasing an activated audience.](/help/assets/collaborate/activate/activate-overview.png)
 
