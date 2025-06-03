@@ -13,15 +13,15 @@ exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 >
 >The **[!UICONTROL Activate]** workspace is only available if the **Audience activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-Audience activation allows you activate audiences in campaigns. The activiation process is a collaboration between advertisers and publishers. Advertisers send audiences to publishers, who then activate these audiences in campaigns.
+Audience activation allows you activate audiences in campaigns. The activiation process is a collaboration between advertisers and publishers. After [discovering the best audiences for your campaign](./discover.md), audiences can then activate the targeted audiences. Audiences that are activated are sent to the publisher's pre-configured destination, such as Adobe Experience Platform, for use in campaigns. For more information about setting up desintation, refer to the [destinations overview](../destinations/overview.md) guide.
+
+>[!IMPORTANT]
+>
+>Currently, when advertisers activate audiences, they are then automatically activated to the destination the publisher configured for their organization. The publisher **must** configure a destination *before* the advertiser activates an audience. If no destination is configured, the audience will be sent to the publisher, but not be able to be activated in any campaigns. 
 
 ## Activate new audiences
 
 To start activating audiences, navigate to the **[!UICONTROL Activate]** tab in your project workspace. 
-
->[!NOTE]
->
->Only **advertisers** can activate audiences in a project. 
 
 Select the add icon (![Add icon.](/help/assets/icons/plus.png)), or the **[!UICONTROL Activate audience]** option if no previous audiences have been sent for activation.
 
@@ -67,7 +67,7 @@ You can edit the audience's name edit icon (![Pencil icon.](/help/assets/icons/e
 
 ## View activated audiences
 
-In the **[!UICONTROL Activate]** tab, both publishers and advertisers can view the audiences that are currently being activated between you and your collaborator.
+In the **[!UICONTROL Activate]** tab, both publishers and advertisers can view the audiences that are currently activated. Currently, automatically sent to the publisher's configured destination after the advertiser activates the audience.
 
 ![Overview of the Activate tab, showcasing an activated audience.](/help/assets/collaborate/activate/activate-overview.png)
 

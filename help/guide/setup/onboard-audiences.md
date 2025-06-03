@@ -142,11 +142,6 @@ Next, provide a name and a description for your data connection. This informatio
 >abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_target_namespaces"
->title="Target namespaces"
->abstract="This will be filled in with a proper description."
-
 Next you'll select source fields to map to target fields in Real-Time CDP Collaboration. 
 
 ![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png)
@@ -176,11 +171,6 @@ To handle multiple email fields, map the non-hashed email source field using **[
 Continue adding mapping pairs as needed and then select **[!UICONTROL Next]**.
 
 ### Schedule {#schedule}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_audience_expiration"
->title="Audience expiration"
->abstract="Details to come regarding audience expiration."
 
 Next, schedule when to start and end populating the audiences. The audience will be refreshed according to this schedule. 
 

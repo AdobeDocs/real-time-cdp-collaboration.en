@@ -69,11 +69,6 @@ When you're finished, use **[!UICONTROL Next]** to proceed to the next page to s
 >title="Supported partner IDs"
 >abstract="Partner IDs associated with profiles expand the reach to a certain profile."
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_activation_matchkeys"
->title="Activation match keys"
->abstract="Activation match keys are displayed based on your organization's chosen match keys."
-
 >[!IMPORTANT]
 >
 >The match keys that you select during the organization setup will determine the available match keys for the connections that you create with other organizations. While you can remove match keys during the connection setup, you cannot add new match keys later. It is important to select all match keys that you plan to use in future campaigns during the organization setup.

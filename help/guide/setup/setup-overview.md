@@ -18,6 +18,6 @@ Use the functionality in the setup section to:
 * [Onboard and manage your organization](/help/guide/setup/onboard-organization.md)
 * [Import and manage audiences](/help/guide/setup/onboard-audiences.md)
 * [Manage data connections](/help/guide/setup/manage-data-connection.md)
+* [Configure and manage destinations](/help/guide/setup/manage-destinations.md)
 * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
 * [View audit logs](/help/guide/setup/audit-logs.md)
-
