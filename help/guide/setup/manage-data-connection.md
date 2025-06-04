@@ -53,11 +53,11 @@ For more information about scheduling options during audience import, see the [s
 
 ![A data connections workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes" alt="The Scheduling section in the data connection workspace, showing frequency and date range settings."}
 
-### Edit scheduling {#edit-scheduling}
+#### Edit scheduling {#edit-scheduling}
 
 You can edit the scheduling details of an existing data connection to better control how often audiences are refreshed.
 
-To edit the schedule, go to the **[!UICONTROL Scheduling]** section in your data connection details and select  **[!UICONTROL Edit]**. In the **[!UICONTROL Scheduling]** dialog, you can update the frequency, start date, and end date. Set the audience refresh to run daily or every two to six days. Choose a start date beginning tomorrow or later, and an end date at least one day after the start date. When you're done, select **[!UICONTROL Save]** to apply your changes.
+To edit the schedule, select  **[!UICONTROL Edit]**. In the **[!UICONTROL Scheduling]** dialog that appears, you can update the frequency, start date, and end date. Set the audience refresh to run daily or every two to six days. Choose a start date beginning tomorrow or later, and an end date at least one day after the start date. When you're done, select **[!UICONTROL Save]** to apply your changes.
 
 >[!IMPORTANT]
 >
