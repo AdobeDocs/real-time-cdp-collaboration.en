@@ -43,7 +43,7 @@ Available match keys include:
 
 View and manage the scheduling settings for your data connections. Scheduling determines how often audience data is refreshed from the source system.
 
-After a data connection is created, you can update its scheduling options directly from the **Scheduling** section of the data connection workspace.
+After a data connection is created, you can update its scheduling options directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 >[!NOTE]
 >
@@ -57,13 +57,15 @@ For more information about scheduling options during audience import, see the [s
 
 You can edit the scheduling details of an existing data connection to better control how often audiences are refreshed.
 
-To edit the schedule, go to the Scheduling section and select Edit. In the Scheduling dialog, you can update the Frequency, Start date, and End date. Set the Frequency to refresh daily (every 1 day) or every 2 to 6 days. Choose a Start date beginning tomorrow or any future date, and select an End date that is at least one day after the start date. When you finish, select Save to apply your changes.
+To edit the schedule, go to the **[!UICONTROL Scheduling]** section and select **[!UICONTROL Edit]**. In the **[!UICONTROL Scheduling]** dialog, you can update the frequency, start date, and end date. You can set the audience refresh to daily or to a range of two to six days. Choose any start date that begins from tomorrow onwards, and select an end date that is at least one day after the start date. When you finish, select **[!UICONTROL Save]** to apply your changes.
 
 >[!IMPORTANT]
 >
 >You can update the frequency, start date, and end date. Other data connection settings, including match keys, cannot be edited.
 
 ![The Scheduling dialog, showing options to set frequency and date range.](/help/assets/setup/manage-data-connection/PLACEHOLDER.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency, start date, and end date."}
+
+<!-- I am chasing the relevant feature flag to get a screenshot for this. -->
 
 ## Delete data connection
 
