@@ -39,15 +39,15 @@ Available match keys include:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Scheduling"
->abstract="View and edit the scheduling options for your data connection, including refresh frequency and date range."
+>abstract="View the scheduling details for your data connection, and edit refresh frequency if required."
 
 View and manage the scheduling settings for your data connections. Scheduling determines how often audience data is refreshed from the source system.
 
-After a data connection is created, you can update its scheduling options directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
+After a data connection is created, you can update its refresh frequency directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 >[!NOTE]
 >
->After an audience is sourced, the first export from Real-Time CDP occurs within 24 hours. Subsequent exports follow the refresh schedule defined in the data connection settings.
+>The first export from Real-Time CDP occurs within 24 hours after the audience is sourced. After the initial export, Real-Time CDP refreshes audience data according to the defined frequency.
 
 For more information about scheduling options during audience import, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow guide.
 
@@ -55,17 +55,15 @@ For more information about scheduling options during audience import, see the [s
 
 #### Edit scheduling {#edit-scheduling}
 
-You can edit the scheduling details of an existing data connection to better control how often audiences are refreshed.
+You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]**. 
 
-To edit the schedule, select  **[!UICONTROL Edit]**. In the **[!UICONTROL Scheduling]** dialog that appears, you can update the frequency, start date, and end date. Set the audience refresh to run daily or every two to six days. Choose a start date beginning tomorrow or later, and an end date at least one day after the start date. When you're done, select **[!UICONTROL Save]** to apply your changes.
+In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days. When you're done, select **[!UICONTROL Save]** to apply your changes.
 
 >[!IMPORTANT]
 >
->You can update the frequency, start date, and end date. Other data connection settings, including match keys, cannot be edited.
+>You can update the refresh frequency. Other data connection settings, such as match keys, cannot be changed.
 
-![The Scheduling dialog, showing options to set frequency and date range.](/help/assets/setup/manage-data-connection/PLACEHOLDER.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency, start date, and end date."}
-
-<!-- I am chasing the relevant feature flag to get a screenshot for this. -->
+![The Scheduling dialog, showing options to set frequency and date range.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## Delete data connection
 
