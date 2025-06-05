@@ -81,7 +81,7 @@ Once you've configured Adobe Experience Platform as a destination, you can begin
 
 After the audience is activated, it will be available in Adobe Experience Platform for use in campaigns and customer engagement.
 
-### Audience Portal
+### Audience Portal {#audience-portal}
 
 Now that you have configured Adobe Experience Platform as a destination, you can view the activated audiences in the Audience Portal. Audience Portal is a central hub within Adobe Experience Platform that allows you to view and manage your audiences. Audience portal now provides Real-Time CDP Collaboration as an origin when filtering your audiences. 
 
