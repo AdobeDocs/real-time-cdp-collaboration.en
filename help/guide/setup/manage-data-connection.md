@@ -28,6 +28,10 @@ To view existing data connections, navigate to **[!UICONTROL Setup]** and then s
 
 Match keys are identifiers used to reconcile members across audiences from different data sources. You cannot edit the match keys you initially selected for your data connection. 
 
+>[!IMPORTANT]
+> 
+>Match keys cannot be edited after the data connection is created. To update match keys, you must create a new data connection.
+
 Available match keys include:
 
 - **Hashed email**
@@ -39,29 +43,25 @@ Available match keys include:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Scheduling"
->abstract="View the scheduling details for your data connection, and edit refresh frequency if required."
+>abstract="View the scheduling details for your data connection, and edit the refresh frequency if required."
 
-View and manage the scheduling settings for your data connections. Scheduling determines how often audience data is refreshed from the source system.
+View and manage the scheduling settings for your data connections. Scheduling determines how often the audience is refreshed.
 
 After a data connection is created, you can update its refresh frequency directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 >[!NOTE]
 >
->The first export from Real-Time CDP occurs within 24 hours after the audience is sourced. After the initial export, Real-Time CDP refreshes audience data according to the defined frequency.
+>Audiences become available within 24 hours after the data connection is established with Adobe Experience Platform. After the initial import, audience data refreshes according to the defined frequency.
 
-For more information about scheduling options during audience import, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the audience import workflow guide.
+For more information on scheduling, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the guide to onboarding audiences.
 
-![A data connections workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes" alt="The Scheduling section in the data connection workspace, showing frequency and date range settings."}
+![A data connection's workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 #### Edit scheduling {#edit-scheduling}
 
-You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]**. 
+You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card. 
 
 In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days. When you're done, select **[!UICONTROL Save]** to apply your changes.
-
->[!IMPORTANT]
->
->You can update the refresh frequency. Other data connection settings, such as match keys, cannot be changed.
 
 ![The Scheduling dialog, showing options to set frequency and date range.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
