@@ -79,7 +79,7 @@ Once you've configured Adobe Experience Platform as a destination, you can begin
 >
 >You **must** configure Adobe Experience Platform as a destination *before* your collaborator activates an audience. If the destination is not configured, the audience will be sent to you and visible in the **[!UICONTROL Activate]** tab within a project, but will not be activated to Adobe Experience Platform. 
 
-After the audience is activated, it will be available in Adobe Experience Platform for use in campaigns and customer engagement.
+After the audience is activated, it will be available in [Audience Portal](#audience-portal) in Experience Platform with Real-Time CDP Collaboration as the origin.  These audiences can then be used in campaigns and customer engagement.
 
 ### Audience Portal {#audience-portal}
 
