@@ -59,7 +59,7 @@ A confirmation dialogue will appear. Select **[!UICONTROL Delete]** to finish de
 
 ## Manage audiences {#manage-audiences}
 
-A list of audiences attached to the data connection are displayed at the bottom of the workspace. THe list displays a brief overview of each audience, including its status, source, and connection access. To edit an audience's categories, connection access, or metadata visbility, select the audience's name. For a complete guide on managing an audience, refer to the [view individual audiences](./onboard-audiences.md#view-individual-audiences) guide.
+A list of audiences attached to the data connection are displayed at the bottom of the workspace. The list displays a brief overview of each audience, including its status, source, and connection access. To edit an audience's categories, connection access, or metadata visbility, select the audience's name. For a complete guide on managing an audience, refer to the [view individual audiences](./onboard-audiences.md#view-individual-audiences) guide.
 
 ![A data connections workspace with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 

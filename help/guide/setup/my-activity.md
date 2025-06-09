@@ -40,7 +40,7 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 | **[!UICONTROL Date]**   | The date when the activity occurred, displayed in MM/DD/YYYY format.  |
 | **[!UICONTROL Connection ID]** | A unique identifier for each connection associated with a credit-consuming activity, represented as an alphanumeric string. |
 | **[!UICONTROL Connection name]** | The name of the collaborator associated with the connection and the credit-consuming activity. |
-| **[!UICONTROL Activity]** | The type of activity performed, such as **Activation - Sharing**, **Activation - Egress**, or **Audience management**. |
+| **[!UICONTROL Activity]** | The type of activity performed, such as **Activation - Matching**, **Activation - Egress**, or **Audience Management**. |
 | **[!UICONTROL Inputs processed]** | The total number of inputs (for example, IDs or rows) processed for the activity.|
 | **[!UICONTROL Total credits used]** | The total number of credits consumed by the activity. |
 | **[!UICONTROL My credit share]** | Your organization's portion of the credits used for the activity.  |
