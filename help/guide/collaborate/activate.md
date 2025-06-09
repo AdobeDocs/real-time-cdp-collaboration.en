@@ -55,7 +55,7 @@ The **[!UICONTROL Edit match keys]** dialog opens, where you can toggle off the 
 
 ### Set audience refresh frequency and interval
 
-Finally, set the desired frequency and date range for the audience to refresh. In the current release, the only supported frequency option is **[!UICONTROL Once]**. The **[!UICONTROL Once]** frequency means the audiences are activated a single time and are not refreshed throughout the duration of a campaign. The **[!UICONTROL Date]** option is auto-populated with the current date.
+Finally, set the desired frequency and date range for the audience to refresh. In the current release, the only supported frequency option is **[!UICONTROL Once]**. The **[!UICONTROL Once]** frequency means the audiences are activated a single time and are not refreshed. The **[!UICONTROL Date]** option is auto-populated with the current date.
 
 ![The Audience activation workflow with the Frequency section highlighted.](/help/assets/collaborate/activate/audience-frequency.png)
 
