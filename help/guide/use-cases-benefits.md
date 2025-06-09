@@ -15,8 +15,7 @@ Adobe Real-Time CDP Collaboration provides the essential capabilities to discove
 
 ## Discover {#discover}
 
-Use dashboards and reports to discover audiences for brand-to-publisher collaboration.
-As an advertiser working with Real-Time CDP Collaboration, access and understand audience overlaps to unlock retargeting, suppression, and possible prospecting opportunities from a wide inventory of publishers.
+Use dashboards and reports to discover audiences for brand-to-publisher collaboration. As an advertiser working with Real-Time CDP Collaboration, access and understand audience overlaps to unlock retargeting, suppression, and possible prospecting opportunities from a wide inventory of publishers.
 
 ## Activate {#activate}
 
@@ -25,5 +24,4 @@ In a future release, work with the identity partners selected to leverage real i
 
 ## Measure {#measure}
 
-Combine and explore known customer engagement from various sources such as web impressions and more.
-View campaign performance in simplified and customizable reports.
+Combine and explore known customer engagement from various sources such as web impressions and more. View campaign performance in simplified and customizable reports.
