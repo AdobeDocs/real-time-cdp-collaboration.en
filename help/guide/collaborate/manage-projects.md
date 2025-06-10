@@ -9,13 +9,13 @@ exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 
 {{limited-availability-release-note}}
 
-Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After you discover and connect with the collaborators that you want to work with, it's time to create a project. Use the project space to run overlap calculations to compare your audiences with your collaborator's audiences and discover relevant audiences that you can use in campaigns. Audiences are then shared between collaborators, activated by publishers, and both parties can then view measurement reports about audience performance.
+Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After connecting with collaborators, create a project to run audience overlap calculations and discover relevant audiences for campaigns.
 
 >[!TIP]
 >
 >Projects should generally be associated with a single campaign.
 
-![View of all projects, unfiltered.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
+![The Collaborate dashboard showing all current projects.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 You can use filters to view only the projects that you have started with certain collaborators, as shown below:
 
@@ -28,29 +28,32 @@ You can use filters to view only the projects that you have started with certain
 >title="Advertiser Name"
 >abstract="Select the advertiser name from the dropdown menu. The options are pre-configured by the publisher in the connection settings to ensure compatibility with their systems."
 
-To create a project, select the Plus **+** symbol in the upper right corner. Or, if this is your first project, navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My Projects]**, and select **[!UICONTROL Create a project]**.
+Navigate to **[!UICONTROL Collaborate]** and then **[!UICONTROL My Projects]**. If this is your first project, you can select **[!UICONTROL Create a project]**. Otherwise you can select the add icon (![Add icon.](/help/assets/icons/plus.png)) to create a new project at anytime.
 
 ![Select plus symbol or Create a project to set up a new project.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Next, select the following settings: 
+The **[!UICONTROL Create project]** dialog appears. Select the **[!UICONTROL Collaborator]** you are creating the project with via the dropdown. If you're a publisher and you set advertiser names during your connection setup, you can select the **[!UICONTROL Advertiser name]**. 
 
-* The collaborator that you are creating the project with
-* Select an advertiser name if the publisher configured multiple advertiser names in the connection settings. Otherwise, the name of the advertiser is preselected as advertiser name. Or, if the publisher configured a single advertiser name in the connection settings, that name is prefilled in this selection. [Read more](/help/guide/connect/establishing-connections.md#connection-settings) about advertiser names.
-* Provide a **[!UICONTROL project name]** and **[!UICONTROL description]** for your project 
-* Select an image header to easily distinguish the project, and confirm your selection.
+>[!NOTE]
+>
+> If you configured a single advertiser name in the connection settings, it appears by default. If no advertiser name was set up, the advertiser's **[!UICONTROL Name]** is preselected as the **[!UICONTROL Advertiser name]**.
+
+![Create project dialog with collaborator selected and advertiser name highlighted.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
+
+Next, add a **[!UICONTROL Project name]** and **[!UICONTROL Description]** for your project. Then, select an image to represent the project. This image helps to distinguish the project in the project overview page. Once you're done, select **[!UICONTROL Create]** to create the project.
 
 ![Required options to set up a new project](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
-You can now view your new project and its details.
+You can now view your new project, its details, and available sections based on the use cases selected during connection setup.
+
+![The project overview workspace.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
 ## Project use cases {#project-use-cases}
 
-Drill into individual projects to run overlap reports, discover and share audiences with your collaborator, and view measurement information. To view extensive information about these areas that form an individual project, select **[!UICONTROL View]**. The project surface consists of up to four sections, each offering you a rich set of options and controls. Available project sections depend on the use cases selected in the connection process, as follows:
+The project overview displays the use cases selected during the connection setup. These use cases define the functionality available in the project. The use cases are:
 
 | Use case | Project section |
 | --- | --- |
 | Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md) section and all availabile functionality. |
 | Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md) section and all availabile functionality. |
-| Audience sharing and activation | This use case grants access to the [Share](/help/guide/collaborate/share.md) and [Activate](/help/guide/collaborate/activate.md) (publisher-only) sections and all availabile functionality. |
-
-![The project view with the available sections highlighted.](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}
+| Audience activation | This use case grants access to the [Activate](/help/guide/collaborate/activate.md) section and all availabile functionality. |

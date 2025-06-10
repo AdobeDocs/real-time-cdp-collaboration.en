@@ -28,7 +28,7 @@ As a first step, you must import identity crosswalks into Real-Time CDP Collabor
 
 ## Import identity crosswalks into Real-Time CDP Collaboration {#import-crosswalk}
 
-Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** tab, select the Plus **+** symbol, and select **[!UICONTROL Identity crosswalk]**
+Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** tab, select the add icon (![Add icon.](/help/assets/icons/plus.png)), and select **[!UICONTROL Identity crosswalk]**
 
 ![Recording of how to get to the screen to add identity crosswalks](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
