@@ -51,7 +51,7 @@ After a data connection is created, you can update its refresh frequency directl
 
 >[!NOTE]
 >
->Audiences become available within 24 hours after the data connection is established with Adobe Experience Platform. After the initial import, audience data refreshes according to the defined frequency.
+>When sourcing audiences from Adobe Experience Platform, audiences become available within 24 hours after the data connection is established. After the initial import, audience data refreshes according to the defined frequency.
 
 For more information on scheduling, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the guide to onboarding audiences.
 
