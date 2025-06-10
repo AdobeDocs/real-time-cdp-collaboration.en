@@ -79,6 +79,13 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >abstract="<p>Optional setting. Indicates the name and ID by which the advertiser is known to the publisher.</p><p>The advertiser name that you add here will be prefilled in the create project step.</p><ul><li>If the publisher configured multiple names, select one from the list.</li><li>If only one name is configured, it's preselected automatically.</li><li>If no names are configured, the field will be prefilled with the advertiser account name from Real-Time CDP Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Create a project"
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_activation"
+>title="Audience activation"
+>abstract="Audience activation allows you to select which collaborator can initiate audience activation."
+
+<!-- Move and update the above popover when bidirectional is active. -->
+
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
 ![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
