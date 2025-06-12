@@ -5,8 +5,6 @@ audience: admin, publisher, advertiser
 ---
 # Quick start: Set up RTCDP Collaboration
 
-## Overview
-
 This guide helps you set up your organization in RTCDP Collaboration and prepare audiences for privacy-preserving activation and measurement.
 
 ## Prerequisites
