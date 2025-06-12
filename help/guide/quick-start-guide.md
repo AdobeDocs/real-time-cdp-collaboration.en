@@ -26,10 +26,11 @@ Ensure the admin has completed RTCDP Collaboration access provisioning.
 
 - [User Access Documentation](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/manage-user-access)
 - [Role Setup Documentation](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/manage-roles)
-- Doug's Permissions Walkthrough Video: _[Insert link]_
+- Doug's Permissions Walkthrough Video: [PLACEHOLDER - Doug permissions video]
 
-**Notes:**  
-Same for both Brand and Publisher.
+>[!NOTE]
+>
+>This step applies to both Brand and Publisher roles.
 
 ## Step 2: Set up RTCDP Collaboration org
 
@@ -48,8 +49,9 @@ Define your organization as a Brand, Publisher, or both.
   - _Note: Publishers must email their custom banner to Adobe. The UI currently only supports default banners._
 - **Configure match keys** – Select identifiers used for audience matching (e.g., hashed email).
 
-**Notes:**  
-Same for both Brand and Publisher.
+>[!NOTE]
+>
+>This step applies to both Brand and Publisher roles.
 
 ## Step 3: Source audiences (from RTCDP or cloud)
 
@@ -57,8 +59,10 @@ Use either the self-service UI or coordinate with Adobe to connect your RTCDP in
 
 ### Connect a source
 
-- **RTCDP** – Link a sandbox that contains audiences.
-- **Cloud** – Coordinate with Adobe to configure the connection (e.g., Amazon S3 or Snowflake).
+Depending on your data source, choose one of the following:
+
+- **RTCDP** – Use the self-service UI to link a sandbox that contains audiences.
+- **Cloud** – Coordinate with Adobe to configure a connection to your external data source (e.g., Amazon S3 or Snowflake).
 
 ### Provision audiences
 
@@ -72,7 +76,7 @@ Use either the self-service UI or coordinate with Adobe to connect your RTCDP in
 
 - Brand: Can provision up to 25 audiences.
 - Publisher: Can provision up to 250 audiences (minimum size: 5,000 IDs each).
-- [Audience sourcing specification](#) _(Insert link)_
+- Refer to the [audience sourcing specification](#) for format and integration requirements.
 
 ## Step 4: Activate audiences (to RTCDP or cloud)
 
@@ -84,7 +88,7 @@ Use RTCDP Collaboration to activate audiences to either your RTCDP instance or a
 - **Map match keys** – Select the identifier (e.g., `hashedEmail`).
 - **Define TTL** – Set expiration (1–30 days).
 - **Schedule refresh (optional)** – Enable automatic updates.
-- **Verify in Audience Portal** – Available only after a collaborator sends you an audience.
+- **Verify in Audience Portal** – Once a collaborator sends you an audience, verify that it appears in the Audience Portal under the origin "RTCDP Collaboration."
 
 ### Option B: Activate to cloud
 
@@ -100,12 +104,13 @@ Use RTCDP Collaboration to activate audiences to either your RTCDP instance or a
 - Cloud destinations require Adobe coordination and are not visible in the UI.
 - TTL enforcement is automatic in RTCDP; manual in cloud destinations.
 
-**Notes:**  
-Applies equally to Brands and Publishers.
+>[!NOTE]
+>
+>This step applies to both Brand and Publisher roles.
 
 ## Step 5: Set up measurement (optional)
 
-Coordinate with your collaborator to define and implement a campaign measurement strategy.
+Complete this step if your collaboration includes campaign performance analysis or attribution measurement.
 
 ### Configure measurement workflow
 
@@ -133,7 +138,8 @@ Coordinate with your collaborator to define and implement a campaign measurement
 
 ## Next steps
 
+For advanced configuration and use cases, see:
+
 - [Audience activation workflow documentation](#)  
 - [Measurement use cases](#)  
 - [Collaboration governance best practices](#)
-
