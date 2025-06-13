@@ -32,23 +32,21 @@ Complete RTCDP Collaboration access provisioning before proceeding.
 - [Role Setup Documentation](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/manage-roles)
 - [Set permissions walkthrough video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-permissions-for-collaboration)
 
-## Step 2: Set up RTCDP Collaboration org
+## Step 2: Set up RTCDP Collaboration organization
 
 >[!NOTE]
 >
 >This step applies to both Brand and Publisher roles.
 
-Finalize your organization's configuration so it can initiate or receive collaboration requests.
+Before you can collaborate with partners, you must complete your organization's configuration in RTCDP Collaboration. This setup enables you to initiate or receive collaboration requests and governs how your organization appears and behaves in the interface.
 
-To begin, define your organization's role in collaboration. 
-
-After setting your organization's role and branding, you can send or receive connection invitations with collaborators. These invitations trigger a connection setup workflow, which includes selecting match keys, defining use cases, assigning billing responsibilities, and verifying legal agreements. To learn more about each step, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"} for detailed instructions. For a visual walkthrough, including how to browse collaborators and manage connection settings in the UI, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+To begin, define your organization's role in collaboration and provide the necessary branding assets. Then, configure match keys that will be used to align audiences across collaborations.
 
 ### Create a collaboration entity
 
-Complete the following actions to define your collaboration role and prepare your organization for partner engagement.
+Complete the following actions to define your collaboration role and prepare your organization for partner engagement:
 
-- **Assign a role** – Controls visibility and UI experience.
+- **Assign a role** – Determines whether your organization acts as a Brand, Publisher, or both. This selection controls your visibility and experience in the UI.
 - **Branding assets** – Provide the following to Adobe:
   - Brand name (max 100 characters)
   - Brand description (max 1,000 characters)
@@ -59,34 +57,38 @@ Complete the following actions to define your collaboration role and prepare you
   >
   >Publishers must email their custom banner to Adobe. The UI currently only supports default banners.
 
-- **Configure match keys** – Select identifiers used for audience matching (e.g., hashed email).
+- **Configure match keys** – Select the identifiers used for audience matching (e.g., hashed email).
 
-<!-- For a visual overview of the setup process from the advertiser perspective, including how to send collaboration invites, configure connection settings, and activate your first publisher connection, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}. This walkthrough reinforces key concepts like role assignment, connection workflows, and readiness to collaborate on projects. -->
+Once your collaboration entity is created and your branding and match keys are configured, you can begin connecting with collaborators. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases, billing ownership, and legal agreements), and confirming the relationship.
 
-For a detailed walkthrough, see the [initial organization setup document](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-organization#initial-organization-setup){target="_blank"} and the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-up-an-advertiser-account){target="_blank"}.
+To learn more about each step in the connection process, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough, including how to browse collaborators and manage connection settings in the UI, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
-## Step 3: Source audiences (from RTCDP or cloud)
+For a detailed walkthrough of initial organization setup, see the [initial organization setup document](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-organization#initial-organization-setup){target="_blank"} and the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-up-an-advertiser-account){target="_blank"}.
 
-Choose one of the following data sources to begin audience provisioning. Use either the self-service UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
+## Step 3: Source audiences (from Real-Time CDP or cloud)
+
+Choose one of the following data sources to begin audience provisioning. Use either the RTCDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
 
 ### Connect a source
 
-- **RTCDP** – Use the self-service UI to link a sandbox that contains audiences.
+Select the platform or cloud location where your audience data resides.
+
+- **Real-Time CDP** – [Use the RTCDP Collaboration UI to link a sandbox that contains audiences](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences).
 - **Cloud** – Coordinate with Adobe to configure a connection to your external data source (e.g., Amazon S3 or Snowflake).
 
 ### Provision audiences
 
-- **Select audiences** *(RTCDP only)* – Choose audience segments with supported identifiers.
+Configure how audiences are prepared, matched, and governed for collaboration.
+
+- **Select audiences** *(Real-Time CDP only)* – Choose audience segments with supported identifiers.
 - **Map match keys** – Align audience fields with the configured match keys.
 - **Apply transformations** – Hash plaintext values (e.g., email) if needed.
 - **Schedule refreshes** – Define update frequency (e.g., daily).
 - **Configure consent settings** – Determine which profiles are eligible for collaboration by selecting a consent mode: opt-in, opt-out, or none.
 
-**Notes:**
-
-- Brand: Can provision up to 25 audiences.
-- Publisher: Can provision up to 250 audiences (minimum size: 5,000 IDs each).
-- Review the [audience sourcing specification](#) for required formatting and integration details.
+>[!IMPORTANT]
+>
+>Audience provisioning limits vary by role.<ul><li>Brands can provision up to 25 audiences.<li><li>Publishers can provision up to 250 audiences (each with a minimum of 5,000 IDs).</li></ul>
 
 To see a full walkthrough of how to reference audiences using the Collaboration UI, including data connection setup, match key mapping, and audience selection, watch the [RTCDP Collaboration Audience Referencing demonstration video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/reference-audiences-as-an-advertiser). It visually guides you through the end-to-end process and reinforces key setup decisions like consent enforcement and data transformations.
 
@@ -132,7 +134,7 @@ The following list highlights the differences between Real-Time Customer Data Pl
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Measure]** workspace is only available if the **[!UICONTROL Campaign measurement]** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
+>The **[!UICONTROL Measure]** workspace is only available if the **[!UICONTROL Campaign measurement]** use case was enabled [during the connection process](./connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./collaborate/manage-projects.md#project-use-cases) guide.
 
 >[!NOTE]
 >
@@ -141,6 +143,8 @@ The following list highlights the differences between Real-Time Customer Data Pl
 Real-Time CDP Collaboration offers a variety of reports to measure and analyze the performance of your marketing campaigns across various channels. 
 
 ### Configure measurement workflow
+
+Use the following steps to define, validate, and execute your campaign measurement strategy in collaboration with your partner.
 
 - **Share the measurement specification** – Align on schema, ID types, and lookback windows.
 - **Define use case** – Examples:
@@ -154,12 +158,13 @@ Real-Time CDP Collaboration offers a variety of reports to measure and analyze t
 - **Run and review queries** – Assess reach, overlap, lift, and attribution.
 - **Apply insights** – Use results to refine targeting and activation strategy.
 
-**Notes:**
-
-- Brand: Shares the measurement specification with Publisher.
-- Publisher: Shares the measurement specification with Brand.
+>[!NOTE]
+>
+>In a measurement workflow, the Brand shares the measurement specification with the Publisher, and the Publisher shares the measurement specification with the Brand.
 
 ## Verification
+
+After activation, verify that audiences were successfully delivered or made available in the appropriate destination.
 
 - Verify that your audiences appear in the Audience Portal (for RTCDP activation).
 - Confirm successful cloud delivery through external destination logs or confirmation.
