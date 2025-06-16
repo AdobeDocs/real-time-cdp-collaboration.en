@@ -48,6 +48,7 @@ Once these prerequisites are met, you can start exploring and comparing the over
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Your identity count"
 >abstract="The number of unique IDs within your selected audience, based on the match keys that you and your collaborator agreed on for the project."
+
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Collaborator identity count"
