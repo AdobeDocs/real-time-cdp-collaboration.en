@@ -24,7 +24,7 @@ Before you begin, ensure that you have completed or own the following:
 >
 >This step applies to both Brand and Publisher roles.
 
-Complete RTCDP Collaboration access provisioning before proceeding.
+Your organization's role determines how you interact with collaborators in RTCDP Collaboration. Before proceeding, you must complete role-based setup to ensure proper access, permissions, and visibility in the platform.
 
 **Resources:**
 
@@ -38,7 +38,7 @@ Complete RTCDP Collaboration access provisioning before proceeding.
 >
 >This step applies to both Brand and Publisher roles.
 
-Before you can collaborate with partners, you must complete your organization's configuration in RTCDP Collaboration. This setup enables you to initiate or receive collaboration requests and governs how your organization appears and behaves in the interface.
+Before you can provision audiences, you must configure your organization in RTCDP Collaboration. This setup governs how your organization appears and behaves in the interface.
 
 To begin, define your organization's role in collaboration and provide the necessary branding assets. Then, configure match keys that will be used to align audiences across collaborations.
 
@@ -62,11 +62,9 @@ Complete the following actions to define your collaboration role and prepare you
 
 Once your collaboration entity is created and your branding and match keys are configured, your organization is ready to begin provisioning audiences and activating data.
 
-To learn more about how to initiate connections and manage collaboration settings, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}.
+To learn more about initial organization setup, including how to define roles, upload branding assets, and configure match keys, see the [initial organization setup document](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
-For a complete walkthrough of the initial organization setup—including how to define roles, upload branding assets, and configure match keys—see the [initial organization setup document](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
-
-To watch a visual demonstration of the end-to-end process from the advertiser perspective, including setup, collaboration, and audience provisioning, view the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-up-an-advertiser-account){target="_blank"}.
+To watch a visual demonstration of the end-to-end process from the advertiser perspective, view the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-up-an-advertiser-account){target="_blank"}.
 
 ## Step 3: Source audiences (from Real-Time CDP or cloud) {#source-audiences}
 
@@ -82,7 +80,7 @@ To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), pr
 
 >[!IMPORTANT]
 >
->Cloud-based audience files must follow the required schema outlined in the Audience Specification PDF. All files must include hashed identifiers (lowercased SHA256), metadata fields such as `segment_name` and `activation_id`, and use supported formats such as CSV or Parquet. Adobe does not normalize data before activation. TTL is enforced based on the audience's lifespan.
+>Cloud-based audience files must follow the required schema outlined in the Audience Specification PDF. Files must include hashed identifiers (lowercased SHA256), required metadata fields such as `segment_name` and `activation_id`, and use supported formats such as CSV or Parquet. Adobe does not normalize data before activation. TTL is enforced based on the audience's lifespan.
 
 ### Provision audiences
 
@@ -109,17 +107,7 @@ Configure how audiences are prepared, matched, and governed for collaboration.
 >
 >For more information, see the [Map fields](./setup/onboard-audiences.md#map-fields) section of the Import and manage audiences guide.
 
-<!-- Alternative format:
->[!IMPORTANT]
->
->**Audience provisioning limits:**
->Brands can provision up to 25 audiences. Publishers can provision up to 250 audiences (each with a minimum of 5,000 IDs).
->
->**Match key requirements:**
->All match keys must be lowercased and SHA256-hashed. If your audience source contains unhashed values, use the **[!UICONTROL Apply transformation]** option in the UI. This feature is only available for Real-Time CDP audiences, not cloud sources. See the [Map fields](./setup/onboard-audiences.md#map-fields) section for details.
- -->
-
-To see a full walkthrough of how to reference audiences using the Collaboration UI, including data connection setup, match key mapping, and audience selection, watch the [RTCDP Collaboration Audience Referencing demonstration video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/reference-audiences-as-an-advertiser).
+To see a full walkthrough of how to reference audiences using the Collaboration UI, watch the [RTCDP Collaboration Audience Referencing demonstration video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/reference-audiences-as-an-advertiser).
 
 Alternatively, see the document on [making audiences available in RTCDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
@@ -163,7 +151,7 @@ The following list highlights the differences between Real-Time Customer Data Pl
 >
 >Complete this step only if your collaboration includes campaign performance analysis or attribution measurement.
 
-Real-Time CDP Collaboration offers a variety of reports to measure and analyze the performance of your marketing campaigns across various channels. 
+Real-Time CDP Collaboration offers a variety of reports to measure and analyze the performance of your marketing campaigns across various channels.
 
 ### Configure measurement workflow
 
@@ -194,13 +182,13 @@ After activation, verify that audiences were successfully delivered or made avai
 
 ## Step 6: Connect with collaborators {#connect-with-collaborators}
 
-With setup and data provisioning complete, your organization is now ready to connect with collaborators and initiate data-sharing projects. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the relationship.
+With setup and data provisioning complete, your organization is now ready to connect with collaborators by sending or accepting invitations and submitting project settings for approval. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the relationship.
 
-Use the **[!UICONTROL Connect]** workspace to browse publishers or advertisers. For an overview of this flow, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Use the **[!UICONTROL Connect]** workspace from the left navigation menu in the Experience Platform UI to browse publishers or advertisers. For an overview of this flow, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Next steps
 
-Explore the following resources for advanced configuration and governance practices:
+You've now completed onboarding and configured your organization for secure collaboration. Next, explore the following resources to deepen your understanding of activation, measurement, and data governance:
 
 - [Audience activation workflow documentation](./collaborate/activate.md)  
 - [Measurement use cases](./collaborate/measure.md)  
