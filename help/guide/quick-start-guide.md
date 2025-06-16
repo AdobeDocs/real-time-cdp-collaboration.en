@@ -18,7 +18,7 @@ Before you begin, ensure that you have completed or own the following:
 - A match key strategy defined (e.g., hashed email).
 - (Optional) Access to a supported cloud source (Amazon S3 or Snowflake).
 
-## Step 1: Complete role-based setup
+## Step 1: Complete role-based setup {#complete-role-based-setup}
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Before you can collaborate with partners, you must complete your organization's 
 
 To begin, define your organization's role in collaboration and provide the necessary branding assets. Then, configure match keys that will be used to align audiences across collaborations.
 
-### Create a collaboration entity
+### Create a collaboration entity {#create-collaboration-entity}
 
 Complete the following actions to define your collaboration role and prepare your organization for partner engagement:
 
@@ -66,7 +66,7 @@ To learn more about each step in the connection process, see the [Connect with a
 
 For a detailed walkthrough of initial organization setup, see the [initial organization setup document](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-organization#initial-organization-setup){target="_blank"} and the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-up-an-advertiser-account){target="_blank"}.
 
-## Step 3: Source audiences (from Real-Time CDP or cloud)
+## Step 3: Source audiences (from Real-Time CDP or cloud) {#source-audiences}
 
 Choose one of the following data sources to begin audience provisioning. Use either the RTCDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
 
