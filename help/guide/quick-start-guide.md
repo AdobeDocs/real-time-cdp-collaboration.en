@@ -47,15 +47,16 @@ To begin, define your organization's role in collaboration and provide the neces
 Complete the following actions to define your collaboration role and prepare your organization for partner engagement:
 
 - **Assign a role** – Determines whether your organization acts as a Brand, Publisher, or both. This selection controls your visibility and experience in the UI.
-- **Branding assets** – Provide the following to Adobe:
+- **Branding assets** – Add the following to your account:
   - Brand name (max 100 characters)
   - Brand description (max 1,000 characters)
   - Brand logo (SVG <20KB, ideally square)
   - Brand banner (JPG 2688x1536 or similar)
+- **Contact email** – Provide a business email alias for collaborators to use after a connection is established.
 
   >[!NOTE]
   >
-  >Publishers must email their custom banner to Adobe. The UI currently only supports default banners.
+  >If you are creating a Publisher account and would like to be publicly visible in RTCDP Collaboration's connections catalog, please contact your Adobe account representative. Publisher accounts require a custom brand banner (JPG 2688x1536); this file can be shared directly with your representative.
 
 - **Configure match keys** – Select the identifiers used for audience matching (e.g., hashed email).
 
