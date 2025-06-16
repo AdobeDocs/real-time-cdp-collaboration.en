@@ -80,6 +80,10 @@ Choose one of the following data sources to begin audience provisioning. Use eit
 
 To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), prepare your audience data using the following [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Once complete, or if you have questions, contact your Adobe account representative to finalize the setup. This method is not self-service and requires Adobe assistance.
 
+>[!IMPORTANT]
+>
+>Cloud-based audience files must follow the required schema outlined in the Audience Specification PDF. All files must include hashed identifiers (lowercased SHA256), metadata fields such as `segment_name` and `activation_id`, and use supported formats such as CSV or Parquet. Adobe does not normalize data before activation. TTL is enforced based on the audience's lifespan.
+
 ### Provision audiences
 
 Configure how audiences are prepared, matched, and governed for collaboration.
@@ -115,7 +119,7 @@ Configure how audiences are prepared, matched, and governed for collaboration.
 >All match keys must be lowercased and SHA256-hashed. If your audience source contains unhashed values, use the **[!UICONTROL Apply transformation]** option in the UI. This feature is only available for Real-Time CDP audiences, not cloud sources. See the [Map fields](./setup/onboard-audiences.md#map-fields) section for details.
  -->
 
-To see a full walkthrough of how to reference audiences using the Collaboration UI, including data connection setup, match key mapping, and audience selection, watch the [RTCDP Collaboration Audience Referencing demonstration video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/reference-audiences-as-an-advertiser). It visually guides you through the end-to-end process and reinforces key setup decisions like consent enforcement and data transformations.
+To see a full walkthrough of how to reference audiences using the Collaboration UI, including data connection setup, match key mapping, and audience selection, watch the [RTCDP Collaboration Audience Referencing demonstration video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/reference-audiences-as-an-advertiser).
 
 Alternatively, see the document on [making audiences available in RTCDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
