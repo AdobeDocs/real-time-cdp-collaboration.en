@@ -28,8 +28,8 @@ Your organization's role determines how you interact with collaborators in RTCDP
 
 **Resources:**
 
-- [User Access Documentation](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/manage-user-access)
-- [Role Setup Documentation](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/manage-roles)
+- [User Access Documentation](./permissions/manage-user-access.md)
+- [Role Setup Documentation](./permissions/manage-roles.md)
 - [Set permissions walkthrough video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-permissions-for-collaboration)
 
 ## Step 2: Set up RTCDP Collaboration organization
@@ -68,7 +68,7 @@ To watch a visual demonstration of the end-to-end process from the advertiser pe
 
 ## Step 3: Source audiences (from Real-Time CDP or cloud) {#source-audiences}
 
-Choose one of the following data sources to begin audience provisioning. Use either the RTCDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
+Choose one (or both) of the following data sources to begin audience provisioning. Use either the RTCDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
 
 ### Option A: Source from Real-Time CDP
 
@@ -184,7 +184,7 @@ After activation, verify that audiences were successfully delivered or made avai
 
 With setup and data provisioning complete, your organization is now ready to connect with collaborators by sending or accepting invitations and submitting project settings for approval. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the relationship.
 
-Use the **[!UICONTROL Connect]** workspace from the left navigation menu in the Experience Platform UI to browse publishers or advertisers. For an overview of this flow, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Use the **[!UICONTROL Connect]** workspace from the left navigation menu in the RTCDP Collaboration UI to browse publishers or advertisers. For an overview of this flow, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Next steps
 
