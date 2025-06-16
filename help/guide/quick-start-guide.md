@@ -60,7 +60,7 @@ Complete the following actions to define your collaboration role and prepare you
 
 - **Configure match keys** – Select the identifiers used for audience matching (e.g., hashed email).
 
-Once your collaboration entity is created and your branding and match keys are configured, you can begin connecting with collaborators. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases, billing ownership, and legal agreements), and confirming the relationship.
+Once your collaboration entity is created and your branding and match keys are configured, you can begin connecting with collaborators. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the relationship.
 
 To learn more about each step in the connection process, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough, including how to browse collaborators and manage connection settings in the UI, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
@@ -118,13 +118,9 @@ Complete the following steps outlined in the [Configure Adobe Experience Platfor
 
 ### Option B: Activate to cloud
 
-Complete the following steps in coordination with your Adobe support team.
+To activate audiences to a cloud destination (such as [!DNL AWS S3] or [!DNL Snowflake]), contact your Adobe account representative to initiate the setup process. You will need to provide destination details such as file path, credentials, and expected file format. During setup, you must also specify a match key (e.g., `hashedEmail`) and define the desired TTL and refresh cadence. Once configuration is complete, Adobe will provision the destination and ensure data is delivered correctly.
 
-- **Coordinate with Adobe** to configure a cloud delivery destination.
-- **Provide destination details** – Path, credentials, file format.
-- **Map match keys** – Select the identifier (e.g., `hashedEmail`).
-- **Define TTL and refresh cadence** – Finalized in collaboration with Adobe.
-- **Confirm delivery** – Ensure audiences are delivered and compliant.
+Audience data sent to a cloud destination follows a predefined schema. For a detailed description of the required fields and format, download the [RTCDP Collaboration Audience Activation Guide](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
 
 ### Key differences
 
@@ -132,7 +128,6 @@ The following list highlights the differences between Real-Time Customer Data Pl
 
 - Real-Time CDP is fully self-service and visible in Audience Portal.
 - Cloud destinations require Adobe coordination and are not visible in the UI.
-- TTL enforcement is automatic in Real-Time CDP, and manual in cloud destinations.
 
 ## Step 5: Set up measurement (optional)
 
