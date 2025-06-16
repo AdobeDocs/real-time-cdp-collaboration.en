@@ -64,7 +64,7 @@ Once your collaboration entity is created and your branding and match keys are c
 
 To learn more about each step in the connection process, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough, including how to browse collaborators and manage connection settings in the UI, watch the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
-For a detailed walkthrough of initial organization setup, see the [initial organization setup document](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-organization#initial-organization-setup){target="_blank"} and the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-up-an-advertiser-account){target="_blank"}.
+For a detailed walkthrough of initial organization setup, see the [initial organization setup document](./setup/onboard-organization.md#initial-organization-setup){target="_blank"} and the [Advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/set-up-an-advertiser-account){target="_blank"}.
 
 ## Step 3: Source audiences (from Real-Time CDP or cloud) {#source-audiences}
 
@@ -72,10 +72,15 @@ Choose one of the following data sources to begin audience provisioning. Use eit
 
 ### Connect a source
 
-Select the platform or cloud location where your audience data resides.
+Choose how you want to source audience data into RTCDP Collaboration.
 
-- **Real-Time CDP** – [Use the RTCDP Collaboration UI to link a sandbox that contains audiences](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences).
-- **Cloud** – To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), prepare your audience data using the following [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Once complete, or if you have questions, contact your Adobe account representative to finalize the setup.
+#### Option A: Source from Real-Time CDP
+
+[Use the RTCDP Collaboration UI to link a sandbox that contains audiences](./setup/onboard-audiences.md). Use this self-service method to reference existing audience segments from within your Real-Time CDP instance.
+
+#### Option B: Source from cloud
+
+To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), prepare your audience data using the following [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Once complete, or if you have questions, contact your Adobe account representative to finalize the setup. This method is not self-service and requires Adobe assistance.
 
 ### Provision audiences
 
