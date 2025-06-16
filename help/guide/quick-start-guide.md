@@ -75,7 +75,7 @@ Choose one of the following data sources to begin audience provisioning. Use eit
 Select the platform or cloud location where your audience data resides.
 
 - **Real-Time CDP** – [Use the RTCDP Collaboration UI to link a sandbox that contains audiences](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences).
-- **Cloud** – Coordinate with Adobe to configure a connection to your external data source (e.g., Amazon S3 or Snowflake).
+- **Cloud** – To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), prepare your audience data using the following [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Once complete, or if you have questions, contact your Adobe account representative to finalize the setup.
 
 ### Provision audiences
 
@@ -89,7 +89,11 @@ Configure how audiences are prepared, matched, and governed for collaboration.
 
 >[!IMPORTANT]
 >
->Audience provisioning limits vary by role.<ul><li>Brands can provision up to 25 audiences.<li><li>Publishers can provision up to 250 audiences (each with a minimum of 5,000 IDs).</li></ul>
+>Audience provisioning limits vary by role.<ul><li>Brands can provision up to 25 audiences.</li><li>Publishers can provision up to 250 audiences (each with a minimum of 5,000 IDs).</li></ul>
+
+>[!IMPORTANT]
+>
+>All match keys must be lowercased and SHA256-hashed. If the source audience contains unhashed values, use the **[!UICONTROL Apply transformation]** option in the UI to apply hashing. This functionality is only available when the audience source is Real-Time CDP. It is not available for cloud sources. See the [Map fields](./setup/onboard-audiences.md#map-fields) section of the Import and manage audiences document for details.
 
 To see a full walkthrough of how to reference audiences using the Collaboration UI, including data connection setup, match key mapping, and audience selection, watch the [RTCDP Collaboration Audience Referencing demonstration video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/reference-audiences-as-an-advertiser). It visually guides you through the end-to-end process and reinforces key setup decisions like consent enforcement and data transformations.
 
@@ -110,7 +114,6 @@ Complete the following steps outlined in the [Configure Adobe Experience Platfor
 - **Create a destination** – Use the UI to set up an Real-Time CDP destination (sandbox-level).
 - **Map match keys** – Select the identifier (e.g., `hashedEmail`).
 - **Define TTL** – Set expiration (1–30 days).
-- **Schedule refresh (optional)** – Enable automatic updates.
 - **Verify in Audience Portal** – Once a collaborator sends you an audience, verify that it appears in the Audience Portal under the origin "RTCDP Collaboration."
 
 ### Option B: Activate to cloud
