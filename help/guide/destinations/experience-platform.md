@@ -87,7 +87,7 @@ Now that you have configured Adobe Experience Platform as a destination, you can
 
 >![IMPORTANT]
 >
->You are responsible for adding any necessary data usage labels to the audiences you activate to Adobe Experience Platform. For more information, refer to the [data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home#data-usage-labels){target="_blank"} guide.
+>You are responsible for adding any necessary data usage labels to the audiences you activate to Adobe Experience Platform. For more information, refer to the [data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"} guide.
 
 ![The Audience Portal with Real-Time CDP Collaboration as an origin in the filter options.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
