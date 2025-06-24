@@ -102,6 +102,10 @@ Configure how audiences are prepared, matched, and governed for use in connectio
 - **Schedule refreshes** – Define update frequency (e.g., daily).
 - **Configure consent settings** – Determine which profiles are eligible to be included in connections by selecting a consent mode: opt-in, opt-out, or none.
 
+>[!NOTE]
+>
+>You can add or remove audiences and update the refresh schedule directly in the Collaboration UI. To change other settings, such as match keys or consent mode, you must delete and recreate the data connection.
+
 >[!IMPORTANT]
 >
 >**Audience provisioning limits by role:**
@@ -169,23 +173,48 @@ Real-Time CDP Collaboration offers a variety of reports to measure and analyze t
 
 ### Configure measurement workflow
 
-Use the following steps to define, validate, and execute your campaign measurement strategy in collaboration with your partner.
+Collaboration supports two measurement workflows:
 
-- **Share the measurement specification** – Align on schema, ID types, and lookback windows.
-- **Define use case** – Examples:
-  - Impressions vs. conversions
-  - Click-through rate
-  - Online-to-offline attribution
-  - Retail media measurement
-- **Set up clean room** – Work with Adobe to enable a secure clean room connection.
-- **Align matching logic** – Use consistent match keys across datasets.
-- **Validate data readiness** – Ensure the correct format (for example, Parquet or CSV), approved sources, and TTL compliance.
-- **Run and review queries** – Assess reach, overlap, lift, and attribution.
-- **Apply insights** – Use results to refine targeting and activation strategy.
+- **Attribution using Adobe Experience Platform datasets**
+- **Campaign summary using only partner-provided data**
 
->[!NOTE]
->
->In a measurement workflow, the Brand shares the measurement specification with the Publisher, and the Publisher shares the measurement specification with the Brand.
+Choose the appropriate workflow below based on your campaign measurement goals.
+
+#### Option A: Attribution using Experience Platform datasets
+
+Use this workflow to measure conversion activity using datasets stored in Experience Platform.
+
+1. **Create a measurement data connection**
+   - Select the dataset that contains your conversion events.
+   - Map identity fields from your dataset to the match keys used in Collaboration.
+   - Manage consent and governance settings.
+   - Define one or more conversion events to measure.
+   - Review and confirm your setup.
+
+2. **Run a measurement report**
+   - Go to the **[!UICONTROL Measure]** workspace within the associated project.
+   - Input the report name, date range, and report run date.
+   - Select **[!UICONTROL Attribution]** as the report type.
+   - Select the defined conversion event(s).
+   - Submit the report. It will run on the specified date and populate within 24 hours.
+
+#### Option B: Campaign summary using partner-provided data
+
+Use this workflow to generate campaign summary insights based on advertiser-supplied identifiers (for example, campaign ID).
+
+1. **Set up the connection**
+   - In the connection settings, ensure **[!UICONTROL Measurement]** is selected as a use case.
+   - Create a project under the connection with **[!UICONTROL Measurement]** as an activity.
+
+2. **Provide campaign context**
+   - Input required campaign identifiers (for example, **Campaign ID**) for the partner to reference.
+   - Align with your partner on campaign scope and reporting timeline.
+
+3. **Run a measurement report**
+   - Navigate to the **[!UICONTROL Measure]** workspace within the project.
+   - Input the report name, date range, and report run date.
+   - Select **[!UICONTROL Campaign summary]** as the report type.
+   - Submit the report. It will run on the selected date and populate within 24 hours.
 
 ## Verification
 
