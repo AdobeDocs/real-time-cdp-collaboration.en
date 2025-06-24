@@ -3,6 +3,7 @@ title: Configure and manage destinations
 description: Learn how to configure and manage destinations in Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
 ---
 # Configure and manage destinations
 

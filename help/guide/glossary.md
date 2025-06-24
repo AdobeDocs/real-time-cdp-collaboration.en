@@ -122,4 +122,4 @@ If sketches aren't refreshed regularly, audience overlap reports will show zero 
 
 ### Use case
 
-A use case defines a specific business scenario or problem that can be addressed using Adobe Real-Time CDP Collaboration. Within Real-Time CDP Collaboration, sample use cases such as audience discovery or campaign measurement, are available to help achieve a particular goal.
+A use case defines a specific business scenario or problem that can be addressed using Adobe Real-Time CDP Collaboration. Within Real-Time CDP Collaboration, sample use cases such as audience discovery or measurement, are available to help achieve a particular goal.

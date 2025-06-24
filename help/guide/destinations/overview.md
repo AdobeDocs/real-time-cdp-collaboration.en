@@ -3,6 +3,7 @@ title: Desintations overview
 description: Learn about destinations in Real-Time CDP Collaboration.
 audience: admin, publisher
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
 ---
 # Destinations overview
 
@@ -44,4 +45,4 @@ The following destinations are available for configuration in Real-TIme CDP Coll
 
 ## Next steps
 
-Once you've configured your destination, you can begin [activating targeted audiences](../collaborate/activate.md) within your projects. 
+Once you've configured your destination, you can begin [activating targeted audiences](../collaborate/activate.md) within your projects.

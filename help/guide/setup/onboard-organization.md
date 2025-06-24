@@ -28,6 +28,13 @@ To add additional organizations, navigate to **[!UICONTROL Setup]** in the left 
 >title="Contact email"
 >abstract="Please provide a team or role-based email, such as `collaboration@yourcompany.com`. Personal or individual email addresses should not be used."
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_connect_code"
+>title="Connect code"
+>abstract="The connect code is a unique identifier for your organization. It is used to establish connections with other organizations in Real-Time CDP Collaboration."
+
+<!-- Move the above to new section for invite on this page when its created -->
+
 To begin onboarding your organization, you must first set up the organization details. This requires you to add the following information:
 
 * Add an **[!UICONTROL Organization name]** for your company.
