@@ -169,8 +169,15 @@ The following list highlights the differences between Experience Platform and cl
 >
 >Complete this step only if your connection includes campaign performance analysis or attribution measurement.
 
-Real-Time CDP Collaboration offers a variety of reports to measure and analyze the performance of your marketing campaigns across various channels.
+Collaboration offers a variety of reports to analyze campaign reach, frequency, and effectiveness. While the **[!UICONTROL Measure]** workspace is available in the UI, full reporting functionality may require backend enablement.
 
+To learn how to view and interpret measurement reports, including attribution and campaign summary metrics, visit the [Measurement guide](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/measure).
+
+>[!TIP]
+>
+>To explore available report types and dashboards (such as reach curves, frequency distribution, and impressions by placement), see the [View reports](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/measure#view-reports) section of the measurement documentation.
+
+<!-- Commenting out the below information as this workflow is not yet in Beta but will be imminently. 
 ### Configure measurement workflow
 
 Collaboration supports two measurement workflows:
@@ -214,7 +221,7 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Navigate to the **[!UICONTROL Measure]** workspace within the project.
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
-   - Submit the report. It will run on the selected date and populate within 24 hours.
+   - Submit the report. It will run on the selected date and populate within 24 hours. -->
 
 ## Verification
 
