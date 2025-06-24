@@ -48,6 +48,10 @@ If you don't have admin access to Experience Platform, contact your organization
 
 Define your organization's role in Real-Time CDP Collaboration, provide branding assets, and configure match keys to align audiences across connections. Then, complete the steps below to finalize setup and prepare your organization to engage with your connections.
 
+>[!NOTE]
+>
+>You can create one or more collaborators (such as advertiser or publisher profiles) during setup. Certain fields, like branding assets and contact email, can be updated later in the **[!UICONTROL Settings]** workspace. Match keys can be removed at the project level, but not added, so plan them carefully.
+
 - **Assign a role** – Determines whether your organization acts as an advertiser, publisher, or both. Your role defines which collaboration capabilities you have, such as initiating audience sharing (advertiser) or making audiences available (publisher). To learn more about how roles impact the collaboration workflow, see the [End-to-end workflow guide](./end-to-end-workflow.md).
 - **Branding assets** – Add the following to your account:
   - Brand name (max 100 characters)
@@ -72,7 +76,7 @@ To watch a visual demonstration of the end-to-end process from the advertiser pe
 
 ## Step 3: Source audiences (from Experience Platform or a cloud source) {#source-audiences}
 
-Choose one (or both) of the following data sources to begin audience import. Use either the Real-Time CDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
+Choose one or both of the following data stores to source audiences. Use either the Real-Time CDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
 
 ### Option A: Source from Experience Platform
 
@@ -109,7 +113,9 @@ Configure how audiences are prepared, matched, and governed for use in connectio
 >
 >**Match key requirements:**
 >
->All match keys must be lowercased and SHA256-hashed. If your audience source contains unhashed values, use the **[!UICONTROL Apply transformation]** option in the UI to apply hashing. This option is only available when sourcing from Experience Platform and is not supported for cloud-based audiences.
+>All match keys must be **trimmed**, **lowercased**, and **SHA256-hashed**.  
+>If you provide hashed values that use uppercase characters, Real-Time CDP Collaboration automatically converts them to lowercase.  
+>If your source contains **plaintext identifiers**, use the **[!UICONTROL Apply transformation]** option in the UI to apply hashing. This option is only available when sourcing audiences from Experience Platform and is not supported for cloud-based sources.
 >
 >For more information, see the [map fields](./setup/onboard-audiences.md#map-fields) section of the import and manage audiences guide.
 
