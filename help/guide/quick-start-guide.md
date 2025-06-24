@@ -42,11 +42,11 @@ Watch this video to learn how to assign product access and permissions so users 
 >
 >This step applies to both advertisers and publishers.
 
-Before you can add audiences, you must configure your organization in Real-Time CDP Collaboration. This governs how your organization appears and behaves in the interface.
+Before you can add audiences, you must configure your organization in Real-Time CDP Collaboration. This governs how your organization appears and behaves in the interface. 
 
-To begin, define your organization's role in Real-Time CDP Collaboration and provide the necessary branding assets. Then, configure match keys that will be used to align audiences across connections.
+If you don't have admin access to Experience Platform, contact your organization's administrator for help completing this setup.
 
-Complete the following steps to define your organization's role and get ready to engage with your connections:
+Define your organization's role in Real-Time CDP Collaboration, provide branding assets, and configure match keys to align audiences across connections. Then, complete the steps below to finalize setup and prepare your organization to engage with your connections.
 
 - **Assign a role** – Determines whether your organization acts as an advertiser, publisher, or both. Your role defines which collaboration capabilities you have, such as initiating audience sharing (advertiser) or making audiences available (publisher). To learn more about how roles impact the collaboration workflow, see the [End-to-end workflow guide](./end-to-end-workflow.md).
 - **Branding assets** – Add the following to your account:
@@ -72,7 +72,7 @@ To watch a visual demonstration of the end-to-end process from the advertiser pe
 
 ## Step 3: Source audiences (from Experience Platform or a cloud source) {#source-audiences}
 
-Choose one (or both) of the following data sources to begin audience provisioning. Use either the Real-Time CDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
+Choose one (or both) of the following data sources to begin audience import. Use either the Real-Time CDP Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
 
 ### Option A: Source from Experience Platform
 
@@ -85,6 +85,8 @@ To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), pr
 >[!IMPORTANT]
 >
 >Cloud-based audience files must follow the required schema outlined in the Audience Specification PDF. Files must include hashed identifiers (lowercased SHA256), required metadata fields such as `segment_name` and `activation_id`, and use supported formats such as CSV or Parquet. Adobe does not normalize data before activation. TTL is enforced based on the audience's lifespan.
+>
+>All audiences in the uploaded file are fully sourced at this stage. Access to specific collaborators is provisioned separately through the Real-Time CDP Collaboration UI.
 
 ### Provision audiences
 
@@ -126,7 +128,6 @@ Alternatively, see the document on [making audiences available in Real-Time CDP 
 Use the Real-Time CDP Collaboration UI to activate audiences to either your Experience Platform instance or a cloud destination.
 
 ### Option A: Activate to Experience Platform
-<!--  -->
 
 Complete the following steps outlined in the [Configure Adobe Experience Platform as a destination](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform) guide.
 
