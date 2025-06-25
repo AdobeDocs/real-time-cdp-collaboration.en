@@ -2,6 +2,7 @@
 title: Real-Time CDP Collaboration Onboarding Quick Start
 description: Learn how to onboard your organization in Real-Time CDP Collaboration, including setting up roles and organizations, audience provisioning, activation, and measurement. This guide helps advertisers and publishers configure collaboration settings and begin using shared audiences securely and efficiently.
 audience: admin, publisher, advertiser
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 ---
 # Real-Time CDP Collaboration onboarding quick start
 
