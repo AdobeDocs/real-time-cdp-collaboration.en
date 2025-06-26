@@ -76,13 +76,16 @@ In the compare audiences section, you can see the following metrics, which are b
 | **[!UICONTROL Identity count]** (your collaborator) | The number of unique IDs within your collaborator's audience(s). |
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that are present in both your and your collaborator's audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of profiles overlapping between your and your collaborator's selected audience. |
+| **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. |
 | **[!UICONTROL Identities breakdown by match key]** | The breakdown of identites for each match key chosen in the project, based on the select audiences for each collaborator. |
 
 {style="table-layout:auto"}
 
 >[!TIP]
 >
->The overlap percentage figure may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>The overlap percentage figure and audience index score may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+If your collaborator has not enabled either the audience index or the overlap percentage, the audience will not have any comparison data avaialble. 
 
 ## Relevant audiences {#relevant-audiences}
 
@@ -97,7 +100,7 @@ The **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]**
 
 >[!NOTE]
 >
->The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
+>The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
 
 The **[!UICONTROL Relevant audiences]** section displays the following information for each recommended audience:
 
@@ -106,6 +109,7 @@ The **[!UICONTROL Relevant audiences]** section displays the following informati
 | **[!UICONTROL Identity count]** | The name unique IDs within the audience. |
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that overlap between the recommended audience and all your audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of overlapping identities between the recommended audience and all your audiences. |
+| **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. |
 | **[!UICONTROL Audience categories]** | The categories your collaborator has assigned to the audience. |
 | **[!UICONTROL Match keys]** | The match keys your collaborator selected for the audience. |
 
@@ -113,7 +117,9 @@ The **[!UICONTROL Relevant audiences]** section displays the following informati
 
 >[!NOTE]
 >
->The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
+>The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
+
+If audience index is enabled for any of your collaborator's audiences, relevant audiences will be based on the audience index score, and any audiences where the audience index has not been enabled will not be included. If audience index is not enabled for any of your collaborator's audiences, the relevant audiences will be based on the overlap percentage.
 
 ## Discover overlaps {#discover-overlaps}
 
@@ -128,7 +134,9 @@ Discover overlaps to get insights into how your audiences compare against your c
 
 >[!NOTE]
 >
->The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
+>The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences. 
+
+If your collaborator has not enabled either the audience index or the overlap percentage, the audience will not be displayed. 
 
 To change your audience selection, select **[!UICONTROL Change audience]**.
 
@@ -145,10 +153,26 @@ Once you've selected the desired audiences, the **[!UICONTROL Discover overlaps]
 | **[!UICONTROL Identity count]** | The name unique IDs within the audience. |
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that overlap between the recommended audience and all your audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of overlapping identities between the recommended audience and all your audiences. |
+| **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. |
 | **[!UICONTROL Audience categories]** | The categories your collaborator has assigned to the audience. |
 | **[!UICONTROL Match keys]** | The match keys your collaborator selected for the audience. |
 
 {style="table-layout:auto"}
+
+## Audience index score {#audience-index-score}
+
+Audience index scores are a measurement to show how strongly one audience relates to another based on underlying audience counts and overlaps. This score helps you contextualize audience insights and identify high-potential audiences for prospecting and campaign targeting. This is especially useful when collaborators do not want to expose their overlap percentages.
+
+Scores are grouped as follows:
+
+| Score | Description |
+|---------|----------|
+| Very low | The audiences are not closely related, and the overlap is minimal. |
+| Low | The audiences have some commonalities, but they are not closely related. |
+| Medium | The audiences share a significant number of commonalities, indicating a strong relationship. |
+| High | The audiences are closely related, with a substantial overlap. |
+| Very high | The audiences very closely related, with a very high overlap. |
+
 
 ## Next steps
 
