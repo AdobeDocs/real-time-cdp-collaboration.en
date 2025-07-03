@@ -161,18 +161,25 @@ Once you've selected the desired audiences, the **[!UICONTROL Discover overlaps]
 
 ## Audience index score {#audience-index-score}
 
-Audience index scores are a measurement to show how strongly one audience relates to another based on underlying audience counts and overlaps. This score helps you contextualize audience insights and identify high-potential audiences for prospecting and campaign targeting. This is especially useful when collaborators do not want to expose their overlap percentages.
+Audience index scores are a measurement to show how strongly one audience relates to another based on underlying audience counts and overlaps. This score helps you contextualize audience insights and identify high-potential audiences for prospecting and campaign targeting.
 
-Scores are grouped as follows:
+The index score is calculated based on the following formula:
+
+![Audience index score formula where A is your audience, B is a collaborator's audience and Bf is the collaborator's baseline footprint.](/help/assets/collaborate/discover/audience-index-score-formula.png)
+
+The formula compares the overlap between your audience (A) and a collaborator's audience (B) against the expected overlap of that collaborator's audience within their overall baseline footprint (Bf). The baseline footprint is the total number of unique IDs in the collaborator's audience, which is used to normalize the index score.
+
+In simpler terms, the index score measures how much of your audience overlaps with a specific collaborator audience compared to what would be expected based on the collaborator's overall audience size, and then adjusts for the size of that collaborator audience within their baseline footprint. To make it easy to compare index scores across different audiences and campaigns, we normalize these scores using z-scores, which measure how far each index is from the average index score in the dataset. This shows whether an audience relationship is stronger or weaker than average, so you can quickly identify your best targeting opportunities. 
+
+These scores are then represeted on a scale from very low to very high, as follows:
 
 | Score | Description |
 |---------|----------|
-| Very low | The audiences are not closely related, and the overlap is minimal. |
-| Low | The audiences have some commonalities, but they are not closely related. |
-| Medium | The audiences share a significant number of commonalities, indicating a strong relationship. |
-| High | The audiences are closely related, with a substantial overlap. |
-| Very high | The audiences very closely related, with a very high overlap. |
-
+| Very low | The overlap is much less prevalent in the target audience compared to the baseline, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
+| Low | The overlap is somewhat less prevalent in the target audience compared to the baseline, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
+| Medium | The overlap is about as prevalent in the target audience as in the baseline, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
+| High | The overlap is more prevalent in the target audience compared to the baseline, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
+| Very high | The overlap is much more prevalent in the target audience compared to the baseline, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
 
 ## Next steps
 
