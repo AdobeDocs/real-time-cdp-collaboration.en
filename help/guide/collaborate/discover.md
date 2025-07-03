@@ -165,7 +165,7 @@ Audience index scores are a measurement to show how strongly one audience relate
 
 The index score is calculated based on the following formula:
 
-![Audience index score formula where A is your audience, B is a collaborator's audience and Bf is the collaborator's baseline footprint.](/help/assets/collaborate/discover/audience-index-score-formula.png)
+![Audience index score formula where A is your audience, B is a collaborator's audience and Bf is the collaborator's baseline footprint.](/help/assets/collaborate/discover/index-score-formula.png)
 
 The formula compares the overlap between your audience (A) and a collaborator's audience (B) against the expected overlap of that collaborator's audience within their overall baseline footprint (Bf). The baseline footprint is the total number of unique IDs in the collaborator's audience, which is used to normalize the index score.
 
