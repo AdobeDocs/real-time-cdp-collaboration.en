@@ -167,9 +167,11 @@ The index score is calculated based on the following formula:
 
 ![Audience index score formula where A is your audience, B is a collaborator's audience and Bf is the collaborator's baseline footprint.](/help/assets/collaborate/discover/index-score-formula.png)
 
-The formula compares the overlap between your audience (A) and a collaborator's audience (B) against the expected overlap of that collaborator's audience within their overall baseline footprint (Bf). The baseline footprint is the total number of unique IDs in the collaborator's audience, which is used to normalize the index score.
+The formula compares the overlap between your audience (A) and a collaborator's audience (B) against the expected overlap of that collaborator's audience within their overall baseline footprint (Bf). The baseline footprint is the total number of unique IDs in the collaborator's audience, which is used to normalize the index score for meaningful comparison.
 
-In simpler terms, the index score measures how much of your audience overlaps with a specific collaborator audience compared to what would be expected based on the collaborator's overall audience size, and then adjusts for the size of that collaborator audience within their baseline footprint. To make it easy to compare index scores across different audiences and campaigns, we normalize these scores using z-scores, which measure how far each index is from the average index score in the dataset. This shows whether an audience relationship is stronger or weaker than average, so you can quickly identify your best targeting opportunities. 
+In simpler terms, the index score measures how much of your audience overlaps with a specific collaborator audience compared to what would be expected based on the collaborator's overall audience size, and then adjusts for the size of that collaborator audience within their baseline footprint. 
+
+To enable easy comparison across different audiences and campaigns, index scores are normalized using z-scores. A z-score indicates how far a given index is from the average score in the dataset. This highlights whether an audience relationship is stronger or weaker than average, helping you quickly identify your best targeting opportunities.
 
 These scores are then represeted on a scale from very low to very high, as follows:
 
