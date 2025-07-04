@@ -161,6 +161,11 @@ Once you've selected the desired audiences, the **[!UICONTROL Discover overlaps]
 
 ## Audience index score {#audience-index-score}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="Audience index score"
+>abstract="Audience index scores are a measurement to show how strongly one audience relates to another based on underlying audience counts and overlaps. The index score measures how much of your audience overlaps with a specific collaborator audience compared to what would be expected based on the collaborator's overall audience size, and then adjusts for the size of that collaborator audience within their baseline footprint. "
+
 Audience index scores are a measurement to show how strongly one audience relates to another based on underlying audience counts and overlaps. This score helps you contextualize audience insights and identify high-potential audiences for prospecting and campaign targeting.
 
 The index score is calculated based on the following formula:
