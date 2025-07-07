@@ -1,11 +1,11 @@
 ---
 title: Real-Time CDP Collaboration Onboarding Quick Start
-description: Learn how to onboard your organization in Real-Time CDP Collaboration, including setting up roles and organizations, audience provisioning, activation, and measurement. This guide helps advertisers and publishers configure collaboration settings and begin using shared audiences securely and efficiently.
+description: Learn how to onboard your organization in Real-Time CDP Collaboration, including setting up roles and organizations, audience sourcing, activation, and measurement. This guide helps advertisers and publishers configure collaboration settings and begin using shared audiences securely and efficiently.
 audience: admin, publisher, advertiser
 ---
 # Real-Time CDP Collaboration onboarding quick start
 
-Get started with Real-Time Customer Data Platform (CDP) Collaboration by configuring your organization, provisioning audiences, and enabling privacy-focused activation and measurement.
+Get started with Real-Time CDP Collaboration by configuring your organization, sourcing audiences, and enabling privacy-focused activation and measurement.
 
 ## Prerequisites
 
@@ -67,7 +67,7 @@ Define your organization's role in Collaboration, provide branding assets, and c
 
 - **Configure match keys** – Select the identifiers used for audience matching (currently, hashed email is the only supported match key).
 
-Once your organization is created and your branding and match keys are configured, your organization is ready to begin provisioning audiences and activating data.
+Once your organization is created and your branding and match keys are configured, your organization is ready to begin sourcing audiences and activating data.
 
 To learn more about initial organization setup, including how to define roles, upload branding assets, and configure match keys, see the [initial organization setup document](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -77,7 +77,7 @@ Watch a step-by-step walkthrough of advertiser setup, including account creation
 
 ## Step 3: Source audiences (from Experience Platform or a cloud source) {#source-audiences}
 
-Choose one or both of the following data stores to source audiences. Use either the Collaboration UI or coordinate with Adobe to provision audiences in a privacy-preserving format.
+Choose one or both of the following data stores to source audiences. Use either the Collaboration UI or coordinate with Adobe to source audiences in a privacy-preserving format.
 
 ### Option A: Source from Experience Platform
 
@@ -93,7 +93,7 @@ To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), pr
 >
 >All audiences in the uploaded file are fully sourced at this stage. Access to specific partner organizations is provisioned separately through the Collaboration UI.
 
-### Provision audiences
+### Configure audiences
 
 Configure how audiences are prepared, matched, and governed for use in connections.
 
@@ -111,8 +111,8 @@ Configure how audiences are prepared, matched, and governed for use in connectio
 >
 >**Maximum number of audiences per collaborator role:**
 >
->- **Advertisers** can provision up to 25 audiences.
->- **Publishers** can provision up to 250 audiences (each with a minimum of 5,000 IDs).
+>- **Advertisers** can source up to 25 audiences.
+>- **Publishers** can source up to 250 audiences (each with a minimum of 5,000 IDs).
 
 >[!IMPORTANT]
 >
@@ -231,11 +231,17 @@ After activation, verify that audiences were successfully delivered or made avai
 
 With setup and data provisioning complete, your organization is now ready to connect with collaborators by sending or accepting invitations and submitting project settings for approval. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the relationship.
 
-Use the **[!UICONTROL Connect]** workspace from the left navigation menu in the Collaboration UI to browse available publishers (advertisers cannot currently be browsed). For an overview of this flow, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+As an advertiser, use the **[!UICONTROL Connect]** workspace from the left navigation menu in the Collaboration UI to browse available publishers. 
+
+>[!NOTE]
+>
+>Currently, only advertisers can browse publishers. Publishers cannot browse or initiate connections with advertisers.
+
+For an overview of this flow, see the [Connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Next steps
 
-You've now completed onboarding and configured your organization for secure collaboration. Next, explore the following resources to deepen your understanding of activation, measurement, and data governance:
+You've now completed initial setup and configured your organization for secure collaboration. Next, explore the following resources to deepen your understanding of activation, measurement, and data governance:
 
 - [Audience activation workflow documentation](./collaborate/activate.md)  
 - [Measurement use cases](./collaborate/measure.md)  
