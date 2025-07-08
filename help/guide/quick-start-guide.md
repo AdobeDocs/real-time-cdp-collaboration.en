@@ -18,7 +18,7 @@ Before you begin, ensure you have the following:
 - [Roles created for your organization and assigned to users](./permissions/manage-roles.md).
 - Access to branding assets, such as your organization's name, logo, and banner.
 - A [defined match key strategy](./setup/onboard-organization.md#set-up-match-keys) (currently, hashed email is the only supported match key).
-- (Optional) Access to a supported cloud source (Amazon S3 or Snowflake) if you're not using Experience Platform as a destination.
+- (Optional) Access to a supported cloud source (Amazon S3 or Snowflake) if you're not using Experience Platform for audience management.
 
 ## Step 1: Complete role-based setup {#complete-role-based-setup}
 
@@ -46,29 +46,26 @@ Watch this video to learn how to assign product access and permissions for Colla
 
 Before you can add audiences, you must configure your organization in Collaboration. This governs how your organization appears and behaves in the interface. 
 
-If you don't have admin access to Experience Platform, contact your organization's administrator for help completing this setup.
+If you don't have the necessary access, please refer back to step 1 or contact your organization's administrator for help completing this setup.
 
-Define your organization's role in Collaboration, provide branding assets, and configure match keys to align audiences across connections. Then, complete the steps below to finalize setup and prepare your organization to engage with your connections.
+Define your organization's role in Collaboration, provide branding assets, and configure match keys to align audiences across connections.
 
 >[!NOTE]
 >
->You can create one or more collaborators (such as advertiser or publisher profiles) during setup. Certain fields, like branding assets and contact email, can be updated later in the **[!UICONTROL Settings]** workspace. Match keys can be removed at the project level, but not added, so plan them carefully.
+>You can create one or more collaborators (such as advertiser or publisher profiles) during setup. Certain fields, like branding assets and contact email, can be updated later in the **[!UICONTROL Settings]** workspace.
 
 - **Assign a role** – Determines whether your organization acts as an advertiser, publisher, or both. Your role defines which collaboration capabilities you have, such as initiating audience sharing (advertiser) or making audiences available (publisher). To learn more about how roles impact the collaboration workflow, see the [End-to-end workflow guide](./end-to-end-workflow.md).
 - **Branding assets** – Add the following to your account:
   - Brand name (max 100 characters)
   - Brand description (max 1,000 characters)
   - Brand logo (SVG <20KB, ideally square)
-  - Brand banner (JPG 2688x1536 or similar)
-- **Contact email** – Provide a business email for collaborators to use after a connection is established.
-
+  
   >[!NOTE]
   >
   >If you are creating a publisher account and would like to be publicly visible in Collaboration's connections catalog, please contact your Adobe account representative. Publisher accounts require a custom brand banner (JPG 2688x1536); this file can be shared directly with your representative.
 
+- **Contact email** – Provide a business email for collaborators to use after a connection is established.
 - **Configure match keys** – Select the identifiers used for audience matching (currently, hashed email is the only supported match key).
-
-Once your organization is created and your branding and match keys are configured, your organization is ready to begin sourcing audiences and activating data.
 
 To learn more about initial organization setup, including how to define roles, upload branding assets, and configure match keys, see the [initial organization setup document](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -78,23 +75,13 @@ Watch a step-by-step walkthrough of advertiser setup, including account creation
 
 ## Step 3: Source audiences (from Experience Platform or a cloud source) {#source-audiences}
 
-Choose one or both of the following data stores to source audiences. Use either the Collaboration UI or coordinate with Adobe to source audiences in a privacy-preserving format.
+Once your organization is created and your branding and match keys are configured, you're ready to begin sourcing audiences. Choose one of the following sourcing methods based on your data store and business needs.
 
 ### Option A: Source from Experience Platform
 
-[Use the Collaboration destinations UI to link a sandbox that contains audiences](./setup/onboard-audiences.md). Use this self-service method to reference existing audience segments from within your Experience Platform instance.
+[Use the Collaboration UI to link a sandbox that contains audiences](./setup/onboard-audiences.md). Use this self-service method to reference existing audience segments from within your Experience Platform instance.
 
-### Option B: Source from Snowflake or Amazon S3
-
-To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), prepare your audience data using the following [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Once complete, or if you have questions, contact your Adobe account representative to finalize the setup. This method is not self-service and requires Adobe assistance.
-
->[!IMPORTANT]
->
->Cloud-based audience files must follow the required schema outlined in the Audience Specification PDF. Files must include hashed identifiers (lowercased SHA256), required metadata fields such as `segment_name` and `activation_id`, and use supported formats such as CSV or Parquet. Adobe does not normalize data before activation. TTL is enforced based on the audience's lifespan.
->
->All audiences in the uploaded file are fully sourced at this stage. Access to specific partner organizations is provisioned separately through the Collaboration UI.
-
-### Configure audiences
+#### Configure audiences
 
 Configure how audiences are prepared, matched, and governed for use in connections.
 
@@ -131,6 +118,16 @@ To see a full walkthrough of how to reference audiences using the Collaboration 
 
 Alternatively, see the document on [making audiences available in Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
+### Option B: Source from Snowflake or Amazon S3
+
+To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), prepare your audience data using the following [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Once complete, or if you have questions, contact your Adobe account representative to finalize the setup. This method is not self-service and requires Adobe assistance.
+
+>[!IMPORTANT]
+>
+>Cloud-based audience files must follow the required schema outlined in the Audience Specification PDF. Files must include hashed identifiers (lowercased SHA256), required metadata fields such as `segment_name` and `activation_id`, and use supported formats such as CSV or Parquet. Adobe does not normalize data before activation. TTL is enforced based on the audience's lifespan.
+>
+>All audiences in the uploaded file are fully sourced at this stage. Access to specific partner organizations is provisioned separately through the Collaboration UI.
+
 ## Step 4: Activate audiences (to Experience Platform or a cloud destination) {#activate-audiences}
 
 >[!NOTE]
@@ -150,16 +147,9 @@ Complete the following steps outlined in the [Configure Adobe Experience Platfor
 
 ### Option B: Activate to cloud
 
-To activate audiences to a cloud destination (such as [!DNL AWS S3] or [!DNL Snowflake]), contact your Adobe account representative to initiate the setup process. You will need to provide destination details such as file path, credentials, and expected file format. During setup, you must also specify a match key (e.g., `hashedEmail`) and define the desired TTL and refresh cadence. Once configuration is complete, Adobe will provision the destination and ensure data is delivered correctly.
+To configure a cloud destination (for example, [!DNL AWS S3] or [!DNL Snowflake]), contact your Adobe account representative to initiate the setup process. Depending on the cloud destination, you will need to provide cloud destination details such as file path, credentials, account locators etc. Once required information is provided, Adobe will configure the cloud destination setup.
 
 Audience data sent to a cloud destination follows a predefined schema. For a detailed description of the required fields and format, download the [Collaboration Audience Activation Guide](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
-
-### Key differences
-
-The following list highlights the differences between Experience Platform and cloud activation options:
-
-- Activations to Experience Platform are fully self-service and visible in the Audience Portal.
-- Cloud destinations require Adobe coordination and are not visible in the UI.
 
 ## Step 5: Set up measurement (optional) {#set-up-measurement}
 
@@ -220,13 +210,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## Verification
-
-After activation, verify that audiences were successfully delivered or made available in the appropriate destination.
-
-- Verify that your audiences appear in the Audience Portal (for Experience Platform activation).
-- Confirm successful cloud delivery through external destination logs or confirmation.
 
 ## Step 6: Connect with collaborators {#connect-with-collaborators}
 
