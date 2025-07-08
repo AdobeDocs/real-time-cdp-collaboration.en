@@ -3,6 +3,7 @@ title: Configure Adobe Experience Platform as a destination
 description: Learn how to configure and manage Adobe Experience Platform as a destination in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 ---
 # Configure Adobe Experience Platform as a destination
 
