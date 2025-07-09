@@ -85,7 +85,7 @@ In the compare audiences section, you can see the following metrics, which are b
 >
 >The overlap percentage figure and audience index score may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-If your collaborator has not enabled either the audience index or the overlap percentage, the audience will not have any comparison data avaialble. 
+If your collaborator has not enabled either the audience index or the overlap percentage, the audience will not have any comparison data available. 
 
 ## Relevant audiences {#relevant-audiences}
 
@@ -115,11 +115,7 @@ The **[!UICONTROL Relevant audiences]** section displays the following informati
 
 {style="table-layout:auto"}
 
->[!NOTE]
->
->The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
-
-If audience index is enabled for any of your collaborator's audiences, relevant audiences will be based on the audience index score, and any audiences where the audience index has not been enabled will not be included. If audience index is not enabled for any of your collaborator's audiences, the relevant audiences will be based on the overlap percentage.
+If audience index is enabled for any of your collaborator's audiences, relevant audiences will be based on the audience index score, and any audiences where the audience index has not been enabled will not be included. Relevant audiences based on the audience index score are sorted so the highest index score is displayed first. If audience index is not enabled for any of your collaborator's audiences, the relevant audiences will be based on the overlap percentage.
 
 ## Discover overlaps {#discover-overlaps}
 
@@ -172,21 +168,21 @@ The index score is calculated based on the following formula:
 
 ![Audience index score formula where A is your audience, B is a collaborator's audience and Bf is the collaborator's baseline footprint.](/help/assets/collaborate/discover/index-score-formula.png)
 
-The formula compares the overlap between your audience (A) and a collaborator's audience (B) against the expected overlap of that collaborator's audience within their overall baseline footprint (Bf). The baseline footprint is the total number of unique IDs in the collaborator's audience, which is used to normalize the index score for meaningful comparison.
+The formula compares the overlap between your audience (A) and a collaborator's audience (B) against the ratio of that collaborator's audience within their overall baseline footprint (Bf). The baseline footprint is the total number of unique IDs in the collaborator's audience, which is used to normalize the index score for meaningful comparison.
 
 In simpler terms, the index score measures how much of your audience overlaps with a specific collaborator audience compared to what would be expected based on the collaborator's overall audience size, and then adjusts for the size of that collaborator audience within their baseline footprint. 
 
-To enable easy comparison across different audiences and campaigns, index scores are normalized using z-scores. A z-score indicates how far a given index is from the average score in the dataset. This highlights whether an audience relationship is stronger or weaker than average, helping you quickly identify your best targeting opportunities.
+To enable easy comparison across different audiences and campaigns, z-scores are calculated for each index score. A z-score indicates how far a given index is from the average score in the dataset. This highlights whether an audience relationship is stronger or weaker than average, helping you quickly identify your best targeting opportunities.
 
-These scores are then represeted on a scale from very low to very high, as follows:
+The z-scores are then represeted on a scale from very low to very high, as follows:
 
-| Score | Description |
-|---------|----------|
-| Very low | The overlap is much less prevalent in the target audience compared to the baseline, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
-| Low | The overlap is somewhat less prevalent in the target audience compared to the baseline, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
-| Medium | The overlap is about as prevalent in the target audience as in the baseline, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
-| High | The overlap is more prevalent in the target audience compared to the baseline, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
-| Very high | The overlap is much more prevalent in the target audience compared to the baseline, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
+| Index Score | Z-score range | Description |
+|---------|----------|-----------|
+| Very low | z < -2 | The overlap is much less prevalent in the target audience compared to the baseline, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
+| Low | -2 ≤ z < -1 | The overlap is somewhat less prevalent in the target audience compared to the baseline, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
+| Medium | -1 ≤ z ≤ 1 | The overlap is about as prevalent in the target audience as in the baseline, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
+| High | 1 < z ≤ 2 | The overlap is more prevalent in the target audience compared to the baseline, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
+| Very high | z > 2 | The overlap is much more prevalent in the target audience compared to the baseline, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
 
 ## Next steps
 

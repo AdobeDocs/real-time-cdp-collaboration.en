@@ -347,7 +347,7 @@ The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configu
 
 **[!UICONTROL Show audience overlap %]**: When set to true, collaborators are able to [discover overlap percentages](/help/guide/collaborate/discover.md#compare-audiences) between their audiences and your audiences. 
 
-**[!UICONTROL Audience index]**: When set to true, your collaborators can view the [audience index](/help/guide/collaborate/discover.md#audience-index-score) within a project. This funtionality is only available when you have three or more active audiences.
+**[!UICONTROL Audience index]**: When set to true, your collaborators can view the [audience index](/help/guide/collaborate/discover.md#audience-index-score) within a project. This functionality is only available when you have three or more active audiences.
 
 >[!NOTE]
 >
