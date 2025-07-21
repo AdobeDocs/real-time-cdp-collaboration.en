@@ -11,7 +11,7 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 
 ## Overview
 
-Use data connections in Real-Time CDP Collaboration to import audiences from various sources. Learn how to manage match keys and schedule data imports for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
+Use data connections in Real-Time CDP Collaboration to source audiences from various platforms. Learn how to manage match keys and schedule data refreshing for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
 
 ## View data connections
 
@@ -53,7 +53,7 @@ After a data connection is created, you can update its refresh frequency directl
 >
 >When sourcing audiences from Adobe Experience Platform, audiences become available within 24 hours after the data connection is established. After the initial import, audience data refreshes according to the defined frequency.
 
-For more information on scheduling, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the guide to onboarding audiences.
+For more information on scheduling, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the guide to configuring audiences.
 
 ![A data connection's workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -63,11 +63,11 @@ You can edit the frequency of an existing data connection to better control how 
 
 In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days. When you're done, select **[!UICONTROL Save]** to apply your changes.
 
-![The Scheduling dialog, showing options to set frequency and date range.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![The Scheduling dialog, showing options to set frequency and date range.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Delete data connection
 
-Deleting a data connection will remove all underlying audiences, associated settings, and usage across the platform. This action cannot be undone.
+Deleting a data connection will remove all underlying audiences, associated settings, and usage across Collaboration. This action cannot be undone.
 
 To delete an existing data connection, select the delete icon (![Delete icon](/help/assets/common/delete.svg)) within an individual data connection's workspace.
 

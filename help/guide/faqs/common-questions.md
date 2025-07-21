@@ -19,8 +19,8 @@ I am seeing this screen when trying to access Real-Time CDP Collaboration. How c
 
 +++Select to view the answer
 
-If you are an end user, you need to contact your company's system or product administrator. 
+If you are an end user, you need to contact your organization's system or product administrator. 
 
-If you are a system or product administrator, read the permissions guide to understand how to grant yourself and your colleagues the correct permissions to use Real-Time CDP Collaboration. Start with the [access control overview](/help/guide/permissions/overview.md). 
+If you are a system or product administrator, read the permissions guide to understand how to grant yourself and your colleagues the correct permissions to use Collaboration. To learn more, read the[access control overview](/help/guide/permissions/overview.md).
 
 +++

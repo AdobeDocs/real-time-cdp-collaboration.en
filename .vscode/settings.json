@@ -1,0 +1,7 @@
+{
+    "markdown.validate.enabled": true,
+    "markdown.validate.ignoredLinks": [
+        "#source-audiences",
+        "#use-cases"
+    ]
+}

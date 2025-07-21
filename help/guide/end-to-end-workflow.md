@@ -13,7 +13,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration allows advertisers an
 
 ## Advertiser end-to-end workflow {#advertiser}
 
-As an advertiser, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to submit and then edit your company settings, add your preferred match keys that you will be working with, and decide which data to bring in. In the first release, the product allows you to [import audiences](/help/guide/setup/onboard-audiences.md) from Adobe Experience Platform only. 
+As an advertiser, start by [onboarding your company](/help/guide/setup/onboard-account.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to submit and then edit your company settings, add your preferred match keys that you will be working with, and decide which data to bring in. In the first release, the product allows you to [import audiences](/help/guide/setup/onboard-audiences.md) from Adobe Experience Platform only. 
 
 ![Discover, activate, measure for advertisers.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 
@@ -27,7 +27,7 @@ The final step in the collaboration loop is [measurement](/help/guide/collaborat
 
 ## Publisher end-to-end workflow {#publisher}
 
-As a publisher, start by [onboarding your company](/help/guide/setup/onboard-organization.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to edit various company settings.
+As a publisher, start by [onboarding your company](/help/guide/setup/onboard-account.md) onto Real-Time CDP Collaboration. Use the [setup page](/help/guide/setup/setup-overview.md) to edit various company settings.
 
 Decide which audience data to import and which audiences to make discoverable and viewable to the advertisers who are looking to connect with you in the **[!UICONTROL Connect]** area of the product.
 

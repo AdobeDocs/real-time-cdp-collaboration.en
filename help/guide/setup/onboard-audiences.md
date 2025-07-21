@@ -1,41 +1,35 @@
 ---
-title: Import and manage audiences
-description: Learn how to import and manage audiences in Adobe Real-Time CDP Collaboration
+title: Source and manage audiences
+description: Learn how to source and manage audiences in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 ---
-# Import and manage audiences
+# Source and manage audiences
 
 {{limited-availability-release-note}}
 
-Audiences are specific groups of users or customers segmented based on various attributes. These enable advertisers and publishers to collaborate on targeted marketing and personalized experiences for more effective advertising campaigns.
-
-Use this page as your go-to for understanding all the relevant metrics that you can view related to your audiences, as well as the workflow steps to import an audience into Adobe Real-Time CDP Collaboration.
-
->[!TIP]
->
->Use the information in this screen to get all the information you need about your audiences, and the [discover and overlaps screens](/help/guide/collaborate/discover.md) to get insights regarding which of your audiences would work best for different campaign types, when compared with publisher inventory.
+Audiences are specific groups of users or customers segmented based on various attributes. These enable collaborators to work together on targeted marketing and personalized experiences for more effective advertising campaigns. This guide covers how to source audiences into Real-Time CDP Collaboration, view the audiences dashboard, and manage individual audiences.
 
 >[!BEGINSHADEBOX]
 
 What you'll find on this documentation page:
 
-* [Import audiences into Real-Time CDP Collaboration](#import-audiences)
+* [Source audiences into Collaboration](#source-audiences)
 * [View audiences dashboard](#view-audiences-dashboard)
 * [View individual audiences](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
 
-## Import audiences into Real-Time CDP Collaboration {#import-audiences}
+## Source audiences into Collaboration {#source-audiences}
 
 >[!IMPORTANT]
 >
->To import audiences, your user needs to be assigned to a role containing two Profile Management permissions - View Profiles and View Segments. For information about assigning the necessary permissions, refer to the [audience importation](../permissions/overview.md#audience-importation) guide.
+>To source audiences, your user needs to be assigned to a role containing two Profile Management permissions - **View Profiles** and **View Segments**. For information about assigning the necessary permissions, refer to the [audience sourcing](../permissions/overview.md#audience-sourcing) guide in permissions.
 
-Before you can activate audiences with collaborators and run overlap calculations, the audiences need to be imported into Real-Time CDP Collaboration. To import audiences, follow the workflow steps in the section below.
+Before you can activate audiences with collaborators and run overlap calculations, the audiences need to be sourced into Collaboration. To source audiences, follow the workflow steps in the section below.
 
-From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Stetup]** workspace select the add icon (![Add icon.](/help/assets/icons/plus.png)) or the **[!UICONTROL Add] option** and then select **Audience**.
+From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace, select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **Audience**. If this is your first audience, you may also select the **[!UICONTROL Add] option**. 
 
 ![My audiences workspace with the Add option and Audiences option highlighted.](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
@@ -50,17 +44,17 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Stetup]** wo
 
 >[!IMPORTANT]
 >
->After establishing to your first data connection and importing your first audience, you can then import multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audience) step, since all the prerequisite information from the other steps will be imported from the existing connection.
+>After establishing to your first data connection and importing your first audience, you can then import multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
 
-A data connection is the source of data from where you are importing audiences into Real-Time CDP Collaboration. Currently, the only supported data connection is Adobe Experience Platform.
+A data connection is the source of data from where you are sourcing audiences. Currently, the only supported data connection is Adobe Experience Platform.
 
-Any settings such as scheduling that you configure for your data connection are applied to all the audiences imported from this data connection. 
+Any settings such as scheduling that you configure for your data connection are applied to all the audiences sourced from this data connection. 
 
 >[!TIP]
 >
 >There is a separate workflow where you can view and edit your data connections. For more information, follow the [managing data connections](/help/guide/setup/manage-data-connection.md) guide.
 
-To begin adding you data connection, select **[!UICONTROL Add a new data connection]** and then select **[!UICONTROL Next]**.
+To begin adding your data connection, select **[!UICONTROL Add a new data connection]** and then select **[!UICONTROL Next]**.
 
 ![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
 
@@ -68,38 +62,39 @@ To begin adding you data connection, select **[!UICONTROL Add a new data connect
 
 Next, you'll choose the source for your data connection. The available sources include:
 
-* **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform Real-Time CDP. 
+* **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform. 
 * **CSV File** (Future release): Upload a CSV file containing your audience data for quick and straightforward data ingestion.
-* **Amazon Web Services** (Future release): Connect to your Amazon S3 storage to import audience data directly from your S3 buckets.
+* **Amazon Web Services** (Future release): Connect to your Amazon S3 storage to source audience data directly from your S3 buckets.
 * **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
-  
+* **Google Cloud Platform** (Future release): Connect to your Google Cloud Storage to source audience data directly from your GCS buckets.
+
 Select your data souce and then select **[!UICONTROL Next]**.
 
 ![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
 
 #### Select sandbox
 
-After selecting your data source, you must select the sandbox that includes the audiences that you will import. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
+After selecting your data source, you must select the sandbox that includes the audiences that you want to bring into Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
 
 ![The Add audiences workspace with a sandbox selected.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
 
 #### Governance policy and enforcement actions {#governance-policy-and-enforcement-actions}
 
-Next, you must make sure that the correct marketing actions are set on the imported data. You are also required to provide consent for data imported from Real-Time CDP to be used for data collaboration.
+Next, you must make sure that the correct marketing actions are set on the sourced data. You are also required to provide consent for data sourced from Experience Platform to be used for data collaboration.
 
-Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
+Use marketing actions to control which audience data to bring into Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
 
 Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* With the checkbox *enabled*, any data that is marked with the labels called out above in Experience Platform is excluded and is *not* brought into Real-Time CDP Collaboration.
-* With the checkbox *disabled*, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.
+* With the checkbox ***enabled***, any data that is marked with the labels called out above in Experience Platform is excluded and is ***not*** brought into Collaboration.
+* With the checkbox ***disabled***, there is no restriction on data from Experience Platform that can be imported into Collaboration.
 
 Read more about data usage labels in the Experience Platform documentation:
 
 * [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
 * [Data usage labels glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
-Additionally, you'll want to select your conset rules to apply to data being imported into Real-Time CDP Collaboration.
+Additionally, you'll want to select your consent rules to apply to data being sourced into Collaboration.
 
 ![The Add audiences workspace at the Governance policy and enforment actions section.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -118,7 +113,7 @@ Next, provide a name and a description for your data connection. This informatio
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Source fields"
->abstract="Source fields are identity namespaces and attributes from your existing implementation of Real-Time CDP. You can map these to target fields defined in Real-Time CDP Collaboration."
+>abstract="Source fields are identity namespaces and attributes from your implementation of Experience Platform. You can map these to target fields defined in Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -128,7 +123,7 @@ Next, provide a name and a description for your data connection. This informatio
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Apply transformation"
->abstract="When importing *non-hashed* fields from your source, use this option to have Real-Time CDP Collaboration apply the hashing and transform the plain fields into hashed fields."
+>abstract="When sourcing *non-hashed* fields, use this option to have Collaboration apply the hashing and transform the plain fields into hashed fields."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
@@ -142,25 +137,25 @@ Next, provide a name and a description for your data connection. This informatio
 >abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
-Next you'll select source fields to map to target fields in Real-Time CDP Collaboration. 
+Next you'll select source fields to map to target fields in Collaboration.
 
 ![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png)
 
 >[!TIP]
 >
->You can map multiple source fields to the same target field. For example, if you have email addresses in two separate fields in Experience Platform, you can map both of those to the **[!UICONTROL Hashed email]** target field as two separate rows.
+>You can map multiple source fields to the same target field. For example, if you have email addresses in two separate fields in Experience Platform, you can map each of those to the **[!UICONTROL Hashed email]** target field as two separate rows.
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source fields]** are identity namespaces and attributes from your existing implementation of Real-Time CDP. These are how the identities exist in the source you're importing data from. Source fields get mapped to the target fields defined in Real-Time CDP Collaboration.
+**[!UICONTROL Source fields]** are identity namespaces and attributes from Experience Platform. These are how the identities exist in the platform you're sourcing data from. Source fields get mapped to the target fields defined in Collaboration.
 
-**[!UICONTROL Target fields]** indicate how the identities are referred to in Real-Time CDP Collaboration. Currently, hashed emails are the only supported match keys.
+**[!UICONTROL Target fields]** indicate how the identities are referred to in Collaboration. Currently, hashed emails are the only supported match keys.
 
-Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Real-Time CDP Collaboration will apply the hashing and transform the fields. The hashing almorithm used by Adobe is SHA256.
+Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
 
 >[!ENDSHADEBOX]
 
-Select the empty source field next to the target field. The **[!UICONTROL Select source field]** dialog will appear. Select between the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options to find the desired source field and then select the source field from the list, making use of the search option to find the desired field. 
+Select the empty source field next to the target field. The **[!UICONTROL Select source field]** dialog will appear. Select between the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options to find the desired source field and then select the field from the list. You can also make use of the search option to find the desired field.
 
 ![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png)
 
@@ -190,13 +185,13 @@ Next, select the **[!UICONTROL Date range]**. The start date is the date when th
 
 >[!IMPORTANT]
 >
->After the end date in the date range, all audiences imported from this data connection will stop refreshing. To renew the connection, go to [Manage data connection](/help/guide/setup/manage-data-connection.md), and set a new end date.
+>After the end date in the date range, all audiences sourced from this data connection will stop refreshing. To renew the connection, follow the [manage data connection](/help/guide/setup/manage-data-connection.md) guide.
 
-### Select audiences {#select-audience}
+### Select audiences {#select-audiences}
 
-After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences from your data source. Select the your desired audiences and then select **[!UICONTROL Next]**.
+After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences from your data source. Select your desired audiences and then select **[!UICONTROL Next]**.
 
-![The Add audiences workspace with a list of avaialble audiences.](/help/assets/setup/add-manage-audiences/select-audience.png)
+![The Add audiences workspace with a list of available audiences.](/help/assets/setup/add-manage-audiences/select-audience.png)
 
 ### Review
 
@@ -209,24 +204,23 @@ Review all the configurations and settings before finalizing the audience additi
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
 >title="Missing identities"
->abstract="The identities count will be available after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up. Ongoing refreshes will follow the configured schedule. "
+>abstract="The identities count will be available after the next data connection refresh following the configured schedule. The initial refresh usually occurs within 24 hours after the data connection is set up. Ongoing refreshes will follow the configured schedule."
 
-After importing audiences into Real-Time CDP Collaboration, the **[!UICONTROL My audiences]** workspace displays all audiences currently imported into Real-Time CDP Collaboration by your organization. 
-
+After sourcing audiences, the **[!UICONTROL My audiences]** workspace displays all audiences currently sourced into Collaboration.
 
 Each audience contains an overview of the following information:
 
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
-| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A **[!UICONTROL Pending]** status indicates that the audience has just recently been imported and audience members are yet to populate. The imported audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
-| **[!UICONTROL Source]** | Indicates the source where the audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A **[!UICONTROL Pending]** status indicates that the audience has just recently been sourced and identities have yet to populate. The sourced audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. You can select the name to view the data connection.  |
 | **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
-| **[!UICONTROL Created]** | Indicates when the audience was imported into Real-Time CDP Collaboration. |
-| **[!UICONTROL Last updated]** | Indicates the last date and time when any aspect of the audience was updated. |
+| **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
+| **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience's configuration or metadata was last changed. |
 
-![The My audience workspace showing all audiences imported.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+![The My audience workspace showing all audiences sourced.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 To perform quick actions on an audience, select the ellipsis **...** next to the audience name. The following options are available:
 
@@ -246,12 +240,12 @@ The following information is displayed for each individual audience:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates the source where the audience was imported from. In the current release of Real-Time CDP Collaboration, Adobe Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. |
-| **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated. |
+| **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience's configuration or metadata was last changed |
 | **[!UICONTROL Last updated by]** | Indicates the user who last updated the audience. |
-| **[!UICONTROL Created]** | Indicates when the audience was imported into Real-Time CDP Collaboration. |
-| **[!UICONTROL Created by]** | Indicates the user who imported the audience into Real-Time CDP Collaboration. |
+| **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
+| **[!UICONTROL Created by]** | Indicates the user who sourced the audience into Collaboration. |
 
 ![An individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
@@ -276,7 +270,7 @@ Next, you can update the following sections within the audience's workspace:
 >title="Identities"
 >abstract="A breakdown view of the identities that make up this audience, as well as a total count of profiles with the respective identities."
 
-The **[!UICONTROL Identities]** section indicates the number of profiles present in the audience with any of the identities you selected when importing the audience. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
+The **[!UICONTROL Identities]** section indicates the number of profiles present in the audience with any of the identities you selected when sourcing the audience. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
 
 ![The Identities section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
@@ -304,7 +298,7 @@ The **[!UICONTROL Categories]** dialog will appear, allowing you to select the c
 >title="Connection access"
 >abstract="<p>Audiences can be of three types: public, private, and custom.</p><p> Their availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is activated with collaborators.</p>"
 
-An audience's availability for use in projects with collaborators differs based on the connection access setting. In the **[!UICONTROL Connection access]** section, you can select if the audience should be private, or usable and discoverable in connections. 
+An audience's availability for use in projects with collaborators differs based on the connection access setting. In the **[!UICONTROL Connection access]** section, you can select if the audience should be private or public. Public audiences are usable and discoverable in connections.
 
 To update the audience's connection access, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Connection access]** section.
 
@@ -322,7 +316,7 @@ Select the desired connection access option and then select **[!UICONTROL Save]*
 
 >[!IMPORTANT]
 >
->Regardless of access status (public, private, or custom), the population of any audience contributes to the **[!UICONTROL All audiences]** population in the **[!UICONTROL Compare audiences]** section within a project.<br> 
+>Regardless of access status (public, private, or custom), the population of any audience contributes to the **[!UICONTROL All audiences]** population in the **[!UICONTROL Compare audiences]** section within a project.
 
 Audience availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is activated.
 
@@ -331,13 +325,13 @@ Audience availability for use in projects with collaborators differs based on th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
->abstract="<p>Indicates which of the audience's metadata is visible to other organizations before they connect with your organization. </p> <p> **Identity count** controls whether your partner can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
+>abstract="<p>Indicates which of the audience's metadata is visible to other collaborators before they connect with you or within project views.. </p> <p> **Identity count** controls whether your collaborator can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
 
 >[!NOTE]
 >
->If your collaborator has all audiences set to private, a project's **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]** workspace will be blank. For more information, read the [discover](/help/guide/collaborate/discover.md#relevant-audiences). guide.
+>If your collaborator has all audiences set to private, a project's **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]** workspace will be blank. For more information, read the [discover](/help/guide/collaborate/discover.md#relevant-audiences) guide.
 
-Metadata visibility indicates the visibility of an audience's metadata to other organizations before they connect with your organization ,or within different project views. To update the audience's metadata visibility, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Metadata visibility]** section.
+Metadata visibility indicates the visibility of an audience's metadata to other collaborators before they connect with you, or within different project views. To update the audience's metadata visibility, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Metadata visibility]** section.
 
 ![The Metadata visibility section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
 
@@ -345,10 +339,10 @@ The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configu
 
 **[!UICONTROL Show identity count]**: This setting controls whether your collaborator can view identity counts for your audiences when [viewing overlap reports in the discovery tab](/help/guide/collaborate/discover.md#discover-overlaps) within a project. 
 
-**[!UICONTROL Show audience overlap %]**: When set to true, collaborators are able to [discover overlap percentages](/help/guide/collaborate/discover.md#compare-audiences) between their audiences and your audiences. 
+**[!UICONTROL Show audience overlap %]**: This setting controls whether collaborators are able to [discover overlap percentages](/help/guide/collaborate/discover.md#compare-audiences) between their audiences and your audiences. 
 
 ![The Metadata visibility dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
 ## Next steps
 
-After importing audiences, it's time to to discover publishers to [connect](/help/guide/connect/establishing-connections.md) with and start collaborating on projects.
+After sourcing audiences, it's time to discover publishers to [connect](/help/guide/connect/establishing-connections.md) with to collaborate on projects.

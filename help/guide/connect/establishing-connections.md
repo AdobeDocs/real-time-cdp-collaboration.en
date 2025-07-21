@@ -9,7 +9,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 
 {{limited-availability-release-note}}
 
-Before collaborators (typically an advertiser and a publisher) can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance.
+Before collaborators can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance.
 
 ## High-level workflow
 
@@ -27,15 +27,15 @@ Once the items above are completed, the collaborators can proceed to [create a p
 
 >[!IMPORTANT]
 >
->Once the connection between two collaborators has been established, the connection settings cannot be revised anymore. 
+>Once the connection between two collaborators has been established, the connection settings cannot be revised. 
 
 ## Send invite {#send-invite}
 
-To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the discover publishers screen.
+To set up a connection, select **[!UICONTROL Connect]** when browsing the publisher inventory in the **[!UICONTROL Discover publishers]** workspace.
 
 ![The Connect dashboard with the Connect option highlighted on a specific publisher.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-After the invite is sent, you can preview (but not edit) the connection settings. View pending invites in the **[!UICONTROL My connections]** tab. The connection status appears as **[!UICONTROL Invite sent]**.
+After the invite is sent, you can preview (but not edit) the connection settings. View pending invite is displayed in the **[!UICONTROL My connections]** tab. The connection status appears as **[!UICONTROL Invite sent]**.
 
 ![Pending invite sent to publisher displayed in the My connections view.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -56,7 +56,7 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Credit split"
->abstract="This section determines who is paying for the corresponding activities within Real-Time CDP Collaboration."
+>abstract="This section determines who is paying for the corresponding activities within Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -76,7 +76,7 @@ Once the collaborator accepts the invite, you can configure the connection setti
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Advertiser names"
->abstract="<p>Optional setting. Indicates the name and ID by which the advertiser is known to the publisher.</p><p>The advertiser name that you add here will be prefilled in the create project step.</p><ul><li>If the publisher configured multiple names, select one from the list.</li><li>If only one name is configured, it's preselected automatically.</li><li>If no names are configured, the field will be prefilled with the advertiser account name from Real-Time CDP Collaboration.</li></ul>"
+>abstract="<p>Optional setting. Indicates the name and ID by which the advertiser is known to the publisher.</p><p>The advertiser name that you add here will be prefilled in the create project step.</p><ul><li>If the publisher configured multiple names, select one from the list.</li><li>If only one name is configured, it's preselected automatically.</li><li>If no names are configured, the field will be prefilled with the advertiser account name from Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Create a project"
 
 >[!CONTEXTUALHELP]
@@ -89,6 +89,8 @@ Once the collaborator accepts the invite, you can configure the connection setti
 After the invite is sent, you can preview the connection settings. The invite must be accepted before you can finish setting up the connection.
 
 ![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### Advertiser connection settings {#advertiser-connection-settings}
 
@@ -112,7 +114,7 @@ Use cases are prefilled with all available options. To customize them, select **
 
 +++Match keys
 
-Match keys are prefilled with the ones you selected while [setting up your organization](/help/guide/setup/onboard-organization.md#set-up-match-keys). You can toggle off any match keys you don't want to use, but you can't add match keys that weren't selected during organization setup.
+Match keys are prefilled with the ones you selected while [setting up your organization](/help/guide/setup/onboard-account.md#set-up-match-keys). You can toggle off any match keys you don't want to use, but you can't add match keys that weren't selected during organization setup.
 
 ![The Match key settings in the connection settings workspace.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -171,9 +173,13 @@ Here's how the advertiser name selection works when creating a project:
 
 If you are satisfied with the proposed connection settings, select **[!UICONTROL Accept]** to establish the connection. If you want to request changes to the connection settings, select **[!UICONTROL Reject]**. The collaborator can then revise the connection settings and resend them for review.
 
+<!-- The end of the sections needing updates still. -->
+
 ## Delete connections {#delete-connections}
 
-You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections, navigate to **[!UICONTROL Connect]**. Advertisers should then navigate to **[!UICONTROL My connections]**. Select **[!UICONTROL View connection]** on the connection card to open the connection you want to delete.
+You can delete any connections with collaborators that you do not want to continue working with. To delete existing connections, navigate to **[!UICONTROL Connect]**. As a publisher, your existing connection will be displayed. As an advertiser, you should then navigate to **[!UICONTROL My connections]**. 
+
+Select **[!UICONTROL View connection]** on the connection card you want to delete.
 
 ![The View connection option highlighted in the My connections view.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 
@@ -187,7 +193,7 @@ A confirmation dialog appears, asking you to confirm the deletion of the connect
 
 >[!WARNING]
 >
->Once the connection is deleted, you will no longer be connected with the collaborator and all existing projects that are part of the collaboration will be permanently deleted and unrecoverable.
+>Once the connection is deleted, you will no longer be connected with the collaborator and all existing projects that are part of the collaboration will be permanently deleted and unrecoverable. 
 
 ## Next steps
 

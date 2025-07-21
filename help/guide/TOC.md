@@ -9,12 +9,12 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * [Real-Time CDP Collaboration home](./home.md)
 * Overview {#overview}
   * [Use cases and benefits](./use-cases-benefits.md)
-  * [End to end workflow](./end-to-end-workflow.md)
+  * [End-to-end workflow](./end-to-end-workflow.md)
 * [Onboarding quick start](./quick-start-guide.md)
 * Set Up {#setup}
   * [Overview of setup section](./setup/setup-overview.md)
-  * [Onboard and manage your organization](./setup/onboard-organization.md)
-  * [Import and manage audiences](./setup/onboard-audiences.md)
+  * [Onboard and manage your account](./setup/onboard-account.md)
+  * [Source and manage audiences](./setup/onboard-audiences.md)
   * [Manage data connections](./setup/manage-data-connection.md)
   * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)

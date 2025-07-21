@@ -13,7 +13,7 @@ Configure this destination to activate audiences from your project to Adobe Expe
 
 >[!NOTE]
 >
->Currently, only publishers can configure destinations in Real-Time CDP Collaboration.
+>Currently, only publishers can configure destinations in Adobe Real-Time CDP Collaboration.
 
 ## Configure destination {#configure-destination}
 
@@ -34,9 +34,9 @@ The **[!UICONTROL Create destination]** workflow appears.
 
 First, you must select the sandbox where your audience data will be sent. 
 
->![IMPORTANT]
+>[!IMPORTANT]
 >
->You can only select a sandbox that your user has access to. By default, all Real-Time CDP Collaboration users have access to the **Prod** sandbox. To gain access to additional sandboxes, an administrator must add additional sandboxes to a role assigned to your user. For more information about managing roles, refer to the [manage roles](../permissions/manage-roles.md) guide.
+>You can only select a sandbox that your user has access to. By default, all Collaboration users have access to the **Prod** sandbox. To gain access to additional sandboxes, an administrator must add additional sandboxes to a role assigned to your user. For more information about managing roles, refer to the [manage roles](../permissions/manage-roles.md) guide.
 
 In the **[!UICONTROL Configure sandbox]** section, select the **[!UICONTROL Sandbox]** dropdown, or type in the name of a sandbox.
 
@@ -60,9 +60,9 @@ Next, configure the **[!UICONTROL Audience Expiration]**. By default, the audien
 >title="Target namespaces"
 >abstract="Target namespaces specify which identity namespace the match key will be mapped to in Adobe Experience Platform. Hashed match keys must be mapped to a target namespace that supports hashed values."
 
-Next, you must create an activation mapping to define how the audience data will be sent to Adobe Experience Platform. You can map each [match key](../setup/onboard-organization.md#set-up-match-keys) you selected while creating your organization to an target namespace. The target namespaces specify which [identity namespace](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} the match key will be mapped to in Adobe Experience Platform.
+Next, you must create an activation mapping to define how the audience data will be sent to Adobe Experience Platform. You can map each [match key](../setup/onboard-account.md#set-up-match-keys) you selected while creating your organization to an target namespace. The target namespaces specify which [identity namespace](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} the match key will be mapped to in Adobe Experience Platform.
 
->![IMPORTANT]
+>[!IMPORTANT]
 >
 >Hashed match keys must be mapped to a target namespace that supports hashed values. For example, the **[!UICONTROL Hashed email]** match key must be mapped to the **[!UICONTROL Email(SHA256, lowercased)]** identity namespace in Adobe Experience Platform. You cannot map the **[!UICONTROL Hashed email]** match key to the **[!UICONTROL Email]** identity namespace, as this namespace does not support hashed values.
 

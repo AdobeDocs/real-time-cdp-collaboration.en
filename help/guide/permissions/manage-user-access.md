@@ -9,7 +9,7 @@ exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 
 {{limited-availability-release-note}}
 
-Manage permissions and user access to individual components within Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md) to manage user access to specific features and resources. 
+Manage permissions and user access to individual components within Adobe Real-Time CDP Collaboration through the Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"} interface. Permissions allows system and product administrators to define [roles](./manage-roles.md) to manage user access to specific features and resources. 
 
 ## Configure access to Permissions {#permissions-access}
 
@@ -107,11 +107,11 @@ You now have access to Experience Platform and Permissions. In the final step, y
 
 ### Administrators: configure Real-Time CDP Collaboration access {#RTCDP-collaboration-access}
 
-To grant users access to Real-Time CDP Collaboration, you'll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization.
+To grant users access to Collaboration, you'll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization.
 
-When configuring individual access to Real-Time CDP Collaboration, you'll assign users' roles containing permissions from the Collaborations resource. You can use the [manage roles](./manage-roles.md) guide to find out information on:
+When configuring individual access to Collaboration, you'll assign users' roles containing permissions from the Collaborations resource. You can use the [manage roles](./manage-roles.md) guide to find out information on:
 
-- the [two standard roles](./manage-roles.md#standard-roles) and the levels of access they grant to Real-Time CDP Collaboration
+- the [two standard roles](./manage-roles.md#standard-roles) and the levels of access they grant to Collaboration
 - creating [custom roles](./manage-roles.md#specific-access-roles) using the Collaboration resource
 - the list of permissions included in the Collaborations resource
 
