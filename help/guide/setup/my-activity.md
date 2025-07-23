@@ -25,15 +25,15 @@ To access your estimated credit consumption activity, navigate to **[!UICONTROL 
 
 >[!TIP]
 >
->The **[!UICONTROL My activity]** view does not include information about user actions in different parts of the Real-Time Collaboration CDP user interface. Use the [audit logs](/help/guide/setup/audit-logs.md) functionality to get that information. 
+>The **[!UICONTROL My activity]** view does not include information about user actions in different parts of Collaboration user interface. Use the [audit logs](/help/guide/setup/audit-logs.md) functionality to get that information. 
 
 ## Understand your activity dashboard {#understand-dashboard}
 
-The activity dashboard displays a comprehensive list of all credit-consuming operations within your organization. Each row represents a distinct activity and provides key information about the credit usage:
+The activity dashboard displays a comprehensive list of all credit-consuming operations within your account. Each row represents a distinct activity and provides key information about the credit usage:
 
 >[!NOTE]
 >
->**[!UICONTROL Audience Management]** activities are not associated with another collaborator, so the **[!UICONTROL Connection ID]** and **[!UICONTROL Connection name]** columns for these activity types indicate a **[!UICONTROL N/A]** value.
+>**[!UICONTROL Audience Management]** activities are not associated with another collaborator, so the **[!UICONTROL Connection ID]** and **[!UICONTROL Connection name]** columns for these activity types indicate a **[!UICONTROL -]** value.
 
 | Column   | Description  |
 |------------|--------------|
@@ -43,7 +43,7 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 | **[!UICONTROL Activity]** | The type of activity performed, such as **Activation - Matching**, **Activation - Egress**, or **Audience Management**. |
 | **[!UICONTROL Inputs processed]** | The total number of inputs (for example, IDs or rows) processed for the activity.|
 | **[!UICONTROL Total credits used]** | The total number of credits consumed by the activity. |
-| **[!UICONTROL My credit share]** | Your organization's portion of the credits used for the activity.  |
+| **[!UICONTROL My credit share]** | Your account's portion of the credits used for the activity.  |
 
 {style="table-layout:auto"}
 
@@ -51,23 +51,15 @@ The activity dashboard displays a comprehensive list of all credit-consuming ope
 
 The **[!UICONTROL Activity]** column shows different types of credit-consuming operations.
 
-* **[!UICONTROL Audience Management]**: Credits are consumed when audiences are sourced into Real-Time CDP Collaboration. Credits are consumed as a function of the number of IDs (in millions) indexed within Real-Time CDP Collaboration across all audiences, and the frequency of that indexing (daily, every three days, or weekly). To learn more, read the [importing and managing audiences](/help/guide/setup/onboard-audiences.md) guide.
+* **[!UICONTROL Audience Management]**: Credits are consumed when audiences are sourced into Collaboration. Credits are consumed as a function of the number of IDs (in millions) indexed within Collaboration across all audiences, and the frequency of that indexing (daily, every three days, or weekly). To learn more, read the [sourcing and managing audiences](/help/guide/setup/onboard-audiences.md) guide.
 * **[!UICONTROL Activation - Matching]** – Credits are consumed as a function of the number of IDs matched and prepared for activation. To learn more, read the [activating audiences](/help/guide/collaborate/activate.md) guide.
 * **[!UICONTROL Activation - Egress]** – Credits are consumed as a function of the number of IDs are sent to a destination. This is always charged to the collaborator that receives the audience. To learn more, read the [activating audiences](/help/guide/collaborate/activate.md) guide.
-* **[!UICONTROL Measurement]** – Execute activities in Real-Time CDP Collaboration to generate campaign performance reports and insights. Credits are consumed based on the number of rows in campaign reports across all campaigns and the frequency of reporting (daily, every three days, or weekly).
+* **[!UICONTROL Measurement]** – Execute activities in Collaboration to generate campaign performance reports and insights. Credits are consumed based on the number of rows in campaign reports across all campaigns and the frequency of reporting (daily, every three days, or weekly).
 
 ## Manage your credit consumption {#manage-credit-consumption}
 
 To effectively manage your credit consumption:
 
-1. **Understand** the credit consumpton associated with each activity. Check the [Real-Time CDP Collaboration product description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} for a table of collaboration credits used per activity.   
+1. **Understand** the credit consumption associated with each activity. Check the [Collaboration product description](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} for a table of credits used per activity.
 2. **Monitor regularly**: Check your activity dashboard frequently to understand usage patterns.
-3. **Track by connection**: Use the connection name to identify which partnerships are consuming the most credits.
-
-<!--
-
-## Pagination and navigation
-
-The activity list is paginated to improve performance and readability. Use the navigation controls at the bottom of the table to move between pages and adjust how many records you can view at once.
-
--->
+3. **Track by connection**: Use the connection name to identify which connections are consuming the most credits.

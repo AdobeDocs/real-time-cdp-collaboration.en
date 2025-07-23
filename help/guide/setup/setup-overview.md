@@ -9,14 +9,14 @@ exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 
 {{limited-availability-release-note}}
 
-The setup section in Real-Time CDP Collaboration is your go-to place to add information about your company as you get started with the product.\
+The setup section in Adobe Real-Time CDP Collaboration provides a centralized workspace for managing your account's settings and configurations. Use the guides below to learn how to configure your account, source audiences, manage data connections, set up destinations, and track your credit consumption activity.
 
 ![An organization's set up workspace, giving an overview of its current settings.](/help/assets/setup/set-up-overview.png){zoomable="yes"}
 
 Use the functionality in the setup section to:
 
-* [Onboard and manage your organization](/help/guide/setup/onboard-organization.md)
-* [Import and manage audiences](/help/guide/setup/onboard-audiences.md)
+* [Configure and manage your account](/help/guide/setup/onboard-account.md)
+* [Source and manage audiences](/help/guide/setup/onboard-audiences.md)
 * [Manage data connections](/help/guide/setup/manage-data-connection.md)
 * [Configure and manage destinations](/help/guide/setup/manage-destinations.md)
 * [Track your credit consumption activity](/help/guide/setup/my-activity.md)

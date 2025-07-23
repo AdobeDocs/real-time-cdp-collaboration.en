@@ -11,15 +11,15 @@ exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
 
 Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-Currently, destinations are only available to publishers in Real-Time CDP Collaboration. Publishers can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Advertisers can then [activate audiences within a project](../collaborate/activate.md), which are sent to the publisher's configured destination.
+Currently, destinations are only available to publishers in Real-Time CDP Collaboration. Publishers can configure destinations to activate audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Advertisers can then [send audiences within a project](../collaborate/activate.md), which are sent to the publisher's configured destination.
 
-![The My destinations tab in the Setup workspace showing an active Adobe Experience Platform destinations](/help/assets/setup/manage-destinations/my-destinations-overview.png)
+![The My destinations tab in the Setup workspace showing an active Adobe Experience Platform destinations.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
 To learn more about destinations, refer to the [destinations overview](../destinations/overview.md) guide.
 
 ## Configure destinations {#configure-destinations}
 
-Desintations are configured in the **[!UICONTROL Setup]** section of Real-Time CDP Collaboration. To configure a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Here, you can view all available destinations.
+Desintations are configured in the **[!UICONTROL Setup]** section of Collaboration. To configure a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Here, you can view all available destinations.
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ To delete a destination, navigate to the **[!UICONTROL My destinations]** tab in
 
 A confirmation dialog appears, where you can confirm that you want to delete the destination. Select **[!UICONTROL Delete]** to remove the destination.
 
-![The Delete destination dialog with the Delete option highlighted.](/help/assets/setup/manage-destinations/delete-destination-confirm.png)
+![The Delete destination dialog with the Delete option highlighted.](/help/assets/setup/manage-destinations/delete-destination-confirmation.png)
 
 ## Next steps
 
