@@ -25,11 +25,11 @@ What you'll find on this documentation page:
 
 >[!IMPORTANT]
 >
->To source audiences, your user needs to be assigned to a role containing two Profile Management permissions - **View Profiles** and **View Segments**. For information about assigning the necessary permissions, refer to the [audience sourcing](../permissions/overview.md#audience-sourcing) guide in permissions.
+>To source audiences, your user needs to be assigned to a role containing two Profile Management permissions - **[!UICONTROL View Profiles]** and **[!UICONTROL View Segments]**. For information about assigning the necessary permissions, refer to the [audience sourcing](../permissions/overview.md#audience-sourcing) guide in permissions.
 
 Before you can activate audiences with collaborators and run overlap calculations, the audiences need to be sourced into Collaboration. To source audiences, follow the workflow steps in the section below.
 
-From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace, select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **Audience**. If this is your first audience, you may also select the **[!UICONTROL Add] option**. 
+From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace, select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Audience]**. If this is your first audience, you may also select the **[!UICONTROL Add] option**.
 
 ![My audiences workspace with the Add option and Audiences option highlighted.](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
@@ -74,7 +74,7 @@ Select your data souce and then select **[!UICONTROL Next]**.
 
 #### Select sandbox
 
-After selecting your data source, you must select the sandbox that includes the audiences that you want to bring into Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
+After selecting your data source, you must select the sandbox that includes the audiences that you to use Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
 
 ![The Add audiences workspace with a sandbox selected.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
 
@@ -82,12 +82,12 @@ After selecting your data source, you must select the sandbox that includes the 
 
 Next, you must make sure that the correct marketing actions are set on the sourced data. You are also required to provide consent for data sourced from Experience Platform to be used for data collaboration.
 
-Use marketing actions to control which audience data to bring into Collaboration from Experience Platform. The **Data Collaboration** marketing action supports C4, C5 and C9 data usage labels. The **Data Science** marketing action supports the C9 data usage label.
+Use marketing actions to control which audience data to bring into Collaboration from Experience Platform. The **[!UICONTROL Data Collaboration]** marketing action supports C4, C5 and C9 data usage labels. The **[!UICONTROL Data Science]** marketing action supports the C9 data usage label.
 
 Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* With the checkbox ***enabled***, any data that is marked with the labels called out above in Experience Platform is excluded and is ***not*** brought into Collaboration.
-* With the checkbox ***disabled***, there is no restriction on data from Experience Platform that can be imported into Collaboration.
+* When the checkbox is ***enabled***, any data labeled in Experience Platform as described above is excluded and **not** brought into Collaboration.
+* With the checkbox ***disabled***, there is no restriction on data sourced from Experience Platform.
 
 Read more about data usage labels in the Experience Platform documentation:
 
@@ -325,7 +325,7 @@ Audience availability for use in projects with collaborators differs based on th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
->abstract="<p>Indicates which of the audience's metadata is visible to other collaborators before they connect with you or within project views.. </p> <p> **Identity count** controls whether your collaborator can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
+>abstract="<p>Indicates which of the audience's metadata is visible to other collaborators before they connect with you or within project views.</p> <p> **Identity count** controls whether your collaborator can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
 
 >[!NOTE]
 >

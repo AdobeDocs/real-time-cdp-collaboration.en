@@ -42,7 +42,7 @@ To begin configuring your account, you must first set up the account details. Th
 * Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 <!-- The above will need to be updated when I update things for B2B -->
 * Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
-* The **[!UICONTROL Region]** is automatically set based on your Adobe Experience Cloud account. This cannot be changed during the initial setup.
+* The **[!UICONTROL Region]** is automatically set based on your Adobe Experience Cloud account. This cannot be changed at anytime.
 * Add a **[!UICONTROL Contact email]** for your account. This should be a team or role-based email address. Personal email addresses should not be provided.
 * Upload a **[!UICONTROL Logo]** for your account. Currently, SVG-type images are supported. This is optional, but uploading a logo helps to visually represent your brand in the Collaboration interface
 * Select an image for your account header picture.
@@ -81,7 +81,7 @@ To begin configuring your account, you must first set up the account details. Th
 
 Match keys, such as email addresses, device IDs, or customer IDs, help collaborators work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement.
 
-![Slide showing the available identifiers for the first release of Real-Time CDP Collaboration.](/help/assets/setup/manage-account/available-identifiers.png)
+![Slide showing the available identifiers for the first release of Collaboration.](/help/assets/setup/manage-account/available-identifiers.png)
 
 <!-- Eventually replace this image above to match branding better. -->
 
@@ -89,7 +89,7 @@ Select any match keys that you want to use when reconciling audience profiles. I
 
 Select up to five match keys that you plan to use. Later, when setting up connections, you can remove unwanted match keys but cannot add new ones.
 
-Available match keys can be of three types:
+There are three types of available match keys:
 
 * First-party people IDs
 * First-party device IDs

@@ -9,7 +9,7 @@ exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 
 {{limited-availability-release-note}}
 
-Discover and connect with potential publishers in Adobe Real-Time CDP Collaboration. This guide provides insights on how to identify ideal collaborators and leverage their audiences to enhance your marketing campaigns.
+Discover and connect with potential publishers in Adobe Real-Time CDP Collaboration. This guide provides insights on how to identify ideal collaborators and use their audiences to enhance your marketing campaigns.
 
 To discover publishers, go to the **[!UICONTROL Connect]** > **[!UICONTROL Discover publishers]** tab.
 

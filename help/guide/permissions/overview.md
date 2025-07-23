@@ -77,12 +77,12 @@ Once you've gained access to Collaboration, you may need some additional Experie
 
 ### Audience sourcing {#audience-sourcing}
 
-Before you can begin sending audiences to collaborators, you need to source audiences into Collaboration. Currently, the only self-serve data connection supported for importing audiences is Experience Platform. To begin, the user(s) managing audience onboarding will need to be assigned a role containing the following **Profile Management** resource permissions:
+Before you can begin sending audiences to collaborators, you need to source audiences into Collaboration. Currently, the only self-serve data connection supported for importing audiences is Experience Platform. To begin, the user(s) managing audience onboarding will need to be assigned a role containing the following **[!UICONTROL Profile Management]** resource permissions:
 
 | Permission | Description |
 | ---- | ---- |
-| View Segments | Allows the user to see the list of available audiences in a sandbox. |
-| View Profiles | Allows the user to see the fields available for mapping to collaboration fields. |
+| [!UICONTROL View Segments] | Allows the user to see the list of available audiences in a sandbox. |
+| [!UICONTROL View Profiles] | Allows the user to see the fields available for mapping to collaboration fields. |
 
 Below, you can see an example role with the above permissions added. For more information on creating or assigning roles, refer to the [manage roles](./manage-roles.md) guide. 
 
