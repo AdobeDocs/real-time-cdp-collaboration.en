@@ -272,11 +272,11 @@ You must acknowledge that a legal agreement is in place between you and your col
 
 +++Advertiser names
 
-<!-- >[!NOTE]
+>[!NOTE]
 >
->This option may appear during the owners's connection settings configuration and/or the recipient's review of the connection settings, depending on the collaboration pattern.
+>This option may appear during the connection settings configuration or the review of the connection settings, depending on the who initiates the connection.
 
-If you are a collaborator forming a connection with an advertiser, you can choose to add advertiser names in the connection settings. This allows you to add multiple names by which the advertiser is known to you in your systems. This is particularly useful if the advertiser has a presence in multiple geographies or if they are known by different names in different contexts. Later, when you create a project, you can select the appropriate advertiser name from the list of names configured in the connection settings.
+If you are a publisher forming a connection with an advertiser, you can choose to add advertiser names in the connection settings. This allows you to add multiple names by which the advertiser is known to you in your systems. This is particularly useful if the advertiser has a presence in multiple geographies or if they are known by different names in different contexts. Later, when you create a project, you can select the appropriate advertiser name from the list of names configured in the connection settings.
 
 ![The Advertiser names dialog in the connection settings workspace.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
 
@@ -290,7 +290,7 @@ Here's how the advertiser name selection works when creating a project:
 >
 > Once you've sent the connection settings, you are no longer able to add or edit advertiser names.
 
-![The connection settings workspace with the Advertiser names section filled in.](/help/assets/connect/establish-connection/advertiser-names.png) -->
+![The connection settings workspace with the Advertiser names section filled in.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
@@ -308,11 +308,11 @@ If you are satisfied with the proposed connection settings, you must acknowledge
 
 ![The Legal agreement section highlighted in the connection settings workspace.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
 
-<!-- Additionally, if the connection owner is an advertiser, you will now be able to add advertiser names. To learn more about this process, see the [connection settings](#connection-settings) section. -->
+Additionally, you're a publisher connecting with an advertiser, you can now add advertiser names in the connection settings. To learn more about this process, see the [connection settings](#connection-settings) section.
 
-<!-- >[!NOTE]
+>[!NOTE]
 >
-> Once you've accepted the connection settings, you are no longer able to add or edit advertiser names. -->
+> Once you've accepted the connection settings, you are no longer able to add or edit advertiser names.
 
 Next, select **[!UICONTROL Accept]** to proceed with the connection. The connection status will change to **[!UICONTROL Active]**, and you can now start collaborating on projects.
 
