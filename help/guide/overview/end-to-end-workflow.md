@@ -43,4 +43,4 @@ The final step in the collaboration loop is measurement. To know how your campai
 
 ## Next steps
 
-After understanding the high-level end-to-end workflow based on company role, read about [sample use cases](/help/guide/use-cases-benefits.md) supported in the product.
+After understanding the high-level end-to-end workflow based on company role, read about [sample use cases](/help/guide/overview/use-cases.md) supported in the product.

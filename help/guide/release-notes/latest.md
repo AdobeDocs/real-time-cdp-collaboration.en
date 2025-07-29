@@ -55,5 +55,5 @@ Adobe Real-Time CDP Collaboration, purpose-built to enable advertisers and publi
 For more information, read the:
 
 * [Collaboration overview](/help/guide/home.md)
-* [End-to-End workflow](/help/guide/end-to-end-workflow.md)
+* [End-to-End workflow](/help/guide/overview/end-to-end-workflow.md)
 * [Permissions overview](/help/guide/permissions/overview.md)

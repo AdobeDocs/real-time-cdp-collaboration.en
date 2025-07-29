@@ -7,7 +7,7 @@ exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 ---
 # Real-Time CDP Collaboration quick start guide
 
-
+{{limited-availability-release-note}}
 
 Get started with Real-Time CDP Collaboration by configuring your organization, sourcing audiences, and enabling privacy-focused activation and measurement.
 
@@ -57,7 +57,7 @@ Define your account's role in Collaboration, provide branding assets, and config
 >
 >You can create one or more accounts (such as advertiser and a publisher) during setup. Certain fields, like branding assets and contact email, can be updated later in the **[!UICONTROL Settings]** workspace.
 
-- **Assign a role** – Determines whether your account is as an advertiser or a publisher. Your role defines which capabilities you have in Collaboration. To learn more about how roles impact the collaboration workflow, see the [end-to-end workflow guide](./end-to-end-workflow.md).
+- **Assign a role** – Determines whether your account is as an advertiser or a publisher. Your role defines which capabilities you have in Collaboration. To learn more about how roles impact the collaboration workflow, see the [end-to-end workflow guide](./overview/end-to-end-workflow.md).
 - **Branding assets** – Add the following to your account:
   - Account name (max 100 characters)
   - Description (max 1,000 characters)
