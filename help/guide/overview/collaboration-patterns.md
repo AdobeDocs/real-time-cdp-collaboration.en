@@ -5,7 +5,7 @@ audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 
 ---
-# The collaboration patterns in Adobe Real-Time CDP Collaboration
+# Collaboration patterns
 
 {{limited-availability-release-note}}
 
