@@ -334,7 +334,7 @@ A confirmation dialog appears, asking you to confirm the deletion of the connect
 
 >[!WARNING]
 >
->Once the connection is deleted, you will no longer be connected with the collaborator and all existing projects that are part of the collaboration will be permanently deleted and unrecoverable. 
+>Once the connection is deleted, all existing projects in the collaboration will be permanently deleted and unrecoverable. The connection request will remain in a pending state, but the connection and its configurations will no longer be active. You will need to re-establish the connection if you want to connect with the collaborator again.
 
 ## Next steps
 
