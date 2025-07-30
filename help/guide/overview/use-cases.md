@@ -23,7 +23,7 @@ Discover target audiences for campaigns by leveraging the **[!UICONTROL Audience
 
 <!-- IMAGE TO COME WITH NEW ACTIVATE TAB POST BI-DIRECTIONAL -->
 
-Collaborators can activate audiences to Experience Platform using self-serve [destinations](/help/guide/destinations/experience-platform.md) or cloud data warehouses (such as Amazon S3 or Snowflake) for use in campaigns. To learn more about activating audiences, refer to the [activate](../collaborate/activate.md) guide.
+Collaborators can activate audiences to Experience Platform using self-serve [destinations](/help/guide/destinations/experience-platform.md) or cloud data warehouses (such as [!DNL Amazon S3] or [!DNL Snowflake]) for use in campaigns. To learn more about activating audiences, refer to the [activate](../collaborate/activate.md) guide.
 
 >[!NOTE]
 >
