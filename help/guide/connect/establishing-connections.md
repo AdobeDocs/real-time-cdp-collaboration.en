@@ -88,7 +88,7 @@ To discover publishers, navigate to the **[!UICONTROL Discover publishers]** wor
 
 >[!IMPORTANT]
 >
->This section describes the process of advertisers sending connection invites to publishers through the **[!UICONTROL Discover publishers]** workspace. To learn about formikng connections between brands regardless of their roles, read the [brand-to-brand connection](#brand-to-brand-connection) section or visit the [private connection invite](#private-connection-invite) section.
+>This section describes the process of advertisers sending connection invites to publishers through the **[!UICONTROL Discover publishers]** workspace. To learn about forming connections between brands regardless of their roles, read the [brand-to-brand connection](#brand-to-brand-connection) section or visit the [private connection invite](#private-connection-invite) section.
 
 Once you've identified a publisher you want to collaborate with, select the **[!UICONTROL Connect]** option on the publisher card. This action initiates the connection process.
 
@@ -308,7 +308,7 @@ If you are satisfied with the proposed connection settings, you must acknowledge
 
 ![The Legal agreement section highlighted in the connection settings workspace.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
 
-Additionally, you're a publisher connecting with an advertiser, you can now add advertiser names in the connection settings. To learn more about this process, see the [connection settings](#connection-settings) section.
+Additionally, if you're a publisher connecting with an advertiser, you can now add advertiser names in the connection settings. To learn more about this process, see the [connection settings](#connection-settings) section.
 
 >[!NOTE]
 >
