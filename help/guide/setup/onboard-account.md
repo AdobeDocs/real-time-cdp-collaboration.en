@@ -39,7 +39,7 @@ To begin configuring your account, you must first set up the account details. Th
 
 * Add an **[!UICONTROL Account name]** that clearly represents your brand.
 * Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
-* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
+* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/overview/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
 <!-- The above will need to be updated when I update things for B2B -->
 * Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 * The **[!UICONTROL Region]** is automatically set based on your Adobe Experience Cloud account. This cannot be changed at anytime.

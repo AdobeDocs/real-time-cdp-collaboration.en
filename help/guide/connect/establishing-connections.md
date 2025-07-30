@@ -11,7 +11,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 
 Before collaborators can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance.
 
-Connections are established based on your chosen collaboration pattern. Collaboration supports two key collaboration patterns: advertiser-to-publisher and brand-to-brand. To read more about these patterns, see the [use cases and benefits](/help/guide/use-cases-benefits.md) guide.
+Connections are established based on your chosen collaboration pattern. Collaboration supports two key collaboration patterns: advertiser-to-publisher and brand-to-brand. To read more about these patterns, see the [use cases](/help/guide/overview/use-cases.md) guide.
 
 <!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
