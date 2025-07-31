@@ -170,8 +170,6 @@ The status of the connection changes to **[!UICONTROL Pending]**. The owner can 
 
 The connection settings define the terms between two collaborators. These settings include use cases, match keys, credit split, and legal agreements. Collaborators connecting with advertisers can also add advertiser names to the connection settings, which will be used when creating projects.
 
-![The connection settings view in the preview state.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
-
 After the recipient accepts the invite, the owner can configure the connection settings. To do this, navigate to **[!UICONTROL My connections]** and find the pending connection in the **[!UICONTROL Action required]** section. Select **[!UICONTROL Set up connection]** to configure the connection settings.
 
 ![The Connect workspace with the Set up connection option highlighted in the Action required section.](/help/assets/connect/establish-connection/pending-connection.png){zoomable="yes"}
