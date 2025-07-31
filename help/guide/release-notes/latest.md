@@ -9,9 +9,20 @@ exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 
 {{limited-availability-release-note}}
 
-**Last update**: May, 2025.
+**Last update**: July, 2025.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## July 2025 {#july-2025}
+
+Real-time CDP Collaboration now supports for brand-to-brand collaboration. Brands can now collaborate with other brands, regardless of whether they are an advertiser or publisher. This allows for more flexible collaboration opportunities and enables brands to leverage each other's data and insights. To learn more about the differences between brand-to-brand collaboration and advertiser-to-publisher collaboration, read the [collaboration patterns](../overview/collaboration-patterns.md) guide.
+
+* Collaborators can now connect to each other using [private connection invites](../connect/establishing-connections.md#private-connection-invites). Share your account's unique connect code with a collaborator, who can then use it to connect with you directly. This is a core feature of brand-to-brand collaboration, allowing collaborators to establish connections outside of advertisers exploring the **[!UICONTROL Discover publishers]** directory.
+* [Self-serve destinations](../setup/manage-destinations.md) are now available to both advertisers and publishers.
+* Audience activation is now available for both collaborators in a connection, regardless of whether they are an advertiser or publisher. Audience activation settings are configured while [establishing connections](../connect/establishing-connections.md#configure-connection-settings), allowing you to specify which collaborator can activate audiences. To learn more about audience activation, read the [activate audiences](../collaborate/activate) guide.
+* The **[!UICONTROL Activate]** functionality in projects has been reconfigured to support brand-to-brand collaboration. The **[!UICONTROL Activate]** tab now displays the audiences that have been sent your collaborator, and the audiences activated to your destination by your collaborator. This allows you to view metrics for audiences that have been activated by your collaborator, and the audiences that you have sent to your collaborator for activation. <br> 
+<!-- * ![Connection settings screen showing the credit split functionality.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"} -->
+
 
 ## May 2025 {#may-2025}
 
