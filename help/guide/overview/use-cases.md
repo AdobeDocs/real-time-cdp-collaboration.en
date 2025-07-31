@@ -15,13 +15,13 @@ Collaboration provides three main use cases in your connections with other colla
 
 ## Discover {#discover}
 
-![Audience insights dashboard modules.](/help/assets/use-cases/discover.png)
+![Discover audience insights dashboard modules.](/help/assets/use-cases/discover.png)
 
 Discover target audiences for campaigns by leveraging the **[!UICONTROL Audience insights]** dashboard within your projects. Get insight into overlap percentages and the number of overlapping identities between your audiences and those of your collaborators. This helps you identify potential new audiences for your campaigns. To learn more about the power of the discover use case, refer to the [discover](../collaborate/discover.md) guide.
 
 ## Activate {#activate}
 
-<!-- IMAGE TO COME WITH NEW ACTIVATE TAB POST BI-DIRECTIONAL -->
+![Activate audiences dashboard modules.](/help/assets/use-cases/activate.png)
 
 Collaborators can activate audiences to Experience Platform using self-serve [destinations](/help/guide/destinations/experience-platform.md) or cloud data warehouses (such as [!DNL Amazon S3] or [!DNL Snowflake]) for use in campaigns. To learn more about activating audiences, refer to the [activate](../collaborate/activate.md) guide.
 
