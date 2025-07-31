@@ -13,7 +13,7 @@ exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 >
 >The **[!UICONTROL Activate]** workspace is only available if the **Audience activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-Audience activation allows you activate audiences in campaigns. Activation can be done by either collaborator depending on the audience activation settings [configured in the connection](/help/guide/connect/establishing-connections.md#configure-connection-settings). After [discovering the best audiences for your campaign](./discover.md), you can activate the targeted audiences. Audiences that are activated are sent to your collaborator's pre-configured destination, such as Adobe Experience Platform, for use in campaigns. For more information about setting up destinations, refer to the [destinations overview](../destinations/overview.md) guide.
+Audience activation allows you activate audiences for use in campaigns. Activation can be done by either collaborator depending on the audience activation settings [configured in the connection](/help/guide/connect/establishing-connections.md#configure-connection-settings). After you [discover the best audiences for your campaign](./discover.md), activate the audiences to make them available for use. When you activate an audience, it is sent to your collaborator's pre-configured destination, such as Adobe Experience Platform, where it becomes available for use in campaigns. For more information about setting up destinations, refer to the [destinations overview](../destinations/overview.md) guide.
 
 ## Activate new audiences {#activate-new-audiences}
 
@@ -21,7 +21,7 @@ To start activating audiences, navigate to the **[!UICONTROL Activate]** tab in 
 
 >[!IMPORTANT]
 >
->Currently, when activating audiences, they are then automatically activated to your collaborator's configured destination. Your collaborator **must** configure a destination *before* you activate an audience. If no destination is configured, you will be unable to activate audiences.
+>**Before** you can activate an audience, your collaborator **must** configure a destination. When you activate an audience, it is automatically sent to your collaborator's configured destination. If no destination is set up, you cannot activate audiences.
 >
 >![The Activate workspace when the collaborator has no destination configured.](/help/assets/collaborate/activate/no-destination-configured.png)
 
@@ -65,7 +65,7 @@ When satisfied with your selections, select **[!UICONTROL Activate]** to complet
 
 ## Activate dashboard {#activate-dashboard}
 
-In the **[!UICONTROL Activate]** tab, you can view all audiences that have been sent to your collaborator and all the audiences that have been activated your destination by your collaborator. 
+In the **[!UICONTROL Activate]** tab, you can view all audiences sent to your collaborator, as well as all audiences your collaborator has activated to your destination.
 
 ![The Activate dashboard showing the Sent audiences and Activated audiences sections.](/help/assets/collaborate/activate/activate-dashboard.png)
 
@@ -103,7 +103,7 @@ Within each activated audience, you can see the following metrics:
 
 ## Delete sent audiences {#delete-sent-audiences}
 
-You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and your collaborator will no longer have access to it .
+You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and it will no longer be activated to your collaborator's destination.
 
 To delete a sent audience, select the **[!UICONTROL Delete]** icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to]** section.
 
