@@ -225,9 +225,25 @@ The connection settings workspace appears, allowing you to configure the various
 >title="Audience activation"
 >abstract="Audience activation allows you to select which collaborator can initiate audience activation."
 
-<!-- Move and update the above popover when bidirectional is active. -->
-
 You can configure the following connection settings:
+
++++Audience activation
+
+>[!IMPORTANT]
+>
+>Any connections created before the **[!UICONTROL Audience activation]** feature was introduced will automatically have the audience activation setting set to the connection owner. If you want to allow both collaborators to activate audiences, you will need [delete your current connection](#delete-connections) and create a new one with the updated settings.
+
+Audience activation allows you to select which collaborator can activate audiences within the connection. Audience activation will only be an option if the **[!UICONTROL Audience activation]** use case is selected. If you choose to remove the use case during the connection process, the audience activation setting will be removed from the connection settings. To learn more about audience activation, see the [activate](/help/guide/collaborate/activate.md) guide.
+
+To set up audience activation, select **[!UICONTROL Set up]** in the **[!UICONTROL Audience activation]** section. Use the dropdown menu to specify which collaborator can activate audiences. You can choose a single collaborator or allow both collaborators to activate audiences. 
+
+![The Audience activation dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation.png){zoomable="yes"}
+
+When you're done, select **[!UICONTROL Save]** to save your changes.
+
+![The Audience activation dialog with the Save option in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
+
++++
 
 +++Use cases
 
@@ -260,6 +276,7 @@ Use the credit split section to determine which of the two collaborating parties
 To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Credit split]** section. You can then select the appropriate options for each use case. When you're done, select **[!UICONTROL Save]** to save your changes.
 
 ![The Credit split dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
+
 +++
 
 +++Agreements
@@ -278,9 +295,15 @@ You must acknowledge that a legal agreement is in place between you and your col
 
 If you are a publisher forming a connection with an advertiser, you can choose to add advertiser names in the connection settings. This allows you to add multiple names by which the advertiser is known to you in your systems. This is particularly useful if the advertiser has a presence in multiple geographies or if they are known by different names in different contexts. Later, when you create a project, you can select the appropriate advertiser name from the list of names configured in the connection settings.
 
-![The Advertiser names dialog in the connection settings workspace.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+![The Advertiser names in the connection settings workspace.](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 
-Here's how the advertiser name selection works when creating a project:
+To add advertiser names, select **[!UICONTROL Edit]** in the **[!UICONTROL Advertiser names]** section. You can then enter the **[!UICONTROL Advertiser ID]** that in your system, and an **[!UICONTROL Advertiser name]** to associate with that ID within Collaboration. You can add multiple advertiser names by selecting **[!UICONTROL Add]** option.
+
+![The Advertiser names dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
+
+When you're done, select **[!UICONTROL Save]** to save your changes.
+
+When creating a project, the advertiser name will be prefilled based on the following settings established during the connection    :
 
 1. **No advertiser name set**: If no advertiser names are added, Collaboration defaults to using the advertiser's name as the advertiser name.
 2. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
@@ -290,7 +313,7 @@ Here's how the advertiser name selection works when creating a project:
 >
 > Once you've sent the connection settings, you are no longer able to add or edit advertiser names.
 
-![The connection settings workspace with the Advertiser names section filled in.](/help/assets/connect/establish-connection/advertiser-names.png)
+![The connection settings workspace with the Advertiser names section filled in.](/help/assets/connect/establish-connection/add-advertiser-names.png)
 
 +++
 
