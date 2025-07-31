@@ -13,7 +13,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 >
 >The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-After [creating a project](/help/guide/collaborate/manage-projects.md), you can compare your audiences against your collaborators. This helps you identify relevant audiences for campaigns and decide which ones to send to publishers for activation.
+After [creating a project](/help/guide/collaborate/manage-projects.md), you can compare your audiences against your collaborators. This helps you identify relevant audiences for campaigns and decide which ones to send to collaborators for activation.
 
 >[!IMPORTANT]
 >

@@ -11,7 +11,7 @@ exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 
 The setup section in Adobe Real-Time CDP Collaboration provides a centralized workspace for managing your account's settings and configurations. Use the guides below to learn how to configure your account, source audiences, manage data connections, set up destinations, and track your credit consumption activity.
 
-![An organization's set up workspace, giving an overview of its current settings.](/help/assets/setup/set-up-overview.png){zoomable="yes"}
+![An account's setup workspace, giving an overview of its current settings.](/help/assets/setup/set-up-overview.png){zoomable="yes"}
 
 Use the functionality in the setup section to:
 

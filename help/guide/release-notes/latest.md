@@ -9,9 +9,18 @@ exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 
 {{limited-availability-release-note}}
 
-**Last update**: May, 2025.
+**Last update**: July, 2025.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## July 2025 {#july-2025}
+
+Real-time CDP Collaboration now supports brand-to-brand collaboration. Collaborators can now form connections, regardless of whether they are an advertiser or publisher. This allows for more flexible collaboration opportunities and enables brands to leverage each other's data and insights. To learn more about the differences between brand-to-brand collaboration and advertiser-to-publisher collaboration, read the [collaboration patterns](../overview/collaboration-patterns.md) guide.
+
+* Collaborators can now connect to each other using [private connection invites](../connect/establishing-connections.md#private-connection-invites). Share your account's unique connect code with a collaborator who can then use it to connect with you directly. This is a core feature of brand-to-brand collaboration, allowing collaborators to establish connections beyond advertisers exploring the **[!UICONTROL Discover publishers]** directory.
+* [Self-serve destinations](../setup/manage-destinations.md) are now available to both advertisers and publishers.
+* Audience activation is now available for both collaborators in a connection, regardless of their [account role](../overview/roles.md). Audience activation settings are configured while [establishing connections](../connect/establishing-connections.md#configure-connection-settings), allowing you to specify which collaborator can activate audiences. To learn more about audience activation, read the [activate audiences](../collaborate/activate.md) guide.
+* The **[!UICONTROL Activate]** use case has been reconfigured to support brand-to-brand collaboration. The **[!UICONTROL Activate]** tab within a project now displays the audiences that have been sent to your collaborator, and the audiences activated to your destination by your collaborator. To learn more, read the [activate audiences](../collaborate/activate.md) guide. <br> ![The Activate dashboard with the Audiences sent to and Audiences activated sections.](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
 
 ## May 2025 {#may-2025}
 
@@ -55,5 +64,5 @@ Adobe Real-Time CDP Collaboration, purpose-built to enable advertisers and publi
 For more information, read the:
 
 * [Collaboration overview](/help/guide/home.md)
-* [End-to-End workflow](/help/guide/end-to-end-workflow.md)
+* [End-to-End workflow](/help/guide/overview/end-to-end-workflow.md)
 * [Permissions overview](/help/guide/permissions/overview.md)

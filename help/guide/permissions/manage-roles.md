@@ -39,7 +39,7 @@ Below is a list of available permissions within the Collaborations resource:
 | Read Collaboration Instances | Read an organization's collaboration instances and discover other organizations' collaboration instances. |
 | Manage Connection Invites | View, create, and delete connection invites initiated by your organization. Accept and decline connection invite initiated by other organizations. |
 | Read Connection Invites | View connection invites. |
-| Manage Collaboration Connections | An advertiser can view, create, and update settings as well as submit and delete connections. A publisher can view, accept, or decline connections. |
+| Manage Collaboration Connections | An collaborator can view, create, and update settings as well as submit and delete connections. |
 | Read Collaboration Connections | View connections. |
 | Manage Audience Data | Onboard and discover audiences. Update public, private, and custom audiences and manage Audience Inventory metadata settings. |
 | Read Audience Data | Read and discover audiences. |

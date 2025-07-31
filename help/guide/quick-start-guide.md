@@ -1,13 +1,13 @@
 ---
 title: Real-Time CDP Collaboration Quick Start Guide
-description: Learn how to onboard your organization in Real-Time CDP Collaboration, including setting up roles and organizations, audience sourcing, activation, and measurement. This guide helps advertisers and publishers configure collaboration settings and begin using shared audiences securely and efficiently.
+description: Learn how to onboard your organization in Real-Time CDP Collaboration, including setting up roles and organizations, audience sourcing, activation, and measurement. This guide helps collaborators configure connection settings to begin using their audiences securely and efficiently.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 ---
 # Real-Time CDP Collaboration quick start guide
 
-
+{{limited-availability-release-note}}
 
 Get started with Real-Time CDP Collaboration by configuring your organization, sourcing audiences, and enabling privacy-focused activation and measurement.
 
@@ -25,10 +25,6 @@ Before you begin, ensure you have the following:
 
 ## Step 1: Complete role-based setup {#complete-role-based-setup}
 
->[!NOTE]
->
->This step applies to both advertisers and publishers.
-
 Your organization's access roles determine what users can see and do in Collaboration. Before proceeding, make sure role-based permissions are set up correctly to ensure appropriate access and visibility in the platform.
 
 **Resources:**
@@ -43,10 +39,6 @@ Watch this video to learn how to assign product access and permissions for Colla
 
 ## Step 2: Set up your Collaboration account {#set-up-your-account}
 
->[!NOTE]
->
->This step applies to both advertisers and publishers.
-
 Before you can source audiences, you must configure your account in Collaboration. This governs how you appear and what you have access to in the interface.
 
 If you don't have the necessary access, please refer back to step 1 or contact your organization's administrator for help completing this setup.
@@ -57,7 +49,7 @@ Define your account's role in Collaboration, provide branding assets, and config
 >
 >You can create one or more accounts (such as advertiser and a publisher) during setup. Certain fields, like branding assets and contact email, can be updated later in the **[!UICONTROL Settings]** workspace.
 
-- **Assign a role** – Determines whether your account is as an advertiser or a publisher. Your role defines which capabilities you have in Collaboration. To learn more about how roles impact the collaboration workflow, see the [end-to-end workflow guide](./end-to-end-workflow.md).
+- **Assign a role** – Determines whether your account is an advertiser or a publisher. Your role defines which capabilities you have in Collaboration. To learn more about how roles impact the collaboration workflow, see the [roles](./overview/roles.md) guide.
 - **Branding assets** – Add the following to your account:
   - Account name (max 100 characters)
   - Description (max 1,000 characters)
@@ -119,7 +111,7 @@ To see a full walkthrough of how to source audiences using Collaboration, watch 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-Alternatively, see the document on [sourcing audiences in Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+Alternatively, see the document on [sourcing audiences in Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
 ### Option B: Source from Snowflake or Amazon S3
 
@@ -132,10 +124,6 @@ To configure a cloud source (for example, [!DNL AWS S3] or [!DNL Snowflake]), pr
 >All audiences in the uploaded file are fully sourced at this stage. The [audience visibility setting](/help/guide/setup/onboard-audiences.md#metadata-visibility) determines whether your collaborators can view your audience and is managed through the Collaboration UI.
 
 ## Step 4: Activate audiences (to Experience Platform or a cloud destination) {#activate-audiences}
-
->[!NOTE]
->
->This step applies to both advertisers and publishers.
 
 Next, activate audiences to either your Experience Platform instance or a cloud destination.
 
@@ -218,13 +206,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 With setup complete, your organization is now ready to connect with collaborators by sending or accepting invitations and submitting project settings for approval. This connection process involves sending or receiving invitations, reviewing and submitting connection settings (such as use cases and credit consumption), and confirming the connection.
 
-As an advertiser, use the **[!UICONTROL Connect]** workspace from the left navigation menu to browse available publishers.
+As an advertiser, use the **[!UICONTROL Connect]** workspace from the left navigation menu to browse available publishers. Alternatively, collaborators may connect with each other directly through [private connection invitations](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
 >Currently, only advertisers can browse publishers. Publishers cannot browse or initiate connections with advertisers.
 
-For an overview of this flow, see the [connect with advertisers or publishers guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+For an overview of this flow, see the [establishing connections guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [advertiser account setup video](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Next steps
 

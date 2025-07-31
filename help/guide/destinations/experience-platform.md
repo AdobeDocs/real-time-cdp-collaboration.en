@@ -11,10 +11,6 @@ exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 
 Configure this destination to activate audiences from your project to Adobe Experience Platform. Activating audiences to Adobe Experience Platform allows you to leverage the platform's capabilities for audience segmentation, analysis, and activation across various marketing channels. To learn more about Adobe Experience Platform, refer to the [Experience Platform overview](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
->[!NOTE]
->
->Currently, only publishers can configure destinations in Adobe Real-Time CDP Collaboration.
-
 ## Configure destination {#configure-destination}
 
 To configure Adobe Experience Platform as a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL Destinations]** tab. Select **[!UICONTROL Set up]** for Adobe Experience Platform.
