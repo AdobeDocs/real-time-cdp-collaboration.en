@@ -297,7 +297,7 @@ If you are a publisher forming a connection with an advertiser, you can choose t
 
 ![The Advertiser names in the connection settings workspace.](/help/assets/connect/establish-connection/advertiser-names.png){zoomable="yes"}
 
-To add advertiser names, select **[!UICONTROL Edit]** in the **[!UICONTROL Advertiser names]** section. You can then enter the **[!UICONTROL Advertiser ID]** that in your system, and an **[!UICONTROL Advertiser name]** to associate with that ID within Collaboration. You can add multiple advertiser names by selecting **[!UICONTROL Add]** option.
+To add advertiser names, select **[!UICONTROL Edit]** in the **[!UICONTROL Advertiser names]** section. You can then enter the **[!UICONTROL Advertiser ID]** that the advertiser is known to you as in your system, and an **[!UICONTROL Advertiser name]** to associate with that ID within Collaboration. You can add multiple advertiser names by selecting **[!UICONTROL Add]** option.
 
 ![The Advertiser names dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/advertiser-names-dialog.png){zoomable="yes"}
 
