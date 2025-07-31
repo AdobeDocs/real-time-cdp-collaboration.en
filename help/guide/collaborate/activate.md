@@ -87,16 +87,16 @@ Within each sent audience, you can see the following metrics:
 
 ## View activated audiences {#view-activated-audiences}
 
-In the **[!UICONTROL Activated audiences]** section, you can see all the audiences that your collaborator has activated to your destination. 
+In the **[!UICONTROL Activated audiences]** section, you can see all the audiences that have been activated to your destination.
 
 Within each activated audience, you can see the following metrics:
 
 | Metric | Description |
 |---------|----------|
 | **[!UICONTROL Name]** | The name of the audience. |
-| **[!UICONTROL Status]** | The status of the sent audience. |
-| **[!UICONTROL Identity count]** | The number of identities that were activated, based off the overlapping identities when your collaborator activated the audience. |
-| **[!UICONTROL Created]** | The date when the audience was initially sent. |
+| **[!UICONTROL Status]** | The status of the activated audience. |
+| **[!UICONTROL Identity count]** | The number of identities that were activated, based off the overlapping identities when your collaborator sent the audience. |
+| **[!UICONTROL Created]** | The date when the audience was activated. |
 | **[!UICONTROL Last refreshed]** | The date when the audience was last refreshed, based on the refresh schedule chosen during activation. |
 | **[!UICONTROL Destination]** | The destination where the audience was activated to. |
 | **[!UICONTROL Match keys]** | Indicates the match key used for the audience. |

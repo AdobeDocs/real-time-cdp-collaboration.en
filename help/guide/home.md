@@ -11,21 +11,21 @@ exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 
 ## Overview
 
-With Adobe Real-Time CDP Collaboration, you can discover, activate, and measure high-value audiences without relying on third-party cookies. This solution enables advanced data collaborations between advertisers and publishers, helping you create personalized and impactful customer experiences in a privacy-centric, centralized environment.
+With Adobe Real-Time CDP Collaboration, you can discover, activate, and measure high-value audiences without relying on third-party cookies. This solution enables advanced data collaborations, helping you create personalized and impactful customer experiences in a privacy-centric, centralized environment.
 
 ![The Real-Time CDP Collaboration set up page, displaying an organization.](/help/assets/overview/set-up.png){zoomable="yes"}
 
 ## Identify audiences through trusted partners
 
-Publishers and advertisers can collaborate in a privacy-centric environment to match audiences, discover potential new customers, and maximize ad return on available inventory. The easy-to-use interface allows you to surface these audiences in a no-code environment, connecting premium publishers and advertisers for data collaboration opportunities.
+Collaborators can form connections in a privacy-centric environment to match audiences, discover potential new customers, and maximize ad return on available inventory. The easy-to-use interface allows you to surface these audiences in a no-code environment for seamless collaboration.
 
 ## Scale reach and deliver cross-channel campaigns
 
-Publishers can securely access and activate advertiser audiences across multiple channels, scaling their reach faster using identity partners and look-alike modeling (available in upcoming releases). Advertisers can guide audiences through the funnel and suppress already-converted audiences, ensuring message relevance and efficient spending through a secure activation workflow.
+Collaborators can securely access and activate advertiser audiences across multiple channels to reach your target audience at scale, ensuring that your campaigns are effective and far-reaching. 
 
 ## Understand aggregate campaign performance
 
-Use collaborative measurement tools to track the impact of your campaigns. Publishers can report campaign performance to advertisers, helping improve current and future ads, and adjust ad spending. Advertisers can share privacy-centric engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement automation is not available in the first release.
+Use collaborative measurement tools to track the impact of your campaigns. Collaborators can report campaign performance to each other, helping improve current and future ads, and adjust ad spending. Share privacy-centric engagement and conversion insights, integrate exposure, channel, and conversion data, and use preferred measurement partners for complete insights. Note that some of the measurement automation is not available in the first release.
 
 ## Privacy-centric
 

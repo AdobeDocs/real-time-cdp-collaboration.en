@@ -33,13 +33,11 @@ To add additional organizations, navigate to **[!UICONTROL Setup]** in the left 
 >title="Connect code"
 >abstract="The connect code is a unique identifier for your account. It is used to establish connections with other collaborators in Real-Time CDP Collaboration."
 
-<!-- Move the above popover to new section for invite on this page when its created -->
-
 To begin configuring your account, you must first set up the account details. This requires you to add the following information:
 
 * Add an **[!UICONTROL Account name]** that clearly represents your brand.
 * Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
-* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [end-to-end workflow document](/help/guide/overview/end-to-end-workflow.md) to see similarities and slight differences in workflow between the two organizational role types.
+* Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [roles](/help/guide/overview/roles.md) guide to see similarities and slight differences in workflow between the two account role types.
 <!-- The above will need to be updated when I update things for B2B -->
 * Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 * The **[!UICONTROL Region]** is automatically set based on your Adobe Experience Cloud account. This cannot be changed at anytime.
