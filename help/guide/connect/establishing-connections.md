@@ -31,10 +31,10 @@ In the advertiser-to-publisher pattern, an advertiser discovers a publisher they
 To establish a connection between an advertiser and a publisher, the following steps are involved:
 
 1. [Discover publishers](#discover-publishers): The advertiser identifies potential publishers to collaborate with.
-2. [Send invite](#send-invite): The advertiser sends a connection invite to the selected publisher.
-3. [Accept invite](#accept-invite): The publisher reviews and accepts the invite.
-4. [Configure connection settings](#configure-connection-settings): The advertiser configures the connection settings and sends them to the publisher for review.
-5. [Confirm connection settings](#establish-connection): The publisher reviews the connection settings and either accepts or rejects them. If accepted, the connection is established. If rejected, the publisher can provide feedback for revisions outside the product. The advertiser can then revise the settings and resend them for review.
+1. [Send invite](#send-invite): The advertiser sends a connection invite to the selected publisher.
+1. [Accept invite](#accept-invite): The publisher reviews and accepts the invite.
+1. [Configure connection settings](#configure-connection-settings): The advertiser configures the connection settings and sends them to the publisher for review.
+1. [Confirm connection settings](#establish-connection): The publisher reviews the connection settings and either accepts or rejects them. If accepted, the connection is established. If rejected, the publisher can provide feedback for revisions outside the product. The advertiser can then revise the settings and resend them for review.
 
 Once the connection settings are accepted, the connection is established, and collaborators are ready to [create a project](/help/guide/collaborate/manage-projects.md#create-project) to begin collaborating on campaigns.
 
@@ -59,14 +59,14 @@ To begin, a collaborator sends a private connection invite to another collaborat
 The connection process between two brands involves several steps. Before the connection process begins, a few prerequisites must be met:
 
 1. Two brands communicate outside of the product to discuss the potential connection. 
-2. The brands [create accounts](/help/guide/setup/onboard-account.md) in Collaboration if they haven't already, being sure to select the appropriate role type (advertiser or publisher).
-   
-Once the prerequisites are met, the connection process can begin. The following steps outline the process:
+1. The brands [create accounts](/help/guide/setup/onboard-account.md) in Collaboration if they haven't already, being sure to select the appropriate role type (advertiser or publisher).
+
+   Once the prerequisites are met, the connection process can begin. The following steps outline the process:
 
 1. [Send private connection invite](#send-private-connection-invite): One collaborator sends a private connection invite to another collaborator.
-2. [Accept private connection invite](#accept-private-connection-invite): The recipient reviews and accepts the private connection invite.
-3. [Configure connection settings](#configure-connection-settings): The owner configures the connection settings and sends them to the recipient for review and acceptance.
-4. [Confirm connection settings](#establish-connection): The recipient reviews the connection settings and either accepts or rejects them.
+1. [Accept private connection invite](#accept-private-connection-invite): The recipient reviews and accepts the private connection invite.
+1. [Configure connection settings](#configure-connection-settings): The owner configures the connection settings and sends them to the recipient for review and acceptance.
+1. [Confirm connection settings](#establish-connection): The recipient reviews the connection settings and either accepts or rejects them.
 
 Once the connection settings are accepted, the connection is established, and collaborators are ready to [create a project](/help/guide/collaborate/manage-projects.md#create-project) to begin collaborating on campaigns.
 
@@ -304,8 +304,8 @@ When you're done, select **[!UICONTROL Save]** to save your changes.
 When creating a project, the advertiser name will be prefilled based on the following settings established during the connection    :
 
 1. **No advertiser name set**: If no advertiser names are added, Collaboration defaults to using the advertiser's name as the advertiser name.
-2. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
-3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
+1. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
+1. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
 
 >[!NOTE]
 >
