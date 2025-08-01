@@ -13,13 +13,13 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 >
 >The **[!UICONTROL Discover]** workspace is only available if the **Audience discovery** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-After [creating a project](/help/guide/collaborate/manage-projects.md), you can compare your audiences against your collaborators. This helps you identify relevant audiences for campaigns and decide which ones to send to publishers for activation.
+After [creating a project](/help/guide/collaborate/manage-projects.md), you can compare your audiences against your collaborators. This helps you identify relevant audiences for campaigns and decide which ones to send to collaborators for activation.
 
 >[!IMPORTANT]
 >
 >Any [data sketches](/help/guide/glossary.md#sketches) that are not updated or refreshed will be deleted after 7 days. When this happens, the figures displayed in the various overlap reports on this page go to zero and audience sharing becomes unavailable for these expired audiences. Data sketches are refreshed automatically for audiences with an [active refresh schedule](/help/guide/setup/onboard-audiences.md#schedule).
 
-The match keys used to discover and compare audiences are set up [during the connection process](/help/guide/connect/establishing-connections.md#connection-settings). Match keys are use to calculate the overlap between your audiences, and can toggled on and off. To edit the match keys, select the **[!UICONTROL Edit match keys]** option. This 
+The match keys used to discover and compare audiences are set up [during the connection process](/help/guide/connect/establishing-connections.md#connection-settings). Match keys are use to calculate the overlap between your audiences, and can be toggled on and off. To edit the match keys, select the **[!UICONTROL Edit match keys]** option. 
 
 ![The Dicover tab workspace, showcasing the Audience insights.](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -31,11 +31,11 @@ The **[!UICONTROL Edit match keys]** dialog opens, where you can toggle off the 
 
 To begin using the **[!UICONTROL Discover]** tab within your project, you should have:
 
-* [Imported audiences](/help/guide/setup/onboard-audiences.md) into your organization
+* [Sourced audiences](/help/guide/setup/onboard-audiences.md) into your account
 * [Connected](/help/guide/connect/establishing-connections.md) with a collaborator with the **Audience discovery** use case enabled
 * [Created a project](/help/guide/collaborate/manage-projects.md) between you and a collaborator
 
-Once these prerequisites are met, you can start exploring and comparing the overlap between you and your collaborator's audiences.
+Once these prerequisites are met, you can start exploring and comparing overlaps between you and your collaborator's audiences.
 
 ## Compare audiences {#compare-audiences}
 
@@ -81,7 +81,7 @@ In the compare audiences section, you can see the following metrics, which are b
 
 {style="table-layout:auto"}
 
->[!TIP]
+>[!NOTE]
 >
 >The overlap percentage figure and audience index score may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
@@ -92,7 +92,7 @@ If your collaborator has not enabled either the audience index or the overlap pe
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Relevant audiences"
->abstract="Based on overlap percentages, these publisher audiences might be a good fit for your campaign. <br><br> The <b>identity count</b> is the publisher's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended publisher audience and all advertiser audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> advertiser audiences."
+>abstract="Based on overlap percentages, these audiences might be a good fit for your campaign. <br><br> The <b>identity count</b> is the collaborator's audience size. <br><br> <b>Overlapping identities</b> represents the overlap between the recommended audience and all your audiences. <br><br> The <b>Overlap %</b> represents the number of overlapping identities divided by the size of <i>all</i> your audiences."
 
 The **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]** tab provides a curated list of the top five audiences based on the overlap percentage between the your collaborator's audience, and all your audiences. This feature helps you quickly identify the audiences with the highest overlap, enabling you to target your campaigns more effectively. Switch between the relevant audiences using the page selectors in the top right of the section.
 
@@ -138,7 +138,7 @@ To change your audience selection, select **[!UICONTROL Change audience]**.
 
 ![The Discover workspace with the Change audience option highlighted.](/help/assets/collaborate/discover/change-audience.png)
 
-The **[!UICONTROL Change audience]** dialog opens, where you can a specific audience to compare against your collaborator's audiences. Select the desired audiences, or clear your selections to select all audiences, and then select **[!UICONTROL Save]**.
+The **[!UICONTROL Change audience]** dialog opens, where you can select a specific audience to compare against your collaborator's audiences. Select the desired audiences, or clear your selections to select all audiences, and then select **[!UICONTROL Save]**.
 
 ![The Change audience dialog in the Discover workspace.](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -146,7 +146,7 @@ Once you've selected the desired audiences, the **[!UICONTROL Discover overlaps]
 
 | Metric | Description |
 |---------|----------|
-| **[!UICONTROL Identity count]** | The name unique IDs within the audience. |
+| **[!UICONTROL Identity count]** | The number of unique IDs within the audience. |
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that overlap between the recommended audience and all your audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of overlapping identities between the recommended audience and all your audiences. |
 | **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. |

@@ -13,14 +13,14 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 >
 >The **[!UICONTROL Measure]** workspace is only available if the **Measurement** use case was enabled [during the connection proccess](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-Learn about the available reports in Real-Time CDP Collaboration and understand how to measure and analyze the performance of your marketing campaigns across various channels.
+Learn about the available reports in Adobe Real-Time CDP Collaboration and understand how to measure and analyze the performance of your marketing campaigns across various channels.
 
 ## Prerequisites
 
-Before you can access the measurement reports in Real-Time CDP Collaboration, you have already:
+Before you can access the measurement reports in Collaboration, you have already:
 
-* [Connected](/help/guide/connect/establishing-connections.md) with a desired advertiser or publisher with the **Measurement** use case enabled and started collaborating on [projects](/help/guide/collaborate/manage-projects.md)
-* Run a campaign and [uploaded measurement data](/help/guide/setup/onboard-measurement-data.md) into Real-Time CDP Collaboration.
+* [Connected](/help/guide/connect/establishing-connections.md) with a collaborator with the **Measurement** use case enabled and started collaborating on [projects](/help/guide/collaborate/manage-projects.md)
+* Run a campaign and [uploaded measurement data](/help/guide/setup/onboard-measurement-data.md) into Collaboration.
 
 <!--
 
@@ -98,9 +98,3 @@ As the campaign progressed and the number of impressions went up, understand whe
 Understand which medium is driving impressions for your creative. This can help you decide where to invest your ad spend in future campaigns.
 
 ![Impressions by placement.](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## Next steps
-
-![Discover, activate, measure for advertisers.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-In the spirit of the cyclicity in the image above, use the insights you obtained from viewing the reports in planning your next campaign. As an advertiser, ff necessary, go back to discover different publishers and run overlaps to discover different audiences for your next campaigns.

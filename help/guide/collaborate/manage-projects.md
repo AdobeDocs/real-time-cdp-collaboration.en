@@ -9,7 +9,7 @@ exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 
 {{limited-availability-release-note}}
 
-Projects are the centerpiece of your workflow in Real-Time CDP Collaboration. After connecting with collaborators, create a project to run audience overlap calculations and discover relevant audiences for campaigns.
+Projects are the centerpiece of your workflow in Adobe Real-Time CDP Collaboration. After connecting with collaborators, create a project to run audience overlap calculations and discover relevant audiences for campaigns.
 
 >[!TIP]
 >
@@ -22,6 +22,8 @@ You can use filters to view only the projects that you have started with certain
 ![Filtered view of projects with a single collaborator.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Create project {#create-project}
+
+To create a project, you must first [establish a connection](/help/guide/connect/establishing-connections.md) with a collaborator. Once the connection is established, you can create a project with that collaborator.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
