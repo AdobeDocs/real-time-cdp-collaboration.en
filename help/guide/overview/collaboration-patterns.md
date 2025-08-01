@@ -3,7 +3,7 @@ title: The collaboration patterns in Adobe Real-Time CDP Collaboration.
 description: Understand the two collaboration patterns in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-
+exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
 ---
 # Collaboration patterns
 
