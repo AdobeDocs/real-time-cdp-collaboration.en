@@ -326,6 +326,8 @@ Audience availability for use in projects with collaborators differs based on th
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
 >abstract="<p>Indicates which of the audience's metadata is visible to other collaborators before they connect with you or within project views.</p> <p> **Identity count** controls whether your collaborator can view identity counts for your audiences when viewing overlap reports in the discovery tab.</p><p> **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours.</p><p> **[!UICONTROL Audience index]** controls whether collaborators can view the audience index within a project. This functionality is only available when you have three or more active audiences.</p> <br> For metadata visibility settings to take effect, the audience must be set to public or custom."
+
+>[!NOTE]
 >
 >If your collaborator has all audiences set to private, a project's **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]** workspace will be blank. For more information, read the [discover](/help/guide/collaborate/discover.md#relevant-audiences) guide.
 
