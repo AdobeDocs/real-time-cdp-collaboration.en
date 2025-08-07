@@ -160,29 +160,42 @@ Once you've selected the desired audiences, the **[!UICONTROL Discover overlaps]
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
 >title="Audience index score"
->abstract="Audience index scores are a measurement to show how strongly one audience relates to another based on underlying audience counts and overlaps. The index score measures how much of your audience overlaps with a specific collaborator audience compared to what would be expected based on the collaborator's overall audience size, and then adjusts for the size of that collaborator audience within their baseline footprint. "
+>abstract="Audience index scores are a nuanced metric that shows how strongly one audience relates to another based on underlying audience counts and overlaps. The raw index score is translated into relevance bands, which categorize the audience index scores from very low to very high. This allows you to quickly assess the strength of the relationship between your audience and your collaborator's audience."
 
-Audience index scores are a measurement to show how strongly one audience relates to another based on underlying audience counts and overlaps. This score helps you contextualize audience insights and identify high-potential audiences for prospecting and campaign targeting.
+Audience index scores are a nuanced metric that shows how strongly one audience relates to another based on underlying audience counts and overlaps. This helps you contextualize audience insights and identify high-potential audiences for prospecting and campaign targeting.
 
-The index score is calculated based on the following formula:
+The raw index score is calculated using the following formula:
 
-![Audience index score formula where A is your audience, B is a collaborator's audience and Bf is the collaborator's baseline footprint.](/help/assets/collaborate/discover/index-score-formula.png)
+![The formula for calculating the index score.](/help/assets/collaborate/discover/index-score-formula.png)
 
-The formula compares the overlap between your audience (A) and a collaborator's audience (B) against the ratio of that collaborator's audience within their overall baseline footprint (Bf). The baseline footprint is the total number of unique IDs in the collaborator's audience, which is used to normalize the index score for meaningful comparison.
+Imagine a car manufacturer wants to run an advertising campaign with a large CTV publisher for a new SUV model. The car manufacturer has data on who currently owns a similar model and wants to use that to find additional prospects to convert them to customers. The car manufacturer looks at the CTV publisher's audiences to find a relevant audience that closely matches the current SUV owners.
 
-In simpler terms, the index score measures how much of your audience overlaps with a specific collaborator audience compared to what would be expected based on the collaborator's overall audience size, and then adjusts for the size of that collaborator audience within their baseline footprint. 
+![The car advertiser versus the CTV publisher audiences.](/help/assets/collaborate/discover/audience-index-score-example.png)
 
-To enable easy comparison across different audiences and campaigns, z-scores are calculated for each index score. A z-score indicates how far a given index is from the average score in the dataset. This highlights whether an audience relationship is stronger or weaker than average, helping you quickly identify your best targeting opportunities.
+Index score calculations are made and can be used to determine the likely success of the campaign:
 
-The z-scores are then represeted on a scale from very low to very high, as follows:
+| CTV Publisher Audience | Formula | Index Score | Interpretation |
+|------------------------|-------------|----------------|----------------|
+| Binge Watchers | ((500k / 1.3M) / (20M / 50M)) * 100  | 96 | By targeting this audience, you are 4% less likely to reach SUV owners compared to the baseline. |
+| Comedy Lovers | ((200k / 1.3M) / (6M / 50M)) * 100 | 128 | By targeting this audience, you are 28% more likely to reach SUV owners compared to the baseline. |
+| Males 25-34 | ((700k / 1.3M) / (12M / 50M)) * 100 | 224 | By targeting this audience, you are 124% more likely to reach SUV owners compared to the baseline. |
+| Tech Enthusiasts | ((500k / 1.3M) / (8M / 50M)) * 100 | 240 | By targeting this audience, you are 140% more likely to reach SUV owners compared to the baseline. |
 
-| Index Score | Z-score range | Description |
+To better understand how the index scores will impact your campaign, relevance bands are provided alongside the scores.
+
+### Relevance bands {#audience-index-relevance-bands}
+
+To enable easy comparison across different audiences and campaigns, Collaboration translates the raw index scores into relevance bands (very low to very high). This allows you to quickly assess the strength of the relationship between your audience and your collaborator's audience.
+
+| Index Score (i) | Relevance Band | Description |
 |---------|----------|-----------|
-| Very low | z < -2 | The overlap is much less prevalent in the target audience compared to the baseline, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
-| Low | -2 ≤ z < -1 | The overlap is somewhat less prevalent in the target audience compared to the baseline, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
-| Medium | -1 ≤ z ≤ 1 | The overlap is about as prevalent in the target audience as in the baseline, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
-| High | 1 < z ≤ 2 | The overlap is more prevalent in the target audience compared to the baseline, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
-| Very high | z > 2 | The overlap is much more prevalent in the target audience compared to the baseline, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
+| i < 60 | Very low | The overlap is much less prevalent in the target audience compared to your audience, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
+| 60 < i < 80 | Low | The overlap is somewhat less prevalent in the target audience compared to your audience, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
+| 80 < i < 120 | Medium | The overlap is about as prevalent in the target audience as in your audience, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
+| 120 < i < 140 | High | The overlap is more prevalent in the target audience compared to your audience, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
+| i > 140 | Very high | The overlap is much more prevalent in the target audience compared to your audience, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
+
+Within the discover overlaps section, the audience index score will display the relevance band alongside the score. The score will be color-coded to indicate the relevance band, making it easy to identify the strength of the relationship at a glance. Very low and low relevance bands are displayed in orange, medium relevance bands in black, and high and very high relevance bands in green.
 
 ## Next steps
 
