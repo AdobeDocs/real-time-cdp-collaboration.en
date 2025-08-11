@@ -76,13 +76,16 @@ In the compare audiences section, you can see the following metrics, which are b
 | **[!UICONTROL Identity count]** (your collaborator) | The number of unique IDs within your collaborator's audience(s). |
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that are present in both your and your collaborator's audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of profiles overlapping between your and your collaborator's selected audience. |
+| **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. Audience index scores are not available when comparing against your collaborator's baseline (all audiences). |
 | **[!UICONTROL Identities breakdown by match key]** | The breakdown of identites for each match key chosen in the project, based on the select audiences for each collaborator. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->The overlap percentage figure may not be always available for all audiences. The visibility of the overlap percentage indicator depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>The overlap percentage figure and audience index score may not be always available for all audiences. The visibility of the overlap percentage and audience index score depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+If your collaborator has not enabled either the audience index or the overlap percentage, the audience will not have any comparison data available. 
 
 ## Relevant audiences {#relevant-audiences}
 
@@ -97,19 +100,22 @@ The **[!UICONTROL Relevant audiences]** section in the **[!UICONTROL Discover]**
 
 >[!NOTE]
 >
->The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
+>The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
 
 The **[!UICONTROL Relevant audiences]** section displays the following information for each recommended audience:
 
 | Metric | Description |
 |---------|----------|
-| **[!UICONTROL Identity count]** | The name unique IDs within the audience. |
+| **[!UICONTROL Identity count]** | The number of unique IDs within the audience. |
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that overlap between the recommended audience and all your audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of overlapping identities between the recommended audience and all your audiences. |
+| **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. |
 | **[!UICONTROL Audience categories]** | The categories your collaborator has assigned to the audience. |
 | **[!UICONTROL Match keys]** | The match keys your collaborator selected for the audience. |
 
 {style="table-layout:auto"}
+
+If audience index score is enabled for any of your collaborator's audiences, relevant audiences will be based on the audience index score, and any audiences where the audience index has not been enabled will not be included. Relevant audiences based on the audience index score are sorted so the highest index score is displayed first. If audience index is not enabled for any of your collaborator's audiences, the relevant audiences will be based on the overlap percentage.
 
 ## Discover overlaps {#discover-overlaps}
 
@@ -124,7 +130,9 @@ Discover overlaps to get insights into how your audiences compare against your c
 
 >[!NOTE]
 >
->The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences.
+>The visibility of your collaborator's audiences depends on the setting that your collaborator chose for an audience in the [connection access section](/help/guide/setup/onboard-audiences.md#connection-access) and the [metadata visibility section](/help/guide/setup/onboard-audiences.md#metadata-visibility). If your collaborator has set all audiences to private, this section will not display any audiences. 
+
+If your collaborator has not enabled either the audience index or the overlap percentage, the audience will not be displayed. 
 
 To change your audience selection, select **[!UICONTROL Change audience]**.
 
@@ -141,10 +149,54 @@ Once you've selected the desired audiences, the **[!UICONTROL Discover overlaps]
 | **[!UICONTROL Identity count]** | The number of unique IDs within the audience. |
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that overlap between the recommended audience and all your audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of overlapping identities between the recommended audience and all your audiences. |
+| **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. |
 | **[!UICONTROL Audience categories]** | The categories your collaborator has assigned to the audience. |
 | **[!UICONTROL Match keys]** | The match keys your collaborator selected for the audience. |
 
 {style="table-layout:auto"}
+
+## Audience index score {#audience-index-score}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="Audience index score"
+>abstract="Audience index scores are a nuanced metric that shows how strongly one audience relates to another based on underlying audience counts and overlaps. The raw index score is translated into relevance bands, which categorize the audience index scores from very low to very high. This allows you to quickly assess the strength of the relationship between your audience and your collaborator's audience."
+
+Audience index scores are a nuanced metric that shows how strongly one audience relates to another based on underlying audience counts and overlaps. This helps you contextualize audience insights and identify high-potential audiences for prospecting and campaign targeting.
+
+The index score is calculated using the following formula:
+
+![The formula for calculating the index score.](/help/assets/collaborate/discover/index-score-formula.png)
+
+Imagine a car manufacturer wants to run an advertising campaign with a large CTV publisher for a new SUV model. The car manufacturer has data on who currently owns a similar model and wants to use that to find additional prospects to convert them to customers. The car manufacturer looks at the CTV publisher's audiences to find a relevant audience that closely matches the current SUV owners.
+
+![The car advertiser versus the CTV publisher audiences.](/help/assets/collaborate/discover/audience-index-score-example.png)
+
+Index score calculations are made and can be used to determine the likely success of the campaign:
+
+| CTV Publisher Audience | Formula | Index Score (i) | Interpretation |
+|------------------------|-------------|----------------|----------------|
+| Baseline (all audiences) | ((1.3M / 1.3M) / (50M / 50M)) * 100 | 100 | This serves as the baseline against which your collaborator's other audiences are compared to. |
+| Binge Watchers | ((500k / 1.3M) / (20M / 50M)) * 100  | 96 | By targeting this audience, you are 4% less likely to reach SUV owners compared to the baseline. |
+| Comedy Lovers | ((200k / 1.3M) / (6M / 50M)) * 100 | 128 | By targeting this audience, you are 28% more likely to reach SUV owners compared to the baseline. |
+| Males 25-34 | ((700k / 1.3M) / (12M / 50M)) * 100 | 224 | By targeting this audience, you are 124% more likely to reach SUV owners compared to the baseline. |
+| Tech Enthusiasts | ((500k / 1.3M) / (8M / 50M)) * 100 | 240 | By targeting this audience, you are 140% more likely to reach SUV owners compared to the baseline. |
+
+To better understand how the index scores will impact your campaign, relevance bands are provided alongside the scores.
+
+### Relevance bands {#audience-index-relevance-bands}
+
+To enable easy comparison across different audiences and campaigns, Collaboration translates the index scores into relevance bands (very low to very high). This allows you to quickly assess the strength of the relationship between your audience and your collaborator's audience.
+
+| Index Score (i) | Relevance Band | Description |
+|---------|----------|-----------|
+| i < 60 | Very low | The overlap is much less prevalent in the target audience compared to your audience, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
+| 60 < i < 80 | Low | The overlap is somewhat less prevalent in the target audience compared to your audience, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
+| 80 < i < 120 | Medium | The overlap is about as prevalent in the target audience as in your audience, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
+| 120 < i < 140 | High | The overlap is more prevalent in the target audience compared to your audience, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
+| i > 140 | Very high | The overlap is much more prevalent in the target audience compared to your audience, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
+
+Within the discover overlaps section, the audience index score will display the relevance band alongside the score. The score will be color-coded to indicate the relevance band, making it easy to identify the strength of the relationship at a glance. Very low and low relevance bands are displayed in orange, medium relevance bands in black, and high and very high relevance bands in green.
 
 ## Next steps
 

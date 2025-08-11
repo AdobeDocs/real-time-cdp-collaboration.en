@@ -325,7 +325,7 @@ Audience availability for use in projects with collaborators differs based on th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Metadata visibility"
->abstract="<p>Indicates which of the audience's metadata is visible to other collaborators before they connect with you or within project views.</p> <p> **Identity count** controls whether your collaborator can view identity counts for your audiences when viewing overlap reports in the discovery tab. **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours."
+>abstract="<p>Indicates which of the audience's metadata is visible to other collaborators before they connect with you or within project views.</p> <p> **Identity count** controls whether your collaborator can view identity counts for your audiences when viewing overlap reports in the discovery tab.</p><p> **Audience overlap %** controls whether collaborators are able to discover overlap percentages between their audiences and yours.</p><p> **[!UICONTROL Audience index]** controls whether collaborators can view the audience index within a project. This functionality is only available when you have three or more active audiences.</p> <br> For metadata visibility settings to take effect, the audience must be set to public or custom."
 
 >[!NOTE]
 >
@@ -340,6 +340,12 @@ The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configu
 **[!UICONTROL Show identity count]**: This setting controls whether your collaborator can view identity counts for your audiences when [viewing overlap reports in the discovery tab](/help/guide/collaborate/discover.md#discover-overlaps) within a project. 
 
 **[!UICONTROL Show audience overlap %]**: This setting controls whether collaborators are able to [discover overlap percentages](/help/guide/collaborate/discover.md#compare-audiences) between their audiences and your audiences. 
+
+**[!UICONTROL Audience index]**: When set to true, your collaborators can view the [audience index](/help/guide/collaborate/discover.md#audience-index-score) within a project. This functionality is only available when you have three or more active audiences.
+
+>[!NOTE]
+>
+>For the metadata visibility settings to take effect, the audience must be set to public or custom. 
 
 ![The Metadata visibility dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
