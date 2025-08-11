@@ -182,6 +182,8 @@ Index score calculations are made and can be used to determine the likely succes
 | Males 25-34 | ((700k / 1.3M) / (12M / 50M)) * 100 | 224 | By targeting this audience, you are 124% more likely to reach SUV owners compared to the baseline. |
 | Tech Enthusiasts | ((500k / 1.3M) / (8M / 50M)) * 100 | 240 | By targeting this audience, you are 140% more likely to reach SUV owners compared to the baseline. |
 
+{style="table-layout:auto"}
+
 To better understand how the index scores will impact your campaign, relevance bands are provided alongside the scores.
 
 ### Relevance bands {#audience-index-relevance-bands}
@@ -195,6 +197,8 @@ To enable easy comparison across different audiences and campaigns, Collaboratio
 | 80 < i < 120 | Medium | The overlap is about as prevalent in the target audience as in your audience, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
 | 120 < i < 140 | High | The overlap is more prevalent in the target audience compared to your audience, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
 | i > 140 | Very high | The overlap is much more prevalent in the target audience compared to your audience, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
+
+{style="table-layout:auto"}
 
 Within the discover overlaps section, the audience index score will display the relevance band alongside the score. The score will be color-coded to indicate the relevance band, making it easy to identify the strength of the relationship at a glance. Very low and low relevance bands are displayed in orange, medium relevance bands in black, and high and very high relevance bands in green.
 
