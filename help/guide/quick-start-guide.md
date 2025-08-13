@@ -95,7 +95,7 @@ Configure how audiences are prepared, matched, and governed for use in connectio
 >**Maximum number of audiences per collaborator role:**
 >
 >- **Advertisers** can source up to 25 audiences.
->- **Publishers** can source up to 250 audiences (each with a minimum of 5,000 IDs).
+>- **Publishers** can source up to 250 audiences (each with a minimum of 1,000 IDs).
 
 >[!IMPORTANT]
 >
