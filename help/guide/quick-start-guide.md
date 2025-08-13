@@ -20,7 +20,7 @@ Before you begin, ensure you have the following:
 - [Access provisioned for end users](./permissions/manage-user-access.md).
 - [Roles created for your organization and assigned to users](./permissions/manage-roles.md).
 - Access to branding assets, such as your organization's name, logo, and banner.
-- A [defined match key strategy](./setup/onboard-account.md#set-up-match-keys) (currently, hashed email is the only supported match key).
+- A [defined match key strategy](./setup/onboard-account.md#set-up-match-keys)
 - (Optional) Access to a supported cloud source (Amazon S3 or Snowflake) if you're not using Experience Platform for audience management.
 
 ## Step 1: Complete role-based setup {#complete-role-based-setup}
@@ -60,7 +60,7 @@ Define your account's role in Collaboration, provide branding assets, and config
 >If you're creating a publisher account and would like to be publicly visible in Collaboration's connections catalog, please contact your Adobe account representative. Publisher accounts require a custom brand banner (JPG 2688x1536); this file can be shared directly with your representative.
 
 - **Contact email** – Provide a business email for collaborators to use after a connection is established.
-- **Configure match keys** – Select the identifiers used for audience matching (currently, hashed email is the only supported match key).
+- **Configure match keys** – Select the identifiers used for audience matching.
 
 To learn more about initial account setup, including how to define roles, upload branding assets, and configure match keys, see the [initial account setup](./setup/onboard-account.md#initial-account-setup){target="_blank"} guide.
 
