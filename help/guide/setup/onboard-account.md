@@ -93,8 +93,8 @@ Collaboration supports three types of match keys: first-party people IDs, first-
 
 * **[!UICONTROL Hashed email]**: Hashed email addresses
 * **[!UICONTROL Hashed phone]**: Hashed phone numbers
-* **[!UICONTROL CRM IDs]**: CRM IDs
-* **[!UICONTROL Loyalty IDs]**: Loyalty program IDs
+<!-- * **[!UICONTROL CRM IDs]**: CRM IDs
+* **[!UICONTROL Loyalty IDs]**: Loyalty program IDs -->
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### First-party device IDs
