@@ -190,7 +190,7 @@ The connection settings workspace appears, allowing you to configure the various
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Match keys"
->abstract="Match keys are prefilled with the ones that you selected at your organizational level. You can toggle off any match keys that you do not want to use in this connection."
+>abstract="Match keys are prefilled with common match keys that you and your collaborator selected at the account level. You can toggle off any match keys that you do not want to use in this connection."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -255,11 +255,19 @@ To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL U
 
 +++Match keys
 
-Match keys are automatically populated with the ones you selected while [setting up your account](/help/guide/setup/onboard-account.md#set-up-match-keys). You can toggle off any match keys you don't want to use, but you can't add match keys that weren't selected during account setup.
+Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your account](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear. 
+
+![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+When the connection owner is setting up the connection settings, they can [edit their account match keys](../setup/onboard-account.md#edit-match-keys) to include additional match keys. After toggling on more match keys in your account settings, those match keys will be available to toggle on in connection settings if your collaborator has also selected them. Match keys added once the connection process has begun will not automatically populate, and must be manually toggled on.
 
 To customize your match keys, select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section and toggle off any match keys you don't want to use in this connection. When you're done, select **[!UICONTROL Save]** to save your changes.
 
-![The Match key settings in the connection settings workspace.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![The connection settings workspace with the Match keys section dialog open showing a toggled off match key.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Once your collaborator has accepted the connection settings, the match keys will be locked in and cannot be changed.
 
 +++
 
@@ -304,8 +312,8 @@ When you're done, select **[!UICONTROL Save]** to save your changes.
 When creating a project, the advertiser name will be prefilled based on the following settings established during the connection    :
 
 1. **No advertiser name set**: If no advertiser names are added, Collaboration defaults to using the advertiser's name as the advertiser name.
-1. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
-1. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
+2. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
+3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
 
 >[!NOTE]
 >
