@@ -28,13 +28,13 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing actions"
->abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5 and C9 data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5 and C9 data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be sourced into Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Data usage labels overview"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Data usage labels glossary"
 
 >[!IMPORTANT]
 >
->After establishing to your first data connection and importing your first audience, you can then import multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
+>After establishing to your first data connection and sourcing your first audience, you can then source multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
 
 A data connection is the source of data from where you are sourcing audiences. Currently, the only supported data connection is Adobe Experience Platform.
 
@@ -124,7 +124,7 @@ Next, provide a name and a description for your data connection. This informatio
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profile attributes"
->abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
+>abstract="Select attributes from the union schema for the Profile class in Experience Platform. This view displays attributes that are present in the union schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
 Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during account setup. 
@@ -141,11 +141,13 @@ Next you'll select source fields to map to target fields in Collaboration. Avail
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source fields]** are identity namespaces and attributes from Experience Platform. These are how the identities exist in the platform you're sourcing data from. Source fields get mapped to the target fields defined in Collaboration.
+**[!UICONTROL Source fields]** are identity namespaces and attributes from Experience Platform. These include both [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"} and [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} identity namespaces. They also include profile attributes that are present in the [union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"} and belong to the XDM Individual Profile class.
+
+ Source fields get mapped to the target fields defined in Collaboration.
 
 **[!UICONTROL Target fields]** indicate how the identities are referred to in Collaboration. Target fields are the match keys chosen during the account setup. By default, all your chosen match keys are available.
 
-Use the **[!UICONTROL Apply transformation]** option when you are sourcing *non-hashed* fields. Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
+Use the **[!UICONTROL Apply transformation]** option when you are sourcing *non-hashed* fields to hashed fields. Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
 
 >[!ENDSHADEBOX]
 
@@ -153,11 +155,11 @@ To begin mapping fields, select the empty source field next to the target field.
 
 ![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-To handle a non-hashed field, use the **[!UICONTROL Apply transformation]** option. For example, to add a second email field, select the **[!UICONTROL Add field]** option to to add a new row, then select **[!UICONTROL Hashed email]** for the target field. Select a non-hashed email source field, and then select **[!UICONTROL Apply transformation]**.
+To handle sourcing a non-hashed field to a hashed target field, use the **[!UICONTROL Apply transformation]** option. For example, to add a second email field, select the **[!UICONTROL Add field]** option to to add a new row, then select **[!UICONTROL Hashed email]** for the target field. Select a non-hashed email source field, and then select **[!UICONTROL Apply transformation]**.
 
 ![The Add audiences workspace with the email source fields mapped to the target field, with Apply transformation toggled on for one.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Continue adding mapping pairs for each target field. If you don't wish to use a match key sourcing audiences, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If target field is removed, you will not be able to use it when sourcing any audiences from the connection.
+Continue adding mapping pairs for each target field. If you don't wish to use a match key, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If match key is removed, you will not be able to use it when sourcing any audiences from the connection.
 
 ![The Add audiences workspace with the Delete option beside a target field highlighted.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 

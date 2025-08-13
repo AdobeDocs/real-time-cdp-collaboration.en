@@ -38,7 +38,6 @@ To begin configuring your account, you must first set up the account details. Th
 * Add an **[!UICONTROL Account name]** that clearly represents your brand.
 * Add a **[!UICONTROL Description]** about your brand. This is optional, but it helps other collaborators understand your brand better.
 * Select your **[!UICONTROL Role]**. You can select between **[!UICONTROL Advertiser]** and **[!UICONTROL Publisher]**. Read the [roles](/help/guide/overview/roles.md) guide to see similarities and slight differences in workflow between the two account role types.
-<!-- The above will need to be updated when I update things for B2B -->
 * Select the **[!UICONTROL Industry]** for your account. Some examples include **[!UICONTROL Retail]**, **[!UICONTROL Telecommunications]**, or **[!UICONTROL Financial services]**.
 * The **[!UICONTROL Region]** is automatically set based on your Adobe Experience Cloud account. This cannot be changed at anytime.
 * Add a **[!UICONTROL Contact email]** for your account. This should be a team or role-based email address. Personal email addresses should not be provided.
@@ -56,7 +55,7 @@ To begin configuring your account, you must first set up the account details. Th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Match keys"
->abstract="Match keys are identifiers used to reconcile members across audiences from different data sources. Include any match keys that your brand can work with."
+>abstract="Match keys are identifiers used to reconcile audience profiles from different data sources. Include any match keys that your brand can work with."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
@@ -75,7 +74,7 @@ To begin configuring your account, you must first set up the account details. Th
 
 >[!IMPORTANT]
 >
->The match keys that you select during the account setup will determine the available match keys within your connections. While you can [remove unwanted match keys](../connect/establishing-connections.md#connection-settings) during the connection setup, match keys cannot be added after a connection has been accepted, even if you delete and recreate the connection. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
+>The match keys that you select during the account setup will determine the available match keys within your connections. While you can [remove unwanted match keys](../connect/establishing-connections.md#connection-settings) during the connection setup, match keys cannot be added after a connection has been established. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
 
 Match keys, such as email addresses or device IDs, help collaborators work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement. Match keys selected during account setup will determine which match keys are available in future connections. They are also used to [map fields](./onboard-audiences.md#map-fields) from your data connection to the target fields in Collaboration when sourcing audiences.
 
@@ -85,16 +84,17 @@ Select any match keys that you want to use when reconciling audience profiles. P
 
 Collaboration supports three types of match keys: first-party people IDs, first-party device IDs, and partner IDs. All match keys must meet the following requirements:
 
-* Match keys must be **trimmed**, **lowercased**, and **SHA256-hashed**.
+* Match keys must be **trimmed**, **lowercased**
+* Hashed match keys must be **SHA256-hashed**.
 * If you provide hashed values that use uppercase characters, Collaboration automatically converts them to lowercase.
 * If your source contains **plaintext identifiers**, use the **[!UICONTROL Apply transformation]** option during your [data connection setup](./manage-data-connection.md#match-keys) to apply hashing. This option is only available when sourcing audiences from Experience Platform and is not supported for cloud-based sources.
 
 ##### First-party people IDs
 
-First-party people IDs are identifiers directly connected to an individual profile. These include:
-
 * **[!UICONTROL Hashed email]**: Hashed email addresses
 * **[!UICONTROL Hashed phone]**: Hashed phone numbers
+* **[!UICONTROL CRM IDs]**: CRM IDs
+* **[!UICONTROL Loyalty IDs]**: Loyalty program IDs
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### First-party device IDs
@@ -105,12 +105,9 @@ First-party device IDs are identifiers connected to a specific device. These inc
 
 <!-- ##### Partner IDs
 
-Partner IDs are identifiers provided by external partners for audience reconciliation. These include:
+Partner IDs are identifiers provided by external partners for audience reconciliation. These include: -->
 
-* **[!UICONTROL Hashed CRM IDs]**: Hashed CRM IDs
-* **[!UICONTROL Hashed Loyalty IDs]**: Hashed loyalty program IDs -->
-
-In the **[!UICONTROL Match keys]** section, you can select up to five match keys that you plan to use. After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
+After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
 ![The Set up account workspace with the Match keys section displayed.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
@@ -134,9 +131,9 @@ You can now edit your account details. Update any fields you want to change and 
 
 >[!IMPORTANT]
 >
->Editing match keys will not affect your existing connections. Once a connection has been established, the match keys that you select during the connection setup are fixed, even if the connection is deleted and recreated. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
+>Editing match keys will not affect your existing connections. Once a connection has been established, the match keys that you select during the connection setup are fixed. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
 
-You can also update the match keys that you initially selected when creating your account. These match keys will determine the available match keys available to future connections. 
+You can also update the match keys that you initially selected when creating your account. These match keys will determine the match keys available to future connections.
 
 Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section.
 

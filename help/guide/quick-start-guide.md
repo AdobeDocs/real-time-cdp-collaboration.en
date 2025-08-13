@@ -101,7 +101,8 @@ Configure how audiences are prepared, matched, and governed for use in connectio
 >
 >**Match key requirements:**
 >
->All match keys must be **trimmed**, **lowercased**, and **SHA256-hashed**.  
+>All match keys must be **trimmed**, **lowercased**
+>Hashed match keys must be **SHA256-hashed**.  
 >If you provide hashed values that use uppercase characters, Collaboration automatically converts them to lowercase.  
 >If your source contains **plaintext identifiers**, use the **[!UICONTROL Apply transformation]** option to apply hashing. This option is only available when sourcing audiences from Experience Platform and is not supported for cloud-based sources.
 >
