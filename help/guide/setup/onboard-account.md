@@ -72,6 +72,8 @@ To begin configuring your account, you must first set up the account details. Th
 >title="Supported partner IDs"
 >abstract="Partner IDs are identifiers provided by external partners for audience reconciliation. Partner IDs are not directly connected to an individual profile."
 
+![Supported match keys.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+
 >[!IMPORTANT]
 >
 >The match keys that you select during the account setup will determine the available match keys within your connections. While you can [remove unwanted match keys](../connect/establishing-connections.md#connection-settings) during the connection setup, match keys cannot be added after a connection has been established. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
@@ -91,7 +93,7 @@ Collaboration supports three types of match keys: first-party people IDs, first-
 
 ##### First-party people IDs
 
-First-party people IDs are directly connected to an individual profile. Currently supported IDs include:
+First-party people IDs are directly connected to an individual profile. Currently supported IDs are:
 
 * **[!UICONTROL Hashed email]**
 * **[!UICONTROL Hashed phone]**
@@ -101,13 +103,23 @@ First-party people IDs are directly connected to an individual profile. Currentl
 
 ##### First-party device IDs
 
-First-party device IDs are identifiers connected to a specific device. Currently supported IDs include:
+First-party device IDs are identifiers connected to a specific device. Currently supported IDs are:
 
 * **[!UICONTROL Hashed IPv4]**: Hashed IPv4 addresses
 
-<!-- ##### Partner IDs
+##### Partner IDs
 
-Partner IDs are identifiers provided by external partners for audience reconciliation. These include: -->
+Partner IDs are identifiers provided by external partners for audience reconciliation. Currently supported IDs are:
+
+* **[!UICONTROL Adfixus ID]**
+
+>[!NOTE]
+>
+>Adobe's integration with [!DNL Adfixus] maps the unique [!UICONTROL Adfixus IDs] for each account to a common Adobe-encoded format. These mappings are used to identify overlaps between collaborators. When activating audiences using **[!UICONTROL Adfixus ID]**, the original IDs are used. The Adobe-encoded format never leaves Collaboration.
+
+When selecting **[!UICONTROL Adfixus ID]**, you will need to provide the corresponding ID from your external partner in the **[!UICONTROL Account credentials]** section. This option will only be available *after* toggling on **[!UICONTROL Adfixus ID]**. Enter your Adfixus ID into the **[!UICONTROL Account ID]** field, being sure to double check the value for accuracy.
+
+![The Match keys dialog with Adfixus ID toggled on and the Account credentials section highlighted.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
@@ -141,7 +153,11 @@ Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section.
 
 ![The Setup workspace with the Edit option highlighted within the account's Match keys section.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-The **[!UICONTROL Match keys]** dialog appears. Toggle on and off any match keys to update your selections and then select **[!UICONTROL Save]** to confirm the changes.
+The **[!UICONTROL Match keys]** dialog appears. Toggle on and off any match keys, or update your **[!UICONTROL Account ID]** for your [!UICONTROL Adfixus ID's],and then select **[!UICONTROL Save]** to confirm the changes.
+
+>[!IMPORTANT]
+>
+>Changing your [!UICONTROL Adfixus ID] will not trigger a [data sketch](../glossary.md#sketches) refresh for your existing data connections using the match key. Once your data has been sketched, any changes to your [!UICONTROL Adfixus ID] will not be reflected until your next audience refresh following your [data connection schedule](./manage-data-connection.md#scheduling) settings. If you require changes before your next refresh, you can delete and recreate your data connection.
 
 ![The Match keys dialog with the Save option highlighted.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
