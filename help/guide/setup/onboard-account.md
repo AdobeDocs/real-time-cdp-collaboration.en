@@ -60,23 +60,23 @@ To begin configuring your account, you must first set up the account details. Th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="First-party people IDs"
->abstract="First-party people IDs such as hashed email addresses or hashed phone numbers are directly connected to an individual profile."
+>abstract="First-party people IDs, such as hashed email addresses, hashed phone numbers or CRM IDs, are directly connected to an individual profile."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="First-party device IDs"
->abstract="First-party device IDs such as ECID or IP addresses are directly connected to devices, which may be shared between several individuals. IPv4 is the only first-party device ID currently supported."
+>abstract="First-party device IDs, such as ECID or IP addresses, are directly connected to devices, which may be shared between several individuals. IPv4 is the only first-party device ID currently supported."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="Supported partner IDs"
->abstract="Partner IDs associated with profiles expand the reach to a certain profile."
+>abstract="Partner IDs are identifiers provided by external partners for audience reconciliation. Partner IDs are not directly connected to an individual profile."
 
 >[!IMPORTANT]
 >
 >The match keys that you select during the account setup will determine the available match keys within your connections. While you can [remove unwanted match keys](../connect/establishing-connections.md#connection-settings) during the connection setup, match keys cannot be added after a connection has been established. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
 
-Match keys, such as email addresses or device IDs, help collaborators work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement. Match keys selected during account setup will determine which match keys are available in future connections. They are also used to [map fields](./onboard-audiences.md#map-fields) from your data connection to the target fields in Collaboration when sourcing audiences.
+Match keys help collaborators work together by enabling accurate and privacy-centric data synchronization, allowing for more precise audience targeting and measurement. Match keys selected during account setup will determine which match keys are available in future connections. They are also used to [map fields](./onboard-audiences.md#map-fields) from your data connection to the target fields in Collaboration when sourcing audiences.
 
 Select any match keys that you want to use when reconciling audience profiles. Plan for the future and include any match keys you can work with and anticipate using in future campaigns. If you do need to select additional match keys for your account at a later time, you can do so in the [edit account](#edit-account) workflow. However, any match keys added after the initial setup will not be available for use in existing connections.
 
@@ -91,15 +91,17 @@ Collaboration supports three types of match keys: first-party people IDs, first-
 
 ##### First-party people IDs
 
-* **[!UICONTROL Hashed email]**: Hashed email addresses
-* **[!UICONTROL Hashed phone]**: Hashed phone numbers
-<!-- * **[!UICONTROL CRM IDs]**: CRM IDs
-* **[!UICONTROL Loyalty IDs]**: Loyalty program IDs -->
+First-party people IDs are directly connected to an individual profile. Currently supported IDs include:
+
+* **[!UICONTROL Hashed email]**
+* **[!UICONTROL Hashed phone]**
+* **[!UICONTROL CRM IDs]**
+* **[!UICONTROL Loyalty IDs]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### First-party device IDs
 
-First-party device IDs are identifiers connected to a specific device. These include:
+First-party device IDs are identifiers connected to a specific device. Currently supported IDs include:
 
 * **[!UICONTROL Hashed IPv4]**: Hashed IPv4 addresses
 
