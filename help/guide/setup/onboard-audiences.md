@@ -245,7 +245,7 @@ The following information is displayed for each individual audience:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identities"
->abstract="A breakdown view of the identities that make up this audience broken down by match key."
+>abstract="A breakdown view of the identities that make up this audience separated by match key."
 
 The **[!UICONTROL Identities]** section indicates the number of identities present in the audience. The section also contains an identity breakdown of identities by match key to help you understand the composition of the audience.
 
