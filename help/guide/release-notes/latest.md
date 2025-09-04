@@ -15,7 +15,7 @@ These release notes cover the functionality released in Adobe Real-Time CDP Coll
 
 ## August 2025 {#august-2025}
 
-* Collaborators can now edit multiple audiences at once. You can now edit audience metadata, connection access, names, descriptions, and categories for multiple audiences using the bulk edit tool. To learn more about editing audiences, read the [manage audiences](../setup/onboard-audiences.md#edit-audiences)
+* Collaborators can now edit multiple audiences at once. You can now edit audience metadata, connection access, names, descriptions, and categories for multiple audiences using the bulk edit tool. To learn more about editing audiences, read the [manage audiences](../setup/onboard-audiences.md#edit-audiences) guide.
   
 ## July 2025 {#july-2025}
 
