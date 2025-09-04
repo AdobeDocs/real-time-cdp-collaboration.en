@@ -11,16 +11,6 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 
 Audiences are specific groups of users or customers segmented based on various attributes. These enable collaborators to work together on targeted marketing and personalized experiences for more effective advertising campaigns. This guide covers how to source audiences into Real-Time CDP Collaboration, view the audiences dashboard, and manage individual audiences.
 
->[!BEGINSHADEBOX]
-
-What you'll find on this documentation page:
-
-* [Source audiences into Collaboration](#source-audiences)
-* [View audiences dashboard](#view-audiences-dashboard)
-* [View individual audiences](#view-individual-audiences)
-
->[!ENDSHADEBOX]
-
 ## Source audiences into Collaboration {#source-audiences}
 
 >[!IMPORTANT]
@@ -208,10 +198,13 @@ Review all the configurations and settings before finalizing the audience additi
 
 After sourcing audiences, the **[!UICONTROL My audiences]** workspace displays all audiences currently sourced into Collaboration.
 
+![The My audiences workspace showing all audiences sourced.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 Each audience contains an overview of the following information:
 
 | Item | Description|
 |----------|---------|
+| **[!UICONTROL Name]** | The name of the audience. |
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A **[!UICONTROL Pending]** status indicates that the audience has just recently been sourced and identities have yet to populate. The sourced audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
 | **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
@@ -219,8 +212,6 @@ Each audience contains an overview of the following information:
 | **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
 | **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience's configuration or metadata was last changed. |
-
-![The My audience workspace showing all audiences sourced.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 To perform quick actions on an audience, select the ellipsis **...** next to the audience name. The following options are available:
 
@@ -231,7 +222,7 @@ To perform quick actions on an audience, select the ellipsis **...** next to the
 
 ## View individual audiences {#view-individual-audiences}
 
-To view more information and edit configurations for an individual audience, select the audience from the **[!UICONTROL My audiences]** workspace. The audience workspace displays detailed information about the selected audience, including its details, identities, categories, connection access, and metadata visbility settings.
+To view and update information for an individual audience, select the audience from the **[!UICONTROL My audiences]** workspace. The audience workspace displays detailed information about the selected audience, including its details, identities, categories, connection access, and metadata visibility settings.
 
 ### Audience details
 
@@ -249,32 +240,22 @@ The following information is displayed for each individual audience:
 
 ![An individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-Additionally, the following controls are available in the audience workspace:
-
-* **[!UICONTROL Delete]**: Remove the audience from your data connection.
-* **[!UICONTROL Edit]**: Edit audience's name or description.
-
-![An individual audience's workspace with the Edit and Delete option highlighted.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-Next, you can update the following sections within the audience's workspace:
-
-* [Identities](#identities)
-* [Categories](#categories)
-* [Connection access](#connection-access)
-* [Metadata visibility](#metadata-visibility)
-
-### Identities {#identities}
+#### Identities {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identities"
->abstract="A breakdown view of the identities that make up this audience, as well as a total count of profiles with the respective identities."
+>abstract="A breakdown view of the identities that make up this audience separated by match key."
 
-The **[!UICONTROL Identities]** section indicates the number of profiles present in the audience with any of the identities you selected when sourcing the audience. The section also contains an identity breakdown so you can tell which identities make up the most of the audience population.
+The **[!UICONTROL Identities]** section indicates the number of identities present in the audience. The section also contains an identity breakdown of identities by match key to help you understand the composition of the audience.
 
 ![The Identities section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### Categories {#categories}
+Hovering over the individual sections of the match key breakdown will provide an accurate identity count for the relevant key.
+
+![The Identities section of an individual audience's workspace with a match key's breakdown displayed.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### Categories {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -291,14 +272,14 @@ The **[!UICONTROL Categories]** dialog will appear, allowing you to select the c
 
 ![The Categories dialog with the available categories displayed.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### Connection access {#connection-access}
+#### Connection access {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Connection access"
->abstract="<p>Audiences can be of three types: public, private, and custom.</p><p> Their availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is activated with collaborators.</p>"
+>abstract="<p>Audiences can be of three types: public, private, and custom.</p><p> Their availability for use in projects with collaborators differs based on the connection access setting.</p>"
 
-An audience's availability for use in projects with collaborators differs based on the connection access setting. In the **[!UICONTROL Connection access]** section, you can select if the audience should be private or public. Public audiences are usable and discoverable in connections.
+An audience's availability for use in projects with collaborators differs based on the connection access setting. In the **[!UICONTROL Connection access]** section, you can select if the audience should be private, public, or only available for specific connections. Public audiences are usable and discoverable in connections.
 
 To update the audience's connection access, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Connection access]** section.
 
@@ -318,9 +299,9 @@ Select the desired connection access option and then select **[!UICONTROL Save]*
 >
 >Regardless of access status (public, private, or custom), the population of any audience contributes to the **[!UICONTROL All audiences]** population in the **[!UICONTROL Compare audiences]** section within a project.
 
-Audience availability for use in projects with collaborators differs based on the connection access setting. You can always change the connection access from private to public, but you cannot change that setting back once an audience is activated.
+Audience availability for use in projects with collaborators differs based on the connection access setting.
 
-### Metadata visibility {#metadata-visibility}
+#### Metadata visibility {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -333,7 +314,7 @@ Audience availability for use in projects with collaborators differs based on th
 
 Metadata visibility indicates the visibility of an audience's metadata to other collaborators before they connect with you, or within different project views. To update the audience's metadata visibility, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Metadata visibility]** section.
 
-![The Metadata visibility section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![The Metadata visibility section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configure the visibility settings for the audience. There are two metadata visibility settings that you can configure for each audience:
 
@@ -348,6 +329,52 @@ The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configu
 >For the metadata visibility settings to take effect, the audience must be set to public or custom. 
 
 ![The Metadata visibility dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## Edit multiple audiences {#edit-audiences}
+
+From the audience dashboard, you can edit multiple audiences at once. To do this, select the audiences you want to edit by selecting the boxes next to their names. Once you've selected the audiences, you can perform actions using the options available in the edit menu. 
+
+![The My audiences workspace with two audiences selected and the edit menu highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### Bulk edit metadata visibility {#bulk-edit-metadata-visibility}
+
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit metadata visibility]** from the edit menu. 
+
+![The My audiences workspace with the Edit metadata visibility option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configure the visibility settings for the selected audiences. By default, none of options will be selected. Choose the options you want to apply to all selected audiences, and then select **[!UICONTROL Save]**.
+
+![The Metadata visibility dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### Bulk edit connection access {#bulk-edit-connection-access}
+
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit connection access]** from the edit menu.
+
+![The My audiences workspace with the Edit connection access option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+The **[!UICONTROL Connection access]** dialog appears, allowing you to configure the access settings for the selected audiences. By default, the **[!UICONTROL Private audience]** option will be selected. Choose the options you want to apply to all selected audiences, and then select **[!UICONTROL Save]**.
+
+![The Connection access dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### Bulk edit audience names and descriptions {#bulk-edit-audience-names-descriptions}
+
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit name and description]** from the edit menu.
+
+![The My audiences workspace with the Edit name and description option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+The **[!UICONTROL Name and description]** dialog appears, allowing you to configure the name and description for each selected audience. By default, the current names and descriptions will be displayed for each audience. Make your changes and then select **[!UICONTROL Save]**.
+
+![The Name and description dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### Bulk edit categories {#bulk-edit-categories}
+
+With your audiences selected in the audience dashboard, select **[!UICONTROL Edit categories]** from the edit menu.
+
+![The My audiences workspace with the Edit categories option highlighted.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+The **[!UICONTROL Categories]** dialog appears, allowing you to configure the categories for each selected audience. By default, no categories will be selected. To select a category, first select the main category, then select the subcategories you want to include. Make your changes and then select **[!UICONTROL Save]**.
+
+![The Categories dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Next steps
 
