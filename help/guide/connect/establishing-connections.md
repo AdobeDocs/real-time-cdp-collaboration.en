@@ -178,8 +178,6 @@ The connection settings workspace appears, allowing you to configure the various
 
 ![The connection settings workspace.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### Connection settings {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -206,11 +204,6 @@ The connection settings workspace appears, allowing you to configure the various
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Measurement"
 >abstract="Execute activities to generate campaign performance reports and insights. Credits are consumed based on the number of rows in campaign reports across all campaigns and the frequency of reporting (daily, every three days, or weekly)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Legal agreement"
->abstract="Verify that a data sharing agreement between the two parties exists."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
@@ -277,14 +270,6 @@ To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Cr
 
 +++
 
-+++Agreements
-
-You must acknowledge that a legal agreement is in place between you and your collaborator. This agreement outlines the terms of data sharing and collaboration. You can select the **[!UICONTROL Acknowledge and confirm]** checkbox to confirm that such an agreement exists. 
-
-![The Legal agreement section highlight and confirmed in the connection workspace.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
-
-+++
-
 +++Advertiser names
 
 >[!NOTE]
@@ -304,8 +289,8 @@ When you're done, select **[!UICONTROL Save]** to save your changes.
 When creating a project, the advertiser name will be prefilled based on the following settings established during the connection    :
 
 1. **No advertiser name set**: If no advertiser names are added, Collaboration defaults to using the advertiser's name as the advertiser name.
-1. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
-1. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
+2. **One advertiser name set**: If a single advertiser name is added, Collaboration automatically uses that name as the advertiser name for the project.
+3. **Multiple advertiser names set**: If more than one advertiser name is added, you or your collaborator can select any of the provided names when creating the project.
 
 >[!NOTE]
 >
