@@ -56,6 +56,11 @@ Next, configure the **[!UICONTROL Audience Expiration]**. By default, the audien
 >title="Target namespaces"
 >abstract="Target namespaces specify which identity namespace the match key will be mapped to in Adobe Experience Platform. Hashed match keys must be mapped to a target namespace that supports hashed values."
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_linked_key"
+>title="Linked key"
+>abstract="Placeholder for linked key contextual help."
+
 Next, you must create an activation mapping to define how the audience data will be sent to Adobe Experience Platform. You can map each [match key](../setup/onboard-account.md#set-up-match-keys) you selected while creating your organization to an target namespace. The target namespaces specify which [identity namespace](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} the match key will be mapped to in Adobe Experience Platform.
 
 >[!IMPORTANT]
