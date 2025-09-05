@@ -188,7 +188,8 @@ The connection settings workspace appears, allowing you to configure the various
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Match keys"
->abstract="Match keys are prefilled with the ones that you selected at your organizational level. You can toggle off any match keys that you do not want to use in this connection."
+>abstract="Match keys are prefilled with common match keys that you and your collaborator selected at the account level. You can toggle off any match keys that you do not want to use in this connection."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Account match keys"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -218,7 +219,7 @@ The connection settings workspace appears, allowing you to configure the various
 
 You can configure the following connection settings:
 
-+++Audience activation
+##### Audience activation {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -234,9 +235,7 @@ When you're done, select **[!UICONTROL Save]** to save your changes.
 
 ![The Audience activation dialog with the Save option in the connection settings workspace.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++Use cases
+##### Use cases {#use-cases}
 
 Use cases are automatically populated with all available options. Selected use cases determine which views and options are available within your projects. To learn more, read the [project use cases](/help/guide/collaborate/manage-projects.md#project-use-cases) guide.
 
@@ -244,19 +243,23 @@ To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL U
 
 ![The Use cases settings in the connection settings workspace.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### Match keys {#match-keys}
 
-+++Match keys
+Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your accounts](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear. 
 
-Match keys are automatically populated with the ones you selected while [setting up your account](/help/guide/setup/onboard-account.md#set-up-match-keys). You can toggle off any match keys you don't want to use, but you can't add match keys that weren't selected during account setup.
+![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+When the connection owner is setting up the connection settings, they can [edit their account match keys](../setup/onboard-account.md#edit-match-keys) to include additional match keys. After toggling on more match keys in your account settings, those match keys will be available to toggle on in connection settings if your collaborator has also selected them. Match keys added once the connection process has begun will not automatically populate, and must be manually toggled on.
 
 To customize your match keys, select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section and toggle off any match keys you don't want to use in this connection. When you're done, select **[!UICONTROL Save]** to save your changes.
 
-![The Match key settings in the connection settings workspace.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![The connection settings workspace with the Match keys section dialog open showing a toggled off match key.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>Once your collaborator has accepted the connection settings, the match keys will be locked in and cannot be changed.
 
-+++Credit split
+##### Credit split {#credit-split}
 
 Use the credit split section to determine which of the two collaborating parties will cover the costs for the activities. Credit split options are determined by the selected use cases for the connection. While the **[!UICONTROL Measurement]** use case requires one party to cover the costs, the **[!UICONTROL Activation - Matching]** use case gives an additional option to have each party cover their own costs. For information on the breakdown of costs, read the [credit activity types](/help/guide/setup/my-activity.md#types-of-activities) guide.
 
@@ -268,9 +271,7 @@ To set up the credit split, select **[!UICONTROL Edit]** in the **[!UICONTROL Cr
 
 ![The Credit split dialog with options in the connection settings workspace.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++Advertiser names
+##### Advertiser names {#advertiser-names}
 
 >[!NOTE]
 >
@@ -297,8 +298,6 @@ When creating a project, the advertiser name will be prefilled based on the foll
 > Once you've sent the connection settings, you are no longer able to add or edit advertiser names.
 
 ![The connection settings workspace with the Advertiser names section filled in.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 After you have made your selections, select **[!UICONTROL Submit]** to send the suggested settings to the recipient for review.
 

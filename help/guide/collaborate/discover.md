@@ -191,7 +191,7 @@ To better understand how the index scores will impact your campaign, relevance b
 To enable easy comparison across different audiences and campaigns, Collaboration translates the index scores into relevance bands (very low to very high). This allows you to quickly assess the strength of the relationship between your audience and your collaborator's audience.
 
 | Index Score (i) | Relevance Band | Description |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i < 60 | Very low | The overlap is much less prevalent in the target audience compared to your audience, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
 | 60 < i < 80 | Low | The overlap is somewhat less prevalent in the target audience compared to your audience, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
 | 80 < i < 120 | Medium | The overlap is about as prevalent in the target audience as in your audience, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |

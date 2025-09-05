@@ -21,24 +21,24 @@ Before you can activate audiences with collaborators and run overlap calculation
 
 From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace, select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Audience]**. If this is your first audience, you may also select the **[!UICONTROL Add] option**.
 
-![My audiences workspace with the Add option and Audiences option highlighted.](/help/assets/setup/add-manage-audiences/add-audiences.png)
+![My audiences workspace with the Add option and Audiences option highlighted.](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
 ### Select data connection {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing actions"
->abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5 and C9 data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be imported into Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5 and C9 data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be sourced into Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Data usage labels overview"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Data usage labels glossary"
 
 >[!IMPORTANT]
 >
->After establishing to your first data connection and importing your first audience, you can then import multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
+>After establishing to your first data connection and sourcing your first audience, you can then source multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
 
 A data connection is the source of data from where you are sourcing audiences. Currently, the only supported data connection is Adobe Experience Platform.
 
-Any settings such as scheduling that you configure for your data connection are applied to all the audiences sourced from this data connection. 
+Any settings that you configure for your data connection are applied to all the audiences sourced from this data connection. 
 
 >[!TIP]
 >
@@ -46,7 +46,7 @@ Any settings such as scheduling that you configure for your data connection are 
 
 To begin adding your data connection, select **[!UICONTROL Add a new data connection]** and then select **[!UICONTROL Next]**.
 
-![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
+![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 #### Select data source 
 
@@ -58,15 +58,15 @@ Next, you'll choose the source for your data connection. The available sources i
 * **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
 * **Google Cloud Platform** (Future release): Connect to your Google Cloud Storage to source audience data directly from your GCS buckets.
 
-Select your data souce and then select **[!UICONTROL Next]**.
+Select your data source and then select **[!UICONTROL Next]**.
 
-![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### Select sandbox
 
-After selecting your data source, you must select the sandbox that includes the audiences that you to use Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
+After selecting your data source, you must select the sandbox that includes the audiences that you want to use for Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
 
-![The Add audiences workspace with a sandbox selected.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
+![The Add audiences workspace with a sandbox selected.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### Governance policy and enforcement actions {#governance-policy-and-enforcement-actions}
 
@@ -86,17 +86,17 @@ Read more about data usage labels in the Experience Platform documentation:
 
 Additionally, you'll want to select your consent rules to apply to data being sourced into Collaboration.
 
-![The Add audiences workspace at the Governance policy and enforment actions section.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+![The Add audiences workspace at the Governance policy and enforment actions section.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 Once you have selected the marketing actions and consent rules, select **[!UICONTROL Next]** to proceed to the next step. A confirmation dialog will appear, asking you to accept the terms. Select the checkbox and then select **[!UICONTROL OK]** to confirm.
 
-![The Governance policy and enforment actions dialog with the checkbox and OK option highlighted.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
+![The Governance policy and enforment actions dialog with the checkbox and OK option highlighted.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### Provide details
 
 Next, provide a name and a description for your data connection. This information will help you identify the data connection later on.
 
-![The Add audiences workspace with the option to provide a name and description.](/help/assets/setup/add-manage-audiences/data-connection-details.png)
+![The Add audiences workspace with the option to provide a name and description.](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
 
 ### Map fields {#map-fields}
 
@@ -108,7 +108,7 @@ Next, provide a name and a description for your data connection. This informatio
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Target fields"
->abstract="Currently, hashed emails are the only supported match keys."
+>abstract="Target fields are the match keys chosen during the account setup. By default, all your chosen match keys are available."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -124,42 +124,54 @@ Next, provide a name and a description for your data connection. This informatio
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Profile attributes"
->abstract="Select attributes from the Union Schema for the Profile class in Experience Platform. This view displays attributes that are present in the Union Schema and belong to the XDM Individual Profile class."
+>abstract="Select attributes from the union schema for the Profile class in Experience Platform. This view displays attributes that are present in the union schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
-Next you'll select source fields to map to target fields in Collaboration.
+Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during account setup. 
 
-![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png)
+>[!IMPORTANT]
+>
+>Currently, you cannot edit data connections to include new map fields. If you add new match keys to your account after your data connection has been created, you will need to create a new data connection to map to them.
+
+![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
->You can map multiple source fields to the same target field. For example, if you have email addresses in two separate fields in Experience Platform, you can map each of those to the **[!UICONTROL Hashed email]** target field as two separate rows.
+>You can map multiple source fields to the same target field. For example, if you have email addresses in two separate fields in Experience Platform, you can map each of those to the **[!UICONTROL Hashed email]** target field as two separate rows. Use the **[!UICONTROL Add field]** option to add additional mapping rows.
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source fields]** are identity namespaces and attributes from Experience Platform. These are how the identities exist in the platform you're sourcing data from. Source fields get mapped to the target fields defined in Collaboration.
+**[!UICONTROL Source fields]** are identity namespaces and attributes from Experience Platform. These include both [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"} and [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} identity namespaces. They also include profile attributes that are present in the [union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"} and belong to the XDM Individual Profile class.
 
-**[!UICONTROL Target fields]** indicate how the identities are referred to in Collaboration. Currently, hashed emails are the only supported match keys.
+ Source fields get mapped to the target fields defined in Collaboration.
 
-Use the **[!UICONTROL Apply transformation]** option when you are importing *non-hashed* fields from your source. In this case, Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
+**[!UICONTROL Target fields]** indicate how the identities are referred to in Collaboration. Target fields are the match keys chosen during the account setup. By default, all your chosen match keys are available.
+
+Use the **[!UICONTROL Apply transformation]** option when you are sourcing *non-hashed* fields to hashed fields. Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
 
 >[!ENDSHADEBOX]
 
-Select the empty source field next to the target field. The **[!UICONTROL Select source field]** dialog will appear. Select between the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options to find the desired source field and then select the field from the list. You can also make use of the search option to find the desired field.
+To begin mapping fields, select the empty source field next to the target field. The **[!UICONTROL Select source field]** dialog will appear. Select between the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options to find the desired source field and then select the field from the list. You can also make use of the search option to find the desired field.
 
-![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png)
+![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-To handle multiple email fields, map the non-hashed email source field using **[!UICONTROL Apply transformation]**.
+To handle sourcing a non-hashed field to a hashed target field, use the **[!UICONTROL Apply transformation]** option. For example, to add a second email field, select the **[!UICONTROL Add field]** option to to add a new row, then select **[!UICONTROL Hashed email]** for the target field. Select a non-hashed email source field, and then select **[!UICONTROL Apply transformation]**.
 
-![The Add audiences workspace with the email source fields mapped to the target field, with Apply transformation toggled on for one.](/help/assets/setup/add-manage-audiences/apply-transformation.png)
+![The Add audiences workspace with the email source fields mapped to the target field, with Apply transformation toggled on for one.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Continue adding mapping pairs as needed and then select **[!UICONTROL Next]**.
+Continue adding mapping pairs for each target field. If you don't wish to use a match key, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If match key is removed, you will not be able to use it when sourcing any audiences from the connection.
+
+![The Add audiences workspace with the Delete option beside a target field highlighted.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+When you're finished mapping fields, select **[!UICONTROL Next]** to continue.
+
+![The Add audiences workspace with the map fields filled in and the Next option highlighted.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### Schedule {#schedule}
 
 Next, schedule when to start and end populating the audiences. The audience will be refreshed according to this schedule. 
 
-![The Add audience workspace with the scheduling options displayed.](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
+![The Add audience workspace with the scheduling options displayed.](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -167,11 +179,11 @@ Next, schedule when to start and end populating the audiences. The audience will
 
 Select the frequency of the audience refresh from the **[!UICONTROL Frequency]** dropdown. 
 
-![The Add audiences scheduling workspace with the Frequency dropdown open.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+![The Add audiences scheduling workspace with the Frequency dropdown open.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 Next, select the **[!UICONTROL Date range]**. The start date is the date when the audience will begin populating with profiles, and the end date is when the audience will stop refreshing.
 
-![The Add audiences scheduling workspace with the Date range option displayed.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
+![The Add audiences scheduling workspace with the Date range option displayed.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"} 
 
 >[!IMPORTANT]
 >
@@ -179,15 +191,15 @@ Next, select the **[!UICONTROL Date range]**. The start date is the date when th
 
 ### Select audiences {#select-audiences}
 
-After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences from your data source. Select your desired audiences and then select **[!UICONTROL Next]**.
+After selecting the audience source, you will choose specific audiences to include. Use the search and filter options to find the relevant audiences from your data connection. Select your desired audiences and then select **[!UICONTROL Next]**.
 
-![The Add audiences workspace with a list of available audiences.](/help/assets/setup/add-manage-audiences/select-audience.png)
+![The Add audiences workspace with a list of available audiences.](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### Review
 
 Review all the configurations and settings before finalizing the audience addition. Ensure all details are correct and then select **[!UICONTROL Complete]** to finish creating your data connection.
 
-![The Add audiences workspace with the all select configurations displayed.](/help/assets/setup/add-manage-audiences/review-connection.png)
+![The Add audiences workspace with the all select configurations displayed.](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
 ## View audiences dashboard {#view-audiences-dashboard}
 
@@ -213,12 +225,14 @@ Each audience contains an overview of the following information:
 | **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience's configuration or metadata was last changed. |
 
+![The My audience workspace showing all audiences sourced.](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
+
 To perform quick actions on an audience, select the ellipsis **...** next to the audience name. The following options are available:
 
 * **[!UICONTROL Edit categories]** allows you to add different category tags to the audience. For more information, refer to the [categories](#categories) section below.
 * **[!UICONTROL Delete]** will delete the audience from the data connection.
 
-![The My audiences workspace with the ellipsis menu open and the Edit categories and Delete options highlighted.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
+![The My audiences workspace with the ellipsis menu open and the Edit categories and Delete options highlighted.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## View individual audiences {#view-individual-audiences}
 
@@ -238,7 +252,7 @@ The following information is displayed for each individual audience:
 | **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
 | **[!UICONTROL Created by]** | Indicates the user who sourced the audience into Collaboration. |
 
-![An individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details.png)
+![An individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details.png){zoomable="yes"}
 
 #### Identities {#identities}
 
@@ -249,7 +263,7 @@ The following information is displayed for each individual audience:
 
 The **[!UICONTROL Identities]** section indicates the number of identities present in the audience. The section also contains an identity breakdown of identities by match key to help you understand the composition of the audience.
 
-![The Identities section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![The Identities section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-identities.png){zoomable="yes"}
 
 Hovering over the individual sections of the match key breakdown will provide an accurate identity count for the relevant key.
 
@@ -266,11 +280,11 @@ For easy audience organization, filtering, and retrieval, you can tag your audie
 
 To add categories, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Categories]** section. 
 
-![The Categories section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+![The Categories section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
 The **[!UICONTROL Categories]** dialog will appear, allowing you to select the categories you want to add to the audience. To select an individual category, select the checkbox next to the category name. 
 
-![The Categories dialog with the available categories displayed.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+![The Categories dialog with the available categories displayed.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### Connection access {#connection-access}
 
@@ -283,7 +297,7 @@ An audience's availability for use in projects with collaborators differs based 
 
 To update the audience's connection access, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Connection access]** section.
 
-![The Connection access section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+![The Connection access section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
 The **[!UICONTROL Connection access]** dialog appears, with three available connection access options:
 
@@ -293,7 +307,7 @@ The **[!UICONTROL Connection access]** dialog appears, with three available conn
 
 Select the desired connection access option and then select **[!UICONTROL Save]** to apply the changes.
 
-![The Connection access dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![The Connection access dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -314,7 +328,7 @@ Audience availability for use in projects with collaborators differs based on th
 
 Metadata visibility indicates the visibility of an audience's metadata to other collaborators before they connect with you, or within different project views. To update the audience's metadata visibility, select the **[!UICONTROL Edit]** option within the **[!UICONTROL Metadata visibility]** section.
 
-![The Metadata visibility section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
+![The Metadata visibility section of an individual audience's workspace.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png){zoomable="yes"}
 
 The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configure the visibility settings for the audience. There are two metadata visibility settings that you can configure for each audience:
 
@@ -328,7 +342,7 @@ The **[!UICONTROL Metadata visibility]** dialog appears, allowing you to configu
 >
 >For the metadata visibility settings to take effect, the audience must be set to public or custom. 
 
-![The Metadata visibility dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+![The Metadata visibility dialog with the available options displayed.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## Edit multiple audiences {#edit-audiences}
 
