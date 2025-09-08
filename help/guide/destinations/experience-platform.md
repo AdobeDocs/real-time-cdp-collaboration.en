@@ -69,7 +69,7 @@ Next, you must create an activation mapping to define how the audience data will
 
 #### Select match keys {#select-match-keys}
 
-All match keys enabled for your account are are included in the activation mapping by default. If you do not wish to include a match key, you can remove it using the delete icon ([!Delete icon](/help/assets/icons/delete.png)) next to the match key. 
+All match keys enabled for your account are included in the activation mapping by default. If you do not wish to include a match key, you can remove it using the delete icon (![Delete icon](/help/assets/icons/delete.png)) next to the match key.
 
 ![The Activation mapping section with the delete icon highlighted next to a match key.](/help/assets/destinations/adobe-experience-platform/delete-mapping.png)
 
