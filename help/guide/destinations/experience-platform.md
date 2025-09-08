@@ -91,11 +91,11 @@ Repeat this process for each match key that you want to include in the activatio
 
 Linked keys allow you to specify that a different match key should be used in place of the original match key during activation. To better understand how linked keys work, consider the following example:
 
-A retailer wishes to send the data being activated to Experience Platform to their CRM system. The retailer has enabled Loyalty ID as a match key for their account to increase the match rate when activating audiences. However, the retailer's CRM system does not support Loyalty ID as an identity namespace, so they want to use the CRM ID match key instead when activating audiences to Experience Platform. The retailer can use the linked key option to activate audiences to Experience Platform using CRM ID instead of Loyalty ID.
+A retailer wishes to send the data being activated to Experience Platform to their CRM system. The retailer has enabled Hashed IP as a match key for their account to increase the match rate when activating audiences. However, the retailer’s CRM system does not support Hashed IP as an identity namespace, so they want to use the CRM ID match key instead when activating audiences to Experience Platform. The retailer can use the linked key option to activate audiences to Experience Platform using CRM ID instead of Hashed IP.
 
 >[!NOTE]
 >
->For a profile to be activated, it must have values for both the original match key and the linked match key. For example, if Loyalty ID is linked to CRM ID, a profile must have values for both Loyalty ID and CRM ID to be activated. If either value is missing, the profile will not be activated.
+>For a profile to be activated, it must have values for both the original match key and the linked match key. For example, if Hashed ID is linked to CRM ID, a profile must have values for both Hashed ID and CRM ID to be activated. If either value is missing, the profile will not be activated.
 
 To use a linked key, toggle on the **[!UICONTROL Linked key]** option next to the match key that you want to use in its place. The **[!UICONTROL Linked key]** section appears asking you to create the mapping.
 
@@ -115,7 +115,7 @@ The linked key is now configured.
 
 >[!NOTE]
 >
->You can only used one linked key target namespace per activation mapping. For example, if you link Loyalty ID to CRM ID, toggling on the linked key option for another field will also link it to CRM ID.
+>You can only used one linked key target namespace per activation mapping. For example, if you link Hashed ID to CRM ID, toggling on the linked key option for another field will also link it to CRM ID.
 
 When you've finished mapping all match keys, review your settings. The **[!UICONTROL Preview]** section provides a summary of your configuration.
 
@@ -129,11 +129,11 @@ When you're satisfied with your configuration, select **[!UICONTROL Create desti
 
 ## Using Adobe Experience Platform as a destination
 
-Once you've configured Adobe Experience Platform as a destination, you can begin [activating audiences](../collaborate/activate.md) to the platform through your projects. Currently, the activation process is a single-step process initiated by the advertiser. When the advertiser activates an audience, it is sent to the publisher's pre-configured destination (in this case, Adobe Experience Platform). The publisher does not need to take any additional steps to send the audience to the destination.
-
+Once you've configured Experience Platform as a destination, you can begin [activating audiences](../collaborate/activate.md) to the platform through your projects. Currently, the activation process is a single-step process initiated by the collaborator. For example, when an advertiser activates an audience, it is sent to the publisher’s pre-configured destination (Experience Platform). The publisher does not need to take any additional steps to send the audience to the destination. The same holds true for the brand-to-brand collaboration pattern.
+    
 >[!IMPORTANT]
 >
->You **must** configure Adobe Experience Platform as a destination *before* your collaborator activates an audience. If the destination is not configured, the audience will be sent to you and visible in the **[!UICONTROL Activate]** tab within a project, but will not be activated to Adobe Experience Platform. 
+>You **must** configure Experience Platform as a destination *before* your collaborator activates an audience. If the destination is not configured, the audience will be sent to you and visible in the **[!UICONTROL Activate]** tab within a project, but will not be activated to Experience Platform.
 
 After the audience is activated, it will be available in [Audience Portal](#audience-portal) in Experience Platform with Real-Time CDP Collaboration as the origin.  These audiences can then be used in campaigns and customer engagement.
 
