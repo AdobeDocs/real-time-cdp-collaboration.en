@@ -60,15 +60,7 @@ Next, configure the **[!UICONTROL Audience Expiration]**. By default, the audien
 >title="Target namespaces"
 >abstract="Target namespaces specify which identity namespace the match key will be mapped to in Adobe Experience Platform. Hashed match keys must be mapped to a target namespace that supports hashed values."
 
-#### Select match keys {#select-match-keys}
-
-All match keys enabled for your account are included in the activation mapping by default. If you do not wish to include a match key, you can remove it using the delete icon (![Delete icon](/help/assets/icons/delete.png)) next to the match key.
-
-![The Activation mapping section with the delete icon highlighted next to a match key.](/help/assets/destinations/adobe-experience-platform/delete-mapping.png)
-
-To re-add a match key that you previously removed, you can select **[!UICONTROL Add mapping]**. Alternatively, you can change the **[!UICONTROL Activation match key]** for an existing key using the dropdown menu.
-
-![The Activation match key dropdown and Add mapping highlighted in the Create destination workflow.](/help/assets/destinations/adobe-experience-platform/add-mapping.png)
+All match keys enabled for your account are included in the activation mapping by default. If you do not wish to directly map a match key to a target nampespace, you can use the linked key option to replace it with a different match key. For more information about linked keys, see the [section below](#linked-keys).
 
 #### Map target namespaces {#map-target-namespaces}
 
