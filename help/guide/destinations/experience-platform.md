@@ -111,7 +111,7 @@ Next, you want to specify the target namespace for the linked key if you have no
 
 Select the **[!UICONTROL Target namespaces]** field next to the linked key. The **[!UICONTROL Select source field]** dialog appears. Find the target namespace in the list, or search for a specific namespace. Select the target namespace that you want to use for the linked key, and then select **[!UICONTROL Select]**.
 
-![The Select source field dialog.](/help/assets/destinations/adobe-experience-platform/select-linked-target-namespace.png)
+![The Select source field dialog.](/help/assets/destinations/adobe-experience-platform/select-linked-key-target-namespace.png)
 
 The linked key is now configured. 
 
