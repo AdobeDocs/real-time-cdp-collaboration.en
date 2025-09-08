@@ -60,13 +60,6 @@ Next, configure the **[!UICONTROL Audience Expiration]**. By default, the audien
 >title="Target namespaces"
 >abstract="Target namespaces specify which identity namespace the match key will be mapped to in Adobe Experience Platform. Hashed match keys must be mapped to a target namespace that supports hashed values."
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_linked_key"
->title="Linked key"
->abstract="Linked keys allow you to specify that instead of using a particular match key, a different match key should be used during activation. For a profile to be activated, it must have values for both the original match key and the linked match key."
-
-Next, you must create an activation mapping to define how the audience data will be sent to Adobe Experience Platform. You can map each [match key](../setup/onboard-account.md#set-up-match-keys) you selected while creating your account to a target namespace. The target namespaces specify which [identity namespace](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} the match key will be mapped to in Adobe Experience Platform. You may utilize the [linked key](#linked-keys) option to replace a match key with a different match key during activation.
-
 #### Select match keys {#select-match-keys}
 
 All match keys enabled for your account are included in the activation mapping by default. If you do not wish to include a match key, you can remove it using the delete icon (![Delete icon](/help/assets/icons/delete.png)) next to the match key.
@@ -91,7 +84,12 @@ Repeat this process for each match key that you want to include in the activatio
 
 #### Linked keys {#linked-keys}
 
-Linked keys allow you to specify that instead of using a particular match key, a different match key should be used during activation. To better understand how linked keys work, consider the following example:
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_linked_key"
+>title="Linked key"
+>abstract="Linked keys allow you to specify that a different match key should be used in place of the original match key during activation. For a profile to be activated, it must have values for both the original match key and the linked match key."
+
+Linked keys allow you to specify that a different match key should be used in place of the original match key during activation. To better understand how linked keys work, consider the following example:
 
 A retailer wishes to send the data being activated to Experience Platform to their CRM system. The retailer has enabled Loyalty ID as a match key for their account to increase the match rate when activating audiences. However, the retailer's CRM system does not support Loyalty ID as an identity namespace, so they want to use the CRM ID match key instead when activating audiences to Experience Platform. The retailer can use the linked key option to activate audiences to Experience Platform using CRM ID instead of Loyalty ID.
 
