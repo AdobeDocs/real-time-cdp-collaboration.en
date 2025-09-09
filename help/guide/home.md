@@ -13,7 +13,7 @@ exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 
 With Adobe Real-Time CDP Collaboration, you can discover, activate, and measure high-value audiences without relying on third-party cookies. This solution enables advanced data collaborations, helping you create personalized and impactful customer experiences in a privacy-centric, centralized environment.
 
-![The Real-Time CDP Collaboration set up page, displaying an organization.](/help/assets/overview/set-up.png){zoomable="yes"}
+![The Real-Time CDP Collaboration set up page, displaying an organization.](/help/assets/overview/home.png){zoomable="yes"}
 
 ## Identify audiences through trusted partners
 
