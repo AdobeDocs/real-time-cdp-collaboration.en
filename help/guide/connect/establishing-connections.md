@@ -245,6 +245,10 @@ To customize your use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL U
 
 ##### Match keys {#match-keys}
 
+>[!IMPORTANT]
+>
+>When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
+
 Match keys are automatically populated with the common match keys that you and your collaborator selected while [setting up your accounts](/help/guide/setup/onboard-account.md#set-up-match-keys). Only match keys that both you and your collaborator selected **and** have in common will appear. 
 
 ![The connection settings workspace with the Match keys section highlighted showing the common match keys.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}

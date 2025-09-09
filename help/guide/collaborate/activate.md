@@ -37,6 +37,10 @@ In the **[!UICONTROL Browse audiences]**, you can see the **[!UICONTROL Identity
 
 ![The Browse audiences dialog showing the available audiences.](/help/assets/collaborate/activate/browse-audiences.png)
 
+>[!IMPORTANT]
+>
+>When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
+
 Select the audience that you want to activate in campaigns, and then select **[!UICONTROL Save]**. The audience is now, displayed and you can see the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for the selected audience.
 
 ![The Audience activation workflow with the selected audience displayed.](/help/assets/collaborate/activate/audience-selected.png)
