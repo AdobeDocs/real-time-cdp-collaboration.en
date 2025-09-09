@@ -15,6 +15,20 @@ These release notes cover the functionality released in Adobe Real-Time CDP Coll
 
 ## August 2025 {#august-2025}
 
+* Collaboration now supports the following [match keys](../setup/onboard-account.md#supported-match-keys):
+  * Hashed email
+  * Hashed phone number
+  * CRM ID
+  * Loyalty ID
+  * Hashed IPv4
+  * AdFixus ID
+* Multiple match keys are now available across Collaboration, giving you the ability to expand your audience size and improve match rates. Multiple match keys can be used when sourcing audiences, establishing connections, and activating audiences. To learn more about using multiple match keys, read the [set up match keys](../setup/onboard-account.md) and [sourcing audiences](../setup/onboard-audiences.md#map-fields) guides.
+
+>[!IMPORTANT]
+>
+>When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
+
+* The Adobe Experience Platform destination now supports activating audiences with multiple match keys. Additionally, you can now used a linked key when configuring your destination's mapping to specify which match key is sent during activation. To learn more, read the [Experience Platform destination](../destinations/experience-platform.md#linked-keys) guide.
 * Collaborators can now edit multiple audiences at once. You can now edit audience metadata, connection access, names, descriptions, and categories for multiple audiences using the bulk edit tool. To learn more about editing audiences, read the [manage audiences](../setup/onboard-audiences.md#edit-audiences) guide.
   
 ## July 2025 {#july-2025}
