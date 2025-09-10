@@ -15,6 +15,8 @@ These release notes cover the functionality released in Adobe Real-Time CDP Coll
 
 ## August 2025 {#august-2025}
 
+Real-Time CDP Collaboration is now available to customers in **Canada**. It is automatically available to Real-Time CDP Prime and Ultimate customers in these regions.
+
 * Collaboration now supports the following [match keys](../setup/onboard-account.md#supported-match-keys):
   * Hashed email
   * Hashed phone number
