@@ -31,6 +31,10 @@ Select the add icon (![Add icon.](/help/assets/icons/plus.png)), or the **[!UICO
 
 The activate audiences workflow opens, where you can select the audience that you want to send to your collaborator. Use the dropdown to select an audience, or search for a specific audience. To see more information about the audiences before making your select, select **[!UICONTROL Browse audiences]**
 
+>[!IMPORTANT]
+>
+>Only audiences with greater than 1000 overlapping identities are available for activation. If audience overlaps are near the 1000 identity threshold, activation may fail.
+
 ![The Audience activation workflow with the dropdown and Browse audiences options highlighted.](/help/assets/collaborate/activate/audience-activation.png)
 
 In the **[!UICONTROL Browse audiences]**, you can see the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for each audience.

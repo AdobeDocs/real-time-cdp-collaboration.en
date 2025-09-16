@@ -37,6 +37,10 @@ To begin using the **[!UICONTROL Discover]** tab within your project, you should
 
 Once these prerequisites are met, you can start exploring and comparing overlaps between you and your collaborator's audiences.
 
+>[!IMPORTANT]
+>
+>Audiences with less than 1000 overlapping identities will not be included.
+
 ## Compare audiences {#compare-audiences}
 
 >[!CONTEXTUALHELP]
@@ -67,6 +71,8 @@ Once these prerequisites are met, you can start exploring and comparing overlaps
 Use the compare audiences section to get rich information about the overlap between your and your collaborator's audiences. To change the audience selection, use the dropdown selector at the top of the **[!UICONTROL Compare audiences]** section. You can select one or all of your audiences and one or all of your collaborator's audiences to compare against each other. 
 
 ![The Discover workspace with the audience selector highlighted in the Compare audiences section.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 In the compare audiences section, you can see the following metrics, which are based on the match keys that you and your collaborator agreed on for the project:
 
