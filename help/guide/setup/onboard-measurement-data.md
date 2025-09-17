@@ -7,7 +7,7 @@ hidefromtoc: yes
 hide: yes
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 ---
-# Add and manage measurement data
+# Add and manage measurement data {#add-and-manage-measurement-data}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_onboard_measurement_data"
