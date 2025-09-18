@@ -5,15 +5,43 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 ---
-# Establishing connections
+# Establishing connections {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="Compare audiences"
+>abstract="Compare your audience to all consumers reached by your Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="Relevant audiences"
+>abstract="Amazon targeting segments that your audience has the highest overlaps considering only DSP impressions (these segments can only be targeted in the DSP)."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="Resolved IDs"
+>abstract="The number of IDs Amazon’s Identity Resolution was able to resolve using your audience data."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="Overlapping ad exposed IDs"
+>abstract="This represents the number of ‘Resolved IDs’ from the uploaded audience that have also been exposed to an ad via Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="Overlap %"
+>abstract="The proportion of ‘Resolved IDs’ that have been exposed to an ad via Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="Breakdown by Amazon ad product"
+>abstract="Breakdown of ‘Overlapping ad exposed IDs’ reached by either Amazon Ads Sponsored Product and/or Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 
 Before collaborators can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance.
 
 Connections are established based on your chosen collaboration pattern. Collaboration supports two key collaboration patterns: advertiser-to-publisher and brand-to-brand. To read more about these patterns, see the [use cases](/help/guide/overview/use-cases.md) guide.
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 To learn how to establish a connection, read the section below that corresponds to your collaboration pattern:
 
