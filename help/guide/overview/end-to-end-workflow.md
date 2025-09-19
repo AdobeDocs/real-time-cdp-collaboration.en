@@ -54,3 +54,6 @@ After the connection is established, [!UICONTROL Fit Apparel] [creates a project
 [!UICONTROL Fit Apparel] and [!UICONTROL Luma] can both use the [Discover](../collaborate/discover.md) use case to gain insights into each other's audience data. Once they have identified valuable audience segments, they [Activate](../collaborate/activate.md) their chosen audiences for marketing campaigns.
 
 Finally, after executing their campaigns, both brands upload data to [Measure](../collaborate/measure.md) the results and evaluate the effectiveness of their collaboration.
+
+<!-- ## Advertiser-to-advertising platform workflow {#advertiser-to-advertising-platform-workflow} -->
+
