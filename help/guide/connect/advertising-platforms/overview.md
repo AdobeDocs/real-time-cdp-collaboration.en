@@ -14,5 +14,5 @@ Advertising platforms are third-party services that enable advertisers to enhanc
 
 Currently, the only available advertising platform in Real-Time CDP Collaboration is [!DNL Amazon Marketing Cloud] (AMC). The following guides provide more information about connecting and collaborating with [!DNL AMC]:
 
-* [Connect with [!DNL Amazon Marketing Cloud](/help/guide/connect/advertising-platforms/amc.md)]
-* [Collaborate with [!DNL Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)]
+* [Connect with [!DNL Amazon Marketing Cloud]](/help/guide/connect/advertising-platforms/amc.md)
+* [Collaborate with [!DNL Amazon Marketing Cloud]](/help/guide/collaborate/advertising-platforms/amc.md)
