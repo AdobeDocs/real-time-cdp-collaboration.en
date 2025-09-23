@@ -80,5 +80,3 @@ The connection process between an advertiser and an advertising platform involve
 
 1. [Discover advertising platforms](./discover-publishers.md): The advertiser identifies potential advertising platforms to collaborate with.
 2. [Connect to advertising platform](./advertising-platforms/overview.md#advertising-platforms-overview): The advertiser initiates the connection process by selecting the advertising platform they want to connect with and follows the prompts to authenticate and authorize the connection.
-
-<!-- UPDATE LINKS ABOVE -->

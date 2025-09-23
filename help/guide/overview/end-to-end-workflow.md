@@ -55,5 +55,14 @@ After the connection is established, [!UICONTROL Fit Apparel] [creates a project
 
 Finally, after executing their campaigns, both brands upload data to [Measure](../collaborate/measure.md) the results and evaluate the effectiveness of their collaboration.
 
-<!-- ## Advertiser-to-advertising platform workflow {#advertiser-to-advertising-platform-workflow} -->
+## Advertiser-to-advertising platform workflow {#advertiser-to-advertising-platform-workflow}
 
+![UICONTROL Luma], an athletic retail company, wants to connect with [!UICONTROL Amazon Marketing Cloud] (AMC) to enhance their marketing capabilities by leveraging AMC's identity resolution and targeting tools. Luma already has an active Amazon Advertising account and is approved to use AMC.
+
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role. After establishing their account, [!UICONTROL Luma] must [create a data connection and source audiences](../setup/onboard-audiences.md). Since [!UICONTROL Luma] will activate audiences for marketing campaigns, they need to [configure a destination](../setup/manage-destinations.md).
+
+Once [!UICONTROL Luma] has their account set up, they're ready to [form a connection](../connect/establishing-connections.md) with AMC within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-publishers.md) feature to find AMC and [initiate a connection request](../connect/advertising-platforms/amc.md). After authenticating and authorizing the connection through the Amazon sign-in page, the connection with AMC is established.
+
+After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with AMC. Connection settings, including use cases, are pre-configured depending on the advertising platform. For AMC, the available use case is [Discover](../collaborate/advertising-platforms/amc.md#discover).
+
+[!UICONTROL Luma] leverages the [Discover](../collaborate/advertising-platforms/amc.md#discover) use case to gain insights and audience data from AMC. Using these insights, [!UICONTROL Luma] can optimize their marketing strategies and improve campaign effectiveness.
