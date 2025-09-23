@@ -22,7 +22,7 @@ To connect with AMC, advertisers must establish an advertiser-to-advertising-pla
 
 The **[!UICONTROL Connect to Amazon Marketing Cloud]** dialog appears. Review the next steps and data sharing details, then select **[!UICONTROL Agree and connect]**.
 
-![The Connect to Amazon Marketing Cloud dialog with Agree and connect button highlighted.](/help/assets/connect/advertising-platforms/amc-connect-dialog.png){zoomable="yes"}
+![The Connect to Amazon Marketing Cloud dialog with Agree and connect button highlighted.](/help/assets/connect/advertising-platforms/connect-to-amc.png){zoomable="yes"}
 
 Next, you're redirected to the Amazon sign-in page. Enter your Amazon credentials to authenticate and authorize the connection. After successfully signing in, you're redirected back to Real-Time CDP Collaboration, where the connection with AMC is now established.
 
@@ -31,6 +31,3 @@ Next, you're redirected to the Amazon sign-in page. Enter your Amazon credential
 ## Next steps {#next-steps}
 
 Now that you're connected with AMC, you can create a project to begin collaborating. For more information on creating projects, read the [manage projects](/help/guide/collaborate/manage-projects.md) guide. If you wish to view the connection settings or disconnect from AMC, follow the manage connections guide.
-
-
-
