@@ -28,6 +28,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Discover publishers](./connect/discover-publishers.md)
   * [Discover advertisers](./connect/discover-advertisers.md)
   * [Establish collaborator connections](./connect/establishing-connections.md)
+  * [Manage connections](./connect/manage-connections.md)
   * Advertising platform connections {#ad-platform-connections}
     * [Overview](./connect/advertising-platforms/overview.md)
     * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)

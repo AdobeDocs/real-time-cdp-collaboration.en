@@ -33,6 +33,10 @@ The brand-to-brand collaboration pattern enables brands to collaborate directly 
 
 To learn more about how brands collaborate in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) guide.
 
-<!-- ## Advertiser-to-advertising platform {#advertiser-to-advertising-platform} -->
+## Advertiser-to-advertising platform {#advertiser-to-advertising-platform}
 
-<!-- NEED SOME GENERAL INFO ON THIS PATTERN -->
+The advertiser-to-advertising platform collaboration pattern allows advertisers to connect with third-party advertising platforms, such as Amazon Marketing Cloud (AMC), to enhance their marketing capabilities. This pattern enables advertisers to leverage the platform’s identity resolution and targeting tools to extend the impact of their data. By integrating with advertising platforms, advertisers can deliver precise performance insights across audiences, empowering them to optimize spend, improve relevance, and drive measurable business outcomes.
+
+![An example of advertiser-to-advertising platform collaboration.](/help/assets/overview/advertiser-to-advertising-platform.png)
+
+To learn more about how advertisers collaborate with advertising platforms in this pattern, read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) guide.
