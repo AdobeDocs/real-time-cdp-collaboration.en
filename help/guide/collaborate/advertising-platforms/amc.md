@@ -8,11 +8,11 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 {{limited-availability-release-note}}
 
-After forming a connection with Amazon Marketing Cloud (AMC), advertisers can create a project to collaborate with AMC to leverage its advanced analytics capabilities. By collaborating with AMC through Real-Time CDP Collaboration, advertisers can gain deeper insights into their audience performance and optimize their marketing strategies. 
+After forming a connection with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), advertisers can create a project to collaborate with [!DNL AMC] to leverage its advanced analytics capabilities. By collaborating with [!DNL AMC] through Real-Time CDP Collaboration, advertisers can gain deeper insights into their audience performance and optimize their marketing strategies.
 
 >[!IMPORTANT]
 >
->The only use cases supported with AMC are **Audience discovery** and **Measurement**. Currently, only the **[!UICONTROL Discover]** section is available within your project with AMC. 
+>The only use cases supported with [!DNL AMC] are **Audience discovery** and **Measurement**. Currently, only the **[!UICONTROL Discover]** section is available within your project with [!DNL AMC].
 
 ## Discover {#discover}
 

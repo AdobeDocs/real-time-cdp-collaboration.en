@@ -22,4 +22,4 @@ The project overview displays the use cases selected during the connection setup
 
 ## Collaborating with advertising platforms {#collaborating-with-advertising-platforms}
 
-Collaborations with advertising platforms will vary based on the specific platform and its capabilities. Currently, the only available advertising platform in Real-Time CDP Collaboration is Amazon Marketing Cloud (AMC). For more information about collaborating with AMC, read the [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) guide.
+Collaborations with advertising platforms will vary based on the specific platform and its capabilities. Currently, the only available advertising platform in Real-Time CDP Collaboration is [!DNL Amazon Marketing Cloud] ([!DNL AMC]). For more information about collaborating with [!DNL AMC], read the [[!DNL Amazon Marketing Cloud]](/help/guide/collaborate/advertising-platforms/amc.md) guide.

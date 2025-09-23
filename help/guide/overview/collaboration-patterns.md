@@ -35,7 +35,7 @@ To learn more about how brands collaborate in this pattern, read the [end-to-end
 
 ## Advertiser-to-advertising platform {#advertiser-to-advertising-platform}
 
-The advertiser-to-advertising platform collaboration pattern allows advertisers to connect with third-party advertising platforms, such as Amazon Marketing Cloud (AMC), to enhance their marketing capabilities. This pattern enables advertisers to leverage the platform’s identity resolution and targeting tools to extend the impact of their data. By integrating with advertising platforms, advertisers can deliver precise performance insights across audiences, empowering them to optimize spend, improve relevance, and drive measurable business outcomes.
+The advertiser-to-advertising platform collaboration pattern allows advertisers to connect with third-party advertising platforms, such as [!DNL Amazon Marketing Cloud] ([!DNL AMC]), to enhance their marketing capabilities. This pattern enables advertisers to leverage the platform’s identity resolution and targeting tools to extend the impact of their data. By integrating with advertising platforms, advertisers can deliver precise performance insights across audiences, empowering them to optimize spend, improve relevance, and drive measurable business outcomes.
 
 ![An example of advertiser-to-advertising platform collaboration.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
