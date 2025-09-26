@@ -52,7 +52,7 @@ To learn how to establish a connection, read the section below that corresponds 
 
 ![High-level diagram of the advertiser-publisher connection process.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-In the advertiser-to-publisher pattern, an advertiser discovers a publisher they want to work with through the **[!UICONTROL Discover publishers]** workspace and sends a connection invite. The publisher then reviews the invite and accepts it, allowing the advertiser to propose connection settings. Once the publisher accepts the connection settings, the connection is established, and both collaborators can begin working together on projects.
+In the advertiser-to-publisher pattern, an advertiser discovers a publisher they want to work with through the **[!UICONTROL Discover collaborators]** workspace and sends a connection invite. The publisher then reviews the invite and accepts it, allowing the advertiser to propose connection settings. Once the publisher accepts the connection settings, the connection is established, and both collaborators can begin working together on projects.
 
 ### High-level overview 
 
@@ -106,21 +106,21 @@ The **[!UICONTROL Connect]** workspace is where you can manage your connections 
 
 >[!IMPORTANT]
 >
->Only advertisers can discover publishers using the **[!UICONTROL Discover publishers]** workspace. To learn about connecting with collaborators regardless of their role, read the [brand-to-brand connection](#brand-to-brand-connection) section.
+>Only advertisers can discover publishers using the **[!UICONTROL Discover collaborators]** workspace. To learn about connecting with collaborators regardless of their role, read the [brand-to-brand connection](#brand-to-brand-connection) section.
 
-To discover publishers, navigate to the **[!UICONTROL Discover publishers]** workspace in the **[!UICONTROL Connect]** tab. Here, you can browse through the list of available publishers using the pagination controls at the bottom of the workspace. To learn more about the **[!UICONTROL Discover publishers]** workspace, see the [discover publishers](/help/guide/connect/discover-publishers.md) guide.
+To discover publishers, navigate to the **[!UICONTROL Discover collaborators]** workspace in the **[!UICONTROL Connect]** tab. Here, you can browse through the list of available publishers using the pagination controls at the bottom of the workspace. To learn more about the **[!UICONTROL Discover collaborators]** workspace, see the [discover collaborators](/help/guide/connect/discover-collaborators.md) guide.
 
-![The Discover publishers workspace displaying a list of available publishers.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![The Discover collaborators workspace displaying a list of available publishers.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
 
 ### Send invite {#send-invite}
 
 >[!IMPORTANT]
 >
->This section describes the process of advertisers sending connection invites to publishers through the **[!UICONTROL Discover publishers]** workspace. To learn about forming connections between brands regardless of their roles, read the [brand-to-brand connection](#brand-to-brand-connection) section or visit the [private connection invite](#private-connection-invite) section.
+>This section describes the process of advertisers sending connection invites to publishers through the **[!UICONTROL Discover collaborators]** workspace. To learn about forming connections between brands regardless of their roles, read the [brand-to-brand connection](#brand-to-brand-connection) section or visit the [private connection invite](#private-connection-invite) section.
 
 Once you've identified a publisher you want to collaborate with, select the **[!UICONTROL Connect]** option on the publisher card. This action initiates the connection process.
 
-![The Connect option highlighted on a specific publisher in the Discover publishers workspace.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![The Connect option highlighted on a specific publisher in the Discover collaborators workspace.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 A dialog appears, prompting you to send a connection invite to the publisher. Select **[!UICONTROL Send invite]** to proceed.
 
