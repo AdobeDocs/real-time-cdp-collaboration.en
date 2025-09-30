@@ -7,6 +7,11 @@ exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 ---
 # Track your credit consumption activity
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_my_activity"
+>title="Read more"
+>abstract=""
+
 {{limited-availability-release-note}}
 
 >[!BEGINSHADEBOX]

@@ -56,6 +56,11 @@ Next, configure the **[!UICONTROL Audience Expiration]**. By default, the audien
 >abstract="Activation match keys are displayed based on the match keys you selected when creating your organization."
 
 >[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_activation_mapping"
+>title="Read more"
+>abstract=""
+
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
 >title="Target namespaces"
 >abstract="Target namespaces specify which identity namespace the match key will be mapped to in Adobe Experience Platform. Hashed match keys must be mapped to a target namespace that supports hashed values."
