@@ -5,7 +5,7 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 ---
-# Track your credit consumption activity
+# Track your credit consumption activity {#track-credit-consumption-activity}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_my_activity"
