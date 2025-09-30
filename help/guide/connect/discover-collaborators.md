@@ -17,11 +17,11 @@ Discover and connect with potential collaborators in Adobe Real-Time CDP Collabo
 
 To discover collaborators, go to the **[!UICONTROL Connect]** > **[!UICONTROL Discover collaborators]** tab.
 
-![The [!UICONTROL Discover collaborators] dashboard in the [!UICONTROL Connect] workspace.](/help/assets/connect/discover-collaborators/discover-collaborators-overview.png){zoomable="yes"}
+![The [!UICONTROL Discover collaborators] dashboard in the [!UICONTROL Connect] workspace.](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
 Select **[!UICONTROL View publisher]** to learn more about the publisher. You can also view and inspect any audiences that the publisher [set as public](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-![An individual publisher's details](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
+![An individual publisher's details](/help/assets/connect/discover-collaborators/view-publisher-profile.png){zoomable="yes"}
 
 ## My connections
 
@@ -29,7 +29,7 @@ The **[!UICONTROL My connections]** workspace provides an overview of your conne
 
 Under **[!UICONTROL Action required]**, you can see a list of all connections where an invite has been sent but the connection has not been established yet. An action might be required, from you or your collaborator. 
 
-![Action required view in the My connections screen](/help/assets/connect/discover-publishers/action-required-view.png){zoomable="yes"}
+![Action required view in the My connections screen](/help/assets/connect/discover-collaborators/action-required-view.png){zoomable="yes"}
 
 Some reasons why a connection is displayed in the **[!UICONTROL Action required]** view are:
 
@@ -40,4 +40,4 @@ Some reasons why a connection is displayed in the **[!UICONTROL Action required]
 
 In the **[!UICONTROL Existing connections]** view, you can explore existing connections with collaborators and proceed to create projects to start collaborating on campaigns.  
 
-![Existing connections view in the My connections screen](/help/assets/connect/discover-publishers/existing-connections-view.png){zoomable="yes"}
+![Existing connections view in the My connections screen](/help/assets/connect/discover-collaborators/existing-connections-view.png){zoomable="yes"}
