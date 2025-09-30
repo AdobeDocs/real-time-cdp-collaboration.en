@@ -58,7 +58,7 @@ In the advertiser-to-publisher pattern, an advertiser discovers a publisher they
 
 To establish a connection between an advertiser and a publisher, the following steps are involved:
 
-1. [Discover publishers](#discover-publishers): The advertiser identifies potential publishers to collaborate with.
+1. [Discover publishers](#discover-collaborators): The advertiser identifies potential collaborators to work with.
 1. [Send invite](#send-invite): The advertiser sends a connection invite to the selected publisher.
 1. [Accept invite](#accept-invite): The publisher reviews and accepts the invite.
 1. [Configure connection settings](#configure-connection-settings): The advertiser configures the connection settings and sends them to the publisher for review.
@@ -102,7 +102,7 @@ Once the connection settings are accepted, the connection is established, and co
 
 The **[!UICONTROL Connect]** workspace is where you can manage your connections with collaborators, send connection invites, and where advertisers can browse the publisher directory. The workspace is divided into two main tabs:
 
-### Discover publishers {#discover-publishers}
+### Discover collaborators {#discover-collaborators}
 
 >[!IMPORTANT]
 >
@@ -110,7 +110,7 @@ The **[!UICONTROL Connect]** workspace is where you can manage your connections 
 
 To discover publishers, navigate to the **[!UICONTROL Discover collaborators]** workspace in the **[!UICONTROL Connect]** tab. Here, you can browse through the list of available publishers using the pagination controls at the bottom of the workspace. To learn more about the **[!UICONTROL Discover collaborators]** workspace, see the [discover collaborators](/help/guide/connect/discover-collaborators.md) guide.
 
-![The Discover collaborators workspace displaying a list of available publishers.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![The Discover collaborators workspace displaying a list of available publishers.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### Send invite {#send-invite}
 
