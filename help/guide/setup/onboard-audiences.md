@@ -392,4 +392,4 @@ The **[!UICONTROL Categories]** dialog appears, allowing you to configure the ca
 
 ## Next steps
 
-After sourcing audiences, it's time to discover publishers to [connect](/help/guide/connect/establishing-connections.md) with to collaborate on projects.
+After sourcing audiences, it's time to discover collaborators to [connect](/help/guide/connect/establishing-connections.md) with to collaborate on projects.

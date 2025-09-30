@@ -77,7 +77,7 @@ In the compare audiences section, you can see the following metrics, which are b
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that are present in both your and your collaborator's audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of profiles overlapping between your and your collaborator's selected audience. |
 | **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. Audience index scores are not available when comparing against your collaborator's baseline (all audiences). |
-| **[!UICONTROL Identities breakdown by match key]** | The breakdown of identites for each match key chosen in the project, based on the select audiences for each collaborator. |
+| **[!UICONTROL Identities breakdown by match key]** | The breakdown of identites matched for each match key chosen in the project, based on the select audiences for each collaborator. |
 
 {style="table-layout:auto"}
 
