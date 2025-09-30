@@ -107,6 +107,11 @@ You now have access to Experience Platform and Permissions. In the final step, y
 
 ### Administrators: configure Real-Time CDP Collaboration access {#RTCDP-collaboration-access}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_permissions"
+>title="manage user access guide"
+>abstract=""
+
 To grant users access to Collaboration, you'll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization.
 
 When configuring individual access to Collaboration, you'll assign users' roles containing permissions from the Collaborations resource. You can use the [manage roles](./manage-roles.md) guide to find out information on:

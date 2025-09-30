@@ -58,6 +58,11 @@ To begin configuring your account, you must first set up the account details. Th
 >abstract="Match keys are identifiers used to reconcile audience profiles from different data sources. Include any match keys that your brand can work with."
 
 >[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_setup_match_keys"
+>title="match keys"
+>abstract=""
+
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="First-party people IDs"
 >abstract="First-party people IDs, such as hashed email addresses, hashed phone numbers or CRM IDs, are directly connected to an individual profile."
