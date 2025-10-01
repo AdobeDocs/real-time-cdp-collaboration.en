@@ -70,8 +70,6 @@ Once the connection settings are accepted, the connection is established, and co
 
 ## Advertiser-to-advertising-platform connection {#advertiser-to-advertising-platform-connection}
 
-<!-- ![High-level diagram of the advertiser-advertising platform connection process.](/help/assets/connect/establish-connection/advertiser-ad-platform-flow.png){zoomable="yes"} -->
-
 The advertiser-to-advertising-platform connection process allows advertisers to connect with third-party advertising platforms, such as Amazon Marketing Cloud (AMC), to enhance their marketing capabilities.
 
 ### High-level overview
