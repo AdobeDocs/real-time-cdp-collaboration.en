@@ -284,7 +284,6 @@ To add categories, select the **[!UICONTROL Edit]** option within the **[!UICONT
 
 The **[!UICONTROL Categories]** dialog will appear, allowing you to select the categories you want to add to the audience. To select an individual category, select the checkbox next to the category name. 
 
-![The Categories dialog with the available categories displayed.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### Connection access {#connection-access}
 
@@ -292,6 +291,11 @@ The **[!UICONTROL Categories]** dialog will appear, allowing you to select the c
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Connection access"
 >abstract="<p>Audiences can be of three types: public, private, and custom.</p><p> Their availability for use in projects with collaborators differs based on the connection access setting.</p>"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_access"
+>title="Read more"
+>abstract=""
 
 An audience's availability for use in projects with collaborators differs based on the connection access setting. In the **[!UICONTROL Connection access]** section, you can select if the audience should be private, public, or only available for specific connections. Public audiences are usable and discoverable in connections.
 
@@ -392,4 +396,4 @@ The **[!UICONTROL Categories]** dialog appears, allowing you to configure the ca
 
 ## Next steps
 
-After sourcing audiences, it's time to discover publishers to [connect](/help/guide/connect/establishing-connections.md) with to collaborate on projects.
+After sourcing audiences, it's time to discover collaborators to [connect](/help/guide/connect/establishing-connections.md) with to collaborate on projects.

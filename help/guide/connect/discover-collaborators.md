@@ -1,27 +1,27 @@
 ---
-title: Discover publishers
-description: As an advertiser, learn how to discover potential publishers to collaborate with using Adobe Real-Time CDP Collaboration
+title: Discover collaborators
+description: As an advertiser, learn how to discover potential collaborators to work with using Adobe Real-Time CDP Collaboration
 audience: admin, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
 ---
-# Discover publishers
+# Discover collaborators
 
 {{limited-availability-release-note}}
 
-Discover and connect with potential publishers in Adobe Real-Time CDP Collaboration. This guide provides insights on how to identify ideal collaborators and use their audiences to enhance your marketing campaigns.
+Discover and connect with potential collaborators in Adobe Real-Time CDP Collaboration. This guide provides insights on how to identify ideal collaborators and use their audiences to enhance your marketing campaigns.
 
 >[!NOTE]
 >
->Currently, the **[!UICONTROL Discover publishers]** workspace is only available to advertisers.
+>Currently, the **[!UICONTROL Discover collaborators]** workspace is only available to advertisers. Publishers cannot discover advertisers through the platform. Instead, publishers can share their connect code with advertisers to facilitate connections. For more information, see the [private connection invite](./establishing-connections.md#private-connection-invite) section.
 
-To discover publishers, go to the **[!UICONTROL Connect]** > **[!UICONTROL Discover publishers]** tab.
+To discover collaborators, go to the **[!UICONTROL Connect]** > **[!UICONTROL Discover collaborators]** tab.
 
-![The Discover publishers dashboard in the Connect workspace.](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
+![The [!UICONTROL Discover collaborators] dashboard in the [!UICONTROL Connect] workspace.](/help/assets/connect/discover-collaborators/discover-collaborators.png){zoomable="yes"}
 
 Select **[!UICONTROL View publisher]** to learn more about the publisher. You can also view and inspect any audiences that the publisher [set as public](/help/guide/setup/onboard-audiences.md#metadata-visibility).
 
-![An individual publisher's details](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
+![An individual publisher's details](/help/assets/connect/discover-collaborators/view-publisher-profile.png){zoomable="yes"}
 
 ## My connections
 
@@ -29,7 +29,7 @@ The **[!UICONTROL My connections]** workspace provides an overview of your conne
 
 Under **[!UICONTROL Action required]**, you can see a list of all connections where an invite has been sent but the connection has not been established yet. An action might be required, from you or your collaborator. 
 
-![Action required view in the My connections screen](/help/assets/connect/discover-publishers/action-required-view.png){zoomable="yes"}
+![Action required view in the My connections screen](/help/assets/connect/discover-collaborators/action-required-view.png){zoomable="yes"}
 
 Some reasons why a connection is displayed in the **[!UICONTROL Action required]** view are:
 
@@ -40,4 +40,4 @@ Some reasons why a connection is displayed in the **[!UICONTROL Action required]
 
 In the **[!UICONTROL Existing connections]** view, you can explore existing connections with collaborators and proceed to create projects to start collaborating on campaigns.  
 
-![Existing connections view in the My connections screen](/help/assets/connect/discover-publishers/existing-connections-view.png){zoomable="yes"}
+![Existing connections view in the My connections screen](/help/assets/connect/discover-collaborators/existing-connections-view.png){zoomable="yes"}
