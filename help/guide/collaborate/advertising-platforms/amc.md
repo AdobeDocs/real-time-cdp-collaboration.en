@@ -61,7 +61,7 @@ The **[!UICONTROL Compare audiences]** section provides insights into how your [
 | Metric                         | Description                                                                                       |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon’s Identity Resolution] was able to resolve using your audience data. |
-| [!UICONTROL Overlapping ad exposed IDs]     | This represents the number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. |
+| [!UICONTROL Overlapping ad exposed IDs]     | The number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. |
 | [!UICONTROL Overlap %]                      | The proportion of [!UICONTROL Resolved IDs] that have been exposed to an ad via [!DNL Amazon Ads]. |
 | [!UICONTROL Breakdown by Amazon ad product] | Breakdown of [!UICONTROL Overlapping ad exposed IDs] reached by either [!UICONTROL Sponsored Product] and/or [!UICONTROL DSP]. Each is represented as an individual percentage from total number of ad exposed IDs. Since an ID can belong to both [!UICONTROL Sponsored Products] and [!UICONTROL DSP], the percentages may not sum to 100%. |
 
