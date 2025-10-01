@@ -28,7 +28,7 @@ In the advertiser-to-publisher pattern, an advertiser discovers a publisher they
 
 To establish a connection between an advertiser and a publisher, the following steps are involved:
 
-1. [Discover publishers](./discover-publishers.md): The advertiser identifies potential publishers to collaborate with.
+1. [Discover publishers](./discover-collaborators.md): The advertiser identifies potential publishers to collaborate with.
 2. [Send invite](./establishing-connections.md#send-invite): The advertiser sends a connection invite to the selected publisher.
 3. [Accept invite](./establishing-connections.md#accept-invite): The publisher reviews and accepts the invite.
 4. [Configure connection settings](./establishing-connections.md#configure-connection-settings): The advertiser configures the connection settings and sends them to the publisher for review.
@@ -76,5 +76,5 @@ The advertiser-to-advertising-platform connection process allows advertisers to 
 
 The connection process between an advertiser and an advertising platform involves several steps. Before the connection process begins, ensure you have an active account with the advertising platform and are approved to use their services. The following steps outline the connection process:
 
-1. [Discover advertising platforms](./discover-publishers.md): The advertiser identifies potential advertising platforms to collaborate with.
+1. [Discover advertising platforms](./discover-collaborators.md): The advertiser identifies potential advertising platforms to collaborate with.
 2. [Connect to advertising platform](./advertising-platforms/overview.md#advertising-platforms-overview): The advertiser initiates the connection process by selecting the advertising platform they want to connect with and follows the prompts to authenticate and authorize the connection.
