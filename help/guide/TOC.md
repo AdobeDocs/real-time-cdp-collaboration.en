@@ -24,13 +24,22 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
   * [Audit logs](./setup/audit-logs.md)
 * Establishing connections {#connect}
+  * [Overview.md](./connect/overview.md)
   * [Discover collaborators](./connect/discover-collaborators.md)
-  * [Establishing connections](./connect/establishing-connections.md)
+  * [Establish collaborator connections](./connect/establishing-connections.md)
+  * [Manage connections](./connect/manage-connections.md)
+  * Advertising platform connections {#ad-platform-connections}
+    * [Overview](./connect/advertising-platforms/overview.md)
+    * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Collaborate {#collaborate}
+  * [Overview](./collaborate/overview.md)
   * [Manage projects](./collaborate/manage-projects.md)
-  * [Discover](./collaborate/discover.md)
-  * [Activate](./collaborate/activate.md)
-  * [Measure](./collaborate/measure.md)
+  * Collaborator connections {#collaborator-connections}
+    * [Discover](./collaborate/discover.md)
+    * [Activate](./collaborate/activate.md)
+    * [Measure](./collaborate/measure.md)
+  * Advertising platform connections {#ad-platform-connections}
+    * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * Destinations {#destinations}
   * [Overview](./destinations/overview.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)

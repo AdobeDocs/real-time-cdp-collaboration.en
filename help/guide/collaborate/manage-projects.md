@@ -49,13 +49,3 @@ Next, add a **[!UICONTROL Project name]** and **[!UICONTROL Description]** for y
 You can now view your new project, its details, and available sections based on the use cases selected during connection setup.
 
 ![The project overview workspace.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## Project use cases {#project-use-cases}
-
-The project overview displays the use cases selected during the connection setup. These use cases define the functionality available in the project. The use cases are:
-
-| Use case | Project section |
-| --- | --- |
-| Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md) section and all availabile functionality. |
-| Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md) section and all availabile functionality. |
-| Audience activation | This use case grants access to the [Activate](/help/guide/collaborate/activate.md) section and all availabile functionality. |

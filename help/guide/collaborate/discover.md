@@ -37,6 +37,10 @@ To begin using the **[!UICONTROL Discover]** tab within your project, you should
 
 Once these prerequisites are met, you can start exploring and comparing overlaps between you and your collaborator's audiences.
 
+>[!NOTE]
+>
+>This **[!UICONTROL Discover]** workspace is not relevant for collaborations with advertising platforms. Currently, Amazon Marketing Cloud is the only available advertising platform in Real-Time CDP Collaboration. For more information about the [!DNL AMC] **[!UICONTROL Discover]** workspace, read the [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) guide.
+
 ## Compare audiences {#compare-audiences}
 
 >[!CONTEXTUALHELP]
