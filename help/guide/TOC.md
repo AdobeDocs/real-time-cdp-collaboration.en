@@ -17,6 +17,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Overview of setup section](./setup/setup-overview.md)
   * [Onboard and manage your account](./setup/onboard-account.md)
   * [Source and manage audiences](./setup/onboard-audiences.md)
+  * [Configure AWS S3 for audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
   * [Manage data connections](./setup/manage-data-connection.md)
   * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
