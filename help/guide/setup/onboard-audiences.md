@@ -58,6 +58,10 @@ Next, you'll choose the source for your data connection. The available sources i
 * **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
 * **Google Cloud Platform** (Future release): Connect to your Google Cloud Storage to source audience data directly from your GCS buckets.
 
+<!-- Add list item in final draft:
+* **Amazon Web Services**: Connect to your Amazon S3 storage to source audience data directly from your S3 buckets. See the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) guide for step-by-step instructions.
+ -->
+
 Select your data source and then select **[!UICONTROL Next]**.
 
 ![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
