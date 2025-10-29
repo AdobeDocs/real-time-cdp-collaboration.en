@@ -132,7 +132,6 @@ Title: Audience sourcing in progress
 Body: Audiences are being sourced from [Cloud Source Name] and will appear once the process is complete.
 
 ![The My data connections tab showing the AWS S3 data connection with sourcing status information.](../../assets/setup/aws-audience-sourcing/1.14a.png)
-words
 
 <!-- Below is live contextual help: -->
 ## Data connection details {#data-connection-details}
