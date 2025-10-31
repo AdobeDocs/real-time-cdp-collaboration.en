@@ -79,14 +79,18 @@ Body:
 
 ![The Prepare Your Data for Sourcing dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/aws-audience-sourcing/1.2a.png)
 
-1.3    
-You provide your credentials to connect your AWS S3 bucket to RTCDP Collaboration.  
-Input Fields  
-IAM role (required)  
-S3 Bucket Name (required)  
-Folder Path (required)  
+### 3. Authenticate your S3 connection {#authenticate-s3-connection}
+
+Provide your credentials to connect your AWS S3 bucket to Real-Time CDP Collaboration.
+
+**Input fields**
+
+* IAM Role (required)
+* S3 Bucket Name (required)
+* Folder Path (required)
+
 Copy:  
-To connect your Amazon S3 storage, please authorize Adobe's service user to retrieve your audience data for processing. Follow the steps outlined in {Experience League} to grant Adobe access to your Amazon S3 storage.
+*To connect your Amazon S3 storage, please authorize Adobe's service user to retrieve your audience data for processing. Follow the steps outlined in {Experience League} to grant Adobe access to your Amazon S3 storage.*
 
 ![The Amazon S3 connection form with fields for IAM role, S3 Bucket Name, and Folder Path.](../../assets/setup/aws-audience-sourcing/1.3a.png)
 
