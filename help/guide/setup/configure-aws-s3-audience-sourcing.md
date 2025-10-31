@@ -94,37 +94,39 @@ Copy:
 
 ![The Amazon S3 connection form with fields for IAM role, S3 Bucket Name, and Folder Path.](../../assets/setup/aws-audience-sourcing/1.3a.png)
 
-1.4    
-You provide an acknowledgment that you have removed consent opt-outs after selecting "Next" on the authentication step.  
-You must acknowledge this before moving forward.
+### 4. Confirm consent acknowledgment {#confirm-consent}
+
+You must acknowledge that consent opt-outs have been removed before proceeding. Check the confirmation box followed by **[!UICONTROL OK]** to confirm.
 
 ![The consent opt-out acknowledgment dialog requiring confirmation before proceeding.](../../assets/setup/aws-audience-sourcing/1.4a.png)
 
-1.5    
-You connect to your AWS S3 bucket.  
-You receive a success message if authentication is successful.  
-Copy: Authentication successful. Your connection to Amazon S3 has been established successfully.  
-You receive an error message if authentication fails.  
-Copy: Authentication failed. Please review your credentials and try again.  
-You receive an error message if access is denied.  
-Copy: Access denied. Your credentials don't have the required permissions to access this Amazon S3 bucket. Please verify access settings or contact your administrator.  
-You receive an error message if the audience files are not in the expected format (per the Audience Onboarding specification).  
-Copy: Invalid file format. The audience data doesn't match the expected structure. Please ensure your files comply with the Audience Sourcing Specifications.  
-You receive an error message if the audience files are not found.  
-Copy: No audience files found. Please confirm that your audience files exist in the specified folder path and that the path is accessible.  
-For any other error (for example, an unknown error), you see the following:  
-Copy: An internal error has occurred. Please try again. If the problem persists, contact customer support. (ACPS - XXXX-XXX) Reference id: XXXXXXX-XXXXX-XXXX-XXXX-XXXXXXXX
+### 5. Validate authentication results {#validate-authentication}
+
+After connecting, the system validates your credentials and displays one of the following messages:
+
+| Status                      | Message                                         | Description |
+|---| ---|---|
+| **Success**                 | **[!UICONTROL Authentication successful]**      | Your connection to Amazon S3 has been established successfully.  |
+| **Failed**                  | **[!UICONTROL Authentication failed]**          | Please review your credentials and try again. |
+| **Access denied**           | **[!UICONTROL Access denied]**                  | Your credentials don't have the required permissions to access this Amazon S3 bucket. Please verify access settings or contact your administrator. |
+| **Invalid file format**     | **[!UICONTROL Invalid file format]**            | The audience data doesn't match the expected structure. Please ensure your files comply with the Audience Sourcing Specifications.                 |
+| **No audience files found** | **[!UICONTROL No audience files found]**        | Please confirm that your audience files exist in the specified folder path and that the path is accessible.                                        |
+| **Internal error**          | **[!UICONTROL An internal error has occurred]** | Please try again. If the problem persists, contact customer support. (ACPS - XXXX-XXX) Reference id: XXXXXXX-XXXXX-XXXX-XXXX-XXXXXXXX.             |
 
 ![The authentication success message confirming the connection to Amazon S3 has been established.](../../assets/setup/aws-audience-sourcing/1.5a.png)
-
 ![The authentication error messages showing various failure scenarios including access denied and invalid file format.](../../assets/setup/aws-audience-sourcing/1.5b.png)
 
-1.6    
-You provide an account name and description for the S3 bucket you are connecting.  
-Data connection name (required)  
-Data connection description (optional)
+### 6. Provide connection details {#provide-connection-details}
+
+Enter a descriptive name and optional description for your S3 data connection.
+
+**Fields**
+
+* Data connection name (required)
+* Data connection description (optional)
 
 ![The data connection details form with fields for connection name and description.](../../assets/setup/aws-audience-sourcing/1.6a.png)
+
 
 1.8    
 You see the field mapping screen.  
