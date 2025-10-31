@@ -138,14 +138,19 @@ Copy across top of page:
 
 ![The field mapping screen showing auto-mapped source and target identity fields.](../../assets/setup/aws-audience-sourcing/1.8a.png)
 
+### 8. Schedule refresh frequency and date range {#schedule-refresh}
 
-1.9    
-You set the refresh schedule and the date range for which the connection is available.  
-Frequency options:  
-Daily up to every 6 days  
-You see copy that informs you that the refresh cadence should not be more frequent than the refresh cadence of the underlying data.
+<!-- (1.9) -->
+
+Set how frequently your data connection refreshes and specify the date range during which the connection remains active.  
+Available frequencies range from **daily up to every six days**.
+
+>[!IMPORTANT]
+>
+>Do not configure the refresh cadence to be more frequent than the refresh cadence of the underlying S3 data source.
 
 ![The schedule settings screen with refresh frequency options and date range configuration.](../../assets/setup/aws-audience-sourcing/1.9a.png)
+
 
 1.11    
 You see a summary screen that asks you to review the data connection before completing it.  
