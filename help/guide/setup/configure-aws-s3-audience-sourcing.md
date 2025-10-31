@@ -166,21 +166,27 @@ Review your configuration in the summary screen. Confirm all sections before sel
 
 ![The review summary screen displaying data connection, details, mapping, and schedule sections.](../../assets/setup/aws-audience-sourcing/1.11a.png)
 
+## Review sourced audiences {#review-sourced-audiences}
 
-1.13    
-Audiences sourced through an AWS S3 bucket appear in the "My Audiences" tab and have the same functionality and information as audiences sourced from AEP.  
-The audience source is "AWS S3".  
-If sourcing is in progress, you are informed of that.  
-Copy:  
-Title: Audience sourcing in progress  
-Body: Audiences are being sourced from [Cloud Source Name] via the [Data Connection Name] data connection and will appear once the process is complete.  
-You see the message above for any or all S3 data connections that are currently sourcing audiences.  
-If sourcing fails, you are informed of that.  
-Copy:  
-Title: Audience sourcing failed  
-Body: Audience sourcing from [Cloud Source Name] via the [Data Connection Name] data connection failed. Please try again. If the problem persists, contact customer support. Reference id: XXXXXXX-XXXXX-XXXX-XXXX-XXXXXXXX
+<!-- (1.13) -->
+
+After completing the configuration, Collaboration begins sourcing audiences from your S3 bucket. Audiences sourced through an AWS S3 bucket appear in the "My Audiences" tab and have the same functionality and information as audiences sourced from Experience Platform.
+
+If sourcing is in progress, a banner appears to indicate that your audiences are being sourced.
 
 ![The Audiences tab showing that AWS S3 audience sourcing is in progress.](../../assets/setup/aws-audience-sourcing/1.13a.png)
+
+Copy:  
+Title: *Audience sourcing in progress*  
+Body: *Audiences are being sourced from [Cloud Source Name] via the [Data Connection Name] data connection and will appear once the process is complete.*
+
+If sourcing fails, you see the following message:
+
+Copy:  
+Title: *Audience sourcing failed*  
+Body: *Audience sourcing from [Cloud Source Name] via the [Data Connection Name] data connection failed. Please try again. If the problem persists, contact customer support. Reference id: XXXXXXX-XXXXX-XXXX-XXXX-XXXXXXXX.*
+
+Once the S3 audiences are sourced, your list of available audiences are provided in a tabulated view.
 
 ![The Audiences tab showing a tabulated list of sourced audiences.](../../assets/setup/aws-audience-sourcing/1.13b.png)
 
