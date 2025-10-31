@@ -118,8 +118,11 @@ After connecting, the system validates your credentials and displays one of the 
 | **No audience files found** | **[!UICONTROL No audience files found]**        | Please confirm that your audience files exist in the specified folder path and that the path is accessible.                                        |
 | **Internal error**          | **[!UICONTROL An internal error has occurred]** | Please try again. If the problem persists, contact customer support. (ACPS - XXXX-XXX) Reference id: XXXXXXX-XXXXX-XXXX-XXXX-XXXXXXXX.             |
 
-![The authentication success message confirming the connection to Amazon S3 has been established.](../../assets/setup/aws-audience-sourcing/1.5a.png)
-![The authentication error messages showing various failure scenarios including access denied and invalid file format.](../../assets/setup/aws-audience-sourcing/1.5b.png)
+
+
+<!-- ![The authentication success message confirming the connection to Amazon S3 has been established.](../../assets/setup/aws-audience-sourcing/1.5a.png) -->
+
+<!-- ![The authentication error messages showing various failure scenarios including access denied and invalid file format.](../../assets/setup/aws-audience-sourcing/1.5b.png) -->
 
 ### 6. Provide connection details {#provide-connection-details}
 
