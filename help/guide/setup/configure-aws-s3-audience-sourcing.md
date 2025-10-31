@@ -127,16 +127,17 @@ Enter a descriptive name and optional description for your S3 data connection.
 
 ![The data connection details form with fields for connection name and description.](../../assets/setup/aws-audience-sourcing/1.6a.png)
 
+### 7. Review auto-mapped identity fields {#auto-mapped-fields}
 
-1.8    
-You see the field mapping screen.  
-The "Apply transformation" toggle is not visible.  
-The "Add field" call to action is not visible.  
-The source and target fields are auto-populated based on the underlying audience tables. This is read only and the configuration cannot be changed. 
-Copy across top of page  
-Copy: Source identity fields from your data connection are auto-mapped to target identity fields in Real-Time CDP Collaboration based on the {Audience Onboarding Specifications}.
+<!-- (1.8) -->
+
+The source and target fields are auto-populated based on the underlying audience tables. The **Field mapping** screen is read-only. You cannot add or delete fields or apply transformations. Source and target fields are automatically mapped based on the underlying audience tables.
+
+Copy across top of page:  
+*Source identity fields from your data connection are auto-mapped to target identity fields in Real-Time CDP Collaboration based on the {Audience Onboarding Specifications}.*
 
 ![The field mapping screen showing auto-mapped source and target identity fields.](../../assets/setup/aws-audience-sourcing/1.8a.png)
+
 
 1.9    
 You set the refresh schedule and the date range for which the connection is available.  
