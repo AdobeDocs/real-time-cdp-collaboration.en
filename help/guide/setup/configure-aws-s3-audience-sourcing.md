@@ -65,9 +65,6 @@ Copy: *To add additional audiences, please update the audiences files within the
 
 ![The Add audiences workspace with the Set up new data connection option selected.](../../assets/setup/aws-audience-sourcing/1.1b.png)
 
-
-<!-- --- -->
-
 ### 2. Review audience file requirements {#review-audience-requirements}
 
 You see a pop-up with a link to the **Audience Onboarding specification** that explains how your audience files must be structured.
@@ -75,21 +72,10 @@ You see a pop-up with a link to the **Audience Onboarding specification** that e
 Copy:  
 Title: *Prepare Your Data for Sourcing*  
 Body:  
-*Before starting audience sourcing from Amazon S3, please ensure that:*  
-- *You have authorized Adobe as a user so that Adobe can retrieve data from your Amazon S3 storage for processing.*  
-- *Your data complies with the {Audience Sourcing Specifications}, as the match keys are auto-mapped based on the prescribed format.*
+*Before starting audience sourcing from Amazon S3, please ensure that:*
 
-![The Prepare Your Data for Sourcing dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/aws-audience-sourcing/1.2a.png)
-
-<!-- --- -->
-
-1.2    
-You see a pop-up with a link to the Audience Onboarding specification that explains how your audience files must be structured.  
-Copy:  
-Title: Prepare Your Data for Sourcing  
-Body: Before starting audience sourcing from Amazon S3, please ensure that:  
-You have authorized Adobe as a user so that Adobe can retrieve data from your Amazon S3 storage for processing.  
-Your data complies with the {Audience Sourcing Specifications}, as the match keys are auto-mapped based on the prescribed format.
+* *You have authorized Adobe as a user so that Adobe can retrieve data from your Amazon S3 storage for processing.*  
+* *Your data complies with the {Audience Sourcing Specifications}, as the match keys are auto-mapped based on the prescribed format.*
 
 ![The Prepare Your Data for Sourcing dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/aws-audience-sourcing/1.2a.png)
 
