@@ -81,6 +81,11 @@ Body:
 
 ### 3. Authenticate your S3 connection {#authenticate-s3-connection}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_sources_s3_folderpath"
+>title="Folder path format"
+>abstract="Enter the folder path (prefix) within your Amazon S3 bucket where your audience files are stored.<br><ul><li>Do not start paths with a forward slash (/).</li><li>Include a trailing slash at the end of the path.</li><ul><br>Example: `base/path/`"
+
 Provide your credentials to connect your AWS S3 bucket to Real-Time CDP Collaboration.
 
 **Input fields**
@@ -174,7 +179,7 @@ After completing the configuration, Collaboration begins sourcing audiences from
 
 If sourcing is in progress, a banner appears to indicate that your audiences are being sourced.
 
-![The Audiences tab showing that AWS S3 audience sourcing is in progress.](../../assets/setup/aws-audience-sourcing/1.13a.png)
+![The Audiences tab sence sourcing is in prohowing that AWS S3 audigress.](../../assets/setup/aws-audience-sourcing/1.13a.png)
 
 Copy:  
 Title: *Audience sourcing in progress*  
@@ -190,23 +195,15 @@ Once the S3 audiences are sourced, your list of available audiences are provided
 
 ![The Audiences tab showing a tabulated list of sourced audiences.](../../assets/setup/aws-audience-sourcing/1.13b.png)
 
-1.14    
-The AWS S3 data connection appears in the "My data connections" tab and includes the same functionality and information as audiences sourced from AEP.  
-The audience source is "AWS S3".  
-The "+ Add audience" option is not available for S3 data connections (this appears when selecting the ellipses on the "My data connections" tab).  
-The "+" icon is not available on the details page of the data connection.  
-You are informed if the data connection is currently sourcing audiences.  
-Copy:  
-Title: Audience sourcing in progress  
-Body: Audiences are being sourced from [Cloud Source Name] and will appear once the process is complete.
+## View your S3 data connection {#view-s3-connection}
+
+Your newly added AWS S3 connection appears in the **[!UICONTROL My data connections]** tab. The audience source is displayed as [!UICONTROL AWS S3].
+
+Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add audiences directly from this view. Navigate to the the "My data connections" tab to add another audience.
 
 ![The My data connections tab showing the AWS S3 data connection with sourcing status information.](../../assets/setup/aws-audience-sourcing/1.14a.png)
 
+## Next steps {#next-steps}
 
-<!-- Below is live contextual help: -->
-## Data connection details {#data-connection-details}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_sources_s3_folderpath"
->title="Folder path format"
->abstract="Enter the folder path (prefix) within your Amazon S3 bucket where your audience files are stored.<br><ul><li>Do not start paths with a forward slash (/).</li><li>Include a trailing slash at the end of the path.</li><ul><br>Example: `base/path/`"
+After successfully sourcing your audiences, they appear in the **[!UICONTROL My audiences]** workspace.  
+You can now [view and manage your audiences](./onboard-audiences.md) to make them available for collaboration, activation, and overlap analysis.
