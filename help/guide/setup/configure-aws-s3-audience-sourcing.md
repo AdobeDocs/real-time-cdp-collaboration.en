@@ -151,16 +151,21 @@ Available frequencies range from **daily up to every six days**.
 
 ![The schedule settings screen with refresh frequency options and date range configuration.](../../assets/setup/aws-audience-sourcing/1.9a.png)
 
+### 9. Review and complete the connection {#review-and-complete}
 
-1.11    
-You see a summary screen that asks you to review the data connection before completing it.  
-Summary sections  
-Data connection  
-Details  
-Mapping  
-Schedule
+<!-- (1.11) -->
+
+Review your configuration in the summary screen. Confirm all sections before selecting **[!UICONTROL Complete]**.
+
+**Summary sections**
+
+* **[!UICONTROL Data connection]**
+* **[!UICONTROL Details]**
+* **[!UICONTROL Mapping]**
+* **[!UICONTROL Schedule]**
 
 ![The review summary screen displaying data connection, details, mapping, and schedule sections.](../../assets/setup/aws-audience-sourcing/1.11a.png)
+
 
 1.13    
 Audiences sourced through an AWS S3 bucket appear in the "My Audiences" tab and have the same functionality and information as audiences sourced from AEP.  
