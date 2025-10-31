@@ -49,11 +49,11 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 
 If this is your first audience, you may also select the **[!UICONTROL Add]** option.
 
-<!-- another screenshot needed here -->
+![Add an adudience.](../../assets/setup/add-manage-audiences/add-audiences.png)
 
 The Add audience workflow appears. Select **[!UICONTROL Add a new data connection]** and then select **[!UICONTROL Next]**.
 
-![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
+![The Add audiences workspace with the Add a new data connection option highlighted.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 ### 1. Select AWS S3 as the data connection {#select-aws-s3}
 
@@ -63,7 +63,7 @@ Copy: *To add additional audiences, please update the audiences files within the
 
 ![The data connection selection screen with AWS S3 available as a selectable option.](../../assets/setup/aws-audience-sourcing/1.1a.png)
 
-![The Add audiences workspace with the Set up new data connection option selected.](../../assets/setup/aws-audience-sourcing/1.1b.png)
+<!-- ![The Add audiences workspace with the Set up new data connection option selected.](../../assets/setup/aws-audience-sourcing/1.1b.png) -->
 
 ### 2. Review audience file requirements {#review-audience-requirements}
 
