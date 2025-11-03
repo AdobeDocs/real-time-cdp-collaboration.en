@@ -11,7 +11,7 @@ Learn how to configure and connect your [!DNL Amazon S3] storage in the Adobe Re
 >[!IMPORTANT]
 >
 >Before following this guide, you must have completed the steps to authorize Adobe's IAM role within your AWS account.  
->See the **Configure AWS permissions for audience sourcing** guide for for step-by-step setup instructions.
+>See the **Configure AWS permissions for audience sourcing** guide for step-by-step setup instructions.
 
 <!-- Question: is that the bet doc name? -->
 
@@ -55,14 +55,13 @@ The Add audience workflow appears. Select **[!UICONTROL Add a new data connectio
 
 ![The Add audiences workspace with the Add a new data connection option highlighted.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### 1. Select [!DNL Amazon S3] as the data connection {#select-aws-s3}
+### Select [!DNL Amazon S3] as the data connection {#select-aws-s3}
 
 Select **[!UICONTROL Amazon S3]** as a data connection, followed by **[!UICONTROL Next]**.  
 
-![The data connection selection screen with [!DNL Amazon S3] available as a selectable option.](../../assets/setup/aws-audience-sourcing/1.1a.png)
-<!-- select-s3-data-connection.png -->
+![The data connection selection screen with [!DNL Amazon S3] available as a selectable option.](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
 
-### 2. Review audience file requirements {#review-audience-requirements}
+### Review audience file requirements {#review-audience-requirements}
 
 A dialog appears that explains how your audience files must be structured. Use the link to the **[!UICONTROL [audience sourcing specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** to learn how to format and structure audience data from [!DNL Amazon S3] for Collaboration to read it correctly.
 
@@ -79,10 +78,9 @@ Key considerations include:
 * Each audience record must include identifiers such as `AUDIENCE_ID`, `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, or `ADFIXUS_ID`.
 * Data refreshes occur every 1–6 days; if not refreshed within seven days, it is deleted.
 
-![The Prepare Your Data for Sourcing dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/aws-audience-sourcing/1.2a.png)
-<!-- prepare-data-sourcing-dialog.png -->
+![The Prepare Your Data for Sourcing dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
-### 3. Authenticate your S3 connection {#authenticate-s3-connection}
+### Authenticate your S3 connection {#authenticate-s3-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
@@ -99,15 +97,15 @@ Follow the steps outlined in [Amazon S3 configuration workflow](https://experien
 * S3 Bucket Name (required)
 * Folder Path (required)
 
-![The [!DNL Amazon S3] connection form with fields for IAM role, S3 Bucket Name, and Folder Path.](../../assets/setup/aws-audience-sourcing/1.3a.png)
+![The [!DNL Amazon S3] connection form with fields for IAM role, S3 Bucket Name, and Folder Path.](../../assets/setup/aws-audience-sourcing/s3-authentication-credentials-form.png)
 
-### 4. Confirm consent acknowledgment {#confirm-consent}
+### Confirm consent acknowledgment {#confirm-consent}
 
 You must then acknowledge that consent opt-outs have been removed before proceeding. Check the confirmation box followed by **[!UICONTROL OK]** to confirm.
 
-![The consent opt-out acknowledgment dialog requiring confirmation before proceeding.](../../assets/setup/aws-audience-sourcing/1.4a.png)
+![The consent opt-out acknowledgment dialog requiring confirmation before proceeding.](../../assets/setup/aws-audience-sourcing/consent-optout-acknowledgment.png)
 
-### 5. Validate authentication results {#validate-authentication}
+### Validate authentication results {#validate-authentication}
 
 After connecting, the system validates your credentials and displays one of the following messages:
 
@@ -121,28 +119,24 @@ After connecting, the system validates your credentials and displays one of the 
 | **Internal error**          | **[!UICONTROL An internal error has occurred]** | Please try again. If the problem persists, contact customer support. (ACPS - XXXX-XXX) Reference id: XXXXXXX-XXXXX-XXXX-XXXX-XXXXXXXX.             |
 
 
-### 6. Provide connection details {#provide-connection-details}
+### Provide connection details {#provide-connection-details}
 
 Enter a descriptive name and optional description for your S3 data connection. Input your values into the following UI fields:
 
 * **[!UICONTROL Data connection name]** (required)
 * **[!UICONTROL Data connection description]** (optional)
 
-![The data connection details form with fields for connection name and description.](../../assets/setup/aws-audience-sourcing/1.6a.png)
+![The data connection details form with fields for connection name and description.](../../assets/setup/aws-audience-sourcing/s3-connection-name-description.png)
 
-### 7. Review auto-mapped identity fields {#auto-mapped-fields}
-
-<!-- (1.8) -->
+### Review auto-mapped identity fields {#auto-mapped-fields}
 
 The **[!UICONTROL Mapping]** screen is read-only. You cannot add, delete, or apply transformations. Collaboration automatically maps source identity fields from your audience files to target fields based on the Audience Sourcing Specification.
 
 Visually confirm the mapped fields and select **[!UICONTROL Next]** to continue.
 
-![The field mapping screen showing auto-mapped source and target identity fields.](../../assets/setup/aws-audience-sourcing/1.8a.png)
+![The field mapping screen showing auto-mapped source and target identity fields.](../../assets/setup/aws-audience-sourcing/s3-field-mapping-auto-mapped.png)
 
-### 8. Schedule refresh frequency and date range {#schedule-refresh}
-
-<!-- (1.9) -->
+### Schedule refresh frequency and date range {#schedule-refresh}
 
 The **[!UICONTROL Schedule]** view appears. Use the dropdown menu to select a refresh frequency between one and six days, then set the active date range. Use the calendar icon to specify start and end dates.
 
@@ -150,13 +144,11 @@ The **[!UICONTROL Schedule]** view appears. Use the dropdown menu to select a re
 >
 >Do not configure the refresh cadence to be more frequent than the refresh cadence of the underlying S3 data source.
 
-![The schedule settings screen with refresh frequency options and date range configuration.](../../assets/setup/aws-audience-sourcing/1.9a.png)
+![The schedule settings screen with refresh frequency options and date range configuration.](../../assets/setup/aws-audience-sourcing/s3-schedule-refresh-frequency.png)
 
-### 9. Review and complete the connection {#review-and-complete}
+### Review and complete the connection {#review-and-complete}
 
-<!-- (1.11) -->
-
-Finally, review your configuration settings in the summary screen. This view contains a summary fo the following sections:
+Finally, review your configuration settings in the summary screen. This view contains a summary of the following sections:
 
 * **[!UICONTROL Data connection]**: Displays the IAM role, S3 bucket name, and folder path you configured.
 * **[!UICONTROL Details]**: Shows the name and optional description of your data connection to help identify it later.
@@ -165,23 +157,21 @@ Finally, review your configuration settings in the summary screen. This view con
 
 Select the pencil icon if you need to edit a section. Select **[!UICONTROL Complete]** to confirm all sections.
 
-![The review summary screen displaying data connection, details, mapping, and schedule sections.](../../assets/setup/aws-audience-sourcing/1.11a.png)
+![The review summary screen displaying data connection, details, mapping, and schedule sections.](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
 A dialog confirmation appears stating that the data connection was created successfully and that audience sourcing in progress.
 
 ## Review sourced audiences {#review-sourced-audiences}
 
-<!-- (1.13) -->
-
 After completing the configuration, Collaboration begins sourcing audiences from your S3 bucket. Audiences sourced through an [!DNL Amazon S3] bucket appear in the **[!UICONTROL My Audiences]** tab and have the same functionality and information as audiences sourced from Experience Platform.
 
 If audience sourcing is in progress, a banner appears at the top of the screen. Individual audiences appear only after sourcing completes.
 
-![The Audiences tab showing that sourcing is in progress for [!DNL Amazon S3] audiences.](../../assets/setup/aws-audience-sourcing/1.13a.png)
+![The Audiences tab showing that sourcing is in progress for [!DNL Amazon S3] audiences.](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
 
 Once the S3 audiences are sourced, your list of available audiences are provided in a tabulated or card view.
 
-![The Audiences tab showing a tabulated list of sourced audiences.](../../assets/setup/aws-audience-sourcing/1.13b.png)
+![The Audiences tab showing a tabulated list of sourced audiences.](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
 Where in grid view or table view, you can select a row item or [!UICONTROL View audience] to see an overview of a specific audience. It displays the audience's status, source, and data connection name, along with detailed panels for:
 
@@ -198,9 +188,9 @@ See the [View audiences dashboard documentation](https://experienceleague.adobe.
 
 Your newly added [!DNL Amazon S3] connection is immediately available in the **[!UICONTROL My data connections]** tab. The audience source is displayed as [!UICONTROL Amazon S3].
 
-Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add audiences directly from this view. To add another audience, navigate to the **[!UICONTROL My data connections]** tab.
+Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add audiences directly from this view. To add another audience, navigate to the **[!UICONTROL My audiences]** tab.
 
-![The My data connections tab showing the [!DNL Amazon S3] data connection with sourcing status information.](../../assets/setup/aws-audience-sourcing/1.14a.png)
+![The My data connections tab showing the [!DNL Amazon S3] data connection with sourcing status information.](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
 
 ## Next steps {#next-steps}
 
