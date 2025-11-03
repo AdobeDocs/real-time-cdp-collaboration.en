@@ -4,7 +4,7 @@ description: Learn how to configure and connect your [!DNL Amazon S3] storage as
 hide: yes
 hidefromtoc: yes
 ---
-# Configure [!DNL Amazon S3] for Audience Sourcing
+# Configure [!DNL Amazon S3] for audience sourcing
 
 Learn how to configure and connect your [!DNL Amazon S3] storage in the Adobe Real-Time CDP Collaboration UI to source audience data for activation and overlap analysis.
 
@@ -13,7 +13,7 @@ Learn how to configure and connect your [!DNL Amazon S3] storage in the Adobe Re
 >Before following this guide, you must have completed the steps to authorize Adobe's IAM role within your AWS account.  
 >See the **Configure AWS permissions for audience sourcing** guide for step-by-step setup instructions.
 
-<!-- Question: is that the bet doc name? -->
+<!-- Question: is that the bet doc name? Add link in when doc is live -->
 
 ## Overview {#overview}
 
