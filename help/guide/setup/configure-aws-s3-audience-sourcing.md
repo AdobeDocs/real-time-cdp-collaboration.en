@@ -1,10 +1,10 @@
 ---
-title: Configure AWS S3 for Audience Sourcing
+title: Configure Amazon S3 for Audience Sourcing
 description: Learn how to configure and connect your Amazon S3 storage as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
 hide: yes
 hidefromtoc: yes
 ---
-# Configure AWS S3 for Audience Sourcing
+# Configure Amazon S3 for Audience Sourcing
 
 Learn how to connect your Amazon S3 storage as a self-service data source to ingest audience data into **Real-Time CDP Collaboration**. This guide walks you through the configuration workflow within the Collaboration UI.
 
@@ -26,7 +26,7 @@ Audiences sourced through S3 follow the same governance and data handling rules 
 Before configuring your S3 data connection, ensure the following:
 
 * You have access to an active **[!DNL Amazon S3] bucket** containing audience files that conform to the **[Audience Onboarding Specifications (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf)**.
-* You have created an **IAM role** in AWS that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys).  
+* You have created an **IAM role** in Amazon that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys).  
   The IAM role must include the following permissions:
   
   * `ListBucket`
@@ -43,7 +43,7 @@ Before configuring your S3 data connection, ensure the following:
 >
 >Audience files must be located in the **root folder path** of your authorized S3 bucket. Subfolder structures are not supported.
 
-## Configure your AWS S3 connection {#configure-aws-s3-connection}
+## Configure your Amazon S3 connection {#configure-aws-s3-connection}
 
 From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace, select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Audience]**.  
 
@@ -55,27 +55,25 @@ The Add audience workflow appears. Select **[!UICONTROL Add a new data connectio
 
 ![The Add audiences workspace with the Add a new data connection option highlighted.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### 1. Select AWS S3 as the data connection {#select-aws-s3}
+### 1. Select Amazon S3 as the data connection {#select-aws-s3}
 
-You can see **AWS S3** as a selectable data connection.  
-Previously created AWS S3 connections appear grayed out, and you see the following copy within the card:  
-Copy: *To add additional audiences, please update the audiences files within the connected Amazon S3 storage.*
+Select **[!UICONTROL Amazon S3]** as a data connection, followed by **[!UICONTROL Next]**.  
 
-![The data connection selection screen with AWS S3 available as a selectable option.](../../assets/setup/aws-audience-sourcing/1.1a.png)
-
-<!-- ![The Add audiences workspace with the Set up new data connection option selected.](../../assets/setup/aws-audience-sourcing/1.1b.png) -->
+![The data connection selection screen with Amazon S3 available as a selectable option.](../../assets/setup/aws-audience-sourcing/1.1a.png)
 
 ### 2. Review audience file requirements {#review-audience-requirements}
 
-You see a pop-up with a link to the **Audience Onboarding specification** that explains how your audience files must be structured.
+A dialog appears that explains how your audience files must be structured. Use the link to the **[!UICONTROL [audience sourcing specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf)** to learn how to format and structure audience data from Amazon S3 for Real-Time CDP Collaboration to read it correctly.
 
 Copy:  
 Title: *Prepare Your Data for Sourcing*  
 Body:  
 *Before starting audience sourcing from Amazon S3, please ensure that:*
 
-* *You have authorized Adobe as a user so that Adobe can retrieve data from your Amazon S3 storage for processing.*  
-* *Your data complies with the {Audience Sourcing Specifications}, as the match keys are auto-mapped based on the prescribed format.*
+>[!IMPORTANT]
+>
+>You must have authorized Adobe as an Amazon S3 user so that Adobe can retrieve data from your Amazon S3 storage for processing.
+>Your data must comply with the audience sourcing specification, as the match keys are auto-mapped based on the prescribed format. Key considerations include:<br><ul><li>Audience files must be CSV with commas for fields and pipes (|) for multiple values.</li><li>All files must have identical columns if multiple are uploaded.</li><li>Each audience record includes identifiers such as AUDIENCE_ID, HASHED_EMAIL_SHA_256, HASHED_PHONE_SHA_256, HASHED_IPV4_SHA_256, CRM_ID, LOYALTY_ID, or ADFIXUS_ID.</li><li>Data is refreshed every 1–6 days; if not refreshed within 7 days, it's deleted.</li><li>Users are responsible for ensuring consent compliance—Adobe only reads what's provided and doesn't filter or alter the data.</li></ul>
 
 ![The Prepare Your Data for Sourcing dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/aws-audience-sourcing/1.2a.png)
 
@@ -86,7 +84,7 @@ Body:
 >title="Folder path format"
 >abstract="Enter the folder path (prefix) within your Amazon S3 bucket where your audience files are stored.<br><ul><li>Do not start paths with a forward slash (/).</li><li>Include a trailing slash at the end of the path.</li><ul><br>Example: `base/path/`"
 
-Provide your credentials to connect your AWS S3 bucket to Real-Time CDP Collaboration.
+Provide your credentials to connect your Amazon S3 bucket to Real-Time CDP Collaboration.
 
 **Input fields**
 
@@ -178,11 +176,11 @@ Review your configuration in the summary screen. Confirm all sections before sel
 
 <!-- (1.13) -->
 
-After completing the configuration, Collaboration begins sourcing audiences from your S3 bucket. Audiences sourced through an AWS S3 bucket appear in the "My Audiences" tab and have the same functionality and information as audiences sourced from Experience Platform.
+After completing the configuration, Collaboration begins sourcing audiences from your S3 bucket. Audiences sourced through an Amazon S3 bucket appear in the "My Audiences" tab and have the same functionality and information as audiences sourced from Experience Platform.
 
 If sourcing is in progress, a banner appears to indicate that your audiences are being sourced.
 
-![The Audiences tab sence sourcing is in prohowing that AWS S3 audigress.](../../assets/setup/aws-audience-sourcing/1.13a.png)
+![The Audiences tab sence sourcing is in prohowing that Amazon S3 audigress.](../../assets/setup/aws-audience-sourcing/1.13a.png)
 
 Copy:  
 Title: *Audience sourcing in progress*  
@@ -200,11 +198,11 @@ Once the S3 audiences are sourced, your list of available audiences are provided
 
 ## View your S3 data connection {#view-s3-connection}
 
-Your newly added AWS S3 connection appears in the **[!UICONTROL My data connections]** tab. The audience source is displayed as [!UICONTROL AWS S3].
+Your newly added Amazon S3 connection appears in the **[!UICONTROL My data connections]** tab. The audience source is displayed as [!UICONTROL Amazon S3].
 
 Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add audiences directly from this view. Navigate to the the "My data connections" tab to add another audience.
 
-![The My data connections tab showing the AWS S3 data connection with sourcing status information.](../../assets/setup/aws-audience-sourcing/1.14a.png)
+![The My data connections tab showing the Amazon S3 data connection with sourcing status information.](../../assets/setup/aws-audience-sourcing/1.14a.png)
 
 ## Next steps {#next-steps}
 
