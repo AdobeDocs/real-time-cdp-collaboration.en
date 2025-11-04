@@ -8,42 +8,38 @@ Use this guide to configure the required AWS Identity and Access Management (IAM
 
 >[!IMPORTANT]
 >
->This document applies to implementations of Real-Time CDP Collaboration using Amazon S3 as a data connection. If your instance runs in a different region or uses a different cloud provider, contact your Adobe representative before proceeding.
+>This document applies to implementations of Real-Time CDP Collaboration using Amazon S3 as a data connection. If your instance runs in Europe, Middle East, or Africa (EMEA), contact your Adobe representative before proceeding.
 
 ## Prerequisites {#prerequisites}
 
 Before continuing, confirm that you meet the following requirements and have access to the required information.
 
-### Required AWS permissions
+### Required AWS Permissions
 
-To complete this setup, you must have permission to:
+To complete this setup, you must have the necessary AWS permissions to perform the following actions:
 
-* Create and attach IAM policies for Amazon S3 buckets.
-* Access the Amazon S3 console to view bucket names and folder paths.
-* Create or modify IAM roles in your AWS account.
-* Add the Real-Time CDP Collaboration AWS IAM role as a trusted entity in your IAM role.
+* **S3 Data Access Permissions:** Your service or user must have these specific Amazon S3 permissions to read data from the bucket:
+    * `s3:GetObject`
+    * `s3:ListBucket`
+    * `s3:GetBucketLocation`
+
+* **IAM Administrative Permissions:** You, the user performing the setup, must have the necessary IAM permissions to complete these administrative tasks:
+    * Create and attach **IAM policies** (e.g., `iam:CreatePolicy`, `iam:AttachPolicy`).
+    * Create or modify **IAM roles** in your AWS account (e.g., `iam:CreateRole`, `iam:UpdateRole`).
+    * Add the **Real-Time CDP Collaboration AWS IAM role** as a trusted entity in your IAM role (e.g., `iam:UpdateAssumeRolePolicy`).
+    * *Optional:* Access the Amazon S3 console to view bucket names and folder paths (requires `s3:ListAllMyBuckets` and `s3:ListBucket`).
 
 If you do not have these permissions, contact your AWS administrator before proceeding.
 
-### Information you'll need
+### Required information
+
+You'll need the following information before you continue with this guide or the [[!DNL Amazon S3] audience sourcing UI guide](./-s3-audience-sourcing.md).
 
 * The S3 bucket name where your audience files are stored.
 * The folder path (prefix) under which your audience files are located.
-* The Resource Amazon Resource Name (ARN) for the folder path, for example:
+* The Resource Amazon Resource Name (ARN) for the folder path, for example: `arn:aws:s3:::my-company-data/audience-files/`
 
-```
-arn:aws:s3:::my-company-data/audience-files/
-```
-
-* The appropriate Adobe IAM Role ARN for your region:
-
-| Region | Adobe IAM Role ARN |
-|---------|-------------------|
-| North America (VA6) | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
-| Australia (AUS3) | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
-| EMEA | Contact Adobe Representative |
-
->[!NOTE]
+>[!TIP]
 >
 >An Amazon Resource Name (ARN) is a unique string that identifies AWS resources, such as EC2 instances, S3 buckets, and IAM roles. The Resource ARN identifies your specific S3 bucket and folder path using this format:
 >
@@ -51,13 +47,25 @@ arn:aws:s3:::my-company-data/audience-files/
 >arn:aws:s3:::<bucket-name>/<optional-folder-path>
 >```
 
+* The appropriate Adobe IAM Role ARN for your region:
+
+| Region | Adobe IAM Role ARN |
+|---------|-------------------|
+| North America (VA6) | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
+| Australia (AUS3) | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| EMEA | Contact an Adobe representative. |
+
 ## Step 1: Create an IAM policy {#create-policy}
 
-Create an IAM policy that grants **read-only access** to your S3 bucket. This policy allows Adobe to read the files necessary for audience sourcing but does not grant write or delete permissions.
+To begin the setup, first create an IAM policy that grants **read-only access** to your S3 bucket. This policy allows Adobe to read the files necessary for audience sourcing but does not grant write or delete permissions.
 
-1. Open the [AWS Management Console](https://aws.amazon.com/console/), and navigate to **IAM** > **Policies** > **Create policy**.
-2. Select the **JSON** tab and paste the following example policy.
-3. Replace `<Your AWS ARN for bucket folder path>` and `<Your AWS ARN for bucket>` with your specific S3 ARNs.
+Open the [AWS Management Console](https://aws.amazon.com/console/), and navigate to **[!DNL IAM]** > **[!DNL Policies]** > **[!DNL Create policy]**.
+
+In the AWS Create policy workspace, select the **JSON** tab and paste the following example policy.
+
+>[!NOTE]
+>
+>Replace `<Your AWS ARN for bucket folder path>` and `<Your AWS ARN for bucket>` with your specific S3 ARNs.
 
 ```json
 {
@@ -85,20 +93,19 @@ Create an IAM policy that grants **read-only access** to your S3 bucket. This po
 }
 ```
 
-4. Review the policy and select **Create policy**.
-5. Record the policy name for later use.
+Review the policy settings and select **[!DNL Create policy]**. Ensure you retain the policy name for later use.
 
 >[!TIP]
 >
-> To locate your bucket name and folder path, open the **Amazon S3 console**. On the **Buckets** page, select your bucket name to open it. The **Objects** view lists your files and folders, and the path at the top of the page shows your current folder path.
+>To locate your bucket name and folder path, open the **Amazon S3 Management Console**. On the **Buckets** page, select your bucket name to open it. The **Objects** view lists your files and folders, and the path at the top of the page shows your current folder path.
 
 ## Step 2: Create an IAM role {#create-role}
 
 Next, create an IAM role and set the Real-Time CDP Collaboration AWS IAM role as the **trusted entity**. This enables Adobe's services to assume the role and securely read your S3 audience data.
 
-1. In the **IAM** console, navigate to **Roles** > **Create role**.
-2. Under **Trusted entity type**, select **Custom trust policy**.
-3. In the **Custom trust policy** editor, paste the following example and replace `<Adobe IAM Role ARN>` with the value for your region.
+In the **IAM** tab of the Amazon S3 Management Console, navigate to **[!DNL Roles]** > **[!DNL Create role]**.
+
+Under [!DNL Step 1] of the [!DNL Create role] workflow, in the **[!DNL Trusted entity type]** section, select **[!DNL Custom trust policy]**. Then, in the **[!DNL Custom trust policy]** editor, paste the following example and replace `<Adobe IAM Role ARN>` with the value for your region.
 
 ```json
 {
@@ -116,29 +123,28 @@ Next, create an IAM role and set the Real-Time CDP Collaboration AWS IAM role as
 }
 ```
 
-4. Select **Next** to continue.
-5. In the **Add permissions** step, search for and attach the IAM policy you created in [Step 1](#create-policy).
-6. Select **Next** again.
-7. Provide a role name (for example, `s3-iam-role`) and optional description, then select **Create role**.
+Confirm your policy and select **Next** to continue.
 
-## Step 3: Provide the IAM Role ARN {#provide-arn}
+In [!DNL Step 2] **[!DNL Add permissions]** section of the [!DNL Create role] workflow, search for and attach the IAM policy you created [earlier](#create-policy). Select the policy followed by **[!DNL Next]** to continue to [!DNL Step 3].
 
-After creating the role, record its Amazon Resource Name (ARN).
-You'll need to enter this value during the **Authenticate your S3 connection** step in the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) workflow.
+In the [!DNL Step 3] **[!DNL Name review, and create - Role details]** section, provide a role name (for example, `s3-iam-role`) and optional description.
 
-## Summary {#summary}
+This page displays the trusted entity policy, the permissions policy summary, and any tags you may have added for internal organization adn tracking.
+
+Finally, select **Create role** to confirm the setup.
+
+>[!IMPORTANT]
+>
+>Make sure to record the Amazon Resource Name (ARN) after creating the role. You will need to provide the IAM Role ARN during the **Authenticate your S3 connection** step in the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) workflow.
+
+## Next steps {#next-steps}
 
 By completing this setup, you have:
 
 * Granted read-only access for Adobe's Collaboration service to your S3 bucket.
 * Established a trust relationship between your AWS account and Adobe's IAM role.
-* Prepared the IAM Role ARN required to authenticate your data connection in Real-Time CDP Collaboration.
+* Prepared the IAM Role ARN required to authenticate your data connection in Collaboration.
+
+Now your permissions are configured, proceed to [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) to connect your S3 bucket to Collaboration.
 
 For more information about sourcing audiences, refer to [Source and manage audiences](./onboard-audiences.md).
-
-## Next steps {#next-steps}
-
-Once permissions are configured:
-
-* Proceed to [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) to connect your S3 bucket to Collaboration.
-* Verify successful authentication by reviewing your sourced audiences under **[!UICONTROL My audiences]** in the **[!UICONTROL Setup]** workspace.
