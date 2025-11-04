@@ -71,22 +71,22 @@ In the AWS Create policy workspace, select the **JSON** tab and paste the follow
   "Version": "2012-10-17",
   "Statement": [
     {
-        "Sid": "Statement1",
-        "Effect": "Allow",
-        "Action": [
-            "s3:GetObject",
-            "s3:ListBucket",
-            "s3:GetBucketLocation"
-        ],
-        "Resource": "<Your AWS ARN for bucket folder path>"
+      "Sid": "Statement1",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:ListBucket",
+        "s3:GetBucketLocation"
+      ],
+      "Resource": "<Your AWS ARN for bucket folder path>"
     },
     {
-        "Sid": "Statement2",
-        "Effect": "Allow",
-        "Action": [
-            "s3:ListBucket"
-        ],
-        "Resource": "<Your AWS ARN for bucket>"
+      "Sid": "Statement2",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket"
+      ],
+      "Resource": "<Your AWS ARN for bucket>"
     }
   ]
 }
@@ -110,15 +110,15 @@ Under [!DNL Step 1] of the [!DNL Create role] workflow, in the **[!DNL Trusted e
 {
   "Version": "2012-10-17",
   "Statement": [
-      {
-        "Sid": "Statement1",
-        "Effect": "Allow",
-        "Principal": {
-            "AWS": "<Adobe IAM Role ARN>"
-        },
-        "Action": "sts:AssumeRole"
-      }
-    ]
+    {
+      "Sid": "Statement1",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "<Adobe IAM Role ARN>"
+      },
+      "Action": "sts:AssumeRole"
+    }
+  ]
 }
 ```
 
