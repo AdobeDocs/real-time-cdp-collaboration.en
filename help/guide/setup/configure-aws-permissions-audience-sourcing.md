@@ -32,7 +32,7 @@ If you do not have these permissions, contact your AWS administrator before proc
 
 ### Required information
 
-Before continuing, gather the following information. You will also use these details in the [[!DNL Amazon S3] audience sourcing UI guide](./-s3-audience-sourcing.md).
+Before continuing, gather the following information. You will also use these details in the [[!DNL Amazon S3] audience sourcing UI guide](./configure-aws-s3-audience-sourcing.md).
 
 * The S3 bucket name where your audience files are stored.
 * The folder path (prefix) under which your audience files are located.
@@ -122,7 +122,7 @@ Under [!DNL Step 1] of the [!DNL Create role] workflow, in the **[!DNL Trusted e
 }
 ```
 
-Confirm your policy and select **Next** to continue.
+Review the policy and select **Next** to continue.
 
 In [!DNL Step 2] **[!DNL Add permissions]** section of the [!DNL Create role] workflow, search for and attach the IAM policy you created [earlier](#create-policy). Select the policy followed by **[!DNL Next]** to continue to [!DNL Step 3].
 

@@ -15,7 +15,7 @@ Learn how to configure and connect your [!DNL Amazon S3] storage in the Adobe Re
 
 ## Overview {#overview}
 
-Use this workflow to source and manage first-party audiences directly from [!DNL Amazon S3] without requiring engineering assistance. After configuration, Collaboration automatically sources audiences from your S3 bucket and makes them available for activation and overlap analysis.
+Use this workflow to source and manage first-party audiences directly from [!DNL Amazon S3]. After configuration, Collaboration automatically sources audiences from your S3 bucket and makes them available for insights and activation.
 
 Audiences sourced through S3 follow the same governance and data handling rules as those sourced from Adobe Experience Platform.
 
@@ -24,7 +24,7 @@ Audiences sourced through S3 follow the same governance and data handling rules 
 Before configuring your S3 data connection, ensure the following:
 
 * You have access to an active **[!DNL Amazon S3] bucket** containing audience files that conform to the **[Audience Sourcing Specification (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**.
-* You have created an **IAM role** in Amazon that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys). See **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** for detailed instructions. The IAM role must include the following permissions:
+* You have created an **IAM role** in AWS that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys). See **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** for detailed instructions. The IAM role must include the following permissions:
   
   * `ListBucket`
   * `GetBucketLocation`
@@ -46,7 +46,7 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 
 If this is your first audience, you may also select the **[!UICONTROL Add]** option.
 
-![Add an adudience.](../../assets/setup/add-manage-audiences/add-audiences.png)
+![The My audiences tab in the Setup workspace with the add icon and Add audience option displayed.](../../assets/setup/add-manage-audiences/add-audiences.png)
 
 The Add audience workflow appears. Select **[!UICONTROL Add a new data connection]** and then select **[!UICONTROL Next]**.
 
@@ -60,7 +60,7 @@ Select **[!UICONTROL Amazon S3]** as a data connection, followed by **[!UICONTRO
 
 ### Review audience file requirements {#review-audience-requirements}
 
-A dialog appears that explains how your audience files must be structured. Use the link to the **[!UICONTROL [audience sourcing specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** to learn how to format and structure audience data from [!DNL Amazon S3] for Collaboration to read it correctly.
+A dialog appears that explains how your audience files must be structured. Use the link to the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** to learn how to format and structure audience data from [!DNL Amazon S3] for Collaboration to read it correctly.
 
 >[!IMPORTANT]
 >
@@ -70,10 +70,10 @@ Your audience files must comply with the Audience Sourcing Specification. The ma
 
 Key considerations include:
 
-* Files must be in CSV format, using commas for fields and pipes (`|`) for multiple values.
+* Files must be in CSV format, using commas as delimiters and pipes (`|`) for multiple values.
 * If uploading multiple files, ensure all files contain identical columns.
-* Each audience record must include identifiers such as `AUDIENCE_ID`, `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, or `ADFIXUS_ID`.
-* Data refreshes occur every 1–6 days; if not refreshed within seven days, it is deleted.
+* Each audience record must include an `AUDIENCE_ID` and at least on match key, such as `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, or `ADFIXUS_ID`.
+* Data refreshes occur every 1–6 days based on your selection during the sourcing setup in Collaboration.
 
 ![The Prepare Your Data for Sourcing dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
@@ -114,7 +114,7 @@ After connecting, the system validates your credentials and displays one of the 
 | **Access denied**           | **[!UICONTROL Access denied]**                  | Your credentials don't have the required permissions to access this [!DNL Amazon S3] bucket. Please verify access settings or contact your administrator. |
 | **Invalid file format**     | **[!UICONTROL Invalid file format]**            | The audience data doesn't match the expected structure. Please ensure your files comply with the Audience Sourcing Specifications.                 |
 | **No audience files found** | **[!UICONTROL No audience files found]**        | Please confirm that your audience files exist in the specified folder path and that the path is accessible.                                        |
-| **Internal error**          | **[!UICONTROL An internal error has occurred]** | Please try again. If the problem persists, contact customer support. (ACPS - XXXX-XXX) Reference id: XXXXXXX-XXXXX-XXXX-XXXX-XXXXXXXX.             |
+| **Internal error**          | **[!UICONTROL An internal error has occurred]** | Please try again. If the problem persists, contact customer support. |
 
 
 ### Provide connection details {#provide-connection-details}
@@ -140,7 +140,7 @@ The **[!UICONTROL Schedule]** view appears. Use the dropdown menu to select a re
 
 >[!IMPORTANT]
 >
->Do not configure the refresh cadence to be more frequent than the refresh cadence of the underlying S3 data source.
+>To manage your Collaboration credits effectively, set the refresh frequency to match or exceed the update frequency of your underlying S3 data. The minimum supported refresh interval is once every six days.
 
 ![The schedule settings screen with refresh frequency options and date range configuration.](../../assets/setup/aws-audience-sourcing/s3-schedule-refresh-frequency.png)
 
@@ -169,9 +169,13 @@ If audience sourcing is in progress, a banner appears at the top of the screen. 
 
 Once the S3 audiences are sourced, your list of available audiences are provided in a tabulated or card view.
 
+>[!TIP]
+>
+>Audience sourcing time varies based on the size of your S3 data and the refresh frequency you configured. Larger datasets or less frequent refresh schedules may take longer to appear in the **[!UICONTROL My audiences]** workspace.
+
 ![The Audiences tab showing a tabulated list of sourced audiences.](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
-Where in grid view or table view, you can select a row item or [!UICONTROL View audience] to see an overview of a specific audience. It displays the audience's status, source, and data connection name, along with detailed panels for:
+When in grid view or table view, select a row item or **[!UICONTROL View audience]** to see an overview of a specific audience. It displays the audience's status, source, and data connection name, along with detailed panels for:
 
 **[!UICONTROL Identities]**: Shows the total identity count and breakdown once data becomes available.
 **[!UICONTROL Categories]**: Lists any tags used for organizing or filtering the audience.
@@ -186,13 +190,16 @@ See the [View audiences dashboard documentation](https://experienceleague.adobe.
 
 Your newly added [!DNL Amazon S3] connection is immediately available in the **[!UICONTROL My data connections]** tab. The audience source is displayed as [!UICONTROL Amazon S3].
 
-Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add audiences directly from this view. To add another audience, navigate to the **[!UICONTROL My audiences]** tab.
+Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add or edit audiences directly from this view. 
+
+>[!NOTE]
+>
+>[!DNL Amazon S3] data connections are not editable. You cannot modify settings such as the refresh frequency once the connection is created. To update the configuration, you must delete the existing connection and create a new one.
 
 ![The My data connections tab showing the [!DNL Amazon S3] data connection with sourcing status information.](../../assets/setup/aws-audience-sourcing/s3-data-connections-tab.png)
 
 ## Next steps {#next-steps}
 
-You have now successfully configured and connected your [!DNL Amazon S3] storage as a self-service data source in Collaboration. By completing this workflow, you enabled secure sourcing of first-party audience data for activation and overlap analysis.
+You have now successfully configured and connected your [!DNL Amazon S3] storage as a data source in Collaboration. By completing this workflow, you enabled secure sourcing of first-party audience data for activation and overlap analysis.
 
 After sourcing completes, your audiences appear in the **[!UICONTROL My audiences]** workspace, ready for collaboration and activation. For detailed management options, see the [source and manage audiences documentation](./onboard-audiences.md).
-
