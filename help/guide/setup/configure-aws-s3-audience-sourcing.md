@@ -11,9 +11,7 @@ Learn how to configure and connect your [!DNL Amazon S3] storage in the Adobe Re
 >[!IMPORTANT]
 >
 >Before following this guide, you must have completed the steps to authorize Adobe's IAM role within your AWS account.  
->See the **Configure AWS permissions for audience sourcing** guide for step-by-step setup instructions.
-
-<!-- Question: is that the bet doc name? Add link in when doc is live -->
+>See the **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** guide for step-by-step setup instructions.
 
 ## Overview {#overview}
 
@@ -26,8 +24,7 @@ Audiences sourced through S3 follow the same governance and data handling rules 
 Before configuring your S3 data connection, ensure the following:
 
 * You have access to an active **[!DNL Amazon S3] bucket** containing audience files that conform to the **[Audience Sourcing Specification (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**.
-* You have created an **IAM role** in Amazon that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys).  
-  The IAM role must include the following permissions:
+* You have created an **IAM role** in Amazon that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys). See **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** for detailed instructions. The IAM role must include the following permissions:
   
   * `ListBucket`
   * `GetBucketLocation`
@@ -89,7 +86,8 @@ Key considerations include:
 
 Next, provide your [!DNL Amazon S3] credentials to connect your S3 bucket to Collaboration.
 
-Follow the steps outlined in [Amazon S3 configuration workflow](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect) to grant Adobe access to your [!DNL Amazon S3] storage. Once complete, input your values into the following UI fields:
+Follow the steps outlined in **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** to grant Adobe access to your 
+[!DNL Amazon S3] storage. Once complete, input your values into the following UI fields:
 
 **Input fields**
 
