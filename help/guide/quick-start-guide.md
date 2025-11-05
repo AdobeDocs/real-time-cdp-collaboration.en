@@ -116,7 +116,7 @@ Alternatively, see the document on [sourcing audiences in Collaboration](./setup
 
 ### Option B: Source from Snowflake or Amazon S3 
 
-To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1)
+To configure a cloud source, such as [!DNL Snowflake] or [!DNL Amazon S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)
 
 You can configure [!DNL Amazon S3] as a self-service data source. For setup instructions, see the [Amazon S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
 
