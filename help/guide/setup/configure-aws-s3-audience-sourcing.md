@@ -82,7 +82,7 @@ Key considerations include:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="Folder path format"
->abstract="Enter the folder path (prefix) within your [!DNL Amazon S3] bucket where your audience files are stored.<br><ul><li>Do not start paths with a forward slash (/).</li><li>Include a trailing slash at the end of the path.</li><ul><br>Example: `base/path/`"
+>abstract="Enter the folder path (prefix) within your [!DNL Amazon S3] bucket where your audience files are stored.<br><ul><li>Do not start paths with a forward slash (/).</li><li>Include a trailing slash at the end of the path.</li><ul><br>Valid example: `base/path/`<br>Invalid example: `/base/path`"
 
 Next, provide your [!DNL Amazon S3] credentials to connect your S3 bucket to Collaboration.
 
