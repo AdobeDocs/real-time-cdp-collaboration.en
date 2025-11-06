@@ -6,11 +6,6 @@ description: Learn how to configure AWS Identity and Access Management (IAM) per
 
 Use this guide to configure AWS Identity and Access Management (IAM) policies and roles that grant Adobe secure, read-only access to your Amazon S3 bucket. This access enables Real-Time CDP Collaboration to source audiences from your S3 bucket.
 
->[!IMPORTANT]
->
->This guide applies only to Real-Time CDP Collaboration instances configured with [!DNL Amazon S3] as a data connection.
-<!-- Does that important note still make sense? How should i adjust it? or just remove it? -->
-
 ## Prerequisites {#prerequisites}
 
 Before continuing, confirm that you meet the following requirements and have access to the required information.
@@ -45,8 +40,7 @@ In the AWS Create policy workspace, select the **JSON** tab and paste the follow
 
 >[!NOTE]
 >
->Replace `<Your AWS ARN for bucket folder path>` and `<Your AWS ARN for bucket>` with your specific S3 ARNs. When specifying the bucket folder path, include `/*` at the end of the ARN (for example, `arn:aws:s3:::my-company-data/audience-files/*`).  
->This ensures Adobe has access to all files and subfolders within the specified folder path.
+>Replace `<Your AWS ARN for bucket folder path>` and `<Your AWS ARN for bucket>` with your specific S3 ARNs. When specifying the bucket folder path, include `/*` at the end of the ARN (for example, `arn:aws:s3:::my-company-data/audience-files/*`). This ensures Adobe has access to all files and subfolders within the specified folder path.
 
 ```json
 {
@@ -84,7 +78,7 @@ Review the policy settings and select **[!DNL Create policy]**. Record the polic
 
 Next, create an IAM role and set the Real-Time CDP Collaboration AWS IAM role as the **trusted entity**. This enables Adobe's services to assume the role and securely read your S3 audience data.
 
-In the **IAM** tab of the Amazon S3 Management Console, navigate to **[!DNL Roles]** > **[!DNL Create role]**.
+In the **[!DNL IAM]** tab of the Amazon S3 Management Console, navigate to **[!DNL Roles]** > **[!DNL Create role]**.
 
 Under [!DNL Step 1] of the [!DNL Create role] workflow, in the **[!DNL Trusted entity type]** section, select **[!DNL Custom trust policy]**. Then, in the **[!DNL Custom trust policy]** editor, paste the following example and replace `<Adobe IAM Role ARN>` with the value for your region.
 

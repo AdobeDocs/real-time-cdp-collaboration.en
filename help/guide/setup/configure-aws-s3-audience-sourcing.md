@@ -89,11 +89,9 @@ Next, provide your [!DNL Amazon S3] credentials to connect your S3 bucket to Col
 Follow the steps outlined in **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** to grant Adobe access to your 
 [!DNL Amazon S3] storage. Once complete, input your values into the following UI fields:
 
-**Input fields**
-
-* IAM Role (required)
-* S3 Bucket Name (required)
-* Folder Path (required)
+* IAM Role
+* S3 Bucket Name
+* Folder Path
 
 ![The [!DNL Amazon S3] connection form with fields for IAM role, S3 Bucket Name, and Folder Path.](../../assets/setup/aws-audience-sourcing/s3-authentication-credentials-form.png)
 
