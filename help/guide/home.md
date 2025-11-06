@@ -35,7 +35,7 @@ Embedded controls ensure that governance and privacy requirements are met, guidi
 
 To begin using Collaboration, system administrators need to give themselves, product administrators, and end users access. There are multiple required steps dependent on the user and level of access required. Refer to the [access control overview](/help/guide/permissions/overview.md){target="_blank"} guide to get started.
 
-Once you have access, you're ready to set up your account and create your data connection to being sourcing audiences. Read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) to get started.
+Once you have access, you're ready to set up your account and create your data connection to begin sourcing audiences. Read the [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) to get started.
 
 ## Resources
 
