@@ -26,12 +26,12 @@ exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_measurement_mapping_source_fields"
->title=""
+>title="Map source fields"
 >abstract="Placeholder for measurement mapping of source fields."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_measurement_mapping_target_fields"
->title=""
+>title="Map target fields"
 >abstract="Placeholder for measurement mapping of target fields."
 
 {{limited-availability-release-note}}
