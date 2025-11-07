@@ -24,6 +24,16 @@ exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 >title="Source fields"
 >abstract="Placeholder for measurement source fields."
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_source_fields"
+>title=""
+>abstract="Placeholder for measurement mapping of source fields."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_target_fields"
+>title=""
+>abstract="Placeholder for measurement mapping of target fields."
+
 {{limited-availability-release-note}}
 
 This document outlines the steps to add campaign measurement data to Adobe Real-Time CDP Collaboration. Publishers can work with Adobe teams to upload campaign measurement data. After that data is uploaded and processed, both publisher and advertiser will be able to view extensive [campaign measurement reports](/help/guide/collaborate/measure.md).
