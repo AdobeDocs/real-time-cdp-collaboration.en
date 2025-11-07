@@ -1,8 +1,6 @@
 ---
 title: Configure [!DNL Amazon S3] for Audience Sourcing
 description: Learn how to configure and connect your [!DNL Amazon S3] storage as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
-hide: yes
-hidefromtoc: yes
 ---
 # Configure [!DNL Amazon S3] for audience sourcing
 
