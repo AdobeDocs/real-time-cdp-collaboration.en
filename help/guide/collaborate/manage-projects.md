@@ -23,6 +23,11 @@ You can use filters to view only the projects that you have started with certain
 
 ## Create project {#create-project}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="Advertiser name (Amazon Marketing Cloud)"
+>abstract="For Amazon Marketing Cloud (AMC) connections, this field represents the AMC instance your Amazon Ads login has access to. It does not reflect an advertiser name. If the required instance isn't listed, contact your Amazon Marketing Cloud administrator to request access."
+
 To create a project, you must first [establish a connection](/help/guide/connect/establishing-connections.md) with a collaborator. Once the connection is established, you can create a project with that collaborator.
 
 >[!CONTEXTUALHELP]
