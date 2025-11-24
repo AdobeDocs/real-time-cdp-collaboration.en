@@ -62,7 +62,7 @@ Select **[!UICONTROL Amazon S3]** as a data connection, followed by **[!UICONTRO
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="Prepare your data for onboarding"
 >abstract="Read the Audience Sourcing Specification guide to learn how to format and structure audience data from Amazon S3 for Collaboration."
->additional-url="<https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing>" text="See the guide"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="See the guide"
 
 A dialog appears that explains how your audience files must be structured. Use the link to the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** to learn how to format and structure audience data from [!DNL Amazon S3] for Collaboration to read it correctly.
 
