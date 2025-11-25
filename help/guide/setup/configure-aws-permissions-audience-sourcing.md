@@ -88,6 +88,9 @@ Under [!DNL Step 1] of the [!DNL Create role] workflow, in the **[!DNL Trusted e
 |---------|-------------------|
 | North America | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
 | Australia | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| EMEA | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-nld2-role` |
+
+<!-- Iman, please confirm the exact ARN format for NLD2 with the engineering team  -->
 
 An example trust policy:
 
