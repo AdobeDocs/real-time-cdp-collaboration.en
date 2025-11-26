@@ -58,6 +58,12 @@ Select **[!UICONTROL Amazon S3]** as a data connection, followed by **[!UICONTRO
 
 ### Review audience file requirements {#review-audience-requirements}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications"
+>title="Prepare your data for onboarding"
+>abstract="Read the Audience Sourcing Specification guide to learn how to format and structure audience data from Amazon S3 for Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="See the guide"
+
 A dialog appears that explains how your audience files must be structured. Use the link to the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** to learn how to format and structure audience data from [!DNL Amazon S3] for Collaboration to read it correctly.
 
 >[!IMPORTANT]
@@ -81,6 +87,11 @@ Key considerations include:
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="Folder path format"
 >abstract="Enter the folder path (prefix) within your [!DNL Amazon S3] bucket where your audience files are stored.<br><ul><li>Do not start paths with a forward slash (/).</li><li>Include a trailing slash at the end of the path.</li><ul><br>Valid example: `base/path/`<br>Invalid example: `/base/path`"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_amazon_s3"
+>title="Add audience for Amazon S3"
+>abstract="To connect your Amazon S3 storage, please authorize Adobe's service user to retrieve your audience data for processing. Follow the steps outlined in Experience League to grant Adobe access to your Amazon S3 storage."
 
 Next, provide your [!DNL Amazon S3] credentials to connect your S3 bucket to Collaboration.
 
