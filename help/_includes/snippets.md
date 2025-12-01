@@ -4,7 +4,7 @@
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration is available to United States, Canada, Australia, and New Zealand customers at this time, with global availability coming soon. Contact your Adobe representative for more information. Learn how to [get started](/help/guide/home.md#get-started).
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration is currently available in the United States, Canada, Australia, New Zealand, and across Europe, the Middle East, and Africa, with global availability coming soon. Contact your Adobe representative for more information. Learn how to [get started](/help/guide/home.md#get-started).
 
 
 

@@ -88,6 +88,7 @@ Under [!DNL Step 1] of the [!DNL Create role] workflow, in the **[!DNL Trusted e
 |---------|-------------------|
 | North America | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
 | Australia | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| EMEA | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-deu1-role` |
 
 An example trust policy:
 

@@ -9,9 +9,13 @@ exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 
 {{limited-availability-release-note}}
 
-**Last update**: August 2025.
+**Last update**: December 2025.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## December 2025 {#december-2025}
+
+Real-Time CDP Collaboration is now available to customers in **Europe, the Middle East, and Africa (EMEA))**. It is automatically available to Real-Time CDP Prime and Ultimate customers in these regions.
 
 ## August 2025 {#august-2025}
 
