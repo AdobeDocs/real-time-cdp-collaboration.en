@@ -18,7 +18,7 @@ To begin managing roles, an administrator will need access to the Experience Pla
 There are two standard roles provided to you that fill two common access control use cases. These are "read only" roles meaning they cannot be customized.
 
 | Role name | Role description | Permissions |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to read, create, and edit all data. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All from the table below. |
 | Collaboration Viewers | This is a read-only access permission. A user can read and discover data, activities, connections, and more. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All read permissions from the table below. |
 
