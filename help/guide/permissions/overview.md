@@ -22,10 +22,10 @@ To configure access control to Collaboration, you **must** have system or produc
 These guides will describe configuring access for system administrators, product adminstrators, and end users. Refer to the table below to understand the key difference between the roles.
 
 | Role | Description |
-| --- | --- | 
+| --- | --- |
 | System administrator | The super user for the organization. They are able to perform all administrative tasks in the Admin Console and have permissions to delegate administrative functions to other users.  |
 | Product administrator | Administers the products assigned to them and all associated administrative functions, such as adding users to organizations, adding or removing users from product profiles, and adding or removing other product administrators from a product. |
-| End user | The users in your organization who use the products. | 
+| End user | The users in your organization who use the products. |
 
 {style="table-layout:auto"}
 
@@ -58,8 +58,8 @@ Refer to the chart below to determine who is needed to configure the privileges 
 >
 > A super user refers to the highest level of access to be gained by the system administrator. A super user can perform all administrative tasks and user functionality. A system administrator does not have product functionality out-of-the-box and need to give themselves the appropriate access, as shown in the chart below. 
 
-| Use case | Required role | Where to begin | 
-| --- | --- | --- | 
+| Use case | Required role | Where to begin |
+| --- | --- | --- |
 | Super user with no existing Experience Platform product access. | A system administrator. | [Configure product administrator access](./manage-user-access.md#admin-access) |
 | Super user for an existing Experience Platform system administrator **with** Experience Platform UI access. | A system administrator. | [Configure Collaboration access](./manage-user-access.md#RTCDP-collab-access) |
 | Super user for an existing Experience Platform system administrator **without** Experience Platform UI access. | A system administrator. | [Configure product administrator access](./manage-user-access.md#admin-access) |
