@@ -1,6 +1,6 @@
 ---
-title: Real-Time CDP Collaboration Quick Start Guide
-description: Learn how to onboard your organization in Real-Time CDP Collaboration, including setting up roles and organizations, audience sourcing, activation, and measurement. This guide helps collaborators configure connection settings to begin using their audiences securely and efficiently.
+title: Real-Time CDP Collaboration Quick Start & Setup Guide
+description: Learn how to set up Real-Time CDP Collaboration, configure roles and accounts, source audiences, activate data, and connect with partners securely.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
