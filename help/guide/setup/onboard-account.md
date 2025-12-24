@@ -116,15 +116,15 @@ First-party device IDs are identifiers connected to a specific device. Currently
 
 Partner IDs are identifiers provided by external partners for audience reconciliation. Currently supported IDs are:
 
-* **[!UICONTROL Adfixus ID]**
+* **[!UICONTROL AdFixus ID]**
 
 >[!NOTE]
 >
->Adobe's integration with [!DNL Adfixus] maps the unique [!UICONTROL Adfixus IDs] for each account to a common Adobe-encoded format. These mappings are used to identify overlaps between collaborators. When activating audiences using **[!UICONTROL Adfixus ID]**, the original IDs are used. The Adobe-encoded format never leaves Collaboration.
+>Adobe's integration with [!DNL AdFixus] maps the unique [!UICONTROL AdFixus IDs] for each account to a common Adobe-encoded format. These mappings are used to identify overlaps between collaborators. When activating audiences using **[!UICONTROL AdFixus ID]**, the original IDs are used. The Adobe-encoded format never leaves Collaboration.
 
-When selecting **[!UICONTROL Adfixus ID]**, you will need to provide the corresponding ID from your external partner in the **[!UICONTROL Account credentials]** section. This option will only be available *after* toggling on **[!UICONTROL Adfixus ID]**. Enter your Adfixus ID into the **[!UICONTROL Account ID]** field, being sure to double check the value for accuracy.
+When selecting **[!UICONTROL AdFixus ID]**, you will need to provide the corresponding ID from your external partner in the **[!UICONTROL Account credentials]** section. This option will only be available *after* toggling on **[!UICONTROL AdFixus ID]**. Enter your AdFixus ID into the **[!UICONTROL Account ID]** field, being sure to double check the value for accuracy.
 
-![The Match keys dialog with Adfixus ID toggled on and the Account credentials section highlighted.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![The Match keys dialog with AdFixus ID toggled on and the Account credentials section highlighted.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
@@ -158,11 +158,11 @@ Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section.
 
 ![The Setup workspace with the Edit option highlighted within the account's Match keys section.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-The **[!UICONTROL Match keys]** dialog appears. Toggle on and off any match keys, or update your **[!UICONTROL Account ID]** for your [!UICONTROL Adfixus ID's],and then select **[!UICONTROL Save]** to confirm the changes.
+The **[!UICONTROL Match keys]** dialog appears. Toggle on and off any match keys, or update your **[!UICONTROL Account ID]** for your [!UICONTROL AdFixus ID's],and then select **[!UICONTROL Save]** to confirm the changes.
 
 >[!IMPORTANT]
 >
->Changing your [!UICONTROL Adfixus ID] will not trigger a [data sketch](../glossary.md#sketches) refresh for your existing data connections using the match key. Once your data has been sketched, any changes to your [!UICONTROL Adfixus ID] will not be reflected until your next audience refresh following your [data connection schedule](./manage-data-connection.md#scheduling) settings. If you require changes before your next refresh, you can delete and recreate your data connection.
+>Changing your [!UICONTROL AdFixus ID] will not trigger a [data sketch](../glossary.md#sketches) refresh for your existing data connections using the match key. Once your data has been sketched, any changes to your [!UICONTROL AdFixus ID] will not be reflected until your next audience refresh following your [data connection schedule](./manage-data-connection.md#scheduling) settings. If you require changes before your next refresh, you can delete and recreate your data connection.
 
 ![The Match keys dialog with the Save option highlighted.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
