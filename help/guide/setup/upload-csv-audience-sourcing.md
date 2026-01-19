@@ -1,14 +1,14 @@
 ---
-title: Upload CSV files for Audience Sourcing
+title: Upload CSV file for Audience Sourcing
 description: Learn how to upload your CSV file as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
 ---
-# Upload CSV files for audience sourcing
+# Upload CSV file for audience sourcing
 
-Learn how to upload CSV files in the Adobe Real-Time CDP Collaboration UI to source audience data for activation and analysis.
+This guide provides steps to upload a CSV file in the Adobe Real-Time CDP Collaboration UI to source your audience data for use in collaboration projects.
 
 ## Overview {#overview}
 
-Follow this workflow to upload CSV files containing your audience data to source and manage first-party audiences within Collaboration.
+Follow this workflow to upload a CSV file containing your audience data to source and manage first-party audiences within Collaboration.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Select **[!UICONTROL CSV File]** as a data connection, followed by **[!UICONTROL
 
 ### Select file {#select-file}
 
-Select **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
+Choose **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
 
 >[!TIP]
 >
@@ -46,9 +46,13 @@ Once your file is uploaded, the UI shows a summary including the number of colum
 
 Select **[!UICONTROL Next]** to continue.
 
+<!-- SCREENSHOT for Select from computer -->
+
 #### Replace file {#replace-file}
 
-If you wish to upload another CSV file, select **[!UICONTROL Replace file]**. When finished, select **[!UICONTROL Next]**.
+To change your CSV file, select **[!UICONTROL Replace file]** to upload a new file. When finished, select **[!UICONTROL Next]** to continue.
+
+<!-- SCREENSHOT for Replace file -->
 
 ### Confirm consent acknowledgment {#confirm-consent}
 
@@ -89,6 +93,16 @@ A progress bar below the summary sections appears showing that the CSV file is u
 
 ## Review sourced audiences {#review-sourced-audiences}
 
-## View your CSV data connection {#view-csv-connection}
+After uploading your CSV file, Collaboration begins sourcing audiences from the file. When this process is complete, your audiences are available in the **[!UICONTROL My Audiences]** tab and offer the same features and information as those sourced from Experience Platform.
+
+If CSV audience sourcing is in progress, a banner appears at the top of the screen. Individual audiences appear only after sourcing completes.
+
+If CSV audience sourcing fails, an error dialog appears with instructions to retry or contact the customer support.
+
+<!-- SCREENSHOT -->
 
 ## Next steps {#next-steps}
+
+You have now successfully uploaded your CSV file to source your first-party audience data in Collaboration. When sourcing is complete, your audiences are available in the **[!UICONTROL My audiences]** workspace and ready for you to manage, collaborate, and activate.
+
+For step-by-step guidance on managing your sourced audiences, refer to the [source and manage audiences documentation](./onboard-audiences.md).
