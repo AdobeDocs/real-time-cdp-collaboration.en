@@ -8,8 +8,11 @@ This guide provides steps to upload a CSV file in the Adobe Real-Time CDP Collab
 
 ## Overview {#overview}
 
-Follow this workflow to upload a CSV file containing your audience data to source and manage first-party 
-audiences within Collaboration. You can map identity fields for activation and overlap analysis. Once your file is uploaded and processed, the sourced audience becomes available in the **[!UICONTROL My audiences]** workspace, where you can review, activate, and manage for your collaboration projects.
+Follow this workflow to upload a CSV file containing your audience data to source and manage first-party audiences within Collaboration. You can map identity fields for activation and overlap analysis. Once your file is uploaded and processed, the sourced audience becomes available in the **[!UICONTROL My audiences]** workspace, where you can review, activate, and manage for your collaboration projects.
+
+>[!IMPORTANT]
+>
+>Audiences sourced through CSV upload are available for **7 days**. After this period, the audience expires and must be re-uploaded for use in your collaboration projects.
 
 >[!NOTE]
 >
@@ -90,7 +93,7 @@ A progress bar below the summary sections appears showing that the CSV file is u
 
 ## Review sourced audiences {#review-sourced-audiences}
 
-After uploading your CSV file, Collaboration begins sourcing audiences from the file. This process may take several minutes. When the sourcing finishes, your audiences are available in the **[!UICONTROL My Audiences]** tab with the same features and information as audiences sourced from Experience Platform.
+After uploading your CSV file, Collaboration begins sourcing audiences from the file. This process may take several minutes. When the sourcing finishes, your audiences are available in the **[!UICONTROL My Audiences]** tab with the same features and information as audiences sourced from Experience Platform. Note that these audiences remain accessible for **7 days** before expiring and need to be uploaded again for use in Collaboration.
 
 ![The Audiences tab showing a list of sourced audiences in grid view.](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
 
