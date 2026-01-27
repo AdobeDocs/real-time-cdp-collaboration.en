@@ -111,6 +111,8 @@ First-party people IDs are directly connected to an individual profile. Currentl
 First-party device IDs are identifiers connected to a specific device. Currently supported IDs are:
 
 * **[!UICONTROL Hashed IPv4]**: Hashed IPv4 addresses
+* **[!UICONTROL IDFA]**: Apple's IDFA used in iOS devices
+* **[!UICONTROL GAID]**: Google Advertiser ID used in Android devices
 
 ##### Partner IDs
 
