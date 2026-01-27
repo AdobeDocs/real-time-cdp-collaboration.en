@@ -70,7 +70,7 @@ To begin configuring your account, you must first set up the account details. Th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="First-party device IDs"
->abstract="First-party device IDs, such as ECID or IP addresses, are directly connected to devices, which may be shared between several individuals. IPv4 is the only first-party device ID currently supported."
+>abstract="First-party device IDs, such as ECID or IP addresses, are directly connected to devices, which may be shared between several individuals."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
