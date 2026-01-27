@@ -9,9 +9,21 @@ exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 
 {{limited-availability-release-note}}
 
-**Last update**: December 2025.
+**Last update**: January 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## January 2026 {#january-2026}
+
+Real-Time CDP Collaboration now supports CSV file upload as a new method for sourcing audiences into Collaboration.
+
+**New features**
+
+| Feature | Description |
+| ------- | ----------- |
+| Audience sourcing through CSV upload | You can now source audiences into Collaboration by uploading a CSV file in the UI. Use this workflow to onboard first-party audiences for short-term collaboration projects. For more information, see the [upload CSV file for audience sourcing guide](../setup/upload-csv-audience-sourcing.md). |
+
+{style="table-layout:auto"}
 
 ## December 2025 {#december-2025}
 
