@@ -21,7 +21,7 @@ Real-Time CDP Collaboration now supports CSV file upload as a new method for sou
 
 | Feature | Description |
 | ------- | ----------- |
-| Audience sourcing through CSV upload | You can now source audiences into Collaboration by uploading a CSV file in the UI. Use this workflow to onboard first-party audiences for short-term collaboration projects. For more information, see the [upload CSV file for audience sourcing guide](../setup/upload-csv-audience-sourcing.md). |
+| CSV upload for Audience Sourcing | Upload CSV files to source audiences into Collaboration directly from the UI. Ideal for onboarding first-party data for short-term collaboration projects. For more information, see the [upload CSV file for audience sourcing guide](../setup/upload-csv-audience-sourcing.md). |
 
 {style="table-layout:auto"}
 
