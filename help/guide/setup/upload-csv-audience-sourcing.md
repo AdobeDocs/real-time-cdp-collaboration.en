@@ -8,15 +8,23 @@ This guide provides steps to upload a CSV file in the Adobe Real-Time CDP Collab
 
 ## Overview {#overview}
 
+CSV file upload is one method to source first-party audience data for collaboration projects. This is an alternative to [connecting your AWS S3 bucket](./configure-aws-s3-audience-sourcing.md) or [sourcing audiences from Experience Platform](./onboard-audiences.md).
+
 Follow this workflow to upload a CSV file containing your audience data to source and manage first-party audiences within Collaboration. You can map identity fields for activation and overlap analysis. Once your file is uploaded and processed, the sourced audience becomes available in the **[!UICONTROL My audiences]** workspace, where you can review, activate, and manage for your collaboration projects.
 
 >[!IMPORTANT]
 >
->Audiences sourced through CSV upload are available for **7 days**. After this period, the audience expires and must be re-uploaded for use in your collaboration projects.
-
->[!NOTE]
+>* Audiences sourced through CSV upload are available for **7 days**. After this period, the audience expires and must be re-uploaded for use in your collaboration projects.
 >
->You can upload one CSV file per session at this time. To add additional audiences, complete the upload workflow again for each file you wish to source.
+>* You can upload one CSV file per session at this time. To add additional audiences, complete the upload workflow again for each file you wish to source.
+
+## Prerequisites {#prerequisites}
+
+Before you can upload CSV files for audience sourcing, ensure you have:
+
+* Completed account onboarding in Real-Time CDP Collaboration. See [Onboard your account](./onboard-account.md) for step-by-step instructions.
+* The necessary permissions to add audiences in your organization.
+* A CSV file containing your audience data with identity fields such as email or phone.
 
 ## Upload a CSV file {#upload-csv-file}
 
@@ -40,15 +48,15 @@ Select **[!UICONTROL CSV File]** as a data connection, followed by **[!UICONTROL
 
 Choose **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
 
->[!TIP]
+>[!IMPORTANT]
 >
->Only CSV files are supported. The maximum file size for each file is 2 GB.
+>Only CSV files are supported. The maximum file size is **2 GB**.
 
 ![Select a CSV file containing audience data from your local system.](../../assets/setup/csv-audience-sourcing/select-file.png)
 
-Once your file is uploaded, the UI shows a summary including the number of columns, an estimated row count, the structure of the file, and a preview of the first 10 rows of data.
+Once uploaded, the UI shows a summary including the number of columns, an estimated row count, the structure of the file, and a preview of the first 10 rows of data.
 
-Review the summary and then select **[!UICONTROL Next]** to continue.
+Review the summary, then select **[!UICONTROL Next]**.
 
 ![Preview the sample audience data from your CSV file.](../../assets/setup/csv-audience-sourcing/preview-sample-data.png)
 
@@ -56,25 +64,29 @@ Review the summary and then select **[!UICONTROL Next]** to continue.
 
 If you need to upload a different CSV file, choose **[!UICONTROL Replace file]** and select your new file. The interface then refreshes to display an updated summary of the new data.
 
-After reviewing the revised summary, select **[!UICONTROL Next]** to continue.
+After reviewing the revised summary, select **[!UICONTROL Next]**.
 
-![Replace a CSV file.](../../assets/setup/csv-audience-sourcing/replace-file.png)
+![Select the Replace file option to upload a different CSV file.](../../assets/setup/csv-audience-sourcing/replace-file.png)
 
 ### Confirm consent acknowledgment {#confirm-consent}
 
-You must then acknowledge that consent opt-outs have been removed before proceeding. Check the confirmation box followed by **[!UICONTROL OK]** to confirm.
+Before proceeding, you must acknowledge that consent opt-outs have been removed from your audience data. Collaboration requires clean audience data without users who have opted out of data sharing.
+
+Check the confirmation box followed by **[!UICONTROL OK]** to confirm. The dialog then closes, and you proceed to the map fields screen.
 
 ![The consent opt-out acknowledgment dialog requiring confirmation before proceeding.](../../assets/setup/csv-audience-sourcing/consent-optout-acknowledgment.png)
 
 ### Map source identity fields {#map-fields}
 
-On the **[!UICONTROL Map fields]** screen, use the dropdown menus to map each source identity field from your CSV file to the appropriate target field in Collaboration. If you need additional details about a target field including the data type or description, select **[!UICONTROL Target fields details]** for more information.
+Field mapping determines how Collaboration uses your audience data for activation and overlap analysis. On the **[!UICONTROL Map fields]** screen, use the dropdown menus to map each source identity field from your CSV file to the appropriate target field in Collaboration. 
 
-![Map source fields from CSV audience data to target fields.](../../assets/setup/csv-audience-sourcing/map-fields.png)
+If you need additional details about a target field including the data type or description, select **[!UICONTROL Target fields details]** for more information.
 
-Next, review the mapped fields, and then select **[!UICONTROL Next]** to continue.
+![The dropdown to map a source identity field from your CSV audience data to the target field in Collaboration.](../../assets/setup/csv-audience-sourcing/map-fields.png)
 
-![Review the mapped fields.](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
+Next, review the mapped fields, and then select **[!UICONTROL Next]**.
+
+![The field mapping screen showing the mapped source and target identity fields.](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
 
 ### Review and complete the upload {#review-and-complete}
 
@@ -85,31 +97,34 @@ The **[!UICONTROL Review]** screen appears with a summary of the audience settin
 
 Select the pencil icon if you need to edit a section. Select **[!UICONTROL Complete]** to confirm all sections.
 
-![Review summary of upload settings.](../../assets/setup/csv-audience-sourcing/review-upload-summary.png)
+![Review the summary of upload settings including CSV file information and field mapping details.](../../assets/setup/csv-audience-sourcing/review-upload-summary.png)
 
-A progress bar below the summary sections appears showing that the CSV file is uploading. Once the upload completes, a confirmation dialog notifies you that the CSV audience was created successfully and that audience sourcing in progress.
+A progress bar appears below the summary sections to indicate upload progress. Once the upload completes, a confirmation dialog confirms that your CSV audience was created and audience sourcing is in progress.
 
 ![After uploading file, a confirmation dialog appears stating that CSV audience was created and audience sourcing in progress.](../../assets/setup/csv-audience-sourcing/upload-success-sourcing-in-progress.png)
 
 ## Review sourced audiences {#review-sourced-audiences}
 
-After uploading your CSV file, Collaboration begins sourcing audiences from the file. This process may take several minutes. When the sourcing finishes, your audiences are available in the **[!UICONTROL My Audiences]** tab with the same features and information as audiences sourced from Experience Platform. Note that these audiences remain accessible for **7 days** before expiring and need to be uploaded again for use in Collaboration.
+After uploading your CSV file, Collaboration begins sourcing audiences from the file. This process may take several minutes. When the sourcing finishes, your audiences are available in the **[!UICONTROL My Audiences]** tab with the same features and information as audiences sourced from Experience Platform.
 
 ![The Audiences tab showing a list of sourced audiences in grid view.](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
 
 When in grid view or table view, select a row item or **[!UICONTROL View audience]** to see an overview of a specific audience. It displays the audience's status, source, and data connection name, along with detailed panels for:
 
-**[!UICONTROL Identities]**: Shows the total identity count and breakdown once data becomes available.
-**[!UICONTROL Categories]**: Lists any tags used for organizing or filtering the audience.
-**[!UICONTROL Connection access]**: Indicates whether the audience is private, public, or shared with specific collaborators.
-**[!UICONTROL Metadata visibility]**: Defines what audience information (such as identity count, overlap percentage, and index) is visible to collaborators.
+**[!UICONTROL Identities]**: Displays the total identity count and breakdown once data becomes available.
+**[!UICONTROL Categories]**: Displays any tags used for organizing or filtering the audience.
+**[!UICONTROL Connection access]**: Displays whether the audience is private, public, or shared with specific collaborators.
+**[!UICONTROL Metadata visibility]**: Displays what audience information (such as identity count, overlap percentage, and index) is visible to collaborators.
 
-Use this view to confirm audience configuration and visibility settings before using the audience in collaboration projects.
-
-See the [View audiences dashboard documentation](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) to learn more.
+Use this view to confirm audience configuration and visibility settings before using the audience in collaboration projects. For more information, see [how to view an individual audience](./onboard-audiences.md#view-individual-audiences).
 
 ## Next steps {#next-steps}
 
-You have now successfully uploaded your CSV file to source your first-party audience data in Collaboration. When sourcing is complete, your audiences are available in the **[!UICONTROL My audiences]** workspace and ready for you to manage, collaborate, and activate.
+You have now successfully uploaded your CSV file in Collaboration. After sourcing completes, you can:
 
-For step-by-step guidance on managing your sourced audiences, refer to the [source and manage audiences documentation](./onboard-audiences.md).
+* Create collaboration projects with your sourced audiences. See [Discover audiences](../../guide/collaborate/discover.md).
+* Activate audiences to connected destinations. See [Activate audiences](../../guide/collaborate/activate.md).
+* Review audience overlap and insights. See [Measure campaign performance](../../guide/collaborate/measure.md).
+* Manage your audience settings and visibility. See [Source and manage audiences](./onboard-audiences.md).
+
+For information about other audience sourcing methods, see [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) or [Source audiences from Experience Platform](./onboard-audiences.md).
