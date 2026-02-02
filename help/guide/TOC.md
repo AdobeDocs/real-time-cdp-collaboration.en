@@ -16,9 +16,11 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * Set Up {#setup}
   * [Overview of setup section](./setup/setup-overview.md)
   * [Onboard and manage your account](./setup/onboard-account.md)
-  * [Source and manage audiences](./setup/onboard-audiences.md)
-  * [Configure Amazon S3 for audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
-  * [Configure AWS permissions for audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
+  * Source and manage audiences {#source-audiences}
+    * [Configure AEP for audience sourcing](./setup/onboard-audiences.md)
+    * [Configure AWS permissions for audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
+    * [Configure Amazon S3 for audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
+    * [Upload CSV file for audience sourcing](./setup/upload-csv-audience-sourcing.md)
   * [Manage data connections](./setup/manage-data-connection.md)
   * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
