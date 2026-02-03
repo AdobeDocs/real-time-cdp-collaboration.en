@@ -70,7 +70,7 @@ To begin configuring your account, you must first set up the account details. Th
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="First-party device IDs"
->abstract="First-party device IDs, such as ECID or IP addresses, are directly connected to devices, which may be shared between several individuals. IPv4 is the only first-party device ID currently supported."
+>abstract="First-party device IDs, such as ECID or IP addresses, are directly connected to devices that may be shared between several individuals."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -111,6 +111,8 @@ First-party people IDs are directly connected to an individual profile. Currentl
 First-party device IDs are identifiers connected to a specific device. Currently supported IDs are:
 
 * **[!UICONTROL Hashed IPv4]**: Hashed IPv4 addresses
+* **[!UICONTROL IDFA]**: The Identifier for Advertisers (IDFA) used in Apple iOS devices
+* **[!UICONTROL GAID]**: Google Advertiser ID used in Android devices
 
 ##### Partner IDs
 
