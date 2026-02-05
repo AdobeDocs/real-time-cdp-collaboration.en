@@ -1,6 +1,7 @@
 ---
 title: Upload CSV file for Audience Sourcing
 description: Learn how to upload your CSV file as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
+exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 ---
 # Upload CSV file for audience sourcing
 

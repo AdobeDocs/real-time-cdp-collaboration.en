@@ -3,6 +3,7 @@ title: Connections overview
 description: Learn about connections in Real-Time CDP Collaboration.
 audience: publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 419dde94-fee2-4dc1-b25d-cf79b7e57ec0
 ---
 # Connections overview
 

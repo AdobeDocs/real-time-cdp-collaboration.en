@@ -3,6 +3,7 @@ title: Amazon Marketing Cloud
 description: Learn about collaborating with Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 ---
 # Amazon Marketing Cloud
 

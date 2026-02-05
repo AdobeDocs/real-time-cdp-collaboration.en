@@ -3,6 +3,7 @@ title: Manage connections
 description: Learn how to manage your connections in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 ---
 # Manage connections {#manage-connections}
 

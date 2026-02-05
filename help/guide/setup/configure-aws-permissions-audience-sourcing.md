@@ -1,6 +1,7 @@
 ---
 title: Configure AWS Permissions for Audience Sourcing
 description: Learn how to configure AWS Identity and Access Management (IAM) permissions to grant Adobe secure, read-only access to your [!DNL Amazon S3] bucket for audience sourcing in Real-Time CDP Collaboration.
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
 ---
 # Configure AWS permissions for audience sourcing
 
