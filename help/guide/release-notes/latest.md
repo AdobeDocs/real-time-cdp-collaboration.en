@@ -25,6 +25,13 @@ Real-Time CDP Collaboration now supports CSV file upload as a new method for sou
 
 {style="table-layout:auto"}
 
+[Mobile match keys](../setup/onboard-account.md#supported-match-keys) are available in Collaboration for enhanced audience matching and measurement:
+
+* IDFA
+* GAID
+
+New match keys can be used to source audiences and set up connections, or added to active collaborations without disrupting live connections. To learn more about configuring match keys, see the [set up match keys](../setup/onboard-account.md#set-up-match-keys) guide.
+
 ## December 2025 {#december-2025}
 
 Real-Time CDP Collaboration is now available to customers in **Europe, the Middle East, and Africa (EMEA))**. It is automatically available to Real-Time CDP Prime and Ultimate customers in these regions.
