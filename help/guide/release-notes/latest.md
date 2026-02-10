@@ -15,13 +15,14 @@ These release notes cover the functionality released in Adobe Real-Time CDP Coll
 
 ## January 2026 {#january-2026}
 
-Real-Time CDP Collaboration now supports CSV file upload as a new method for sourcing audiences into Collaboration.
+Real-Time CDP Collaboration now supports CSV file upload as a new method for sourcing audiences, as well as new mobile match keys (IDFA and GAID) for enhanced audience matching and measurement.
 
-**New features**
+**New or updated features**
 
 | Feature | Description |
 | ------- | ----------- |
 | CSV upload for Audience Sourcing | Upload CSV files to source audiences into Collaboration directly from the UI. Ideal for onboarding first-party data for short-term collaboration projects. For more information, see the [upload CSV file for audience sourcing guide](../setup/upload-csv-audience-sourcing.md). |
+| Mobile Match Key Support | Collaboration now supports mobile match keys, including IDFA and GAID, for audience matching and measurement. These match keys are selected during account setup and can then be used when configuring connection settings for new connections and in downstream collaboration workflows. See the [Match keys setup guide](../setup/onboard-account.md#set-up-match-keys) for more details. |
 
 {style="table-layout:auto"}
 
