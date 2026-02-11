@@ -5,6 +5,7 @@ audience: publisher, advertiser, invited users to Real-Time CDP Collaboration St
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: yes
 hide: yes
+exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
 ---
 # Adobe Real-Time CDP Collaboration Starter Overview
 
