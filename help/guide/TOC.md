@@ -13,6 +13,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Account roles](./overview/roles.md)
   * [Collaboration patterns](./overview/collaboration-patterns.md)
   * [End-to-end workflow](./overview/end-to-end-workflow.md)
+  * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
 * Set Up {#setup}
   * [Overview of setup section](./setup/setup-overview.md)
   * [Onboard and manage your account](./setup/onboard-account.md)
