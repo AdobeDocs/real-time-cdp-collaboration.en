@@ -38,3 +38,45 @@ A confirmation dialog appears, asking you to confirm the deletion of the connect
 >[!WARNING]
 >
 >Once the connection is deleted, all existing projects in the collaboration will be permanently deleted and unrecoverable. The connection request will remain in a pending state within the **[!UICONTROL Action required]** section within **[!UICONTROL My connections]**, but the connection and its configurations will no longer be active. You will need to re-establish the connection if you want to connect with the collaborator again.
+
+## Edit connection {#edit-connection}
+
+If you are the owner of a collaboration connection, you can edit the connection settings with your collaborator even after the connection has been established. Note that you cannot change the existing configuration of the connection.
+
+>[!TIP]
+>
+>The **owner** is the collaborator who initiates the connection by sending the invite to the **recipient**. For more information, see the [establishing connections with collaborators](./establishing-connections.md).
+
+To edit a connection, navigate to its connection settings workspace. Select the three dots icon (![Three dots icon.](/help/assets/icons/more.png)) to view available actions. Then, select **[!UICONTROL Edit]**.
+
+![The connection settings workspace with the Edit option highlighted.](/help/assets/connect/establish-connection/edit-connection.png){zoomable="yes"}
+
+A dialog appears, prompting you to edit and submit the settings changes for collaborator review. Select **[!UICONTROL Edit]**.
+
+![The Edit connection settings dialog with the Edit option highlighted.](/help/assets/connect/establish-connection/edit-connection-settings-dialog.png){zoomable="yes"}
+
+### Add use cases {#add-use-cases}
+
+You can include additional use cases in your projects with a collaborator. For details about available use cases, see [collaboration use cases](../overview/use-cases.md) documentation.
+
+To add new use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section. 
+
+In the **[!UICONTROL Use cases]** dialog, toggle on the new use cases you want to add, followed by **[!UICONTROL Save]**.
+
+![The Use cases dialog displaying the new use cases selected and the Save option highlighted.](/help/assets/connect/establish-connection/edit-use-cases.png){zoomable="yes"}
+
+### Edit audience activation and credit split {#edit-audience-activation-credit-split}
+
+When you add `Audience activation` as a new use case, the edit connection settings screen updates to display both the **[!UICONTROL Audience activation]** and **[!UICONTROL Credit split]** sections. If you add only `Measurement` use case, the screen shows only the **[!UICONTROL Credit split]** section. 
+
+To configure audience activation or credit split, select **[!UICONTROL Set up]** within each relevant section. For detailed instructions, see the [audience activation](../connect/establishing-connections.md#audience-activation) and [credit split](../connect/establishing-connections.md#credit-split) guides.
+
+![The edit connection settings screen displaying Audience activation and Credit split sections after new use cases are added.](/help/assets/connect/establish-connection/audience-activation-credit-split.png){zoomable="yes"}
+
+### Add match keys {#add-match-keys}
+
+After [adding new match keys in your Collaborator account](../setup/onboard-account.md#edit-match-keys), you can enable these match keys for your existing connections.
+
+In the edit connection settings screen, select **[!UICONTROL Edit]** within the **[!UICONTROL Match keys]** section.
+
+![.](/help/assets/connect/establish-connection/edit-match-keys.png){zoomable="yes"}
