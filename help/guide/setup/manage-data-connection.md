@@ -64,7 +64,7 @@ Read the following sections to learn how to update match keys and scheduling set
 
 Select **[!UICONTROL Edit]** from the **[!UICONTROL Match keys]** section.
 
-![The Match keys section containing the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+![The Match keys section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
 
 A confirmation dialog appears, explaining that any changes to the data connection will apply to all associated audiences. Select **[!UICONTROL OK]** to confirm. You can choose to skip this confirmation in the future.
 
@@ -86,7 +86,7 @@ Choose the source field that you want, followed by **[!UICONTROL Select]**.
 
 ![The Select source field dialog with the GAID option selected.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
-Use the dropdown menu to map the new source field to a target field. All available target fields are the match keys configured for your Collaborator account. If you don't see the target field you need, [edit your account's match keys](./onboard-account.md#edit-match-keys) to add it.
+In the **[!UICONTROL Match keys]** dialog, use the dropdown menu to map the new source field to a target field. All available target fields are the match keys configured for your Collaborator account. If you don't see the target field you need, [edit your account's match keys](./onboard-account.md#edit-match-keys) to add it.
 
 Use the **[!UICONTROL Apply transformation]** option if you want to source a non-hashed field to a hashed target field, for example, when mapping a plain text email source field to the **[!UICONTROL Hashed email]** target field.
 
@@ -94,7 +94,7 @@ Use the **[!UICONTROL Apply transformation]** option if you want to source a non
 
 After you finish mapping fields, review your updates and select **[!UICONTROL Confirm]** to apply the changes.
 
-![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
 
 A confirmation dialog confirms that the match keys were updated successfully.
 
@@ -118,7 +118,7 @@ Next, select **[!UICONTROL Date range]** if you want to update the period during
 
 ![The Scheduling dialog showing the Date range dropdown expanded to edit the start and end dates for audience population and refresh.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
 
-When you're done, select **[!UICONTROL Save]** to apply your changes.
+When you're done, review the updates and select **[!UICONTROL Save]** to apply your changes.
 
 ![The Scheduling dialog highlighting the updates and Save option.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
