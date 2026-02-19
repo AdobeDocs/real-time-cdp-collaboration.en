@@ -41,42 +41,97 @@ A confirmation dialog appears, asking you to confirm the deletion of the connect
 
 ## Edit connection {#edit-connection}
 
-If you are the owner of a collaboration connection, you can edit the connection settings with your collaborator even after the connection has been established. Note that you cannot change the existing configuration of the connection.
+As the owner of a collaboration connection, you can edit the connection settings with your collaborator after the connection is established. You can:
+
+* Add use cases
+* Add match keys. Match key removal will be supported in the future.
+* Update audience activation permissions
+* Update credit split settings
+
+>[!IMPORTANT]
+>
+>You cannot change any settings or configurations that are already set for this connection.
 
 >[!TIP]
 >
->The **owner** is the collaborator who initiates the connection by sending the invite to the **recipient**. For more information, see the [establishing connections with collaborators](./establishing-connections.md).
+>The **owner** is the collaborator who initiates the connection by sending the invite to the **recipient**. For more information, see the [establishing connections with collaborators documentation](./establishing-connections.md).
 
-To edit a connection, navigate to its connection settings workspace. Select the three dots icon (![Three dots icon.](/help/assets/icons/more.png)) to view available actions. Then, select **[!UICONTROL Edit]**.
+To edit connection settings, navigate to the connection settings workspace. Select the three dots icon (![Three dots icon.](/help/assets/icons/more.png)) to view available actions, then select **[!UICONTROL Edit]**.
 
-![The connection settings workspace with the Edit option highlighted.](/help/assets/connect/establish-connection/edit-connection.png){zoomable="yes"}
+![The connection settings workspace with the Edit option highlighted.](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 
 A dialog appears, prompting you to edit and submit the settings changes for collaborator review. Select **[!UICONTROL Edit]**.
 
-![The Edit connection settings dialog with the Edit option highlighted.](/help/assets/connect/establish-connection/edit-connection-settings-dialog.png){zoomable="yes"}
+![The Edit connection settings dialog with the Edit option highlighted.](/help/assets/connect/manage-connections/edit-connection-settings-dialog.png){zoomable="yes"}
+
+### Edit audience activation {#edit-audience-activation}
+
+Audience activation settings determine which collaborator in the connection can activate audiences to destinations. To change these settings, select **[!UICONTROL Edit]** within the **[!UICONTROL Audience activation]** section.
+
+![The edit connection settings screen showing the Audience activation section and the Edit option.](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}
+
+In the **[!UICONTROL Audience activation]** dialog, use the dropdown menu to update the audience activation permissions.  You can choose a single collaborator or allow both collaborators to activate audiences. 
+
+![The Audience activation dialog highlighting dropdown menu expanded for updating the audience activation permissions.](/help/assets/connect/manage-connections/audience-activation-dropdown-menu.png){zoomable="yes"}
+
+Once finished, select **[!UICONTROL Save]**.
+
+![The Audience activation dialog showing the new audience activation permissions and the Save option.](/help/assets/connect/manage-connections/audience-activation-dialog.png){zoomable="yes"}
 
 ### Add use cases {#add-use-cases}
 
-You can include additional use cases in your projects with a collaborator. For details about available use cases, see [collaboration use cases](../overview/use-cases.md) documentation.
+In Collaboration, use cases such as Discover, Activate, and Measure determine which project sections and features you can use with your collaborator. You can add additional use cases to an existing connection for future projects. For more information, see [collaboration use cases](../overview/use-cases.md).
 
-To add new use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section. 
+To add new use cases, select **[!UICONTROL Edit]** in the **[!UICONTROL Use cases]** section.
 
-In the **[!UICONTROL Use cases]** dialog, toggle on the new use cases you want to add, followed by **[!UICONTROL Save]**.
+![The edit connection settings screen highlighting the Use cases section and the Edit option.](/help/assets/connect/manage-connections/edit-use-cases.png){zoomable="yes"}
 
-![The Use cases dialog displaying the new use cases selected and the Save option highlighted.](/help/assets/connect/establish-connection/edit-use-cases.png){zoomable="yes"}
+In the **[!UICONTROL Use cases]** dialog, toggle on new use cases you want to add, followed by **[!UICONTROL Save]**.
 
-### Edit audience activation and credit split {#edit-audience-activation-credit-split}
+![The Use cases dialog displaying the Save option highlighted.](/help/assets/connect/manage-connections/use-cases-dialog.png){zoomable="yes"}
 
-When you add `Audience activation` as a new use case, the edit connection settings screen updates to display both the **[!UICONTROL Audience activation]** and **[!UICONTROL Credit split]** sections. If you add only `Measurement` use case, the screen shows only the **[!UICONTROL Credit split]** section. 
-
-To configure audience activation or credit split, select **[!UICONTROL Set up]** within each relevant section. For detailed instructions, see the [audience activation](../connect/establishing-connections.md#audience-activation) and [credit split](../connect/establishing-connections.md#credit-split) guides.
-
-![The edit connection settings screen displaying Audience activation and Credit split sections after new use cases are added.](/help/assets/connect/establish-connection/audience-activation-credit-split.png){zoomable="yes"}
+>[!NOTE]
+>
+>When you [add new use cases](#add-use-cases) such as `Audience activation` or `Measurement`, the edit connection settings screen updates to include the **[!UICONTROL Audience activation]** and **[!UICONTROL Credit split]** sections. You must configure the appropriate settings for these new use cases. For more details, see the [audience activation](../connect/establishing-connections.md#audience-activation) and [credit split](../connect/establishing-connections.md#credit-split) guides.
+>
+>![The edit connection settings screen displaying Audience activation and Credit split sections after new use cases are added.](/help/assets/connect/manage-connections/setup-audience-activation-credit-split.png){zoomable="yes"}
 
 ### Add match keys {#add-match-keys}
 
-After [adding new match keys in your Collaborator account](../setup/onboard-account.md#edit-match-keys), you can enable these match keys for your existing connections.
+Only match keys that are configured in your account and also selected by your collaborator are available for the connection. Once you [add new match keys to your account](../setup/onboard-account.md#edit-match-keys) and your collaborator also selects the same keys, you can enable them within your existing connections.
 
 In the edit connection settings screen, select **[!UICONTROL Edit]** within the **[!UICONTROL Match keys]** section.
 
-![.](/help/assets/connect/establish-connection/edit-match-keys.png){zoomable="yes"}
+![The edit connection settings screen highlighting the Match keys section and Edit option.](/help/assets/connect/manage-connections/edit-connection-match-keys.png){zoomable="yes"}
+
+A **[!UICONTROL Match keys]** dialog appears, showing the existing match keys configured for the connection. Select the match keys you want to add, followed by **[!UICONTROL Save]**.
+
+![The Match keys dialog displaying the new match keys selected and the Save option.](/help/assets/connect/manage-connections/connection-match-keys-dialog.png){zoomable="yes"}
+
+### Edit credit split {#edit-credit-split}
+
+The credit split settings specify which collaborator is responsible for the costs associated with each use case in the connection. To update these settings, select **[!UICONTROL Edit]** in the **[!UICONTROL Credit split]** section.
+
+![The edit connection settings screen highlighting the Credit split section and the Edit option.](/help/assets/connect/manage-connections/edit-credit-split.png){zoomable="yes"}
+
+In the **[!UICONTROL Credit split]** dialog, select the preferred settings for [!UICONTROL Activation-Matching] and [!UICONTROL Measurement]. Then, select **[!UICONTROL Save]** to confirm.
+
+![The Credit split dialog showing the credit split settings and the Save option.](/help/assets/connect/manage-connections/credit-split-dialog.png){zoomable="yes"}
+
+### Review and submit changes {#review-and-submit-changes}
+
+When you complete editing the connection settings, review and select **[!UICONTROL Submit changes]**. The connection settings updates will be sent to your collaborator for review.
+
+![The edit connection settings screen displaying the updates and the Submit changes option.](/help/assets/connect/manage-connections/review-and-submit-changes.png){zoomable="yes"}
+
+#### Save connection settings changes as draft
+
+You can save the connection settings changes as a draft and return to finish updating the connection settings at any time. 
+
+To save the changes, select **[!UICONTROL Cancel]** next to **[!UICONTROL Submit changes]**. Then, in the **[!UICONTROL Unsubmitted changes]** dialog, select **[!UICONTROL Continue later]** to confirm.
+
+![The edit connection settings screen.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
+
+Your changes are now saved as a draft. In the connection settings workspace, you can see a notification indicating that there are unsubmitted changes. To make further updates, select **[!UICONTROL Continue editing]**.
+
+![A notification in the connection settings workspace showing there are unsubmitted changes pending review and submission.](/help/assets/connect/manage-connections/continue-editing-connection.png){zoomable="yes"}
