@@ -149,10 +149,6 @@ Audience data sent to a cloud destination follows a predefined schema. For a det
 
 ## Step 5: Set up measurement (optional) {#set-up-measurement}
 
->[!AVAILABILITY]
->
->This feature is in **beta** and available exclusively to customers in the Limited Availability program. Contact your Adobe representative to request access.
-
 >[!IMPORTANT]
 >
 >The **[!UICONTROL Measure]** workspace is only available if the **[!UICONTROL Measurement]** use case was enabled [during the connection process](./connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./collaborate/manage-projects.md#project-use-cases) guide.
