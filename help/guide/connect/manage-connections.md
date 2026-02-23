@@ -50,7 +50,7 @@ As the owner of a collaboration connection, you can edit the connection settings
 
 >[!IMPORTANT]
 >
->You cannot change any settings or configurations that are already set for this connection.
+>Once a use case or match key is added to a connection, it cannot be removed.
 
 >[!TIP]
 >
@@ -70,7 +70,7 @@ Audience activation settings determine which collaborator in the connection can 
 
 ![The edit connection settings screen showing the Audience activation section and the Edit option.](/help/assets/connect/manage-connections/edit-audience-activation.png){zoomable="yes"}
 
-In the **[!UICONTROL Audience activation]** dialog, use the dropdown menu to update the audience activation permissions.  You can choose a single collaborator or allow both collaborators to activate audiences. 
+In the **[!UICONTROL Audience activation]** dialog, use the dropdown menu to update the audience activation permissions. You can choose a single collaborator or allow both collaborators to activate audiences. 
 
 ![The Audience activation dialog highlighting dropdown menu expanded for updating the audience activation permissions.](/help/assets/connect/manage-connections/audience-activation-dropdown-menu.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ In the **[!UICONTROL Use cases]** dialog, toggle on new use cases you want to ad
 
 >[!NOTE]
 >
->When you [add new use cases](#add-use-cases) such as `Audience activation` or `Measurement`, the edit connection settings screen updates to include the **[!UICONTROL Audience activation]** and **[!UICONTROL Credit split]** sections. You must configure the appropriate settings for these new use cases. For more details, see the [audience activation](../connect/establishing-connections.md#audience-activation) and [credit split](../connect/establishing-connections.md#credit-split) guides.
+>When you [add new use cases](#add-use-cases) such as "Audience activation" or "Measurement", the edit connection settings screen updates to include the **[!UICONTROL Audience activation]** and **[!UICONTROL Credit split]** sections. You must configure the appropriate settings for these new use cases. For more details, see the [audience activation](../connect/establishing-connections.md#audience-activation) and [credit split](../connect/establishing-connections.md#credit-split) guides.
 >
 >![The edit connection settings screen displaying Audience activation and Credit split sections after new use cases are added.](/help/assets/connect/manage-connections/setup-audience-activation-credit-split.png){zoomable="yes"}
 
@@ -128,7 +128,7 @@ When you complete editing the connection settings, review and select **[!UICONTR
 
 You can save the connection settings changes as a draft and return to finish updating the connection settings at any time. 
 
-To save the changes, select **[!UICONTROL Cancel]** next to **[!UICONTROL Submit changes]**. Then, in the **[!UICONTROL Unsubmitted changes]** dialog, select **[!UICONTROL Continue later]** to confirm.
+To save the changes as a draft, select **[!UICONTROL Cancel]** next to **[!UICONTROL Submit changes]**. Then, in the **[!UICONTROL Unsubmitted changes]** dialog, select **[!UICONTROL Continue later]** to confirm.
 
 ![The edit connection settings screen.](/help/assets/connect/manage-connections/unsubmitted-changes-dialog.png){zoomable="yes"}
 

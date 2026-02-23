@@ -39,7 +39,7 @@ Match keys are the target fields you [mapped your source fields to](./onboard-au
 
 View and manage the scheduling settings for your data connections. Scheduling determines how often the audience is refreshed.
 
-After a data connection is created, you can update its refresh frequency and start and end dates directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ For more information on scheduling, see the [scheduling section](/help/guide/set
 
 ## Edit data connection {#edit-data-connection}
 
-Read the following sections to learn how to update match keys and scheduling settings of an existing data connection.
+Read the following sections to learn how to update the match keys and scheduling settings of an existing data connection.
 
 ### Edit match keys {#edit-match-keys}
 
@@ -100,7 +100,7 @@ A confirmation dialog confirms that the match keys were updated successfully.
 
 ### Edit scheduling {#edit-scheduling}
 
-After a data connection is created, you can update its refresh frequency and its start and end dates directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card.
 
