@@ -63,25 +63,27 @@ The **[!UICONTROL Add measurement data]** screen appears, displaying a summary o
 
 ### Data connection and details {#data-connection-and-details}
 
-The **[!UICONTROL Add measurement data]** workflow begins with the first step-configure the data connection and details of your measurement data.
+In this step, you need to configure your data connection and specify the details for your measurement data.
 
 #### Select measurement data type {#select-measurement-data-type}
 
-Measurement data can be conversion events or exposure logs. For advertiser, your measurement data type is **[!UICONTROL Conversion Data]**. 
+The measurement data type defines the kind of events you bring in for campaign measurement. Currently, Conversion Data is the supported type. 
 
-Select the data type, followed by **[!UICONTROL Next]**. 
+Select **[!UICONTROL Conversion Data]** as your measurement data type, followed by **[!UICONTROL Next]**. 
 
 ![The Data connection and details step highlighting the measurement data type and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-type.png){zoomable="yes"}
 
 #### Select data connection {#select-data-connection}
 
-A data connection is the source from where you are sourcing measurement data. To add a data connection, select **[!UICONTROL Add a new data connection]**, then select **[!UICONTROL Next]**.
+A data connection is the source from where you source measurement data into Collaboration. Once you have established your initial data connection and sourced your first set of measurement data, you can continue sourcing additional measurement data using the same data connection.
+
+To add a data connection, select **[!UICONTROL Add a new data connection]**, then select **[!UICONTROL Next]**.
 
 ![The Data connection and details step highlighting the Add a new data connection option and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-connection.png){zoomable="yes"}
 
 #### Select data source {#select-data-source}
 
-Next, choose the source for your data connection. Currently, the only supported data source is Adobe Experience Platform.
+Next, choose the source for your data connection. At this time, Adobe Experience Platform is the only supported data source.
 
 Select your data source, then select **[!UICONTROL Next]**.
 
@@ -105,11 +107,27 @@ Next, provide a name and a description for your data connection. This informatio
 
 ![The Data connection and details step with the option to provide a name and description.](../../assets/setup/add-manage-measurement-data/data-connection-name-details.png){zoomable="yes"}
 
-### Mapping fields {#mapping-fields}
+### Mapping {#mapping}
 
 The next step is to map fields from your measurement data to the corresponding target fields used in Collaboration. You can also choose to enrich your event dataset with attributes from Real‑Time Customer Profile by mapping join keys, and use these attributes to break down measurement reports.
 
-In the **[!UICONTROL Mapping]** screen, select the empty source field. 
+#### Enrich event data {#enrich-event-data}
+
+To enrich your event data, select the **[!UICONTROL Source field join key]** option.
+
+![The Mapping screen with the Source field join key option highlighted.](../../assets/setup/add-manage-measurement-data/select-source-field-join-key.png){zoomable="yes"}
+
+In the **[!UICONTROL Source field join key]** dialog, choose the source field, followed by **[!UICONTROL Select]**.
+
+![The Source field join key dialog highlighting the Source field and the Next option.](../../assets/setup/add-manage-measurement-data/source-field-join-key-dialog.png){zoomable="yes"}
+
+Next, select the **[!UICONTROL Profile join key]** option. In the **[!UICONTROL Profile join key]** dialog, select the profile field from the list. You can use the Search option to find the desired field. Then, choose **[!UICONTROL Select]** to confirm.
+
+![The Profile join key dialog highlighting the Search key, the selected profile field and the Next option.](../../assets/setup/add-manage-measurement-data/profile-join-key-dialog.png){zoomable="yes"}
+
+#### Mapping fields {#mapping-fields}
+
+To start mapping source fields from your measurement data to the target fields in Collaboration, select the empty source field in the **[!UICONTROL Mapping]** screen.
 
 ![The Mapping screen with the empty source field highlighted.](../../assets/setup/add-manage-measurement-data/mapping-screen.png){zoomable="yes"}
 
@@ -137,7 +155,7 @@ To confirm your acknowledgement, select **[!UICONTROL Next]**.
 
 ![The Manage consent screen requiring confirmation with the Next button highlighted.](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-If you enable profile enrichment during the [mapping step](#mapping-fields), you can configure consent policies from a list of pre-defined options. This includes setting marketing actions for your audiences, defining consent rules for your data, and filtering audience to include or exclude for consent.
+If you [enable profile enrichment during the mapping step](#enrich-event-data), you can configure consent policies from a list of pre-defined options. This includes setting marketing actions for your audiences, defining consent rules for your data, and filtering audience to include or exclude for consent.
 
 ![The Manage consent screen showing consent configuration options when profile enrichment is enabled, with the Next button highlighted.](../../assets/setup/add-manage-measurement-data/manage-consent-configuration-options.png){zoomable="yes"}
 
@@ -151,6 +169,8 @@ Provide the name of the conversion event, then use the dropdown menu to select t
 
 You can enter a value for the conversion, or leave it empty if you do not wish to assign a value at this time.
 
+![The Add conversion event screen highlighting the Conversion value option.](../../assets/setup/add-manage-measurement-data/conversion-value.png){zoomable="yes"}
+
 Next, you need to specify the duplication key to indicate which rows in your event dataset belong to the same underlying conversion event (for example, the same timestamp during a sign-up process). This prevents counting the same conversion multiple times in measurement reports. To do this, select **[!UICONTROL Duplication key]**. In the **[!UICONTROL Duplication key]** dialog, find and choose the key, followed by **[!UICONTROL Select]**.
 
 ![The Duplication key dialog showing the selected key and the Select option.](../../assets/setup/add-manage-measurement-data/duplication-key-dialog.png){zoomable="yes"}
@@ -161,13 +181,13 @@ Select **[!UICONTROL Add condition]**, then select the condition option.
 
 ![The Add conversion event screen highlighting the condition option after selecting Add condition option.](../../assets/setup/add-manage-measurement-data/add-condition.png){zoomable="yes"}
 
-In the dialog, find and choose a source field for the condition rule, followed by **[!UICONTROL Select]**.
+In the **[!UICONTROL Select source field]** dialog, find and choose a source field for the condition rule, followed by **[!UICONTROL Select]**.
 
 ![The Select source field dialog highlighting the Event Type field and the Select option.](../../assets/setup/add-manage-measurement-data/select-condition-field.png){zoomable="yes"}
 
 Use the dropdown menu to select a logic operator, then enter the value for the confition rule.
 
-![The Add conversion event screen highlighting the dropdown for logic operator.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
+![The Add conversion event screen highlighting the dropdown for logic operator and the Value option.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
 
 If you want to add more conversion events, select **[!UICONTROL Add conversion]**. Once finished, review the conversion configurations and select **[!UICONTROL Next]**.
 
@@ -177,8 +197,8 @@ If you want to add more conversion events, select **[!UICONTROL Add conversion]*
 
 The **[!UICONTROL Review]** screen appears with a summary of measurement data settings. Review and ensure all the information are correct. If you need to change any section, use the **[!UICONTROL Edit]** option.
 
-Finally, select **[!UICONTROL Complete]** to complete adding your measurement data.
+Finally, select **[!UICONTROL Complete]** to finish adding your measurement data.
 
 ![The Review screen showing a summary of measurement data settings and the Complete option highlighted.](../../assets/setup/add-manage-measurement-data/review-measurement-data.png){zoomable="yes"}
 
-A confirmation dialog confirms that your measurement data was created successfully. You can see the new measurement data in **[!UICONTROL My measurement data]** workspace.
+A confirmation dialog confirms that your measurement data was created successfully. You can see the new measurement data in the **[!UICONTROL My measurement data]** workspace.
