@@ -42,15 +42,6 @@ This document outlines the steps to add campaign measurement data to Adobe Real-
 
 As an advertiser, you can upload your measurement data containing conversion events to Collaboration for use in campaign measurement reports. Conversion data typically includes fields such as user identifiers (for example, hashed email or device IDs), timestamp of the conversion event, and specific conversion event details such as purchase or sign-up.
 
-<!-- To upload measurement data:
-
-1. Prepare your dataset using the required schema, ensuring all identifiers are hashed (SHA256, lowercase), and that necessary metadata fields—such as `campaign_id`, `activation_id`, and `conversion_type`—are included.
-2. Access the Collaboration interface and navigate to the measurement data upload section within your project or connection.
-3. Select or create a suitable data connection for uploading measurement data.
-4. Map your dataset fields to the target fields required by Collaboration. This ensures your user identifiers and event attributes are correctly matched for reporting and attribution purposes.
-5. Confirm consent and governance settings are in place according to your organization and partner requirements.
-6. Review your configuration, then submit the data for upload. -->
-
 To source measurement data, navigate to the **[!UICONTROL My measurement data]** tab within the **[!UICONTROL Setup]** workspace. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Measurement data]**. 
 
 If this is your first measurement data, you may also select the **[!UICONTROL Add]** option.
