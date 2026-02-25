@@ -26,7 +26,7 @@ To view existing data connections, navigate to **[!UICONTROL Setup]** and then s
 >title="Match keys"
 >abstract="Match keys determine how data from different sources will be matched. The match keys shown below are the target fields you mapped your source fields to."
 
-Match keys are the target fields you [mapped your source fields to](./onboard-audiences.md#map-fields). You cannot edit the match keys you initially selected for your data connection. To update match keys, you must create a new data connection. To learn more about how match keys work, see the [match keys](./onboard-account.md#set-up-match-keys) guide.
+Match keys are the target fields you [mapped your source fields to](./onboard-audiences.md#map-fields). To learn more about how match keys work, see the [match keys](./onboard-account.md#set-up-match-keys) guide.
 
 ![A data connections workspace with the Match keys section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -35,11 +35,11 @@ Match keys are the target fields you [mapped your source fields to](./onboard-au
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Scheduling"
->abstract="View the scheduling details for your data connection, and edit the refresh frequency if required."
+>abstract="View the scheduling details for your data connection, and edit the configurations if required."
 
 View and manage the scheduling settings for your data connections. Scheduling determines how often the audience is refreshed.
 
-After a data connection is created, you can update its refresh frequency directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 >[!NOTE]
 >
@@ -49,15 +49,78 @@ For more information on scheduling, see the [scheduling section](/help/guide/set
 
 ![A data connection's workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
-#### Edit scheduling {#edit-scheduling}
+## Edit data connection {#edit-data-connection}
 
-You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card. 
+Read the following sections to learn how to update the match keys and scheduling settings of an existing data connection.
 
-The scheduling will affect all audiences sourced from the data connection. 
+### Edit match keys {#edit-match-keys}
 
-In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days. When you're done, select **[!UICONTROL Save]** to apply your changes.
+>[!IMPORTANT]
+>
+>Before editing the match keys for a data connection, note the following:
+>
+>* Only match keys that are configured for your account can be used for data connections.
+>* At this time, you can add additional match keys to a data connection, but once a match key is enabled, it cannot be removed.
 
-![The Scheduling dialog, showing options to set frequency and date range.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+Select **[!UICONTROL Edit]** from the **[!UICONTROL Match keys]** section.
+
+![The Match keys section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+
+A confirmation dialog appears, explaining that any changes to the data connection will apply to all associated audiences. Select **[!UICONTROL OK]** to confirm. You can choose to skip this confirmation in the future.
+
+![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+In the **[!UICONTROL Match keys]** dialog, you can view the existing mappings between source fields and their corresponding target fields (match keys). You can edit a match key by updating the mapped source field, or add additional mapping field rows to populate new match keys.
+
+![The Match keys dialog showing the existing mappings between source fields and the corresponding target fields.](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+
+#### Add match keys {#add-match-keys}
+
+Select **[!UICONTROL Add field]** to add a new field row.
+
+![After selecting Add field, the Match keys dialog displays an empty new mapping field ready for input.](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+
+Next, select the empty source field. The **[!UICONTROL Select source field]** dialog appears with the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options. You can filter the list and find the desired source field with the search option.
+
+Choose the source field that you want, followed by **[!UICONTROL Select]**. 
+
+![The Select source field dialog with the GAID option selected.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+In the **[!UICONTROL Match keys]** dialog, use the dropdown menu to map the new source field to a target field. All available target fields are the match keys configured for your Collaborator account. If you don't see the target field you need, [edit your account's match keys](./onboard-account.md#edit-match-keys) to add it.
+
+Use the **[!UICONTROL Apply transformation]** option if you want to source a non-hashed field to a hashed target field, for example, when mapping a plain text email source field to the **[!UICONTROL Hashed email]** target field.
+
+![The dropdown menu displaying all available target fields to map with the new source field.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+After you finish mapping fields, review your updates and select **[!UICONTROL Confirm]** to apply the changes.
+
+![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+
+A confirmation dialog confirms that the match keys were updated successfully.
+
+### Edit scheduling {#edit-scheduling}
+
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
+
+You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card.
+
+![The Scheduling section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
+
+A confirmation dialog appears, explaining that any changes to the data connection will apply to all associated audiences. Select **[!UICONTROL OK]** to confirm. You can choose to skip this confirmation in the future.
+
+![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"} 
+
+In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days. 
+
+![The Scheduling dialog with the Frequency dropdown expanded to display audience refresh frequency options.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+
+Next, select **[!UICONTROL Date range]** if you want to update the period during which audiences are populated and refreshed.
+
+![The Scheduling dialog showing the Date range dropdown expanded to edit the start and end dates for audience population and refresh.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+
+When you're done, review the updates and select **[!UICONTROL Save]** to apply your changes.
+
+![The Scheduling dialog highlighting the updates and Save option.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Delete data connection
 
