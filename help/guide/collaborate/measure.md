@@ -21,7 +21,7 @@ Before you can access the measurement reports in Collaboration, you must:
 
 * [Connect](/help/guide/connect/establishing-connections.md) with a collaborator with the **Measurement** use case enabled
 * Collaborate on at least one project with your collaborator. Learn how to [create a project](/help/guide/collaborate/manage-projects.md#create-project).
-* Run your campaign and make sure a [Campaign ID is provided for the campaign](../collaborate/manage-projects.md#update-campaign-id):
+* Run your campaign and make sure a [Campaign ID is provided for the campaign](../collaborate/manage-projects.md#manage-campaign-id):
     * If you are a publisher, input the Campaign ID linked to your advertiser's campaign.
     * If you are an advertiser, request that your collaborator (publisher) provide the Campaign ID. This is required to [generate reports in the Measure workspace](#create-measurement-report).
 * [Upload measurement data](/help/guide/setup/onboard-measurement-data.md) into Collaboration if you want to [create Attribution reports](#create-attribution-report).

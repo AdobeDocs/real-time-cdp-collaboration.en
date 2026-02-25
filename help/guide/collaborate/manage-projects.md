@@ -55,7 +55,7 @@ You can now view your new project, its details, and available sections based on 
 
 ![The project overview workspace.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
-## Manage campaign ID {#update-campaign-id}
+## Manage campaign ID {#manage-campaign-id}
 
 A **Campaign ID** links your project to a specific campaign and is required to [generate measurement reports](./measure.md#create-measurement-report). You can add multiple Campaign IDs to one project if you run several campaigns with the same collaborator. All these campaigns are available for selection in reporting.
 
@@ -70,13 +70,13 @@ The corresponding **[!UICONTROL Project overview]** workspace appears with a **[
 
 ![The project overview workspace displaying the Campaign ID and name section with the Edit option highlighted.](/help/assets/collaborate/manage-view-projects/edit-campaign-id.png){zoomable="yes"}
 
-In the **[!UICONTROL Campaign ID and name]** dialog, select **[!UICONTROL Add campaign ID]**.
+In the **[!UICONTROL Campaign ID and name]** dialog, select **[!UICONTROL Add campaign ID]** to add a new row where you can enter campaign details.
 
 ![The Campaign ID and name dialog displaying the empty campaign row after selecting the Add campaign ID option.](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}
 
 Provide the **[!UICONTROL Campaign ID]** and **[!UICONTROL Campaign name]**, then select **[!UICONTROL Save]**.
 
-![The Campaign ID and name dialog highlighting the new campaign details and the Save option.](/help/assets/collaborate/manage-view-projects/save-campaign-id.png){zoomable="yes"}
+![The Campaign ID and name dialog showing the new campaign details and the Save option highlighted.](/help/assets/collaborate/manage-view-projects/save-campaign-id.png){zoomable="yes"}
 
 Check the **[!UICONTROL Campaign ID and name]** section to view your latest campaigns and recent changes. You can now use the new Campaign IDs to generate measurement reports.
 
