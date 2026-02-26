@@ -100,7 +100,7 @@ In Collaboration, you can create two main types of measurement reports:
 * **Campaign Summary**: Provides high-level metrics such as reach, impressions, average frequency, and delivery by channel, giving a quick overview of overall campaign performance.
 * **Attribution**: Measures how campaign exposures drive downstream actions like conversions or purchases, helping you understand campaign effectiveness.
 
-You can run Campaign Summary on its own, while Attribution requires both report types to be selected together.
+You can run Campaign Summary report on its own, while Attribution report requires both report types to be selected together.
 
 ### Create campaign summary report {#create-campaign-summary-report}
 
@@ -122,15 +122,15 @@ This section explains how credits are used when generating measurement reports. 
 
 In the **[!UICONTROL Campaign details]** section, select the appropriate **Advertiser ID** to associate with your report if advertiser names or IDs were added during [connection setup](../connect/establishing-connections.md#advertiser-names). If a single name was configured, it appears by default. If no name was set up, the **[!UICONTROL Advertiser ID (Name)]** field is disabled and prefilled with the advertiser account name.
 
-![The Create measurement report screen showing the Advertiser ID (Name) option disabled.](/help/assets/collaborate/measure/cs-advertiser-id.png)
+![The Create measurement report screen showing the Advertiser ID (Name) option disabled.](/help/assets/collaborate/measure/advertiser-id.png)
 
 Then, select the desired campaign from the **[!UICONTROL Campaign ID]** dropdown menu. This menu lists all campaign IDs entered by the publisher for your project. If the campaign you need isn't available, [add it in the UI](./manage-projects.md#manage-campaign-id) before generating the report.
 
-![The Create measurement report screen showing the Campaign ID dropdown menu expanded.](/help/assets/collaborate/measure/cs-campaign-id.png)
+![The Create measurement report screen showing the Campaign ID dropdown menu expanded.](/help/assets/collaborate/measure/campaign-id.png)
 
 Next, specify the period you want the report to cover. Select **[!UICONTROL Report date range]**, then use the calendar to choose the start and end dates.
 
-![The Create measurement report screen showing the Report date range calendar.](/help/assets/collaborate/measure/cs-report-date-range.png)
+![The Create measurement report screen showing the Report date range calendar.](/help/assets/collaborate/measure/report-date-range.png)
 
 #### Report details {#report-details}
 
@@ -138,9 +138,9 @@ In the **[!UICONTROL Report details]** section, choose the date on which the rep
 
 >[!IMPORTANT]
 >
-> The report run date must be today or later, and must occur at least one day after the end date of your report date range.
+> The report run date must be today or later, and must occur at least one day after the end date of your report date range. For example, if your report date range ends on June 15, you must select a report run date of June 16 or later.
 
-![The Create measurement report screen showing the Report run date calendar.](/help/assets/collaborate/measure/cs-report-run-date.png)
+![The Create measurement report screen showing the Report run date calendar.](/help/assets/collaborate/measure/report-run-date.png)
 
 Advertisers can select the **[!UICONTROL Campaign summary]** report type from the available options. If you're a publisher, the **Campaign summary** report type is preselected and cannot be changed.
 
@@ -157,13 +157,13 @@ As an advertiser, you can generate **Attribution** reports to assess how your ca
 >[!IMPORTANT]
 >
 > You must [source your measurement data](../setup/onboard-measurement-data.md#add-measurement-data) into Collaboration before generating Attribution reports.
->![The Measure tab with the requirements for Measurement data and the disabled Measure option highlighted.](/help/assets/collaborate/measure/require-measurement-data.png)
+>![The Measure tab with the requirements for Measurement data and the disabled Measure option.](/help/assets/collaborate/measure/require-measurement-data.png)
 
 To generate an **Attribution** report, navigate to the project workspace from the **[!UICONTROL Collaborator]** workspace. From the **[!UICONTROL Measure]** tab, select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Measure]**.
 
 If this is your first report, you may also select the **[!UICONTROL Run report]** option.
 
-![The Measure tab highlighting the Run report option and the Measure option.](/help/assets/collaborate/measure/run-measure-report.png)
+![The Measure tab highlighting the Run report option and the Measure option.](/help/assets/collaborate/measure/run-measure-report-attribution.png)
 
 The **[!UICONTROL Create measurement report]** screen appears with information and input fields grouped under **[!UICONTROL Billing details]**, **[!UICONTROL Campaign details]**, and **[!UICONTROL Report details]** sections.
 
@@ -179,10 +179,10 @@ As an advertiser, you can select **[!UICONTROL Attribution]** as a report type i
 
 ![The Create measurement report screen highlighting both the Campaign summary and Attribution report types selected.](/help/assets/collaborate/measure/attribution-report-type.png)
 
-When you select **[!UICONTROL Attribution]** as the report type, a **[!UICONTROL Attribution]** configuration section appears with additional required settings:
+When you select **[!UICONTROL Attribution]** as the report type, an **[!UICONTROL Attribution]** configuration section appears with additional required settings:
 
 * **Lookback window in days**: Defines how far back the report considers campaign impressions before each conversion. Only impressions within this period are eligible for attribution credit.
-* **Conversion events**: Specifies which conversion actions you want to measure,for example, purchases or sign-ups. These events must be set up in advance when [sourcing your measurement data](../setup/onboard-measurement-data.md#add-conversion-event).
+* **Conversion events**: Specifies which conversion actions you want to measure, for example, purchases or sign-ups. These events must be set up in advance when you [source your measurement data](../setup/onboard-measurement-data.md#add-conversion-event) into Collaboration.
 
 First, enter a value for the **[!UICONTROL Lookback window in days]** field, or adjust it with the increment/decrement options.
 
