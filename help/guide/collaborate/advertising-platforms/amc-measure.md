@@ -21,7 +21,7 @@ After [creating a project with [!DNL Amazon Marketing Cloud]](../manage-projects
 Before creating a measurement report, ensure you have:
 
 * Established a connection with [!DNL AMC] and created a project. Refer to the [connect to Amazon Marketing Cloud](../../connect/advertising-platforms/amc.md) and [manage projects](../manage-projects.md) guides.
-* Campaign IDs in your [!DNL AMC] instance. These are discovered automatically on project creation. If no campaigns are listed in the report form, see [Troubleshooting](#troubleshooting).
+* Campaign IDs available in your [!DNL AMC] instance. If campaigns are missing from the report form, see [Troubleshooting](#troubleshooting).
 
 ## Create a report {#create-report}
 
@@ -36,27 +36,29 @@ To create an [!DNL AMC] measurement report:
 2. Select the **[!UICONTROL Measure]** tab.
 3. Select **[!UICONTROL Add report]**.
 
+![The Measure tab inside an AMC project, showing an empty report list and the Add report button in the upper-right corner of the workspace.](/help/assets/collaborate/advertising-platforms/PLACEHOLDER.png){zoomable="yes"}
+
 Complete the report form using the sections below.
 
 ### Campaign {#campaign}
 
-The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. The available campaigns are discovered automatically from your [!DNL AMC] instance when the project is created.
+The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns are populated from your [!DNL AMC] instance at project creation.
 
 ### Date range and run date {#dates}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_date_range"
 >title="Date range"
->abstract="Set the start and end dates for the campaign data to include in the report. The date range is limited to a rolling 13-month lookback window with a maximum span of 90 days. You can only report on past campaigns."
+>abstract="Set the start and end dates for the campaign data to include in the report. The date range is limited to a 365-day lookback window with a maximum span of 90 days. You can only report on past campaigns."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_run_date"
 >title="Run date"
->abstract="The date on which the report executes. Must be at least one day after the report end date. For AMC reports, only past or present run dates are supported — future scheduling is not available."
+>abstract="The date on which the report executes. Must be at least one day after the report end date and can be up to 46 days in the future."
 
-Set the **[!UICONTROL Date range]** for the campaign data you want to analyze. [!DNL AMC] supports a rolling 13-month lookback window with a maximum span of 90 days. You can only report on past campaigns.
+Set the **[!UICONTROL Date range]** for the campaign data you want to analyze. [!DNL AMC] supports a 365-day lookback window with a maximum span of 90 days. You can only report on past campaigns.
 
-Set the **[!UICONTROL Run date]** — the date on which the report executes. The run date must be at least one day after the report end date. For [!DNL AMC] reports, future scheduling is not available; the run date must be today or in the past.
+Set the **[!UICONTROL Run date]** — the date on which the report executes. The run date must be at least one day after the report end date and can be up to 46 days in the future. For the full set of date constraints, see [AMC constraints reference](#constraints).
 
 >[!TIP]
 >
@@ -66,12 +68,12 @@ Enter a **[!UICONTROL Report name]** to identify the report.
 
 ### Report type {#report-type}
 
-Under **[!UICONTROL Report type]**, select one or both of the following:
+**[!UICONTROL Campaign summary]** is always included in every report. Optionally, select **[!UICONTROL Attribution]** to add conversion data on top of the campaign summary.
 
 | Report type | Description |
 | --- | --- |
-| **[!UICONTROL Campaign summary]** | Provides reach, frequency, and impression metrics for the selected campaign. This type is always available and is included automatically when Attribution is selected. |
-| **[!UICONTROL Attribution]** | Adds conversion data to the report, attributing conversions to impressions within a fixed 30-day lookback window. Only available if conversion events have been discovered in your [!DNL AMC] instance. |
+| **[!UICONTROL Campaign summary]** | Provides reach, frequency, and impression metrics for the selected campaign. Always included. |
+| **[!UICONTROL Attribution]** | Adds conversion data to the report. Only available if conversion events exist in your [!DNL AMC] instance. See [Conversion events](#conversion-events). |
 
 ### Conversion events (Attribution only) {#conversion-events}
 
@@ -87,13 +89,17 @@ Under **[!UICONTROL Report type]**, select one or both of the following:
 
 If you selected **[!UICONTROL Attribution]**, the **[!UICONTROL Lookback window]** is fixed at 30 days by [!DNL AMC] and cannot be adjusted.
 
-Select up to three **[!UICONTROL Conversion events]** from the list. These events are discovered automatically from your [!DNL AMC] instance. If no conversion events are available, the [!UICONTROL Attribution] option is grayed out and unavailable for selection.
+Select up to three **[!UICONTROL Conversion events]** from the list. If no conversion events are available, the [!UICONTROL Attribution] option is grayed out and unavailable for selection.
 
-Once the form is complete, select **[!UICONTROL Create report]**. The report runs on the scheduled run date.
+Once the form is complete, select **[!UICONTROL Create report]**. The report appears in the **[!UICONTROL Measure]** tab with a scheduled or pending status and is only viewable after the run date has passed.
 
 ## View a report {#view-report}
 
-Once a report has run, select **[!UICONTROL View full report]** to review the results. The sections available depend on the report type you selected.
+Once a report has run, locate your report in the **[!UICONTROL Measure]** tab and select **[!UICONTROL View full report]** to review the results.
+
+![The Measure tab in an AMC project showing a completed report card with its run date, report type, and the View full report button highlighted.](/help/assets/collaborate/advertising-platforms/PLACEHOLDER.png){zoomable="yes"}
+
+The sections available depend on the report type you selected.
 
 ### Campaign Summary {#campaign-summary-metrics}
 
@@ -134,13 +140,9 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 
 ## Troubleshooting {#troubleshooting}
 
-**The Measure tab is not visible**
+**The Measure tab is not visible or no campaigns appear in the Campaign ID dropdown**
 
-The [!UICONTROL Measure] tab only appears when campaign IDs have been discovered in your [!DNL AMC] instance. If the tab is not visible, create a new project to trigger a fresh discovery of campaigns and conversion events.
-
-**No campaigns appear in the Campaign ID dropdown**
-
-Campaign IDs are populated by background queries that run when the project is created. If no campaigns are listed, create a new project to refresh the data.
+Both symptoms indicate that campaign IDs have not yet been discovered in your [!DNL AMC] instance. Create a new project to trigger a fresh discovery of campaigns and conversion events.
 
 **Conversion events are unavailable and Attribution is grayed out**
 
