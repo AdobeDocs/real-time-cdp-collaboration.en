@@ -45,6 +45,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Measure](./collaborate/measure.md)
   * Advertising platform connections {#ad-platform-connections}
     * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
+    * [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
 * Destinations {#destinations}
   * [Overview](./destinations/overview.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)

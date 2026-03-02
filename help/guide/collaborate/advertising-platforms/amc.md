@@ -9,11 +9,7 @@ exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 
 {{limited-availability-release-note}}
 
-After forming a connection with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), advertisers can [create a project](../manage-projects.md#create-project) to collaborate with [!DNL AMC] to leverage its advanced analytics capabilities. After creating a project, you can use the **[!UICONTROL Discover]** section to compare audience insights and discover relevant audiences for your campaigns.
-
->[!IMPORTANT]
->
->The only use cases supported with [!DNL AMC] are **Audience discovery** and **Measurement**. Currently, only the **[!UICONTROL Discover]** section is available within your project with [!DNL AMC].
+After forming a connection with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), advertisers can [create a project](../manage-projects.md#create-project) to collaborate with [!DNL AMC]. Two use cases are supported within an [!DNL AMC] project: **Audience discovery** using the **[!UICONTROL Discover]** section, and **Measurement** using the **[!UICONTROL Measure]** tab.
 
 ## Discover {#discover}
 
@@ -87,3 +83,9 @@ The **[!UICONTROL Discover overlaps with Amazon Marketing Cloud]** section provi
 | [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon’s Identity Resolution] was able to resolve using your audience data. |
 | [!UICONTROL Overlapping ad exposed IDs]     | This represents the number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. This only considers DSP impressions. |
 | [!UICONTROL Overlap %]         | The proportion of [!UICONTROL Resolved IDs] that have been exposed to an ad via [!DNL Amazon Ads]. |
+
+## Measure {#measure}
+
+The **[!UICONTROL Measure]** tab becomes available once [!DNL AMC] has discovered campaign IDs in your instance. When you create a project, Real-Time CDP Collaboration runs background queries against your [!DNL AMC] data to populate both the [!UICONTROL Discover] section and the campaign and conversion event lists used to configure measurement reports. If the tab is not visible, no campaign data was found in your instance.
+
+For step-by-step instructions on creating and interpreting [!DNL AMC] measurement reports, read the [create AMC measurement reports](./amc-measure.md) guide.
