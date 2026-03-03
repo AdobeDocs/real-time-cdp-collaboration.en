@@ -222,4 +222,17 @@ Finally, select **[!UICONTROL Complete]** to finish adding your measurement data
 
 ![The Review screen showing a summary of measurement data settings and the Complete option highlighted.](../../assets/setup/add-manage-measurement-data/review-measurement-data.png){zoomable="yes"}
 
-A confirmation dialog confirms that your measurement data was created successfully. You can see the new measurement data in the **[!UICONTROL My measurement data]** workspace.
+A confirmation dialog confirms that your measurement data was created successfully. You can see the new conversion events configured from your measurement data in the **[!UICONTROL My measurement data]** workspace.
+
+![My measurement data workspace showing a list of conversion events configured from your measurement data.](../../assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+When in grid view or table view, select a row item or the **[!UICONTROL View conversion]** option within an event card to see an overview of a specific conversion event. It displays the event's status, source, and data connection name, along with detailed panels for:
+
+* **[!UICONTROL Conversion details]**: Displays key information about the conversion, including its type, the duplication key used to identify unique events, and the assigned conversion value (if specified).
+* **[!UICONTROL Conditions]**: Displays the condition rules applied to this conversion event.
+
+![The Overview screen displaying the details for a conversion event.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## Next steps {#next-steps}
+
+You have completed sourcing your measurement data in Collaboration. As an advertiser, you can now create Attribution reports to explore how your campaigns drive conversions and measure overall impact. If you're a publisher, request your collaborator to generate an Attribution report for your campaigns. For detailed instructions, see the [Create attribution report](../collaborate/measure.md#create-attribution-report) guide.
