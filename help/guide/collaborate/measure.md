@@ -93,6 +93,24 @@ Understand which medium is driving impressions for your creative. This can help 
 
 ![Impressions by placement.](/help/assets/collaborate/measure/impressions-by-placement.png)
 
+### Cumulative conversions {#cumulative-conversions}
+
+This view provides a detailed breakdown of the conversion events you choose to measure in a tabular format. The table includes:
+
+* **Conversion event**: Name of each conversion event you are tracking.
+* **Conversion count**: Total count of conversions that occurred for each event.
+* **Estimated revenue**: Estimated value attributed to each conversion event.
+
+Review this table to evaluate the effectiveness of your campaign in driving the desired actions.
+
+![Cumulative conversions.](/help/assets/collaborate/measure/cumulative-conversions.png)
+
+### Conversions by day {#conversions-by-day}
+
+This chart provides a day-by-day breakdown of conversions for each event set up when you create an Attribution report. Use this view to uncover daily patterns, identify periods of high or low conversion activity, and compare how different conversion events perform across your campaign timeline.
+
+![Conversions by day.](/help/assets/collaborate/measure/conversions-by-day.gif)
+
 ## Create measurement report {#create-measurement-report}
 
 In Collaboration, you can create two main types of measurement reports:

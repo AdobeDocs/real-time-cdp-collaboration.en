@@ -3,8 +3,6 @@ title: Add and manage measurement data
 description: Learn how to add measurement data to Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: yes
-hide: yes
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 ---
 # Add and manage measurement data {#add-and-manage-measurement-data}
@@ -136,23 +134,55 @@ You can add or remove mapping rows as necessary. If you need to map a non-hashed
 
 When you are done, review the mapped fields and join keys if enrichment is enabled. Then, select **[!UICONTROL Next]**.
 
-![The Mapping screen showing the mapped fields, join keys (when enrichment is enabled), and the highlighted Next button.](../../assets/setup/add-manage-measurement-data/review-mapping.png){zoomable="yes"}
+![The Mapping screen showing the mapped fields, join keys (when enrichment is enabled), and the highlighted Next option.](../../assets/setup/add-manage-measurement-data/review-mapping.png){zoomable="yes"}
 
 ### Manage consent {#manage-consent}
 
-Before proceeding, you must acknowledge that your data usage in Collaboration complies with your Real-Time CDP data governance policies. All data is already filtered according to consent requirements or any applicable custom consent policies, so no further processing is required.
+Before proceeding, you must acknowledge that your data usage in Collaboration complies with your Real-Time CDP data governance policies. All data must be pre-filtered according to consent requirements or any applicable custom consent policies, so no further processing is required.
 
 To confirm your acknowledgement, select **[!UICONTROL Next]**.
 
-![The Manage consent screen requiring confirmation with the Next button highlighted.](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
+![The Manage consent screen requiring confirmation with the Next option highlighted.](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-If you [enable profile enrichment during the mapping step](#enrich-event-data), you can configure consent policies from a list of pre-defined options. This includes setting marketing actions for your audiences, defining consent rules for your data, and filtering audience to include or exclude for consent.
+If you [enable profile enrichment during the mapping step](#enrich-event-data), you can configure consent policies from a list of pre-defined options. This includes:
 
-![The Manage consent screen showing consent configuration options when profile enrichment is enabled, with the Next button highlighted.](../../assets/setup/add-manage-measurement-data/manage-consent-configuration-options.png){zoomable="yes"}
+* **Marketing actions**: Use these marketing actions to control which audience data to bring into Collaboration from Experience Platform.
+* **Consent rules**: Select the consent rules to apply to data being sourced into Collaboration.
+* **Audience**: Use the audience filter to include or exclude audience profiles for consent.
+
+
+>[!NOTE]
+>
+>**[!UICONTROL Data Collaboration]** supports C4, C5, and C9 data usage labels while **[!UICONTROL Data Science]** supports C9 only. Read more about data usage labels in the Experience Platform documentation:
+>
+>* [Data usage labels overview](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+>* [Glossary](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+
+Select the preferred settings, then select **[!UICONTROL Next]**.
+
+![The Manage consent screen showing consent configuration options when profile enrichment is enabled, with the Next option highlighted.](../../assets/setup/add-manage-measurement-data/manage-consent-configuration-options.png){zoomable="yes"}
+
+Before proceeding, you need to confirm and accept the terms in the **[!UICONTROL Governance policy and enforcement actions]** dialog. Select the checkbox, followed by **[!UICONTROL OK]**.
+
+![The Governance policy and enforcement actions dialog showing the checkbox and the OK option highlighted.](../../assets/setup/add-manage-measurement-data/governance-policy-enforcement-actions-dialog.png){zoomable="yes"}
+
+#### Audience filter {#audience-filter}
+
+To include or exclude certain audience profiles for consent, use the **[!UICONTROL Audience filter]** dropdown menu. Once you select this filter, the UI updates to display the **[!UICONTROL Browse audiences]** option. Select **[!UICONTROL Browse audiences]**.
+
+![The Manage consent screen showing the Browse audiences option after audience filter is selected.](../../assets/setup/add-manage-measurement-data/browse-audiences.png){zoomable="yes"}
+
+The **[!UICONTROL Select audiences]** dialog appears. Choose an audience from the list, followed by **[!UICONTROL Select]**.
+
+![The Select audiences dialog highlighting the selected audience and the Select option.](../../assets/setup/add-manage-measurement-data/select-audiences-dialog.png){zoomable="yes"}
+
+Your chosen audience now appears, with the option to remove it if needed. Review your consent settings, then select **[!UICONTROL Next]**.
+
+![The Manage consent screen highlighting the selected audience for consent and the Next option.](../../assets/setup/add-manage-measurement-data/audience-for-consent.png){zoomable="yes"}
 
 ### Add conversion event {#add-conversion-event}
 
-Next, define the conversion events that you want to measure the impact of your campaigns on, for example, site visits, registrations, or completed purchases.
+Next, define the conversion events that you want to measure the impact of your campaigns on, for example, site visits, registrations, or completed purchases. You can specify up to **3** distinct conversion events for measurement.
 
 Provide the name of the conversion event, then use the dropdown menu to select the conversion type.
 
@@ -180,7 +210,7 @@ Use the dropdown menu to select a logic operator, then enter the value for the c
 
 ![The Add conversion event screen highlighting the dropdown for logic operator and the Value option.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
 
-If you want to add more conversion events, select **[!UICONTROL Add conversion]**. Once finished, review the conversion configurations and select **[!UICONTROL Next]**.
+To add another conversion event, select **[!UICONTROL Add conversion]**. You can include up to **3** conversion events in total. Once finished, review the conversion configurations and select **[!UICONTROL Next]**.
 
 ![The Add conversion event screen showing the conversion event configurations and the Next option highlighted.](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
 
