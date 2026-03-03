@@ -150,23 +150,25 @@ You can now edit your account details. Update any fields you want to change and 
 
 ### Edit match keys {#edit-match-keys}
 
->[!IMPORTANT]
->
->Editing match keys will not affect your existing connections. Once a connection has been established, the match keys that you select during the connection setup are fixed. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
-
 You can also update the match keys that you initially selected when creating your account. These match keys will determine the match keys available to future connections.
 
 Select **[!UICONTROL Edit]** in the **[!UICONTROL Match keys]** section.
 
 ![The Setup workspace with the Edit option highlighted within the account's Match keys section.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-The **[!UICONTROL Match keys]** dialog appears. Toggle on and off any match keys, or update your **[!UICONTROL Account ID]** for your [!UICONTROL AdFixus ID's],and then select **[!UICONTROL Save]** to confirm the changes.
+The **[!UICONTROL Match keys]** dialog appears. Toggle on any match keys, or update your **[!UICONTROL Account ID]** for your [!UICONTROL AdFixus ID's],and then select **[!UICONTROL Save]** to confirm the changes.
 
 >[!IMPORTANT]
 >
 >Changing your [!UICONTROL AdFixus ID] will not trigger a [data sketch](../glossary.md#sketches) refresh for your existing data connections using the match key. Once your data has been sketched, any changes to your [!UICONTROL AdFixus ID] will not be reflected until your next audience refresh following your [data connection schedule](./manage-data-connection.md#scheduling) settings. If you require changes before your next refresh, you can delete and recreate your data connection.
+>
+>At this time, match keys cannot be removed once added to your account.
 
 ![The Match keys dialog with the Save option highlighted.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+A success dialog confirms that your account's match keys are updated successfully.
+
+![A success dialog confirming your account's match keys are updated successfully.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Next steps
 
