@@ -10,7 +10,7 @@ exl-id: 3b94d263-9748-4e2b-b1c9-7e37e2e51b7f
 
 {{limited-availability-release-note}}
 
-After [creating a project with [!DNL Amazon Marketing Cloud]](../manage-projects.md#create-project), you can create retrospective measurement reports that analyze campaign performance using data from your [!DNL AMC] instance. Unlike standard Collaboration measurement, no data upload is required — campaign and conversion event data is sourced automatically via background queries that run when the project is created.
+After [creating a project with [!DNL Amazon Marketing Cloud]](../manage-projects.md#create-project), you can create measurement reports covering campaigns that have already run — enabling you to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. 
 >title="Run date"
 >abstract="The date on which the report executes. Must be at least one day after the report end date and can be up to 46 days in the future."
 
-Set the **[!UICONTROL Date range]** for the campaign data you want to analyze. [!DNL AMC] supports a 365-day lookback window with a maximum span of 90 days. You can only report on past campaigns.
+Set the **[!UICONTROL Date range]** to cover the flight dates of the campaign you want to evaluate. [!DNL AMC] supports a 365-day lookback window with a maximum span of 90 days. You can only report on campaigns that have already run.
 
 Set the **[!UICONTROL Run date]** — the date on which the report executes. The run date must be at least one day after the report end date and can be up to 46 days in the future. For the full set of date constraints, see [AMC constraints reference](#constraints).
 
@@ -68,7 +68,7 @@ Enter a **[!UICONTROL Report name]** to identify the report.
 
 ### Report type {#report-type}
 
-**[!UICONTROL Campaign summary]** is always included in every report. Optionally, select **[!UICONTROL Attribution]** to add conversion data on top of the campaign summary.
+**[!UICONTROL Campaign summary]** is always included in every report. Select **[!UICONTROL Attribution]** in addition if you want to measure whether your campaign impressions drove specific customer actions — such as purchases or sign-ups — within a 30-day window after ad exposure.
 
 | Report type | Description |
 | --- | --- |
@@ -87,11 +87,15 @@ Enter a **[!UICONTROL Report name]** to identify the report.
 >title="Conversion events"
 >abstract="Select up to three conversion events to include in the attribution report. Available events are discovered automatically from your AMC instance. If no events appear, your AMC instance may not have any recorded conversion events and Attribution will be unavailable."
 
+>[!NOTE]
+>
+>If you did not select [!UICONTROL Attribution] in the previous step, skip this section and select **[!UICONTROL Create report]** to submit the form.
+
 If you selected **[!UICONTROL Attribution]**, the **[!UICONTROL Lookback window]** is fixed at 30 days by [!DNL AMC] and cannot be adjusted.
 
-Select up to three **[!UICONTROL Conversion events]** from the list. If no conversion events are available, the [!UICONTROL Attribution] option is grayed out and unavailable for selection.
+Conversion events represent on-site customer actions tracked by [!DNL Amazon Ads] — such as a purchase, wishlist addition, shopping cart action, or product detail view. Select at least one and up to three **[!UICONTROL Conversion events]** from the list, choosing the events that align with the primary goal of the campaign you are measuring. If no conversion events are available, the [!UICONTROL Attribution] option is grayed out and unavailable for selection.
 
-Once the form is complete, select **[!UICONTROL Create report]**. The report appears in the **[!UICONTROL Measure]** tab with a scheduled or pending status and is only viewable after the run date has passed.
+Once the form is complete, select **[!UICONTROL Create report]**. The report is created immediately and appears in the **[!UICONTROL Measure]** tab with a scheduled or pending status, but does not execute until the run date. Results are viewable on or after the run date.
 
 ## View a report {#view-report}
 
@@ -103,7 +107,7 @@ The sections available depend on the report type you selected.
 
 ### Campaign Summary {#campaign-summary-metrics}
 
-A Campaign Summary report includes the following visualizations. For general guidance on interpreting these metrics, refer to the [measure performance](../measure.md) guide.
+A Campaign Summary report includes the following visualizations, which you can use to evaluate the scale and efficiency of your campaign's delivery. For general guidance on interpreting these metrics, refer to the [measure performance](../measure.md) guide.
 
 | Visualization | Description |
 | --- | --- |
@@ -115,7 +119,7 @@ A Campaign Summary report includes the following visualizations. For general gui
 
 ### Attribution {#attribution-metrics}
 
-If [!UICONTROL Attribution] was selected, the report also includes:
+If [!UICONTROL Attribution] was selected, the report also includes the following visualizations, which show how many customer actions can be attributed to your campaign impressions within the 30-day lookback window:
 
 | Visualization | Description |
 | --- | --- |
@@ -136,7 +140,7 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 | Run date maximum | 46 days in the future |
 | Maximum conversion events per report | 3 |
 | Campaign selection | Single campaign per report |
-| Report editing | Not available — create a new report instead |
+| Report editing | Not available. The existing report is preserved; create a new report with the updated settings instead. |
 
 ## Troubleshooting {#troubleshooting}
 
@@ -151,3 +155,7 @@ Conversion events are discovered dynamically from your [!DNL AMC] instance. If n
 **Conversions appear lower than expected**
 
 If the report run date is fewer than 30 days after the end of the date range, conversions within the attribution window may not yet have been captured. Create a new report with a run date at least 30 days after the date range ends.
+
+## Next steps {#next-steps}
+
+Once you have reviewed your report, use the results to assess your campaign's delivery and, if you included attribution, its effectiveness in driving conversions. To evaluate different campaigns or time periods, create additional reports within the same project. For broader guidance on interpreting campaign performance metrics in Collaboration, refer to the [measure performance](../measure.md) guide.
