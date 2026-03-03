@@ -1,16 +1,16 @@
 ---
-title: Create AMC measurement reports
+title: Create Amazon Marketing Cloud measurement reports
 description: Learn how to create and interpret measurement reports for Amazon Marketing Cloud campaigns in Real-Time CDP Collaboration.
 audience: advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3b94d263-9748-4e2b-b1c9-7e37e2e51b7f
 ---
 
-# Create [!DNL AMC] measurement reports {#amc-measurement-reports}
+# Create [!DNL Amazon Marketing Cloud] measurement reports {#amc-measurement-reports}
 
 {{limited-availability-release-note}}
 
-After [creating a project with [!DNL Amazon Marketing Cloud]](../manage-projects.md#create-project), you can create measurement reports covering campaigns that have already run — enabling you to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
+After [creating a project with [!DNL Amazon Marketing Cloud]](../manage-projects.md#create-project) (AMC), you can create measurement reports covering campaigns that have already run — enabling you to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
 
 >[!IMPORTANT]
 >
