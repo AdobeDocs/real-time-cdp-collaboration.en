@@ -95,7 +95,7 @@ If you selected **[!UICONTROL Attribution]**, the **[!UICONTROL Lookback window]
 
 Conversion events represent on-site customer actions tracked by [!DNL Amazon Ads] — such as a purchase, wishlist addition, shopping cart action, or product detail view. Select at least one and up to three **[!UICONTROL Conversion events]** from the list, choosing the events that align with the primary goal of the campaign you are measuring. If no conversion events are available, the [!UICONTROL Attribution] option is grayed out and unavailable for selection.
 
-Once the form is complete, select **[!UICONTROL Create report]**. The report is created immediately and appears in the **[!UICONTROL Measure]** tab with a scheduled or pending status, but does not execute until the run date. Results are viewable on or after the run date.
+Once the form is complete, select **[!UICONTROL Create report]**. The report is created immediately and appears in the **[!UICONTROL Measure]** tab with a scheduled or pending status, but does not execute until the run date. After the run date, [!DNL AMC] processes the queries on your behalf; results are typically available within 24 hours.
 
 ## View a report {#view-report}
 
@@ -147,6 +147,10 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 **The Measure tab is not visible or no campaigns appear in the Campaign ID dropdown**
 
 Both symptoms indicate that campaign IDs have not yet been discovered in your [!DNL AMC] instance. Create a new project to trigger a fresh discovery of campaigns and conversion events.
+
+**Results are not visible after the run date**
+
+After the run date passes, [!DNL AMC] runs the report queries on your behalf. Allow up to 24 hours for results to become available. If results have not appeared after 24 hours, check that the run date has fully passed and that the report status in the **[!UICONTROL Measure]** tab is no longer showing as pending.
 
 **Conversion events are unavailable and Attribution is grayed out**
 
