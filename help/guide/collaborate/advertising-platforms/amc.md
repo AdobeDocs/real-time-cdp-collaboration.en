@@ -26,22 +26,22 @@ After forming a connection with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), adve
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="Resolved IDs"
->abstract="The number of IDs Amazon’s Identity Resolution was able to resolve using your audience data."
+>abstract="The number of IDs Amazon's Identity Resolution was able to resolve using your audience data."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="Overlapping ad exposed IDs"
->abstract="This represents the number of ‘Resolved IDs’ from the uploaded audience that have also been exposed to an ad via Amazon Ads."
+>abstract="This represents the number of 'Resolved IDs' from the uploaded audience that have also been exposed to an ad via Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="Overlap %"
->abstract="The proportion of ‘Resolved IDs’ that have been exposed to an ad via Amazon Ads."
+>abstract="The proportion of 'Resolved IDs' that have been exposed to an ad via Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Breakdown by Amazon ad product"
->abstract="Breakdown of ‘Overlapping ad exposed IDs’ reached by either Amazon Ads Sponsored Product and/or Amazon Ads DSP."
+>abstract="Breakdown of 'Overlapping ad exposed IDs' reached by either Amazon Ads Sponsored Product and/or Amazon Ads DSP."
 
 In the **[!UICONTROL Discover]** section, you can compare your AMC audience to all consumers reached by your Amazon Ads. You can also view Amazon targeting segments that your audience has the highest overlaps with, considering only DSP impressions (these segments can only be targeted in the DSP).
 
@@ -57,7 +57,7 @@ The **[!UICONTROL Compare audiences]** section provides insights into how your [
 
 | Metric                         | Description                                                                                       |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon’s Identity Resolution] was able to resolve using your audience data. |
+| [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon's Identity Resolution] was able to resolve using your audience data. |
 | [!UICONTROL Overlapping ad exposed IDs]     | The number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. |
 | [!UICONTROL Overlap %]                      | The proportion of [!UICONTROL Resolved IDs] that have been exposed to an ad via [!DNL Amazon Ads]. |
 | [!UICONTROL Breakdown by Amazon ad product] | Breakdown of [!UICONTROL Overlapping ad exposed IDs] reached by either [!UICONTROL Sponsored Product] and/or [!UICONTROL DSP]. Each is represented as an individual percentage from total number of ad exposed IDs. Since an ID can belong to both [!UICONTROL Sponsored Products] and [!UICONTROL DSP], the percentages may not sum to 100%. |
@@ -69,7 +69,7 @@ The **[!UICONTROL Relevant audiences]** section provides insights into [!DNL Ama
 
 | Metric                         | Description                                                                                       |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon’s Identity Resolution] was able to resolve using your audience data. |
+| [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon's Identity Resolution] was able to resolve using your audience data. |
 | [!UICONTROL Overlapping ad exposed IDs]     | This represents the number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. This only considers DSP impressions. |
 | [!UICONTROL Overlap %]                      | The proportion of [!UICONTROL Resolved IDs] that have been exposed to an ad via [!DNL Amazon Ads]. |
 | [!UICONTROL Categories]                     | The category or categories that the audience belongs to. An audience can belong to multiple categories. |
@@ -80,12 +80,12 @@ The **[!UICONTROL Discover overlaps with Amazon Marketing Cloud]** section provi
 
 | Metric                         | Description                                                                                       |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon’s Identity Resolution] was able to resolve using your audience data. |
+| [!UICONTROL Resolved IDs]      | The number of IDs [!DNL Amazon's Identity Resolution] was able to resolve using your audience data. |
 | [!UICONTROL Overlapping ad exposed IDs]     | This represents the number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. This only considers DSP impressions. |
 | [!UICONTROL Overlap %]         | The proportion of [!UICONTROL Resolved IDs] that have been exposed to an ad via [!DNL Amazon Ads]. |
 
 ## Measure {#measure}
 
-The **[!UICONTROL Measure]** tab becomes available once [!DNL AMC] has discovered campaign IDs in your instance. When you create a project, Real-Time CDP Collaboration runs background queries against your [!DNL AMC] data to populate both the [!UICONTROL Discover] section and the campaign and conversion event lists used to configure measurement reports. If the tab is not visible, no campaign data was found in your instance.
+The **[!UICONTROL Measure]** tab is available when your [!DNL AMC] instance contains campaign IDs. When you create a project, Real-Time CDP Collaboration runs background queries against your [!DNL AMC] data to populate both the [!UICONTROL Discover] section and the campaign and conversion event lists used to configure measurement reports. If the tab is not visible, no campaign data was found in your instance.
 
 For step-by-step instructions on creating and interpreting [!DNL AMC] measurement reports, read the [create AMC measurement reports](./amc-measure.md) guide.
