@@ -10,7 +10,7 @@ exl-id: 3b94d263-9748-4e2b-b1c9-7e37e2e51b7f
 
 {{limited-availability-release-note}}
 
-After [creating a project with [!DNL Amazon Marketing Cloud]](../manage-projects.md#create-project) (AMC), you can create measurement reports covering campaigns that have already run — enabling you to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
+After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run — enabling you to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ Complete the report form using the sections below.
 
 ### Campaign {#campaign}
 
-The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns are populated from your [!DNL AMC] instance at project creation.
+The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns are populated from your [!DNL AMC] instance at project creation. If no campaigns appear, see [Troubleshooting](#troubleshooting).
 
 ### Date range and run date {#dates}
 
@@ -107,7 +107,7 @@ The sections available depend on the report type you selected.
 
 ### Campaign Summary {#campaign-summary-metrics}
 
-A Campaign Summary report includes the following visualizations, which you can use to evaluate the scale and efficiency of your campaign's delivery. For general guidance on interpreting these metrics, refer to the [measure performance](../measure.md) guide.
+A Campaign Summary report includes the following visualizations, which you can use to evaluate the scale and efficiency of your campaign's delivery. For guidance on interpreting reach, frequency, and impression metrics in Collaboration generally, refer to the [measure performance](../measure.md) guide.
 
 | Visualization | Description |
 | --- | --- |
@@ -146,7 +146,7 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 
 **The Measure tab is not visible or no campaigns appear in the Campaign ID dropdown**
 
-Both symptoms indicate that campaign IDs have not yet been discovered in your [!DNL AMC] instance. Create a new project to trigger a fresh discovery of campaigns and conversion events.
+Both symptoms indicate that campaign IDs have not yet been discovered in your [!DNL AMC] instance. [Create a new project](../manage-projects.md#create-project) to trigger a fresh discovery of campaigns and conversion events.
 
 **Results are not visible after the run date**
 
@@ -158,8 +158,8 @@ Conversion events are discovered dynamically from your [!DNL AMC] instance. If n
 
 **Conversions appear lower than expected**
 
-If the report run date is fewer than 30 days after the end of the date range, conversions within the attribution window may not yet have been captured. Create a new report with a run date at least 30 days after the date range ends.
+If the report run date is fewer than 30 days after the end of the date range, conversions within the attribution window may not yet have been captured. [Create a new report](#create-report) with a run date at least 30 days after the date range ends.
 
 ## Next steps {#next-steps}
 
-Once you have reviewed your report, use the results to assess your campaign's delivery and, if you included attribution, its effectiveness in driving conversions. To evaluate different campaigns or time periods, create additional reports within the same project. For broader guidance on interpreting campaign performance metrics in Collaboration, refer to the [measure performance](../measure.md) guide.
+Once you have reviewed your report, use the results to assess your campaign's delivery and, if you included attribution, its effectiveness in driving conversions. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide. For broader guidance on interpreting campaign performance metrics in Collaboration, refer to the [measure performance](../measure.md) guide.
