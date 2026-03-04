@@ -2,6 +2,8 @@
 title: Create Amazon Marketing Cloud measurement reports
 description: Learn how to create and interpret measurement reports for Amazon Marketing Cloud campaigns in Real-Time CDP Collaboration.
 audience: advertiser
+keywords: AMC, Amazon Marketing Cloud, measurement reports, campaign summary, attribution, Real-Time CDP Collaboration
+solution: Real-Time CDP Collaboration
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3b94d263-9748-4e2b-b1c9-7e37e2e51b7f
 ---
@@ -20,7 +22,7 @@ After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you ca
 
 Before creating a measurement report, ensure you have:
 
-* Established a connection with [!DNL AMC] and created a project. Refer to the [connect to Amazon Marketing Cloud](../../connect/advertising-platforms/amc.md) and [manage projects](../manage-projects.md) guides.
+* An active [!DNL AMC] connection and an existing project. Refer to the [Connect to Amazon Marketing Cloud](../../connect/advertising-platforms/amc.md) and [Manage projects](../manage-projects.md) guides.
 * Campaign IDs available in your [!DNL AMC] instance. If campaigns are missing from the report form, see [Troubleshooting](#troubleshooting).
 
 ## Create a report {#create-report}
@@ -34,7 +36,7 @@ To create an [!DNL AMC] measurement report:
 
 1. Navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]** and select your [!DNL AMC] project.
 2. Select the **[!UICONTROL Measure]** tab.
-3. Select the add icon followed by **[!UICONTROL Measure]** from the dropdown options.
+3. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Measure]**. The measurement report form appears.
 
 ![The Measure tab inside an AMC project, showing the Add icon and [!UICONTROL Measure] in the upper-right corner of the workspace.](../../../assets/collaborate/advertising-platforms/add-measure-draft.png){zoomable="yes"}
 
@@ -77,7 +79,7 @@ A **[!UICONTROL Campaign summary]** is always included in every report. In addit
 | **[!UICONTROL Campaign summary]** | Provides reach, frequency, and impression metrics for the selected campaign. Always included. |
 | **[!UICONTROL Attribution]** | Adds conversion data to the report. Only available if conversion events exist in your [!DNL AMC] instance. See [Conversion events](#conversion-events). |
 
-### Conversion events (attribution only) {#conversion-events}
+#### Conversion events (attribution only) {#conversion-events}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_lookback_window"
@@ -91,11 +93,11 @@ A **[!UICONTROL Campaign summary]** is always included in every report. In addit
 
 >[!NOTE]
 >
->If you did not select [!UICONTROL Attribution] in the previous step, skip this section and select **[!UICONTROL Create]** to submit the form.
+>If you did not select [!UICONTROL Attribution] in the [Report type](#report-type) section, skip this section and select **[!UICONTROL Create]** to submit the form.
 
 If you selected **[!UICONTROL Attribution]**, the **[!UICONTROL Lookback window]** is fixed at 30 days by [!DNL AMC] and cannot be adjusted.
 
-Conversion events represent on-site customer actions tracked by [!DNL Amazon Ads], such as a purchase, wishlist addition, shopping cart action, or product detail view. Select at least one and up to three **[!UICONTROL conversion events]** from the list, choosing the events that align with the primary goal of the campaign you are measuring. If no conversion events are available, the [!UICONTROL Attribution] option is grayed out and unavailable for selection.
+Conversion events represent on-site customer actions tracked by [!DNL Amazon Ads], such as a purchase, wishlist addition, shopping cart action, or product detail view. Select at least one and up to three **[!UICONTROL Conversion events]** from the list, choosing the events that align with the primary goal of the campaign you are measuring. If no conversion events are available, the [!UICONTROL Attribution] option is grayed out and unavailable for selection.
 
 Once the form is complete, select **[!UICONTROL Create]**. The report is created immediately and appears in the **[!UICONTROL Measure]** tab with a scheduled or pending status, but does not execute until the run date. After the run date, [!DNL AMC] processes the queries on your behalf; results are typically available within 24 hours.
 
@@ -107,7 +109,7 @@ Once a report has run, locate your report in the **[!UICONTROL Measure]** tab an
 
 The sections available depend on the report type you selected.
 
-### Campaign Summary {#campaign-summary-metrics}
+### Campaign summary {#campaign-summary-metrics}
 
 A Campaign Summary report includes the following visualizations, which you can use to evaluate the scale and efficiency of your campaign's delivery. For guidance on interpreting reach, frequency, and impression metrics in Collaboration generally, refer to the [measure performance](../measure.md) guide.
 
@@ -119,7 +121,7 @@ A Campaign Summary report includes the following visualizations, which you can u
 | **[!UICONTROL Reach curve]** | Cumulative growth in unique users reached over the reporting period. |
 | **[!UICONTROL Impressions by placement]** | Which placements drove the most impressions for the campaign. |
 
-![Campaign summary inforgraphics.](../../../assets/collaborate/advertising-platforms/campaing-summary-widgets-draft.png)
+![The Campaign Summary visualizations showing Summary totals, Impressions distribution, Frequency distribution, Reach curve, and Impressions by placement.](../../../assets/collaborate/advertising-platforms/campaing-summary-widgets-draft.png){zoomable="yes"}
 
 ### Attribution {#attribution-metrics}
 
@@ -130,7 +132,7 @@ If [!UICONTROL Attribution] was selected, the report also includes the following
 | **[!UICONTROL Cumulative conversions]** | Total conversions attributed to campaign impressions within the 30-day lookback window. |
 | **[!UICONTROL Conversions by day]** | Daily conversion counts attributed to the campaign. |
 
-![The Attribution visualizations are appended to the campaign summary details.](../../../assets/collaborate/advertising-platforms/attribution-report-conversion-wdgets-draft.png)
+![The Attribution visualizations showing Cumulative conversions and Conversions by day charts.](../../../assets/collaborate/advertising-platforms/attribution-report-conversion-wdgets-draft.png){zoomable="yes"}
 
 ## AMC constraints reference {#constraints}
 
@@ -150,21 +152,21 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 
 ## Troubleshooting {#troubleshooting}
 
-**The Measure tab is not visible or no campaigns appear in the Campaign ID dropdown**
+**The [!UICONTROL Measure] tab is not visible or no campaigns appear in the [!UICONTROL Campaign ID] dropdown**
 
-Both symptoms indicate that campaign IDs have not yet been discovered in your [!DNL AMC] instance. [Create a new project](../manage-projects.md#create-project) to trigger a fresh discovery of campaigns and conversion events.
+Both symptoms indicate that [!DNL AMC] has not yet discovered campaign IDs in your instance. [Create a new project](../manage-projects.md#create-project) to trigger a fresh discovery of campaigns and conversion events.
 
 **Results are not visible after the run date**
 
 After the run date passes, [!DNL AMC] runs the report queries on your behalf. Allow up to 24 hours for results to become available. If results have not appeared after 24 hours, check that the run date has fully passed and that the report status in the **[!UICONTROL Measure]** tab is no longer showing as pending.
 
-**Conversion events are unavailable and Attribution is grayed out**
+**Conversion events are unavailable and [!UICONTROL Attribution] is grayed out**
 
-Conversion events are discovered dynamically from your [!DNL AMC] instance. If none are listed, your [!DNL AMC] instance may not have any recorded conversion events, and attribution reporting is not available.
+[!DNL AMC] discovers conversion events dynamically from your instance. If none are listed, your [!DNL AMC] instance may not have any recorded conversion events, and attribution reporting is not available.
 
 **Conversions appear lower than expected**
 
-If the report run date is fewer than 30 days after the end of the date range, conversions within the attribution window may not yet have been captured. [Create a new report](#create-report) with a run date at least 30 days after the date range ends.
+If the report run date is fewer than 30 days after the end of the date range, [!DNL AMC] may not have captured all conversions within the attribution window. [Create a new report](#create-report) with a run date at least 30 days after the date range ends.
 
 ## Next steps {#next-steps}
 
