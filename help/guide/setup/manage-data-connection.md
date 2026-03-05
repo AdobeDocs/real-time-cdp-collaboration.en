@@ -55,6 +55,12 @@ Read the following sections to learn how to update the match keys and scheduling
 
 ### Edit match keys {#edit-match-keys}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="Enrichment"
+>abstract="Turning off enrichment is not supported. You can change the enrichment join keys instead."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Enrichment"
+
 >[!IMPORTANT]
 >
 >Before editing the match keys for a data connection, note the following:
