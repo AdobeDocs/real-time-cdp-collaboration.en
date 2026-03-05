@@ -88,7 +88,7 @@ Select the sandbox that includes the measurement data that you want to use for C
 
 A list of datasets in the selected sandbox appears. Select a dataset as your measurement data, then select **[!UICONTROL Next]**. You can use the Search option to filter and find the preferred dataset.
 
-![The Data connection and details step highlighting the Example Event Data Dataset and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}
+![The Data connection and details step highlighting the Search option, the Example Event Data Dataset, and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}
 
 #### Provide name and details {#provide-name-and-details}
 
