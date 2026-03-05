@@ -27,22 +27,19 @@ Before creating a measurement report, ensure you have:
 
 ## Create a report {#create-report}
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_measure_create_report"
->title="Create measurement report"
->abstract="Select your campaign, set the date range and run date, choose a report type, and optionally add conversion events for attribution data."
-
 To create an [!DNL AMC] measurement report:
 
 1. Navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]** and select your [!DNL AMC] project.
 2. Select the **[!UICONTROL Measure]** tab.
-3. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Measure]**. The measurement report form appears.
+3. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Measure]**.
 
 ![The Measure tab inside an AMC project, showing the Add icon and [!UICONTROL Measure] in the upper-right corner of the workspace.](../../../assets/collaborate/advertising-platforms/add-measure-draft.png){zoomable="yes"}
 
-Complete the measurement report form using the sections below.
+The measurement report form appears.
 
 ![The Measurement report settings.](../../../assets/collaborate/advertising-platforms/create-measurement-report-draft.png){zoomable="yes"}
+
+Complete the measurement report form using the sections below.
 
 ### Campaign details {#campaign}
 
@@ -51,18 +48,18 @@ The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. 
 #### Date range and run date {#dates}
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_measure_date_range"
+>id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="Date range"
 >abstract="Set the start and end dates for the campaign data to include in the report. The date range is limited to a 365-day lookback window with a maximum span of 90 days. You can only report on past campaigns."
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_measure_run_date"
+>id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="Run date"
 >abstract="The date on which the report executes. Must be at least one day after the report end date and can be up to 46 days in the future."
 
-Set the **[!UICONTROL Date range]** to cover the flight dates of the campaign you want to evaluate. [!DNL AMC] supports a 365-day lookback window with a maximum span of 90 days. You can only report on campaigns that have already run.
+Set the **[!UICONTROL Report date range]** to cover the flight dates of the campaign you want to evaluate. [!DNL AMC] supports a 365-day lookback window with a maximum span of 90 days. You can only report on campaigns that have already run.
 
-Set the **[!UICONTROL Run date]**. This is the date on which the report executes. The run date must be at least one day after the report end date and can be up to 46 days in the future. For the full set of date constraints, see [AMC constraints reference](#constraints).
+Set the **[!UICONTROL Report run date]**. This is the date on which the report executes. The run date must be at least one day after the report end date and can be up to 46 days in the future. For the full set of date constraints, see [AMC constraints reference](#constraints).
 
 >[!TIP]
 >
@@ -115,10 +112,10 @@ A Campaign Summary report includes the following visualizations, which you can u
 
 | Visualization | Description |
 | --- | --- |
-| **[!UICONTROL Summary]** | High-level totals for the campaign: total impressions, unique reach, and average frequency. |
+| **[!UICONTROL Summary insights]** | High-level totals for the campaign: total impressions, unique reach, and average frequency. |
 | **[!UICONTROL Impressions distribution]** | Breakdown of impressions across [!DNL Amazon] ad products (Sponsored Ads and/or DSP). |
 | **[!UICONTROL Frequency distribution]** | How many impressions were shown to each unique user, to help identify saturation and suppression opportunities. |
-| **[!UICONTROL Reach curve]** | Cumulative growth in unique users reached over the reporting period. |
+| **[!UICONTROL Cumulative reach curve]** | Cumulative growth in unique users reached over the reporting period. |
 | **[!UICONTROL Impressions by placement]** | Which placements drove the most impressions for the campaign. |
 
 ![The Campaign Summary visualizations showing Summary totals, Impressions distribution, Frequency distribution, Reach curve, and Impressions by placement.](../../../assets/collaborate/advertising-platforms/campaing-summary-widgets-draft.png){zoomable="yes"}
