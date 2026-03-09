@@ -152,25 +152,31 @@ Next, specify the period you want the report to cover. Select **[!UICONTROL Repo
 
 #### Report details {#report-details}
 
-In the **[!UICONTROL Report details]** section, choose the date on which the report should run. Select **[!UICONTROL Report run date]** and choose your preferred date from the calendar.
+**Report run date**
 
->[!IMPORTANT]
->
-> The report run date must be today or later, and must occur at least one day after the end date of your report date range. For example, if your report date range ends on June 15, you must select a report run date of June 16 or later.
+In the **[!UICONTROL Report details]** section, choose the date on which the report should run. Select **[!UICONTROL Report run date]** and choose your preferred date from the calendar. 
+
+* If you choose today's date or a date in the past, the **Campaign Summary** report runs right away.
+* If you choose a future date, the **Campaign Summary** report is scheduled to run on that day.
 
 ![The Create measurement report screen showing the Report run date calendar.](/help/assets/collaborate/measure/report-run-date.png)
 
-Advertisers can select the **[!UICONTROL Campaign summary]** report type from the available options. If you're a publisher, the **Campaign summary** report type is preselected and cannot be changed.
+**Report type**
+
+* If you're an advertiser, you can select the **[!UICONTROL Campaign summary]** report type from the available options. Only advertisers can generate **Attribution** reports.
+* If you're a publisher, the **[!UICONTROL Campaign summary]** report type is preselected and cannot be changed. Publishers cannot run Attribution reports.
 
 ![The Create measurement report screen showing the Campaign summary option as a preselected and unchangable report type.](/help/assets/collaborate/measure/cs-report-type.png)
 
-Finally, review your settings and select **[!UICONTROL Create]** to schedule the report. The **Campaign summary** report will be generated on the specified run date. Once available, you can view your report at any time in the **[!UICONTROL Measure]** tab within your project workspace.
+Finally, review your settings and select **[!UICONTROL Create]**. Your campaign summary report generates immediately if the run date is today or earlier, or on the chosen future date. You can edit the scheduled report before its run date. For step-by-step instructions, refer to the [Edit measurement report] section.
+
+Once available, you can view your report at any time in the **[!UICONTROL Measure]** tab within your project workspace.
 
 ![The Create measurement report screen showing the information and the Create option highlighted.](/help/assets/collaborate/measure/cs-review.png)
 
 ### Create attribution report {#create-attribution-report}
 
-As an advertiser, you can generate **Attribution** reports to assess how your campaign exposures contribute to key actions such as sign-ups or purchases. Use these reports to understand user interactions with your campaign, identify which touchpoints drive the most impact, and inform more effective marketing strategies.
+As an advertiser, you can generate **Attribution** reports to assess how your campaign exposures contribute to key outcomes such as sign-ups or purchases. Use these reports to understand user interactions with your campaign, identify which touchpoints drive the most impact, and inform more effective marketing strategies.
 
 >[!IMPORTANT]
 >
@@ -189,11 +195,23 @@ Read and follow steps in the [Create campaign summary report](#create-campaign-s
 
 * [Billing details](#billing-details) 
 * [Campaign details](#campaign-details)
-* Report run date under [Report details](#report-details) section
 
 #### Report details for Attribution reports {#report-details-attribution}
 
-As an advertiser, you can select **[!UICONTROL Attribution]** as a report type in addition to **[!UICONTROL Campaign summary]**. When you choose the Attribution report, your results will include both standard Campaign Summary metrics and detailed Attribution analysis, providing a comprehensive view of campaign performance and user conversion paths.
+**Report run date**
+
+>[!IMPORTANT]
+>
+> For attribution reports, the report run date must be a future date, and must occur at least one day after the end date of your report date range plus the full duration of the defined lookback window.
+> **Report run date ≥ report end date + lookback window + 1**
+> 
+> For example, if your report date range ends on June 15 and the lookback window is 14 days, the report run date is June 30 or later.
+
+In the **[!UICONTROL Report details]** section, choose the date on which the report should run. Select **[!UICONTROL Report run date]** and choose your preferred date from the calendar.
+
+**Report type**
+
+As an advertiser, you can select **[!UICONTROL Attribution]** as a report type in addition to **[!UICONTROL Campaign summary]**. When you choose the Attribution report, your results include both standard Campaign Summary metrics and detailed Attribution analysis, providing a comprehensive view of campaign performance.
 
 ![The Create measurement report screen highlighting both the Campaign summary and Attribution report types selected.](/help/assets/collaborate/measure/attribution-report-type.png)
 
@@ -210,6 +228,8 @@ Next, choose up to **3** conversion events from the available list. For more inf
 
 ![The Create measurement report screen highlighting the selected conversion events and the information of the Purchase event.](/help/assets/collaborate/measure/attribution-conversion-events.png)
 
-Finally, review your settings and select **[!UICONTROL Create]** to schedule the report. The **Attribution** report will be generated on the specified run date. Once available, you can view your report at any time in the **[!UICONTROL Measure]** tab within your project workspace.
+Finally, review your settings and select **[!UICONTROL Create]** to schedule the report. Your attribution report will be generated on the specified run date. You can edit the scheduled report before its run date. For step-by-step instructions, refer to the [Edit measurement report] section. 
+
+Once available, you can view your report at any time in the **[!UICONTROL Measure]** tab within your project workspace.
 
 ![The Create measurement report screen showing the information and the Create option highlighted.](/help/assets/collaborate/measure/attribution-review.png)
