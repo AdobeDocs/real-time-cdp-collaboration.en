@@ -163,8 +163,8 @@ In the **[!UICONTROL Report details]** section, choose the date on which the rep
 
 **Report type**
 
-* If you're an advertiser, you can select the **[!UICONTROL Campaign summary]** report type from the available options. Only advertisers can generate **Attribution** reports.
-* If you're a publisher, the **[!UICONTROL Campaign summary]** report type is preselected and cannot be changed. Publishers cannot run Attribution reports.
+* If you're an advertiser, you can select the **[!UICONTROL Campaign summary]** report type from the available options. Only advertisers can generate attribution reports.
+* If you're a publisher, the **[!UICONTROL Campaign summary]** report type is preselected and cannot be changed. At this time, publishers cannot run attribution reports.
 
 ![The Create measurement report screen showing the Campaign summary option as a preselected and unchangable report type.](/help/assets/collaborate/measure/cs-report-type.png)
 
