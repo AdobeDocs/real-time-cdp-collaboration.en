@@ -44,11 +44,11 @@ After sourcing your measurement data, you can edit the details and condition rul
 
 From the **[!UICONTROL My measurement data]** tab, select the ellipsis option (![More icon](/help/assets/icons/more.png)) within the relevant conversion event card. Then select **[!UICONTROL View conversion]** from the dropdown menu to open the detailed page for that conversion event.
 
-![My measurement data tab with the ellipsis menu open and the View conversion option highlighted.](/help/assets/setup/add-manage-measurement-data/view-conversion.png){zoomable="yes"}
+<!-- ![My measurement data tab with the ellipsis menu open and the View conversion option highlighted.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"} -->
 
 ### Edit name and description {#edit-name-and-description}
 
-To edit the name and description of the event, select the edit icon (![Edit icon](/help/assets/icons/edit.png)) on the top right.
+To update the event's name and description, select the edit icon (![Edit icon](/help/assets/icons/edit.png)) at the top right of the page.
 
 ![The Site Visit event page with the Edit icon on the top right highlighted.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
 
@@ -76,7 +76,7 @@ To start editing, select **[!UICONTROL Edit]** within the **[!UICONTROL Conversi
 
 In the **[!UICONTROL Edit conversion details]** dialog, use the dropdown menu to update the conversion type. You can enter a value for the conversion, or leave it empty if you do not wish to assign a value. To edit the duplication key, select the existing key option.
 
-![The Edit conversion details dialog with the Example Person ID option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+![The Edit conversion details dialog with the Example Person ID option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
 
 The **[!UICONTROL Duplication key]** dialog displays a list of available fields grouped under options such as **[!UICONTROL Identity namespace]** and **[!UICONTROL Event schema]**. Find and choose the desired key, followed by **[!UICONTROL Select]**.
 
@@ -100,19 +100,19 @@ In the **[!UICONTROL Edit conversion rules]** dialog, you can view the current d
 
 ![The Edit conversion rules dialog highlighting the options to edit source field, logic rule and value of an exisiting condition.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
 
-To include additional conversion rules, select **[!UICONTROL Add condition]** . Then select the new empty condition option.
+To include additional conversion rules, select **[!UICONTROL Add condition]**. Then select the new empty condition option.
 
-![The Edit conversion rules dialog showing the new empty condition option after selecting the Add condition option.](/help/assets/setup/add-manage-measurement-data/add-condition.png){zoomable="yes"}
+![The Edit conversion rules dialog showing the new empty condition option after selecting the Add condition option.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
 
 In the **[!UICONTROL Select source field]** dialog, you can see available fields grouped under options such as **[!UICONTROL Identity namespace]** and **[!UICONTROL Event schema]**. Select the appropriate field you want to use for your condition, then choose **[!UICONTROL Select]**. You can use the **[!UICONTROL Search]** option to quickly find your preferred field.
 
-![The Select source field dialog showing the chosen field and the Select option.](../../assets/setup/add-manage-measurement-data/edit-condition-select-source-key-dialog.png){zoomable="yes"}
+![The Select source field dialog showing the chosen field and the Select option.](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
 
 Next, use the dropdown menu to select a logic operator from the available list and enter a value for the condition.
 
-![The Edit conversion rules dialog highlighting the logic dropdown menu.](../../assets/setup/add-manage-measurement-data/edit-condition-select-source-key-dialog.png){zoomable="yes"}
+![The Edit conversion rules dialog highlighting the logic dropdown menu.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
 
-Use **[!UICONTROL Include all conditions]** if all specified conditions are required for each conversion, or select **[!UICONTROL Include any of the conditions]** to allow conversions that match at least one condition. When you finish updating, review and select **[!UICONTROL Save]** to apply the changes.
+Use **[!UICONTROL Include all conditions]** if all specified conditions are required for each conversion, or use **[!UICONTROL Include any of the conditions]** to allow conversions that match at least one condition. When you finish updating, review and select **[!UICONTROL Save]** to apply the changes.
 
 ![The Edit conversion rules dialog with the Save option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
 
