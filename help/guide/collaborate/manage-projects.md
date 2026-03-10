@@ -57,12 +57,12 @@ You can now view your new project, its details, and available sections based on 
 
 ## Manage campaign ID {#manage-campaign-id}
 
-A **Campaign ID** links your project to a specific campaign and is required to [generate measurement reports](./measure.md#create-measurement-report). You can add multiple Campaign IDs to one project if you run several campaigns with the same collaborator. All these campaigns are available for selection in reporting.
+A **Campaign ID** links your project to a specific campaign and is required to [generate measurement reports](./measure.md#create-measurement-report). You can add multiple campaign IDs to one project if you run several campaigns with the same collaborator. All these campaigns are available for selection in reporting.
 
 - **Publishers**: Enter or update Campaign IDs and associated names in the Collaboration UI before running reports.
 - **Advertisers**: Request your collaborator (publisher) to add Campaign IDs as needed.
 
-To add or update Campaign IDs, navigate to the **[!UICONTROL Collaborate]** workspace, then select **[!UICONTROL View]** within the relevant project card.
+To add or update campaign IDs, navigate to the **[!UICONTROL Collaborate]** workspace, then select **[!UICONTROL View]** within the relevant project card.
 
 ![The Collaborate workspace highlighting the View option within a project card.](/help/assets/collaborate/manage-view-projects/view-project.png){zoomable="yes"}
 

@@ -138,7 +138,7 @@ This section explains how credits are used when generating measurement reports. 
 
 #### Campaign details {#campaign-details}
 
-In the **[!UICONTROL Campaign details]** section, select the appropriate **Advertiser ID** to associate with your report if advertiser names or IDs were added during [connection setup](../connect/establishing-connections.md#advertiser-names). If a single name was configured, it appears by default. If no name was set up, the **[!UICONTROL Advertiser ID (Name)]** field is disabled and prefilled with the advertiser account name.
+In the **[!UICONTROL Campaign details]** section, select the appropriate **Advertiser ID** to associate with your report. These advertiser names or IDs were added during [connection setup](../connect/establishing-connections.md#advertiser-names). If only one name was configured, it appears by default. If no name was set up, the **[!UICONTROL Advertiser ID (Name)]** field is disabled and prefilled with the advertiser account name.
 
 ![The Create measurement report screen showing the Advertiser ID (Name) option disabled.](/help/assets/collaborate/measure/advertiser-id.png)
 
