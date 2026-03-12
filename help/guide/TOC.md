@@ -27,6 +27,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
   * [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
+  * [Manage measurement data connection](./setup/manage-measurement-data-connection.md)
   * [Audit logs](./setup/audit-logs.md)
 * Establishing connections {#connect}
   * [Overview.md](./connect/overview.md)
