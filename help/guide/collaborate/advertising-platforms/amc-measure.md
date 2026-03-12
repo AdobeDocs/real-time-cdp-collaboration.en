@@ -16,14 +16,14 @@ After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you ca
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Measure]** tab is only visible when campaign IDs have been discovered in your [!DNL AMC] instance. If the tab is not visible, see [Troubleshooting](#troubleshooting).
+>The **[!UICONTROL Measure]** tab is only visible after the project creation initialization queries have completed. This process can take up to 24 hours. If the tab is still not visible after 24 hours, refer to the [Troubleshooting](#troubleshooting) section.
 
 ## Prerequisites {#prerequisites}
 
 Before creating a measurement report, ensure you have:
 
 * An active [!DNL AMC] connection and an existing project. Refer to the [Connect to Amazon Marketing Cloud](../../connect/advertising-platforms/amc.md) and [Manage projects](../manage-projects.md) guides.
-* Campaign IDs available in your [!DNL AMC] instance. If campaigns are missing from the report form, see [Troubleshooting](#troubleshooting).
+* Campaigns that ran within the last three months in your [!DNL AMC] instance. Campaign IDs are discovered only within this default lookback window. If no campaigns appear in the report form, refer to the [Troubleshooting](#troubleshooting) section.
 
 ## Create a report {#create-report}
 
@@ -43,7 +43,7 @@ Complete the measurement report form using the sections below.
 
 ### Campaign details {#campaign}
 
-The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns are populated from your [!DNL AMC] instance at project creation. If no campaigns appear, see [Troubleshooting](#troubleshooting).
+The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns are populated from your [!DNL AMC] instance at project creation. They are limited to campaigns that ran within the last three months and that met [!DNL AMC]'s minimum user threshold. Refer to the [AMC official documentation](https://advertising.amazon.com/API/docs/en-us/guides/amazon-marketing-cloud/aggregation-threshold){target="_blank"} for more information on their user thresholds. Campaigns below that threshold return null results and will not appear in the list. If no campaigns appear, see [Troubleshooting](#troubleshooting).
 
 #### Date range and run date {#dates}
 
@@ -149,9 +149,13 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 
 ## Troubleshooting {#troubleshooting}
 
-**The [!UICONTROL Measure] tab is not visible or no campaigns appear in the [!UICONTROL Campaign ID] dropdown**
+**The [!UICONTROL Measure] tab is not visible**
 
-Both symptoms indicate that [!DNL AMC] has not yet discovered campaign IDs in your instance. [Create a new project](../manage-projects.md#create-project) to trigger a fresh discovery of campaigns and conversion events.
+The **[!UICONTROL Measure]** tab becomes available only after the initialization queries triggered at project creation have completed. This can take up to 24 hours. If the tab is still not visible after 24 hours, verify that your [!DNL AMC] instance has campaigns that ran within the last three months, which is the default lookback window used during campaign discovery.
+
+**No campaigns appear in the [!UICONTROL Campaign ID] dropdown**
+
+Campaigns may be absent even when the **[!UICONTROL Measure]** tab is visible. [!DNL AMC] applies a minimum user threshold to campaign data; if a campaign did not reach a sufficient number of unique users, it will not be returned and the report queries will return null results. Verify that the campaigns you want to report on have sufficient reach. For details on [!DNL AMC]'s aggregation thresholds, refer to the [AMC documentation](https://advertising.amazon.com/API/docs/en-us/guides/amazon-marketing-cloud/aggregation-threshold){target="_blank"}.
 
 **Results are not visible after the run date**
 
@@ -159,7 +163,11 @@ After the run date passes, [!DNL AMC] runs the report queries on your behalf. Al
 
 **Conversion events are unavailable and [!UICONTROL Attribution] is grayed out**
 
-[!DNL AMC] discovers conversion events dynamically from your instance. If none are listed, your [!DNL AMC] instance may not have any recorded conversion events, and attribution reporting is not available.
+This can occur for three reasons:
+
+1. **Conversion tracking is not enabled.** Your [!DNL AMC] Advertiser account may not have conversion tracking configured. Navigate to your AMC Advertiser account and verify that conversion events are being tracked for the relevant campaigns.
+2. **No recorded conversion events.** Even with tracking enabled, your [!DNL AMC] instance may not have recorded any conversion events yet.
+3. **Aggregation threshold not met.** [!DNL AMC] applies a minimum threshold to conversion data. If a conversion event type does not have a sufficient number of occurrences, it will not be returned and will not appear in the list.
 
 **Conversions appear lower than expected**
 
