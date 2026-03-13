@@ -11,7 +11,7 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 {{limited-availability-release-note}}
 
-After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run. The **[!UICONTROL Measure]** tab is part of your AMC project alongside the **[!UICONTROL Discover]** tab, and becomes available after the **[!UICONTROL Discover]** tab has finished processing your campaign data. Use these reports to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
+After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run. The **[!UICONTROL Measure]** tab is part of your AMC project alongside the [**[!UICONTROL Discover]** tab](../discover.md), and becomes available after the **[!UICONTROL Discover]** tab has finished processing your campaign data. Use these reports to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Before creating a measurement report, ensure you have:
 
 ## Create a report {#create-report}
 
-For in-depth guidance on navigating the project workspace, see [Manage projects](../manage-projects.md). To create an [!DNL AMC] measurement report:
+To create an [!DNL AMC] measurement report:
 
 1. Navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]** and select your [!DNL AMC] project.
 2. Select the **[!UICONTROL Measure]** tab.
@@ -154,13 +154,13 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 | Run date maximum | 46 days in the future |
 | Maximum conversion events per report | 3 |
 | Campaign selection | Single campaign per report |
-| Report editing | Not available. The existing report is preserved; create a new report with the updated settings instead. |
+| Report editing | Not available. The existing report is preserved; [create a new report](#create-report) with the updated settings instead. |
 
 ## Troubleshooting {#troubleshooting}
 
 **The [!UICONTROL Measure] tab is not visible**
 
-The **[!UICONTROL Measure]** tab becomes available only after the background data setup queries triggered at project creation have completed. This can take up to 24 hours. If the tab is still not visible after 24 hours, verify that your [!DNL AMC] instance has campaigns that ran within the last three months, which is the default lookback window used during campaign discovery.
+The **[!UICONTROL Measure]** tab becomes available only after the background data setup queries triggered at project creation have completed. This can take up to 24 hours. If the tab is still not visible after 24 hours, verify that your [!DNL AMC] instance has campaigns that ran within the last three months, which is the default lookback window used during campaign discovery. If eligible campaigns exist and the tab is still unavailable, check your campaign status in your [Amazon Ads account](https://advertising.amazon.com/sign-in){target="_blank"}.
 
 **No campaigns appear in the [!UICONTROL Campaign ID] dropdown**
 
@@ -174,7 +174,7 @@ After the run date passes, [!DNL AMC] runs the report queries on your behalf. Al
 
 This can occur for three reasons:
 
-1. **Conversion tracking is not enabled.** Your [!DNL AMC] Advertiser account may not have conversion tracking configured. Navigate to your AMC Advertiser account and verify that conversion events are being tracked for the relevant campaigns.
+1. **Conversion tracking is not enabled.** Your [!DNL AMC] Advertiser account may not have conversion tracking configured. Navigate to your [Amazon Ads account](https://advertising.amazon.com/sign-in){target="_blank"} and verify that conversion events are being tracked for the relevant campaigns.
 2. **No recorded conversion events.** Even with tracking enabled, your [!DNL AMC] instance may not have recorded any conversion events yet.
 3. **Aggregation threshold not met.** [!DNL AMC] applies a minimum threshold to conversion data. If a conversion event type does not have a sufficient number of occurrences, it will not be returned and will not appear in the list.
 
@@ -184,4 +184,4 @@ If the report run date is fewer than 30 days after the end of the date range, [!
 
 ## Next steps {#next-steps}
 
-Once you have reviewed your report, use the insights to inform future campaign planning in Amazon Advertising — for example, by adjusting targeting, suppressing over-exposed audiences identified in the frequency distribution, or reallocating spend toward high-performing placements. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide. For broader guidance on interpreting campaign performance metrics in Collaboration, refer to the [measure performance](../measure.md) guide.
+Once you have reviewed your report, use the insights to inform future campaign planning in Amazon Advertising — for example, by adjusting targeting, suppressing over-exposed audiences identified in the frequency distribution, or reallocating spend toward high-performing placements. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide.
