@@ -97,13 +97,13 @@ A **[!UICONTROL Campaign summary]** is always included in every report. In addit
 
 If you selected **[!UICONTROL Attribution]**, the **[!UICONTROL Lookback window]** is fixed at 30 days by [!DNL AMC] and cannot be adjusted.
 
-![The Conversion events section of the measurement report form in its active state, showing the Lookback window field set to 30 days and the Conversion events multi-select list with available events.](../../../assets/collaborate/advertising-platforms/conversion-events-active-placeholder.png){zoomable="yes"}
+![The Conversion events section of the measurement report form in its active state, showing the Lookback window field set to 30 days and the Conversion events multi-select list with available events.](../../../assets/collaborate/advertising-platforms/conversion-events-active-draft.png){zoomable="yes"}
 
 Conversion events represent on-site customer actions tracked by [!DNL Amazon Ads], such as a purchase, wishlist addition, shopping cart action, or product detail view. Select at least one and up to three **[!UICONTROL Conversion events]** from the list, choosing the events that align with the primary goal of the campaign you are measuring. If the [!UICONTROL Attribution] option is grayed out, see [Troubleshooting](#troubleshooting).
 
 Once the form is complete, select **[!UICONTROL Create]** and you are returned to the **[!UICONTROL Measure]** tab. The report is created immediately and appears with a scheduled or pending status.
 
-![The Measure tab showing a newly created measurement report card with a scheduled status indicator, the report name, run date, and report type visible.](../../../assets/collaborate/advertising-platforms/measurement-report-pending-placeholder.png){zoomable="yes"}
+![The Measure tab showing a newly created measurement report card with a scheduled status indicator, the report name, run date, and report type visible.](../../../assets/collaborate/advertising-platforms/measurement-report-pending-draft.png){zoomable="yes"}
 
 The report does not execute until the run date. After the run date, [!DNL AMC] processes the queries on your behalf; results are available within up to 24 hours.
 
