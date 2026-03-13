@@ -27,11 +27,11 @@ Before creating a measurement report, ensure you have:
 
 ## Create a report {#create-report}
 
-To create an [!DNL AMC] measurement report:
+For in-depth guidance on navigating the project workspace, see [Manage projects](../manage-projects.md). To create an [!DNL AMC] measurement report:
 
 1. Navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]** and select your [!DNL AMC] project.
 2. Select the **[!UICONTROL Measure]** tab.
-3. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) to open the options menu, and then select **[!UICONTROL Measure]**. For guidance on navigating the project workspace, see [Manage projects](../manage-projects.md).
+3. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) to open the options menu, and then select **[!UICONTROL Measure]**.
 
 ![The Measure tab inside an AMC project, showing the Add icon and [!UICONTROL Measure] in the upper-right corner of the workspace.](../../../assets/collaborate/advertising-platforms/add-measure-draft.png){zoomable="yes"}
 
@@ -43,7 +43,7 @@ Complete the measurement report form using the sections below.
 
 ### Campaign details {#campaign}
 
-The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns meet the prerequisites described above. If no campaigns appear, see [Troubleshooting](#troubleshooting).
+The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns meet the [prerequisites](#prerequisites) described above. If no campaigns appear, see [Troubleshooting](#troubleshooting).
 
 #### Date range and run date {#dates}
 
