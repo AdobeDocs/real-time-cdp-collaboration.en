@@ -136,7 +136,7 @@ To delete an existing data connection, select the delete icon (![Delete icon](/h
 
 ![A data connections workspace with the delete option highlighted.](/help/assets/setup/manage-measurement-data-connection/delete-measurement-data-connection.png){zoomable="yes"}
 
-A confirmation dialogue appears. Select **[!UICONTROL Delete]** to finish deleting the data connection.
+A confirmation dialog appears. Select **[!UICONTROL Delete]** to finish deleting the data connection.
 
 ![The Delete data connection dialog with the Delete option highlighted.](/help/assets/setup/manage-measurement-data-connection/delete-measurement-data-connection-confirm.png){zoomable="yes"}
 
