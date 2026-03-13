@@ -11,11 +11,11 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 {{limited-availability-release-note}}
 
-After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run. Use these reports to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
+After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run. The **[!UICONTROL Measure]** tab is part of your AMC project alongside the **[!UICONTROL Discover]** tab, and becomes available after the **[!UICONTROL Discover]** tab has finished processing your campaign data. Use these reports to evaluate how effectively your Amazon Ads reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your Amazon Advertising account) via background queries that run when the project is created.
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Measure]** tab is only visible after the project creation initialization queries have completed. This process can take up to 24 hours. If the tab is still not visible after 24 hours, refer to the [Troubleshooting](#troubleshooting) section.
+>The **[!UICONTROL Measure]** tab is only visible after the background data setup queries that discover your campaign and conversion data from your [!DNL AMC] instance have completed. This process can take up to 24 hours. If the tab is still not visible after 24 hours, refer to the [Troubleshooting](#troubleshooting) section.
 
 ## Prerequisites {#prerequisites}
 
@@ -42,7 +42,7 @@ Complete the measurement report form using the sections below.
 
 ### Campaign details {#campaign}
 
-The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns meet the [prerequisites](#prerequisites) described above. If no campaigns appear, see [Troubleshooting](#troubleshooting).
+The **[!UICONTROL Advertiser ID]** is the unique identifier for your Amazon Advertising account, sourced from your AMC connection settings. It is pre-populated from your project settings. If the value is incorrect, update it via your [project settings](../manage-projects.md). From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns meet the [prerequisites](#prerequisites) described above. If no campaigns appear, see [Troubleshooting](#troubleshooting).
 
 #### Date range and run date {#dates}
 
@@ -56,7 +56,7 @@ The **[!UICONTROL Advertiser ID]** is pre-populated from your project settings. 
 >title="Run date"
 >abstract="The date on which the report executes. Must be at least one day after the report end date and can be up to 46 days in the future."
 
-Set the **[!UICONTROL Report date range]** to cover the flight dates of the campaign you want to evaluate. [!DNL AMC] supports a 365-day lookback window with a maximum span of 90 days.
+Set the **[!UICONTROL Report date range]** to cover the dates during which the campaign was actively running. [!DNL AMC] supports a 365-day lookback window with a maximum span of 90 days.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Enter a **[!UICONTROL Report name]** to identify the report.
 
 #### Report type {#report-type}
 
-A **[!UICONTROL Campaign summary]** is always included in every report. In addition, select the **[!UICONTROL Attribution]** check box if you want to measure whether your campaign impressions drove specific customer actions, such as purchases or sign-ups, within a 30-day window after ad exposure.
+A **[!UICONTROL Campaign summary]** is always included in every report. In addition, select the **[!UICONTROL Attribution]** check box if you want to measure whether your campaign impressions drove specific customer actions, such as purchases or sign-ups, within a 30-day window after ad exposure. Select Attribution when your campaign goal was to drive measurable conversions and you have conversion tracking enabled in your [!DNL AMC] instance. If your goal was reach or awareness only, Campaign Summary alone provides the delivery metrics you need.
 
 | Report type | Description |
 | --- | --- |
@@ -93,7 +93,7 @@ A **[!UICONTROL Campaign summary]** is always included in every report. In addit
 
 >[!NOTE]
 >
->If you did not select [!UICONTROL Attribution] in the [Report type](#report-type) section, skip this section and select **[!UICONTROL Create]** to submit the form.
+>Attribution data requires conversion events to be configured in your [!DNL AMC] instance. If [!UICONTROL Attribution] is not available or was not selected, skip this section and select **[!UICONTROL Create]** to submit the form.
 
 If you selected **[!UICONTROL Attribution]**, the **[!UICONTROL Lookback window]** is fixed at 30 days by [!DNL AMC] and cannot be adjusted.
 
@@ -109,7 +109,7 @@ The report does not execute until the run date. After the run date, [!DNL AMC] p
 
 ## View a report {#view-report}
 
-Once a report has run, locate your report in the **[!UICONTROL Measure]** tab and select **[!UICONTROL View full report]** to review the results.
+Once a report has run, navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]**, select your [!DNL AMC] project, and then select the **[!UICONTROL Measure]** tab. Locate your report and select **[!UICONTROL View full report]** to review the results.
 
 ![The Measure tab in an AMC project showing a completed report card with its run date, report type, and the View full report button highlighted.](../../../assets/collaborate/advertising-platforms/view-full-report-draft.png){zoomable="yes"}
 
@@ -123,11 +123,11 @@ A Campaign Summary report includes the following visualizations, which you can u
 
 | Visualization | Description |
 | --- | --- |
-| **[!UICONTROL Summary insights]** | High-level totals for the campaign: total impressions, unique reach, and average frequency. |
-| **[!UICONTROL Impressions distribution]** | Breakdown of impressions across [!DNL Amazon] ad products (Sponsored Ads and/or DSP). |
-| **[!UICONTROL Frequency distribution]** | How many impressions were shown to each unique user, to help identify saturation and suppression opportunities. |
-| **[!UICONTROL Cumulative reach curve]** | Cumulative growth in unique users reached over the reporting period. |
-| **[!UICONTROL Impressions by placement]** | Which placements drove the most impressions for the campaign. |
+| **[!UICONTROL Summary insights]** | High-level totals for the campaign: total impressions, unique reach, and average frequency. High frequency relative to reach indicates overexposure; consider suppressing those audiences in future campaigns. |
+| **[!UICONTROL Impressions distribution]** | Breakdown of impressions across [!DNL Amazon] ad products (Sponsored Ads and/or DSP). A heavy imbalance toward one product type may indicate an opportunity to diversify your channel mix. |
+| **[!UICONTROL Frequency distribution]** | How many impressions were shown to each unique user, to help identify saturation and suppression opportunities. Users with very high frequency counts are strong suppression candidates for future campaigns. |
+| **[!UICONTROL Cumulative reach curve]** | Cumulative growth in unique users reached over the reporting period. A curve that flattens early indicates diminishing returns and potential audience saturation. |
+| **[!UICONTROL Impressions by placement]** | Which placements drove the most impressions for the campaign. Use this to prioritize high-performing placements and reduce spend on underperforming ones in future campaigns. |
 
 ### Attribution {#attribution-metrics}
 
@@ -135,8 +135,8 @@ If [!UICONTROL Attribution] was selected, the report also includes the following
 
 | Visualization | Description |
 | --- | --- |
-| **[!UICONTROL Cumulative conversions]** | Total conversions attributed to campaign impressions within the 30-day lookback window. |
-| **[!UICONTROL Conversions by day]** | Daily conversion counts attributed to the campaign. |
+| **[!UICONTROL Cumulative conversions]** | Total conversions attributed to campaign impressions within the 30-day lookback window. Low values relative to reach may indicate the campaign drove awareness but not measurable purchase intent. |
+| **[!UICONTROL Conversions by day]** | Daily conversion counts attributed to the campaign. Spikes on specific days may correlate with promotions, ad bursts, or seasonal demand. |
 
 ![The Attribution visualizations showing Cumulative conversions and Conversions by day charts.](../../../assets/collaborate/advertising-platforms/attribution-report-conversion-wdgets-draft.png){zoomable="yes"}
 
@@ -147,7 +147,7 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 | Constraint | Value |
 | --- | --- |
 | Date range minimum | 365 days in the past |
-| Date range maximum | 45 days after the current date |
+| Date range maximum | 45 days after the current date. Use this to pre-configure a report for a campaign that is still running and will conclude within the next 45 days; the report executes automatically on its scheduled run date after the campaign ends. |
 | Maximum date range span | 90 days |
 | Lookback window | 30 days (fixed, not adjustable) |
 | Run date minimum | 1 day after the report end date |
@@ -160,7 +160,7 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 
 **The [!UICONTROL Measure] tab is not visible**
 
-The **[!UICONTROL Measure]** tab becomes available only after the initialization queries triggered at project creation have completed. This can take up to 24 hours. If the tab is still not visible after 24 hours, verify that your [!DNL AMC] instance has campaigns that ran within the last three months, which is the default lookback window used during campaign discovery.
+The **[!UICONTROL Measure]** tab becomes available only after the background data setup queries triggered at project creation have completed. This can take up to 24 hours. If the tab is still not visible after 24 hours, verify that your [!DNL AMC] instance has campaigns that ran within the last three months, which is the default lookback window used during campaign discovery.
 
 **No campaigns appear in the [!UICONTROL Campaign ID] dropdown**
 
@@ -184,4 +184,4 @@ If the report run date is fewer than 30 days after the end of the date range, [!
 
 ## Next steps {#next-steps}
 
-Once you have reviewed your report, use the results to assess your campaign's delivery and, if you included attribution, its effectiveness in driving conversions. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide. For broader guidance on interpreting campaign performance metrics in Collaboration, refer to the [measure performance](../measure.md) guide.
+Once you have reviewed your report, use the insights to inform future campaign planning in Amazon Advertising — for example, by adjusting targeting, suppressing over-exposed audiences identified in the frequency distribution, or reallocating spend toward high-performing placements. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide. For broader guidance on interpreting campaign performance metrics in Collaboration, refer to the [measure performance](../measure.md) guide.
