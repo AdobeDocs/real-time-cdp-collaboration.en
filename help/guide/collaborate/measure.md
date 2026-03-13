@@ -113,7 +113,7 @@ To begin, navigate to the workspace of the measurement report you want to update
 
 >[!TIP]
 >
->In the **[!UICONTROL Measure]** tab, navigate to the report section you wish to edit and select the edit icon to update its settings.
+>In the **[!UICONTROL Measure]** tab, navigate to the report section you wish to edit. Select the edit icon (![Edit icon](/help/assets/icons/edit.png)) next to **[!UICONTROL View full report]** to update its settings.
 >![The Measure tab highlighting the Edit icon within a report section.](/help/assets/collaborate/measure/measure-tab-edit-report.png)
 
 The **[!UICONTROL Edit measurement report]** dialog appears with the current settings of the report in the following sections:
@@ -126,7 +126,7 @@ The **[!UICONTROL Edit measurement report]** dialog appears with the current set
 
 ### Edit campaign details {#edit-campaign-details}
 
-In the **[!UICONTROL Edit measurement report]** dialog, you can update the advertiser and campaign ID with the **[!UICONTROL Advertiser ID (Name)]** and the **[!UICONTROL Campaign ID]** dropdown menus respectively.
+In the **[!UICONTROL Edit measurement report]** dialog, use the **[!UICONTROL Advertiser ID (Name)]** and **[!UICONTROL Campaign ID]** dropdown menus to edit the advertiser and campaign ID for your report.
 
 ![The Edit measurement report dialog highlighting the Campaign ID dropdown menu open.](/help/assets/collaborate/measure/edit-campaign-id.png)
 
@@ -134,7 +134,7 @@ Next, select **[!UICONTROL Report date range]** and use the calendar to change t
 
 ![The Edit measurement report dialog highlighting the Report date range calendar open.](/help/assets/collaborate/measure/edit-report-date-range.png)
 
-Enter an updated friendly report name to capture your recent updates as needed. This helps you recognize and find this report in the future.
+Enter an updated friendly report name to capture your recent changes. This helps you recognize and find this report in the future.
 
 ![The Edit measurement report dialog highlighting the updated friendly report name.](/help/assets/collaborate/measure/edit-friendly-report-name.png)
 
@@ -146,7 +146,7 @@ To schedule the report for a different date, navigate to the **[!UICONTROL Repor
 
 As an advertiser, you have the option to select or remove the **[!UICONTROL Attribution]** report type in addition to **[!UICONTROL Campaign summary]**. If you choose **[!UICONTROL Attribution]**, your attribution report includes both standard Campaign Summary metrics and in-depth Attribution insights. For more information about the **Campaign summary** and **Attribution** report types, refer to the [create measurement report](#create-measurement-report) section.
 
->[!TIP]
+>[!IMPORTANT]
 >
 >If you are a **publisher**, the report type is **[!UICONTROL Campaign summary]** by default and cannot be changed at this time. Request your advertiser collaborator to update this setting as needed.
 
