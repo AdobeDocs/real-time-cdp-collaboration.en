@@ -11,9 +11,9 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 {{limited-availability-release-note}}
 
-The [!UICONTROL Measure] tab helps you evaluate how effectively your [!DNL Amazon Ads] reached your audience and whether impressions drove measurable customer actions. After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports for campaigns that have already run. Campaign and conversion event data is sourced automatically from your [!DNL AMC] instance, no additional data upload is required. Reports evaluate campaign reach, frequency, and conversion effectiveness once data is available.
+The [!UICONTROL Measure] tab helps you evaluate how effectively your [!DNL Amazon Ads] reached your audience and whether impressions drove measurable customer actions. After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports for campaigns that have already run. Campaign and conversion event data is sourced automatically from your [!DNL AMC] instance. No additional data upload is required. Reports evaluate campaign reach, frequency, and conversion effectiveness once data is available.
 
-The [!UICONTROL Measure] tab appears alongside the [[!UICONTROL Discover]** tab](../discover.md) in your AMC project.
+The [!UICONTROL Measure] tab appears alongside the [**[!UICONTROL Discover]** tab](../discover.md) in your [!DNL AMC] project.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ To create an [!DNL AMC] measurement report:
 2. Select the **[!UICONTROL Measure]** tab.
 3. Select the add icon (![Add icon.](/help/assets/icons/plus.png)) to open the options menu, and then select **[!UICONTROL Measure]**.
 
-![The Measure tab inside an AMC project, showing the Add icon and [!UICONTROL Measure] in the upper-right corner of the workspace.](../../../assets/collaborate/advertising-platforms/add-measure-draft.png){zoomable="yes"}
+![The Measure tab inside an [!DNL AMC] project, showing the Add icon and [!UICONTROL Measure] in the upper-right corner of the workspace.](../../../assets/collaborate/advertising-platforms/add-measure-draft.png){zoomable="yes"}
 
 The measurement report form appears.
 
@@ -44,7 +44,7 @@ Complete the measurement report form using the sections below.
 
 ### Campaign details {#campaign}
 
-The **[!UICONTROL Advertiser ID]** is the unique identifier for your [!DNL Amazon Advertising] account, sourced from your AMC connection settings. It is pre-populated from your project settings. If the value is incorrect, update it via your [project settings](../manage-projects.md). From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns meet the [prerequisites](#prerequisites) described above. If no campaigns appear, see [Troubleshooting](#troubleshooting).
+The **[!UICONTROL Advertiser ID]** is the unique identifier for your [!DNL Amazon Advertising] account, sourced from your [!DNL AMC] connection settings. It is pre-populated from your project settings. If the value is incorrect, update it via your [project settings](../manage-projects.md). From the **[!UICONTROL Campaign ID]** dropdown, select the campaign to include in the report. Available campaigns meet the [prerequisites](#prerequisites) described above. If no campaigns appear, see [Troubleshooting](#troubleshooting).
 
 #### Date range, run date, and report name {#dates}
 
@@ -86,7 +86,7 @@ A **[!UICONTROL Campaign summary]** is included in every report. In addition, se
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="Conversion events"
->abstract="Select up to three conversion events to include in the attribution report. Available events are discovered automatically from your AMC instance. If no events appear, your AMC instance may not have any recorded conversion events and Attribution will be unavailable."
+>abstract="Select up to three conversion events to include in the attribution report. Available events are discovered automatically from your [!DNL AMC] instance. If no events appear, your [!DNL AMC] instance may not have any recorded conversion events and Attribution will be unavailable."
 
 >[!NOTE]
 >
@@ -102,13 +102,13 @@ Once the form is complete, select **[!UICONTROL Create]**. You return to the **[
 
 ![The Measure tab showing a newly created measurement report card with a scheduled status indicator, the report name, run date, and report type visible.](../../../assets/collaborate/advertising-platforms/measurement-report-pending-draft.png){zoomable="yes"}
 
-The report does not execute until the run date. After the run date, [!DNL AMC] processes the queries on your behalf; results are available within 24 hours.
+The report runs on the scheduled run date. After that date, [!DNL AMC] processes the queries on your behalf. Results appear within 24 hours.
 
 ## View a report {#view-report}
 
 Once a report has run, navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]**, select your [!DNL AMC] project, and then select the **[!UICONTROL Measure]** tab. Locate your report and select **[!UICONTROL View full report]** to review the results.
 
-![The Measure tab in an AMC project showing a completed report card with its run date, report type, and the View full report button highlighted.](../../../assets/collaborate/advertising-platforms/view-full-report-draft.png){zoomable="yes"}
+![The Measure tab in an [!DNL AMC] project showing a completed report card with its run date, report type, and the View full report button highlighted.](../../../assets/collaborate/advertising-platforms/view-full-report-draft.png){zoomable="yes"}
 
 The sections available depend on the report type you selected.
 
@@ -137,14 +137,14 @@ If [!UICONTROL Attribution] was selected, the report also includes the following
 
 ![The Attribution visualizations showing Cumulative conversions and Conversions by day charts.](../../../assets/collaborate/advertising-platforms/attribution-report-conversion-widgets-draft.png){zoomable="yes"}
 
-## AMC constraints reference {#constraints}
+ ##[!DNL AMC] constraints reference {#constraints}
 
 The following constraints apply to all [!DNL AMC] measurement reports.
 
 | Constraint | Value |
 | --- | --- |
-| Date range minimum | 365 days in the past |
-| Date range maximum | 45 days after the current date. Use this to pre-configure a report for a campaign that is still running and will conclude within the next 45 days; the report executes automatically on its scheduled run date after the campaign ends. |
+| Earliest date range start date | 365 days before the current date |
+| Latest date range end date | 45 days after the current date. Use this to pre-configure a report for a campaign that is still running and will conclude within the next 45 days; the report executes automatically on its scheduled run date after the campaign ends. |
 | Maximum date range span | 90 days |
 | Lookback window | 30 days (fixed, not adjustable) |
 | Run date minimum | 1 day after the report end date |
@@ -181,4 +181,4 @@ If the report run date is fewer than 30 days after the end of the date range, [!
 
 ## Next steps {#next-steps}
 
-Once you have reviewed your report, use the insights to inform future campaign planning in Amazon Advertising, for example, by adjusting targeting, suppressing over-exposed audiences identified in the frequency distribution, or reallocating spend toward high-performing placements. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide.
+Once you have reviewed your report, use the insights to inform future campaign planning in [!DNL Amazon Advertising], for example, by adjusting targeting, suppressing over-exposed audiences identified in the frequency distribution, or reallocating spend toward high-performing placements. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [[!DNL Amazon Marketing Cloud]](./amc.md) guide.
