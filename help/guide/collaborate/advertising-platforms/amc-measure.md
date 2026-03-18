@@ -11,11 +11,11 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 {{limited-availability-release-note}}
 
-After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run. The **[!UICONTROL Measure]** tab is part of your AMC project alongside the [**[!UICONTROL Discover]** tab](../discover.md), and becomes available after the **[!UICONTROL Discover]** tab has finished processing your campaign data. Use these reports to evaluate how effectively your [!DNL Amazon Ads] reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your [!DNL Amazon Advertising] account) via background queries that run when the project is created.
+After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run. The **[!UICONTROL Measure]** tab is part of your AMC project alongside the [**[!UICONTROL Discover]** tab](../discover.md), and displays measurement reports that evaluate campaign reach, frequency, and conversion effectiveness once data is available. Use these reports to evaluate how effectively your [!DNL Amazon Ads] reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your [!DNL Amazon Advertising] account) via background queries that run when the project is created.
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Measure]** tab is only visible after the background data setup queries have completed, which can take up to 24 hours. If the tab is still not visible after 24 hours, refer to the [Troubleshooting](#troubleshooting) section.
+>The **[!UICONTROL Measure]** tab displays "No Measurement Data Available" until the background data setup queries are completed. This process can take up to 24 hours. If the 'No Measurement Data Available' message persists after 24 hours, refer to the [Troubleshooting](#troubleshooting) section.
 
 ## Prerequisites {#prerequisites}
 
@@ -66,7 +66,7 @@ Set the **[!UICONTROL Report run date]**. This is the date on which the report e
 
 >[!TIP]
 >
->For attribution reports, set the run date at least 30 days after the date range end. This ensures all conversions within the fixed 30-day lookback window have been captured before the report runs.
+>For attribution reports where the date range is within 30 days of the current date, set the run date 30 days in the future to ensure all conversions within the fixed 30-day lookback window have been captured before the report runs.
 
 Enter a **[!UICONTROL Report name]** to identify the report.
 
@@ -153,9 +153,9 @@ The following constraints apply to all [!DNL AMC] measurement reports.
 
 ## Troubleshooting {#troubleshooting}
 
-**The [!UICONTROL Measure] tab is not visible**
+**No Measurement Data Available**
 
-The **[!UICONTROL Measure]** tab becomes available only after the background data setup queries triggered at project creation have completed. This can take up to 24 hours. If the tab is still not visible after 24 hours, verify that your [!DNL AMC] instance has campaigns that ran within the last three months, which is the default lookback window used during campaign discovery. If eligible campaigns exist and the tab is still unavailable, check your campaign status in your [Amazon Ads account](https://advertising.amazon.com/sign-in){target="_blank"}.
+The **[!UICONTROL Measure]** tab may display "No Measurement Data Available" until the background data setup queries triggered at project creation have completed. This can take up to 24 hours. If the 'No Measurement Data Available' message persists after 24 hours, verify that your [!DNL AMC] instance has campaigns that ran within the last three months, as this is the default lookback window used during campaign discovery. If eligible campaigns exist and the message persists, check your campaign status in your [Amazon Ads account](https://advertising.amazon.com/sign-in){target="_blank"}.
 
 **No campaigns appear in the [!UICONTROL Campaign ID] dropdown**
 
