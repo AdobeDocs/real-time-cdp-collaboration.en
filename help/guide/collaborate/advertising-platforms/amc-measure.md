@@ -11,7 +11,9 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 {{limited-availability-release-note}}
 
-After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports covering campaigns that have already run. The **[!UICONTROL Measure]** tab is part of your AMC project alongside the [**[!UICONTROL Discover]** tab](../discover.md), and displays measurement reports that evaluate campaign reach, frequency, and conversion effectiveness once data is available. Use these reports to evaluate how effectively your [!DNL Amazon Ads] reached your audience and, if you track conversion events, whether those impressions drove measurable customer actions. No additional data upload is required; campaign and conversion event data is sourced automatically from your [!DNL AMC] instance (the [!DNL AMC] clean room environment linked to your [!DNL Amazon Advertising] account) via background queries that run when the project is created.
+The [!UICONTROL Measure] tab helps you evaluate how effectively your [!DNL Amazon Ads] reached your audience and whether impressions drove measurable customer actions. After creating a project with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), you can create measurement reports for campaigns that have already run. Campaign and conversion event data is sourced automatically from your [!DNL AMC] instance, no additional data upload is required. Reports evaluate campaign reach, frequency, and conversion effectiveness once data is available.
+
+The [!UICONTROL Measure] tab appears alongside the [[!UICONTROL Discover]** tab](../discover.md) in your AMC project.
 
 >[!IMPORTANT]
 >
@@ -179,4 +181,4 @@ If the report run date is fewer than 30 days after the end of the date range, [!
 
 ## Next steps {#next-steps}
 
-Once you have reviewed your report, use the insights to inform future campaign planning in Amazon Advertising — for example, by adjusting targeting, suppressing over-exposed audiences identified in the frequency distribution, or reallocating spend toward high-performing placements. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide.
+Once you have reviewed your report, use the insights to inform future campaign planning in Amazon Advertising, for example, by adjusting targeting, suppressing over-exposed audiences identified in the frequency distribution, or reallocating spend toward high-performing placements. To evaluate different campaigns or time periods, create additional reports within the same project. For an overview of all available [!DNL AMC] collaboration capabilities, refer to the [Amazon Marketing Cloud](./amc.md) guide.

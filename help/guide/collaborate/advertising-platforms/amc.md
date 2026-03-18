@@ -86,6 +86,6 @@ The **[!UICONTROL Discover overlaps with Amazon Marketing Cloud]** section provi
 
 ## Measure {#measure}
 
-The **[!UICONTROL Measure]** tab is available when your [!DNL AMC] instance contains campaign IDs. When you create a project, Real-Time CDP Collaboration runs background queries against your [!DNL AMC] data to populate both the [!UICONTROL Discover] section and the campaign and conversion event lists used to configure measurement reports. If the tab is not visible, no campaign data was found in your instance.
+The **[!UICONTROL Measure]** tab is available when your [!DNL AMC] instance contains campaign IDs. When you create a project, Real-Time CDP Collaboration runs background queries against your [!DNL AMC] data to populate both the [!UICONTROL Discover] section and the campaign and conversion event lists used to configure measurement reports.
 
 For step-by-step instructions on creating and interpreting [!DNL AMC] measurement reports, read the [create AMC measurement reports](./amc-measure.md) guide.
