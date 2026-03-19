@@ -148,7 +148,7 @@ As an advertiser, you have the option to select or remove the **[!UICONTROL Attr
 
 >[!IMPORTANT]
 >
->If you are a **publisher**, the report type is **[!UICONTROL Campaign summary]** by default and cannot be changed at this time. Request your advertiser collaborator to update this setting as needed.
+>If you are a **publisher**, the report type is **[!UICONTROL Campaign summary]** by default and cannot be changed at this time.
 
 * If you choose **[!UICONTROL Attribution]** as the report type, you must fill out the required fields in the **[!UICONTROL Attribution]** section. For setup instructions, see the [attribution report details](#report-details-attribution) section.
 * If you previously configured attribution settings when creating the report, you can choose to edit the lookback window (measured in days) and select which conversion events to report on.
