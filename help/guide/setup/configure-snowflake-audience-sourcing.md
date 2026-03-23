@@ -2,7 +2,7 @@
 title: Configure [!DNL Snowflake] for Audience Sourcing
 description: Learn how to configure and connect your [!DNL Snowflake Secure Data Share] as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-exl-id:
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 ---
 # Configure [!DNL Snowflake] for audience sourcing
 
@@ -129,3 +129,4 @@ For information about other audience sourcing methods, see the following documen
 * [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md)
 * [Source audiences from Experience Platform](./onboard-audiences.md)
 * [Upload CSV file for audience sourcing](./upload-csv-audience-sourcing.md)
+* [Configure [!DNL Google Cloud Storage] for audience sourcing]
