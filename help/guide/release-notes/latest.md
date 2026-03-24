@@ -9,9 +9,23 @@ exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 
 {{limited-availability-release-note}}
 
-**Last update**: January 2026.
+**Last update**: March 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## March 2026 {#march-2026}
+
+New features are now available to all users in Real-Time CDP Collaboration, including comprehensive measurement reporting, lifecycle management for measurement, and expanded options for self-service audience sourcing.
+
+**New or updated features**
+
+| Feature | Description |
+| ------- | ----------- |
+| Measurement general availability | Measurement reporting is now generally available in Collaboration. You can now enter campaign IDs associated to marketing campaigns as a publisher, source conversion data as an advertiser, and generate two types of reports: **Campaign Summary** for overall campaign results, and **Attribution** for campaign effectiveness insights. To get started, see the following guides: <ul><li>[Input campaign IDs](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[Source conversion data](../setup/onboard-measurement-data.md)</li><li>[Create and view measurement reports](../collaborate/measure.md)</li></ul> |
+| Measurement lifecycle management | Collaboration also supports proactive measurement management:<ul><li> Advertisers can now edit or delete both measurement data connections and associated conversion events to ensure accurate and up-to-date campaign analysis. For step-by-step guidance, see how to manage your [measurement data connection](../setup/manage-measurement-data-connection.md) and [conversion events](../setup/onboard-measurement-data.md).</li><li>You can also edit or delete scheduled measurement reports directly from the **[!UICONTROL Measure]** tab in any collaboration project. This functionality is available to all users, including advertisers and publishers. See the [manage measurement reports](../collaborate/measure.md) guide for more details.</li></ul> |
+| Self-service audience sourcing through [!DNL Snowflake] | You can now bring your first-party audiences directly into Collaboration from your [!DNL Snowflake] account. For detailed instructions, see how to [configure [!DNL Snowflake] for audience sourcing](../setup/configure-snowflake-audience-sourcing.md). |
+
+{style="table-layout:auto"}
 
 ## January 2026 {#january-2026}
 
