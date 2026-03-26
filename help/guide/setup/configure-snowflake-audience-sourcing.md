@@ -38,13 +38,13 @@ The Add audience workflow appears. Select **[!UICONTROL Add a new data connectio
 
 Select **[!UICONTROL Snowflake]** as a data connection, followed by **[!UICONTROL Next]**.  
 
-![The data connection selection screen with [!DNL Snowflake] available as a selectable option.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
+<!-- ![The data connection selection screen with [!DNL Snowflake] available as a selectable option.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png) -->
 
 ### Review audience file {#review-audience-file}
 
 A dialog appears, explaining the requirements of the [!DNL Snowflake Share] and the [!DNL Snowflake] audience file before you can start sourcing. Make sure your [!DNL Snowflake Share] is created with the correct share name, account identifier, schema, and view. To ensure your audience data is formatted and structured correctly for use in Collaboration, read **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** documentation.
 
-![The Prepare your [!DNL Snowflake Share] for onboarding dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
+<!-- ![The Prepare your [!DNL Snowflake Share] for onboarding dialog with a link to the Audience Sourcing Specifications.](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png) -->
  
 After reviewing the requirements, select **[!UICONTROL Start onboarding]**.
 
@@ -63,23 +63,23 @@ Provide the required [!DNL Snowflake Share] credentials to connect your [!DNL Sn
 
 Once finished, select **[!UICONTROL Next]**.
 
-![The [!DNL Snowflake Share] connection form with the Share name, Account identifier, Schema, and View fields filled out, and the Next button highlighted.](../../assets/setup/snowflake-audience-sourcing/snowflake-authentication-credentials-form.png)
+<!-- ![The [!DNL Snowflake Share] connection form with the Share name, Account identifier, Schema, and View fields filled out, and the Next button highlighted.](../../assets/setup/snowflake-audience-sourcing/snowflake-authentication-credentials-form.png) -->
 
 ### Provide name and description {#provide-name-description}
 
 Enter descriptive name and optional description for your [!DNL Snowflake] data connection, followed by **[!UICONTROL Next]**.
 
-![The Provide details screen displaying the entered name and description, with the Next button highlighted.](../../assets/setup/snowflake-audience-sourcing/provide-name-description.png)
+<!-- ![The Provide details screen displaying the entered name and description, with the Next button highlighted.](../../assets/setup/snowflake-audience-sourcing/provide-name-description.png) -->
 
 ### Map fields {#map-fields}
 
 The **[!UICONTROL Map fields]** screen displays the source identity fields auto-mapped to target fields based on the **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**. You can use the **[!UICONTROL Preview source data]** option to preview a sample data from your [!DNL Snowflake Share].
 
-![The [!DNL Snowflake Share] data preview dialog displaying the sample data from your [!DNL Snowflake Share].](../../assets/setup/snowflake-audience-sourcing/preview-source-data.png)
+<!-- ![The [!DNL Snowflake Share] data preview dialog displaying the sample data from your [!DNL Snowflake Share].](../../assets/setup/snowflake-audience-sourcing/preview-source-data.png) -->
 
 In the **[!UICONTROL Map fields]** screen, you can use the **[!UICONTROL Source field]** and **[!UICONTROL Target field]** dropdowns to update the auto-mapped fields, or include additional fields with the **[!UICONTROL Add field]** option. Once finished, select **[!UICONTROL Next]**.
 
-![The Map fields screen showing the mapped fields with the Next option highlighted.](../../assets/setup/snowflake-audience-sourcing/map-fields.png)
+<!-- ![The Map fields screen showing the mapped fields with the Next option highlighted.](../../assets/setup/snowflake-audience-sourcing/map-fields.png) -->
 
 ### Schedule refresh frequency and date range {#refresh-frequency-date-range}
 
@@ -89,7 +89,7 @@ The **[!UICONTROL Schedule]** view appears. Use the dropdown menu to select a re
 >
 >To manage your Collaboration credits effectively, set the refresh frequency to match or exceed the update frequency of your underlying [!DNL Snowflake] data. The minimum supported refresh interval is once every six days.
 
-![The Schedule screen with refresh frequency and date range configurations.](../../assets/setup/snowflake-audience-sourcing/refresh-frequency-date-range.png)
+<!-- ![The Schedule screen with refresh frequency and date range configurations.](../../assets/setup/snowflake-audience-sourcing/refresh-frequency-date-range.png) -->
 
 ### Review and complete the connection {#review-and-complete}
 
@@ -102,7 +102,7 @@ Finally, review your configuration settings in the summary screen. This view con
 
 Select the pencil icon (![Edit icon](/help/assets/icons/edit.png)) if you need to edit a section. Select **[!UICONTROL Complete]** to confirm all sections.
 
-![The Review screen showing data connection, details, mapping and schedule settings, with the Complete option highlighted.](../../assets/setup/snowflake-audience-sourcing/review-snowflake-connection-settings.png)
+<!-- ![The Review screen showing data connection, details, mapping and schedule settings, with the Complete option highlighted.](../../assets/setup/snowflake-audience-sourcing/review-snowflake-connection-settings.png) -->
 
 A confirmation dialog confirms that the data connection was created successfully and audience sourcing is in progress.
 
@@ -114,7 +114,7 @@ After the setup is complete, Collaboration begins sourcing audiences from your [
 >
 >Audience sourcing time varies based on the size of your [!DNL Snowflake] data and the refresh frequency you configured. Larger datasets or less frequent refresh schedules may take longer to appear in the **[!UICONTROL My audiences]** workspace.
 
-![The Audiences tab showing a list of sourced audiences in grid view.](../../assets/setup/snowflake-audience-sourcing/snowflake-audiences-list.png)
+<!-- ![The Audiences tab showing a list of sourced audiences in grid view.](../../assets/setup/snowflake-audience-sourcing/snowflake-audiences-list.png) -->
 
 When in grid view or table view, select a row item or **[!UICONTROL View audience]** to see an overview of a specific audience. It displays the audience's status, source, and data connection name, along with detailed panels **[!UICONTROL Identities]**, **[!UICONTROL Categories]**, **[!UICONTROL Connection access]**, and **[!UICONTROL Metadata visibility]**.
 
