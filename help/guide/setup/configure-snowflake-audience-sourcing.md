@@ -10,7 +10,7 @@ Learn how to configure and connect your [!DNL Snowflake Secure Data Share] in th
 
 ## Overview {#overview}
 
-[!DNL Snowflake] is one of the supported options for sourcing first-party audience data into Collaboration. Other available methods include sourcing audiences from [Experience Platform](./onboard-audiences.md), connecting an [AWS S3 bucket](./configure-aws-s3-audience-sourcing.md), or uploading a [CSV file](./upload-csv-audience-sourcing.md).
+[!DNL Snowflake] is one of the supported options for sourcing first-party audience data into Collaboration. Other available methods include sourcing audiences from [Experience Platform](./onboard-audiences.md), connecting an [[!DNL AWS S3] bucket](./configure-aws-s3-audience-sourcing.md), or uploading a [CSV file](./upload-csv-audience-sourcing.md).
 
 Follow the steps below to connect your [!DNL Snowflake Secure Data Share] and source your audience data into Collaboration. Once the setup is complete, you can review, activate, and manage your sourced audiences for your collaboration projects.
 
@@ -78,7 +78,7 @@ A confirmation dialog appears at the bottom of the next page, confirming your [!
 
 ### Provide name and description {#provide-name-description}
 
-In the **[!UICONTROL Provide details]** view, enter descriptive name and optional description for your [!DNL Snowflake] data connection, followed by **[!UICONTROL Next]**.
+In the **[!UICONTROL Provide details]** view, enter a descriptive name and optional description for your [!DNL Snowflake] data connection. When finished, select **[!UICONTROL Next]**.
 
 ![Provide details screen displays the data connection's name and description, with the Next button highlighted.](../../assets/setup/snowflake-audience-sourcing/provide-name-description.png)
 
@@ -156,6 +156,6 @@ You have now successfully configured and connected your [!DNL Snowflake] as a da
 
 For information about other audience sourcing methods, see the following documentations:
 
-* [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md)
+* [Configure [!DNL Amazon S3] for audience sourcing](./configure-aws-s3-audience-sourcing.md)
 * [Source audiences from Experience Platform](./onboard-audiences.md)
 * [Upload CSV file for audience sourcing](./upload-csv-audience-sourcing.md)
