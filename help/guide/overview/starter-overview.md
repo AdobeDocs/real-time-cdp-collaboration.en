@@ -34,7 +34,7 @@ To initiate the invitation, provide the following information to your licensed p
 * Admin name (if different from contact name)
 * Admin contact email (if different from contact email)
 
-After you receive and accept the invitation, your organization must review and sign a no-cost Sales Order with Adobe to access Collaboration Starter.
+After you receive and accept the invitation, your organization must review and sign a no-cost Sales Order with Adobe to access Collaboration Starter. For more details on the invitation process, see the [inviting a collaborator to Collaboration Starter](../connect/establishing-connections.md#invite-collaborator-to-starter) guide.
 
 ## Guardrails {#guardrails}
 
@@ -51,12 +51,13 @@ Read the following table to understand the key guardrails that apply to your Sta
 
 ## Getting started {#getting-started}
 
-Once you have accepted the invitation and agreed to the terms, log in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} with your credentials. Follow the steps below to complete your Starter account setup and begin collaborating with your partner.
+After you [accept your invitation and agree to the terms](../connect/establishing-connections.md#accept-invitation-sign-terms), log in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} with your credentials. Before you can use Collaboration, your account must be granted the appropriate access and roles.
+
+Use this workflow to set up your Starter account and begin collaborating with your partner.
 
 ### Set up administrator access {#setup-admin-access}
 
-To access Collaboration, you need administrator privileges. For step-by-step guidance on granting product administrator access to yourself, see the [admin access instructions](https://example.com).
-<!-- TODO: link to Admin Access doc -->
+First, use the **Admin Access** workspace to grant yourself the necessary access. This ensures you have both administrative rights and user access to Experience Platform products. For detailed steps on how to set up initial access, see the [admin access instructions](../setup/starter-admin-access.md).
 
 Once complete, you should see **[!UICONTROL Permissions]**, **[!UICONTROL Experience Platform]**, and **[!UICONTROL Real-Time CDP Collaboration]** within the **[!UICONTROL Quick access]** section on your [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} homepage.
 
@@ -66,17 +67,28 @@ For more details about access roles and different Adobe Experience Cloud product
 
 ### Configure permissions {#configure-permissions}
 
-As a product administrator, you need to assign the appropriate roles and permissions to yourself before you can access Collaboration or grant access to others. See [how to configure permissions](https://example.com) for detailed steps. To learn more about the different roles and permissions available in Collaboration, see the [manage roles](../permissions/manage-roles.md) documentation.
-<!-- TODO: link to Configure permissions doc -->
+Now that you have administrator privileges, you can assign roles and permissions to yourself and other users in your organization. This step is required before you can access Real-Time CDP Collaboration or allow others to use it. For detailed instructions, see [how to configure permissions](../setup/starter-permission-controls.md). For more information about the different roles and permissions available in Collaboration, see the [manage roles](../permissions/manage-roles.md) documentation.
 
-Before proceeding, ensure that you have access to Collaboration. Navigate to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}, and select **[!UICONTROL Real-Time CDP Collaboration]** within the **[!UICONTROL Quick access]** section. You should now be in the **[!UICONTROL Adobe Real-Time CDP Collaboration]** workspace.
+Once roles and permissions have been assigned, confirm that you can access Collaboration. Navigate to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}, and select **[!UICONTROL Real-Time CDP Collaboration]** within the **[!UICONTROL Quick access]** section. This opens the **[!UICONTROL Adobe Real-Time CDP Collaboration]** workspace, where you can begin using Collaboration features.
 
 ### Set up connections {#set-up-connections}
 
-Next, set up your Collaboration account, establish a connection with your partner, and bring in your audience data as needed. For detailed instructions on completing these tasks, see the [completing connection guide](https://example.com).
-<!-- TODO: link to Completing connection doc -->
+Next, follow steps in the following guides to set up connection and start collaborating with your partner:
+
+* [Set up your Collaboration account](../setup/onboard-account.md)
+* [Establish a connection with your inviting collaborator](../connect/overview.md)
+* [Create a new project and begin collaborating with your partner](../collaborate/overview.md)
 
 ### Understand credit usage {#understand-credit-usage}
 
-All Collaboration Starter activities use credits. However, as an invited user, you do not need to purchase or manage these credits. The partner who invited you covers all credit usage associated with your activities. To learn more, see the [Starter credit usage and consumption](https://example.com) documentation.
-<!-- TODO: link to Understanding credit usage and consumption doc -->
+All Collaboration Starter activities use credits. However, as an invited user, you do not need to purchase or manage these credits. The collaborator who invited you covers all credit usage associated with your activities. To learn more, see the [credit usage and consumption in Collaboration Starter](../setup/starter-credit-usage.md) documentation.
+
+## Next steps {#next-steps}
+
+You've now completed initial setup and configured your organization for secure collaboration. Next, explore the following resources to learn about audience sourcing and different project use cases  within Collaboration:
+
+* [Source and manage audiences](../setup/onboard-audiences.md)
+* [Project use cases](../collaborate/overview.md#project-use-cases):
+  * [Discover overlaps and compare audiences](../collaborate/discover.md)
+  * [Activate audiences](../collaborate/activate.md)
+  * [Measure campaign performance](../collaborate/measure.md) 
