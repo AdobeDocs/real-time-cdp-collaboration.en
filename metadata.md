@@ -2,9 +2,11 @@
 cloud: Experience Cloud
 solution: Real-Time Customer Data Platform
 product: experience cloud
+landing-page-name: experience-platform
+landing-page-breadcrumb-title: Experience Platform
 type: Documentation
 mini-toc-levels: 2
-index: y
+index: true
 git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.en
 ---
 
