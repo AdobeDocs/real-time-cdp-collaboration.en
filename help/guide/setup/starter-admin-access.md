@@ -3,8 +3,6 @@ title: Configure administrator access for Collaboration Starter onboarding
 description: Learn how to configure administrator access for Adobe Real-Time CDP Collaboration Starter using the Admin Console in Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: yes
-hide: yes
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 ---
 # Configure administrator access for Collaboration Starter onboarding
@@ -15,7 +13,7 @@ As the first user from your organization to access Adobe Experience Platform thr
 
 Before continuing, ensure that you have:
 
-* Accepted the invitation from your licensed Collaboration partner. For more information about the invitation requirements, see [Collaboration Starter overview](../overview/starter-overview.md#prerequisites).
+* Accepted the invitation from your licensed Collaboration partner. For more information about the invitation requirements, see the [Collaboration Starter overview](../overview/starter-overview.md#prerequisites).
 * Reviewed and signed the Collaboration terms and conditions.
 * Received your Adobe welcome email and completed your first-time account creation.
 
@@ -102,5 +100,4 @@ After you have user access, navigate back to [Adobe Experience Cloud](https://ex
 
 ## Next steps {#next-steps}
 
-You now have both **administrator access** and **user access** to enter Permissions where you can define roles, assign specific permissions, and manage user access for Collaboration features and resources. For step-by-step instructions, refer to the [Permission controls guide](https://example.com).
-<!-- TODO: link to Permission controls doc -->
+You now have both **administrator access** and **user access** to enter Permissions where you can define roles, assign specific permissions, and manage user access for Collaboration features and resources. For step-by-step instructions, refer to the [Permission controls guide](./starter-permission-controls.md).
