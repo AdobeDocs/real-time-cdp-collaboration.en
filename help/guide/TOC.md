@@ -29,6 +29,10 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
   * [Audit logs](./setup/audit-logs.md)
+  * Real-Time CDP Collaboration Starter setup {#starter-setup}
+    * [Configure admin access](./setup/starter-admin-access.md)
+    * [Configure permission controls](./setup/starter-permission-controls.md)
+    * [Credit usage and consumption](./setup/starter-credit-usage.md)
 * Establishing connections {#connect}
   * [Overview.md](./connect/overview.md)
   * [Discover collaborators](./connect/discover-collaborators.md)
