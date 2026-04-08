@@ -43,6 +43,10 @@ The following destinations are available for configuration in Collaboration. To 
 | Google Cloud Storage | Coming soon. |
 | Azure Blob Storage | Coming soon. |
 
+>[!NOTE]
+>
+>**Google Cloud Storage** in this table refers to **destinations** (where Collaboration sends audiences when you activate). That is separate from **sourcing** audiences **from** Google Cloud Storage in the **[!UICONTROL Setup]** workspace. To ingest audiences from a GCS bucket, see [Configure GCS for audience sourcing](../setup/configure-gcs-audience-sourcing.md).
+
 ## Next steps
 
 Once you've configured your destination, you can begin [activating targeted audiences](../collaborate/activate.md) within your projects.
