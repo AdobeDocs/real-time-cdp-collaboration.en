@@ -81,11 +81,11 @@ The Add audience workflow appears. Select **[!UICONTROL Add a new data connectio
 
 The data source selection screen lists all available connection types. Select **[!UICONTROL Google Cloud Storage]** [UNVERIFIED: confirm exact UI label] and then select **[!UICONTROL Next]**.
 
-<!-- [SCREENSHOT REQUIRED: Data source selection screen showing the Google Cloud Storage option highlighted and the Next button.] -->
+![The Add audience workflow showing the data source selection screen with Google Cloud Storage selected and Next highlighted.](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-### Review data preparation requirements {#review-data-requirements}
+A prerequisite dialog outlining required configuration steps (for example, GCS bucket setup and IAM role assignment) appears and notes that data must comply with the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**. Select [!UICONTROL Start onboarding] to confirm these conditions before proceeding with onboarding.
 
-A dialog appears summarizing the audience file format requirements for [!DNL Google Cloud Storage]. Confirm your files comply with the requirements in the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**, then select **[!UICONTROL Start onboarding]** [UNVERIFIED: confirm exact CTA label] to proceed.
+![The "Prepare your GCS bucket for onboarding" modal listing prerequisites, including creating a GCS bucket, configuring IAM access for Adobe, and complying with the Audience Sourcing Specification, with Cancel and "Start onboarding" options.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### Authenticate your [!DNL Google Cloud Storage] connection {#authenticate-gcs-connection}
 
@@ -99,9 +99,8 @@ Provide the [!DNL Google Cloud Storage] credentials required to connect your buc
 | --- | --- |
 | **GCS bucket name** | The name of your [!DNL Google Cloud Storage] bucket. See [Values required before you begin](#required-values). |
 | **Folder path** | The path prefix within the bucket where your audience files are stored. [UNVERIFIED: confirm path formatting rules.] |
-| **[UNVERIFIED: credential field]** | [UNVERIFIED: credential or identifier required for authentication. To be confirmed once authentication mechanism is finalized.] |
 
-<!-- [SCREENSHOT REQUIRED: GCS authentication credential form showing the bucket name, folder path, and credential fields.] -->
+<!-- [2. SCREENSHOT REQUIRED: GCS authentication credential form showing the bucket name, folder path, and credential fields.] gcs-authentication-form.png -->
 
 #### Authentication result states {#authentication-result-states}
 
@@ -141,7 +140,7 @@ The **[!UICONTROL Mapping]** screen is read-only. Collaboration automatically ma
 >
 >Whether a **[!UICONTROL Preview source data]** option is available at this step for GCS-sourced audiences is [UNVERIFIED] pending product confirmation. If the option is present, select it to review a sample of your audience data in tabular format, then select **[!UICONTROL Close]** to return to the mapping screen.
 
-<!-- [SCREENSHOT REQUIRED: Mapping screen showing auto-mapped GCS source fields to target identity fields, read-only state.] -->
+<!-- [3. SCREENSHOT REQUIRED: Mapping screen showing auto-mapped GCS source fields to target identity fields, read-only state.] gcs-mapping-auto-fields.png -->
 
 Confirm that the displayed mappings reflect the fields in your audience files. If they do not, stop and correct your files to conform to the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) before proceeding. Select **[!UICONTROL Next]** to continue.
 
@@ -155,7 +154,7 @@ Use the **[!UICONTROL Frequency]** dropdown to select a refresh interval. Use th
 >
 >Set the refresh frequency to match or not exceed the rate at which your underlying GCS audience data is updated. The minimum supported refresh interval is once every six days. Refreshing more frequently than your data changes consumes Collaboration credits without producing updated results. To monitor your credit usage, see [Track your credit consumption activity](./my-activity.md).
 
-<!-- [SCREENSHOT REQUIRED: Schedule screen showing the Frequency dropdown and Start date / End date calendar controls.] -->
+<!-- [4. SCREENSHOT REQUIRED: Schedule screen showing the Frequency dropdown and Start date / End date calendar controls.] gcs-schedule-settings.png -->
 
 Select **[!UICONTROL Next]** to continue.
 
@@ -168,7 +167,7 @@ Review the configuration summary before creating the connection. The summary scr
 * **[!UICONTROL Mapping]**: The auto-mapped source and target identity fields.
 * **[!UICONTROL Schedule]**: The refresh frequency and active date range.
 
-<!-- [SCREENSHOT REQUIRED: Review summary screen displaying the Data connection, Details, Mapping, and Schedule sections with the Complete button visible.] -->
+<!-- [5. SCREENSHOT REQUIRED: Review summary screen displaying the Data connection, Details, Mapping, and Schedule sections with the Complete button visible.] gcs-review-summary.png -->
 
 Select the pencil icon next to any section to return to that step and make changes. When all sections are correct, select **[!UICONTROL Complete]**.
 
