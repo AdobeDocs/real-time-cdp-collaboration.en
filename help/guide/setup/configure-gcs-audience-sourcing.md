@@ -100,7 +100,7 @@ Provide the [!DNL Google Cloud Storage] credentials required to connect your buc
 | **GCS bucket name** | The name of your [!DNL Google Cloud Storage] bucket. See [Values required before you begin](#required-values). |
 | **Folder path** | The path prefix within the bucket where your audience files are stored. [UNVERIFIED: confirm path formatting rules.] |
 
-<!-- [2. SCREENSHOT REQUIRED: GCS authentication credential form showing the bucket name, folder path, and credential fields.] gcs-authentication-form.png -->
+![The Add audience workflow showing the Google Cloud Storage authentication form with bucket name and folder path fields, and the Next button available.](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
 
 #### Authentication result states {#authentication-result-states}
 
