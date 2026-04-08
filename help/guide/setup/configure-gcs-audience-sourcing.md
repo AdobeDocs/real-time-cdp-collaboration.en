@@ -28,6 +28,8 @@ Some steps in this section require action by a [!DNL Google Cloud] administrator
 
 ### GCS access and permissions {#gcs-access-permissions}
 
+<!-- [LINK REQUIRED: Once the GCS permissions and roles guide is published, replace this NOTE with a direct link to that guide and remove the placeholder instructions below.] -->
+
 >[!NOTE]
 >
 >A dedicated guide covering the specific [!DNL Google Cloud] IAM roles, service account configuration, and bucket-level permissions required for this integration is pending publication. Until that guide is available, work with your [!DNL Google Cloud] administrator to confirm that Adobe has the permissions required to authenticate against your bucket and read audience files.
@@ -89,7 +91,7 @@ A dialog appears summarizing the audience file format requirements for [!DNL Goo
 
 >[!NOTE]
 >
->The specific authentication mechanism for [!DNL Google Cloud Storage] — including whether Collaboration uses a service account key file, OAuth 2.0, Workload Identity Federation, or another method — is [UNVERIFIED] pending product confirmation. Complete the access and permissions setup described in [GCS access and permissions](#gcs-access-permissions) before this step.
+>The specific authentication mechanism for [!DNL Google Cloud Storage] — including whether Collaboration uses a service account key file, OAuth 2.0, Workload Identity Federation, or another method — is [UNVERIFIED] pending product confirmation. For reference, the access and permissions requirements are described in [GCS access and permissions](#gcs-access-permissions).
 
 Provide the [!DNL Google Cloud Storage] credentials required to connect your bucket to Collaboration, then select **[!UICONTROL Next]**.
 
@@ -109,7 +111,7 @@ After entering your credentials and selecting **[!UICONTROL Next]**, Collaborati
 | --- | --- | --- |
 | **Success** | **[!UICONTROL Authentication successful]** [UNVERIFIED] | Your connection to [!DNL Google Cloud Storage] was established successfully. |
 | **Failed** | **[!UICONTROL Authentication failed]** [UNVERIFIED] | Collaboration could not authenticate with the provided credentials. Review your entries and try again. |
-| **Access denied** | **[!UICONTROL Access denied]** [UNVERIFIED] | The credentials provided do not have the required permissions to access this bucket. Verify the IAM permissions with your [!DNL Google Cloud] administrator. |
+| **Access denied** | **[!UICONTROL Access denied]** [UNVERIFIED] | The credentials provided do not have the required permissions to access this bucket. Verify the IAM permissions with your [!DNL Google Cloud] administrator and review [GCS access and permissions](#gcs-access-permissions). |
 | **Invalid file format** | **[!UICONTROL Invalid file format]** [UNVERIFIED] | Audience files at the specified path do not match the expected structure. Confirm your files comply with the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) before retrying. |
 | **No audience files found** | **[!UICONTROL No audience files found]** [UNVERIFIED] | No audience files were found at the specified folder path. Confirm the bucket name and path are correct and that files exist at that location. |
 | **Internal error** | **[!UICONTROL An internal error has occurred]** [UNVERIFIED] | An unexpected error occurred. Try again. If the issue persists, contact Adobe customer support. |
@@ -151,7 +153,7 @@ Use the **[!UICONTROL Frequency]** dropdown to select a refresh interval. Use th
 
 >[!IMPORTANT]
 >
->Set the refresh frequency to match or not exceed the rate at which your underlying GCS audience data is updated. The minimum supported refresh interval is once every six days. Refreshing more frequently than your data changes consumes Collaboration credits without producing updated results.
+>Set the refresh frequency to match or not exceed the rate at which your underlying GCS audience data is updated. The minimum supported refresh interval is once every six days. Refreshing more frequently than your data changes consumes Collaboration credits without producing updated results. To monitor your credit usage, see [Track your credit consumption activity](./my-activity.md).
 
 <!-- [SCREENSHOT REQUIRED: Schedule screen showing the Frequency dropdown and Start date / End date calendar controls.] -->
 
@@ -213,7 +215,7 @@ To review or manage the connection itself — including its match keys and sched
 
 Be aware of the following constraints when configuring and using [!DNL Google Cloud Storage] audience sourcing:
 
-* **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. You can add match keys to an existing connection, but you cannot disable or delete them. To change the active match keys, you must delete the data connection and create a new one.
+* **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. You can add match keys to an existing connection, but you cannot disable or delete them. To change the active match keys, you must [delete the data connection](./manage-data-connection.md#delete-data-connection) and create a new one.
 * **One active data connection per source:** Only one active [!DNL Google Cloud Storage] data connection is supported at a time. If you need to source audiences from a different bucket, delete the existing connection and create a new one pointing to the new bucket. [UNVERIFIED: confirm whether multiple GCS connections to different buckets are supported, or whether the constraint is strictly one connection per account.]
 * **Subfolder support:** [UNVERIFIED: confirm whether GCS, consistent with S3 behavior, restricts audience files to the root of the specified folder path without support for nested subfolder structures.]
 
@@ -236,7 +238,7 @@ Use this section to resolve issues that occur after the initial connection is es
 
 * Confirm that the GCS bucket permissions and credentials have not changed since the connection was created. Any change that removes Adobe's access to the bucket causes subsequent sourcing runs to fail.
 * Verify that audience files still exist at the configured folder path and conform to the Audience Sourcing Specification.
-* If the issue persists after confirming permissions and file availability, delete the connection and create a new one, or contact Adobe customer support.
+* If the issue persists after confirming permissions and file availability, [delete the connection](./manage-data-connection.md#delete-data-connection) and create a new one, or contact Adobe customer support.
 
 **Audience file format errors occur during a scheduled refresh** [UNVERIFIED]
 
@@ -252,7 +254,7 @@ From here, you can:
 * [Create and manage collaboration projects](../collaborate/manage-projects.md)
 * [Activate audiences within a project](../collaborate/activate.md)
 * [Review overlaps and measure performance](../collaborate/measure.md)
-* [Manage audience settings and visibility](./onboard-audiences.md)
+* [Manage audience settings and visibility](./onboard-audiences.md#view-individual-audiences)
 * [Manage this data connection's match keys and schedule](./manage-data-connection.md)
 
 For other audience sourcing methods, see:
