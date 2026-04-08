@@ -50,6 +50,12 @@ Next, select **[!UICONTROL Snowflake]** as a data connection, followed by **[!UI
 
 ### Review audience file {#review-audience-file}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="Prepare your data for onboarding"
+>abstract="Read the Audience Sourcing Specification guide to learn how to format and structure audience data from Snowflake for Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="See the guide"
+
 A dialog appears, explaining the requirements of the [!DNL Snowflake Share] and the [!DNL Snowflake] audience file before you can start sourcing. Make sure your [!DNL Snowflake Share] is created with the correct share name, account identifier, schema, and view. To confirm that your audience data is formatted and structured correctly for use in Collaboration, review the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** guide.
 
 Once finished, select **[!UICONTROL Start onboarding]**.
