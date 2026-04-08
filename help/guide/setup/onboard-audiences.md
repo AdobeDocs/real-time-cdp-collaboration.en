@@ -32,12 +32,6 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Data usage labels overview"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Data usage labels glossary"
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
->title="Prepare your data for onboarding"
->abstract="Read the Audience Sourcing Specification guide to learn how to format and structure audience data from Snowflake for Collaboration."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="See the guide"
-
 >[!IMPORTANT]
 >
 >After establishing to your first data connection and sourcing your first audience, you can then source multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
