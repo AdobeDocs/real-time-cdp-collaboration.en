@@ -35,7 +35,6 @@ Some steps in this section require action by a [!DNL Google Cloud] administrator
 Before proceeding, confirm the following with your [!DNL Google Cloud] administrator:
 
 * Adobe has been granted the permissions required to authenticate against your GCS bucket and read audience files. [UNVERIFIED: specific IAM roles and service account or credential requirements to be confirmed in the dedicated GCS permissions guide.]
-* Your GCS bucket is accessible from the region where your Collaboration instance is provisioned. [UNVERIFIED: regional availability for GCS audience sourcing — NA, EMEA, and ANZ status to be confirmed with product.]
 * [!DNL Google Cloud Storage] audience sourcing is available in your region. Availability varies by region (NA, EMEA, ANZ). If GCS sourcing is not yet available in your region, contact your Adobe account representative to confirm a timeline. [UNVERIFIED: confirm supported regions before publication.]
 
 ### Prepare your audience data {#prepare-audience-data}
@@ -80,11 +79,11 @@ The Add audience workflow appears. Select **[!UICONTROL Add a new data connectio
 
 The data source selection screen lists all available connection types. Select **[!UICONTROL Google Cloud Storage]** [UNVERIFIED: confirm exact UI label] and then select **[!UICONTROL Next]**.
 
+<!-- [SCREENSHOT REQUIRED: Data source selection screen showing the Google Cloud Storage option highlighted and the Next button.] -->
+
 ### Review data preparation requirements {#review-data-requirements}
 
-A dialog appears summarizing the audience file format requirements for [!DNL Google Cloud Storage]. Use the link to the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** to review the full schema requirements.
-
-Confirm that your files meet all requirements described in [Prepare your audience data](#prepare-audience-data) before continuing. Select **[!UICONTROL Start onboarding]** [UNVERIFIED: confirm exact CTA label] to proceed.
+A dialog appears summarizing the audience file format requirements for [!DNL Google Cloud Storage]. Confirm your files comply with the requirements in the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**, then select **[!UICONTROL Start onboarding]** [UNVERIFIED: confirm exact CTA label] to proceed.
 
 ### Authenticate your [!DNL Google Cloud Storage] connection {#authenticate-gcs-connection}
 
@@ -96,9 +95,11 @@ Provide the [!DNL Google Cloud Storage] credentials required to connect your buc
 
 | Field | Description |
 | --- | --- |
-| **GCS bucket name** | The name of your [!DNL Google Cloud Storage] bucket. |
+| **GCS bucket name** | The name of your [!DNL Google Cloud Storage] bucket. See [Values required before you begin](#required-values). |
 | **Folder path** | The path prefix within the bucket where your audience files are stored. [UNVERIFIED: confirm path formatting rules.] |
 | **[UNVERIFIED: credential field]** | [UNVERIFIED: credential or identifier required for authentication. To be confirmed once authentication mechanism is finalized.] |
+
+<!-- [SCREENSHOT REQUIRED: GCS authentication credential form showing the bucket name, folder path, and credential fields.] -->
 
 #### Authentication result states {#authentication-result-states}
 
@@ -138,7 +139,9 @@ The **[!UICONTROL Mapping]** screen is read-only. Collaboration automatically ma
 >
 >Whether a **[!UICONTROL Preview source data]** option is available at this step for GCS-sourced audiences is [UNVERIFIED] pending product confirmation. If the option is present, select it to review a sample of your audience data in tabular format, then select **[!UICONTROL Close]** to return to the mapping screen.
 
-If the displayed mappings do not reflect the fields in your audience files, stop and correct your files to conform to the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) before proceeding. Confirm that the displayed mappings reflect the fields in your audience files, then select **[!UICONTROL Next]**.
+<!-- [SCREENSHOT REQUIRED: Mapping screen showing auto-mapped GCS source fields to target identity fields, read-only state.] -->
+
+Confirm that the displayed mappings reflect the fields in your audience files. If they do not, stop and correct your files to conform to the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) before proceeding. Select **[!UICONTROL Next]** to continue.
 
 ### Schedule data refresh {#schedule-data-refresh}
 
@@ -150,6 +153,8 @@ Use the **[!UICONTROL Frequency]** dropdown to select a refresh interval. Use th
 >
 >Set the refresh frequency to match or not exceed the rate at which your underlying GCS audience data is updated. The minimum supported refresh interval is once every six days. Refreshing more frequently than your data changes consumes Collaboration credits without producing updated results.
 
+<!-- [SCREENSHOT REQUIRED: Schedule screen showing the Frequency dropdown and Start date / End date calendar controls.] -->
+
 Select **[!UICONTROL Next]** to continue.
 
 ### Review and complete the connection {#review-and-complete}
@@ -160,6 +165,8 @@ Review the configuration summary before creating the connection. The summary scr
 * **[!UICONTROL Details]**: The name and optional description of this data connection.
 * **[!UICONTROL Mapping]**: The auto-mapped source and target identity fields.
 * **[!UICONTROL Schedule]**: The refresh frequency and active date range.
+
+<!-- [SCREENSHOT REQUIRED: Review summary screen displaying the Data connection, Details, Mapping, and Schedule sections with the Complete button visible.] -->
 
 Select the pencil icon next to any section to return to that step and make changes. When all sections are correct, select **[!UICONTROL Complete]**.
 
@@ -196,7 +203,7 @@ Review these settings before using the audience in a collaboration project. To u
 
 ### View your GCS data connection {#view-gcs-connection}
 
-Your new GCS connection is immediately available in **[!UICONTROL Setup]** > **[!UICONTROL My data connections]**. The audience source is displayed as **[!UICONTROL Google Cloud Storage]** [UNVERIFIED: confirm exact source label in UI].
+To review or manage the connection itself — including its match keys and scheduling — navigate to **[!UICONTROL Setup]** > **[!UICONTROL My data connections]**. Your new GCS connection is immediately available there. The audience source is displayed as **[!UICONTROL Google Cloud Storage]** [UNVERIFIED: confirm exact source label in UI].
 
 >[!NOTE]
 >
@@ -218,16 +225,12 @@ Use this section to resolve issues that occur after the initial connection is es
 >
 >[!DNL Google Cloud Storage]-specific error messages and post-setup failure behavior are [UNVERIFIED] pending product confirmation. The entries below are generalized from the [!DNL Amazon S3] connector and will be updated with GCS-confirmed details before publication.
 
-**Audiences are not appearing after setup completes**
+**Audiences are not appearing or sourcing is taking longer than expected**
 
-* If audiences have not appeared within 24 hours of completing setup, investigate using the steps below. [UNVERIFIED: confirm the expected maximum sourcing time for GCS connections.]
-* Confirm that your audience files exist at the folder path specified during setup and comply with the Audience Sourcing Specification.
+* Sourcing time scales with data volume and the configured refresh frequency. Extended processing time is expected for large datasets. [UNVERIFIED: confirm the expected maximum sourcing time for GCS connections.]
+* If audiences have not appeared within 24 hours, confirm that your audience files exist at the folder path specified during setup and comply with the Audience Sourcing Specification.
 * Check the **[!UICONTROL My data connections]** tab for error indicators on the connection. [UNVERIFIED: confirm what connection-level error states are surfaced in the UI for GCS.]
-
-**Audience sourcing is taking longer than expected**
-
-* Sourcing time scales with data volume and the configured refresh frequency. Extended processing time is expected for large datasets.
-* If audiences have not appeared within 24 hours, contact Adobe customer support and provide the data connection name and bucket details. [UNVERIFIED: confirm the expected maximum sourcing time for GCS connections.]
+* If the issue persists after completing these steps, contact Adobe customer support and provide the data connection name and bucket details.
 
 **The data connection shows a failed status after initially succeeding** [UNVERIFIED]
 
