@@ -233,3 +233,81 @@ Finally, review your settings and select **[!UICONTROL Create]** to schedule the
 Once available, you can view your report at any time in the **[!UICONTROL Measure]** tab within your project workspace.
 
 ![The Create measurement report screen showing the information and the Create option highlighted.](/help/assets/collaborate/measure/attribution-review.png)
+
+## Edit measurement report {#edit-measurement-report}
+
+>[!IMPORTANT]
+>
+>You can edit the settings of a measurement report only if it is scheduled to run in the future. For reports that have already been executed, settings cannot be changed.
+
+Update a measurement report settings to ensure the report provides the correct analysis of your campaign within a specific period and runs on a desired date.
+
+To begin, navigate to the workspace of the measurement report you want to update. Select the edit icon (![Edit icon](/help/assets/icons/edit.png)) next to the delete icon.
+
+![The measurement report workspace with the Edit icon highlighted.](/help/assets/collaborate/measure/edit-report.png)
+
+>[!TIP]
+>
+>In the **[!UICONTROL Measure]** tab, navigate to the report section you wish to edit. Select the edit icon (![Edit icon](/help/assets/icons/edit.png)) next to **[!UICONTROL View full report]** to update its settings.
+>![The Measure tab highlighting the Edit icon within a report section.](/help/assets/collaborate/measure/measure-tab-edit-report.png)
+
+The **[!UICONTROL Edit measurement report]** dialog appears with the current settings of the report in the following sections:
+
+* [**Billing details**](#billing-details): Displays information about credits when running measurement reports. No configuration is required.
+* [**Campaign details**](#campaign-details): Displays settings for the advertiser, campaign ID, reporting period, and a user-friendly report name.
+* [**Report details**](#report-details): Displays settings for the report type, report run date, and configuration options specifically for attribution reports.
+
+![The Edit measurement report dialog showing the current settings under Billing details, Campaign details, and Report details sections.](/help/assets/collaborate/measure/edit-measurement-report-dialog.png)
+
+### Edit campaign details {#edit-campaign-details}
+
+In the **[!UICONTROL Edit measurement report]** dialog, use the **[!UICONTROL Advertiser ID (Name)]** and **[!UICONTROL Campaign ID]** dropdown menus to edit the advertiser and campaign ID for your report.
+
+![The Edit measurement report dialog highlighting the Campaign ID dropdown menu open.](/help/assets/collaborate/measure/edit-campaign-id.png)
+
+Next, select **[!UICONTROL Report date range]** and use the calendar to change the start and end dates of the report.
+
+![The Edit measurement report dialog highlighting the Report date range calendar open.](/help/assets/collaborate/measure/edit-report-date-range.png)
+
+Enter an updated friendly report name to capture your recent changes. This helps you recognize and find this report in the future.
+
+![The Edit measurement report dialog highlighting the updated friendly report name.](/help/assets/collaborate/measure/edit-friendly-report-name.png)
+
+### Edit report details {#edit-report-details}
+
+To schedule the report for a different date, navigate to the **[!UICONTROL Report details]** section. Select the current run date option, then use the calendar to choose your preferred date.
+
+![The Edit measurement report dialog highlighting the Report run date calendar.](/help/assets/collaborate/measure/edit-report-run-date.png)
+
+As an advertiser, you have the option to select or remove the **[!UICONTROL Attribution]** report type in addition to **[!UICONTROL Campaign summary]**. If you choose **[!UICONTROL Attribution]**, your attribution report includes both standard Campaign Summary metrics and in-depth Attribution insights. For more information about the **Campaign summary** and **Attribution** report types, refer to the [create measurement report](#create-measurement-report) section.
+
+>[!IMPORTANT]
+>
+>If you are a **publisher**, the default report type is **[!UICONTROL Campaign summary]** and cannot be changed at this time.
+
+* If you choose **[!UICONTROL Attribution]** as the report type, you must fill out the required fields in the **[!UICONTROL Attribution]** section. For setup instructions, see the [attribution report details](#report-details-attribution) section.
+* If you previously configured attribution settings when creating the report, you can choose to edit the lookback window (measured in days) and select which conversion events to report on.
+
+To update **[!UICONTROL Lookback window in days]**, enter a numeric value, or adjust it with the increment/decrement options. Next, select the conversion events you want to report on. You can choose up to **3** conversions from the available list.
+
+![The Edit measurement report dialog highlighting the updated conversion events.](/help/assets/collaborate/measure/edit-conversion-events.png)
+
+Once finished, review the updates and select **[!UICONTROL Edit]** to apply your changes.
+
+![The Edit measurement report dialog with the Edit option highlighted.](/help/assets/collaborate/measure/edit-report-confirm.png)
+
+A confirmation dialog confirms that your report has been successfully saved.
+
+## Delete measurement report {#delete-measurement-report}
+
+Deleting a measurement report in Collaboration permanently removes it from the system. This action cannot be undone. To do this, select the report you wish to delete in the **[!UICONTROL Measure]** tab.
+
+In the measurement report workspace, select the delete icon (![Delete icon](/help/assets/common/delete.svg)).
+
+![The measurement report workspace with the Delete icon highlighted.](/help/assets/collaborate/measure/delete-report.png)
+
+The **[!UICONTROL Delete report]** dialog appears, prompting you to confirm the deletion. Select **[!UICONTROL Delete]**.
+
+![The Delete report dialog with the Delete option highlighted.](/help/assets/collaborate/measure/delete-report-confirm.png)
+
+A confirmation dialog confirms the report was successfully deleted.
