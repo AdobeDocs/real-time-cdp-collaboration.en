@@ -22,6 +22,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Configure AWS permissions for audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
     * [Configure Amazon S3 for audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
     * [Upload CSV file for audience sourcing](./setup/upload-csv-audience-sourcing.md)
+    * [Configure Snowflake for audience sourcing](./setup/configure-snowflake-audience-sourcing.md)
   * [Manage data connections](./setup/manage-data-connection.md)
   * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
@@ -29,6 +30,10 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
   * [Manage measurement data connection](./setup/manage-measurement-data-connection.md)
   * [Audit logs](./setup/audit-logs.md)
+  * Real-Time CDP Collaboration Starter setup {#starter-setup}
+    * [Configure admin access](./setup/starter-admin-access.md)
+    * [Configure permission controls](./setup/starter-permission-controls.md)
+    * [Credit usage and consumption](./setup/starter-credit-usage.md)
 * Establishing connections {#connect}
   * [Overview.md](./connect/overview.md)
   * [Discover collaborators](./connect/discover-collaborators.md)
