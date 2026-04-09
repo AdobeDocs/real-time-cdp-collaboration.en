@@ -201,7 +201,7 @@ Be aware of the following constraints when configuring and using [!DNL Google Cl
 
 * **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. You can add match keys to an existing connection, but you cannot disable or delete them. To change the active match keys, you must [delete the data connection](./manage-data-connection.md#delete-data-connection) and create a new one.
 * **One active data connection per source:** Only one active [!DNL Google Cloud Storage] data connection is supported at a time. If you need to source audiences from a different bucket, [delete the existing connection](./manage-data-connection.md#delete-data-connection) and create a new one pointing to the new bucket.
-* **Subfolder support:** Audience files must be located directly within the specified folder path. Collaboration does not traverse subfolders within that path. [UNVERIFIED]
+* **Subfolder support:** Audience files must be located directly within the specified folder path. Collaboration does not traverse subfolders within that path.
 
 ## Troubleshooting {#troubleshooting}
 
