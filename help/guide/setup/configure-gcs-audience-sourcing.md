@@ -9,7 +9,7 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 Follow the steps in this guide to connect your [!DNL Google Cloud Storage] (GCS) bucket to Adobe Real-Time CDP Collaboration and begin sourcing first-party audience data through the UI.
 
-Connect a GCS bucket to Collaboration to ingest first-party audience data directly without engineering support. Once connected, Collaboration sources audiences from your bucket on a recurring schedule and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before they can be activated or used in overlap analysis with collaborators.
+Connect a GCS bucket to Collaboration to ingest first-party audience data directly without engineering support. Once connected, Collaboration sources audiences from your bucket on a recurring schedule and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before you can activate them or use them in overlap analysis with collaborators.
 
 This guide covers the end-to-end configuration workflow: preparing prerequisites, authenticating your GCS bucket, reviewing auto-mapped identity fields, scheduling data refresh, and confirming that sourcing completed successfully.
 
@@ -59,7 +59,7 @@ Have the following values ready before starting the configuration wizard.
 
 ## Configure your [!DNL Google Cloud Storage] connection {#configure-gcs-connection}
 
-The configuration workflow is a multi-step wizard inside the **[!UICONTROL Setup]** workspace. Complete each step in sequence. You can return to any step using the pencil icon on the final review screen before the connection is created.
+The configuration workflow is a multi-step wizard inside the **[!UICONTROL Setup]** workspace. Complete each step in sequence. You can return to any step using the pencil icon on the final review screen before you create the connection.
 
 ### Add a new data connection {#add-data-connection}
 
@@ -152,7 +152,7 @@ Review the configuration summary before creating the connection. The summary scr
 
 Select the pencil icon (![A pencil icon.](../../assets/icons/edit.png)) next to any section to return to that step and make changes. When all sections are correct, select **[!UICONTROL Complete]**.
 
-A confirmation dialog appears, indicating that the data connection was created and that audience sourcing is in progress.
+A confirmation dialog appears, indicating that Collaboration created the data connection and that audience sourcing is in progress.
 
 ## Review sourced audiences {#review-sourced-audiences}
 
@@ -205,18 +205,18 @@ Be aware of the following constraints when configuring and using [!DNL Google Cl
 
 ## Troubleshooting {#troubleshooting}
 
-Use this section to resolve issues that occur after the initial connection is established. For errors that occur during authentication, review your credentials and bucket permissions, or contact your administrator.
+Use this section to resolve issues that occur after you establish the initial connection. For errors that occur during authentication, review your credentials and bucket permissions, or contact your administrator.
 
 **Audiences are not appearing or sourcing is taking longer than expected**
 
 * Sourcing time scales with data volume and the configured refresh frequency. Extended processing time is expected for large datasets.
-* If audiences have not appeared within 24 hours, confirm that your audience files exist at the folder path specified during setup and comply with the Audience Sourcing Specification.
+* If audiences have not appeared within 24 hours, confirm that your audience files exist at the folder path you specified during setup and comply with the Audience Sourcing Specification.
 * Check the **[!UICONTROL My data connections]** tab for error indicators on the connection.
 * If the issue persists after completing these steps, contact Adobe customer support and provide the data connection name and bucket details.
 
 **The data connection shows a failed status after initially succeeding**
 
-* Confirm that the GCS bucket permissions and credentials have not changed since the connection was created. Any change that removes Adobe's access to the bucket causes subsequent sourcing runs to fail.
+* Confirm that the GCS bucket permissions and credentials have not changed since you created the connection. Any change that removes Adobe's access to the bucket causes subsequent sourcing runs to fail.
 * Verify that audience files still exist at the configured folder path and conform to the Audience Sourcing Specification.
 * If the issue persists after confirming permissions and file availability, [delete the connection](./manage-data-connection.md#delete-data-connection) and create a new one, or contact Adobe customer support.
 
