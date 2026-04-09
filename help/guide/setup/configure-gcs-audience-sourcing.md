@@ -3,16 +3,13 @@ title: Configure [!DNL Google Cloud Storage] for Audience Sourcing
 description: Learn how to connect a [!DNL Google Cloud Storage] bucket as a self-service audience source in Real-Time CDP Collaboration, including prerequisites, authentication, field mapping, scheduling, and validation.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-exl-id: 8f4e2b91-6c3d-4a1f-9e82-7b5d4c3a2f10
 ---
 
 # Configure [!DNL Google Cloud Storage] for audience sourcing
 
 Follow the steps in this guide to connect your [!DNL Google Cloud Storage] (GCS) bucket to Adobe Real-Time CDP Collaboration and begin sourcing first-party audience data through the UI.
 
-## Overview {#overview}
-
-[!DNL Google Cloud Storage] audience sourcing lets you connect a GCS bucket directly to Collaboration and ingest first-party audience data without engineering support. Once connected, Collaboration sources audiences from your bucket on a recurring schedule and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before they can be activated or used in overlap analysis with collaborators.
+Connect a GCS bucket to Collaboration to ingest first-party audience data directly without engineering support. Once connected, Collaboration sources audiences from your bucket on a recurring schedule and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before they can be activated or used in overlap analysis with collaborators.
 
 This guide covers the end-to-end configuration workflow: preparing prerequisites, authenticating your GCS bucket, reviewing auto-mapped identity fields, scheduling data refresh, and confirming that sourcing completed successfully.
 
@@ -24,7 +21,7 @@ Other available sourcing methods include [Experience Platform](./onboard-audienc
 
 Complete all items in this section before starting the configuration workflow. Incomplete prerequisites are the most common reason setup fails or audiences do not appear after sourcing. Before following this guide, you must have completed [account onboarding and setup](./onboard-account.md).
 
-Some steps in this section require action by a [!DNL Google Cloud] administrator. If you are not the GCP administrator for your organization, identify the appropriate person before starting.
+Some steps in this section require action by a [!DNL Google Cloud] administrator. If you are not the [!DNL Google Cloud] administrator for your organization, identify the appropriate person before starting.
 
 ### GCS access and permissions {#gcs-access-permissions}
 
@@ -57,8 +54,8 @@ Have the following values ready before starting the configuration wizard.
 
 | Value | Description |
 | --- | --- |
-| **GCS bucket name** | The name of the [!DNL Google Cloud Storage] bucket containing your audience files. |
-| **Folder path** | The path prefix within the bucket where your audience files are stored (for example, `sourcing/testdata/path1/`). |
+| **[!UICONTROL Bucket]** | The name of the [!DNL Google Cloud Storage] bucket containing your audience files. |
+| **[!UICONTROL Path]** | The path prefix within the bucket where your audience files are stored (for example, `sourcing/testdata/path1/`). |
 
 ## Configure your [!DNL Google Cloud Storage] connection {#configure-gcs-connection}
 
@@ -82,18 +79,18 @@ The data source selection screen lists all available connection types. Select **
 
 ![The Add audience workflow showing the data source selection screen with Google Cloud Storage selected and Next highlighted.](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-A prerequisite dialog outlining required configuration steps (for example, GCS bucket setup and IAM role assignment) appears and notes that data must comply with the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**. Select [!UICONTROL Start onboarding] to confirm these conditions before proceeding with onboarding.
+A prerequisite dialog outlining required configuration steps (for example, GCS bucket setup and IAM role assignment) appears and notes that data must comply with the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**. Select **[!UICONTROL Start onboarding]** to confirm compliance before proceeding.
 
 ![The "Prepare your GCS bucket for onboarding" modal listing prerequisites, including creating a GCS bucket, configuring IAM access for Adobe, and complying with the Audience Sourcing Specification, with Cancel and "Start onboarding" options.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
-### Authenticate your [!DNL Google Cloud Storage] connection {#authenticate-gcs-connection}
+### Enter your Google Cloud Storage connection details {#authenticate-gcs-connection}
 
-Provide the credentials required to allow Collaboration to access your [!DNL Google Cloud Storage] bucket, including the bucket name and folder path where your audience files are stored. The exact authentication details depend on your organization's [!DNL Google Cloud] configuration. After entering the required information, select **[!UICONTROL Next]**.
+Provide the details required to allow Collaboration to access your [!DNL Google Cloud Storage] bucket. After entering the required information, select **[!UICONTROL Next]**.
 
 | Field | Description |
 | --- | --- |
-| **GCS bucket name** | The name of your [!DNL Google Cloud Storage] bucket. See [Values required before you begin](#required-values). |
-| **Folder path** | The path prefix within the bucket where your audience files are stored. |
+| **[!UICONTROL Bucket]** | The name of your [!DNL Google Cloud Storage] bucket. See [Values required before you begin](#required-values). |
+| **[!UICONTROL Path]** | The path prefix within the bucket where your audience files are stored. |
 
 ![The Add audience workflow showing the Google Cloud Storage authentication form with bucket name and folder path fields, and the Next button available.](../../assets/setup/gcs-audience-sourcing/gcs-data-connection-authentication.png)
 
@@ -116,11 +113,11 @@ Select **[!UICONTROL Next]** to continue.
 
 The **[!UICONTROL Mapping]** screen is read-only. Collaboration automatically maps source identity fields from your audience files to target fields based on the column names defined in the Audience Sourcing Specification. You cannot add, remove, or apply transformations to mapped fields at this stage.
 
->[!NOTE]
+>[!TIP]
 >
 >Select **[!UICONTROL Preview source data]** to review a sample of your audience data in tabular format, then select **[!UICONTROL Close]** to return to the mapping screen.
->
->![The "GCS data preview" dialog showing a sample table of audience data with columns such as AUDIENCE_ID and HASHED_EMAIL_SHA_256, and a Close button in the bottom-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
+
+![The "GCS data preview" dialog showing a sample table of audience data with columns such as AUDIENCE_ID and HASHED_EMAIL_SHA_256, and a Close button in the bottom-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
 Confirm that the displayed mappings reflect the fields in your audience files. If they do not, stop and correct your files to conform to the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) before proceeding. Select **[!UICONTROL Next]** to continue.
 
@@ -130,7 +127,7 @@ Confirm that the displayed mappings reflect the fields in your audience files. I
 
 In the **[!UICONTROL Schedule]** view, set the frequency at which Collaboration retrieves updated audience data from your GCS bucket and define the active date range for sourcing.
 
-Use the **[!UICONTROL Frequency]** dropdown to select a refresh interval. Selectable refresh intervals ranging from Daily to Every 6 days, allowing you to control how often audience data is ingested from your data source.
+Use the **[!UICONTROL Frequency]** dropdown to select how often Collaboration retrieves updated audience data from your GCS bucket. Available intervals range from **[!UICONTROL Daily]** to **[!UICONTROL Every 6 days]**.
  
 Type a date range in the input field, or select the calendar icon to set the **[!UICONTROL Start date]** and **[!UICONTROL End date]** for the active sourcing period. When the end date is reached, sourcing ceases and previously sourced audiences expire and become unavailable for use in collaboration projects. 
 
@@ -139,7 +136,6 @@ Type a date range in the input field, or select the calendar icon to set the **[
 >Set the refresh frequency to match or not exceed the rate at which your underlying GCS audience data is updated. The minimum supported refresh interval is once every six days. Refreshing more frequently than your data changes consumes Collaboration credits without producing updated results. To monitor your credit usage, see [Track your credit consumption activity](./my-activity.md).
 
 ![Add audience workflow on the "Schedule" step showing the Frequency dropdown set to a recurring interval and a calendar date range selector with start and end dates highlighted. "Next" is visible in the top-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
-
 
 Select **[!UICONTROL Next]** to continue.
 
@@ -154,7 +150,7 @@ Review the configuration summary before creating the connection. The summary scr
 
 ![Add audience workflow on the "Review" step showing a summary of the data connection, details, mapping, and schedule sections with configured values, and the Complete button visible in the top-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-review-summary.png)
 
-Select the pencil icon next (![A pencil icon.](../../assets/icons/edit.png))to any section to return to that step and make changes. When all sections are correct, select **[!UICONTROL Complete]**.
+Select the pencil icon (![A pencil icon.](../../assets/icons/edit.png)) next to any section to return to that step and make changes. When all sections are correct, select **[!UICONTROL Complete]**.
 
 A confirmation dialog appears, indicating that the data connection was created and that audience sourcing is in progress.
 
@@ -176,7 +172,7 @@ While Collaboration is retrieving your audience data, a banner at the top of the
 
 Once sourcing completes, your [!DNL Google Cloud Storage] audiences appear in the **[!UICONTROL My audiences]** tab alongside audiences sourced from other connections. Select a row item or **[!UICONTROL View audience]** to open the detail view for a specific audience.
 
-![Setup workspace on the "My audiences" tab showing an "Audience sourcing in progress" banner and a selected audience row with actions available in the bottom toolbar, including edit metadata, connection access, name and description, categories, and delete.](../../assets/setup/gcs-audience-sourcing/gcs-audience-details.png)
+![The "My audiences" tab in the Setup workspace showing a table of audiences, including one sourced from Google Cloud Storage, with selectable checkboxes and row actions available.](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view.png)
 
 The detail view displays the audience's status, source, and data connection name, along with the following panels:
 
@@ -185,23 +181,27 @@ The detail view displays the audience's status, source, and data connection name
 * **[!UICONTROL Connection access]**: Whether the audience is private, public, or shared with specific collaborators.
 * **[!UICONTROL Metadata visibility]**: What audience information — such as identity count, overlap percentage, and index — is visible to collaborators.
 
+![Individual audience detail view showing Status: Active, the source system, and data connection name at the top, with four panels below: Identities showing identity count and breakdown, Categories showing applied tags, Connection access showing audience type and visibility, and Metadata visibility showing settings for identity count, overlap percentage, and audience index.](../../assets/setup/gcs-audience-sourcing/gcs-audience-details.png)
+
 Review these settings before using the audience in a collaboration project. To update categories, connection access, or metadata visibility, see [View and manage individual audiences](./onboard-audiences.md#view-individual-audiences).
+
+### Edit audience settings {#edit-audience-settings}
+
+You can edit audience metadata directly from the **[!UICONTROL My audiences]** list view without opening the detail view. Select the checkbox for an audience to reveal the action toolbar, then select an action: **[!UICONTROL Edit metadata visibility]**, **[!UICONTROL Edit connection access]**, **[!UICONTROL Edit name and description]**, **[!UICONTROL Edit categories]**, or **[!UICONTROL Delete]**.
+
+![The My audiences list view showing two audiences — one sourced from Adobe Experience Platform and one sourced from Google Cloud Storage — with one row selected using a checkbox, revealing a bottom toolbar with options to Edit metadata visibility, Edit connection access, Edit name and description, Edit categories, and Delete.](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view-edit-options.png)
 
 ### View your GCS data connection {#view-gcs-connection}
 
 To review or manage the connection itself, including its match keys and scheduling, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My data connections]**. Your new GCS connection is immediately available there. The audience source is displayed as **[!UICONTROL Google Cloud Storage]**.
-
-You can also edit metadata visibility, connection access, categories and the name and description of the audience from the **[!UICONTROL My Audience]** list view. Select the check box for your audience to vie the available options.
-
-![The list view of My audiences with the check box enabled and editing options displayed](../../assets/setup/gcs-audience-sourcing/gcs-audience-list-view-edit-options.png)
 
 ## Known limitations {#known-limitations}
 
 Be aware of the following constraints when configuring and using [!DNL Google Cloud Storage] audience sourcing:
 
 * **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. You can add match keys to an existing connection, but you cannot disable or delete them. To change the active match keys, you must [delete the data connection](./manage-data-connection.md#delete-data-connection) and create a new one.
-* **One active data connection per source:** Only one active [!DNL Google Cloud Storage] data connection is supported at a time. If you need to source audiences from a different bucket, delete the existing connection and create a new one pointing to the new bucket.
-* **Subfolder support:** GCS restricts audience files to the root of the specified folder path without support for nested subfolder structures.
+* **One active data connection per source:** Only one active [!DNL Google Cloud Storage] data connection is supported at a time. If you need to source audiences from a different bucket, [delete the existing connection](./manage-data-connection.md#delete-data-connection) and create a new one pointing to the new bucket.
+* **Subfolder support:** Audience files must be located directly within the specified folder path. Collaboration does not traverse subfolders within that path. [UNVERIFIED]
 
 ## Troubleshooting {#troubleshooting}
 
