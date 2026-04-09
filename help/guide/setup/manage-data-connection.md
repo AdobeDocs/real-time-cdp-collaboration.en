@@ -13,7 +13,9 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 
 Use data connections in Real-Time CDP Collaboration to source audiences from various platforms. Learn how to manage match keys and schedule data refreshing for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
 
-The same management workflow applies to connections created from [!DNL Google Cloud Storage]; for initial GCS setup, see [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md).
+>[!NOTE]
+>
+>To create a new data connection, see [Add and manage audiences](./onboard-audiences.md).
 
 ## View data connections
 
