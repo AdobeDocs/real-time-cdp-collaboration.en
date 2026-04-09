@@ -3,6 +3,7 @@ title: Manage measurement data connections
 description: Learn how to manage measurement data connections, including details and match keys in Real-Time CDP Collaboration
 audience: administrator, data engineer
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
 ---
 # Manage measurement data connections
 
