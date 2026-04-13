@@ -83,7 +83,7 @@ A prerequisite dialog outlining required configuration steps (for example, GCS b
 
 ![The "Prepare your GCS bucket for onboarding" modal listing prerequisites, including creating a GCS bucket, configuring IAM access for Adobe, and complying with the Audience Sourcing Specification, with Cancel and "Start onboarding" options.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
-### Enter your Google Cloud Storage connection details {#authenticate-gcs-connection}
+### Enter your [!DNL Google Cloud Storage] connection details {#authenticate-gcs-connection}
 
 Provide the details required to allow Collaboration to access your [!DNL Google Cloud Storage] bucket. After entering the required information, select **[!UICONTROL Next]**.
 
