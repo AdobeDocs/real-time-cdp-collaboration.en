@@ -79,7 +79,7 @@ The Add audience workflow appears. Select **[!UICONTROL Add a new data connectio
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Prepare your data for onboarding"
 >abstract="Read the Audience Sourcing Specification guide to learn how to format and structure audience data from Google Cloud Storage for Collaboration."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="See the guide"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="See the guide" 
 
 The data source selection screen lists all available connection types. Select **[!UICONTROL Google Cloud Storage]** and then select **[!UICONTROL Next]**.
 
