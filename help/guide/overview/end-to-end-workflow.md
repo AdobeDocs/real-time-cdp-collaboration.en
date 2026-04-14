@@ -15,8 +15,13 @@ In Adobe Real-Time CDP Collaboration, the end-to-end workflow varies based on th
 
 Before you begin, ensure you have a solid understanding of these key concepts:
 
-- **Collaboration patterns**: These patterns define how collaborators work together. There are two distinct patterns: [advertiser-to-publisher](./collaboration-patterns.md#advertiser-to-publisher) and [brand-to-brand](./collaboration-patterns.md#brand-to-brand).
-- **Account roles**: Account roles determine your capabilities within the platform. They should align with your organization's objectives, brand, and goals. There are two account roles: [advertiser](./roles.md#advertiser) and [publisher](./roles.md#publisher).
+- **Collaboration patterns**: These patterns define how collaborators work together. There are five distinct patterns:
+  - [advertiser-to-publisher](./collaboration-patterns.md#advertiser-to-publisher) 
+  - [brand-to-brand](./collaboration-patterns.md#brand-to-brand)
+  - [advertiser-to-data partner](./collaboration-patterns.md#advertiser-to-data-partner)
+  - [agency-to-publisher](./collaboration-patterns.md#agency-to-publisher)
+  - [advertiser-to-agency platform](./collaboration-patterns.md#advertiser-to-agency-platform)
+- **Account roles**: Account roles determine your capabilities within the platform. They should align with your organization's objectives, brand, and goals. There are four account roles: [advertiser](./roles.md#advertiser), [publisher](./roles.md#publisher), [agency](./roles.md#agency) and [data partner](./roles.md#data-partner).
 - **Use cases**: Uses cases define the ways you can leverage Collaboration to achieve your marketing objectives. There are three collaboration use cases: [Discover](./use-cases.md#discover), [Activate](./use-cases.md#activate), and [Measure](./use-cases.md#measure).
 
 This guide will use three mock collaborators to illustrate the end-to-end workflow:
@@ -24,6 +29,9 @@ This guide will use three mock collaborators to illustrate the end-to-end workfl
 - **[!UICONTROL Luma]**: An athletic apparel brand. They are an advertiser that wants to reach specific audiences through targeted marketing campaigns.
 - **[!UICONTROL TV Tube]**: A digital streaming provider. They are a publisher that provides audience data for use by advertisers.
 - **[!UICONTROL Fit Apparel]**: Another athletic apparel brand. They are a second advertiser that wants to collaborate to share audience data and insights for enhanced marketing efforts.
+- **[!UICONTROL Agency99]**: A media agency. They manage multiple client accounts within their workspace, and connect with publishers and advertisers.
+- **[!UICONTROL DataM8]**: a third-party data provider. They provide audience data for use by advertisers. 
+- **[!UICONTROL Holdco]**: an agency holding company marketing and advertising services platform that's used by internal agency teams to manage client campaigns.  
 
 ## Advertiser-to-publisher workflow {#advertiser-to-publisher-workflow}
 
@@ -33,7 +41,7 @@ To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-accoun
 
 After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
 
-Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. After [!UICONTROL TV Tube] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how the collaboration. [!UICONTROL TV Tube] accepts the connection request to establish a secure link between the two brands.
+Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. After [!UICONTROL TV Tube] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL TV Tube] accepts the connection request to establish a secure link between the two brands.
 
 After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL TV Tube]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
 
@@ -66,3 +74,53 @@ Once [!UICONTROL Luma] has their account set up, they're ready to [form a connec
 After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!DNL AMC]. Connection settings, including use cases, are pre-configured depending on the advertising platform. For [!DNL AMC], the available use case is [Discover](../collaborate/advertising-platforms/amc.md#discover).
 
 [!UICONTROL Luma] leverages the [Discover](../collaborate/advertising-platforms/amc.md#discover) use case to gain insights and audience data from [!DNL AMC]. Using these insights, [!UICONTROL Luma] can optimize their marketing strategies and improve campaign effectiveness.
+
+## Advertiser-to-data partner workflow {#advertiser-to-data-partner-workflow}
+
+[!UICONTROL Luma], an athletic retail company, wants to collaborate with [!UICONTROL DataM8], a third-party data provider, to enrich customer profiles and improve audience targeting. 
+
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL DataM8] creates an account with the data partner role.
+
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL DataM8] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../setup/manage-destinations.md).
+
+Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL DataM8] and initiate a connection request. After [!UICONTROL DataM8] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL DataM8] accepts the connection request to establish a secure link between the two collaborators. 
+
+After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL DataM8]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
+
+[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL DataM8]'s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences. 
+
+[!UICONTROL DataM8] can also [activate](../collaborate/activate.md) their audiences to [!UICONTROL Luma]. [!UICONTROL Luma] uses these capabilities to append third-party attributes to its customer profiles and analyze audience composition. With enriched data available directly in its CDP, [!UICONTROL Luma] can build more precise audiences and activate them to paid media destinations without moving data outside its governed environment.
+
+## Agency-to-publisher workflow {#agency-to-publisher-workflow}
+
+[!UICONTROL Agency99], a media agency, wants to collaborate with [!UICONTROL TV Tube], a digital streaming provider, to reach specific audiences through targeted marketing campaigns. 
+
+To begin, [!UICONTROL Agency99] needs to [create an account](../setup/onboard-account.md) with the agency role, while [!UICONTROL TV Tube] creates an account with the publisher role. 
+
+After establishing their accounts, both [!UICONTROL Agency99] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). [!UICONTROL Agency99] will set up client sub-accounts and source client data within its workspace. Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
+
+Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Agency99] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. [!UICONTROL Agency99] will do this for one or multiple clients that want to collaborate with [!UICONTROL TV Tube]. After [!UICONTROL TV Tube] accepts the connection request(s), [!UICONTROL Agency99] configures the connection settings to define how each collaboration. [!UICONTROL TV Tube] accepts the connection request(s) to establish a secure link between the two brands. 
+
+After the connection is established, [!UICONTROL Agency99] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL TV Tube] in each client sub-account. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md). 
+
+[!UICONTROL Agency99] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL TV Tube]'s audience data. Once [!UICONTROL Agency99] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences. 
+
+After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing campaigns and uploads data to [measure](../collaborate/measure.md) the results to evaluate the effectiveness of their campaign. 
+
+## Advertiser-to-agency platform workflow {#advertiser-to-agency-platform-workflow}
+
+[!UICONTROL Luma], an athletic retail company, wants to collaborate with [!UICONTROL Holdco], an agency platform, to share data and receive paid media insights.  
+
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL Holdco] creates an account with the agency role.  
+
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL Holdco] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../setup/manage-destinations.md).  
+
+Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL Holdco] and initiate a connection request. After [!UICONTROL Holdco] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate.  
+
+[!UICONTROL Holdco] accepts the connection request to establish a secure link between the two collaborators. 
+
+After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL Holdco]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md). 
+
+[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL Holdco]'s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences. 
+
+[!UICONTROL Holdco] can also [activate](../collaborate/activate.md) their audiences to [!UICONTROL Luma]. [!UICONTROL Luma] uses these capabilities to receive paid media insights from agency-run campaigns for insights, CDP profile appends and owned media orchestration.
