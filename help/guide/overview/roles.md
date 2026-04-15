@@ -19,6 +19,14 @@ Advertisers are brands that seek to reach specific audiences through targeted ma
 
 Publishers are brands that own or operate online content or services where personal data is collected with user consent. They provide this data for use by advertisers for digital advertising and audience measurement. Using Collaboration, publishers can send their audience data to collaborators to enable targeted marketing campaigns and improve the effectiveness of their advertising efforts.
 
+## Agency {#agency}
+
+Agencies are organizations that plan, manage, and optimize marketing and media campaigns for one or more brands. They leverage both first-party and third-party data, to build, activate, and measure audiences across channels. Using Collaboration, agencies can access brand-permissioned data within a single governed environment so they can coordinate cross-partner campaigns, activate audiences, and improve media effectiveness.
+
+## Data partner {#data-partner}
+
+Data partners are organizations that provide third-party, governed datasets and segments that collaborators can use to enrich their own data for audience targeting, prospecting, and measurement. Using Collaboration, data partners can securely make this data available to collaborators for audience and campaign insights, without requiring first‑party data to be transferred into the partner's environment.
+
 ## Choosing the right role {#choosing-the-right-role}
 
 When creating an account in Adobe Real-Time CDP Collaboration, it is essential to select the role that best fits your organization's objectives. There are cases where brands may fit both roles, since a brand may operate an online platform (publisher) and also runs marketing campaigns (advertiser). While Collaboration allows for flexibility through its collaboration patterns, it is recommended to choose the role that aligns with your primary goal.
