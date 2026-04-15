@@ -9,7 +9,7 @@ This guide provides steps to upload a CSV file in the Adobe Real-Time CDP Collab
 
 ## Overview {#overview}
 
-CSV file upload is one method to source first-party audience data for collaboration projects. This is an alternative to [connecting your AWS S3 bucket](./configure-aws-s3-audience-sourcing.md) or [sourcing audiences from Experience Platform](./onboard-audiences.md).
+CSV file upload is one method to source first-party audience data for collaboration projects. This is an alternative to [connecting your AWS S3 bucket](./configure-aws-s3-audience-sourcing.md), [connecting Google Cloud Storage](./configure-gcs-audience-sourcing.md), or [sourcing audiences from Experience Platform](./onboard-audiences.md).
 
 Follow this workflow to upload a CSV file containing your audience data to source and manage first-party audiences within Collaboration. You can map identity fields for activation and overlap analysis. Once your file is uploaded and processed, the sourced audience becomes available in the **[!UICONTROL My audiences]** workspace, where you can review, activate, and manage for your collaboration projects.
 

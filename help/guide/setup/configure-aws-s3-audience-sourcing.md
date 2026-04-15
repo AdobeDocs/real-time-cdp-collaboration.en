@@ -210,4 +210,6 @@ Your S3 data connection includes the same functionality and details as other aud
 
 You have now successfully configured and connected your [!DNL Amazon S3] storage as a data source in Collaboration. By completing this workflow, you enabled secure sourcing of first-party audience data for activation and overlap analysis.
 
+To use [!DNL Google Cloud Storage] instead, see [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md).
+
 After sourcing completes, your audiences appear in the **[!UICONTROL My audiences]** workspace, ready for collaboration and activation. For detailed management options, see the [source and manage audiences documentation](./onboard-audiences.md).
