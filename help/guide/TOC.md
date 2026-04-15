@@ -13,7 +13,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Account roles](./overview/roles.md)
   * [Collaboration patterns](./overview/collaboration-patterns.md)
   * [End-to-end workflow](./overview/end-to-end-workflow.md)
-  * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
+  * {hide-from-toc} [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
 * Set Up {#setup}
   * [Overview of setup section](./setup/setup-overview.md)
   * [Onboard and manage your account](./setup/onboard-account.md)
@@ -21,18 +21,20 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Configure AEP for audience sourcing](./setup/onboard-audiences.md)
     * [Configure AWS permissions for audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
     * [Configure Amazon S3 for audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
+    * [Configure GCS for audience sourcing](./setup/configure-gcs-audience-sourcing.md)
     * [Upload CSV file for audience sourcing](./setup/upload-csv-audience-sourcing.md)
     * [Configure Snowflake for audience sourcing](./setup/configure-snowflake-audience-sourcing.md)
   * [Manage data connections](./setup/manage-data-connection.md)
   * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
-  * [Identity crosswalks](./setup/identity-crosswalk.md)
+  * {hide-from-toc} [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
+  * [Manage measurement data connection](./setup/manage-measurement-data-connection.md)
   * [Audit logs](./setup/audit-logs.md)
   * Real-Time CDP Collaboration Starter setup {#starter-setup}
-    * [Configure admin access](./setup/starter-admin-access.md)
-    * [Configure permission controls](./setup/starter-permission-controls.md)
-    * [Credit usage and consumption](./setup/starter-credit-usage.md)
+    * {hide-from-toc} [Configure admin access](./setup/starter-admin-access.md)
+    * {hide-from-toc} [Configure permission controls](./setup/starter-permission-controls.md)
+    * {hide-from-toc} [Credit usage and consumption](./setup/starter-credit-usage.md)
 * Establishing connections {#connect}
   * [Overview.md](./connect/overview.md)
   * [Discover collaborators](./connect/discover-collaborators.md)
@@ -50,7 +52,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Measure](./collaborate/measure.md)
   * Advertising platform connections {#ad-platform-connections}
     * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
-    * [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
+    * {hide-from-toc} [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
 * Destinations {#destinations}
   * [Overview](./destinations/overview.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)
@@ -60,5 +62,5 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Manage roles](./permissions/manage-roles.md)
 * Reference {#reference}
   * [Common questions and troubleshooting tips](./faqs/common-questions.md)
-  * [Glossary](./glossary.md)
+  * {hide-from-toc} [Glossary](./glossary.md)
 * [Latest release notes](./release-notes/latest.md)

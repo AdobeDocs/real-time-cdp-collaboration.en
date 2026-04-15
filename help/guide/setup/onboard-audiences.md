@@ -36,9 +36,11 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 >
 >After establishing to your first data connection and sourcing your first audience, you can then source multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
 
-A data connection is the source of data from where you are sourcing audiences. Currently, the only supported data connection is Adobe Experience Platform.
+A data connection is the source from which you ingest audiences into Collaboration. Supported sources include Adobe Experience Platform, CSV file upload, [!DNL Amazon S3], [!DNL Snowflake], and [!DNL Google Cloud Storage], each with its own workflow.
 
-Any settings that you configure for your data connection are applied to all the audiences sourced from this data connection. 
+The sections below describe selecting **Adobe Experience Platform** and completing the Experience Platform–specific steps (sandbox, governance, and consent). If you choose CSV, [!DNL Amazon S3], [!DNL Snowflake], or [!DNL Google Cloud Storage], use the guide linked under [Select data source](#select-data-source) for that option.
+
+Any settings that you configure for an Experience Platform data connection are applied to all audiences sourced from that connection.
 
 >[!TIP]
 >
@@ -56,7 +58,7 @@ Next, you'll choose the source for your data connection. The available sources i
 * **CSV File**: Upload a CSV file containing your audience data for quick and straightforward data ingestion. Refer to the [Upload CSV file for audience sourcing](./upload-csv-audience-sourcing.md) guide to get started.
 * **Amazon Web Services**: Connect to your Amazon S3 storage to source audience data directly from your S3 buckets. See the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) guide for step-by-step instructions.
 * **Snowflake**: Use your Snowflake data warehouse to pull in audience data seamlessly. Refer to the [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md) guide.
-* **Google Cloud Platform** (Future release): Connect to your Google Cloud Storage to source audience data directly from your GCS buckets.
+* **Google Cloud Storage**: Connect to your GCS buckets to source audience data. See the [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md) guide for step-by-step instructions.
 
 Select your data source and then select **[!UICONTROL Next]**.
 

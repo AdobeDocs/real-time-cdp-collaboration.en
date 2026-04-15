@@ -38,10 +38,14 @@ The following destinations are available for configuration in Collaboration. To 
 | Destination | Availability |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | Available |
-| Amazon S3 | Coming soon. |
-| Snowflake | Coming soon. |
-| Google Cloud Storage | Coming soon. |
-| Azure Blob Storage | Coming soon. |
+| [!DNL Amazon S3] | Coming soon. |
+| [!DNL Snowflake] | Coming soon. |
+| [!DNL Google Cloud Storage] | Coming soon. |
+| [!DNL Azure Blob Storage] | Coming soon. |
+
+>[!NOTE]
+>
+>**[!DNL Google Cloud Storage]** in this table refers to **destinations** (where Collaboration sends audiences during activation). To **source audiences from** a GCS bucket in the **[!UICONTROL Setup]** workspace, see [Configure GCS for audience sourcing](../setup/configure-gcs-audience-sourcing.md).
 
 ## Next steps
 
