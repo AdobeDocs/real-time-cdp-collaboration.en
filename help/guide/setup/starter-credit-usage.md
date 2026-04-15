@@ -13,8 +13,6 @@ For a general overview of Collaboration Starter, read the [Real-Time CDP Collabo
 
 ## How credit usage works {#credit-usage}
 
-When a partner invites you to Collaboration Starter, the inviting organization uses 250 Collaboration credits from their own account for the invitation.
-
 After you accept the invitation, all credit usage for your activities is covered by the organization that invited you. Credits are always consumed from the inviter's account, and your own account will not be charged.
 
 ## Manage access and expectations {#manage-access-and-expectations}
