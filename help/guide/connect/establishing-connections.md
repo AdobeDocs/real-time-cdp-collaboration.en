@@ -305,9 +305,14 @@ Follow the steps below to invite your partner to join Real-Time CDP Collaboratio
 
 Before initiating the invitation process, collect the following information from your collaborator:
 
-- Name of their company
-- Full name of the main contact
-- Email address of the main contact
+| Field | Description |
+|-------|-------------|
+| Company | The collaborator's company name. |
+| Name | The full name of the person you are inviting. |
+| Email address | The email address that the collaborator uses to access Real-Time CDP Collaboration Starter. |
+| Title | The main contact's job title. |
+
+{style="table-layout:auto"}
 
 ### Send an invitation {#send-invitation}
 
@@ -318,6 +323,10 @@ To begin, navigate to the **[!UICONTROL Connect]** workspace and select the plus
 ![The Connect workspace with the plus icon and the Invite a collaborator option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
 
 The **[!UICONTROL Invite a collaborator]** dialog appears, prompting you to enter the information of the invited collaborator. Fill in the required fields for [!UICONTROL Company name], [!UICONTROL First name], [!UICONTROL Last name], and [!UICONTROL Email].
+
+>[!IMPORTANT]
+>
+>Invitations are **tied to the email address provided**. Ensure the email address is accurate, as the invited user must use that exact email to accept the invitation and access the product.
 
 Next, use the dropdown to choose the appropriate role for your partner. See the [account roles documentation](../overview/roles.md) for details on available role types in Collaboration.
 
@@ -346,7 +355,7 @@ When the provision process is complete, a welcome email is sent to the invited o
 - [Configure administrator and user access](../setup/starter-admin-access.md)
 - [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
 
-![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes"}
+![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
 Once your partner has access to Collaboration, both you and the invited organization can [establish a connection](#connect) and [set up the connection settings](#configure-connection-settings) to start collaborating on projects.
 
