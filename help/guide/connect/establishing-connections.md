@@ -314,6 +314,10 @@ Before initiating the invitation process, collect the following information from
 
 {style="table-layout:auto"}
 
+>[!IMPORTANT]
+>
+>By inviting another collaborator, you acknowledge that you are responsible for any charges incurred through their activities. Learn more about [credit usage and consumption in Collaboration Starter](../setup/starter-credit-usage.md)
+
 ### Send an invitation {#send-invitation}
 
 Invite your partner organization to join Collaboration Starter directly through the user interface.
