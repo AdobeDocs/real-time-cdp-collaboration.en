@@ -29,8 +29,6 @@ To initiate the invitation, provide the following information to your licensed p
 * Company
 * Role (Advertiser/Publisher): Advertiser
 * Industry
-* Admin name (if different from contact name)
-* Admin contact email (if different from contact email)
 
 After you receive and accept the invitation, your organization must review and sign a no-cost Sales Order with Adobe to access Collaboration Starter. For more details on the invitation process, see the [inviting a collaborator to Collaboration Starter](../connect/establishing-connections.md#invite-collaborator-to-starter) guide.
 
