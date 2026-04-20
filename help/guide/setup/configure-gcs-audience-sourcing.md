@@ -229,7 +229,7 @@ Use this section to resolve issues that occur after you establish the initial co
 
 [!DNL Google Cloud Storage] provides a secure, scalable way to store and access your data in the cloud. To allow Adobe to read from your GCS buckets, you must configure the appropriate Identity and Access Management (IAM) permissions and service account access in your [!DNL Google Cloud] account.
 
-### Collect Adobe's [Google Service Account] information {#collect-account-information}
+### Collect Adobe's [!DNL Google Service Account] information {#collect-account-information}
 
 To get started, note the [!DNL Google Service Account] for Adobe that matches your region. You will need this information to grant Adobe access in later steps.
 
@@ -263,6 +263,8 @@ Then add the following permissions to the role:
 | `storage.objects.get` | Read object data and metadata. |
 | `storage.objects.list` | List objects in a bucket. |
 
+{style="table-layout:auto"}
+
 For more information on permissions, see [GCS IAM permissions](https://cloud.google.com/storage/docs/access-control/iam-permissions). For step-by-step instructions, see [how to create custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles).
 
 #### Assign IAM role to Adobe {#assign-role}
@@ -274,6 +276,17 @@ Navigate to the **[!DNL Permissions]** tab, choose **[!DNL View by principals]**
 In the **[!DNL Add principals]** dialog, add the [Adobe Google Service Account](#collect-account-information) as the principal and assign the custom IAM role you created earlier. Select **[!DNL Save]** to confirm the setup. 
 
 Adobe now has secure access your audience data in the selected GCS bucket. Review any additional [prerequisites](#prerequisites) as needed, or proceed to [begin sourcing audiences from GCS into Collaboration](#configure-gcs-connection).
+
+#### Collect [!DNL Google Cloud Storage] details {#collect-gcs-details}
+
+Finally, gather the details for your GCS bucket as shown in the table below. You will need this information to set up the connection between your GCS and Collaboration.
+
+| Field | Description | Example |
+|------ |------------ |-------- |
+| [!DNL Bucket] | The exact name of the [!DNL Google Cloud Storage] bucket containing your audience files. | `customer-data-bucket` |
+| [!DNL Path] | The path prefix within the bucket where your audience files are stored. Must end with `/` to read all files.| `sourcing/testdata/path1/` |
+
+{style="table-layout:auto"}
 
 ## Next steps {#next-steps}
 
