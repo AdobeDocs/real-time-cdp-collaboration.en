@@ -1,25 +1,25 @@
 ---
-title: Configure administrator access for Collaboration Starter onboarding
-description: Learn how to configure administrator access for Adobe Real-Time CDP Collaboration Starter using the Admin Console in Adobe Experience Cloud.
-audience: users invited to Real-Time CDP Collaboration Starter
+title: Configure administrator access for Collaboration [!DNL Starter] onboarding
+description: Learn how to configure administrator access for Adobe Real-Time CDP Collaboration [!DNL Starter] using the Admin Console in Adobe Experience Cloud.
+audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 ---
-# Configure administrator access for Collaboration Starter onboarding
+# Configure administrator access for Collaboration [!DNL Starter] onboarding
 
-As the first user from your organization to access Adobe Experience Platform through Collaboration Starter, you are responsible for setting up and managing access for your team. You must grant yourself the necessary administrator and user permissions to begin working in Real-Time CDP Collaboration. This guide explains how to configure the required access in the Admin Console before you can manage permissions for Collaboration in the **[!UICONTROL Permissions]** interface.
+As the first user from your organization to access Adobe Experience Platform through Collaboration [!DNL Starter], you are responsible for setting up and managing access for your team. You must grant yourself the necessary administrator and user permissions to begin working in Real-Time CDP Collaboration. Read this guide to learn how to configure the required access in the Admin Console so you can manage permissions for Collaborations in the Permissions interface.
 
 ## Prerequistes {#prerequisites}
 
 Before continuing, ensure that you have:
 
-* Accepted the invitation from your licensed Collaboration partner. For more information about the invitation requirements, see the [Collaboration Starter overview](../overview/starter-overview.md#prerequisites).
+* Accepted the invitation from your licensed Collaboration partner. For more information about the invitation requirements, see the [Collaboration [!DNL Starter] overview](../overview/starter-overview.md#prerequisites).
 * Reviewed and signed the Collaboration terms and conditions.
 * Received your Adobe welcome email and completed your first-time account creation.
 
 ## Set up access {#setup-access}
 
-When your Adobe account is created through the Starter workflow, you are automatically assigned the system administrator role. This allows you to manage users and product access in the Admin Console. However, you do not yet have access to **[!UICONTROL Permissions]**, which is required to manage access for Collaboration.
+When your Adobe account is created through the [!DNL Starter] workflow, you are automatically assigned the system administrator role. This allows you to manage users and product access in the Admin Console. However, you do not yet have access to **[!UICONTROL Permissions]**, which is required to manage access for Collaboration.
 
 Use the Admin Console to grant yourself both **product administrator access** to Experience Platform and **user access** to Experience Platform products to get into **[!UICONTROL Permissions]**.
 
@@ -31,7 +31,7 @@ To learn more about roles and products in Experience Cloud, read the [access con
 
 ### Configure product administrator access {#configure-product-admin-access}
 
-Read this section to grant yourself administrator privileges to start setting up access for Collaboration Starter.
+Read this section to grant yourself administrator privileges to start setting up access for Collaboration [!DNL Starter].
 
 #### Access Admin Console {#access-admin-console}
 
