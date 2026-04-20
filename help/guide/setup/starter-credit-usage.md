@@ -1,15 +1,15 @@
 ---
-title: Credit usage and consumption in Real-Time CDP Collaboration Starter
-description: Understand how credit usage and consumption work in Adobe Real-Time CDP Collaboration Starter.
-audience: users invited to Real-Time CDP Collaboration Starter
+title: Credit usage and consumption in Real-Time CDP Collaboration [!DNL Starter]
+description: Understand how credit usage and consumption work in Adobe Real-Time CDP Collaboration [!DNL Starter].
+audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
 ---
-# Credit usage and consumption in Real-Time CDP Collaboration Starter
+# Credit usage and consumption in Real-Time CDP Collaboration [!DNL Starter]
 
-This documentation provides details on how credits are used when you join Adobe Real-Time CDP Collaboration Starter as an invited user. Learn more about who is responsible for credit usage, and important considerations for access and management. 
+This documentation provides details on how credits are used when you join Adobe Real-Time CDP Collaboration [!DNL Starter] as an invited user. Learn more about who is responsible for credit usage, and important considerations for access and management. 
 
-For a general overview of Collaboration Starter, read the [Real-Time CDP Collaboration Starter overview](../overview/starter-overview.md).
+For a general overview of Collaboration [!DNL Starter], read the [Real-Time CDP Collaboration [!DNL Starter] overview](../overview/starter-overview.md).
 
 ## How credit usage works {#credit-usage}
 
