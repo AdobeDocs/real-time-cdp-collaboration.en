@@ -301,7 +301,7 @@ Next, select **[!UICONTROL Accept]** to proceed with the connection. The connect
 
 ## Invite a collaborator {#invite-collaborator}
 
-Follow the steps below to invite your partner to join Real-Time CDP Collaboration Starter. If you want more details about Collaboration Starter and a step-by-step overview of the process, refer to the [Starter overview documentation](../overview/starter-overview.md).
+Follow the steps below to invite your partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
 
 Before initiating the invitation process, collect the following information from your collaborator:
 
@@ -309,7 +309,7 @@ Before initiating the invitation process, collect the following information from
 |-------|-------------|
 | Company | The collaborator's company name. |
 | Name | The full name of the person you are inviting. |
-| Email address | The email address that the collaborator uses to access Real-Time CDP Collaboration Starter. |
+| Email address | The email address that the collaborator uses to access Real-Time CDP Collaboration [!DNL Starter]. |
 | Title | The main contact's job title. |
 
 {style="table-layout:auto"}
@@ -320,7 +320,7 @@ Before initiating the invitation process, collect the following information from
 
 ### Send an invitation {#send-invitation}
 
-Invite your partner organization to join Collaboration Starter directly through the user interface.
+Invite your partner organization to join Collaboration [!DNL Starter] directly through the user interface.
 
 To begin, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner. Then, select **[!UICONTROL Invite a collaborator]**.
 
@@ -350,11 +350,11 @@ After you send the invitation, your partner organization receives an email with 
 
 ![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
-Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration Starter for their account.
+Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration [!DNL Starter] for their account.
 
 ### Provisioning confirmation {#provisioning-confirmation}
 
-When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration Starter is ready to use. This email provides instructions on how to: 
+When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This email provides instructions on how to: 
 
 - [Configure administrator and user access](../setup/starter-admin-access.md)
 - [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
