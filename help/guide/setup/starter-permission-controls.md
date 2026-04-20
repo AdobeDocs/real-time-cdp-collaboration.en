@@ -1,13 +1,13 @@
 ---
-title: Configure permission controls for Collaboration Starter onboarding
-description: Learn how to configure permissions for Adobe Real-Time CDP Collaboration Starter using the Permissions in Adobe Experience Cloud.
-audience: users invited to Real-Time CDP Collaboration Starter
+title: Configure permission controls for Collaboration [!DNL Starter] onboarding
+description: Learn how to configure permissions for Adobe Real-Time CDP Collaboration [!DNL Starter] using the Permissions in Adobe Experience Cloud.
+audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 ---
-# Configure permission controls for Collaboration Starter onboarding
+# Configure permission controls for Collaboration [!DNL Starter] onboarding
 
-After setting up administrator and user access to the Adobe Experience Platform products, you need to assign yourself roles with the proper permissions for Real-Time CDP Collaboration. This guide explains how to add the right roles to your account through the Experience Cloud Permissions interface, so you can access and manage user access to Collaboration features.
+After setting up administrator and user access to the Adobe Experience Platform products, you need to assign yourself roles with the proper permissions for Real-Time CDP Collaboration. Read this guide to learn how to add the right roles to your account through the Experience Cloud Permissions interface, so you can access and manage user access to Collaboration features.
 
 For details about standard roles and available permissions included in the Collaboration resource, see [how to manage roles guide](../permissions/manage-roles.md).
 
@@ -60,7 +60,7 @@ Review the information and select the roles you want to assign to your account. 
 
 A confirmation dialog confirms that new roles were successfully added. 
 
-To make sure your permissions are set up correctly, return to the [Experience Cloud](https://experience.adobe.com/) homepage. Select **[!UICONTROL Real-Time CDP Collaboration]** within **[!UICONTROL Quick access]**. You should be able to access Collaboration workspace and begin using the features available for your Starter account.
+To make sure your permissions are set up correctly, return to the [Experience Cloud](https://experience.adobe.com/) homepage. Select **[!UICONTROL Real-Time CDP Collaboration]** within **[!UICONTROL Quick access]**. You should be able to access Collaboration workspace and begin using the features available for your [!DNL Starter] account.
 
 ## Next steps {#next-steps}
 
@@ -69,6 +69,6 @@ With your permissions set up, you are ready to access Collaboration. Next, you c
 * [Create custom roles with specific permissions to manage different access levels](../permissions/manage-roles.md#create-specific-access-roles).
 * [Assign multiple users to one role in Permissions](../permissions/manage-user-access.md#assign-a-role).
 * [Set up Collaboration account and establish connections with your inviting collaborator](../overview/starter-overview.md#set-up-connections).
-* [Learn more about credit usage and consumption in Collaboration Starter](./starter-credit-usage.md).
+* [Learn more about credit usage and consumption in Collaboration [!DNL Starter]](./starter-credit-usage.md).
 
 To get a complete overview of Real-Time CDP Collaboration and its key features, read the [overview guide](../home.md).
