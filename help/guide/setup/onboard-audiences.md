@@ -50,7 +50,7 @@ To begin adding your data connection, select **[!UICONTROL Add a new data connec
 
 ![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Select data source 
+#### Select data source {#select-data-source}
 
 Next, you'll choose the source for your data connection. The available sources include:
 
@@ -129,11 +129,9 @@ Next, provide a name and a description for your data connection. This informatio
 >abstract="Select attributes from the union schema for the Profile class in Experience Platform. This view displays attributes that are present in the union schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
-Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during account setup. 
+Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys).
 
->[!IMPORTANT]
->
->Currently, you cannot edit data connections to include new map fields. If you add new match keys to your account after your data connection has been created, you will need to create a new data connection to map to them.
+If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the [!DNL Demdex ID] is automatically extracted and mapped from [!DNL ECID] and you do not have to take any action. To learn more about [!DNL Demdex IDs], see the [!DNL Demdex ID](./onboard-account.md#supported-match-keys) guide.
 
 ![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 

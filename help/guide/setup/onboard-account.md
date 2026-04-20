@@ -64,20 +64,29 @@ To begin configuring your account, you must first set up the account details. Th
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="First-party people IDs"
->abstract="First-party people IDs, such as hashed email addresses, hashed phone numbers or CRM IDs, are directly connected to an individual profile."
+>title="People IDs"
+>abstract="People IDs, such as hashed email addresses, hashed phone numbers or CRM IDs, are directly connected to an individual profile."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="First-party device IDs"
->abstract="First-party device IDs, such as ECID or IP addresses, are directly connected to devices that may be shared between several individuals."
+>title="Device IDs"
+>abstract="Device IDs, such as ECID or IP addresses, are directly connected to devices that may be shared between several individuals."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="Supported partner IDs"
 >abstract="Partner IDs are identifiers provided by external partners for audience reconciliation. Partner IDs are not directly connected to an individual profile."
 
-![Supported match keys.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+The following table displays the supported match keys in Collaboration:
+
+| People IDs | Device IDs | Partner IDs |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -89,16 +98,16 @@ Select any match keys that you want to use when reconciling audience profiles. P
 
 #### Supported match keys {#supported-match-keys}
 
-Collaboration supports three types of match keys: first-party people IDs, first-party device IDs, and partner IDs. All match keys must meet the following requirements:
+Collaboration supports three types of match keys: people IDs, device IDs, and partner IDs. All match keys must meet the following requirements:
 
 * Match keys must be **trimmed**, **lowercased**
 * Hashed match keys must be **SHA256-hashed**.
 * If you provide hashed values that use uppercase characters, Collaboration automatically converts them to lowercase.
 * If your source contains **plaintext identifiers**, use the **[!UICONTROL Apply transformation]** option during your [data connection setup](./manage-data-connection.md#match-keys) to apply hashing. This option is only available when sourcing audiences from Experience Platform and is not supported for cloud-based sources.
 
-##### First-party people IDs
+##### People IDs
 
-First-party people IDs are directly connected to an individual profile. Currently supported IDs are:
+People IDs are directly connected to an individual profile. Currently supported IDs are:
 
 * **[!UICONTROL Hashed email]**
 * **[!UICONTROL Hashed phone]**
@@ -106,13 +115,14 @@ First-party people IDs are directly connected to an individual profile. Currentl
 * **[!UICONTROL Loyalty IDs]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### First-party device IDs
+##### Device IDs
 
-First-party device IDs are identifiers connected to a specific device. Currently supported IDs are:
+Device IDs are identifiers connected to a specific device. Currently supported IDs are:
 
-* **[!UICONTROL Hashed IPv4]**: Hashed IPv4 addresses
-* **[!UICONTROL IDFA]**: The Identifier for Advertisers (IDFA) used in Apple iOS devices
-* **[!UICONTROL GAID]**: Google Advertiser ID used in Android devices
+* **[!UICONTROL Hashed IPv4]**
+* **[!UICONTROL IDFA]**: The Identifier for Advertisers (IDFA) used in Apple iOS devices.
+* **[!UICONTROL GAID]**: Google Advertiser ID used in Android devices.
+* **[!UICONTROL Demdex ID (ECID)]**: When third-party cookies are enabled, the ECID will include Adobe's third-party cookie, Demdex ID. The Demdex ID can be used to match cookie-based, unauthenticated visitors.
 
 ##### Partner IDs
 
