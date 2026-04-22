@@ -36,15 +36,15 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * {hide-from-toc} [Configure permission controls](./setup/starter-permission-controls.md)
     * {hide-from-toc} [Credit usage and consumption](./setup/starter-credit-usage.md)
 * Establishing connections {#connect}
-  * [Overview.md](./connect/overview.md)
+  * [Overview](/help/guide/connect/overview.md)
   * [Discover collaborators](./connect/discover-collaborators.md)
   * [Establish collaborator connections](./connect/establishing-connections.md)
   * [Manage connections](./connect/manage-connections.md)
   * Advertising platform connections {#ad-platform-connections}
-    * [Overview](./connect/advertising-platforms/overview.md)
+    * [Overview](/help/guide/connect/advertising-platforms/overview.md)
     * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Collaborate {#collaborate}
-  * [Overview](./collaborate/overview.md)
+  * [Overview](/help/guide/collaborate/overview.md)
   * [Manage projects](./collaborate/manage-projects.md)
   * Collaborator connections {#collaborator-connections}
     * [Discover](./collaborate/discover.md)
@@ -54,10 +54,10 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
     * {hide-from-toc} [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
 * Destinations {#destinations}
-  * [Overview](./destinations/overview.md)
+  * [Overview](/help/guide/destinations/overview.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permissions {#permissions}
-  * [Overview](./permissions/overview.md)
+  * [Overview](/help/guide/permissions/overview.md)
   * [Manage user access](./permissions/manage-user-access.md)
   * [Manage roles](./permissions/manage-roles.md)
 * Reference {#reference}
