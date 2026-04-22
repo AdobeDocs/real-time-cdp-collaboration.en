@@ -34,7 +34,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * Real-Time CDP Collaboration Starter setup {#starter-setup}
     * [Configure admin access](./setup/starter-admin-access.md)
     * [Configure permission controls](./setup/starter-permission-controls.md)
-    * {hide-from-toc} [Credit usage and consumption](./setup/starter-credit-usage.md)
+    * [Credit usage and consumption](./setup/starter-credit-usage.md)
 * Establishing connections {#connect}
   * [Overview](/help/guide/connect/overview.md)
   * [Discover collaborators](./connect/discover-collaborators.md)
