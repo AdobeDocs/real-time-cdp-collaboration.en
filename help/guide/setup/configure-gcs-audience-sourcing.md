@@ -25,15 +25,9 @@ Some steps in this section require action by a [!DNL Google Cloud] administrator
 
 ### GCS access and permissions {#gcs-access-permissions}
 
-<!-- [LINK REQUIRED: Once the GCS permissions and roles guide is published, replace this NOTE with a direct link to that guide and remove the placeholder instructions below.] -->
-
->[!NOTE]
->
->A dedicated guide covering the specific [!DNL Google Cloud] IAM roles, service account configuration, and bucket-level permissions required for this integration is pending publication. Until that guide is available, work with your [!DNL Google Cloud] administrator to confirm that Adobe has the permissions required to authenticate against your bucket and read audience files.
-
 Before proceeding, confirm the following with your [!DNL Google Cloud] administrator:
 
-* Adobe has been granted the permissions required to authenticate against your GCS bucket and read audience files.
+* Adobe has been granted the permissions required to authenticate against your GCS bucket and read audience files. For step-by-step instructions, see the [permission setup section](#setup-gcs-permissions).
 * [!DNL Google Cloud Storage] audience sourcing is available in your region. Availability varies by region (NA, EMEA, ANZ). If GCS sourcing is not yet available in your region, contact your Adobe account representative to confirm a timeline.
 
 ### Prepare your audience data {#prepare-audience-data}
@@ -230,6 +224,69 @@ Use this section to resolve issues that occur after you establish the initial co
 
 * Confirm that updated files in the bucket comply with the column structure and field requirements in the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
 * Ensure all files in the configured folder path use identical column structures. Mixed-format files in the same path can cause partial sourcing failures.
+
+## Set up [!DNL Google Cloud Storage] permissions {#setup-gcs-permissions}
+
+[!DNL Google Cloud Storage] provides a secure, scalable way to store and access your data in the cloud. To allow Adobe to read from your GCS buckets, you must configure the appropriate Identity and Access Management (IAM) permissions and service account access in your [!DNL Google Cloud] account.
+
+### Collect Adobe's [!DNL Google Service Account] information {#collect-account-information}
+
+To get started, note the [!DNL Google Service Account] for Adobe that matches your region. You will need this information to grant Adobe access in later steps.
+
+| Region | [!DNL Google Service Account] |
+| ------------- | --------------- |
+| North America | `kk9930000@va3-22da.iam.gserviceaccount.com` |
+| EMEA | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |
+| Australia | `knhv20000@sfc-au-1-nla.iam.gserviceaccount.com` |
+
+{style="table-layout:auto"}
+
+### Set up IAM role {#setup-iam-role}
+
+>[!IMPORTANT]
+>
+>You must have **Account Admin** privileges in your [!DNL Google Cloud] account to complete this setup. If you do not have these privileges, contact your administrator before proceeding.
+
+Follow the steps below to create a custom IAM role with the necessary permissions and assign it to the Adobe service account. This ensures Adobe has secure access to your GCS audience data.
+
+#### Create IAM role {#create-iam-role}
+
+First, create a custom IAM role in your [!DNL Google Cloud] project with the necessary permissions to assign to Adobe.
+
+In the **[!DNL IAM & Admin]** page of the [[!DNL Google Cloud] Console](https://console.cloud.google.com), navigate to **[!DNL Roles]** and select **[!DNL Create role]**. Fill in the required information such as the title and ID for your new role. 
+
+Then add the following permissions to the role:
+
+| Permission | Purpose |
+| ------------- | --------------- |
+| `storage.buckets.get` | Read bucket metadata. |
+| `storage.objects.get` | Read object data and metadata. |
+| `storage.objects.list` | List objects in a bucket. |
+
+{style="table-layout:auto"}
+
+For more information on permissions, see [GCS IAM permissions](https://cloud.google.com/storage/docs/access-control/iam-permissions). For step-by-step instructions, see [how to create custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles).
+
+#### Assign IAM role to Adobe {#assign-role}
+
+Next, open the [**[!DNL Buckets]** page](https://console.cloud.google.com/storage/browser) in the [!DNL Google Cloud Console] and select the bucket that contains your audience data. 
+
+Navigate to the **[!DNL Permissions]** tab, choose **[!DNL View by principals]**, and then select **[!DNL Grant access]**.
+
+In the **[!DNL Add principals]** dialog, add the [Adobe Google Service Account](#collect-account-information) as the principal and assign the custom IAM role you created earlier. Select **[!DNL Save]** to confirm the setup. 
+
+Adobe now has secure access your audience data in the selected GCS bucket. Review any additional [prerequisites](#prerequisites) as needed, or proceed to [begin sourcing audiences from GCS into Collaboration](#configure-gcs-connection).
+
+#### Collect [!DNL Google Cloud Storage] details {#collect-gcs-details}
+
+Finally, gather the details for your GCS bucket as shown in the table below. You will need this information to set up the connection between your GCS and Collaboration.
+
+| Field | Description | Example |
+|------ |------------ |-------- |
+| [!DNL Bucket] | The exact name of the [!DNL Google Cloud Storage] bucket containing your audience files. | `customer-data-bucket` |
+| [!DNL Path] | The path prefix within the bucket where your audience files are stored. Must end with `/` to read all files.| `sourcing/testdata/path1/` |
+
+{style="table-layout:auto"}
 
 ## Next steps {#next-steps}
 

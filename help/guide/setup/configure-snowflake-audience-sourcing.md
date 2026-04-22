@@ -19,7 +19,7 @@ Follow the steps below to connect your [!DNL Snowflake Secure Data Share] and so
 
 Before configuring your [!DNL Snowflake] connection, make sure you meet the following prerequisites:
 
-* You have created a [!DNL Snowflake Share] and set up the necessary permissions in your [!DNL Snowflake] account to grant Adobe access to your [!DNL Snowflake Secure Data Share].
+* You have created a [!DNL Snowflake Share] and set up the necessary permissions in your [!DNL Snowflake] account to grant Adobe access to your [!DNL Snowflake Secure Data Share]. Learn [how to configure [!DNL Snowflake] permissions](#set-up-snowflake-permissions).
 * You have the following [!DNL Snowflake Share] values ready:
 
   * **Share name**
@@ -30,7 +30,91 @@ Before configuring your [!DNL Snowflake] connection, make sure you meet the foll
 * The audience data in your [!DNL Snowflake Secure Data Share] must meet the format requirements outlined in the [Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) guide.
 * All match keys in your [!DNL Snowflake] audience file must also be enabled for your Collaboration account. Learn how to [enable match keys](./onboard-account.md#set-up-match-keys) or [add new match keys](./onboard-account.md#edit-match-keys) to your account.
 
+## Set up [!DNL Snowflake] permissions {#setup-snowflake-permissions}
+
+[!DNL Snowflake Secure Data Share] provides a way to share live, read-only data securely between [!DNL Snowflake] accounts, without the need to copy or move the data. To grant Adobe access to your [!DNL Secure Data Share], make sure to configure the appropriate permissions in your [!DNL Snowflake] account.
+
+Before proceeding, ensure the following:
+
+* You have access to a [!DNL Snowflake] account.
+* Your [!DNL Snowflake] account is subscribed to private listings. You need administrator privileges on Snowflake to configure the required permissions.
+* You know your [!DNL Snowflake] account's cloud provider and region.
+
+Read the [[!DNL Snowflake] documentation](https://docs.snowflake.com/en/collaboration/consumer-listings-access#access-a-private-listing) for more information on the necessary permissions.
+
+### Collect Adobe's [!DNL Snowflake] account information {#collect-account-information}
+
+To get started, locate and note the Adobe [!DNL Snowflake] account identifier that matches your region. You will need this identifier to grant Adobe access in later steps.
+
+| Region | [!DNL Snowflake] Production Account Full Identifier |
+| ------------- | --------------- |
+| North America | ADOBE.AGORA_SF_02 |
+| EMEA | ADOBE.RTCDP_COLLABORATION_DEU1_EXTERNAL |
+| Australia | ADOBE.RTCDP_COLLABORATION_AUS3_EXTERNAL |
+
+{style="table-layout:auto"}
+
+### Create and grant access to [!DNL Snowflake Share] {#create-grant-access-to-share}
+
+Next, follow these steps to create a [!DNL Secure Data Share] in your [!DNL Snowflake] account and grant Adobe the read-only access to your audience data.
+
+1. Create a secure view with limited access to only the necessary columns from your source table.
+
+    ```sql
+    CREATE OR REPLACE SECURE VIEW my_database.my_schema.secure_view_for_adobe AS
+    SELECT 
+        column1,
+        column2,
+        column3
+    FROM my_database.my_schema.source_table;
+    ```
+
+2. Create a new [!DNL Snowflake Secure Data Share].
+
+    ```sql
+    CREATE OR REPLACE SHARE adobe_data_share;
+    ```
+
+3. Grant USAGE privilege on the database to the [!DNL Snowflake Secure Data Share] so it can access objects within the database.
+
+    ```sql
+    GRANT USAGE ON DATABASE my_database TO SHARE adobe_data_share;
+    ```
+
+4. Grant USAGE on the schema to the [!DNL Snowflake Secure Data Share] so it can access objects within the schema.
+
+    ```sql
+    GRANT USAGE ON SCHEMA my_database.my_schema TO SHARE adobe_data_share;
+    ```
+
+5. Grant SELECT privileges on the secure view to the [!DNL Snowflake Secure Data Share] so Adobe can read your audience data.
+
+    ```sql
+    GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
+    ```
+
+6. Add Adobe's [!DNL Snowflake] account to the [!DNL Snowflake Secure Data Share] using the correct identifier for your region. Refer to [the region/account mapping table above](#collect-account-information).
+
+    ```sql
+    ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
+    ```
+
+### Collect [!DNL Snowflake Share] details {#collect-share-details}
+
+Finally, gather the details for your [!DNL Snowflake Share] as shown in the table below. You will need this information to set up the connection between your [!DNL Snowflake Share] and Collaboration.
+
+| Field | Example |
+| -------------------------- | --------------- |
+| Account Identifier | CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT |
+| [!DNL Share] Name | adobe_data_share |
+| Schema Name | customer_schema |
+| View Name | secure_view_for_adobe |
+
+{style="table-layout:auto"}
+
 ## Configure your [!DNL Snowflake] connection {#configure-snowflake-connection}
+
+After completing the [Snowflake permission configuration](#set-up-snowflake-permissions) and ensuring all [prerequisites](#prerequisites) are satisfied, you can now connect your [!DNL Snowflake Secure Data Share] to Collaboration to start sourcing your audiences.
 
 From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace, select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Audience]**.  
 
