@@ -112,7 +112,9 @@ To refresh your **[!UICONTROL Connect code]**, select the refresh icon (![refres
 
 #### Send private connection invite {#send-private-connection-invite}
 
-Once you have the **[!UICONTROL Connect code]** from your collaborator, you can send a private connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner.
+Once you have the **[!UICONTROL Connect code]** from your collaborator, you can send a private connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner. 
+
+Then, select **[!UICONTROL Connect with invite code]**.
 
 ![The plus icon highlighted in the Connect workspace.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
@@ -296,6 +298,70 @@ Additionally, if you're a publisher connecting with an advertiser, you can now a
 > Once you've accepted the connection settings, you are no longer able to add or edit advertiser names.
 
 Next, select **[!UICONTROL Accept]** to proceed with the connection. The connection status will change to **[!UICONTROL Active]**, and you can now start collaborating on projects.
+
+## Invite a collaborator {#invite-collaborator}
+
+Follow the steps below to invite your partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
+
+Before initiating the invitation process, collect the following information from your collaborator:
+
+| Field | Description |
+|-------|-------------|
+| Company | The collaborator's company name. |
+| Name | The full name of the person you are inviting. |
+| Email address | The email address that the collaborator uses to access Real-Time CDP Collaboration [!DNL Starter]. |
+| Title | The main contact's job title. |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>By inviting another collaborator, you acknowledge that you are responsible for any charges incurred through their activities. Learn more about [credit usage and consumption in Collaboration Starter](../setup/starter-credit-usage.md)
+
+### Send an invitation {#send-invitation}
+
+Invite your partner organization to join Collaboration [!DNL Starter] directly through the user interface.
+
+To begin, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner. Then, select **[!UICONTROL Invite a collaborator]**.
+
+![The Connect workspace with the plus icon and the Invite a collaborator option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+The **[!UICONTROL Invite a collaborator]** dialog appears, prompting you to enter the information of the invited collaborator. Fill in the required fields for [!UICONTROL Company name], [!UICONTROL First name], [!UICONTROL Last name], and [!UICONTROL Email].
+
+>[!IMPORTANT]
+>
+>Invitations are **tied to the email address provided**. Ensure the email address is accurate, as the invited user must use that exact email to accept the invitation and access the product.
+
+Next, use the dropdown to choose the appropriate role for your partner. See the [account roles documentation](../overview/roles.md) for details on available role types in Collaboration.
+
+![The Invite a collaborator dialog with the Role dropdown highlighted.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+When finished, review the information and select **[!UICONTROL Send invite]**.
+
+![The Invite a collaborator dialog with the Send invite option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+A confirmation dialog confirms that the invite was successfully sent to your partner organization.
+
+![The confirmation dialog confirms that the invite was successfully sent.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+### Accept the invitation and sign terms {#accept-invitation-sign-terms}
+
+After you send the invitation, your partner organization receives an email with instructions to review and accept the Real-Time Collaboration terms and conditions. They can also explore the features of Collaboration before accepting.
+
+![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration [!DNL Starter] for their account.
+
+### Provisioning confirmation {#provisioning-confirmation}
+
+When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This email provides instructions on how to: 
+
+- [Configure administrator and user access](../setup/starter-admin-access.md)
+- [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
+
+![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+Once your partner has access to Collaboration, both you and the invited organization can [establish a connection](#connect) and [set up the connection settings](#configure-connection-settings) to start collaborating on projects.
 
 ## Next steps
 
