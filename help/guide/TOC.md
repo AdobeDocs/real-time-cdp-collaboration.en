@@ -32,7 +32,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Manage measurement data connection](./setup/manage-measurement-data-connection.md)
   * [Audit logs](./setup/audit-logs.md)
   * Real-Time CDP Collaboration Starter setup {#starter-setup}
-    * {hide-from-toc} [Configure admin access](./setup/starter-admin-access.md)
+    * [Configure admin access](./setup/starter-admin-access.md)
     * {hide-from-toc} [Configure permission controls](./setup/starter-permission-controls.md)
     * {hide-from-toc} [Credit usage and consumption](./setup/starter-credit-usage.md)
 * Establishing connections {#connect}
