@@ -64,7 +64,7 @@ Select your data source and then select **[!UICONTROL Next]**.
 
 ![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### Select sandbox
+#### Select sandbox {#select-sandbox}
 
 After selecting your data source, you must select the sandbox that includes the audiences that you want to use for Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
 
@@ -94,7 +94,7 @@ Once you have selected the marketing actions and consent rules, select **[!UICON
 
 ![The Governance policy and enforment actions dialog with the checkbox and OK option highlighted.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### Provide details
+### Provide details {#provide-details}
 
 Next, provide a name and a description for your data connection. This information will help you identify the data connection later on.
 
@@ -131,7 +131,7 @@ Next, provide a name and a description for your data connection. This informatio
 
 Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys).
 
-If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the [!DNL Demdex ID] is automatically extracted and mapped from [!DNL ECID] and you do not have to take any action. To learn more about [!DNL Demdex IDs], see the [!DNL Demdex ID](./onboard-account.md#supported-match-keys) guide.
+If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the [!DNL Demdex ID] is automatically extracted and mapped from [!DNL ECID] and you do not have to take any action. To learn more about [!DNL Demdex IDs], see the [[!DNL Demdex ID]](./onboard-account.md#supported-match-keys) guide.
 
 ![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -162,6 +162,11 @@ To handle sourcing a non-hashed field to a hashed target field, use the **[!UICO
 Continue adding mapping pairs for each target field. If you don't wish to use a match key, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If match key is removed, you will not be able to use it when sourcing any audiences from the connection.
 
 ![The Add audiences workspace with the Delete option beside a target field highlighted.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+If you add a new field and select **[!UICONTROL Demdex ID (ECID)]** as the target field, **[!UICONTROL ECID]** will be automatically selected as the corresponding source field. No further action is required.
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![The Add audiences workspace with the ECID source field auto-mapped to the Demdex ID (ECID) target field.](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 When you're finished mapping fields, select **[!UICONTROL Next]** to continue.
 
