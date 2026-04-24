@@ -41,23 +41,23 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Establish collaborator connections](./connect/establishing-connections.md)
   * [Manage connections](./connect/manage-connections.md)
   * Advertising platform connections {#ad-platform-connections}
-    * [Overview](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+    * [Overview](/help/guide/connect/advertising-platforms/overview.md)
     * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Collaborate {#collaborate}
-  * [Overview](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
+  * [Overview](/help/guide/collaborate/overview.md)
   * [Manage projects](./collaborate/manage-projects.md)
   * Collaborator connections {#collaborator-connections}
     * [Discover](./collaborate/discover.md)
     * [Activate](./collaborate/activate.md)
     * [Measure](./collaborate/measure.md)
   * Advertising platform connections {#ad-platform-connections}
-    * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+    * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * {hide-from-toc} [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
 * Destinations {#destinations}
-  * [Overview](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
+  * [Overview](/help/guide/destinations/overview.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permissions {#permissions}
-  * [Overview](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
+  * [Overview](/help/guide/permissions/overview.md)
   * [Manage user access](./permissions/manage-user-access.md)
   * [Manage roles](./permissions/manage-roles.md)
 * Reference {#reference}
