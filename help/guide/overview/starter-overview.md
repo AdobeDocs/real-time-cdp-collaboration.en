@@ -30,7 +30,7 @@ To initiate the invitation, provide the following information to your licensed p
 * Role (Advertiser/Publisher): Advertiser
 * Industry
 
-After you receive and accept the invitation, your organization must review and sign a no-cost Sales Order with Adobe to access Collaboration [!DNL Starter]. For more details on the invitation process, see the [inviting a collaborator to Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator-to-starter) guide.
+After you receive and accept the invitation, your organization must review and sign a no-cost Sales Order with Adobe to access Collaboration [!DNL Starter]. For more details on the invitation process, see the [inviting a collaborator to Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator) guide.
 
 ## Guardrails {#guardrails}
 
