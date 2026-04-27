@@ -334,11 +334,11 @@ Before initiating the invitation process, collect the following information from
 
 ### Send an invitation {#send-invitation}
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_starter_invite_collaborator"
->title="Invite a collaborator"
->abstract="Fill out this form to invite your partner organization to Collaboration Starter. The invitee will receive an invitation email and must use the specified email address to complete registration."
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Learn more about Collaboration Starter"
+>[!CONTEXTUALHELP] 
+>id="rtcdp_collaboration_starter_invite_collaborator" 
+>title="Invite a collaborator" 
+>abstract="Fill out this form to invite your partner organization to Collaboration Starter. The invitee will receive an invitation email and must use the specified email address to complete registration." 
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Learn more about Collaboration Starter" 
 
 Invite your partner organization to join Collaboration [!DNL Starter] directly through the user interface.
 
