@@ -114,6 +114,14 @@ Use the **[!UICONTROL Apply transformation]** option if you want to source a non
 
 ![The dropdown menu displaying all available target fields to map with the new source field.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
+##### Add [!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
+
+If you want to add [!DNL Demdex ID (ECID)] as a match key, first ensure it's [enabled in your account settings](../setup/onboard-account.md#set-up-match-keys). For more information on the [!DNL Demdex ID (ECID)], read [supported match keys](../setup/onboard-account.md#supported-match-keys).
+
+In the **[!UICONTROL Match keys]** dialog, add a new mapping field row. Then, select **[!UICONTROL ECID]** as the source field and select **[!UICONTROL Demdex ID (ECID)]** as the target field from the dropdown list.
+
+![The Match keys dialog with the mapping field for the Demdex ID (ECID) match key highlighted.](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
+
 After you finish mapping fields, review your updates and select **[!UICONTROL Confirm]** to apply the changes.
 
 ![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}

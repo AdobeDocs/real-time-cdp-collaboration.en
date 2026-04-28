@@ -67,7 +67,7 @@ The **[!UICONTROL Edit match keys]** dialog opens, where you can toggle off the 
 
 >[!NOTE]
 >
->At least one match key must be selected. In the current release, the only match keys available is **[!UICONTROL Hashed email]**, so you cannot remove this match key.
+>At least one match key must be selected.
 
 ![The Edit match keys dialog in the Audiece activation workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 

@@ -47,7 +47,7 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 >
 >After establishing to your first data connection and sourcing your first audience, you can then source multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
 
-A data connection is the source from which you ingest audiences into Collaboration. Supported sources include Adobe Experience Platform, CSV file upload, [!DNL Amazon S3], [!DNL Snowflake], and [!DNL Google Cloud Storage], each with its own workflow.
+A data connection is the source from which you ingest audiences into Collaboration. Supported sources include Adobe Experience Platform, CSV file upload, [!DNL Amazon S3], [!DNL Snowflake], and [!DNL Google Cloud Storage], each with its own workflow. Adobe Audience Manager will be available soon.
 
 The sections below describe selecting **Adobe Experience Platform** and completing the Experience Platform–specific steps (sandbox, governance, and consent). If you choose CSV, [!DNL Amazon S3], [!DNL Snowflake], or [!DNL Google Cloud Storage], use the guide linked under [Select data source](#select-data-source) for that option.
 
@@ -61,7 +61,7 @@ To begin adding your data connection, select **[!UICONTROL Add a new data connec
 
 ![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Select data source 
+#### Select data source {#select-data-source}
 
 Next, you'll choose the source for your data connection. The available sources include:
 
@@ -70,12 +70,13 @@ Next, you'll choose the source for your data connection. The available sources i
 * **Amazon Web Services**: Connect to your Amazon S3 storage to source audience data directly from your S3 buckets. See the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) guide for step-by-step instructions.
 * **Snowflake**: Use your Snowflake data warehouse to pull in audience data seamlessly. Refer to the [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md) guide.
 * **Google Cloud Storage**: Connect to your GCS buckets to source audience data. See the [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md) guide for step-by-step instructions.
+* **Adobe Audience Manager** (_Coming soon_): Source your audience segments from Adobe Audience Manager.
 
 Select your data source and then select **[!UICONTROL Next]**.
 
 ![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### Select sandbox
+#### Select sandbox {#select-sandbox}
 
 After selecting your data source, you must select the sandbox that includes the audiences that you want to use for Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
 
@@ -105,7 +106,7 @@ Once you have selected the marketing actions and consent rules, select **[!UICON
 
 ![The Governance policy and enforment actions dialog with the checkbox and OK option highlighted.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### Provide details
+### Provide details {#provide-details}
 
 Next, provide a name and a description for your data connection. This information will help you identify the data connection later on.
 
@@ -140,11 +141,9 @@ Next, provide a name and a description for your data connection. This informatio
 >abstract="Select attributes from the union schema for the Profile class in Experience Platform. This view displays attributes that are present in the union schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
-Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during account setup. 
+Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys).
 
->[!IMPORTANT]
->
->Currently, you cannot edit data connections to include new map fields. If you add new match keys to your account after your data connection has been created, you will need to create a new data connection to map to them.
+If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the [!DNL Demdex ID] is automatically extracted and mapped from ECID and you do not have to take any action. To learn more about [!DNL Demdex IDs], see the [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support) guide.
 
 ![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -175,6 +174,11 @@ To handle sourcing a non-hashed field to a hashed target field, use the **[!UICO
 Continue adding mapping pairs for each target field. If you don't wish to use a match key, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If match key is removed, you will not be able to use it when sourcing any audiences from the connection.
 
 ![The Add audiences workspace with the Delete option beside a target field highlighted.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+If you add a new field and select **[!UICONTROL Demdex ID (ECID)]** as the target field, **[!UICONTROL ECID]** will be automatically selected as the corresponding source field. No further action is required.
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![The Add audiences workspace with the ECID source field auto-mapped to the Demdex ID (ECID) target field.](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 When you're finished mapping fields, select **[!UICONTROL Next]** to continue.
 
