@@ -122,7 +122,7 @@ Device IDs are identifiers connected to a specific device. Currently supported I
 * **[!UICONTROL Hashed IPv4]**
 * **[!UICONTROL IDFA]**: The Identifier for Advertisers (IDFA) used in Apple iOS devices.
 * **[!UICONTROL GAID]**: Google Advertiser ID used in Android devices.
-* **[!UICONTROL Demdex ID (ECID)]**: When third-party cookies are enabled, the ECID will include Adobe's third-party cookie, Demdex ID. The Demdex ID can be used to match cookie-based, unauthenticated visitors.
+* **[!UICONTROL Demdex ID (ECID)]**: When third-party cookies are enabled, the ECID will include Adobe's third-party cookie, [!DNL Demdex ID]. The [!DNL Demdex ID] can be used to match cookie-based, unauthenticated visitors.
 
 ##### Partner IDs
 
