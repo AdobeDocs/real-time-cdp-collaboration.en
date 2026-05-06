@@ -148,6 +148,11 @@ Once finished, select **[!UICONTROL Start onboarding]**.
  
 ### Authenticate [!DNL Snowflake Share] connection {#authenticate-snowflake-share-connection}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_snowflake"
+>title="Add audience from Snowflake"
+>abstract="To connect your Snowflake Share, please authorize Adobe's service user to retrieve your audience data for processing. Follow the steps outlined in Experience League to grant Adobe access to your Snowflake Share."
+
 In this step, you need to provide the required [!DNL Snowflake Share] credentials to connect your [!DNL Snowflake Share] to Collaboration:
 
 | Field              | Description | Example                      |

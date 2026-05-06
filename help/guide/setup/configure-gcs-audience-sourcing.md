@@ -85,6 +85,11 @@ A prerequisite dialog outlining required configuration steps (for example, GCS b
 
 ### Enter your [!DNL Google Cloud Storage] connection details {#authenticate-gcs-connection}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Add audience from Google Cloud Storage"
+>abstract="To connect your Google Cloud Storage, please authorize Adobe's service user to retrieve your audience data for processing. Follow the steps outlined in Experience League to grant Adobe access to your Google Cloud Storage."
+
 Provide the details required to allow Collaboration to access your [!DNL Google Cloud Storage] bucket. After entering the required information, select **[!UICONTROL Next]**.
 
 | Field | Description |
