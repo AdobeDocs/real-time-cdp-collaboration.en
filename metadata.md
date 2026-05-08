@@ -1,6 +1,9 @@
 ---
 cloud: Experience Cloud
 solution: Real-Time Customer Data Platform
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    label: "Real-Time Customer Data Platform"
 product: experience cloud
 landing-page-name: experience-platform
 landing-page-breadcrumb-title: Experience Platform
