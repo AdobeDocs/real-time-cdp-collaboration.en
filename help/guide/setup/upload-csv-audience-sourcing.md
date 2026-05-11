@@ -56,6 +56,11 @@ Select **[!UICONTROL CSV File]** as a data connection, followed by **[!UICONTROL
 
 ### Select file {#select-file}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_csv"
+>title="Add audience from CSV files"
+>abstract="Upload a CSV file from your computer to source your audiences into Real-Time CDP Collaboration."
+
 Choose **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
 
 >[!IMPORTANT]
