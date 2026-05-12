@@ -2,6 +2,15 @@
 title: Upload CSV file for Audience Sourcing
 description: Learn how to upload your CSV file as a self-service data source to ingest audience data into Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
+TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Upload CSV file for audience sourcing
 
@@ -9,7 +18,7 @@ This guide provides steps to upload a CSV file in the Adobe Real-Time CDP Collab
 
 ## Overview {#overview}
 
-CSV file upload is one method to source first-party audience data for collaboration projects. This is an alternative to [connecting your AWS S3 bucket](./configure-aws-s3-audience-sourcing.md) or [sourcing audiences from Experience Platform](./onboard-audiences.md).
+CSV file upload is one method to source first-party audience data for collaboration projects. This is an alternative to [connecting your AWS S3 bucket](./configure-aws-s3-audience-sourcing.md), [connecting Google Cloud Storage](./configure-gcs-audience-sourcing.md), or [sourcing audiences from Experience Platform](./onboard-audiences.md).
 
 Follow this workflow to upload a CSV file containing your audience data to source and manage first-party audiences within Collaboration. You can map identity fields for activation and overlap analysis. Once your file is uploaded and processed, the sourced audience becomes available in the **[!UICONTROL My audiences]** workspace, where you can review, activate, and manage for your collaboration projects.
 
@@ -46,6 +55,11 @@ Select **[!UICONTROL CSV File]** as a data connection, followed by **[!UICONTROL
 ![The data connection selection screen with CSV File available as a selectable option.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
 ### Select file {#select-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_csv"
+>title="Add audience from CSV files"
+>abstract="Upload a CSV file from your computer to source your audiences into Real-Time CDP Collaboration."
 
 Choose **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
 

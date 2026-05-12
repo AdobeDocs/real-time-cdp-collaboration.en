@@ -4,6 +4,26 @@ description: Learn how to set up Real-Time CDP Collaboration, configure roles an
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # Real-Time CDP Collaboration quick start guide
 
@@ -21,7 +41,7 @@ Before you begin, ensure you have the following:
 - [Roles created for your organization and assigned to users](./permissions/manage-roles.md).
 - Access to branding assets, such as your organization's name, logo, and banner.
 - A [defined match key strategy](./setup/onboard-account.md#set-up-match-keys)
-- (Optional) Access to a supported cloud source (Amazon S3 or Snowflake) if you're not using Experience Platform for audience management.
+- (Optional) Access to a supported cloud source (Amazon S3, Google Cloud Storage, or Snowflake) if you're not using Experience Platform for audience management.
 
 ## Step 1: Complete role-based setup {#complete-role-based-setup}
 
@@ -114,13 +134,13 @@ To see a full walkthrough of how to source audiences using Collaboration, watch 
 
 Alternatively, see the document on [sourcing audiences in Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
-### Option B: Source from Snowflake or Amazon S3 
+### Option B: Source from Snowflake, Amazon S3, or Google Cloud Storage 
 
-To configure a cloud source, such as [!DNL Snowflake] or [!DNL Amazon S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
+To configure a cloud source, such as [!DNL Snowflake], [!DNL Amazon S3], or [!DNL Google Cloud Storage], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
 
-You can configure [!DNL Amazon S3] as a self-service data source. For setup instructions, see the [Amazon S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
+You can configure [!DNL Amazon S3], [!DNL Google Cloud Storage], or [!DNL Snowflake] as self-service data sources. For setup instructions, see the [Amazon S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md), the [GCS sourcing guide](./setup/configure-gcs-audience-sourcing.md), or the [Snowflake sourcing guide](./setup/configure-snowflake-audience-sourcing.md).
 
-If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup.
+For other cloud service providers, contact your Adobe account representative to finalize the setup.
 
 >[!IMPORTANT]
 >
@@ -148,10 +168,6 @@ To configure a cloud destination (for example, [!DNL AWS S3] or [!DNL Snowflake]
 Audience data sent to a cloud destination follows a predefined schema. For a detailed description of the required fields and format, download the [Collaboration Audience Activation Guide](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf).
 
 ## Step 5: Set up measurement (optional) {#set-up-measurement}
-
->[!AVAILABILITY]
->
->This feature is in **beta** and available exclusively to customers in the Limited Availability program. Contact your Adobe representative to request access.
 
 >[!IMPORTANT]
 >
