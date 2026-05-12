@@ -15,7 +15,7 @@ This guide covers the end-to-end configuration workflow: preparing prerequisites
 
 Audiences sourced from [!DNL Google Cloud Storage] follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform.
 
-Other available sourcing methods include [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md), and [CSV file upload](./upload-csv-audience-sourcing.md).
+Other available sourcing methods include [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md), and [CSV file upload](./upload-csv-audience-sourcing.md). To learn more about all available sources in Collaboration, see [Sources overview](./source-overview.md).
 
 ## Prerequisites {#prerequisites}
 

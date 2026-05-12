@@ -142,4 +142,4 @@ You have now successfully uploaded your CSV file in Collaboration. After sourcin
 * Review audience overlap and insights. See [Measure campaign performance](../../guide/collaborate/measure.md).
 * Manage your audience settings and visibility. See [Source and manage audiences](./onboard-audiences.md).
 
-For information about other audience sourcing methods, see [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) or [Source audiences from Experience Platform](./onboard-audiences.md).
+To learn more about all available sources in Collaboration, see [Sources overview](./source-overview.md).

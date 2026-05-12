@@ -11,7 +11,7 @@ Learn how to configure and connect your [!DNL Snowflake Secure Data Share] in th
 
 ## Overview {#overview}
 
-[!DNL Snowflake] is one of the supported options for sourcing first-party audience data into Collaboration. Other available methods include sourcing audiences from [Experience Platform](./onboard-audiences.md), connecting an [[!DNL AWS S3] bucket](./configure-aws-s3-audience-sourcing.md), or uploading a [CSV file](./upload-csv-audience-sourcing.md).
+[!DNL Snowflake] is one of the supported options for sourcing first-party audience data into Collaboration. Other available methods include sourcing audiences from [Experience Platform](./onboard-audiences.md), connecting an [[!DNL AWS S3] bucket](./configure-aws-s3-audience-sourcing.md), or uploading a [CSV file](./upload-csv-audience-sourcing.md). To learn more about all available sources in Collaboration, see [Sources overview](./source-overview.md).
 
 Follow the steps below to connect your [!DNL Snowflake Secure Data Share] and source your audience data into Collaboration. Once the setup is complete, you can review, activate, and manage your sourced audiences for your collaboration projects.
 
