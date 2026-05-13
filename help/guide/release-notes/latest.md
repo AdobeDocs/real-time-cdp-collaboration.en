@@ -27,23 +27,48 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-**Last update**: March 2026.
+**Last update**: April 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
 
+## April 2026 {#april-2026}
+
+New features are now available in Real-Time CDP Collaboration, including Collaboration [!DNL Starter] for inviting partners, expanded audience sourcing from [!DNL Snowflake] and [!DNL Google Cloud Storage], support for [!DNL Demdex ID (ECID)] as a match key, and two new collaborator roles: Agency and Data partner.
+
+**New or updated features**
+
+| Feature | Description |
+| ------- | ----------- |
+| Real-Time CDP Collaboration [!DNL Starter] | You can now invite partners who do not have a Collaboration license to collaborate with you through Collaboration [!DNL Starter]. Invited partners can source audiences, discover overlaps, and activate audiences within the shared connection. See the [Collaboration [!DNL Starter] overview](../overview/starter-overview.md) to get started. |
+| Self-service audience sourcing from [!DNL Snowflake] and [!DNL Google Cloud Storage] | You can now source first-party audiences directly from your [!DNL Snowflake Secure Data Share] or [!DNL Google Cloud Storage] bucket into Collaboration. For setup instructions, see the following guides: <ul><li>[Configure [!DNL Snowflake] for audience sourcing](../setup/configure-snowflake-audience-sourcing.md) </li><li> [Configure [!DNL Google Cloud Storage] for audience sourcing](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| [!DNL Demdex ID] match key | [!DNL Demdex ID (ECID)] is now supported as a match key for matching anonymous cookie-based identities across platforms. It improves audience overlap accuracy without relying on authenticated user data. See [supported match keys](../setup/onboard-account.md#supported-match-keys) for details. |
+| New collaborator roles | Collaboration now supports two additional collaborator roles, including **Agency** and **Data partner**. These roles expand how different organizations can participate and work together within the platform. Learn more about: <ul><li>[Collaborator account roles](../overview/roles.md)</li><li>[Collaboration patterns](../overview/collaboration-patterns.md)</li><li>[End-to-end workflow](../overview/end-to-end-workflow.md)</li></ul> |
+
+{style="table-layout:auto"}
+
 ## March 2026 {#march-2026}
 
-New features are now available to all users in Real-Time CDP Collaboration, including comprehensive measurement reporting, lifecycle management for measurement, and expanded options for self-service audience sourcing.
+You can now generate campaign measurement reports, manage your measurement data and reporting lifecycle in Real-Time CDP Collaboration.
 
 **New or updated features**
 
 | Feature | Description |
 | ------- | ----------- |
 | Measurement general availability | Measurement reporting is now generally available in Collaboration. You can now enter campaign IDs associated to marketing campaigns as a publisher, source conversion data as an advertiser, and generate two types of reports: **Campaign Summary** for overall campaign results, and **Attribution** for campaign effectiveness insights. To get started, see the following guides: <ul><li>[Input campaign IDs](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[Source conversion data](../setup/onboard-measurement-data.md)</li><li>[Create and view measurement reports](../collaborate/measure.md)</li></ul> |
-| Measurement lifecycle management | Collaboration also supports proactive measurement management:<ul><li> Advertisers can now edit or delete both measurement data connections and associated conversion events to ensure accurate and up-to-date campaign analysis. For step-by-step guidance, see how to manage your [measurement data connection](../setup/manage-measurement-data-connection.md) and [conversion events](../setup/onboard-measurement-data.md).</li><li>You can also edit or delete scheduled measurement reports directly from the **[!UICONTROL Measure]** tab in any collaboration project. This functionality is available to all users, including advertisers and publishers. See the [manage measurement reports](../collaborate/measure.md) guide for more details.</li></ul> |
-| Self-service audience sourcing through [!DNL Snowflake] | You can now bring your first-party audiences directly into Collaboration from your [!DNL Snowflake] account. For detailed instructions, see how to [configure [!DNL Snowflake] for audience sourcing](../setup/configure-snowflake-audience-sourcing.md). |
+| Measurement lifecycle management | Collaboration also supports measurement management:<ul><li> Advertisers can now edit or delete both measurement data connections and associated conversion events to ensure accurate and up-to-date campaign analysis. For more details, see [Manage measurement data connection](../setup/manage-measurement-data-connection.md) and [Manage conversion events](../setup/onboard-measurement-data.md#edit-measurement-data).</li><li>You can also edit or delete scheduled measurement reports directly from the **[!UICONTROL Measure]** tab in any collaboration project. This is available to all users. See the [manage measurement reports guide](../collaborate/measure.md) for more details.</li></ul> |
 
 {style="table-layout:auto"}
+
+## February 2026 {#february-2026}
+
+Real-Time CDP Collaboration now supports editing existing connection and data connection settings directly in the interface.
+
+**New or updated feature**
+
+| Feature | Description |
+| ------- | ----------- |
+| Edit connection settings | Connection owners can now update use cases, match keys, activation permissions, and credit splits after a connection is established. See [Edit connection](../connect/manage-connections.md#edit-connection) for step-by-step instructions. |
+| Edit data connections | Update match keys and scheduling configurations for your existing data connections directly within Collaboration. See [Edit data connection](../setup/manage-data-connection.md#edit-data-connection) for step-by-step instructions. |
 
 ## January 2026 {#january-2026}
 
