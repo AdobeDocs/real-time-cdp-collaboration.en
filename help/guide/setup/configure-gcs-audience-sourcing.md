@@ -32,7 +32,7 @@ Before proceeding, confirm the following with your [!DNL Google Cloud] administr
 
 ### Prepare your audience data {#prepare-audience-data}
 
-Your audience files must conform to the **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** before sourcing begins. Review the specification for the full schema definition and field-level examples. Key requirements include:
+Your audience files must conform to the **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** before sourcing begins. Review the specification for the full schema definition and field-level examples. Key requirements include:
 
 * **File format:** CSV, using commas as field delimiters and pipes (`|`) as separators for multiple values within a single field.
 * **Required fields:** Every record must include an `AUDIENCE_ID` column and at least one supported match key column.

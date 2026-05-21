@@ -27,7 +27,7 @@ Before configuring your [!DNL Snowflake] connection, make sure you meet the foll
   * **Schema**
   * **View**
 
-* The audience data in your [!DNL Snowflake Secure Data Share] must meet the format requirements outlined in the [Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) guide.
+* The audience data in your [!DNL Snowflake Secure Data Share] must meet the format requirements outlined in the [Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) guide.
 * All match keys in your [!DNL Snowflake] audience file must also be enabled for your Collaboration account. Learn how to [enable match keys](./onboard-account.md#set-up-match-keys) or [add new match keys](./onboard-account.md#edit-match-keys) to your account.
 
 ## Set up [!DNL Snowflake] permissions {#setup-snowflake-permissions}
@@ -180,7 +180,7 @@ In the **[!UICONTROL Provide details]** view, enter a descriptive name and optio
 
 ### Map fields {#map-fields}
 
-The **[!UICONTROL Mapping]** screen is read-only at this time. You cannot add, delete, or apply transformations. Collaboration automatically maps source identity fields from your [!DNL Snowflake Share] data to target fields based on the **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+The **[!UICONTROL Mapping]** screen is read-only at this time. You cannot add, delete, or apply transformations. Collaboration automatically maps source identity fields from your [!DNL Snowflake Share] data to target fields based on the **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 
 Visually confirm the mapped fields and select **[!UICONTROL Next]** to continue. You can also preview a sample data from your [!DNL Snowflake Share] with the **[!UICONTROL Preview source data]** option.
 

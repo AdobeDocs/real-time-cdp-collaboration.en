@@ -22,7 +22,7 @@ Audiences sourced through S3 follow the same governance and data handling rules 
 
 Before configuring your S3 data connection, ensure the following:
 
-* You have access to an active **[!DNL Amazon S3] bucket** containing audience files that conform to the **[Audience Sourcing Specification (v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+* You have access to an active **[!DNL Amazon S3] bucket** containing audience files that conform to the **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 * You have created an **IAM role** in AWS that grants Adobe permission to access your bucket using the **assumed role** method (not access/secret keys). See **[Configure AWS permissions for audience sourcing](./configure-aws-permissions-audience-sourcing.md)** for detailed instructions. The IAM role must include the following permissions:
   
   * `ListBucket`
