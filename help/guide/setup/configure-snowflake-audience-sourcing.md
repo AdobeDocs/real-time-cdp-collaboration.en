@@ -180,7 +180,7 @@ In the **[!UICONTROL Provide details]** view, enter a descriptive name and optio
 
 ### Map fields {#map-fields}
 
-The **[!UICONTROL Mapping]** screen is read-only at this time. You cannot add, delete, or apply transformations. Collaboration automatically maps source identity fields from your [!DNL Snowflake Share] data to target fields based on the **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+The **[!UICONTROL Mapping]** screen is read-only at this time. You cannot add, delete, or apply transformations. Collaboration automatically maps source identity fields from your [!DNL Snowflake Share] data to target fields based on the **[Audience Sourcing Specification (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**. 
 
 Visually confirm the mapped fields and select **[!UICONTROL Next]** to continue. You can also preview a sample data from your [!DNL Snowflake Share] with the **[!UICONTROL Preview source data]** option.
 
