@@ -32,7 +32,7 @@ Before proceeding, confirm the following with your [!DNL Google Cloud] administr
 
 ### Prepare your audience data {#prepare-audience-data}
 
-Your audience files must conform to the **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** before sourcing begins. Review the specification for the full schema definition and field-level examples. Key requirements include:
+Your audience files must conform to the **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** before sourcing begins. Review the specification for the full schema definition and field-level examples. Key requirements include:
 
 * **File format:** CSV, using commas as field delimiters and pipes (`|`) as separators for multiple values within a single field.
 * **Required fields:** Every record must include an `AUDIENCE_ID` column and at least one supported match key column.
@@ -79,7 +79,7 @@ The data source selection screen lists all available connection types. Select **
 
 ![The Add audience workflow showing the data source selection screen with Google Cloud Storage selected and Next highlighted.](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-A prerequisite dialog outlining required configuration steps (for example, GCS bucket setup and IAM role assignment) appears and notes that data must comply with the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**. Select **[!UICONTROL Start onboarding]** to confirm compliance before proceeding.
+A prerequisite dialog outlining required configuration steps (for example, GCS bucket setup and IAM role assignment) appears and notes that data must comply with the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**. Select **[!UICONTROL Start onboarding]** to confirm compliance before proceeding.
 
 ![The "Prepare your GCS bucket for onboarding" modal listing prerequisites, including creating a GCS bucket, configuring IAM access for Adobe, and complying with the Audience Sourcing Specification, with Cancel and "Start onboarding" options.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
@@ -124,7 +124,7 @@ The **[!UICONTROL Mapping]** screen is read-only. Collaboration automatically ma
 
 ![The "GCS data preview" dialog showing a sample table of audience data with columns such as AUDIENCE_ID and HASHED_EMAIL_SHA_256, and a Close button in the bottom-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-Confirm that the displayed mappings reflect the fields in your audience files. If they do not, stop and correct your files to conform to the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) before proceeding. Select **[!UICONTROL Next]** to continue.
+Confirm that the displayed mappings reflect the fields in your audience files. If they do not, stop and correct your files to conform to the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) before proceeding. Select **[!UICONTROL Next]** to continue.
 
 ![Add audience workflow on the "Map fields" step showing auto-mapped source fields (AUDIENCE\_ID and HASHED\_EMAIL\_SHA\_256) to target identity fields, with the "Preview source data" option visible and the Next button in the top-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -227,7 +227,7 @@ Use this section to resolve issues that occur after you establish the initial co
 
 **Audience file format errors occur during a scheduled refresh**
 
-* Confirm that updated files in the bucket comply with the column structure and field requirements in the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
+* Confirm that updated files in the bucket comply with the column structure and field requirements in the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf).
 * Ensure all files in the configured folder path use identical column structures. Mixed-format files in the same path can cause partial sourcing failures.
 
 ## Set up [!DNL Google Cloud Storage] permissions {#setup-gcs-permissions}

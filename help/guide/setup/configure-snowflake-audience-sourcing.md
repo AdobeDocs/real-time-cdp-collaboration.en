@@ -27,7 +27,7 @@ Before configuring your [!DNL Snowflake] connection, make sure you meet the foll
   * **Schema**
   * **View**
 
-* The audience data in your [!DNL Snowflake Secure Data Share] must meet the format requirements outlined in the [Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) guide.
+* The audience data in your [!DNL Snowflake Secure Data Share] must meet the format requirements outlined in the [Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) guide.
 * All match keys in your [!DNL Snowflake] audience file must also be enabled for your Collaboration account. Learn how to [enable match keys](./onboard-account.md#set-up-match-keys) or [add new match keys](./onboard-account.md#edit-match-keys) to your account.
 
 ## Set up [!DNL Snowflake] permissions {#setup-snowflake-permissions}
@@ -140,7 +140,7 @@ Next, select **[!UICONTROL Snowflake]** as a data connection, followed by **[!UI
 >abstract="Read the Audience Sourcing Specification guide to learn how to format and structure audience data from Snowflake for Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="See the guide"
 
-A dialog appears, explaining the requirements of the [!DNL Snowflake Share] and the [!DNL Snowflake] audience file before you can start sourcing. Make sure your [!DNL Snowflake Share] is created with the correct share name, account identifier, schema, and view. To confirm that your audience data is formatted and structured correctly for use in Collaboration, review the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** guide.
+A dialog appears, explaining the requirements of the [!DNL Snowflake Share] and the [!DNL Snowflake] audience file before you can start sourcing. Make sure your [!DNL Snowflake Share] is created with the correct share name, account identifier, schema, and view. To confirm that your audience data is formatted and structured correctly for use in Collaboration, review the **[[!UICONTROL Audience Sourcing Specification]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** guide.
 
 Once finished, select **[!UICONTROL Start onboarding]**.
 
@@ -180,7 +180,7 @@ In the **[!UICONTROL Provide details]** view, enter a descriptive name and optio
 
 ### Map fields {#map-fields}
 
-The **[!UICONTROL Mapping]** screen is read-only at this time. You cannot add, delete, or apply transformations. Collaboration automatically maps source identity fields from your [!DNL Snowflake Share] data to target fields based on the **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
+The **[!UICONTROL Mapping]** screen is read-only at this time. You cannot add, delete, or apply transformations. Collaboration automatically maps source identity fields from your [!DNL Snowflake Share] data to target fields based on the **[Audience Sourcing Specification (v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
 
 Visually confirm the mapped fields and select **[!UICONTROL Next]** to continue. You can also preview a sample data from your [!DNL Snowflake Share] with the **[!UICONTROL Preview source data]** option.
 
