@@ -5,54 +5,39 @@ audience: admin, publisher, advertiser
 ---
 # Sources overview
 
-In Adobe Real-Time CDP Collaboration, a source (or data connection) is where your audience data comes from. You can connect to various source types such as Adobe applications, cloud-based storages, or files from your local system. 
+In Adobe Real-Time CDP Collaboration, a source (or data connection) is where your audience data comes from. You can connect to various source types such as Adobe applications, cloud-based storages, or files from your local system, to [source and manage audiences](./onboard-audiences.md) for your Collaboration projects. During the audience sourcing workflow, you can choose and set up your preferred source based on your organization's needs.
 
-This page provides a high-level overview of each source type that you can use in Collaboration and links to the setup guides for each.
+## Connect a source {#connect-a-source}
 
-## Source catalog {#source-catalog}
+To connect a source, you need to enter the sourcing workflow. First, navigate to the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace.
 
-The following source types are currently available in the Real-Time CDP Collaboration source catalog.
+Select the add icon (![Add icon.](/help/assets/icons/plus.png)) and then select **[!UICONTROL Audience]** to start the sourcing workflow.
 
-### Adobe Experience Platform {#adobe-experience-platform}
+![My audiences workspace with the Add option and Audiences option highlighted.](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
-Adobe Experience Platform is Adobe's real-time customer data platform. Use this source to bring in audiences from your connected Experience Platform instance and reuse your existing customer segments for audience activation, overlap analysis, and collaborative campaigns.
+During the workflow, you will be prompted to add a new data connection by selecting a source. The source you choose determines how your audience data is brought into Collaboration. See the [available sources](#available-sources) table for a list of all supported sources.
 
-For detailed instructions, see [Source and manage audiences guide](./onboard-audiences.md).
+![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
 
-### Adobe Audience Manager {#adobe-audience-manager}
+After selecting a source, the workflow guides you through the connection-specific setup steps, including authentication, field mapping, scheduling, and audience selection.
 
-Adobe Audience Manager is Adobe's data management platform that builds rich audience profiles and segments for targeted advertising and analytics. Use this source to bring existing Audience Manager segments into your Collaboration projects. Support for sourcing audiences from Audience Manager is coming soon.
+### Available sources {#available-sources}
 
-### Amazon S3 {#amazon-s3}
+The following sources are available in Collaboration. To view the step-by-step sourcing guide for that source, select the source name in the table below. If you are interested in a source that is not currently available, please contact your Adobe representative.
 
-Amazon S3 is a cloud-based storage service provided by [!DNL Amazon Web Services (AWS)]. Connect your S3 buckets as a source to bring audience data into Collaboration. This method is well suited for:
+| Source | Description | Availability |
+| --- | --- | --- |
+| [Adobe Experience Platform](./onboard-audiences.md) | Bring in audiences from your connected Experience Platform instance and reuse existing customer segments. | Available |
+| [Amazon S3](./configure-aws-s3-audience-sourcing.md) | Connect your S3 buckets to source large first-party datasets from your cloud infrastructure. | Available |
+| [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | Connect your [!DNL Snowflake Secure Data Share] to bring in large-scale audience datasets. | Available |
+| [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | Connect your GCS buckets to bring in audience data stored in your [!DNL Google Cloud] environment. | Available |
+| [CSV file upload](./upload-csv-audience-sourcing.md) | Upload a formatted CSV file directly from your local system. | Available |
+| Adobe Audience Manager | Bring existing Audience Manager segments into your Collaboration projects. | *Coming soon* |
+| [!DNL Azure Blob Storage] | Connect your [!DNL Azure Blob Storage] containers to source first-party datasets from your [!DNL Microsoft Azure] environment. | *Coming soon* |
+| [!DNL Azure Data Lake Storage] | Connect your [!DNL Azure Data Lake Storage Gen 2] account to bring in audience data stored in your [!DNL Azure] data lake. | *Coming soon* |
 
-* Ingesting large first-party datasets directly from your cloud infrastructure. 
-* Scaling and securing audience onboarding workflows.
+{style="table-layout:auto"}
 
-Collaboration supports authentication to your S3 storage and sourcing audience files in the supported format. 
+## Next steps
 
-For detailed instructions, see [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md).
-
-### [!DNL Snowflake] {#snowflake}
-
-[!DNL Snowflake] is a cloud-based data warehouse platform. Connect your [!DNL Snowflake Secure Data Share] as a source to bring large-scale audience datasets directly into Collaboration. This workflow is well suited for secure, high-volume data exchange for audience analysis and activation within your collaborative projects.
-
-For detailed instructions, see [Configure Snowflake for audience sourcing](./configure-snowflake-audience-sourcing.md).
-
-### [!DNL Google Cloud Storage] {#gcs}
-
-[!DNL Google Cloud Storage] (GCS) is [!DNL Google]'s scalable cloud storage service. Connect your GCS buckets to Collaboration to bring in audience data stored in your [!DNL Google Cloud] environment. This enables direct ingestion of first-party audiences for collaboration use cases.
-
-For detailed instructions, see [Configure [!DNL Google Cloud Storage] for audience sourcing](./configure-gcs-audience-sourcing.md).
-
-### CSV files {#csv}
-
-You can source your audiences directly from your local system by uploading a properly formatted CSV file. This method is ideal when:
-
-* Your audience data is exported as files 
-* Your data is not currently stored in a supported cloud or Adobe application. 
-
-The upload workflow supports mapping identity fields for activation and overlap analysis, and ensures your audience data is ready for use in Collaboration projects.
-
-See [Upload CSV file for audience sourcing](./upload-csv-audience-sourcing.md) for step-by-step instructions.
+After you connect a source and bring in your audiences, you can view details, update configurations, or delete existing sources. For more information, see the [Manage data connections](./manage-data-connection.md) guide.
