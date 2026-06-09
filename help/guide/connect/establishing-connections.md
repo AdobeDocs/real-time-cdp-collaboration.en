@@ -26,11 +26,11 @@ topic_v2:
 Before collaborators can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance. 
 
 Collaboration supports the following invite methods:
-- [Public connection invite](#discover-collaborators): Connect with another licensed customer through the Discover collaborators workspace.
-- [Private connection invite](#private-connection-invite): Connect directly with another licensed customer by using a Connect code.
+
+- [Public connection invite](#discover-collaborators): Connect with another licensed customer through the **[!UICONTROL Discover collaborators]** workspace.
+- [Private connection invite](#private-connection-invite): Connect directly with another licensed customer by using a connect code.
 - [Starter invite](#invite-non-licensed-collaborator): Connect with an organization that does not have a license.
 - [Authentication](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): Connect with a supported third-party advertising platform.
-
 
 Connections are established based on your chosen collaboration pattern. Collaboration supports two key collaboration patterns: advertiser-to-publisher and brand-to-brand. To read more about these patterns, see the [use cases](/help/guide/overview/use-cases.md) guide.
 
