@@ -47,7 +47,7 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 >
 >After establishing to your first data connection and sourcing your first audience, you can then source multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
 
-A data connection is the source from which you ingest audiences into Collaboration. Supported sources include Adobe Experience Platform, CSV file upload, [!DNL Amazon S3], [!DNL Snowflake], and [!DNL Google Cloud Storage], each with its own workflow. Adobe Audience Manager will be available soon.
+A data connection is the source from which you ingest audiences into Collaboration. To learn more about all available sources, see [Sources overview](./source-overview.md).
 
 The sections below describe selecting **Adobe Experience Platform** and completing the Experience Platform–specific steps (sandbox, governance, and consent). If you choose CSV, [!DNL Amazon S3], [!DNL Snowflake], or [!DNL Google Cloud Storage], use the guide linked under [Select data source](#select-data-source) for that option.
 
