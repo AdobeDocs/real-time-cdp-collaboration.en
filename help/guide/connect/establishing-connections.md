@@ -25,6 +25,13 @@ topic_v2:
 
 Before collaborators can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance. 
 
+Collaboration supports the following invite methods:
+
+- [Public connection invite](#discover-collaborators): Connect with another licensed customer through the **[!UICONTROL Discover collaborators]** workspace.
+- [Private connection invite](#private-connection-invite): Connect directly with another licensed customer by using a connect code.
+- [Starter invite](#invite-non-licensed-collaborator): Connect with an organization that does not have a license.
+- [Authentication](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): Connect with a supported third-party advertising platform.
+
 Connections are established based on your chosen collaboration pattern. Collaboration supports two key collaboration patterns: advertiser-to-publisher and brand-to-brand. To read more about these patterns, see the [use cases](/help/guide/overview/use-cases.md) guide.
 
 To learn how to establish a connection, read the section below that corresponds to your collaboration pattern:
@@ -54,9 +61,6 @@ Once the connection settings are accepted, the connection is established, and co
 
 ![High-level diagram of the brand-to-brand connection process.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->This guide covers the connection process for the advertiser-to-publisher and brand-to-brand collaboration patterns. To learn about connecting with advertising platforms, see the [advertiser-to-advertising-platform connection](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) section in the [connections overview](/help/guide/connect/overview.md) guide.
 
 ## Connect {#connect} 
 
@@ -313,9 +317,9 @@ Additionally, if you're a publisher connecting with an advertiser, you can now a
 
 Next, select **[!UICONTROL Accept]** to proceed with the connection. The connection status will change to **[!UICONTROL Active]**, and you can now start collaborating on projects.
 
-## Invite a collaborator {#invite-collaborator}
+## Invite a non-licensed collaborator (Starter) {#invite-non-licensed-collaborator}
 
-Follow the steps below to invite your partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
+Follow the steps below to invite your non-licensed partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
 
 Before initiating the invitation process, collect the following information from your collaborator:
 
