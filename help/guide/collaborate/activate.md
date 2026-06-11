@@ -79,8 +79,6 @@ Finally, set the desired frequency and date range for the audience activation. U
 
 Use the **[!UICONTROL Date range]** field to define when the activation schedule starts and ends.
 
-![The Audience activation workflow with the Frequency section highlighted, showing a recurring frequency and selected date range.](/help/assets/collaborate/activate/frequency-settings.png)
-
 When satisfied with your selections, select **[!UICONTROL Activate]** to complete the workflow.
 
 ## Activate dashboard {#activate-dashboard}
