@@ -317,7 +317,7 @@ Additionally, if you're a publisher connecting with an advertiser, you can now a
 
 Next, select **[!UICONTROL Accept]** to proceed with the connection. The connection status will change to **[!UICONTROL Active]**, and you can now start collaborating on projects.
 
-## Invite a non-licensed collaborator (Starter) {#invite-non-licensed-collaborator}
+## Invite a non-licensed collaborator (Starter) {#invite-non-licensed-collaborator} 
 
 Follow the steps below to invite your non-licensed partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
 
