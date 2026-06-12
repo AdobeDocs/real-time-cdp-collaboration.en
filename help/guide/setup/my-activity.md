@@ -1,6 +1,6 @@
 ---
 title: Track your credit consumption activity
-description: Learn how to view your organization's credit summary and track estimated credit consumption activity in Real-Time CDP Collaboration.
+description: Learn how to view your organization's Credit Wallet and track credit consumption activity in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
@@ -33,9 +33,9 @@ topic_v2:
 
 >[!IMPORTANT]
 >
->The figures in the **[!UICONTROL My activity]** view, including the Credit Wallet and activity table, represent *estimated* credit usage for monitoring purposes. The credit consumption table is rounded up and aggregated by day. The *actual* credit consumption used for billing is tracked in internal systems and is available upon request. Contact your Adobe representative to obtain that information.
+>The figures in the **[!UICONTROL My activity]** view reflect credit usage data that refreshes daily. The *actual* credit consumption used for billing is tracked in internal systems and is available upon request. Contact your Adobe representative to obtain that information.
 
-To access your Credit Wallet and estimated credit consumption activity, navigate to **[!UICONTROL Setup]** in the main navigation, then select the **[!UICONTROL My activity]** tab.
+To access your Credit Wallet and credit consumption activity, navigate to **[!UICONTROL Setup]** in the main navigation, then select the **[!UICONTROL My activity]** tab.
 
 ![The My activity tab showing the Credit Wallet with credits provisioned, credits consumed, available credits, and the credit consumption activity table.](/help/assets/setup/my-activity-credits/activity-dashboard.png)
 
@@ -45,19 +45,19 @@ To access your Credit Wallet and estimated credit consumption activity, navigate
 
 ## Understand the My activity view {#understand-dashboard}
 
-Use the **[!UICONTROL My activity]** view to monitor your estimated credit usage and review the activities that consume credits. The view includes the Credit Wallet and an activity table.
+Use the **[!UICONTROL My activity]** view to monitor your credit usage and review the activities that consume credits. The view includes the Credit Wallet and an activity table.
 
 The Credit Wallet shows your provisioned credits, consumed credits, and available credits. 
 
 | Metric | Description |
 |---------|-------------|
 | **[!UICONTROL Credits provisioned]** | The number of credits provisioned for your account. |
-| **[!UICONTROL Credits consumed]** | The estimated number of credits consumed by your account. |
-| **[!UICONTROL Available credits]** | The estimated number of credits remaining for your account. |
+| **[!UICONTROL Credits consumed]** | The number of credits consumed by your account as of the most recent daily refresh. |
+| **[!UICONTROL Available credits]** | The number of credits available to your account, calculated from provisioned credits minus consumed credits. |
 
 {style="table-layout:auto"} 
 
-The activity table lists credit-consuming operations by date, activity type, inputs processed, and credits used:
+The activity table lists daily credit consumption records by date, activity type, inputs processed, and credits used:
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ The activity table lists credit-consuming operations by date, activity type, inp
 
 | Column   | Description  |
 |------------|--------------|
-| **[!UICONTROL Date]** | The date when the activity occurred. |
+| **[!UICONTROL Date]** | The date when the activity occurred, displayed in MM/DD/YYYY format. |
 | **[!UICONTROL Connection ID]** | A unique identifier for each connection associated with a credit-consuming activity, represented as an alphanumeric string. |
 | **[!UICONTROL Connection name]** | The name of the collaborator associated with the connection and the credit-consuming activity. |
 | **[!UICONTROL Activity]** | The type of activity performed, such as **[!UICONTROL Activation - Audience Access (Once)]**, **[!UICONTROL Activation - Audience Access (Recurring)]**, **[!UICONTROL Activation - Audience Egress (Once)]**, **[!UICONTROL Activation - Audience Egress (Recurring)]**, or **[!UICONTROL Audience Management]**. |
