@@ -73,9 +73,11 @@ The **[!UICONTROL Edit match keys]** dialog opens, where you can toggle off the 
 
 ### Set audience refresh frequency {#set-audience-refresh-frequency}
 
-Finally, set the desired frequency and date range for the audience to refresh. In the current release, the only supported frequency option is **[!UICONTROL Once]**. The **[!UICONTROL Once]** frequency means the audiences are activated a single time and are not refreshed. The **[!UICONTROL Date]** option is auto-populated with the current date.
+Finally, set the desired frequency and date range for the audience activation. Use the **[!UICONTROL Frequency]** dropdown to choose whether the audience is activated once or refreshed on a recurring schedule. Select **[!UICONTROL Once]** to activate the audience a single time, or select a recurring frequency such as **[!UICONTROL Daily]**, **[!UICONTROL Every 2 days]**, **[!UICONTROL Every 3 days]**, **[!UICONTROL Every 4 days]**, **[!UICONTROL Every 5 days]**, **[!UICONTROL Every 6 days]**, **[!UICONTROL Every 2 weeks]**, **[!UICONTROL Every 3 weeks]**, or **[!UICONTROL Monthly]**. 
 
-![The Audience activation workflow with the Frequency section highlighted.](/help/assets/collaborate/activate/audience-frequency.png)
+![The Frequency dropdown in the audience activation workflow showing available options, including Once, Daily, every 2 to 6 days, every 2 to 3 weeks, and Monthly.](/help/assets/collaborate/activate/activation-frequency.png)
+
+Use the **[!UICONTROL Date range]** field to define when the activation schedule starts and ends.
 
 When satisfied with your selections, select **[!UICONTROL Activate]** to complete the workflow.
 
@@ -98,7 +100,7 @@ Within each sent audience, you can see the following metrics:
 | **[!UICONTROL Identity count]** | The number of identities in the audience. |
 | **[!UICONTROL Overlapping identities]** | The number of overlapping identities between this audience and the total population of profiles across the collaborator's inventory. |
 | **[!UICONTROL Created]** | The date when the audience was initially sent. |
-| **[!UICONTROL Last sent]** | The date when the audience was last sent to your collaborator. |
+| **[!UICONTROL Last sent]** | The date when the audience was last made available to your collaborator through the activation workflow, either from a one-time activation or a recurring schedule. |
 | **[!UICONTROL Match keys]** | Indicates the match key used for the audience. |
 
 ## View activated audiences {#view-activated-audiences}
@@ -113,7 +115,7 @@ Within each activated audience, you can see the following metrics:
 | **[!UICONTROL Status]** | The status of the activated audience. |
 | **[!UICONTROL Identity count]** | The number of identities that were activated, based off the overlapping identities when your collaborator sent the audience. |
 | **[!UICONTROL Created]** | The date when the audience was activated. |
-| **[!UICONTROL Last refreshed]** | The date when the audience was last refreshed, based on the refresh schedule chosen during activation. |
+| **[!UICONTROL Last refreshed]** | The date when the audience was last refreshed, based on the frequency selected during activation. |
 | **[!UICONTROL Destination]** | The destination where the audience was activated to. |
 | **[!UICONTROL Match keys]** | Indicates the match key used for the audience. |
 
