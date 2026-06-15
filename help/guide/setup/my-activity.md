@@ -31,10 +31,6 @@ topic_v2:
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->The figures in the **[!UICONTROL My activity]** view reflect credit usage data that refreshes daily. The *actual* credit consumption used for billing is tracked in internal systems and is available upon request. Contact your Adobe representative to obtain that information.
-
 To access your Credit Wallet and credit consumption activity, navigate to **[!UICONTROL Setup]** in the main navigation, then select the **[!UICONTROL My activity]** tab.
 
 ![The My activity tab showing the Credit Wallet with credits provisioned, credits consumed, available credits, and the credit consumption activity table.](/help/assets/setup/my-activity-credits/activity-dashboard.png)
