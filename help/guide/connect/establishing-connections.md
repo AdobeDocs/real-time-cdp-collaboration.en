@@ -319,7 +319,7 @@ Next, select **[!UICONTROL Accept]** to proceed with the connection. The connect
 
 ## Invite a non-licensed collaborator (Starter) {#invite-non-licensed-collaborator} 
 
-Follow the steps below to invite your non-licensed partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
+Follow the steps below to invite your non-licensed partner to join Real-Time CDP Collaboration [!DNL Starter]. Invitations are sent directly to the collaborator’s email address and must be accepted before a connection can be established. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
 
 Before initiating the invitation process, collect the following information from your collaborator:
 
@@ -368,9 +368,14 @@ A confirmation dialog confirms that the invite was successfully sent to your par
 
 ![The confirmation dialog confirms that the invite was successfully sent.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+After you send the invitation, your partner organization receives an email with instructions to review and sign the Real-Time Collaboration terms and conditions.
+
 ### Accept the invitation and sign terms {#accept-invitation-sign-terms}
 
-After you send the invitation, your partner organization receives an email with instructions to review and accept the Real-Time Collaboration terms and conditions. They can also explore the features of Collaboration before accepting.
+To proceed, your invited partner organization must: 
+
+- Open the invitation email.
+- Follow the link to review and sign the Real-Time CDP Collaboration terms and conditions.
 
 ![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -378,10 +383,11 @@ Once your partner organization accepts the terms and conditions, Adobe begins pr
 
 ### Provisioning confirmation {#provisioning-confirmation}
 
-When the provision process is complete, a welcome email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This email provides instructions on how to: 
+When the provision process is complete, a second email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This welcome email provides instructions on how to: 
 
 - [Configure administrator and user access](../setup/starter-admin-access.md)
 - [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
+- [Establish a connection with the inviting collaborator](#connect)
 
 ![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -389,4 +395,4 @@ Once your partner has access to Collaboration, both you and the invited organiza
 
 ## Next steps
 
-After establishing a connection with your collaborator, you and your collaborator can now [create projects](/help/guide/collaborate/manage-projects.md#create-project).
+After establishing a connection, you can [create projects](/help/guide/collaborate/manage-projects.md#create-project) with your collaborator.
