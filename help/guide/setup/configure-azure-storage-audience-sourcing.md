@@ -34,6 +34,59 @@ Complete all items in this section before starting the configuration workflow. I
 
 Some steps require action by an **Azure administrator**. If you are not the Azure administrator for your organization, identify the appropriate person before starting.
 
+## Set up Azure permissions
+
+Grant Adobe read access using **Azure RBAC**. The same Adobe principal is typically used for both Blob and ADLS Gen2; confirm identifiers with your Adobe account team.
+
+### Collect Adobe's Azure principal information
+
+| Region | Adobe principal (TBD — confirm with Adobe) |
+|--------|---------------------------------------------|
+| North America | _Contact your Adobe account team_ |
+| EMEA | _Contact your Adobe account team_ |
+| Australia | _Contact your Adobe account team_ |
+
+### Set up Azure Blob Storage permissions
+
+**IMPORTANT:** You need permission to assign roles on the storage account or container (for example **Owner** or **User Access Administrator**, or equivalent).
+
+1. In the [Azure portal](https://portal.azure.com/), open **Storage account** > **Containers** > your **container**.
+2. **Access control (IAM)** > **Add role assignment**.
+3. Assign Adobe's principal:
+
+    | Role | Purpose |
+    |------|---------|
+    | **Storage Blob Data Reader** | Read and list blobs in the container. |
+
+4. Select **Save**.
+
+    | Field | Example |
+    |-------|---------|
+    | Storage account | `customerdatastore` |
+    | Container | `audience-ingest` |
+    | Path | `sourcing/audiences/path1/` |
+
+### Set up ADLS Gen2 permissions
+
+**Requirements:**
+
+- Storage account has **hierarchical namespace** enabled (Data Lake Storage Gen2).
+- Firewall / private endpoint rules allow Adobe access per your Adobe network guidance.
+
+**Role assignment:**
+
+1. Open **Storage account** > **Containers** > your **filesystem**.
+2. **Access control (IAM)** > **Add role assignment** > **Storage Blob Data Reader** for Adobe's principal at filesystem or directory scope.
+3. Select **Save**.
+
+| Field | Example |
+|-------|---------|
+| Storage account | `datalake-prod` |
+| Filesystem | `audiences` |
+| Path | `sourcing/inbound/` |
+
+After permissions are in place, complete the [configuration workflow](#configure-your-azure-connection).
+
 ### Azure access and permissions
 
 Before proceeding, confirm the following with your Azure administrator:
@@ -182,59 +235,6 @@ Under **Setup** > **My data connections**, your connection is listed with **Azur
 **Refresh / format errors**
 
 - Ensure new files keep the same column structure and hashing rules as the initial ingest.
-
-## Set up Azure permissions
-
-Grant Adobe read access using **Azure RBAC**. The same Adobe principal is typically used for both Blob and ADLS Gen2; confirm identifiers with your Adobe account team.
-
-### Collect Adobe's Azure principal information
-
-| Region | Adobe principal (TBD — confirm with Adobe) |
-|--------|---------------------------------------------|
-| North America | _Contact your Adobe account team_ |
-| EMEA | _Contact your Adobe account team_ |
-| Australia | _Contact your Adobe account team_ |
-
-### Set up Azure Blob Storage permissions
-
-**IMPORTANT:** You need permission to assign roles on the storage account or container (for example **Owner** or **User Access Administrator**, or equivalent).
-
-1. In the [Azure portal](https://portal.azure.com/), open **Storage account** > **Containers** > your **container**.
-2. **Access control (IAM)** > **Add role assignment**.
-3. Assign Adobe's principal:
-
-    | Role | Purpose |
-    |------|---------|
-    | **Storage Blob Data Reader** | Read and list blobs in the container. |
-
-4. Select **Save**.
-
-    | Field | Example |
-    |-------|---------|
-    | Storage account | `customerdatastore` |
-    | Container | `audience-ingest` |
-    | Path | `sourcing/audiences/path1/` |
-
-### Set up ADLS Gen2 permissions
-
-**Requirements:**
-
-- Storage account has **hierarchical namespace** enabled (Data Lake Storage Gen2).
-- Firewall / private endpoint rules allow Adobe access per your Adobe network guidance.
-
-**Role assignment:**
-
-1. Open **Storage account** > **Containers** > your **filesystem**.
-2. **Access control (IAM)** > **Add role assignment** > **Storage Blob Data Reader** for Adobe's principal at filesystem or directory scope.
-3. Select **Save**.
-
-| Field | Example |
-|-------|---------|
-| Storage account | `datalake-prod` |
-| Filesystem | `audiences` |
-| Path | `sourcing/inbound/` |
-
-After permissions are in place, complete the [configuration workflow](#configure-your-azure-connection).
 
 
 ## Next steps
