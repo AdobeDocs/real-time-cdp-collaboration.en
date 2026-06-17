@@ -9,6 +9,8 @@ Follow the steps in this guide to connect **Azure Blob Storage** or **Azure Data
 
 Connect Azure storage to Collaboration to ingest first-party audience data directly without engineering support. Once connected, Collaboration sources audiences from your container or data lake path on a recurring schedule and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before you can activate them or use them in overlap analysis with collaborators.
 
+Some steps in this guide require Azure administrative permissions and may need to be completed by your Azure administrator.
+
 This guide covers the end-to-end configuration workflow: choosing the right Azure source type, preparing prerequisites, granting Adobe access in Azure, completing the configuration wizard, reviewing auto-mapped identity fields, scheduling data refresh, and confirming that sourcing completed successfully.
 
 Audiences sourced from Azure follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform.
@@ -34,17 +36,22 @@ Complete all items in this section before starting the configuration workflow. I
 
 Some steps require action by an **Azure administrator**. If you are not the Azure administrator for your organization, identify the appropriate person before starting.
 
+### Azure access and permissions
+
+Before proceeding, confirm the following with your Azure administrator:
+
+- Adobe has been granted read access to the **container** (Blob) or **filesystem** (ADLS Gen2) where audience files are stored. See [Set up Azure permissions](#set-up-azure-permissions).
+- Azure audience sourcing is available in your region (NA, EMEA, ANZ). If Azure sourcing is not yet available in your region, contact your Adobe account representative.
+
 ## Set up Azure permissions
 
 Grant Adobe read access using **Azure RBAC**. The same Adobe principal is typically used for both Blob and ADLS Gen2; confirm identifiers with your Adobe account team.
 
-### Collect Adobe's Azure principal information
+### Obtain Adobe's Azure service principal identifier
 
-| Region | Adobe principal (TBD — confirm with Adobe) |
-|--------|---------------------------------------------|
-| North America | _Contact your Adobe account team_ |
-| EMEA | _Contact your Adobe account team_ |
-| Australia | _Contact your Adobe account team_ |
+Before you can complete the role assignment steps below, you need the Azure service principal identifier that Adobe uses to access your storage. This identifier is specific to your region and is provided by Adobe.
+
+**Before continuing:** Contact your Adobe account team to request the Azure service principal identifier for your region (North America, EMEA, or Australia). Have this value available before proceeding with the permission steps.
 
 ### Set up Azure Blob Storage permissions
 
@@ -87,13 +94,6 @@ Grant Adobe read access using **Azure RBAC**. The same Adobe principal is typica
 
 After permissions are in place, complete the [configuration workflow](#configure-your-azure-connection).
 
-### Azure access and permissions
-
-Before proceeding, confirm the following with your Azure administrator:
-
-- Adobe has been granted read access to the **container** (Blob) or **filesystem** (ADLS Gen2) where audience files are stored. See [Set up Azure permissions](#set-up-azure-permissions).
-- Azure audience sourcing is available in your region (NA, EMEA, ANZ). If Azure sourcing is not yet available in your region, contact your Adobe account representative.
-
 ### Prepare your audience data
 
 Your audience files must conform to the **[Audience Sourcing Specification (v1.2)](https://cdn.experienceleague.adobe.com/assets/Adobe-Enterprise-Docs/real-time-cdp-collaboration.en/main/help/assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** before sourcing begins.
@@ -107,6 +107,8 @@ Key requirements include:
 - **Column consistency:** All files under your configured path must use identical column structures.
 
 All match keys present in your audience files must also be enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
+
+**Important:** Match keys enabled for a data connection cannot be removed after the connection is created. To change the active set of match keys, you must delete the connection and create a new one. Confirm your complete match key configuration before starting the wizard.
 
 ### Values required before you begin
 
@@ -152,7 +154,7 @@ Collaboration validates **container** (or filesystem), **path**, and **authentic
 
 ### Confirm consent and data use acknowledgment
 
-You must confirm that consent opt-outs have been removed from the audience data before Collaboration can process it. If you are unsure whether your data meets this requirement, review the governance policy and enforcement actions guide before proceeding. Select the confirmation checkbox and then select **OK** to proceed.
+You must confirm that consent opt-outs have been removed from the audience data before Collaboration can process it. If you are unsure whether your data meets this requirement, review the [governance policy and enforcement actions](./onboard-audiences.md#governance-policy-and-enforcement-actions) section before proceeding. Select the confirmation checkbox and then select **OK** to proceed.
 
 ### Provide connection details
 
@@ -175,7 +177,9 @@ Confirm that the displayed mappings reflect the fields in your audience files. I
 
 In the **Schedule** view, set how often Collaboration retrieves updated audience data and define the active date range for sourcing.
 
-Use the **Frequency** dropdown (from **Daily** to **Every 6 days**). Set **Start date** and **End date** for the active sourcing period. When the end date is reached, sourcing ceases and previously sourced audiences expire.
+Use the **Frequency** dropdown (from **Daily** to **Every 6 days**). Set **Start date** and **End date** for the active sourcing period. When the end date is reached, sourcing ceases and audiences are no longer refreshed.
+
+<!-- SME REVIEW REQUIRED: Confirm the user-visible behavior of audiences after the end date. Proposed text if audiences remain accessible but stop updating: "Audiences sourced before the end date remain available in My audiences and in active collaboration projects, but are no longer updated with new data." Proposed text if audiences become unavailable: "Audiences sourced before the end date become unavailable when the end date is reached. To resume sourcing, delete the connection and create a new one with updated dates." -->
 
 **IMPORTANT:** Set the refresh frequency to match or not exceed how often your underlying data is updated. The minimum supported refresh interval is once every six days.
 
@@ -202,7 +206,7 @@ After you complete the wizard, Collaboration sources audiences asynchronously. N
 
 While ingestion runs, a banner indicates **Audience sourcing in progress**. Individual audiences appear in the list as sourcing completes for each one.
 
-**TIP:** Sourcing time varies with data volume and refresh frequency.
+**TIP:** Sourcing time varies with data volume and refresh frequency. If audiences have not appeared after 24 hours, see [Troubleshooting](#troubleshooting).
 
 ### View sourced audience details
 
@@ -214,7 +218,7 @@ Under **Setup** > **My data connections**, your connection is listed with **Azur
 
 ## Known limitations
 
-- **Match key constraints:** Once enabled for a connection, match keys cannot be removed. Add match keys to an existing connection, but to change the active set you must delete the connection and create a new one.
+- **Match key constraints:** Match keys cannot be removed from an existing connection. To change the active match keys, delete the connection and create a new one.
 - **One active connection per Azure source type:** Typically one active Blob connection and one active ADLS Gen2 connection at a time per account. To change storage location, delete the existing connection and create a new one.
 - **Subfolder support:** Files must be at the configured path prefix; Collaboration does not traverse arbitrary subfolders beyond that prefix.
 - **Separate source types:** Blob and ADLS Gen2 are distinct connections—do not mix configuration between them in a single wizard run.
@@ -226,6 +230,11 @@ Under **Setup** > **My data connections**, your connection is listed with **Azur
 - Confirm files exist at the configured path and comply with the Audience Sourcing Specification.
 - Check **My data connections** for errors.
 - Contact Adobe support with connection name, storage account, and container/filesystem details if issues persist after 24 hours.
+
+**Audiences source but show zero or unexpected identities**
+
+- Verify that all match key values in your audience files were trimmed, lowercased, and SHA256-hashed before upload. Collaboration does not hash or normalize data on ingestion.
+- Confirm that the match keys present in your files are enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
 
 **Connection failed after initial success**
 
