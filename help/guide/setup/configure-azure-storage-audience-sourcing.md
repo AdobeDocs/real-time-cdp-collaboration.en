@@ -1,100 +1,50 @@
 ---
 title: Source audiences from Azure storage in Real-Time CDP Collaboration
-description: Connect Azure Blob Storage or Azure Data Lake Storage Gen2 to Real-Time CDP Collaboration and source first-party audiences on a recurring schedule.
+description: Connect Azure Blob Storage or Azure Data Lake Storage Gen2 to Real-Time CDP Collaboration and perform a one-time import of first-party audience data.
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 ---
 # Configure Azure storage for audience sourcing
 
-Follow the steps in this guide to connect **Azure Blob Storage** or **Azure Data Lake Storage Gen2** to Adobe Real-Time CDP Collaboration and begin sourcing first-party audience data through the UI.
+Follow the steps in this guide to connect **Azure Blob Storage** or **Azure Data Lake Storage Gen2** to Adobe Real-Time CDP Collaboration and perform a one-time import of first-party audience data.
 
-Connect Azure storage to Collaboration to ingest first-party audience data directly without engineering support. Once connected, Collaboration sources audiences from your container or data lake path on a recurring schedule and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before you can activate them or use them in overlap analysis with collaborators.
+Connect Azure storage to Collaboration to ingest first-party audience data directly without engineering support. After you create the connection, Collaboration performs a one-time import of audiences from the configured container path and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before you can activate them or use them in overlap analysis with collaborators.
 
-Some steps in this guide require Azure administrative permissions and may need to be completed by your Azure administrator.
-
-This guide covers the end-to-end configuration workflow: choosing the right Azure source type, preparing prerequisites, granting Adobe access in Azure, completing the configuration wizard, reviewing auto-mapped identity fields, scheduling data refresh, and confirming that sourcing completed successfully.
+This guide covers the end-to-end configuration workflow: choosing the right Azure source type, preparing prerequisites, granting Adobe read access to your storage container, completing the configuration wizard, reviewing auto-mapped identity fields, and confirming that the connection was created successfully.
 
 Audiences sourced from Azure follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform.
 
 Other available sourcing methods include Experience Platform, Amazon S3, Google Cloud Storage, Snowflake, and CSV file upload.
 
-## Choose your Azure source type
+## Choose your Azure source type {#choose-source-type}
 
 Collaboration supports two Azure ingestion options. Use the table below to pick the guide path that matches where your audience files live.
 
 | | **Azure Blob Storage** | **Azure Data Lake Storage Gen2** |
-|---|------------------------|----------------------------------|
+|---|---|---|
 | **Use when** | Files are in a standard Blob **container** on a storage account (no hierarchical namespace required). | Files are in a **filesystem** on a storage account with **hierarchical namespace** enabled. |
 | **Wizard label** | **Azure Blob Storage** | **Azure Data Lake Storage Gen2** |
-| **Key fields** | Storage account, **Container**, **Path** | Storage account, **Filesystem**, **Path** |
+| **Key fields** | Storage account, **Container**, **Path** | Storage account, **Container**, **Path** |
 | **Permissions section** | [Azure Blob permissions](#set-up-azure-blob-storage-permissions) | [ADLS Gen2 permissions](#set-up-adls-gen2-permissions) |
 
 You configure **one source type per data connection**. To source from both Blob and ADLS, create separate data connections.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Complete all items in this section before starting the configuration workflow. Incomplete prerequisites are the most common reason setup fails or audiences do not appear after sourcing. Before following this guide, you must have completed [account onboarding and setup](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account).
 
 Some steps require action by an **Azure administrator**. If you are not the Azure administrator for your organization, identify the appropriate person before starting.
 
-### Azure access and permissions
+### Azure access and permissions {#azure-access-and-permissions}
 
-Before proceeding, confirm the following with your Azure administrator:
+This guide follows a two-phase workflow. You must complete both phases in order.
 
-- Adobe has been granted read access to the **container** (Blob) or **filesystem** (ADLS Gen2) where audience files are stored. See [Set up Azure permissions](#set-up-azure-permissions).
-- Azure audience sourcing is available in your region (NA, EMEA, ANZ). If Azure sourcing is not yet available in your region, contact your Adobe account representative.
+**Phase 1 — Azure preparation:** Before starting the Collaboration configuration wizard, you or your Azure administrator must grant Adobe read access to your storage container. This is covered in [Set up Azure permissions](#set-up-azure-permissions).
 
-## Set up Azure permissions
+**Phase 2 — Collaboration configuration:** After Azure preparation is complete, you complete the connection wizard inside Collaboration. This is covered in [Configure your Azure connection](#configure-your-azure-connection).
 
-Grant Adobe read access using **Azure RBAC**. The same Adobe principal is typically used for both Blob and ADLS Gen2; confirm identifiers with your Adobe account team.
+Azure audience sourcing must also be available in your region (NA, EMEA, ANZ). If Azure sourcing is not yet available in your region, contact your Adobe account representative.
 
-### Obtain Adobe's Azure service principal identifier
-
-Before you can complete the role assignment steps below, you need the Azure service principal identifier that Adobe uses to access your storage. This identifier is specific to your region and is provided by Adobe.
-
-**Before continuing:** Contact your Adobe account team to request the Azure service principal identifier for your region (North America, EMEA, or Australia). Have this value available before proceeding with the permission steps.
-
-### Set up Azure Blob Storage permissions
-
-**IMPORTANT:** You need permission to assign roles on the storage account or container (for example **Owner** or **User Access Administrator**, or equivalent).
-
-1. In the [Azure portal](https://portal.azure.com/), open **Storage account** > **Containers** > your **container**.
-2. **Access control (IAM)** > **Add role assignment**.
-3. Assign Adobe's principal:
-
-    | Role | Purpose |
-    |------|---------|
-    | **Storage Blob Data Reader** | Read and list blobs in the container. |
-
-4. Select **Save**.
-
-    | Field | Example |
-    |-------|---------|
-    | Storage account | `customerdatastore` |
-    | Container | `audience-ingest` |
-    | Path | `sourcing/audiences/path1/` |
-
-### Set up ADLS Gen2 permissions
-
-**Requirements:**
-
-- Storage account has **hierarchical namespace** enabled (Data Lake Storage Gen2).
-- Firewall / private endpoint rules allow Adobe access per your Adobe network guidance.
-
-**Role assignment:**
-
-1. Open **Storage account** > **Containers** > your **filesystem**.
-2. **Access control (IAM)** > **Add role assignment** > **Storage Blob Data Reader** for Adobe's principal at filesystem or directory scope.
-3. Select **Save**.
-
-| Field | Example |
-|-------|---------|
-| Storage account | `datalake-prod` |
-| Filesystem | `audiences` |
-| Path | `sourcing/inbound/` |
-
-After permissions are in place, complete the [configuration workflow](#configure-your-azure-connection).
-
-### Prepare your audience data
+### Prepare your audience data {#prepare-audience-data}
 
 Your audience files must conform to the **[Audience Sourcing Specification (v1.2)](https://cdn.experienceleague.adobe.com/assets/Adobe-Enterprise-Docs/real-time-cdp-collaboration.en/main/help/assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)** before sourcing begins.
 
@@ -108,147 +58,235 @@ Key requirements include:
 
 All match keys present in your audience files must also be enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
 
-**Important:** Match keys enabled for a data connection cannot be removed after the connection is created. To change the active set of match keys, you must delete the connection and create a new one. Confirm your complete match key configuration before starting the wizard.
+>[!IMPORTANT]
+>
+> Match keys enabled for a data connection cannot be removed after the connection is created. To change the active set of match keys, you must delete the connection and create a new one. Confirm your complete match key configuration before starting the wizard.
 
-### Values required before you begin
+### Values required before you begin {#values-required}
 
 Have the following values ready before starting the configuration wizard.
 
-| Value | Blob Storage | ADLS Gen2 |
-|-------|--------------|-----------|
-| **Storage account** | Azure Storage account name | ADLS Gen2-enabled storage account name |
-| **Container / filesystem** | Blob **container** name | ADLS **filesystem** name (shown as a container in Azure Portal) |
-| **Path** | Prefix within the container (e.g. `sourcing/audiences/path1/`). Use a trailing `/` to include all files under the prefix. | Directory prefix within the filesystem (e.g. `sourcing/inbound/`) |
+| Value | Description |
+|---|---|
+| **Storage account** | The name of the Azure storage account that hosts your audience files. |
+| **Container** | The name of the storage container within that account where your audience files are stored. |
+| **Path** | The folder path prefix within the container (for example, `sourcing/audiences/path1/`). Use a trailing `/` to include all files under the prefix. |
+| **Tenant ID** | The Microsoft Entra tenant ID associated with your Azure storage account. |
 
-## Configure your Azure connection
+## Set up Azure permissions {#set-up-azure-permissions}
 
-The configuration workflow is a multi-step wizard inside the **Setup** workspace. Complete each step in sequence. You can return to any step using the pencil icon on the final review screen before you create the connection.
+Complete the steps in this section to prepare your Azure environment. Adobe requires read access to your storage container before the Collaboration configuration workflow can establish a connection. This work is performed in the Azure portal and may need to be completed by your Azure administrator.
 
-### Add a new data connection
+After you complete this section, proceed to [Configure your Azure connection](#configure-your-azure-connection).
 
-From the **My audiences** tab within the **Setup** workspace, select the add icon and then select **Audience**.
+### Obtain Adobe's Azure service principal identifier {#obtain-principal-identifier}
 
-If this is your first audience, you may also select the **Add** option.
+Before you can complete the role assignment steps below, you need the Azure service principal identifier that Adobe uses to access your storage. This identifier is specific to your region and is provided by Adobe.
 
-The **Add audience** workflow appears. Select **Add a new data connection** and then select **Next**.
+**Before continuing:** Contact your Adobe account team to request the Azure service principal identifier for your region (North America, EMEA, or Australia). Have this value available before proceeding with the permission steps.
 
-### Select your Azure data source
+### Set up Azure Blob Storage permissions {#set-up-azure-blob-storage-permissions}
 
-The data source selection screen lists all available connection types. Select **Azure Blob Storage** or **Azure Data Lake Storage Gen2**, then select **Next**.
+>[!IMPORTANT]
+>
+> You need permission to assign roles on the storage account or container (for example, **Owner** or **User Access Administrator**, or equivalent).
 
-A prerequisite dialog outlines required steps (storage setup, Adobe access, Audience Sourcing Specification compliance). Select **Start onboarding** to confirm compliance before proceeding.
+1. In the [Azure portal](https://portal.azure.com/), open **Storage account** > **Containers** > your **container**.
+2. Select **Access control (IAM)**, then select **Add role assignment**.
+3. Assign Adobe's principal:
 
-> **Product note:** Azure onboarding may show a **pending** state while external access configuration is verified. Complete the [permission steps](#set-up-azure-permissions) for your source type and wait until the connection is active before continuing field mapping.
+    | Role | Purpose |
+    |---|---|
+    | **Storage Blob Data Reader** | Read and list blobs in the container. |
 
-### Enter your Azure connection details
+4. Select **Save**.
 
-Provide the details required for Collaboration to access your data. After entering the required information, select **Next**.
+    | Field | Example |
+    |---|---|
+    | Storage account | `customerdatastore` |
+    | Container | `audience-ingest` |
+    | Path | `sourcing/audiences/path1/` |
+
+### Set up ADLS Gen2 permissions {#set-up-adls-gen2-permissions}
+
+**Requirements:**
+
+- Storage account has **hierarchical namespace** enabled (Data Lake Storage Gen2).
+- Firewall / private endpoint rules allow Adobe access per your Adobe network guidance.
+
+**Role assignment:**
+
+1. Open **Storage account** > **Containers** > your **filesystem**.
+2. Select **Access control (IAM)**, then select **Add role assignment** > **Storage Blob Data Reader** for Adobe's principal at filesystem or directory scope.
+3. Select **Save**.
+
+| Field | Example |
+|---|---|
+| Storage account | `datalake-prod` |
+| Container | `audiences` |
+| Path | `sourcing/inbound/` |
+
+After you complete the permission setup for your source type, proceed to [Configure your Azure connection](#configure-your-azure-connection).
+
+## Configure your Azure connection {#configure-your-azure-connection}
+
+Create a data connection to [!DNL Microsoft Azure] to source audience data into Real-Time CDP Collaboration. The onboarding workflow validates your Azure storage credentials, confirms authorized access through the consent workflow, and automatically maps supported identity fields from your audience files.
+
+This is a one-time import workflow. After the connection is created, Collaboration performs a single import of audience data from the configured container path. No recurring schedule is configured.
+
+### Add a new data connection {#add-new-data-connection}
+
+Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, then select the add icon and choose **[!UICONTROL Audience]**.
+
+The **[!UICONTROL Add audience]** workflow appears. Select **[!UICONTROL Add a new data connection]**, then select **[!UICONTROL Next]**.
+
+![The My audiences view showing the Add audience option used to create a new audience or data connection.](../../assets/Web 1920 – 0.png){zoomable="yes"}
+
+### Select your Azure data source {#select-azure-data-source}
+
+Select **[!UICONTROL Azure Blob Storage]** or **[!UICONTROL Azure Data Lake Storage Gen2]**, then select **[!UICONTROL Next]**.
+
+The connection wizard opens and displays the onboarding steps:
+
+- **[!UICONTROL Credentials]**
+- **[!UICONTROL Consent]**
+- **[!UICONTROL Field Mapping]**
+- **[!UICONTROL Review]**
+
+![The Add audience workflow showing Azure Blob Storage selected as the data connection type and the onboarding steps Credentials, Consent, Field Mapping, and Review.](../../assets/Web 1920 – 1.png.png){zoomable="yes"}
+
+### Enter connection credentials {#enter-connection-credentials}
+
+In the **[!UICONTROL Credentials]** step, provide the information required to access your Azure storage location.
 
 | Field | Description |
-|-------|-------------|
-| **Storage account** | The Azure Storage account that hosts your audience files. |
-| **Container** (Blob) or **Filesystem** (ADLS Gen2) | The Blob container or ADLS filesystem where files are stored. |
-| **Path** | The path prefix within the container or filesystem where audience files are stored. |
+|---|---|
+| **[!UICONTROL Storage Account]** | The Azure storage account that contains your audience files. |
+| **[!UICONTROL Container]** | The storage container that contains your audience files. |
+| **[!UICONTROL Path]** | The folder path within the container where your audience files are stored. |
+| **[!UICONTROL Tenant ID]** | The Azure tenant identifier associated with your storage account. |
 
-Collaboration validates **container** (or filesystem), **path**, and **authentication type** (`authType`). Access is established through Azure RBAC for Adobe's service principal or managed identity; you do not enter storage account keys in the wizard.
+After you enter the required values, select **[!UICONTROL Connect to Azure]**.
 
-### Confirm consent and data use acknowledgment
+A confirmation message indicates that the connection was established successfully. Select **[!UICONTROL Next]** to continue.
 
-You must confirm that consent opt-outs have been removed from the audience data before Collaboration can process it. If you are unsure whether your data meets this requirement, review the [governance policy and enforcement actions](./onboard-audiences.md#governance-policy-and-enforcement-actions) section before proceeding. Select the confirmation checkbox and then select **OK** to proceed.
+![The Credentials step showing completed Storage Account, Container, Path, and Tenant ID fields with a Connected to Azure confirmation message.](../../assets/Web 1920 – 4.png){zoomable="yes"}
 
-### Provide connection details
+### Grant Adobe access to your Azure storage {#grant-adobe-access}
 
-Enter a name and an optional description for this data connection. The name appears in **My data connections** and helps distinguish this source if you manage multiple connections.
+In the **[!UICONTROL Consent]** step, you confirm that Adobe has authorized access to your storage container.
 
-- **Data connection name** (required)
-- **Data connection description** (optional)
+>[!NOTE]
+>
+> This step uses the Azure RBAC permissions you configured in [Set up Azure permissions](#set-up-azure-permissions). The consent URL initiates an Azure authorization workflow that confirms Adobe has access to the specified container. Both the RBAC setup and this consent step are required to establish the connection.
 
-Select **Next** to continue.
+Select the launch icon next to **[!UICONTROL Consent URL]** to open the Azure authorization workflow.
 
-### Review auto-mapped identity fields
+The page displays the Adobe application that requires access. In Azure, assign the **Storage Blob Data Reader** role to the displayed application on the container that contains your audience files.
 
-The **Mapping** screen is read-only. Collaboration automatically maps source identity fields from your audience files to target fields based on the column names defined in the Audience Sourcing Specification. You cannot add, remove, or apply transformations to mapped fields at this stage.
+After you complete the role assignment, return to Collaboration and select **[!UICONTROL Confirm consent]**.
 
-**TIP:** Select **Preview source data** to review a sample of your audience data in tabular format, then select **Close** to return to the mapping screen.
+When the consent validation succeeds, a **[!UICONTROL Consent granted]** confirmation message appears. Select **[!UICONTROL Next]** to continue.
 
-Confirm that the displayed mappings reflect the fields in your audience files. If they do not, stop and correct your files before proceeding. Select **Next** to continue.
+>[!NOTE]
+>
+> Azure role assignments can take several minutes to propagate. If consent validation does not succeed immediately, wait a few minutes and then try again.
 
-### Schedule data refresh
+![The Consent step showing a Consent URL, the Azure application identifier, and a Consent granted confirmation message.](../../assets/Web 1920 – 7.png){zoomable="yes"}
 
-In the **Schedule** view, set how often Collaboration retrieves updated audience data and define the active date range for sourcing.
+### Review field mappings {#review-field-mappings}
 
-Use the **Frequency** dropdown (from **Daily** to **Every 6 days**). Set **Start date** and **End date** for the active sourcing period. When the end date is reached, sourcing ceases and audiences are no longer refreshed.
+In the **[!UICONTROL Field Mapping]** step, Collaboration automatically maps supported identity fields from your source files.
 
-<!-- SME REVIEW REQUIRED: Confirm the user-visible behavior of audiences after the end date. Proposed text if audiences remain accessible but stop updating: "Audiences sourced before the end date remain available in My audiences and in active collaboration projects, but are no longer updated with new data." Proposed text if audiences become unavailable: "Audiences sourced before the end date become unavailable when the end date is reached. To resume sourcing, delete the connection and create a new one with updated dates." -->
+No manual configuration is required.
 
-**IMPORTANT:** Set the refresh frequency to match or not exceed how often your underlying data is updated. The minimum supported refresh interval is once every six days.
+Review the displayed mappings and confirm that the source fields match the identity columns in your audience files. Select **[!UICONTROL Next]** to continue.
 
-Select **Next** to continue.
+>[!IMPORTANT]
+>
+> Collaboration automatically maps identity fields based on the Audience Sourcing Specification. If the displayed mappings are incorrect, update your source files before completing the onboarding workflow.
 
-### Review and complete the connection
+![The Field Mapping step showing automatically mapped source fields and target identity fields with no manual configuration required.](../../assets/Web 1920 – 8.png){zoomable="yes"}
 
-Review the configuration summary:
+### Review and complete the connection {#review-and-complete}
 
-- **Data connection:** Storage account, container or filesystem, and path
-- **Details:** Name and description
-- **Mapping:** Auto-mapped identity fields
-- **Schedule:** Refresh frequency and date range
+In the **[!UICONTROL Review]** step, verify the connection details and field mappings.
 
-Select the pencil icon next to any section to edit it. When all sections are correct, select **Complete**.
+The review page displays:
 
-A confirmation dialog indicates that the data connection was created and audience sourcing is in progress.
+- Storage account
+- Container
+- Source path
+- Tenant ID
+- Field mappings
 
-## Review sourced audiences
+The review page also indicates that this is a one-time import and that no schedule is configured.
 
-After you complete the wizard, Collaboration sources audiences asynchronously. Navigate to **Setup** > **My audiences** to monitor progress.
+When the configuration is correct, select **[!UICONTROL Complete]**.
 
-### Monitor audience sourcing progress
+![The Review step showing connection details, field mappings, and a message indicating that the audience import is a one-time import with no schedule configured.](../../assets/Web 1920 – 9.png){zoomable="yes"}
 
-While ingestion runs, a banner indicates **Audience sourcing in progress**. Individual audiences appear in the list as sourcing completes for each one.
+## Confirm and review your connection {#confirm-and-review}
 
-**TIP:** Sourcing time varies with data volume and refresh frequency. If audiences have not appeared after 24 hours, see [Troubleshooting](#troubleshooting).
+After you select **[!UICONTROL Complete]**, Collaboration creates the data connection and navigates you to **[!UICONTROL Setup]** > **[!UICONTROL My data connections]**.
 
-### View sourced audience details
+### Confirm the connection was created {#confirm-connection-created}
 
-Completed audiences appear in **My audiences** with other connections. Select **View audience** for status, source, identities, categories, connection access, and metadata visibility.
+The connection card in **[!UICONTROL My data connections]** is the first confirmation that the connection was created successfully. The card displays the source type (**[!UICONTROL Azure Blob Storage]** or **[!UICONTROL Azure Data Lake Storage Gen2]**), creation date, match keys, audience count, and current connection status.
 
-### View your Azure data connection
+![The My data connections view showing a newly created Azure Blob Storage connection card with connection details, match keys, audience count, and status information.](../../assets/Web 1920 – 11.png){zoomable="yes"}
 
-Under **Setup** > **My data connections**, your connection is listed with **Azure Blob Storage** or **Azure Data Lake Storage Gen2** as the source.
+### View sourced audiences {#view-sourced-audiences}
 
-## Known limitations
+After the connection is created, Collaboration begins sourcing audiences from the configured Azure location. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** to monitor sourcing progress and review sourced audiences.
+
+Sourced audiences appear in the **[!UICONTROL My audiences]** table. For each audience, the table displays information such as:
+
+- Audience name
+- Identity count
+- Status
+- Source
+- Data connection
+- Connection access
+- Creation date
+- Last updated date
+
+>[!TIP]
+>
+> Sourcing time varies with data volume. If audiences have not appeared after 24 hours, see [Troubleshooting](#troubleshooting).
+
+## Known limitations {#known-limitations}
 
 - **Match key constraints:** Match keys cannot be removed from an existing connection. To change the active match keys, delete the connection and create a new one.
 - **One active connection per Azure source type:** Typically one active Blob connection and one active ADLS Gen2 connection at a time per account. To change storage location, delete the existing connection and create a new one.
 - **Subfolder support:** Files must be at the configured path prefix; Collaboration does not traverse arbitrary subfolders beyond that prefix.
 - **Separate source types:** Blob and ADLS Gen2 are distinct connections—do not mix configuration between them in a single wizard run.
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
-**Audiences are not appearing or sourcing is slow**
+### Audiences are not appearing or sourcing is slow {#audiences-not-appearing}
 
 - Confirm files exist at the configured path and comply with the Audience Sourcing Specification.
-- Check **My data connections** for errors.
-- Contact Adobe support with connection name, storage account, and container/filesystem details if issues persist after 24 hours.
+- Check **[!UICONTROL My data connections]** for errors.
+- Contact Adobe support with the connection name, storage account, and container details if issues persist after 24 hours.
 
-**Audiences source but show zero or unexpected identities**
+### Audiences source but show zero or unexpected identities {#zero-identities}
 
 - Verify that all match key values in your audience files were trimmed, lowercased, and SHA256-hashed before upload. Collaboration does not hash or normalize data on ingestion.
 - Confirm that the match keys present in your files are enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
 
-**Connection failed after initial success**
+### Connection failed after initial success {#connection-failed}
 
-- Verify Azure RBAC for Adobe's principal was not removed or narrowed.
+- Verify that the Azure RBAC role assignment for Adobe's principal was not removed or narrowed.
 - Confirm files still exist at the path and match the specification.
 
-**Refresh / format errors**
+### Refresh or format errors {#format-errors}
 
 - Ensure new files keep the same column structure and hashing rules as the initial ingest.
 
+## Next steps {#next-steps}
 
-## Next steps
-
-After sourcing completes, audiences are available in **My audiences** for collaboration projects (activate, overlap, measurement).
+After sourcing completes, audiences are available in **[!UICONTROL My audiences]** for collaboration projects (activate, overlap, measurement).
 
 For other audience sourcing methods, see:
 
