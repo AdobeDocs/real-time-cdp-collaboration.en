@@ -234,7 +234,7 @@ After you select **[!UICONTROL Complete]**, Collaboration creates the data conne
 
 The connection card in **[!UICONTROL My data connections]** is the first confirmation that the connection was created successfully. The card displays the source type (**[!UICONTROL Azure Blob Storage]** or **[!UICONTROL Azure Data Lake Storage Gen2]**), creation date, match keys, audience count, and current connection status.
 
-![The My data connections view showing a newly created Azure Blob Storage connection card with connection details, match keys, audience count, and status information.](../../assets/Web 1920 – 11.png){zoomable="yes"}
+![The My data connections view showing a newly created Azure Blob Storage connection card with connection details, match keys, audience count, and status information.](../../assets/Web 1920 – 10.png){zoomable="yes"}
 
 ### View sourced audiences {#view-sourced-audiences}
 
