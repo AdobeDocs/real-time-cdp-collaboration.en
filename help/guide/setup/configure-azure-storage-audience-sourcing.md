@@ -21,7 +21,7 @@ Collaboration supports two [!DNL Azure] ingestion options. Use the table below t
 | **Required fields in Collaboration** | Storage account, **[!UICONTROL Container]**, **[!UICONTROL Path]** | Storage account, **[!UICONTROL Container]** (ADLS Gen2 filesystem), **[!UICONTROL Path]** |
 | **Permissions section** | [[!DNL Azure Blob] permissions](#set-up-azure-blob-storage-permissions) | [[!DNL Azure] Data Lake Storage Gen2 permissions](#set-up-adls-gen2-permissions) |
 
-You configure **one source type per data connection**. To source from both Blob and ADLS, create separate data connections.
+You can only configure **one source type per data connection**. To source from both [!DNL Blob] and ADLS, create separate data connections.
 
 ## Prerequisites {#prerequisites}
 
@@ -45,7 +45,7 @@ Key requirements include:
 * **Hashing requirements:** All match key values must be trimmed, lowercased, and SHA256-hashed before upload. Collaboration does not hash or normalize data before ingestion.
 * **Column consistency:** All files under your configured path must use identical column structures.
 
-All match keys present in your audience files must also be enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
+All match keys present in your audience files must also be enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys) for guidance.
 
 >[!IMPORTANT]
 >
@@ -70,9 +70,7 @@ After you complete this section, proceed to [Configure your [!DNL Azure] connect
 
 ### Obtain Adobe's [!DNL Azure] service principal identifier {#obtain-principal-identifier}
 
-Before you can complete the role assignment steps below, you need the [!DNL Azure] service principal identifier that Adobe uses to access your storage. This identifier is specific to your region and is provided by Adobe.
-
-**Before continuing:** Contact your Adobe account team to request the [!DNL Azure] service principal identifier for your region (North America, EMEA, or Australia and New Zealand). Have this value available before proceeding with the permission steps.
+Before you can complete the role assignment steps below steps, contact your Adobe account team to obtain the [!DNL Azure] service principal identifier for your region (North America, EMEA, or Australia and New Zealand). You will use this identifier to grant Adobe read access to your storage.
 
 ### Set up [!DNL Azure Blob] Storage permissions {#set-up-azure-blob-storage-permissions}
 
@@ -115,14 +113,9 @@ The **[!UICONTROL Add audience]** workflow appears. Select **[!UICONTROL Add a n
 
 Select **[!UICONTROL Azure Blob Storage]** or **[!UICONTROL Azure Data Lake Storage Gen2]**, then select **[!UICONTROL Next]**.
 
-The connection workflow opens with the following steps:
-
-* **[!UICONTROL Credentials]**
-* **[!UICONTROL Consent]**
-* **[!UICONTROL Field Mapping]**
-* **[!UICONTROL Review]**
-
 ![The Add audience workflow showing [!DNL Azure Blob] Storage selected as the data connection type and the onboarding steps Credentials, Consent, Field Mapping, and Review.](../../assets/setup/azure-sourcing/azure-source-selection-step.png){zoomable="yes"}
+
+Continue through the remaining steps to validate your Azure connection, confirm Adobe access, review field mappings, and create the data connection.
 
 ### Enter connection credentials {#enter-connection-credentials}
 
@@ -244,7 +237,7 @@ Use these checks when sourcing fails because of file structure, hashing, or colu
 
 ## Next steps {#next-steps}
 
-After sourcing completes, audiences are available in **[!UICONTROL My audiences]** for activation, overlap analysis, and measurement workflows.
+After sourcing completes, audiences are available in **[!UICONTROL My audiences]** for activation, overlap analysis, and measurement workflows. To activate sourced audiences with collaborators, see [Activate audiences](../collaborate/activate.md).
 
 Other available sourcing methods include Experience Platform, [!DNL Amazon S3], [!DNL Google Cloud Storage], [!DNL Snowflake], and CSV file upload. For other audience sourcing methods, see:
 
