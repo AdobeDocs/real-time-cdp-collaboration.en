@@ -263,7 +263,7 @@ Sourced audiences appear in the **[!UICONTROL My audiences]** table. For each au
 Review the following limitations before you create or manage an Azure data connection.
 
 - **Match key constraints:** Match keys cannot be removed from an existing connection. To change the active match keys, delete the connection and create a new one.
-- **One active connection per [!DNL Azure] source type:** Typically one active Blob connection and one active ADLS Gen2 connection at a time per account. To change storage location, delete the existing connection and create a new one.
+- **One active connection per [!DNL Azure] source type:** You can have one active Blob connection and one active ADLS Gen2 connection per account. To change the storage location, delete the existing connection and create a new one.
 - **Subfolder support:** Files must be at the configured path prefix; Collaboration does not traverse arbitrary subfolders beyond that prefix.
 - **Separate source types:** Blob and ADLS Gen2 are distinct connections—do not mix configuration between them in a single wizard run.
 
