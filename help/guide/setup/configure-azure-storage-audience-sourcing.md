@@ -140,7 +140,7 @@ Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]**, then select 
 
 The **[!UICONTROL Add audience]** workflow appears. Select **[!UICONTROL Add a new data connection]**, then select **[!UICONTROL Next]**.
 
-![The My audiences view showing the Add audience option used to create a new audience or data connection.](../../assets/Web 1920 – 0.png){zoomable="yes"}
+![The My audiences view showing the Add audience option used to create a new audience or data connection.](../../assets/my-audiences-add-audience-entry-point.png){zoomable="yes"}
 
 ### Select your Azure data source {#select-azure-data-source}
 
@@ -153,7 +153,7 @@ The connection wizard opens and displays the onboarding steps:
 - **[!UICONTROL Field Mapping]**
 - **[!UICONTROL Review]**
 
-![The Add audience workflow showing Azure Blob Storage selected as the data connection type and the onboarding steps Credentials, Consent, Field Mapping, and Review.](../../assets/Web 1920 – 1.png.png){zoomable="yes"}
+![The Add audience workflow showing Azure Blob Storage selected as the data connection type and the onboarding steps Credentials, Consent, Field Mapping, and Review.](../../assets/azure-source-selection-step.png){zoomable="yes"}
 
 ### Enter connection credentials {#enter-connection-credentials}
 
@@ -170,7 +170,7 @@ After you enter the required values, select **[!UICONTROL Connect to Azure]**.
 
 A confirmation message indicates that the connection was established successfully. Select **[!UICONTROL Next]** to continue.
 
-![The Credentials step showing completed Storage Account, Container, Path, and Tenant ID fields with a Connected to Azure confirmation message.](../../assets/Web 1920 – 4.png){zoomable="yes"}
+![The Credentials step showing completed Storage Account, Container, Path, and Tenant ID fields with a Connected to Azure confirmation message.](../../assets/azure-credentials-step.png){zoomable="yes"}
 
 ### Grant Adobe access to your Azure storage {#grant-adobe-access}
 
@@ -192,7 +192,7 @@ When the consent validation succeeds, a **[!UICONTROL Consent granted]** confirm
 >
 > Azure role assignments can take several minutes to propagate. If consent validation does not succeed immediately, wait a few minutes and then try again.
 
-![The Consent step showing a Consent URL, the Azure application identifier, and a Consent granted confirmation message.](../../assets/Web 1920 – 7.png){zoomable="yes"}
+![The Consent step showing a Consent URL, the Azure application identifier, and a Consent granted confirmation message.](../../assets/azure-consent-granted-step.png){zoomable="yes"}
 
 ### Review field mappings {#review-field-mappings}
 
@@ -206,7 +206,7 @@ Review the displayed mappings and confirm that the source fields match the ident
 >
 > Collaboration automatically maps identity fields based on the Audience Sourcing Specification. If the displayed mappings are incorrect, update your source files before completing the onboarding workflow.
 
-![The Field Mapping step showing automatically mapped source fields and target identity fields with no manual configuration required.](../../assets/Web 1920 – 8.png){zoomable="yes"}
+![The Field Mapping step showing automatically mapped source fields and target identity fields with no manual configuration required.](../../assets/azure-field-mapping-step.png){zoomable="yes"}
 
 ### Review and complete the connection {#review-and-complete}
 
@@ -224,7 +224,7 @@ The review page also indicates that this is a one-time import and that no schedu
 
 When the configuration is correct, select **[!UICONTROL Complete]**.
 
-![The Review step showing connection details, field mappings, and a message indicating that the audience import is a one-time import with no schedule configured.](../../assets/Web 1920 – 9.png){zoomable="yes"}
+![The Review step showing connection details, field mappings, and a message indicating that the audience import is a one-time import with no schedule configured.](../../assets/azure-review-connection-step.png){zoomable="yes"}
 
 ## Confirm and review your connection {#confirm-and-review}
 
@@ -234,7 +234,7 @@ After you select **[!UICONTROL Complete]**, Collaboration creates the data conne
 
 The connection card in **[!UICONTROL My data connections]** is the first confirmation that the connection was created successfully. The card displays the source type (**[!UICONTROL Azure Blob Storage]** or **[!UICONTROL Azure Data Lake Storage Gen2]**), creation date, match keys, audience count, and current connection status.
 
-![The My data connections view showing a newly created Azure Blob Storage connection card with connection details, match keys, audience count, and status information.](../../assets/Web 1920 – 10.png){zoomable="yes"}
+![The My data connections view showing a newly created Azure Blob Storage connection card with connection details, match keys, audience count, and status information.](../../assets/azure-data-connection-card.png){zoomable="yes"}
 
 ### View sourced audiences {#view-sourced-audiences}
 
