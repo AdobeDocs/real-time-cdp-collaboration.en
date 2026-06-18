@@ -1,10 +1,10 @@
 ---
 title: Source audiences from [!DNL Azure] storage in Real-Time CDP Collaboration
-description: Connect [!DNL Azure Blob] Storage or [!DNL Azure] Data Lake Storage Gen2 to Real-Time CDP Collaboration to source first-party audience data from [!DNL Azure] storage.
+description: Source first-party audience data from Azure Blob Storage or Azure Data Lake Storage Gen2 into Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; audience sourcing; [!DNL Azure Blob] Storage; [!DNL Azure] Data Lake Storage Gen2
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 ---
-# Configure [!DNL Azure] storage for audience sourcing
+# Source audiences from Azure storage
 
 Connect [!DNL Azure Blob] Storage or [!DNL Azure] Data Lake Storage (ADLS) Gen2 to Adobe Real-Time CDP Collaboration to source first-party audience data for activation and overlap analysis.
 
