@@ -1,20 +1,16 @@
 ---
 title: Source audiences from [!DNL Azure] storage in Real-Time CDP Collaboration
-description: Connect [!DNL Azure Blob] Storage or [!DNL Azure] Data Lake Storage Gen2 to Real-Time CDP Collaboration and perform a one-time import of first-party audience data.
+description: Connect [!DNL Azure Blob] Storage or [!DNL Azure] Data Lake Storage Gen2 to Real-Time CDP Collaboration to source first-party audience data from [!DNL Azure] storage.
 keywords: Real-Time CDP Collaboration; audience sourcing; [!DNL Azure Blob] Storage; [!DNL Azure] Data Lake Storage Gen2
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 ---
 # Configure [!DNL Azure] storage for audience sourcing
 
-Follow the steps in this guide to connect **[!DNL Azure Blob] Storage** or **[!DNL Azure] Data Lake Storage Gen2** to Adobe Real-Time CDP Collaboration and perform a one-time import of first-party audience data.
+Connect [!DNL Azure Blob] Storage or [!DNL Azure] Data Lake Storage Gen2 to Adobe Real-Time CDP Collaboration to source first-party audience data for activation and overlap analysis.
 
-Connect [!DNL Azure] storage to Collaboration to ingest first-party audience data directly without engineering support. After you create the connection, Collaboration performs a one-time import of audiences from the configured container path and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before you can activate them or use them in overlap analysis with collaborators.
+Follow this workflow to create a reusable data connection and perform a single sourcing run from the configured container path. The current [!DNL Azure] workflow does not configure a recurring schedule. Audiences sourced from [!DNL Azure] follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform.
 
-This guide covers the end-to-end configuration workflow: choosing the right [!DNL Azure] source type, preparing prerequisites, granting Adobe read access to your storage container, completing the setup workflow, reviewing auto-mapped identity fields, and confirming that the connection was created successfully.
-
-Audiences sourced from [!DNL Azure] follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform.
-
-Other available sourcing methods include Experience Platform, [!DNL Amazon S3], [!DNL Google Cloud Storage], [!DNL Snowflake], and CSV file upload.
+Before you begin, confirm that your audience files meet the Audience Sourcing Specification and that Adobe has read access to the storage container or ADLS Gen2 filesystem that contains your files.
 
 ## Choose your [!DNL Azure] source type {#choose-source-type}
 
@@ -275,7 +271,7 @@ Use these checks when sourcing fails because of file structure, hashing, or colu
 
 After sourcing completes, audiences are available in **[!UICONTROL My audiences]** for collaboration projects (activate, overlap, measurement).
 
-For other audience sourcing methods, see:
+Other available sourcing methods include Experience Platform, [!DNL Amazon S3], [!DNL Google Cloud Storage], [!DNL Snowflake], and CSV file upload. For other audience sourcing methods, see:
 
 * [Configure Google Cloud Storage for audience sourcing](./configure-gcs-audience-sourcing.md)
 * [Configure Snowflake for audience sourcing](./configure-snowflake-audience-sourcing.md)
