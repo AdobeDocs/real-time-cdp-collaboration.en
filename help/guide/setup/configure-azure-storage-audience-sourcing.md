@@ -10,11 +10,11 @@ Follow the steps in this guide to connect **[!DNL Azure Blob] Storage** or **[!D
 
 Connect [!DNL Azure] storage to Collaboration to ingest first-party audience data directly without engineering support. After you create the connection, Collaboration performs a one-time import of audiences from the configured container path and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before you can activate them or use them in overlap analysis with collaborators.
 
-This guide covers the end-to-end configuration workflow: choosing the right [!DNL Azure] source type, preparing prerequisites, granting Adobe read access to your storage container, completing the configuration wizard, reviewing auto-mapped identity fields, and confirming that the connection was created successfully.
+This guide covers the end-to-end configuration workflow: choosing the right [!DNL Azure] source type, preparing prerequisites, granting Adobe read access to your storage container, completing the setup workflow, reviewing auto-mapped identity fields, and confirming that the connection was created successfully.
 
 Audiences sourced from [!DNL Azure] follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform.
 
-Other available sourcing methods include Experience Platform, Amazon S3, Google Cloud Storage, Snowflake, and CSV file upload.
+Other available sourcing methods include Experience Platform, [!DNL Amazon S3], [!DNL Google Cloud Storage], [!DNL Snowflake], and CSV file upload.
 
 ## Choose your [!DNL Azure] source type {#choose-source-type}
 
@@ -23,8 +23,8 @@ Collaboration supports two [!DNL Azure] ingestion options. Use the table below t
 | | **[!DNL Azure Blob] Storage** | **[!DNL Azure] Data Lake Storage Gen2** |
 |---|---|---|
 | **Use when** | Files are in a standard Blob **container** on a storage account (no hierarchical namespace required). | Files are in a **filesystem** on a storage account with **hierarchical namespace** enabled. |
-| **Wizard label** | **[!DNL Azure Blob] Storage** | **[!DNL Azure] Data Lake Storage Gen2** |
-| **Key fields** | Storage account, **Container**, **Path** | Storage account, **Container**, **Path** |
+| **Source option in Collaboration** | **[!DNL Azure Blob] Storage** | **[!DNL Azure] Data Lake Storage Gen2** |
+| **Required fields in Collaboration** | Storage account, **Container**, **Path** | Storage account, **Container**, **Path** |
 | **Permissions section** | [[!DNL Azure Blob] permissions](#set-up-azure-blob-storage-permissions) | [ADLS Gen2 permissions](#set-up-adls-gen2-permissions) |
 
 You configure **one source type per data connection**. To source from both Blob and ADLS, create separate data connections.
@@ -37,11 +37,7 @@ Some steps require action by an **[!DNL Azure] administrator**. If you are not t
 
 ### [!DNL Azure] access and permissions {#azure-access-and-permissions}
 
-<!-- ... This guide follows a two-phase workflow. You must complete both phases in order.
-
-**Phase 1 — [!DNL Azure] preparation:** Before starting the Collaboration configuration wizard, you or your [!DNL Azure] administrator must grant Adobe read access to your storage container. This is covered in [Set up [!DNL Azure] permissions](#set-up-azure-permissions).
-
-**Phase 2 — Collaboration configuration:** After [!DNL Azure] preparation is complete, you complete the connection wizard inside Collaboration. This is covered in [Configure your [!DNL Azure] connection](#configure-your-azure-connection). -->
+Before you configure the connection in Collaboration, you or your [!DNL Azure] administrator must grant Adobe read access to the storage container or ADLS Gen2 filesystem that contains your audience files. After the permission setup is complete, the Collaboration configuration workflow validates access during the **[!UICONTROL Consent]** step.
 
 [!DNL Azure] audience sourcing must be available in your region. Supported regions are North America, EMEA, and Australia and New Zealand. If [!DNL Azure] sourcing is not available in your region, contact your Adobe account representative.
 
@@ -51,21 +47,21 @@ Your audience files must conform to the **[Audience Sourcing Specification (v1.2
 
 Key requirements include:
 
-- **File format:** CSV, using commas as field delimiters and pipes (`|`) as separators for multiple values within a single field.
-- **Required fields:** Every record must include an `AUDIENCE_ID` column and at least one supported match key column.
-- **Supported match keys:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID`.
-- **Hashing requirements:** All match key values must be trimmed, lowercased, and SHA256-hashed before upload. Collaboration does not hash or normalize data before ingestion.
-- **Column consistency:** All files under your configured path must use identical column structures.
+* **File format:** CSV, using commas as field delimiters and pipes (`|`) as separators for multiple values within a single field.
+* **Required fields:** Every record must include an `AUDIENCE_ID` column and at least one supported match key column.
+* **Supported match keys:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID`.
+* **Hashing requirements:** All match key values must be trimmed, lowercased, and SHA256-hashed before upload. Collaboration does not hash or normalize data before ingestion.
+* **Column consistency:** All files under your configured path must use identical column structures.
 
 All match keys present in your audience files must also be enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
 
 >[!IMPORTANT]
 >
-> Match keys enabled for a data connection cannot be removed after the connection is created. To change the active set of match keys, you must delete the connection and create a new one. Confirm your complete match key configuration before starting the wizard.
+> Match keys enabled for a data connection cannot be removed after the connection is created. To change the active set of match keys, you must delete the connection and create a new one. Confirm your complete match key configuration before starting the setup workflow.
 
 ### Values required before you begin {#values-required}
 
-Have the following values ready before starting the configuration wizard.
+Have the following values ready before starting the configuration workflow.
 
 | Value | Description |
 |---|---|
@@ -110,22 +106,25 @@ Before you can complete the role assignment steps below, you need the [!DNL Azur
 
 ### Set up ADLS Gen2 permissions {#set-up-adls-gen2-permissions}
 
+For ADLS Gen2 connections, the **[!UICONTROL Container]** field in Collaboration corresponds to the ADLS Gen2 filesystem in [!DNL Azure]. Use the filesystem that contains your audience files.
+
 **Requirements:**
 
-- Storage account has **hierarchical namespace** enabled (Data Lake Storage Gen2).
-- Firewall / private endpoint rules allow Adobe access per your Adobe network guidance.
+* Storage account has **hierarchical namespace** enabled (Data Lake Storage Gen2).
+* Firewall / private endpoint rules allow Adobe access per your Adobe network guidance.
 
 **Role assignment:**
 
-1. Open **[!DNL Storage account]** > **[!DNL Containers]** > your **filesystem**.
-2. Select **[!DNL Access control (IAM)]**, then select **[!DNL Add role assignment]** > **[!DNL Storage Blob Data Reader]** for Adobe's principal at filesystem or directory scope.
-3. Select **[!DNL Save]**.
+1. In the [[!DNL Azure] portal](https://portal.azure.com/), open the storage account that contains your ADLS Gen2 filesystem.
+2. Open the filesystem that contains your audience files.
+3. Select **[!UICONTROL Access control (IAM)]**, then select **[!UICONTROL Add role assignment]** > **[!UICONTROL Storage Blob Data Reader]** for Adobe's principal at the filesystem or directory scope.
+4. Select **[!UICONTROL Save]**.
 
-| Field | Example |
-|---|---|
-| [!DNL Storage account]  | `datalake]-prod` |
-| [!DNL Container] | `audiences` |
-| [!DNL Path] | `sourcing/]inbound/` |
+| Field           | Example             |
+| --------------* | ------------------* |
+| Storage account | `datalake-prod`     |
+| Container       | `audiences`         |
+| Path            | `sourcing/inbound/` |
 
 After you complete the permission setup for your source type, proceed to [Configure your [!DNL Azure] connection](#configure-your-azure-connection).
 
@@ -133,7 +132,7 @@ After you complete the permission setup for your source type, proceed to [Config
 
 Create a data connection to [!DNL Microsoft Azure] to source audience data into Real-Time CDP Collaboration. The onboarding workflow validates your [!DNL Azure] storage credentials, confirms authorized access through the consent workflow, and automatically maps supported identity fields from your audience files.
 
-This is a one-time import workflow. After the connection is created, Collaboration performs a single import of audience data from the configured container path. No recurring schedule is configured.
+This workflow creates a reusable data connection and performs a single sourcing run from the configured container path. The current [!DNL Azure] workflow does not configure a recurring schedule.
 
 ### Add a new data connection {#add-new-data-connection}
 
@@ -149,12 +148,12 @@ The **[!UICONTROL Add audience]** workflow appears. Select **[!UICONTROL Add a n
 
 Select **[!UICONTROL [!DNL Azure Blob] Storage]** or **[!UICONTROL [!DNL Azure] Data Lake Storage Gen2]**, then select **[!UICONTROL Next]**.
 
-The connection wizard opens and displays the onboarding steps:
+The connection workflow opens with the following steps:
 
-- **[!UICONTROL Credentials]**
-- **[!UICONTROL Consent]**
-- **[!UICONTROL Field Mapping]**
-- **[!UICONTROL Review]**
+* **[!UICONTROL Credentials]**
+* **[!UICONTROL Consent]**
+* **[!UICONTROL Field Mapping]**
+* **[!UICONTROL Review]**
 
 ![The Add audience workflow showing [!DNL Azure Blob] Storage selected as the data connection type and the onboarding steps Credentials, Consent, Field Mapping, and Review.](../../assets/setup/azure-sourcing/azure-source-selection-step.png){zoomable="yes"}
 
@@ -177,25 +176,17 @@ A confirmation message indicates that the connection was established successfull
 
 ### Grant Adobe access to your [!DNL Azure] storage {#grant-adobe-access}
 
-In the **[!UICONTROL Consent]** step, you confirm that Adobe has authorized access to your storage container.
+In the **[!UICONTROL Consent]** step, Collaboration validates the [!DNL Azure] permissions that you configured earlier.
 
-<!-- ... >[!NOTE]
->
-> This step uses the [!DNL Azure] Role Based Access Control permissions you configured in [Set up [!DNL Azure] permissions](#set-up-azure-permissions). The consent URL initiates an [!DNL Azure] authorization workflow that confirms Adobe has access to the specified container. Both the Role Based Access Control setup and this consent step are required to establish the connection.
-
-Select the launch icon next to **[!UICONTROL Consent URL]** to open the [!DNL Azure] authorization workflow.
-
-The page displays the Adobe application that requires access. In Azure, assign the **Storage Blob Data Reader** role to the displayed application on the container that contains your audience files.
-
-After you complete the role assignment, return to Collaboration and select **[!UICONTROL Confirm consent]**. -->
-
-When the consent validation succeeds, a **[!UICONTROL Consent granted]** confirmation message appears. Select **[!UICONTROL Next]** to continue.
+Select the launch icon next to **[!UICONTROL Consent URL]** to open the authorization workflow, then follow the prompts to validate access. After validation is complete, return to Collaboration and select **[!UICONTROL Confirm consent]**.
 
 >[!NOTE]
 >
-> [!DNL Azure] role assignments can take several minutes to propagate. If consent validation does not succeed immediately, wait a few minutes and then try again.
+>[!DNL Azure] role assignments can take several minutes to propagate. If consent validation does not succeed immediately, wait a few minutes, confirm that Adobe's service principal has the required role assignment, and then try again.
 
-![The Consent step showing a Consent URL, the [!DNL Azure] application identifier, and a Consent granted confirmation message.](../../assets/setup/azure-sourcing/azure-consent-granted-step.png){zoomable="yes"}
+When the consent validation succeeds, a **[!UICONTROL Consent granted]** confirmation message appears. Select **[!UICONTROL Next]** to continue.
+
+![The Consent step showing a Consent URL, the \[!DNL Azure\] application identifier, and a Consent granted confirmation message.](../../assets/setup/azure-sourcing/azure-consent-granted-step.png){zoomable="yes"}
 
 ### Review field mappings {#review-field-mappings}
 
@@ -213,17 +204,9 @@ Review the displayed mappings and confirm that the source fields match the ident
 
 ### Review and complete the connection {#review-and-complete}
 
-In the **[!UICONTROL Review]** step, verify the connection details and field mappings.
+In the **[!UICONTROL Review]** step, verify the storage account, container, source path, tenant ID, and field mappings.
 
-The review page displays:
-
-- Storage account
-- Container
-- Source path
-- Tenant ID
-- Field mappings
-
-The review page also indicates that this is a one-time import and that no schedule is configured.
+The review page also indicates that the current [!DNL Azure] workflow performs a single sourcing run and does not configure a recurring schedule.
 
 When the configuration is correct, select **[!UICONTROL Complete]**.
 
@@ -243,16 +226,7 @@ The connection card in **[!UICONTROL My data connections]** is the first confirm
 
 After the connection is created, Collaboration begins sourcing audiences from the configured [!DNL Azure] location. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** to monitor sourcing progress and review sourced audiences.
 
-Sourced audiences appear in the **[!UICONTROL My audiences]** table. For each audience, the table displays information such as:
-
-- Audience name
-- Identity count
-- Status
-- Source
-- Data connection
-- Connection access
-- Creation date
-- Last updated date
+Sourced audiences appear in the **[!UICONTROL My audiences]** table. Use the audience status, identity count, source, data connection, and last updated date to confirm that the expected audiences were sourced from your [!DNL Azure] connection.
 
 >[!TIP]
 >
@@ -262,10 +236,10 @@ Sourced audiences appear in the **[!UICONTROL My audiences]** table. For each au
 
 Review the following limitations before you create or manage an Azure data connection.
 
-- **Match key constraints:** Match keys cannot be removed from an existing connection. To change the active match keys, delete the connection and create a new one.
-- **One active connection per [!DNL Azure] source type:** You can have one active Blob connection and one active ADLS Gen2 connection per account. To change the storage location, delete the existing connection and create a new one.
-- **Subfolder support:** Files must be at the configured path prefix; Collaboration does not traverse arbitrary subfolders beyond that prefix.
-- **Separate source types:** Blob and ADLS Gen2 are distinct connections—do not mix configuration between them in a single wizard run.
+* **Match key constraints:** Match keys cannot be removed from an existing connection. To change the active match keys, delete the connection and create a new one.
+* **One active connection per [!DNL Azure] source type:** You can have one active Blob connection and one active ADLS Gen2 connection per account. To change the storage location, delete the existing connection and create a new one.
+* **Subfolder support:** Files must be at the configured path prefix; Collaboration does not traverse arbitrary subfolders beyond that prefix.
+* **Separate source types:** Blob and ADLS Gen2 are distinct connections—do not mix configuration between them in a single wizard run.
 
 ## Troubleshooting {#troubleshooting}
 
@@ -273,23 +247,29 @@ Review the following limitations before you create or manage an Azure data conne
 
 Use these checks when sourced audiences do not appear after you create the connection.
 
-- Confirm files exist at the configured path and comply with the Audience Sourcing Specification.
-- Check **[!UICONTROL My data connections]** for errors.
-- Contact Adobe support with the connection name, storage account, and container details if issues persist after 24 hours.
+* Confirm files exist at the configured path and comply with the Audience Sourcing Specification.
+* Check **[!UICONTROL My data connections]** for errors.
+* Contact Adobe support with the connection name, storage account, and container details if issues persist after 24 hours.
 
 ### Audiences source but show zero or unexpected identities {#zero-identities}
 
-- Verify that all match key values in your audience files were trimmed, lowercased, and SHA256-hashed before upload. Collaboration does not hash or normalize data on ingestion.
-- Confirm that the match keys present in your files are enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
+Use these checks when audiences appear after sourcing, but the identity counts are zero or lower than expected.
+
+* Verify that all match key values in your audience files were trimmed, lowercased, and SHA256-hashed before upload. Collaboration does not hash or normalize data on ingestion.
+* Confirm that the match keys present in your files are enabled for your Collaboration account. See [Set up match keys](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys).
 
 ### Connection failed after initial success {#connection-failed}
 
-- Verify that the [!DNL Azure] Role Based Access Control role assignment for Adobe's principal was not removed or narrowed.
-- Confirm files still exist at the path and match the specification.
+Use these checks when a connection was created successfully but later enters a failed state.
 
-### Refresh or format errors {#format-errors}
+* Verify that the [!DNL Azure] RBAC role assignment for Adobe's principal was not removed or narrowed.
+* Confirm files still exist at the path and match the specification.
 
-- Ensure new files keep the same column structure and hashing rules as the initial ingest.
+### Import or format errors {#format-errors}
+
+Use these checks when sourcing fails because of file structure, hashing, or column-format issues.
+
+* Ensure all files keep the same column structure and hashing rules as the initial ingest.
 
 ## Next steps {#next-steps}
 
@@ -297,8 +277,8 @@ After sourcing completes, audiences are available in **[!UICONTROL My audiences]
 
 For other audience sourcing methods, see:
 
-- [Configure Google Cloud Storage for audience sourcing](./configure-gcs-audience-sourcing.md)
-- [Configure Snowflake for audience sourcing](./configure-snowflake-audience-sourcing.md)
-- [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md)
-- [Source audiences from Experience Platform](./onboard-audiences.md)
-- [Upload a CSV file for audience sourcing](./upload-csv-audience-sourcing.md)
+* [Configure Google Cloud Storage for audience sourcing](./configure-gcs-audience-sourcing.md)
+* [Configure Snowflake for audience sourcing](./configure-snowflake-audience-sourcing.md)
+* [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md)
+* [Source audiences from Experience Platform](./onboard-audiences.md)
+* [Upload a CSV file for audience sourcing](./upload-csv-audience-sourcing.md)
