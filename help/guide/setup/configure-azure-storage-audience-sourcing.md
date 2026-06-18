@@ -8,7 +8,7 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 Connect [!DNL Azure Blob] Storage or [!DNL Azure] Data Lake Storage (ADLS) Gen2 to Adobe Real-Time CDP Collaboration to source first-party audience data for activation and overlap analysis.
 
-Use this guide to create a reusable [!DNL Azure] data connection and run a one-time import from the configured storage location. Before you begin, confirm that your audience files meet the [Audience Sourcing Specification](https://cdn.experienceleague.adobe.com/assets/Adobe-Enterprise-Docs/real-time-cdp-collaboration.en/main/help/assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf) and that Adobe has read access to the storage location that contains your files.
+Use this guide to create a reusable [!DNL Azure] data connection and run a one-time import from the configured storage location. Before you begin, confirm that your audience files meet the [Audience Sourcing Specification](https://cdn.experienceleague.adobe.com/assets/Adobe-Enterprise-Docs/real-time-cdp-collaboration.en/main/help/assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf). You will grant Adobe read access to your Azure storage during the setup process.
 
 ## Choose your [!DNL Azure] source type {#choose-source-type}
 
@@ -16,7 +16,7 @@ Collaboration supports two [!DNL Azure] ingestion options. Use the table below t
 
 | | **[!DNL Azure Blob] Storage** | **[!DNL Azure] Data Lake Storage Gen2** |
 |---|---|---|
-| **Use when** | Files are in a standard Blob **container** on a storage account (no hierarchical namespace required). | Files are in a **filesystem** on a storage account with **hierarchical namespace** enabled. |
+| **Use when** | Files are in a standard Blob **container** on a storage account (no hierarchical namespace required). | Files are in a **filesystem** on a storage account with **hierarchical namespace enabled (ADLS Gen2)**. |
 | **Source option in Collaboration** | **[!DNL Azure Blob] Storage** | **[!DNL Azure] Data Lake Storage Gen2** |
 | **Required fields in Collaboration** | Storage account, **[!UICONTROL Container]**, **[!UICONTROL Path]** | Storage account, **[!UICONTROL Container]** (ADLS Gen2 filesystem), **[!UICONTROL Path]** |
 | **Permissions section** | [[!DNL Azure Blob] permissions](#set-up-azure-blob-storage-permissions) | [[!DNL Azure] Data Lake Storage Gen2 permissions](#set-up-adls-gen2-permissions) |
@@ -32,8 +32,6 @@ Some steps require action by an **[!DNL Azure] administrator**. If you are not t
 ### [!DNL Azure] access and permissions {#azure-access-and-permissions}
 
 Before you configure the connection in Collaboration, you or your [!DNL Azure] administrator must grant Adobe read access to the storage container or ADLS Gen2 filesystem that contains your audience files. After the permission setup is complete, the Collaboration configuration workflow validates access during the **[!UICONTROL Consent]** step.
-
-<!-- [!DNL Azure] audience sourcing must be available in your region. Supported regions are North America, EMEA, and Australia and New Zealand. If [!DNL Azure] sourcing is not available in your region, contact your Adobe account representative. -->
 
 ### Prepare your audience data {#prepare-audience-data}
 
@@ -89,7 +87,7 @@ Before you can complete the role assignment steps below, you need the [!DNL Azur
 
 ### Set up ADLS Gen2 permissions {#set-up-adls-gen2-permissions}
 
-For ADLS Gen2 connections, the **[!UICONTROL Container]** field in Collaboration corresponds to the ADLS Gen2 filesystem in [!DNL Azure]. Use the filesystem that contains your audience files. The storage account must have hierarchical namespace enabled, and any firewall or private endpoint rules must allow Adobe access according to your Adobe network guidance.
+For ADLS Gen2 connections, the **[!UICONTROL Container]** field in Collaboration corresponds to the ADLS Gen2 filesystem in [!DNL Azure]. Use the filesystem that contains your audience files. The storage account must have **hierarchical namespace enabled**, and any firewall or private endpoint rules must allow Adobe access according to your Adobe network guidance.
 
 1. In the [[!DNL Azure] portal](https://portal.azure.com/), open the storage account that contains your ADLS Gen2 filesystem.
 2. Open the filesystem that contains your audience files.
@@ -133,7 +131,7 @@ In the **[!UICONTROL Credentials]** step, provide the information required to ac
 | Field | Description |
 |---|---|
 | **[!UICONTROL Storage Account]** | The [!DNL Azure] storage account that contains your audience files. |
-| **[!UICONTROL Container]** | The storage container that contains your audience files. |
+| **[!UICONTROL Container]** | The storage container or ADLS Gen2 filesystem that contains your audience files. |
 | **[!UICONTROL Path]** | The folder path within the container where your audience files are stored. |
 | **[!UICONTROL Tenant ID]** | The [!DNL Azure] tenant identifier associated with your storage account. |
 
@@ -147,7 +145,7 @@ A confirmation message indicates that the connection was established successfull
 
 In the **[!UICONTROL Consent]** step, Collaboration validates the [!DNL Azure] permissions that you configured earlier.
 
-Select the launch icon next to **[!UICONTROL Consent URL]** to open the authorization workflow in [!DNL Azure]. Sign in with an account that has permission to grant consent for the storage location, then complete the authorization prompts. After authorization is complete, return to Collaboration and select **[!UICONTROL Confirm consent]** to validate Adobe's access.
+Select the launch icon next to **[!UICONTROL Consent URL]** to open the authorization workflow in [!DNL Azure]. Sign in with an account that has permission to grant consent for the storage location, then complete the Azure authorization prompts that grant Adobe access to the configured storage location. After authorization is complete, return to Collaboration and select **[!UICONTROL Confirm consent]** to validate Adobe's access.
 
 >[!NOTE]
 >
@@ -193,7 +191,7 @@ The connection card in **[!UICONTROL My data connections]** confirms that the co
 
 ### View sourced audiences {#view-sourced-audiences}
 
-After the connection is created, Collaboration begins sourcing audiences from the configured [!DNL Azure] location. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** to monitor sourcing progress and review sourced audiences.
+After the connection is created, Collaboration automatically begins sourcing audiences from the configured [!DNL Azure] location. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** to monitor sourcing progress and review sourced audiences.
 
 Sourced audiences appear in the **[!UICONTROL My audiences]** table. Use the audience status, identity count, source, data connection, and last updated date to confirm that the expected audiences were sourced from your [!DNL Azure] connection.
 
@@ -211,6 +209,8 @@ Review the following limitations before you create or manage an Azure data conne
 * **One active connection per [!DNL Azure] source type:** You can have one active Blob connection and one active ADLS Gen2 connection per account. To change the storage location, delete the existing connection and create a new one.
 * **Subfolder support:** Files must be at the configured path prefix; Collaboration does not traverse arbitrary subfolders beyond that prefix.
 * **Separate source types:** Blob and ADLS Gen2 are distinct connections—do not mix configuration between them in a single wizard run.
+
+<!-- I need to confirm the subfolder support behaviour -->
 
 ## Troubleshooting {#troubleshooting}
 
@@ -244,7 +244,7 @@ Use these checks when sourcing fails because of file structure, hashing, or colu
 
 ## Next steps {#next-steps}
 
-After sourcing completes, audiences are available in **[!UICONTROL My audiences]** for collaboration projects (activate, overlap, measurement).
+After sourcing completes, audiences are available in **[!UICONTROL My audiences]** for activation, overlap analysis, and measurement workflows.
 
 Other available sourcing methods include Experience Platform, [!DNL Amazon S3], [!DNL Google Cloud Storage], [!DNL Snowflake], and CSV file upload. For other audience sourcing methods, see:
 
