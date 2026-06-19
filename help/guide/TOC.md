@@ -21,6 +21,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Sources overview](./setup/source-overview.md)
     * [Configure AEP for audience sourcing](./setup/onboard-audiences.md)
     * [Configure AWS permissions for audience sourcing](./setup/configure-aws-permissions-audience-sourcing.md)
+    * [Configure Azure storage for audience sourcing](./setup/configure-azure-storage-audience-sourcing.md)
     * [Configure Amazon S3 for audience sourcing](./setup/configure-aws-s3-audience-sourcing.md)
     * [Configure GCS for audience sourcing](./setup/configure-gcs-audience-sourcing.md)
     * [Upload CSV file for audience sourcing](./setup/upload-csv-audience-sourcing.md)
