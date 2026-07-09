@@ -26,6 +26,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Configure GCS for audience sourcing](./setup/configure-gcs-audience-sourcing.md)
     * [Upload CSV file for audience sourcing](./setup/upload-csv-audience-sourcing.md)
     * [Configure Snowflake for audience sourcing](./setup/configure-snowflake-audience-sourcing.md)
+    * [Configure Databricks Delta Share for Audience Sourcing](./setup/configure-databricks-audience-sourcing.md)
   * [Manage data connections](./setup/manage-data-connection.md)
   * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
