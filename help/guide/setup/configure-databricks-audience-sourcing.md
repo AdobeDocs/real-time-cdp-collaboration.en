@@ -85,9 +85,9 @@ The data source selection screen lists all available connection types. Select **
 ### Connect your [!DNL Delta Share] {#connect-delta-share}
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_audience_sharing_databricks"
->title="Add audience from Databricks Delta Share"
->abstract="Connect a Databricks Delta Share to source your audience data. Follow the steps outlined in Experience League to configure your share and grant Adobe access."
+>id="rtcdp_collaboration_audience_sharing_databricks" 
+>title="Experience League"
+>abstract=""
 
 Provide the details required to allow Collaboration to access your [!DNL Delta Share]. Enter the provider, share, schema, and table details from your [!DNL Databricks Delta Share]. The required membership table must be available in the shared schema. If you use a metadata table, it must also be available in the same shared schema.
 After entering the required information, select **[!UICONTROL Connect]**.
