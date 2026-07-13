@@ -7,11 +7,11 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 # Configure [!DNL Databricks Delta Share] for audience sourcing
 
-Follow the steps in this guide to connect your [!DNL Databricks Delta Share] to Adobe Real-Time CDP Collaboration and begin sourcing first-party audience data through the UI.
+Use this guide to connect [!DNL Databricks Delta Share] to Adobe Real-Time CDP Collaboration and source first-party audiences through the user interface.
 
-Connect a [!DNL Databricks Delta Share] to Collaboration to ingest first-party audience data directly from your Unity Catalog share without exporting files to object storage. Once connected, Collaboration sources audiences from the tables you specify and makes them available for activation and overlap analysis within your collaboration projects. Sourcing your audiences is a required step before you can activate them or use them in overlap analysis with collaborators.
+When you connect [!DNL Databricks Delta Share], Collaboration reads audience data directly from your Unity Catalog share. After sourcing completes, you can use the audiences for activation and overlap analysis in collaboration projects.
 
-This guide covers the end-to-end configuration workflow: preparing prerequisites, connecting your [!DNL Delta Share], specifying membership and optional metadata tables, mapping identity fields, and confirming that sourcing completed successfully.
+This guide explains how to prepare prerequisites, connect your [!DNL Delta Share], specify source tables, map identity fields, and verify that audience sourcing starts successfully.
 
 Audiences sourced from [!DNL Databricks] follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform and other supported cloud sources.
 
@@ -19,9 +19,9 @@ Other available sourcing methods include [Experience Platform](./onboard-audienc
 
 ## Prerequisites {#prerequisites}
 
-Complete all items in this section before starting the configuration workflow. Incomplete prerequisites are the most common reason setup fails or audiences do not appear after sourcing. Before following this guide, you must have completed [account onboarding and setup](./onboard-account.md).
+Complete the prerequisites in this section before you start the configuration workflow. Missing prerequisites are a common reason that setup fails or audiences do not appear after sourcing. Before you follow this guide, complete [account onboarding and setup](./onboard-account.md).
 
-Some steps in this section require action by a [!DNL Databricks] administrator. If you are not the [!DNL Databricks] administrator for your organization, identify the appropriate person before starting.
+Some tasks in this guide require help from a [!DNL Databricks] administrator. If you do not administer [!DNL Databricks] for your organization, work with the appropriate administrator before you begin.
 
 ### [!DNL Databricks Delta Share] access {#databricks-delta-share-access}
 
@@ -35,9 +35,9 @@ For step-by-step instructions on publishing a share to Adobe, see the [Publish y
 
 ### Prepare your audience data {#prepare-audience-data}
 
-Your audience tables must be structured so Collaboration can discover audiences and map identities correctly. Key requirements include:
+Structure your audience tables so that Collaboration can discover audiences and map identities correctly.
 
-* **Membership table (required):** A table within your shared schema that contains one row per profile-audience pair. This table must include a column mappable to `AUDIENCE_ID` and at least one supported match key column.
+* **Membership table (required):** A table within your shared schema that contains one row per profile-audience pair. This table must include a column mappable to `AUDIENCE_ID` and at least one supported match key column. Collaboration uses this table for source-data preview and field mapping.
 * **Metadata table (optional):** If you maintain a separate catalog of audiences (one row per audience with audience ID, name, counts, or similar metadata), you can provide this table so Collaboration reads audience definitions from it instead of inferring distinct audience IDs from the membership table alone.
 * **Supported match keys:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID`, and other match keys enabled for your Collaboration account.
 * **Hashing requirements:** All match key values must be trimmed, lowercased, and SHA256-hashed before they are stored in [!DNL Databricks]. Collaboration does not hash or normalize data before ingestion.
@@ -49,9 +49,10 @@ All match keys present in your membership table must also be enabled for your Co
 
 Have the following values ready before starting the configuration wizard.
 
+
 | Value | Description |
 | ----- | ----------- |
-| Provider name             | The provider identifier Adobe uses in Unity Catalog to consume your [!DNL Delta Share]. Your [!DNL Databricks] administrator or Adobe onboarding contact can supply this value. It is not the same as your [!DNL Databricks] workspace URL. |
+| Provider name | The provider identifier that Adobe uses in Unity Catalog to access your [!DNL Delta Share]. Your [!DNL Databricks] administrator or Adobe onboarding contact can provide this value. This value is not the same as your [!DNL Databricks] workspace URL. |
 | Share name                | The name of the [!DNL Delta Share] published to Adobe.  |
 | Schema                    | The schema within the share that contains your audience tables. |
 | Membership table          | The table name within the schema that holds audience membership rows (one row per profile in an audience). |
@@ -61,7 +62,7 @@ Have the following values ready before starting the configuration wizard.
 
 ## Configure your [!DNL Databricks] connection {#configure-databricks-connection}
 
-The configuration workflow is a multi-step wizard inside the **[!UICONTROL Setup]** workspace. Complete each step in sequence. You can return to any step using the pencil icon on the final review screen before you create the connection.
+The configuration workflow is a multi-step wizard inside the **[!UICONTROL Setup]** workspace. Complete each step in sequence.
 
 ### Add a new data connection {#add-data-connection}
 
@@ -69,21 +70,17 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 
 If this is your first audience, you may also select the **[!UICONTROL Add]** option.
 
-![The My audiences tab in the Setup workspace with the add icon and Add audience option displayed.](../../assets/adobe-logo-old.png)
+![The My audiences tab in the Setup workspace with the add icon and Add audience option displayed.](../../assets/setup/add-manage-audiences/add-audiences.png)
 
 The Add audience workflow appears. Select **[!UICONTROL Add a new data connection]** and then select **[!UICONTROL Next]**.
 
-![The Add audiences workspace with the Add a new data connection option highlighted.](../../assets/adobe-logo-old.png)
+![The Add audiences workspace with the Add a new data connection option highlighted.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 ### Select [!DNL Databricks Delta Share] as the data source {#select-databricks-delta-share}
 
 The data source selection screen lists all available connection types. Select **[!UICONTROL Databricks Delta Share]** and then select **[!UICONTROL Next]**.
 
-![The Add audience workflow showing the data source selection screen with Databricks Delta Share selected and Next highlighted.](../../assets/adobe-logo-old.png)
-
-A prerequisite dialog outlining required configuration steps appears. It confirms that your [!DNL Delta Share] is published to Adobe, that you know your provider name, share name, schema, and table names, and that your membership table includes mappable match keys including `AUDIENCE_ID`. Select **[!UICONTROL Start onboarding]** to confirm before proceeding.
-
-![The "Prepare your Databricks Delta Share for onboarding" modal listing prerequisites, including publishing a share to Adobe and preparing membership (and optional metadata) tables, with Cancel and "Start onboarding" options.](../../assets/adobe-logo-old.png)
+![The Add audience workflow showing the data source selection screen with Databricks Delta Share selected and Next highlighted.](../../assets/setup/databricks-audience-sourcing/databricks-data-source-selection.png)
 
 ### Connect your [!DNL Delta Share] {#connect-delta-share}
 
@@ -92,7 +89,8 @@ A prerequisite dialog outlining required configuration steps appears. It confirm
 >title="Add audience from Databricks Delta Share"
 >abstract="Connect a Databricks Delta Share to source your audience data. Follow the steps outlined in Experience League to configure your share and grant Adobe access."
 
-Provide the details required to allow Collaboration to access your [!DNL Delta Share]. After entering the required information, select **[!UICONTROL Next]**.
+Provide the details required to allow Collaboration to access your [!DNL Delta Share]. Enter the provider, share, schema, and table details from your [!DNL Databricks Delta Share]. The required membership table must be available in the shared schema. If you use a metadata table, it must also be available in the same shared schema.
+After entering the required information, select **[!UICONTROL Connect]**.
 
 Collaboration validates the share and mounts it in Adobe's workspace. This step may take up to one minute. A progress indicator appears while the connection is established.
 
@@ -101,42 +99,19 @@ Collaboration validates the share and mounts it in Adobe's workspace. This step 
 | **[!UICONTROL Provider name]** | The Unity Catalog provider name Adobe uses to consume your share. See [Values required before you begin](#required-values). |
 | **[!UICONTROL Share name]** | The name of the [!DNL Delta Share] published to Adobe. |
 | **[!UICONTROL Schema]** | The schema within the share that contains your audience tables. |
+| **[!UICONTROL Data table]** |  The table name within the schema that holds audience membership rows (one row per profile in an audience). |
+| **[!UICONTROL Metadata table]** | The table that lists audiences (one row per audience).  |
 
-{style="table-layout:auto"}
 
-![The Add audience workflow showing the Databricks connect-share form with provider name, share name, and schema fields, and the Next button available.](../../assets/adobe-logo-old.png)
+![The Add audience workflow showing the Databricks connect-share form with provider name, share name, schema, data table, and metadata table fields, and the Next button available.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 If the share cannot be found or the schema is not yet visible, an error message appears. Verify the values with your [!DNL Databricks] administrator and try again.
 
-### Specify tables and audience discovery {#specify-tables-and-audience-discovery}
-
-Specify which tables Collaboration uses to source audiences and how audiences are discovered.
-
-#### Choose how audiences are discovered {#audience-discovery}
-
-Select one of the following options:
-
-* **[!UICONTROL From membership data]** (default): Collaboration discovers distinct audience IDs from your membership table. Use this option when you do not maintain a separate audience catalog table in [!DNL Databricks].
-* **[!UICONTROL From a metadata table]**: Collaboration reads audience definitions from a dedicated metadata table (one row per audience). Use this option when you maintain an audience catalog in [!DNL Databricks]. Collaboration still reads membership rows from the membership table for identity data.
-
-#### Enter table names {#specify-table}
-
-| Field | When required | Description |
-| --- | --- | --- |
-| **[!UICONTROL Membership table]** | Always | The table that contains one row per profile-audience pair. Must include columns mappable to `AUDIENCE_ID` and your match keys. |
-| **[!UICONTROL Metadata table]** | When using metadata-driven discovery | The table that lists audiences (one row per audience). Required when you select **[!UICONTROL From a metadata table]**. |
-
-{style="table-layout:auto"}
-
-For each table, select **[!UICONTROL Preview table]** to confirm the table name and review sample columns before continuing. If preview fails, verify the table name and that the table exists in the shared schema.
-
-![The Add audience workflow showing the tables step with audience discovery options, membership table and metadata table fields, and Preview table actions.](../../assets/adobe-logo-old.png)
-
-Select **[!UICONTROL Next]** to continue.
-
 ### Confirm consent and data use acknowledgment {#confirm-consent}
 
-You must confirm that consent opt-outs have been removed from the audience data before Collaboration can process it. If you are unsure whether your data meets this requirement, review the [governance policy and enforcement actions](./onboard-audiences.md#governance-policy-and-enforcement-actions) guide before proceeding. Select the confirmation checkbox and then select **[!UICONTROL OK]** to proceed.
+Before proceeding, confirm that you have applied any opt-outs required by law to the audience data you send to Collaboration. If you are unsure whether your data meets this requirement, review the [governance policy and enforcement actions](./onboard-audiences.md#governance-policy-and-enforcement-actions) guide before proceeding. Select the confirmation checkbox and then select **[!UICONTROL OK]** to proceed.
+
+![The consent opt-out acknowledgment dialog requiring confirmation before proceeding.](../../assets/setup/aws-audience-sourcing/consent-optout-acknowledgment.png)
 
 ### Provide connection details {#provide-connection-details}
 
@@ -147,42 +122,45 @@ Enter a name and an optional description for this data connection. The name you 
 
 Select **[!UICONTROL Next]** to continue.
 
-![Add audience workflow on the "Provide details" step showing fields for Data connection name and Data connection description populated with example values, with "Next" visible in the top-right corner.](../../assets/adobe-logo-old.png)
+![Add audience workflow on the "Provide details" step showing fields for Data connection name and Data connection description, with "Next" visible in the top-right corner.](../../assets/setup/databricks-audience-sourcing/databricks-connection-details.png)
 
 ### Map identity fields {#map-identity-fields}
 
-The **[!UICONTROL Mapping]** screen displays source columns from your membership table mapped to target identity fields. Collaboration automatically maps source fields to target fields based on column names and your enabled match keys. You can adjust mappings before continuing.
-
-**`AUDIENCE_ID`** must be mapped to a source column before you can proceed. At least two fields must be fully mapped (source and target).
+The **[!UICONTROL Mapping]** screen shows how Collaboration maps source columns from your membership table to target identity fields. Collaboration maps fields automatically based on column names and the match keys enabled for your account.
 
 >[!TIP]
 >
 >Select **[!UICONTROL Preview source data]** to review a sample of your membership table in tabular format, then select **[!UICONTROL Close]** to return to the mapping screen.
 
-![The "Databricks data preview" dialog showing a sample table of audience data with columns such as AUDIENCE_ID and HASHED_EMAIL_SHA_256, and a Close button in the bottom-right corner.](../../assets/adobe-logo-old.png)
+![The "Databricks data preview" dialog showing a sample table of audience data with columns such as AUDIENCE_ID and HASHED_EMAIL_SHA_256, and a Close button in the bottom-right corner.](../../assets/setup/databricks-audience-sourcing/databricks-source-data-preview.png)
 
-Confirm that the displayed mappings reflect the columns in your membership table. If **`AUDIENCE_ID`** is not mapped or required match keys are missing, correct your table structure or adjust mappings before proceeding. Select **[!UICONTROL Next]** to continue.
+Confirm that the displayed mappings reflect the columns in your membership table. Select **[!UICONTROL Next]** to continue.
 
-![Add audience workflow on the "Map fields" step showing source fields mapped to target identity fields, with the "Preview source data" option visible and the Next button in the top-right corner.](../../assets/adobe-logo-old.png)
+![Add audience workflow on the "Map fields" step showing source fields mapped to target identity fields, with the "Preview source data" option visible and the Next button in the top-right corner.](../../assets/setup/databricks-audience-sourcing/databricks-field-mapping.png)
+
+### Schedule refresh frequency and date range {#schedule-refresh}
+
+The **[!UICONTROL Schedule]** view appears. Use the dropdown menu to select a refresh frequency between one and six days, then set the active date range. Use the calendar icon to specify start and end dates.
+
+>[!IMPORTANT]
+>
+>To manage your Collaboration credits effectively, set the refresh frequency to match or exceed the update frequency of your underlying data refresh.
+
+![The schedule settings screen with refresh frequency options and date range configuration.](../../assets/setup/databricks-audience-sourcing/databricks-schedule-refresh-frequency.png)
 
 ### Review and complete the connection {#review-and-complete}
 
 Review the configuration summary before creating the connection. The summary screen displays the following sections:
 
-* **[!UICONTROL Share connection]**: The provider name, share name, and schema you configured.
-* **[!UICONTROL Tables]**: The membership table, optional metadata table, and audience discovery model.
-* **[!UICONTROL Details]**: The name and optional description of this data connection.
+* **[!UICONTROL Data connection]**: The connection name, provider name, share name, and schema you configured.
 * **[!UICONTROL Mapping]**: The source and target identity field mappings.
+* **[!UICONTROL Schedule]**: The refresh frequency and active date range.
 
-![Add audience workflow on the "Review" step showing a summary of the share connection, tables, details, and mapping sections with configured values, and the Complete button visible in the top-right corner.](../../assets/adobe-logo-old.png)
+![Add audience workflow on the "Review" step showing a summary of the share connection, details, and mapping sections with configured values, and the Complete button visible in the top-right corner.](../../assets/setup/databricks-audience-sourcing/databricks-review.png)
 
-Select the pencil icon (![A pencil icon.](../../assets/icons/edit.png)) next to any section to return to that step and make changes. When all sections are correct, select **[!UICONTROL Complete]**.
+Verify all sections are correct and then select **[!UICONTROL Complete]**.
 
 A confirmation dialog appears, indicating that Collaboration created the data connection and that audience sourcing is in progress.
-
->[!IMPORTANT]
->
->[!DNL Databricks] audience sourcing is a one-time import when you create the connection. Unlike some other sources, this workflow does not include a recurring refresh schedule. To source updated audience data from [!DNL Databricks], contact your Adobe account representative for guidance on your supported update path.
 
 ## Review sourced audiences {#review-sourced-audiences}
 
@@ -192,7 +170,7 @@ After you complete the configuration wizard, Collaboration begins sourcing audie
 
 While Collaboration is retrieving your audience data, a banner at the top of the **[!UICONTROL My audiences]** workspace indicates that sourcing is in progress. Individual audiences appear in the list only after sourcing completes for each audience.
 
-![Setup workspace on the My audiences tab showing an "Audience sourcing in progress" banner indicating that audiences are being sourced from a Databricks data connection, with the audience list displayed below.](../../assets/adobe-logo-old.png)
+![Setup workspace on the My audiences tab showing an "Audience sourcing in progress" banner indicating that audiences are being sourced from a Databricks data connection, with the audience list displayed below.](../../assets/setup/databricks-audience-sourcing/databricks-audience-sourcing-in-progress-banner.png)
 
 >[!TIP]
 >
@@ -202,7 +180,7 @@ While Collaboration is retrieving your audience data, a banner at the top of the
 
 Once sourcing completes, your [!DNL Databricks] audiences appear in the **[!UICONTROL My audiences]** tab alongside audiences sourced from other connections. Select a row item or **[!UICONTROL View audience]** to open the detail view for a specific audience.
 
-![The "My audiences" tab in the Setup workspace showing a table of audiences, including one sourced from Databricks Delta Share, with selectable checkboxes and row actions available.](../../assets/adobe-logo-old.png)
+![The "My audiences" tab in the Setup workspace showing a table of audiences, including one sourced from Databricks Delta Share, with selectable checkboxes and row actions available.](../../assets/setup/databricks-audience-sourcing/databricks-my-audiences-row-actions.png)
 
 The detail view displays the audience's status, source, and data connection name, along with the following panels:
 
@@ -211,7 +189,7 @@ The detail view displays the audience's status, source, and data connection name
 * **[!UICONTROL Connection access]**: Whether the audience is private, public, or shared with specific collaborators.
 * **[!UICONTROL Metadata visibility]**: What audience information, such as identity count, overlap percentage, and index, is visible to collaborators.
 
-![Individual audience detail view showing Status: Active, the source system, and data connection name at the top, with four panels below: Identities, Categories, Connection access, and Metadata visibility.](../../assets/adobe-logo-old.png)
+![Individual audience detail view showing Status: Active, the source system, and data connection name at the top, with four panels below: Identities, Categories, Connection access, and Metadata visibility.](../../assets/setup/databricks-audience-sourcing/databricks-audience-detail-view.png)
 
 Review these settings before using the audience in a collaboration project. To update categories, connection access, or metadata visibility, see [View and manage individual audiences](./onboard-audiences.md#view-individual-audiences).
 
@@ -219,19 +197,20 @@ Review these settings before using the audience in a collaboration project. To u
 
 You can edit audience metadata directly from the **[!UICONTROL My audiences]** list view without opening the detail view. Select the checkbox for an audience to reveal the action toolbar, then select an action: **[!UICONTROL Edit metadata visibility]**, **[!UICONTROL Edit connection access]**, **[!UICONTROL Edit name and description]**, **[!UICONTROL Edit categories]**, or **[!UICONTROL Delete]**.
 
-![The My audiences list view showing audiences sourced from different systems, with one row selected using a checkbox, revealing a bottom toolbar with edit and delete options.](../../assets/adobe-logo-old.png)
+![The My audiences list view showing audiences sourced from different systems, with one row selected using a checkbox, revealing a bottom toolbar with edit and delete options.](../../assets/setup/databricks-audience-sourcing/databricks-edit-audience-settings.png)
 
 ### View your [!DNL Databricks] data connection {#view-databricks-connection}
 
 To review the connection itself, including its match keys, navigate to **[!UICONTROL Setup]** > **[!UICONTROL My data connections]**. Your new [!DNL Databricks] connection is available there. The audience source is displayed as **[!UICONTROL Databricks Delta Share]**.
 
+![The My data connections tab showing the [!DNL Databricks Delta Share] data connection with sourcing status information.](../../assets/setup/databricks-audience-sourcing/databricks-my-data-connections-tab.png)
+
 ## Known limitations {#known-limitations}
 
-Be aware of the following constraints when configuring and using Databricks Delta Share audience sourcing:
+Be aware of the following constraints when configuring and using [!DNL Databricks Delta Share] audience sourcing:
 
 * **Native sharing only:** The UI supports native Databricks-to-Databricks [!DNL Delta Sharing] only. Bearer-token and OIDC authentication flows are not available in the configuration wizard.
 * **No in-wizard table browser:** You must enter table names manually. Collaboration validates table names when you preview tables; it does not list all tables in your share automatically.
-* **One-time import:** The configuration wizard does not include a recurring refresh schedule. Plan your data update strategy with your Adobe account team if you need ongoing refreshes from [!DNL Databricks].
 * **Metadata table row limit:** When you use a metadata table for audience discovery, Collaboration imports up to 100,000 audience rows from that table. Contact Adobe support if your catalog exceeds this limit.
 * **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. You can add match keys to an existing connection, but you cannot disable or delete them. To change the active match keys, you must [delete the data connection](./manage-data-connection.md#delete-data-connection) and create a new one.
 * **Membership table required:** Even when you use a metadata table for audience discovery, you must specify a membership table. Collaboration reads identity rows from the membership table during ingestion.
@@ -244,7 +223,7 @@ Use this section to resolve issues that occur during or after configuration. For
 
 * Verify that your [!DNL Delta Share] is published to Adobe's [!DNL Databricks] account and that the provider name, share name, and schema are correct.
 * Confirm the schema is visible in the share. Newly published shares may take time to propagate.
-* If connection continues to fail after several minutes, discard the in-progress setup and start again, or contact Adobe customer support with the values you entered (excluding sensitive credentials).
+* If the connection still fails after several minutes, restart the setup and try again, or contact Adobe customer support and provide the provider name, share name, schema, and any relevant error details. Do not include sensitive credentials.
 
 **Table preview fails**
 
@@ -300,6 +279,8 @@ Follow your organization's [!DNL Databricks Delta Sharing] procedures to grant A
 
 ### Collect [!DNL Databricks] details for Collaboration {#collect-databricks-details}
 
+After you publish the share, make sure you have the provider name, share name, schema, and table names available for the Collaboration configuration workflow.
+
 Gather the details below before starting the Collaboration configuration wizard.
 
 | Field | Description | Example |
@@ -322,7 +303,7 @@ From here, you can:
 * [Activate audiences within a project](../collaborate/activate.md)
 * [Review overlaps and measure performance](../collaborate/measure.md)
 * [Manage audience settings and visibility](./onboard-audiences.md#view-individual-audiences)
-* View your [!DNL Databricks] data connection in **[!UICONTROL My data connections]**
+* [View and manage data connections](./manage-data-connection.md)
 
 For other audience sourcing methods, see:
 
