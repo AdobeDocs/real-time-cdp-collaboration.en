@@ -164,7 +164,7 @@ A confirmation dialog appears, indicating that Collaboration created the data co
 
 ## Review sourced audiences {#review-sourced-audiences}
 
-After you complete the configuration wizard, Collaboration begins sourcing audiences from your [!DNL Databricks] tables asynchronously. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** to monitor progress. Sourcing does not complete immediately; the time required depends on the size of your data.
+After you complete the configuration wizard, Collaboration begins sourcing audiences from your [!DNL Databricks] tables asynchronously. Navigate to **[!UICONTROL Setup] > [!UICONTROL My audiences]** to monitor progress. Sourcing does not complete immediately; the time required depends on the size of your data.
 
 ### Monitor audience sourcing progress {#monitor-sourcing-progress}
 
