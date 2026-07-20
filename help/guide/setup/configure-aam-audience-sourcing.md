@@ -86,11 +86,13 @@ When finished, select **[!UICONTROL Next]**.
 
 ### Review identity mapping {#review-identity-mapping}
 
-The **[!UICONTROL Mapping]** screen is read-only. Collaboration automatically maps the identity output from your AAM segments to Collaboration identity fields. Audience membership is sourced as a list of Demdex IDs, where each record represents a profile that belongs to a selected segment. See the following table for more information.
+The **[!UICONTROL Mapping]** screen is read-only. Collaboration automatically maps supported identity output from your AAM segments to Collaboration identity fields. See the following table for more information.
 
 | AAM identity output | Collaboration identity field | Notes |
 | ------------------- | ---------------------------- | ----- |
-| `Demdex ID`         | `DEMDEX_ID`  | Primary identity output for this integration. Collaboration does not translate Demdex ID to ECID during sourcing. |
+| `Demdex ID`         | `DEMDEX_ID`  | Supported identity output for this integration. Collaboration does not translate Demdex ID to ECID during sourcing. |
+| `GAID`         | `GAID`  | Supported identity output for this integration. |
+| `IDFA`         | `IDFA`  | Supported identity output for this integration. |
 
 {style="table-layout:auto"}
 
@@ -159,7 +161,7 @@ Select a row or the **[!UICONTROL View audience]** option to open the detail vie
 
 The detail view shows:
 
-* **[!UICONTROL Identities]**: The total Demdex ID count and any available breakdown information. 
+* **[!UICONTROL Identities]**: The total identity count and any available breakdown information. 
 * **[!UICONTROL Categories]**: Any tags you have applied to organize or filter the audience. 
 * **[!UICONTROL Connection access]**: Whether the audience is private, public, or shared with specific collaborators. 
 * **[!UICONTROL Metadata visibility]**: What audience information is visible to collaborators. 
@@ -175,7 +177,6 @@ Be aware of the following constraints when configuring and using the Audience Ma
 
 * **First-party data only:** Segments that include traits from third-party data providers or Adobe Audience Marketplace cannot be sourced. Only segments built entirely from your own first-party data sources are eligible. 
 * **13-month segment recency window:** Only segments created or updated within the past 13 months are available for selection during setup and on each scheduled refresh. 
-* **Demdex ID is the only output identity:** The integration exports audience membership as a list of Demdex IDs. No translation to ECID or other identity namespaces is performed. 
 * **No on-demand refresh:** Audience data refreshes on the schedule you configure. Manual, immediate refresh is not supported. 
 * **One active AAM connection per organization:** Only one active AAM data connection is supported per IMS organization.  
 * **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. To change active match keys, delete the connection and create a new one. 
