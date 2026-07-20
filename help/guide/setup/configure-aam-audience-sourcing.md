@@ -114,6 +114,7 @@ Once finished, select **[!UICONTROL Next]**.
 
 
 ### Select audiences {#select-audiences}
+
 You can view a list of eligible segments that use first-party data source traits and were created or updated in the last 13 months.
 
 Select the segments that you want to source into Collaboration. You can search by name or scroll to find specific segments. Select **[!UICONTROL Next]** when you are finished.
@@ -149,6 +150,7 @@ After you complete the wizard, Collaboration begins retrieving audience membersh
 While Collaboration is retrieving your AAM segment data, a banner at the top of the **[!UICONTROL My audiences]** workspace indicates that sourcing is in progress. Individual audiences appear in the list as sourcing completes for each segment. 
 
 ### View sourced audience details {#view-sourced-audience-details}
+
 Once sourcing completes, your AAM segments appear in the **[!UICONTROL My audiences]** tab. The **[!UICONTROL Source]** column identifies them as **[!UICONTROL Adobe Audience Manager]**.
 
 ![The "My audiences" tab in the Setup workspace showing a table of audiences, including ones sourced from Adobe Audience Manager, with selectable checkboxes and row actions available](../../assets/setup/aam-audience-sourcing/audience-manager-sourced-audience.png)
