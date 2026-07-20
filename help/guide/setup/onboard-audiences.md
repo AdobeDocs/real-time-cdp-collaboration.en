@@ -70,7 +70,7 @@ Next, you'll choose the source for your data connection. The available sources i
 * **Amazon Web Services**: Connect to your Amazon S3 storage to source audience data directly from your S3 buckets. See the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) guide for step-by-step instructions.
 * **Snowflake**: Use your Snowflake data warehouse to pull in audience data seamlessly. Refer to the [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md) guide.
 * **Google Cloud Storage**: Connect to your GCS buckets to source audience data. See the [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md) guide for step-by-step instructions.
-* **Adobe Audience Manager** (_Coming soon_): Source your audience segments from Adobe Audience Manager.
+* **Adobe Audience Manager**: Source your audience segments from Adobe Audience Manager. See the [Configure Adobe Audience Manager for audience sourcing](./configure-aam-audience-sourcing.md) guide to get started.
 
 Select your data source and then select **[!UICONTROL Next]**.
 

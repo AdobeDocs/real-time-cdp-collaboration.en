@@ -152,7 +152,7 @@ When you're done, review the updates and select **[!UICONTROL Save]** to apply y
 
 ![The Scheduling dialog highlighting the updates and Save option.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
-## Delete data connection
+## Delete data connection {#delete-data-connection}
 
 Deleting a data connection will remove all underlying audiences, associated settings, and usage across Collaboration. This action cannot be undone.
 
