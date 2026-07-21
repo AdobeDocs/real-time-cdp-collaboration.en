@@ -17,6 +17,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * Set Up {#setup}
   * [Overview of setup section](./setup/setup-overview.md)
   * [Onboard and manage your account](./setup/onboard-account.md)
+  * {hide-from-toc} [Audiences overview](./setup/audiences-overview.md)
   * Source and manage audiences {#source-audiences}
     * [Sources overview](./setup/source-overview.md)
     * [Configure AEP for audience sourcing](./setup/onboard-audiences.md)
@@ -58,6 +59,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * {hide-from-toc} [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
 * Destinations {#destinations}
   * [Overview](/help/guide/destinations/overview.md)
+  * {hide-from-toc} [Configure and manage a destination](./destinations/manage-destinations.md)
   * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permissions {#permissions}
   * [Overview](/help/guide/permissions/overview.md)
