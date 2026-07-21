@@ -32,7 +32,8 @@ The following sources are available in Collaboration. To view the step-by-step s
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | Connect your [!DNL Snowflake Secure Data Share] to bring in large-scale audience datasets. | Available |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | Connect your GCS buckets to bring in audience data stored in your [!DNL Google Cloud] environment. | Available |
 | [CSV file upload](./upload-csv-audience-sourcing.md) | Upload a formatted CSV file directly from your local system. | Available |
-| Adobe Audience Manager | Bring existing Audience Manager segments into your Collaboration projects. | *Coming soon* |
+| [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | Bring existing Audience Manager segments into your Collaboration projects. | Available |
+| [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | Connect your [!DNL Databricks Delta Share] to bring in large-scale audience datasets from your [!DNL Databricks] environment. | Available |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | Connect your [!DNL Azure Blob Storage] containers to source first-party datasets from your [!DNL Microsoft Azure] environment. | Available |
 | [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | Connect your [!DNL Azure Data Lake Storage Gen 2] account to bring in audience data stored in your [!DNL Azure] data lake. | Available |
 
