@@ -18,39 +18,33 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
+>[!NOTE]
+>
+>This page covers destinations that audiences are activated **to**, such as cloud storage platforms. Looking to activate audiences **to a collaborator** within a shared project instead? See the [activate audiences](/help/guide/collaborate/activate.md) guide.
+
 Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
-Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection's configured destination. Activation can be done by either collaborator depending on the audience activation settings [configured in the connection](/help/guide/connect/establishing-connections.md#configure-connection-settings).
+Collaborators can configure destinations to send audiences to external platforms, such as Adobe Experience Platform or a cloud storage platform, for use in campaigns. Collaborators can then [activate audiences within a project](../collaborate/activate.md), which are sent to their connection's configured destination. Activation can be done by either collaborator depending on the audience activation settings [configured in the connection](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
 >Currently, when collaborators activate audiences within a project, they are automatically sent to their connection's configured destination. You **must** configure a destination before your collaborator can activate audiences within a project. 
 
-## Configure destinations {#configure-destinations}
+## Available destinations {#available-destinations}
 
-To configure a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Here, you can view all available destinations.
-
->[!NOTE]
->
-> Currently, only Adobe Experience Platform is available as a self-serve destination within Collaboration. If you are interested in configuring a destination such as Amazon S3 or Snowflake, please contact your Adobe representative.
-
-![The My destinations tab in the Setup workspace showing the available destinations.](/help/assets/destinations/overview/my-destinations-overview.png)
-
-To begin configuring a destination, select the **[!UICONTROL Set up]** option within the destination of your choice. For information on configuring specific destinations, refer to the guides in the [available destinations](#available-destinations) table.
-
-![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform desintation.](/help/assets/destinations/overview/my-destinations-set-up.png)
-
-### Available destinations {#available-destinations}
-
-The following destinations are available for configuration in Collaboration. To view the configuration guide for that destination, select the destination name in the table below. If you are interested in configuring a destination that is not currently available, please contact your Adobe representative.
+The following destinations are available for configuration in Collaboration. To view the configuration guide for that destination, select the destination name in the table below.
 
 | Destination | Availability |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | Available |
-| [!DNL Amazon S3] | Coming soon. |
-| [!DNL Snowflake] | Coming soon. |
-| [!DNL Google Cloud Storage] | Coming soon. |
-| [!DNL Azure Blob Storage] | Coming soon. |
+| [[!DNL Amazon S3]](./manage-destinations.md) | Available |
+| [[!DNL Snowflake]](./manage-destinations.md) | Available |
+| [[!DNL Google Cloud Storage]](./manage-destinations.md) | Available |
+| [[!DNL Azure Blob Storage]](./manage-destinations.md) | Available |
+| [[!DNL SFTP]](./manage-destinations.md) | Available |
+| [[!DNL Data Landing Zone]](./manage-destinations.md) | Available |
+
+<!-- TODO (CORE-167477): SFTP and Data Landing Zone were missing from this table even in the old "Coming soon" version. Added them here since they're in scope per the ticket/transcript (Cloud Storage category) — confirm this wasn't an intentional exclusion before publishing. -->
 
 >[!NOTE]
 >
@@ -58,4 +52,4 @@ The following destinations are available for configuration in Collaboration. To 
 
 ## Next steps
 
-Once you've configured your destination, you can begin [activating targeted audiences](../collaborate/activate.md) within your projects.
+To configure a destination, refer to the [configure and manage a destination](./manage-destinations.md) guide. Once you've configured your destination, you can begin [activating targeted audiences](../collaborate/activate.md) within your projects.

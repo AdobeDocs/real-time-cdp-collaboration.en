@@ -13,7 +13,7 @@ topic_v2:
     internal-label: Insights
 ---
 
-<!-- STUB (CORE-167477): placeholder created ahead of content so other in-flight PRs can cross-link without blocking. Hidden from TOC until content lands. exl-id/TQID to be assigned by the publishing pipeline at that time. -->
+<!-- STUB (CORE-167477): placeholder created ahead of content so other in-flight PRs can cross-link without blocking. Hidden from TOC until content lands. -->
 
 # Audiences overview
 

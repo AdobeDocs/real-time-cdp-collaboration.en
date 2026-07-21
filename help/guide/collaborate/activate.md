@@ -21,6 +21,10 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
+>[!NOTE]
+>
+>This page covers activating audiences **to a collaborator** within a shared project. Looking to activate audiences **to a destination**, such as a cloud storage platform? See the [destinations overview](/help/guide/destinations/overview.md) guide instead.
+
 >[!IMPORTANT]
 >
 >The **[!UICONTROL Activate]** workspace is only available if the **Audience activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.

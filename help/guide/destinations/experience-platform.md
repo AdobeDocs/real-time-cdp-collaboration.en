@@ -30,13 +30,11 @@ Configure this destination to activate audiences from your project to Adobe Expe
 
 ## Configure destination {#configure-destination}
 
-To configure Adobe Experience Platform as a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Select **[!UICONTROL Set up]** for Adobe Experience Platform.
+To configure Adobe Experience Platform as a destination, navigate to the **[!UICONTROL Activation]** workspace, select the **[!UICONTROL Catalog]** tab, and select **[!UICONTROL Set up]** for Adobe Experience Platform. For the general configuration steps common to all destinations, refer to the [configure and manage a destination](./manage-destinations.md) guide.
 
-![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform destination.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+<!-- TODO (CORE-167477): screenshots below this point still show the old Setup > My destinations nav path and need to be recaptured once the Activation workspace is accessible for screenshots. -->
 
-The **[!UICONTROL Create destination]** workflow appears. 
-
-![The Create destination workflow for Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
+The **[!UICONTROL Create destination]** workflow appears.
 
 ### Configure sandbox {#configure-sandbox}
 
