@@ -12,9 +12,6 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-
-<!-- exl-id/TQID to be assigned by the publishing pipeline when this page is finalized. -->
-
 # Configure and manage a destination
 
 {{limited-availability-release-note}}
