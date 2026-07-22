@@ -33,7 +33,7 @@ These release notes cover the functionality released in Adobe Real-Time CDP Coll
 
 ## July 2026 {#july-2026}
 
-Real-Time CDP Collaboration now supports additional self-service audience sourcing options, including [!DNL Databricks Delta Share] and Adobe Audience Manager.
+Real-Time CDP Collaboration now supports additional self-service audience sourcing options.
 
 **New or updated features**
 
