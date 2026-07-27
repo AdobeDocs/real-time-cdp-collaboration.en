@@ -20,7 +20,7 @@ topic_v2:
 
 >[!NOTE]
 >
->This page covers destinations that audiences are activated **to**, such as cloud storage platforms. Looking to activate audiences **to a collaborator** within a shared project instead? See the [activate audiences](/help/guide/collaborate/activate.md) guide.
+>This page covers destinations that audiences are activated **to**, such as cloud storage platforms. To activate audiences **to a collaborator** within a shared project, refer to the [activate audiences](/help/guide/collaborate/activate.md) guide.
 
 Destinations are integrations used to send targeted audiences to external platforms. These integrations enable you to activate audiences across various marketing channels and platforms for use in campaigns and customer engagement.
 
@@ -43,8 +43,6 @@ The following destinations are available for configuration in Collaboration. To 
 | [[!DNL Azure Blob Storage]](./manage-destinations.md) | Available |
 | [[!DNL SFTP]](./manage-destinations.md) | Available |
 | [[!DNL Data Landing Zone]](./manage-destinations.md) | Available |
-
-<!-- TODO (CORE-167477): SFTP and Data Landing Zone were missing from this table even in the old "Coming soon" version. Added them here since they're in scope per the ticket/transcript (Cloud Storage category) — confirm this wasn't an intentional exclusion before publishing. -->
 
 >[!NOTE]
 >
