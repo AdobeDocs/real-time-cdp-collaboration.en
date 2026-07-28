@@ -25,11 +25,11 @@ After an audience is sourced into Collaboration, it becomes available for use in
 
 Use audiences in Collaboration to:
 
-* compare your audience with collaborator audiences
-* identify overlaps and opportunities
-* activate audiences
-* measure outcomes and campaign performance
-* manage audience visibility and related settings
+* Compare your audience with collaborator audiences
+* Identify overlaps and opportunities
+* Activate audiences
+* Measure outcomes and campaign performance
+* Manage audience visibility and related settings
 
 ## How audiences fit into Collaboration {#conceptual-diagram}
 
