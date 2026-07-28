@@ -22,6 +22,8 @@ topic_v2:
 
 Audiences are specific groups of users or customers segmented based on various attributes. These enable collaborators to work together on targeted marketing and personalized experiences for more effective advertising campaigns. This guide covers how to source audiences into Real-Time CDP Collaboration, view the audiences dashboard, and manage individual audiences.
 
+For a conceptual explanation of audiences in Collaboration, see [Audiences overview](../setup/audiences-overview.md).
+
 ## Source audiences into Collaboration {#source-audiences}
 
 >[!IMPORTANT]
@@ -237,7 +239,7 @@ Each audience contains an overview of the following information:
 | **[!UICONTROL Name]** | The name of the audience. |
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A **[!UICONTROL Pending]** status indicates that the audience has just recently been sourced and identities have yet to populate. The sourced audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
-| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. You can select the name to view the data connection.  |
 | **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
 | **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
@@ -263,7 +265,7 @@ The following information is displayed for each individual audience:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience's configuration or metadata was last changed |
 | **[!UICONTROL Last updated by]** | Indicates the user who last updated the audience. |

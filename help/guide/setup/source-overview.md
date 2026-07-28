@@ -7,6 +7,8 @@ audience: admin, publisher, advertiser
 
 In Adobe Real-Time CDP Collaboration, a source (or data connection) is where your audience data comes from. You can connect to various source types such as Adobe applications, cloud-based storages, or files from your local system, to [source and manage audiences](./onboard-audiences.md) for your Collaboration projects. During the audience sourcing workflow, you can choose and set up your preferred source based on your organization's needs.
 
+For a conceptual overview of how audiences, sources, data connections, projects, and destinations fit together in Collaboration, see the [Audiences overview](./audiences-overview.md).
+
 ## Connect a source {#connect-a-source}
 
 To connect a source, you need to enter the sourcing workflow. First, navigate to the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** workspace.
