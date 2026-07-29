@@ -12,9 +12,6 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-
-<!-- STUB (CORE-167477): placeholder created ahead of content so other in-flight PRs can cross-link without blocking. Hidden from TOC until content lands. -->
-
 # Audiences overview
 
 {{limited-availability-release-note}}

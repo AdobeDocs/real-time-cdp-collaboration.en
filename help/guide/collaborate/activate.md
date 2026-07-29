@@ -73,7 +73,7 @@ The **[!UICONTROL Edit match keys]** dialog opens, where you can toggle off the 
 >
 >At least one match key must be selected.
 
-![The Edit match keys dialog in the Audiece activation workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![The Edit match keys dialog in the Audience activation workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
 ### Set audience refresh frequency {#set-audience-refresh-frequency}
 

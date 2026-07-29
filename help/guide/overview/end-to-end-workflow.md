@@ -49,7 +49,7 @@ This guide will use three mock collaborators to illustrate the end-to-end workfl
 
 To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL TV Tube] creates an account with the publisher role.
 
-After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../destinations/manage-destinations.md).
 
 Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. After [!UICONTROL TV Tube] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL TV Tube] accepts the connection request to establish a secure link between the two brands.
 
@@ -63,7 +63,7 @@ After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing cam
 
 [!UICONTROL Fit Apparel], an athletic apparel brand, wants to collaborate with [!UICONTROL Luma], another athletic apparel brand, to share audience data and insights for enhanced marketing efforts.
 
-After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] need to [create a data connection and source audiences](../setup/onboard-audiences.md). Both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] will activate audiences for marketing campaigns, so they both need to [configure a destination](../setup/manage-destinations.md).
+After establishing their accounts, both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] need to [create a data connection and source audiences](../setup/onboard-audiences.md). Both [!UICONTROL Fit Apparel] and [!UICONTROL Luma] will activate audiences for marketing campaigns, so they both need to [configure a destination](../destinations/manage-destinations.md).
 
 After sourcing their audiences, [!UICONTROL Fit Apparel] and [!UICONTROL Luma] [form a connection](../connect/establishing-connections.md) within the platform to securely share audience data. To do so, they must make use of the [private connection invite](../connect/establishing-connections.md#private-connection-invite) feature. [!UICONTROL Luma] shares their connect code with [!UICONTROL Fit Apparel], who then uses it to initiate a connection request. After [!UICONTROL Luma] accepts the connection request, [!UICONTROL Fit Apparel] configures the connection settings to define how they will collaborate. In the configuration, [!UICONTROL Fit Apparel] specifies that both collaborators can activate audiences for marketing campaigns. To complete the connection, [!UICONTROL Luma] accepts the request to establish a secure link between the two brands.
 
@@ -77,7 +77,7 @@ Finally, after executing their campaigns, both brands upload data to [Measure](.
 
 [!UICONTROL Luma], an athletic retail company, wants to connect with [!DNL Amazon Marketing Cloud] ([!DNL AMC]) to enhance their marketing capabilities by leveraging [!DNL AMC]'s identity resolution and targeting tools. Luma already has an active [!DNL Amazon Advertising] account and is approved to use [!DNL AMC].
 
-To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role. After establishing their account, [!UICONTROL Luma] must [create a data connection and source audiences](../setup/onboard-audiences.md). Since [!UICONTROL Luma] will activate audiences for marketing campaigns, they need to [configure a destination](../setup/manage-destinations.md).
+To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role. After establishing their account, [!UICONTROL Luma] must [create a data connection and source audiences](../setup/onboard-audiences.md). Since [!UICONTROL Luma] will activate audiences for marketing campaigns, they need to [configure a destination](../destinations/manage-destinations.md).
 
 Once [!UICONTROL Luma] has their account set up, they're ready to [form a connection](../connect/establishing-connections.md) with [!DNL AMC] within the platform. [!UICONTROL Luma] uses the [discover collaborators](../connect/discover-collaborators.md) feature to find [!UICONTROL Amazon Marketing Cloud] and [initiate a connection request](../connect/advertising-platforms/amc.md). After authenticating and authorizing the connection through the [!DNL Amazon] sign-in page, the connection with [!DNL AMC] is established.
 
@@ -91,7 +91,7 @@ After the connection is established, [!UICONTROL Luma] [creates a project](../co
 
 To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL DataM8] creates an account with the data partner role.
 
-After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL DataM8] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../setup/manage-destinations.md).
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL DataM8] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../destinations/manage-destinations.md).
 
 Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL DataM8] and initiate a connection request. After [!UICONTROL DataM8] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate. [!UICONTROL DataM8] accepts the connection request to establish a secure link between the two collaborators. 
 
@@ -107,7 +107,7 @@ After the connection is established, [!UICONTROL Luma] [creates a project](../co
 
 To begin, [!UICONTROL Agency99] needs to [create an account](../setup/onboard-account.md) with the agency role, while [!UICONTROL TV Tube] creates an account with the publisher role. 
 
-After establishing their accounts, both [!UICONTROL Agency99] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). [!UICONTROL Agency99] will set up client sub-accounts and source client data within its workspace. Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../setup/manage-destinations.md).
+After establishing their accounts, both [!UICONTROL Agency99] and [!UICONTROL TV Tube] must [create a data connection and source audiences](../setup/onboard-audiences.md). [!UICONTROL Agency99] will set up client sub-accounts and source client data within its workspace. Only [!UICONTROL TV Tube] will activate audiences for marketing campaigns, so they need to [configure a destination](../destinations/manage-destinations.md).
 
 Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Agency99] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL TV Tube] and initiate a connection request. [!UICONTROL Agency99] will do this for one or multiple clients that want to collaborate with [!UICONTROL TV Tube]. After [!UICONTROL TV Tube] accepts the connection request(s), [!UICONTROL Agency99] configures the connection settings to define how each collaboration. [!UICONTROL TV Tube] accepts the connection request(s) to establish a secure link between the two brands. 
 
@@ -123,7 +123,7 @@ After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing cam
 
 To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL Holdco] creates an account with the agency role.  
 
-After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL Holdco] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../setup/manage-destinations.md).  
+After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL Holdco] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../destinations/manage-destinations.md).  
 
 Once both collaborators have their accounts set up, they're ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL Holdco] and initiate a connection request. After [!UICONTROL Holdco] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate.  
 
