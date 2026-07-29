@@ -61,20 +61,11 @@ Once the account is validated, a check mark appears next to the providers name. 
 
 The **[!UICONTROL Create destination]** step defines where audience export files are delivered.
 
-Complete all required destination settings, including:
-
-* **Destination name**
-* **Bucket name**
-* **Folder path**
-* **S3 encryption algorithm**
-* **Compression format**
-* **File type**
+Complete the required destination settings. The available fields depend on the selected destination provider. For definitions and connector-specific requirements, refer to the corresponding destination documentation linked from [Cloud storage destination requirements](./cloud-storage-destination-requirements.md).
 
 Use the available dropdown lists to select values for the required configuration options. After you complete all required fields, select **[!UICONTROL Next]**. The guided setup advances to the field mapping step.
 
 ![The Create destination step displaying destination configuration fields.](/help/assets/destinations/manage-destinations/configure-new-destination.png)
-
-<!-- TODO (CORE-167477): the fields listed above (bucket name, S3 encryption algorithm, compression format, file type) are confirmed for Amazon S3 only. Verify against the other five in-scope connectors (Azure Blob, Data Landing Zone, Google Cloud Storage, SFTP, Snowflake) before publishing — see the open gap in DOCUMENTATION_ACTION_ITEMS.md. -->
 
 Accepted file types are: JSON, CSV, and Parquet. For CSV file type, ensure the file formatting settings are correct for the file format. use the dropdown selectors to configure these options. For more details, refer to the configuration guide on how to [Configure file formatting options for file-based destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/batch-destinations-file-formatting-options#file-configuration).
 
@@ -83,7 +74,8 @@ JSON and Parquet file formats have the option to include heriarchical data such 
 ### Map fields {#map-fields}
 
 The **[!UICONTROL Map fields]** step defines how match keys are mapped to a target identity for the destination.
-<!-- Can we elaborate on what that means for the user. -->
+
+Each mapping specifies which audience match key is sent to the corresponding identity field expected by the destination. Configure the mappings correctly so that the destination can recognize the exported identifiers and associate them with the intended users.
 
 Select [!UICONTROL Add field] to add additional match keys, or the trash icon to remove unwanted rows. Review and configure the required field mappings. When the mappings are complete, select **[!UICONTROL Next]**. The guided setup advances to the review step.
 
