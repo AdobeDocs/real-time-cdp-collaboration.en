@@ -17,7 +17,7 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-In Adobe Real-Time CDP Collaboration, audiences are groups of users or customers you bring into Collaboration. After sourcing, you can use audiences to discover overlap with collaborators, activate audiences, and measure campaign performance. You can source audiences from multiple sources, including Adobe Experience Platform, cloud storage and sharing systems, and file upload workflows, depending on where your audience data already lives.
+In Adobe Real-Time CDP Collaboration, audiences are groups of users or customers you bring into Collaboration. After sourcing, you can use audiences to discover overlap with collaborators, activate audiences, and measure campaign performance. You can source audiences from a variety of source types, including Adobe Experience Platform, cloud storage and sharing systems, and file upload workflows, depending on where your audience data already lives.
 
 ## What you can do with audiences {#audiences-in-collaboration}
 
@@ -70,6 +70,9 @@ The workspace where collaborators use audiences together for supported use cases
 **Destination**  
 The external platform or system where activated audiences are sent.
 
+**Match keys**
+Identifiers that Collaboration uses to match records across datasets and collaborators. Match keys support workflows such as audience overlap, activation, and measurement.
+
 ## Audience lifecycle {#audience-lifecycle}
 
 In Collaboration, you source audiences through data connections, manage them in **[!UICONTROL Setup]**, and use them in projects for supported use cases.
@@ -93,6 +96,14 @@ Collaboration supports multiple audience source types. The source you choose det
 * CSV file upload
 
 For a list of supported sources and source-specific setup steps, see [Sources overview](./source-overview.md#available-sources).
+
+## What audiences are made up of {#match-keys}
+
+In Collaboration, audiences are matched using match keys. When you source an audience, you map fields from your source data to the match keys configured for your account. Collaboration then uses those mapped identifiers to match audience records across datasets and collaborators.
+
+Depending on your account configuration, supported match keys can include **People IDs**, **Device IDs**, and **Partner IDs**. Match keys support workflows such as **audience overlap**, **activation**, and **measurement**.
+
+To learn more, see [Set up match keys](../setup/onboard-account.md#set-up-match-keys) and [Manage data connections](../setup/manage-data-connection.md#match-keys)
 
 ## Use audiences in projects {#audiences-in-projects}
 
