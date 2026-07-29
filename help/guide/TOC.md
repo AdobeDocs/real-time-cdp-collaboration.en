@@ -60,6 +60,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
 * Destinations {#destinations}
   * [Overview](/help/guide/destinations/overview.md)
   * [Configure and manage cloud storage destinations](./destinations/manage-destinations.md)
+  * [Cloud storage destination requirements](./destinations/cloud-storage-destination-requirements.md)
   * [Configure Adobe Experience Platform as a destination](./destinations/experience-platform.md)
 * Permissions {#permissions}
   * [Overview](/help/guide/permissions/overview.md)
