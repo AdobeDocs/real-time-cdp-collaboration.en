@@ -14,76 +14,81 @@ topic_v2:
 ---
 # Configure and manage cloud storage destinations
 
-This task explains how to configure a cloud storage destination from the **[!UICONTROL Activation]** workspace. After you configure a destination, it becomes available when you activate audiences. To see the full list of destinations you can configure, refer to the [available destinations](./overview.md#available-destinations) table.
+Use this guide to configure, view, and delete cloud storage destinations from the **[!UICONTROL Activation]** workspace. Use the **[!UICONTROL Catalog]** tab to configure destinations, the **[!UICONTROL Destinations]** tab to manage them, and the **[!UICONTROL Activated audiences]** tab to review audiences activated to destinations.
+
+After you configure a destination, it becomes available when you activate audiences. To see the full list of supported destinations, refer to the [available destinations](./overview.md#available-destinations) table.
 
 >[!NOTE]
 >
->This guide uses an **[!DNL Amazon S3]** destination as an example. The configuration guided setup is shared across supported cloud storage destination types, although connector-specific fields can vary. For connector-specific requirements, refer to the corresponding Adobe Experience Platform destination documentation. A list of specific configuration fileds required for each are listed in the [Cloud storage destination requirements](./cloud-storage-destination-requirements.md) with links to their respective documentation. Adobe Experience Platform itself has its own dedicated setup process in Real-Time CDP Collaboration, see [Configure Adobe Experience Platform as a destination](./experience-platform.md) instead.
+> This guide uses an **[!DNL Amazon S3]** destination as an example. The guided configuration workflow is shared across supported cloud storage destination types, but authentication methods, required fields, and connector capabilities can vary. Before configuring a destination, review the [cloud storage destination requirements](./cloud-storage-destination-requirements.md), which link to the corresponding Adobe Experience Platform destination documentation.
+>
+> Adobe Experience Platform has a separate configuration workflow in Real-Time CDP Collaboration. To configure it, see [Configure Adobe Experience Platform as a destination](./experience-platform.md).
 
 ## Prerequisites {#prerequisites}
 
 Before you configure a destination, ensure that:
 
-* Your user has a role with the **Manage Audience Data** permission assigned. For more information about managing roles, refer to the [manage roles](../permissions/manage-roles.md) guide.
+* Your user has a role with the **Manage Audience Data** permission assigned. For more information about managing roles, see [Manage roles](../permissions/manage-roles.md).
 * You have access to the **[!UICONTROL Activation]** workspace.
-* You have the connection information required for your cloud storage provider.
-* If you create a new account, you have the credentials or permissions required by your cloud storage provider.
+* You have the connection information required by your cloud storage provider.
+* If you need to create an account, you have the required credentials or permissions.
+* You have reviewed the [requirements for your cloud storage destination](./cloud-storage-destination-requirements.md).
 
 ## Configure a destination {#configure-destination}
 
-When you configure a destination, you connect your cloud storage account to Real-Time CDP Collaboration so that you can activate audiences to it. To begin, navigate to **[!UICONTROL Activation]** > **[!UICONTROL Catalog]**.
+When you configure a destination, you connect a cloud storage account to Real-Time CDP Collaboration and define how audience data is exported to it.
 
-The **[!UICONTROL Catalog]** tab displays the available destination providers. Each destination appears as a card. Depending on the destination, a card can display configured accounts and actions for viewing additional information.
+Navigate to **[!UICONTROL Activation]** > **[!UICONTROL Catalog]**.
+
+The **[!UICONTROL Catalog]** tab displays the available destination providers. Each destination appears as a card. Depending on the destination, its card can display configured accounts and actions for viewing additional information.
 
 ![The Catalog tab displaying destination provider cards.](/help/assets/destinations/manage-destinations/destination-provider-catalog.png)
 
-Locate the destination provider that you want to configure and select **[!UICONTROL Set up]**. The destination configuration guided setup opens and guides you through four steps: **[!UICONTROL Authenticate]**, **[!UICONTROL Create destination]**, **[!UICONTROL Map fields]**, and **[!UICONTROL Review]**.
+Locate the destination provider that you want to configure and select **[!UICONTROL Set up]**.
+
+The destination configuration guided setup opens and guides you through four steps: **[!UICONTROL Authenticate]**, **[!UICONTROL Create destination]**, **[!UICONTROL Map fields]**, and **[!UICONTROL Review]**.
 
 ### Authenticate {#authenticate}
 
-The **[!UICONTROL Authenticate]** step establishes the connection between Adobe Experience Platform and your destination account.
+The **[!UICONTROL Authenticate]** step establishes a connection between Real-Time CDP Collaboration and your destination account.
 
-If an existing account is available, select the account that you want to use from the droppdown selector. To create a new account, select **[!UICONTROL New account]**.
+If an existing account is available, select it from the account selector. To create an account, select **[!UICONTROL New account]**.
 
-Select an existing account or create an account. Authentication options and required account information vary by destination. For connector-specific prerequisites and configuration requirements, see [Cloud storage destination requirements](./cloud-storage-destination-requirements.md).
+Select an authentication method and provide the required account information. Available authentication methods and fields depend on the selected destination provider. For connector-specific requirements, see [Cloud storage destination requirements](./cloud-storage-destination-requirements.md).
 
-Choose your authentication type for the destination.
+Select **[!UICONTROL Connect to Amazon S3]**. For other destination providers, the button displays the corresponding provider name.
 
-Input the required account information as required by your cloud storage provider. 
-
-Select **[!UICONTROL Connect to Amazon S3]**, or respective destination provider.
-
-Once the account is validated, a check mark appears next to the providers name. Select **[!UICONTROL Next]** to continue.
+After the account is validated successfully, select **[!UICONTROL Next]**.
 
 ![The Authenticate step showing account selection and new account creation.](/help/assets/destinations/manage-destinations/authenticate-destination-account.png)
 
 ### Create destination {#create-destination}
 
-The **[!UICONTROL Create destination]** step defines where audience export files are delivered.
+The **[!UICONTROL Create destination]** step defines where and how audience export files are delivered.
 
-Complete the required destination settings. The available fields depend on the selected destination provider. For definitions and connector-specific requirements, refer to the corresponding destination documentation linked from [Cloud storage destination requirements](./cloud-storage-destination-requirements.md).
+Enter a destination name and complete the required storage and export settings. The available fields depend on the selected destination provider. For definitions and connector-specific requirements, refer to the destination documentation linked from [Cloud storage destination requirements](./cloud-storage-destination-requirements.md).
 
-Use the available dropdown lists to select values for the required configuration options. After you complete all required fields, select **[!UICONTROL Next]**. The guided setup advances to the field mapping step.
+After you complete all required fields, select **[!UICONTROL Next]**. The guided setup advances to the field-mapping step.
 
 ![The Create destination step displaying destination configuration fields.](/help/assets/destinations/manage-destinations/configure-new-destination.png)
 
-Accepted file types are: JSON, CSV, and Parquet. For CSV file type, ensure the file formatting settings are correct for the file format. use the dropdown selectors to configure these options. For more details, refer to the configuration guide on how to [Configure file formatting options for file-based destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/batch-destinations-file-formatting-options#file-configuration).
-
-JSON and Parquet file formats have the option to include heriarchical data such as arrays, maps, and objects as part of your activation. See the [Export arrays, maps, and objects from Real-Time CDP guide](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-arrays-maps-objects) for more information. Select the [!UICONTROL Include Hierarchical Output] checkbox to enable this function.
-
 ### Map fields {#map-fields}
 
-The **[!UICONTROL Map fields]** step defines how match keys are mapped to a target identity for the destination.
+The **[!UICONTROL Map fields]** step defines how audience match keys are mapped to the identity fields expected by the destination.
 
-Each mapping specifies which audience match key is sent to the corresponding identity field expected by the destination. Configure the mappings correctly so that the destination can recognize the exported identifiers and associate them with the intended users.
+Unlike the standard Real-Time CDP destinations workflow, Real-Time CDP Collaboration configures these mappings while the destination is created. Audience match keys appear as source fields. Map each source field to the corresponding target identity so that the destination can recognize the exported identifiers and associate them with the intended users.
 
-Select [!UICONTROL Add field] to add additional match keys, or the trash icon to remove unwanted rows. Review and configure the required field mappings. When the mappings are complete, select **[!UICONTROL Next]**. The guided setup advances to the review step.
+Select **[!UICONTROL Add field]** to add another match-key mapping, or select the delete icon to remove a mapping. Review and configure all required mappings.
+
+When the mappings are complete, select **[!UICONTROL Next]**. The guided setup advances to the review step.
 
 ![The Map fields step displaying activation match key mapping configuration.](/help/assets/destinations/manage-destinations/map-destination-fields.png)
 
 ### Review {#review-destination}
 
-The **[!UICONTROL Review]** step summarizes your destination configuration before it is created. Review the destination settings. If changes are required, select the pencil icon ![The pencil icon.](../../assets/icons/edit.png) to return to the appropriate guided setup step and update the configuration.
+The **[!UICONTROL Review]** step summarizes the destination configuration before it is created.
+
+Review the destination settings. To make changes, select the pencil icon ![The pencil icon.](../../assets/icons/edit.png) for the applicable section and update the configuration.
 
 When the configuration is correct, select **[!UICONTROL Complete]**. The destination is created and becomes available for audience activation.
 
@@ -91,26 +96,30 @@ When the configuration is correct, select **[!UICONTROL Complete]**. The destina
 
 ## View configured destinations {#view-configured-destinations}
 
-After you configure a destination, it appears in your destination inventory, where you can review its status and the audiences activated to it.
+After you configure a destination, it appears in your destination inventory. From the inventory, you can review its status and the audiences activated to it.
 
-Navigate to **[!UICONTROL Activation]** > **[!UICONTROL Destinations]**. The **[!UICONTROL Destinations]** tab displays a table of your configured destinations.
+Navigate to **[!UICONTROL Activation]** > **[!UICONTROL Destinations]**. The **[!UICONTROL Destinations]** tab displays a table of configured destinations.
 
 ![The Destinations tab displaying configured destinations.](/help/assets/destinations/manage-destinations/configured-destinations-list.png)
 
 ## Delete a destination {#delete-destination}
 
-Delete a destination when it is no longer required for audience activation. Deleting a destination removes it from your account and prevents any future audiences from being sent to that destination.
+Delete a destination when it is no longer required for audience activation. Deleting a destination removes it from your destination inventory and prevents audiences from being activated to it in the future.
 
 >[!IMPORTANT]
 >
->Deleting a destinations does not remove any previously sent audiences from the destination. You must independently remove that data from the datastore.
+>Deleting a destination does not remove audience data that was previously exported to it. Remove previously exported data directly from the destination datastore.
 
-Navigate to **[!UICONTROL Activation]** > **[!UICONTROL Destinations]**, locate the destination that you want to remove, and select the elipses in the [!UICONTROL Action] column. Select Delete from the dropdown menu to permenently remove that destination.
+Navigate to **[!UICONTROL Activation]** > **[!UICONTROL Destinations]**.
 
-![The Destinations tab of the Activation workspace with the ellipses and Delete highlighted in the Action column.](../../assets/destinations/manage-destinations/delete-configured-destination)
+Locate the destination that you want to remove, select the ellipsis icon in the **[!UICONTROL Action]** column, and then select **[!UICONTROL Delete]**.
 
-A confirmation dialog appears. Review the destination that will be removed, then select **[!UICONTROL Delete]** to confirm the action. The destination is removed from your destination inventory and is no longer available when activating audiences.
+![The Destinations tab of the Activation workspace with the ellipsis icon and Delete action highlighted.](/help/assets/destinations/manage-destinations/delete-configured-destination.png)
+
+A confirmation dialog appears. Review the destination that will be removed, and then select **[!UICONTROL Delete]** to confirm.
+
+The destination is removed from your destination inventory and is no longer available for audience activation.
 
 ## Next steps {#next-steps}
 
-After you configure a destination, you can begin [activating targeted audiences](../collaborate/activate.md) within your projects.
+After you configure a destination, you can begin [activating audiences](../collaborate/activate.md) within your projects.
