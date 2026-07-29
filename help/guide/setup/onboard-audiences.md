@@ -39,7 +39,7 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Marketing actions"
->abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5 and C9 data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be sourced into Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Use marketing actions to control which audience data to import into Real-Time CDP Collaboration from Experience Platform. The <strong>Data Collaboration</strong> marketing action supports C4, C5, C9, S1, S2, PSPD and RHD data usage labels. The <strong>Data Science</strong> marketing action supports the C9 data usage label.</p> <p> <ul><li> With the checkbox <em>enabled</em>, any data that is marked with the labels called out above in Experience Platform is excluded and is <strong>not</strong> brought into Real-Time CDP Collaboration.</li><li> With the checkbox <em>disabled</em>, there is no restriction on data from Experience Platform that can be sourced into Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html" text="Data usage labels overview"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Data usage labels glossary"
 
@@ -87,9 +87,9 @@ After selecting your data source, you must select the sandbox that includes the 
 
 Next, you must make sure that the correct marketing actions are set on the sourced data. You are also required to provide consent for data sourced from Experience Platform to be used for data collaboration.
 
-Use marketing actions to control which audience data to bring into Collaboration from Experience Platform. The **[!UICONTROL Data Collaboration]** marketing action supports C4, C5 and C9 data usage labels. The **[!UICONTROL Data Science]** marketing action supports the C9 data usage label.
+Use marketing actions to control which audience data to bring into Collaboration from Experience Platform. The **[!UICONTROL Data Collaboration]** marketing action supports C4, C5, C9, S1, S2, PSPD and RHD data usage labels. The **[!UICONTROL Data Science]** marketing action supports the C9 data usage label.
 
-Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Read more about the [C4, C5, C9, S1, S2, PSPD and RHD data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * When the checkbox is ***enabled***, any data labeled in Experience Platform as described above is excluded and **not** brought into Collaboration.
 * With the checkbox ***disabled***, there is no restriction on data sourced from Experience Platform.
