@@ -18,13 +18,13 @@ topic_v2:
 ---
 # Activate audiences
 
-Use the **[!UICONTROL Activate]** tab within a project to send audiences to your collaborator, review audiences your collaborator has sent to you, and manually activate received audiences to a configured destination. To configure and manage destinations from the top-level **[!UICONTROL Activation]** workspace, see the [destinations overview](../destinations/overview.md).
+Use the **[!UICONTROL Activate]** tab within a project to send audiences to your collaborator, review audiences received from your collaborator, and activate received audiences for delivery to a configured destination. To configure and manage destinations from the top-level **[!UICONTROL Activation]** workspace, see the [destinations overview](../destinations/overview.md).
 
 >[!IMPORTANT]
 >
 >The **[!UICONTROL Activate]** tab is only available if the **Audience activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, see [Manage projects](./manage-projects.md#project-use-cases).
 
-Use the [Discover tab](./discover.md) to identify the audiences that best match your campaign, then send them to your collaborator. The receiving collaborator selects a configured destination and activates the audience for campaign use.
+Use the [Discover tab](./discover.md) to identify the audiences that best match your campaign, then send them to your collaborator. The receiving collaborator selects a configured destination and schedules the received audience for activation.
 
 Sending and activating are separate actions. Sending gives your collaborator access to an audience. The receiving collaborator then selects a destination and manually activates the received audience.
 
@@ -55,7 +55,7 @@ In the **[!UICONTROL Sent audiences to [collaborator]]** section, select the add
 
 ![The project-level Activate tab when no audiences have been sent. The empty display message explains that you have not sent an audience and displays a Send audience button.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
-The audience send workflow opens. Use the audience selector to find an audience, or select **[!UICONTROL Browse audiences]** to compare the available audiences.
+The **[!UICONTROL Send audiences]** workflow opens. Use the audience selector to find an audience, or select **[!UICONTROL Browse audiences]** to compare the available audiences.
 
 ![The Send audiences workflow with an audience selector and a Browse audiences button. The workflow allows the sender to choose an audience before configuring match keys and access settings.](/help/assets/collaborate/activate/audience-activation.png)
 
@@ -75,7 +75,7 @@ The selected audience appears in the workflow with its identity and overlap info
 
 ### Edit match keys {#edit-match-keys}
 
-Use the match keys configured for the collaborator connection, or remove match keys that do not apply to this audience send.
+Use the match keys configured for the collaborator connection, or remove any match keys that do not apply to the audience.
 
 Select **[!UICONTROL Edit match keys]** in the selected audience.
 
@@ -95,7 +95,7 @@ Configure how the audience is sent and how long your collaborator can access it.
 
 Use the **[!UICONTROL Access duration]** control to select one of the following options:
 
-- **[!UICONTROL Send now (one-time)]**: Send the audience once. The receiving collaborator can activate the received audience one time.
+- **[!UICONTROL Send now (one-time)]**: Send the audience once. The receiving collaborator can activate it once.
 - **[!UICONTROL Schedule recurring audience send]**: Refresh the audience during a specified access period. Use the **[!UICONTROL Date range]** control to select the start and end dates.
 
 ![The Access duration step in the Send audiences workflow with options to send the audience once or schedule a recurring audience send. The recurring option displays date controls for defining the access period.](/help/assets/collaborate/activate/activation-frequency.png)
@@ -161,7 +161,7 @@ In the **[!UICONTROL Received audiences]** section, select the add icon (![Add i
 
 The **[!UICONTROL Activate audience]** dialog appears.
 
-Use **[!UICONTROL Destination]** to select the destination that receives the audience. If the destination list is empty, review the available configuration options in the [destinations overview](../destinations/overview.md) before continuing.
+Use **[!UICONTROL Destination]** to select the destination that receives the audience data. If the destination list is empty, configure a destination before continuing. For instructions, see the [destinations overview](../destinations/overview.md).
 
 Use **[!UICONTROL Date]** to select the date when the activation runs, and then select **[!UICONTROL Activate]**.
 
