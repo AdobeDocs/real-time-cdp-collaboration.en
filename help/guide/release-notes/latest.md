@@ -27,9 +27,21 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-**Last update**: April 2026.
+**Last update**: July 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## July 2026 {#july-2026}
+
+Real-Time CDP Collaboration now supports additional self-service audience sourcing options.
+
+**New or updated features**
+
+| Feature | Description |
+| ------- | ----------- |
+| Self-service audience sourcing from [!DNL Databricks Delta Share] and Adobe Audience Manager | You can now source first-party audiences directly from your [!DNL Databricks Delta Share] or bring eligible Adobe Audience Manager segments into Collaboration. For setup instructions, see the following guides: <ul><li>[Configure [!DNL Databricks Delta Share] for audience sourcing](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configure Adobe Audience Manager for audience sourcing](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+
+{style="table-layout:auto"}
 
 ## April 2026 {#april-2026}
 

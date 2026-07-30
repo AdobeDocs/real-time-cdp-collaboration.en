@@ -51,9 +51,9 @@ Send an audience to give your collaborator access to it. After you send the audi
 
 Navigate to **[!UICONTROL Collaborate]**, open a project, and then select the **[!UICONTROL Activate]** tab.
 
-In the **[!UICONTROL Sent audiences to [collaborator]]** section, select the add icon (![Add icon.](/help/assets/icons/plus.png)). If no audiences have been sent, select **[!UICONTROL Send audience]** from the empty state instead.
+In the **[!UICONTROL Sent audiences to [collaborator]]** section, select the add icon (![Add icon.](/help/assets/icons/plus.png)). If no audiences have been sent, select **[!UICONTROL Send audience]** from the empty display instead.
 
-![The project-level Activate tab when no audiences have been sent. The empty state explains that you have not sent an audience and displays a Send audience button.](/help/assets/collaborate/activate/activate-new-audiences.png)
+![The project-level Activate tab when no audiences have been sent. The empty display message explains that you have not sent an audience and displays a Send audience button.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 The audience send workflow opens. Use the audience selector to find an audience, or select **[!UICONTROL Browse audiences]** to compare the available audiences.
 

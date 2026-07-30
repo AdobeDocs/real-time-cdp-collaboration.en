@@ -22,6 +22,8 @@ topic_v2:
 
 Audiences are specific groups of users or customers segmented based on various attributes. These enable collaborators to work together on targeted marketing and personalized experiences for more effective advertising campaigns. This guide covers how to source audiences into Real-Time CDP Collaboration, view the audiences dashboard, and manage individual audiences.
 
+For a conceptual explanation of audiences in Collaboration, see [Audiences overview](../setup/audiences-overview.md).
+
 ## Source audiences into Collaboration {#source-audiences}
 
 >[!IMPORTANT]
@@ -49,7 +51,7 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 
 A data connection is the source from which you ingest audiences into Collaboration. To learn more about all available sources, see [Sources overview](./source-overview.md).
 
-The sections below describe selecting **Adobe Experience Platform** and completing the Experience Platform–specific steps (sandbox, governance, and consent). If you choose CSV, [!DNL Amazon S3], [!DNL Snowflake], or [!DNL Google Cloud Storage], use the guide linked under [Select data source](#select-data-source) for that option.
+The sections below describe selecting **Adobe Experience Platform** and completing the Experience Platform–specific steps (sandbox, governance, and consent). If you choose CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager, or [!DNL Databricks Delta Share], use the guide linked under [Select data source](#select-data-source) for that option.
 
 Any settings that you configure for an Experience Platform data connection are applied to all audiences sourced from that connection.
 
@@ -70,6 +72,7 @@ Next, you'll choose the source for your data connection. The available sources i
 * **Amazon Web Services**: Connect to your Amazon S3 storage to source audience data directly from your S3 buckets. See the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) guide for step-by-step instructions.
 * **Snowflake**: Use your Snowflake data warehouse to pull in audience data seamlessly. Refer to the [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md) guide.
 * **Google Cloud Storage**: Connect to your GCS buckets to source audience data. See the [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md) guide for step-by-step instructions.
+* **[!DNL Databricks Delta Share]**: Connect to your [!DNL Databricks Delta Share] to source first-party audience data from your [!DNL Databricks] environment. See the [Configure [!DNL Databricks Delta Share] for audience sourcing](./configure-databricks-audience-sourcing.md) guide.
 * **Adobe Audience Manager**: Source your audience segments from Adobe Audience Manager. See the [Configure Adobe Audience Manager for audience sourcing](./configure-aam-audience-sourcing.md) guide to get started.
 
 Select your data source and then select **[!UICONTROL Next]**.
@@ -236,7 +239,7 @@ Each audience contains an overview of the following information:
 | **[!UICONTROL Name]** | The name of the audience. |
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A **[!UICONTROL Pending]** status indicates that the audience has just recently been sourced and identities have yet to populate. The sourced audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
-| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. You can select the name to view the data connection.  |
 | **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
 | **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
@@ -262,7 +265,7 @@ The following information is displayed for each individual audience:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience's configuration or metadata was last changed |
 | **[!UICONTROL Last updated by]** | Indicates the user who last updated the audience. |
