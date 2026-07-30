@@ -32,7 +32,7 @@ Adobe Experience Platform uses a destination-specific configuration workflow tha
 
 To configure Adobe Experience Platform as a destination, navigate to the **[!UICONTROL Activation]** workspace, select the **[!UICONTROL Catalog]** tab, and select **[!UICONTROL Set up]** for Adobe Experience Platform.
 
-<!-- TODO (CORE-167477): screenshots below this point still show the old Setup > My destinations nav path and need to be recaptured once the Activation workspace is accessible for screenshots. -->
+![The Catalog tab displaying destination provider cards with the Adobe Experience Platform card highlighted.](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 The **[!UICONTROL Create destination]** workflow appears.
 
