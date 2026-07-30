@@ -21,6 +21,8 @@ topic_v2:
 
 Projects are the centerpiece of your workflow in Adobe Real-Time CDP Collaboration. After connecting with collaborators, create a project to run audience overlap calculations and discover relevant audiences for campaigns.
 
+For an overview of how audiences are sourced into Collaboration and used in projects for Discover, Activate, and Measure, see [Audiences overview](../setup/audiences-overview.md).
+
 >[!TIP]
 >
 >Projects should generally be associated with a single campaign.

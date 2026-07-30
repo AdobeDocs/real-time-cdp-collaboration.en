@@ -25,7 +25,9 @@ topic_v2:
 >
 >The **[!UICONTROL Activate]** workspace is only available if the **Audience activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
 
-Audience activation allows you activate audiences for use in campaigns. Activation can be done by either collaborator depending on the audience activation settings [configured in the connection](/help/guide/connect/establishing-connections.md#configure-connection-settings). After you [discover the best audiences for your campaign](./discover.md), activate the audiences to make them available for use. When you activate an audience, it is sent to your collaborator's pre-configured destination, such as Adobe Experience Platform, where it becomes available for use in campaigns. For more information about setting up destinations, refer to the [destinations overview](../destinations/overview.md) guide.
+You can use audience activation to activate audience for campaign purposes. Activation can be done by either collaborator depending on the audience activation settings [configured in the connection](/help/guide/connect/establishing-connections.md#configure-connection-settings). After you [discover the best audiences for your campaign](./discover.md), activate the audiences to make them available for use. When you activate an audience, it is sent to your collaborator's pre-configured destination, such as Adobe Experience Platform, where it becomes available for use in campaigns. For more information about setting up destinations, refer to the [destinations overview](../destinations/overview.md) guide.
+
+For a conceptual explanation of where activation fits into supported workflows, see [Audiences overview](../setup/audiences-overview.md).
 
 ## Activate new audiences {#activate-new-audiences}
 
