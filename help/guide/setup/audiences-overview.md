@@ -12,7 +12,6 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-
 # Audiences overview
 
 {{limited-availability-release-note}}

@@ -30,7 +30,6 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Configure Databricks Delta Share for Audience Sourcing](./setup/configure-databricks-audience-sourcing.md)
     * [Configure Adobe Audience Manager for audience sourcing](./setup/configure-aam-audience-sourcing.md)
   * [Manage data connections](./setup/manage-data-connection.md)
-  * [Configure and manage destinations](./setup/manage-destinations.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
   * {hide-from-toc} [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
@@ -60,8 +59,9 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * {hide-from-toc} [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
 * Destinations {#destinations}
   * [Overview](/help/guide/destinations/overview.md)
-  * {hide-from-toc} [Configure and manage a destination](./destinations/manage-destinations.md)
-  * [Adobe Experience Platform](./destinations/experience-platform.md)
+  * [Configure and manage cloud storage destinations](./destinations/manage-destinations.md)
+  * [Cloud storage destination requirements](./destinations/cloud-storage-destination-requirements.md)
+  * [Configure Adobe Experience Platform as a destination](./destinations/experience-platform.md)
 * Permissions {#permissions}
   * [Overview](/help/guide/permissions/overview.md)
   * [Manage user access](./permissions/manage-user-access.md)
