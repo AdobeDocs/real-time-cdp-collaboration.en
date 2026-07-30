@@ -28,7 +28,6 @@ After you configure a destination, it becomes available when you activate audien
 
 Before you configure a destination, ensure that:
 
-* Your user has a role with the **Manage Audience Data** permission assigned. For more information about managing roles, see [Manage roles](../permissions/manage-roles.md).
 * You have access to the **[!UICONTROL Activation]** workspace.
 * You have the connection information required by your cloud storage provider.
 * If you need to create an account, you have the required credentials or permissions.
