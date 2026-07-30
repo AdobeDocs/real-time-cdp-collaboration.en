@@ -99,8 +99,7 @@ For a list of supported sources and source-specific setup steps, see [Sources ov
 
 ## What audiences are made up of {#match-keys}
 
-In Collaboration, audiences are matched using match keys. When you source an audience, you map fields from your source data to the match keys configured for your account. Collaboration then uses those mapped identifiers to match audience records across datasets and collaborators.
-
+Audiences in RTCDP Collaboration are made up of match keys.
 Depending on your account configuration, supported match keys can include **People IDs**, **Device IDs**, and **Partner IDs**. Match keys support workflows such as **audience overlap**, **activation**, and **measurement**.
 
 To learn more, see [Set up match keys](../setup/onboard-account.md#set-up-match-keys) and [Manage data connections](../setup/manage-data-connection.md#match-keys)
