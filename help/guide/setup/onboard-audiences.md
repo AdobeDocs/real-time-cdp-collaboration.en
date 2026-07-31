@@ -4,12 +4,25 @@ description: Learn how to source and manage audiences in Adobe Real-Time CDP Col
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
+TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Source and manage audiences
 
 {{limited-availability-release-note}}
 
 Audiences are specific groups of users or customers segmented based on various attributes. These enable collaborators to work together on targeted marketing and personalized experiences for more effective advertising campaigns. This guide covers how to source audiences into Real-Time CDP Collaboration, view the audiences dashboard, and manage individual audiences.
+
+For a conceptual explanation of audiences in Collaboration, see [Audiences overview](../setup/audiences-overview.md).
 
 ## Source audiences into Collaboration {#source-audiences}
 
@@ -36,9 +49,11 @@ From the **[!UICONTROL My audiences]** tab within the **[!UICONTROL Setup]** wor
 >
 >After establishing to your first data connection and sourcing your first audience, you can then source multiple audiences from the existing data connection. When adding additional audiences, you'll begin from the [select audience](#select-audiences) step, since the data connection has already been established.
 
-A data connection is the source of data from where you are sourcing audiences. Currently, the only supported data connection is Adobe Experience Platform.
+A data connection is the source from which you ingest audiences into Collaboration. To learn more about all available sources, see [Sources overview](./source-overview.md).
 
-Any settings that you configure for your data connection are applied to all the audiences sourced from this data connection. 
+The sections below describe selecting **Adobe Experience Platform** and completing the Experience Platform–specific steps (sandbox, governance, and consent). If you choose CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager, or [!DNL Databricks Delta Share], use the guide linked under [Select data source](#select-data-source) for that option.
+
+Any settings that you configure for an Experience Platform data connection are applied to all audiences sourced from that connection.
 
 >[!TIP]
 >
@@ -48,21 +63,23 @@ To begin adding your data connection, select **[!UICONTROL Add a new data connec
 
 ![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Select data source 
+#### Select data source {#select-data-source}
 
 Next, you'll choose the source for your data connection. The available sources include:
 
 * **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform. 
 * **CSV File**: Upload a CSV file containing your audience data for quick and straightforward data ingestion. Refer to the [Upload CSV file for audience sourcing](./upload-csv-audience-sourcing.md) guide to get started.
 * **Amazon Web Services**: Connect to your Amazon S3 storage to source audience data directly from your S3 buckets. See the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) guide for step-by-step instructions.
-* **Snowflake** (Future release): Use your Snowflake data warehouse to pull in audience data seamlessly.
-* **Google Cloud Platform** (Future release): Connect to your Google Cloud Storage to source audience data directly from your GCS buckets.
+* **Snowflake**: Use your Snowflake data warehouse to pull in audience data seamlessly. Refer to the [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md) guide.
+* **Google Cloud Storage**: Connect to your GCS buckets to source audience data. See the [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md) guide for step-by-step instructions.
+* **[!DNL Databricks Delta Share]**: Connect to your [!DNL Databricks Delta Share] to source first-party audience data from your [!DNL Databricks] environment. See the [Configure [!DNL Databricks Delta Share] for audience sourcing](./configure-databricks-audience-sourcing.md) guide.
+* **Adobe Audience Manager**: Source your audience segments from Adobe Audience Manager. See the [Configure Adobe Audience Manager for audience sourcing](./configure-aam-audience-sourcing.md) guide to get started.
 
 Select your data source and then select **[!UICONTROL Next]**.
 
 ![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### Select sandbox
+#### Select sandbox {#select-sandbox}
 
 After selecting your data source, you must select the sandbox that includes the audiences that you want to use for Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
 
@@ -92,7 +109,7 @@ Once you have selected the marketing actions and consent rules, select **[!UICON
 
 ![The Governance policy and enforment actions dialog with the checkbox and OK option highlighted.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### Provide details
+### Provide details {#provide-details}
 
 Next, provide a name and a description for your data connection. This information will help you identify the data connection later on.
 
@@ -127,11 +144,9 @@ Next, provide a name and a description for your data connection. This informatio
 >abstract="Select attributes from the union schema for the Profile class in Experience Platform. This view displays attributes that are present in the union schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
-Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during account setup. 
+Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys).
 
->[!IMPORTANT]
->
->Currently, you cannot edit data connections to include new map fields. If you add new match keys to your account after your data connection has been created, you will need to create a new data connection to map to them.
+If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the [!DNL Demdex ID] is automatically extracted and mapped from ECID and you do not have to take any action. To learn more about [!DNL Demdex IDs], see the [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support) guide.
 
 ![The Add audiences workspace with the option to map source fields to target fields.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -162,6 +177,11 @@ To handle sourcing a non-hashed field to a hashed target field, use the **[!UICO
 Continue adding mapping pairs for each target field. If you don't wish to use a match key, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If match key is removed, you will not be able to use it when sourcing any audiences from the connection.
 
 ![The Add audiences workspace with the Delete option beside a target field highlighted.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+If you add a new field and select **[!UICONTROL Demdex ID (ECID)]** as the target field, **[!UICONTROL ECID]** will be automatically selected as the corresponding source field. No further action is required.
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![The Add audiences workspace with the ECID source field auto-mapped to the Demdex ID (ECID) target field.](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 When you're finished mapping fields, select **[!UICONTROL Next]** to continue.
 
@@ -219,7 +239,7 @@ Each audience contains an overview of the following information:
 | **[!UICONTROL Name]** | The name of the audience. |
 | **[!UICONTROL Identities]** | Indicates the number of identities present in this audience. Note that if the same profile has two or more identities, and these identities are used as match keys in the project, then the profile will appear twice in the count. |
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. A **[!UICONTROL Pending]** status indicates that the audience has just recently been sourced and identities have yet to populate. The sourced audiences will populate with profiles after the initial refresh, which usually occurs within 24 hours after the data connection is set up. |
-| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. You can select the name to view the data connection.  |
 | **[!UICONTROL Connection access]** | Defines whether the audience is private or public. Public audiences are discoverable in overlap reports and can be activated within a project. |
 | **[!UICONTROL Created]** | Indicates when the audience was initially sourced into Collaboration. |
@@ -245,7 +265,7 @@ The following information is displayed for each individual audience:
 | Item | Description|
 |----------|---------|
 | **[!UICONTROL Status]** | Indicates if the audience is active and can be used in projects. |
-| **[!UICONTROL Source]** | Indicates where the audience was sourced from. In the current release of Collaboration, Experience Platform is the only supported source. |
+| **[!UICONTROL Source]** | Indicates where the audience was sourced from. |
 | **[!UICONTROL Data connection]** | The data connection the audience is sourced from. |
 | **[!UICONTROL Last updated]** | Indicates the last date and time when the audience was updated in Collaboration. This does not refer to when the audience was last refreshed, but rather when the audience's configuration or metadata was last changed |
 | **[!UICONTROL Last updated by]** | Indicates the user who last updated the audience. |

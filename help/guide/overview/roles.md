@@ -4,6 +4,18 @@ description: Understand the two account roles in Adobe Real-Time CDP Collaborati
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
+TQID: https://experienceleague.adobe.com/D8m64HZegO-pTNnx-nhlSUraxdIDgZeesT7mzepKZbc
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Collaborator account roles
 
@@ -18,6 +30,14 @@ Advertisers are brands that seek to reach specific audiences through targeted ma
 ## Publisher {#publisher}
 
 Publishers are brands that own or operate online content or services where personal data is collected with user consent. They provide this data for use by advertisers for digital advertising and audience measurement. Using Collaboration, publishers can send their audience data to collaborators to enable targeted marketing campaigns and improve the effectiveness of their advertising efforts.
+
+## Agency {#agency}
+
+Agencies are organizations that plan, manage, and optimize marketing and media campaigns for one or more brands. They leverage both first-party and third-party data, to build, activate, and measure audiences across channels. Using Collaboration, agencies can access brand-permissioned data within a single governed environment so they can coordinate cross-partner campaigns, activate audiences, and improve media effectiveness.
+
+## Data partner {#data-partner}
+
+Data partners are organizations that provide third-party, governed datasets and segments that collaborators can use to enrich their own data for audience targeting, prospecting, and measurement. Using Collaboration, data partners can securely make this data available to collaborators for audience and campaign insights, without requiring first‑party data to be transferred into the partner's environment.
 
 ## Choosing the right role {#choosing-the-right-role}
 

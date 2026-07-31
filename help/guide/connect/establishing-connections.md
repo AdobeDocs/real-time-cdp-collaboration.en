@@ -4,12 +4,33 @@ description: After discovering potential collaborators, learn how to establish c
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
+TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Establishing connections with collaborators {#establishing-connections}
 
 {{limited-availability-release-note}}
 
 Before collaborators can work together on campaigns, they must establish a connection. This connection allows them to activate audiences, create projects, and run reports on campaign performance. 
+
+Collaboration supports the following invite methods:
+
+- [Public connection invite](#discover-collaborators): Connect with another licensed customer through the **[!UICONTROL Discover collaborators]** workspace.
+- [Private connection invite](#private-connection-invite): Connect directly with another licensed customer by using a connect code.
+- [Starter invite](#invite-non-licensed-collaborator): Connect with an organization that does not have a license.
+- [Authentication](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection): Connect with a supported third-party advertising platform.
 
 Connections are established based on your chosen collaboration pattern. Collaboration supports two key collaboration patterns: advertiser-to-publisher and brand-to-brand. To read more about these patterns, see the [use cases](/help/guide/overview/use-cases.md) guide.
 
@@ -40,9 +61,6 @@ Once the connection settings are accepted, the connection is established, and co
 
 ![High-level diagram of the brand-to-brand connection process.](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->This guide covers the connection process for the advertiser-to-publisher and brand-to-brand collaboration patterns. To learn about connecting with advertising platforms, see the [advertiser-to-advertising-platform connection](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) section in the [connections overview](/help/guide/connect/overview.md) guide.
 
 ## Connect {#connect} 
 
@@ -112,7 +130,9 @@ To refresh your **[!UICONTROL Connect code]**, select the refresh icon (![refres
 
 #### Send private connection invite {#send-private-connection-invite}
 
-Once you have the **[!UICONTROL Connect code]** from your collaborator, you can send a private connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner.
+Once you have the **[!UICONTROL Connect code]** from your collaborator, you can send a private connection invite. To do this, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner. 
+
+Then, select **[!UICONTROL Connect with invite code]**.
 
 ![The plus icon highlighted in the Connect workspace.](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
@@ -297,6 +317,82 @@ Additionally, if you're a publisher connecting with an advertiser, you can now a
 
 Next, select **[!UICONTROL Accept]** to proceed with the connection. The connection status will change to **[!UICONTROL Active]**, and you can now start collaborating on projects.
 
+## Invite a non-licensed collaborator (Starter) {#invite-non-licensed-collaborator} 
+
+Follow the steps below to invite your non-licensed partner to join Real-Time CDP Collaboration [!DNL Starter]. Invitations are sent directly to the collaborator’s email address and must be accepted before a connection can be established. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
+
+Before initiating the invitation process, collect the following information from your collaborator:
+
+| Field | Description |
+|-------|-------------|
+| Company | The collaborator's company name. |
+| Name | The full name of the person you are inviting. |
+| Email address | The email address that the collaborator uses to access Real-Time CDP Collaboration [!DNL Starter]. |
+| Title | The main contact's job title. |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>By inviting another collaborator, you acknowledge that you are responsible for any charges incurred through their activities. Learn more about [credit usage and consumption in Collaboration Starter](../setup/starter-credit-usage.md)
+
+### Send an invitation {#send-invitation}
+
+>[!CONTEXTUALHELP] 
+>id="rtcdp_collaboration_starter_invite_collaborator" 
+>title="Invite a collaborator" 
+>abstract="Fill out this form to invite your partner organization to Collaboration Starter. The invitee will receive an invitation email and must use the specified email address to complete registration." 
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Learn more about Collaboration Starter" 
+
+Invite your partner organization to join Collaboration [!DNL Starter] directly through the user interface.
+
+To begin, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner. Then, select **[!UICONTROL Invite a collaborator]**.
+
+![The Connect workspace with the plus icon and the Invite a collaborator option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+The **[!UICONTROL Invite a collaborator]** dialog appears, prompting you to enter the information of the invited collaborator. Fill in the required fields for [!UICONTROL Company name], [!UICONTROL First name], [!UICONTROL Last name], and [!UICONTROL Email].
+
+>[!IMPORTANT]
+>
+>Invitations are **tied to the email address provided**. Ensure the email address is accurate, as the invited user must use that exact email to accept the invitation and access the product.
+
+Next, use the dropdown to choose the appropriate role for your partner. See the [account roles documentation](../overview/roles.md) for details on available role types in Collaboration.
+
+![The Invite a collaborator dialog with the Role dropdown highlighted.](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+When finished, review the information and select **[!UICONTROL Send invite]**.
+
+![The Invite a collaborator dialog with the Send invite option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+A confirmation dialog confirms that the invite was successfully sent to your partner organization.
+
+![The confirmation dialog confirms that the invite was successfully sent.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+After you send the invitation, your partner organization receives an email with instructions to review and sign the Real-Time Collaboration terms and conditions.
+
+### Accept the invitation and sign terms {#accept-invitation-sign-terms}
+
+To proceed, your invited partner organization must: 
+
+- Open the invitation email.
+- Follow the link to review and sign the Real-Time CDP Collaboration terms and conditions.
+
+![The invitation email to join Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+Once your partner organization accepts the terms and conditions, Adobe begins provisioning Real-Time CDP Collaboration [!DNL Starter] for their account.
+
+### Provisioning confirmation {#provisioning-confirmation}
+
+When the provision process is complete, a second email is sent to the invited organization, confirming that Collaboration [!DNL Starter] is ready to use. This welcome email provides instructions on how to: 
+
+- [Configure administrator and user access](../setup/starter-admin-access.md)
+- [Set up permissions to access Collaboration](../setup/starter-permission-controls.md)
+- [Establish a connection with the inviting collaborator](#connect)
+
+![The welcome email sent to the invited organization with instructions to set up the necessary access and permissions.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+Once your partner has access to Collaboration, both you and the invited organization can [establish a connection](#connect) and [set up the connection settings](#configure-connection-settings) to start collaborating on projects.
+
 ## Next steps
 
-After establishing a connection with your collaborator, you and your collaborator can now [create projects](/help/guide/collaborate/manage-projects.md#create-project).
+After establishing a connection, you can [create projects](/help/guide/collaborate/manage-projects.md#create-project) with your collaborator.

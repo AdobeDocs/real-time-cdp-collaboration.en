@@ -84,6 +84,11 @@ A **[!UICONTROL Campaign summary]** is included in every report. In addition, se
 #### Conversion events (attribution only) {#conversion-events}
 
 >[!CONTEXTUALHELP]
+> id="rtcdp_collaboration_amc_attribution_lookback_period"
+> title="Attribution lookback period"
+> abstract="AMC enforces a fixed 30-day attribution window: conversions that occur up to 30 days after the last impression can be attributed to impressions inside the report date range. This value is not editable; schedule the report run date at least 30 days after the range end to ensure all eligible conversions are captured."
+
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="Conversion events"
 >abstract="Select up to three conversion events to include in the attribution report. Available events are discovered automatically from your [!DNL AMC] instance. If no events appear, your [!DNL AMC] instance may not have any recorded conversion events and Attribution will be unavailable."

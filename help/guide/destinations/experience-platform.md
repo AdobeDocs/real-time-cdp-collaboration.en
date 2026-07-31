@@ -4,12 +4,25 @@ description: Learn how to configure and manage Adobe Experience Platform as a de
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
+TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
 ---
 # Configure Adobe Experience Platform as a destination
 
-{{limited-availability-release-note}}
-
 Configure this destination to activate audiences from your project to Adobe Experience Platform. Activating audiences to Adobe Experience Platform allows you to leverage the platform's capabilities for audience segmentation, analysis, and activation across various marketing channels. To learn more about Adobe Experience Platform, refer to the [Experience Platform overview](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
+
+Adobe Experience Platform uses a destination-specific configuration workflow that differs from the cloud storage destination workflow described in [Configure and manage cloud storage destinations](./manage-destinations.md).
 
 >[!WARNING]
 >
@@ -17,13 +30,11 @@ Configure this destination to activate audiences from your project to Adobe Expe
 
 ## Configure destination {#configure-destination}
 
-To configure Adobe Experience Platform as a destination, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My destinations]** tab. Select **[!UICONTROL Set up]** for Adobe Experience Platform.
+To configure Adobe Experience Platform as a destination, navigate to the **[!UICONTROL Activation]** workspace, select the **[!UICONTROL Catalog]** tab, and select **[!UICONTROL Set up]** for Adobe Experience Platform.
 
-![The My destinations workspace with the Set up option highlighted for the Adobe Experience Platform destination.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![The Catalog tab displaying destination provider cards with the Adobe Experience Platform card highlighted.](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
-The **[!UICONTROL Create destination]** workflow appears. 
-
-![The Create destination workflow for Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
+The **[!UICONTROL Create destination]** workflow appears.
 
 ### Configure sandbox {#configure-sandbox}
 
@@ -65,7 +76,7 @@ Next, configure the **[!UICONTROL Audience Expiration]**. By default, the audien
 >title="Target namespaces"
 >abstract="Target namespaces specify which identity namespace the match key will be mapped to in Adobe Experience Platform. Hashed match keys must be mapped to a target namespace that supports hashed values."
 
-All match keys enabled for your account are included in the activation mapping by default. If you do not wish to directly map a match key to a target nampespace, you can use the linked key option to replace it with a different match key. For more information about linked keys, see the [section below](#linked-keys).
+All match keys enabled for your account are included in the activation mapping by default. If you do not wish to directly map a match key to a target namespace, you can use the linked key option to replace it with a different match key. For more information about linked keys, see the [section below](#linked-keys).
 
 #### Map target namespaces {#map-target-namespaces}
 
@@ -88,7 +99,7 @@ Repeat this process for each match key that you want to include in the activatio
 
 Linked keys allow you to specify that a different match key should be used in place of the original match key during activation. To better understand how linked keys work, consider the following example:
 
-A retailer wishes to send the data being activated to Experience Platform to their CRM system. The retailer has enabled Hashed IP as a match key for their account to increase the match rate when activating audiences. However, the retailer’s CRM system does not support Hashed IP as an identity namespace, so they want to use the CRM ID match key instead when activating audiences to Experience Platform. The retailer can use the linked key option to activate audiences to Experience Platform using CRM ID instead of Hashed IP.
+A retailer wishes to send the data being activated to Experience Platform to their CRM system. The retailer has enabled Hashed IP as a match key for their account to increase the match rate when activating audiences. However, the retailer's CRM system does not support Hashed IP as an identity namespace, so they want to use the CRM ID match key instead when activating audiences to Experience Platform. The retailer can use the linked key option to activate audiences to Experience Platform using CRM ID instead of Hashed IP.
 
 >[!NOTE]
 >
@@ -112,7 +123,7 @@ The linked key is now configured.
 
 >[!NOTE]
 >
->You can only used one linked key target namespace per activation mapping. For example, if you link Hashed ID to CRM ID, toggling on the linked key option for another field will also link it to CRM ID.
+>You can only use one linked key target namespace per activation mapping. For example, if you link Hashed ID to CRM ID, toggling on the linked key option for another field will also link it to CRM ID.
 
 When you've finished mapping all match keys, review your settings. The **[!UICONTROL Preview]** section provides a summary of your configuration.
 
@@ -126,13 +137,13 @@ When you're satisfied with your configuration, select **[!UICONTROL Create desti
 
 ## Using Adobe Experience Platform as a destination
 
-Once you've configured Experience Platform as a destination, you can begin [activating audiences](../collaborate/activate.md) to the platform through your projects. Currently, the activation process is a single-step process initiated by the collaborator. For example, when an advertiser activates an audience, it is sent to the publisher’s pre-configured destination (Experience Platform). The publisher does not need to take any additional steps to send the audience to the destination. The same holds true for the brand-to-brand collaboration pattern.
+Once you've configured Experience Platform as a destination, you can begin [activating audiences](../collaborate/activate.md) to the platform through your projects. Currently, the activation process is a single-step process initiated by the collaborator. For example, when an advertiser activates an audience, it is sent to the publisher's pre-configured destination (Experience Platform). The publisher does not need to take any additional steps to send the audience to the destination. The same holds true for the brand-to-brand collaboration pattern.
     
 >[!IMPORTANT]
 >
->You **must** configure Experience Platform as a destination *before* your collaborator activates an audience. If the destination is not configured, the audience will be sent to you and visible in the **[!UICONTROL Activate]** tab within a project, but will not be activated to Experience Platform.
+>You **must** configure Experience Platform as a destination *before* your collaborator activates an audience. If the destination is not configured, the audience will be sent to you and visible in the project-level **[!UICONTROL Activate]** tab, but will not be activated to Experience Platform.
 
-After the audience is activated, it will be available in [Audience Portal](#audience-portal) in Experience Platform with Real-Time CDP Collaboration as the origin.  These audiences can then be used in campaigns and customer engagement.
+After the audience is activated, it will be available in [Audience Portal](#audience-portal) in Experience Platform with Real-Time CDP Collaboration as the origin. These audiences can then be used in campaigns and customer engagement.
 
 ### Audience Portal {#audience-portal}
 

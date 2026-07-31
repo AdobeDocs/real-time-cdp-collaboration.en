@@ -4,6 +4,13 @@ description: Learn about advertising platforms in Real-Time CDP Collaboration.
 audience: publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 9a99fdeb-0cb7-4fa2-a94c-d06ed56dfb5d
+TQID: https://experienceleague.adobe.com/29BckMlqhZfQEBLtnnAFN4WYXusZHcj3-Y08RuvyJPM
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Advertising platforms overview
 
