@@ -33,13 +33,15 @@ These release notes cover the functionality released in Adobe Real-Time CDP Coll
 
 ## July 2026 {#july-2026}
 
-Real-Time CDP Collaboration now supports additional self-service audience sourcing options.
+Real-Time CDP Collaboration now supports additional self-service audience sourcing options, along with easier activation and destination setup workflows.
 
 **New or updated features**
 
 | Feature | Description |
 | ------- | ----------- |
 | Self-service audience sourcing from [!DNL Databricks Delta Share] and Adobe Audience Manager | You can now source first-party audiences directly from your [!DNL Databricks Delta Share] or bring eligible Adobe Audience Manager segments into Collaboration. For setup instructions, see the following guides: <ul><li>[Configure [!DNL Databricks Delta Share] for audience sourcing](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configure Adobe Audience Manager for audience sourcing](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Manual activation for received audiences | You can now manually activate received audiences recieved from a collaborator. This gives recipients more control over when received audiences are sent to a configured destination. See [Activate audiences](../collaborate/activate.md) for step-by-step instructions. |
+| Headless cloud-storage destinations | Collaboration now supports headless destinations as part of destination management and activation workflows. For more information, see [Manage destinations](../destinations/manage-destinations.md). |
 
 {style="table-layout:auto"}
 
