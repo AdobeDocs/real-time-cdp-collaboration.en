@@ -51,7 +51,7 @@ Once these prerequisites are met, you can start exploring and comparing overlaps
 
 >[!IMPORTANT]
 >
->Audiences with less than 1000 overlapping identities do not return any results, and an error is displayed.
+>Audience comparisons with fewer than 1,000 overlapping identities does not return results.
 
 >[!NOTE]
 >
