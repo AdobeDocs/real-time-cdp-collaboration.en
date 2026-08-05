@@ -4,6 +4,16 @@ description: Learn how to gain access to Adobe Real-Time Customer Data Platform 
 audience: admin
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
+TQID: https://experienceleague.adobe.com/EIm85EKC4-YUePO5CTHQ4hi4KvawwhKXfiQEa7lw-P4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Access control overview
 
@@ -22,10 +32,10 @@ To configure access control to Collaboration, you **must** have system or produc
 These guides will describe configuring access for system administrators, product adminstrators, and end users. Refer to the table below to understand the key difference between the roles.
 
 | Role | Description |
-| --- | --- | 
+| --- | --- |
 | System administrator | The super user for the organization. They are able to perform all administrative tasks in the Admin Console and have permissions to delegate administrative functions to other users.  |
 | Product administrator | Administers the products assigned to them and all associated administrative functions, such as adding users to organizations, adding or removing users from product profiles, and adding or removing other product administrators from a product. |
-| End user | The users in your organization who use the products. | 
+| End user | The users in your organization who use the products. |
 
 {style="table-layout:auto"}
 
@@ -58,8 +68,8 @@ Refer to the chart below to determine who is needed to configure the privileges 
 >
 > A super user refers to the highest level of access to be gained by the system administrator. A super user can perform all administrative tasks and user functionality. A system administrator does not have product functionality out-of-the-box and need to give themselves the appropriate access, as shown in the chart below. 
 
-| Use case | Required role | Where to begin | 
-| --- | --- | --- | 
+| Use case | Required role | Where to begin |
+| --- | --- | --- |
 | Super user with no existing Experience Platform product access. | A system administrator. | [Configure product administrator access](./manage-user-access.md#admin-access) |
 | Super user for an existing Experience Platform system administrator **with** Experience Platform UI access. | A system administrator. | [Configure Collaboration access](./manage-user-access.md#RTCDP-collab-access) |
 | Super user for an existing Experience Platform system administrator **without** Experience Platform UI access. | A system administrator. | [Configure product administrator access](./manage-user-access.md#admin-access) |

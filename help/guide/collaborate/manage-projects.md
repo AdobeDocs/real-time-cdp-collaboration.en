@@ -4,12 +4,24 @@ description: Learn how to create and manage projects in Adobe Real-Time CDP Coll
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
+TQID: https://experienceleague.adobe.com/IZIkK4lv29vqrah48fsJsnMOFtyh7rOo1IT2yLOW9Ec
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Create and manage projects
 
 {{limited-availability-release-note}}
 
 Projects are the centerpiece of your workflow in Adobe Real-Time CDP Collaboration. After connecting with collaborators, create a project to run audience overlap calculations and discover relevant audiences for campaigns.
+
+For an overview of how audiences are sourced into Collaboration and used in projects for Discover, Activate, and Measure, see [Audiences overview](../setup/audiences-overview.md).
 
 >[!TIP]
 >
@@ -22,6 +34,11 @@ You can use filters to view only the projects that you have started with certain
 ![Filtered view of projects with a single collaborator.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Create project {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="Advertiser name (Amazon Marketing Cloud)"
+>abstract="For Amazon Marketing Cloud (AMC) connections, this field represents the AMC instance your Amazon Ads login has access to. It does not reflect an advertiser name. If the required instance isn't listed, contact your Amazon Marketing Cloud administrator to request access."
 
 To create a project, you must first [establish a connection](/help/guide/connect/establishing-connections.md) with a collaborator. Once the connection is established, you can create a project with that collaborator.
 
@@ -50,12 +67,29 @@ You can now view your new project, its details, and available sections based on 
 
 ![The project overview workspace.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
 
-## Project use cases {#project-use-cases}
+## Manage campaign ID {#manage-campaign-id}
 
-The project overview displays the use cases selected during the connection setup. These use cases define the functionality available in the project. The use cases are:
+A **Campaign ID** links your project to a specific campaign and is required to [generate measurement reports](./measure.md#create-measurement-report). You can add multiple campaign IDs to one project if you run several campaigns with the same collaborator. All these campaigns are available for selection in reporting.
 
-| Use case | Project section |
-| --- | --- |
-| Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md) section and all availabile functionality. |
-| Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md) section and all availabile functionality. |
-| Audience activation | This use case grants access to the [Activate](/help/guide/collaborate/activate.md) section and all availabile functionality. |
+- **Publishers**: Enter or update Campaign IDs and associated names in the Collaboration UI before running reports.
+- **Advertisers**: Request your collaborator (publisher) to add Campaign IDs as needed.
+
+To add or update campaign IDs, navigate to the **[!UICONTROL Collaborate]** workspace, then select **[!UICONTROL View]** within the relevant project card.
+
+![The Collaborate workspace highlighting the View option within a project card.](/help/assets/collaborate/manage-view-projects/view-project.png){zoomable="yes"}
+
+The corresponding **[!UICONTROL Project overview]** workspace appears with a **[!UICONTROL Campaign ID and name]** section that lists all campaigns linked to the project. If you have not added a campaign yet, select **[!UICONTROL Add]**. If there are already campaigns present, select **[!UICONTROL Edit]** to update details or add additional ones.
+
+![The project overview workspace displaying the Campaign ID and name section with the Edit option highlighted.](/help/assets/collaborate/manage-view-projects/edit-campaign-id.png){zoomable="yes"}
+
+In the **[!UICONTROL Campaign ID and name]** dialog, select **[!UICONTROL Add campaign ID]** to add a new row where you can enter campaign details.
+
+![The Campaign ID and name dialog displaying the empty campaign row after selecting the Add campaign ID option.](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}
+
+Provide the **[!UICONTROL Campaign ID]** and **[!UICONTROL Campaign name]**, then select **[!UICONTROL Save]**.
+
+![The Campaign ID and name dialog showing the new campaign details and the Save option highlighted.](/help/assets/collaborate/manage-view-projects/save-campaign-id.png){zoomable="yes"}
+
+Check the **[!UICONTROL Campaign ID and name]** section to view your latest campaigns and recent changes. You can now use the new Campaign IDs to generate measurement reports.
+
+![The project overview workspace displaying the updated Campaign ID and name section.](/help/assets/collaborate/manage-view-projects/view-updated-campaigns.png){zoomable="yes"}

@@ -4,6 +4,13 @@ description: Find answers to the most frequently asked questions about Adobe Rea
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 07fa043a-ce42-494d-a262-fa1d5cad7476
+TQID: https://experienceleague.adobe.com/Nqxmunvm-nnvs5rnIPMjmkOzY9RnL7ZsAR9onMRQrdA
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Common questions
 

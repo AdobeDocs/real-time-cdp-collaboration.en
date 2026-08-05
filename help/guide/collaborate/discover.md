@@ -4,6 +4,18 @@ description: Discover overlaps between your and your collaborators' audiences. L
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
+TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Discover overlaps and compare audiences
 
@@ -40,6 +52,10 @@ Once these prerequisites are met, you can start exploring and comparing overlaps
 >[!IMPORTANT]
 >
 >Audiences with less than 1000 overlapping identities do not return any results, and an error is displayed.
+
+>[!NOTE]
+>
+>This **[!UICONTROL Discover]** workspace is not relevant for collaborations with advertising platforms. Currently, Amazon Marketing Cloud is the only available advertising platform in Real-Time CDP Collaboration. For more information about the [!DNL AMC] **[!UICONTROL Discover]** workspace, read the [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) guide.
 
 ## Compare audiences {#compare-audiences}
 
@@ -83,7 +99,7 @@ In the compare audiences section, you can see the following metrics, which are b
 | **[!UICONTROL Overlapping identities]** | The number of unique IDs that are present in both your and your collaborator's audiences. |
 | **[!UICONTROL Overlap %]** | The percentage of profiles overlapping between your and your collaborator's selected audience. |
 | **[!UICONTROL Audience index]** | A score that indicates how strongly one audience relates to another based on underlying audience counts & overlaps. To learn more about what the scores mean, read the [audience index score](#audience-index-score) section. Audience index scores are not available when comparing against your collaborator's baseline (all audiences). |
-| **[!UICONTROL Identities breakdown by match key]** | The breakdown of identites for each match key chosen in the project, based on the select audiences for each collaborator. |
+| **[!UICONTROL Identities breakdown by match key]** | The breakdown of identites matched for each match key chosen in the project, based on the select audiences for each collaborator. |
 
 {style="table-layout:auto"}
 

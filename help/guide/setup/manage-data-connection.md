@@ -4,6 +4,18 @@ description: Learn how to manage data connections, including match keys, schedul
 audience: administrator, data engineer
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
+TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Manage data connections
 
@@ -12,6 +24,10 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 ## Overview
 
 Use data connections in Real-Time CDP Collaboration to source audiences from various platforms. Learn how to manage match keys and schedule data refreshing for your existing data connections. Additionally, you'll be able to filter audiences by different attributes for more granular insights.
+
+>[!NOTE]
+>
+>To create a new data connection, see [Add and manage audiences](./onboard-audiences.md).
 
 ## View data connections
 
@@ -26,7 +42,7 @@ To view existing data connections, navigate to **[!UICONTROL Setup]** and then s
 >title="Match keys"
 >abstract="Match keys determine how data from different sources will be matched. The match keys shown below are the target fields you mapped your source fields to."
 
-Match keys are the target fields you [mapped your source fields to](./onboard-audiences.md#map-fields). You cannot edit the match keys you initially selected for your data connection. To update match keys, you must create a new data connection. To learn more about how match keys work, see the [match keys](./onboard-account.md#set-up-match-keys) guide.
+Match keys are the target fields you [mapped your source fields to](./onboard-audiences.md#map-fields). To learn more about how match keys work, see the [match keys](./onboard-account.md#set-up-match-keys) guide.
 
 ![A data connections workspace with the Match keys section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -35,11 +51,11 @@ Match keys are the target fields you [mapped your source fields to](./onboard-au
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Scheduling"
->abstract="View the scheduling details for your data connection, and edit the refresh frequency if required."
+>abstract="View the scheduling details for your data connection, and edit the configurations if required."
 
 View and manage the scheduling settings for your data connections. Scheduling determines how often the audience is refreshed.
 
-After a data connection is created, you can update its refresh frequency directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 >[!NOTE]
 >
@@ -49,17 +65,94 @@ For more information on scheduling, see the [scheduling section](/help/guide/set
 
 ![A data connection's workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
-#### Edit scheduling {#edit-scheduling}
+## Edit data connection {#edit-data-connection}
 
-You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card. 
+Read the following sections to learn how to update the match keys and scheduling settings of an existing data connection.
 
-The scheduling will affect all audiences sourced from the data connection. 
+### Edit match keys {#edit-match-keys}
 
-In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days. When you're done, select **[!UICONTROL Save]** to apply your changes.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="Enrichment"
+>abstract="Turning off enrichment is not supported. You can change the enrichment join keys instead."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Enrichment"
 
-![The Scheduling dialog, showing options to set frequency and date range.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+>[!IMPORTANT]
+>
+>Before editing the match keys for a data connection, note the following:
+>
+>* Only match keys that are configured for your account can be used for data connections.
+>* At this time, you can add additional match keys to a data connection, but once a match key is enabled, it cannot be removed.
 
-## Delete data connection
+Select **[!UICONTROL Edit]** from the **[!UICONTROL Match keys]** section.
+
+![The Match keys section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+
+A confirmation dialog appears, explaining that any changes to the data connection will apply to all associated audiences. Select **[!UICONTROL OK]** to confirm. You can choose to skip this confirmation in the future.
+
+![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+In the **[!UICONTROL Match keys]** dialog, you can view the existing mappings between source fields and their corresponding target fields (match keys). You can edit a match key by updating the mapped source field, or add additional mapping field rows to populate new match keys.
+
+![The Match keys dialog showing the existing mappings between source fields and the corresponding target fields.](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+
+#### Add match keys {#add-match-keys}
+
+Select **[!UICONTROL Add field]** to add a new field row.
+
+![After selecting Add field, the Match keys dialog displays an empty new mapping field ready for input.](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+
+Next, select the empty source field. The **[!UICONTROL Select source field]** dialog appears with the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options. You can filter the list and find the desired source field with the search option.
+
+Choose the source field that you want, followed by **[!UICONTROL Select]**. 
+
+![The Select source field dialog with the GAID option selected.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+In the **[!UICONTROL Match keys]** dialog, use the dropdown menu to map the new source field to a target field. All available target fields are the match keys configured for your Collaborator account. If you don't see the target field you need, [edit your account's match keys](./onboard-account.md#edit-match-keys) to add it.
+
+Use the **[!UICONTROL Apply transformation]** option if you want to source a non-hashed field to a hashed target field, for example, when mapping a plain text email source field to the **[!UICONTROL Hashed email]** target field.
+
+![The dropdown menu displaying all available target fields to map with the new source field.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+##### Add [!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
+
+If you want to add [!DNL Demdex ID (ECID)] as a match key, first ensure it's [enabled in your account settings](../setup/onboard-account.md#set-up-match-keys). For more information on the [!DNL Demdex ID (ECID)], read [supported match keys](../setup/onboard-account.md#supported-match-keys).
+
+In the **[!UICONTROL Match keys]** dialog, add a new mapping field row. Then, select **[!UICONTROL ECID]** as the source field and select **[!UICONTROL Demdex ID (ECID)]** as the target field from the dropdown list.
+
+![The Match keys dialog with the mapping field for the Demdex ID (ECID) match key highlighted.](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
+
+After you finish mapping fields, review your updates and select **[!UICONTROL Confirm]** to apply the changes.
+
+![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+
+A confirmation dialog confirms that the match keys were updated successfully.
+
+### Edit scheduling {#edit-scheduling}
+
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
+
+You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card.
+
+![The Scheduling section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
+
+A confirmation dialog appears, explaining that any changes to the data connection will apply to all associated audiences. Select **[!UICONTROL OK]** to confirm. You can choose to skip this confirmation in the future.
+
+![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"} 
+
+In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days. 
+
+![The Scheduling dialog with the Frequency dropdown expanded to display audience refresh frequency options.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+
+Next, select **[!UICONTROL Date range]** if you want to update the period during which audiences are populated and refreshed.
+
+![The Scheduling dialog showing the Date range dropdown expanded to edit the start and end dates for audience population and refresh.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+
+When you're done, review the updates and select **[!UICONTROL Save]** to apply your changes.
+
+![The Scheduling dialog highlighting the updates and Save option.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+
+## Delete data connection {#delete-data-connection}
 
 Deleting a data connection will remove all underlying audiences, associated settings, and usage across Collaboration. This action cannot be undone.
 

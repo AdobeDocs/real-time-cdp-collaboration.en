@@ -1,126 +1,209 @@
 ---
 title: Activate audiences
-description: Learn how to activate audiences in Adobe Real-Time CDP Collaboration.
-audience: admin, publisher
-badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+description: Learn how to send audiences to collaborators and manually activate received audiences to destinations in Adobe Real-Time CDP Collaboration.
+audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 ---
 # Activate audiences
 
-{{limited-availability-release-note}}
+Use the **[!UICONTROL Activate]** tab within a project to send audiences to your collaborator, review audiences received from your collaborator, and activate received audiences for delivery to a configured destination. To configure and manage destinations from the top-level **[!UICONTROL Activation]** workspace, see the [destinations overview](../destinations/overview.md).
 
 >[!IMPORTANT]
 >
->The **[!UICONTROL Activate]** workspace is only available if the **Audience activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, refer to the [manage projects](./manage-projects.md#project-use-cases) guide.
+>The **[!UICONTROL Activate]** tab is only available if the **Audience activation** use case was enabled [during the connection process](../connect/establishing-connections.md#connection-settings). For more information about use cases, see [Manage projects](./manage-projects.md#project-use-cases).
 
-Audience activation allows you activate audiences for use in campaigns. Activation can be done by either collaborator depending on the audience activation settings [configured in the connection](/help/guide/connect/establishing-connections.md#configure-connection-settings). After you [discover the best audiences for your campaign](./discover.md), activate the audiences to make them available for use. When you activate an audience, it is sent to your collaborator's pre-configured destination, such as Adobe Experience Platform, where it becomes available for use in campaigns. For more information about setting up destinations, refer to the [destinations overview](../destinations/overview.md) guide.
+Use the [Discover tab](./discover.md) to identify the audiences that best match your campaign, then send them to your collaborator. The receiving collaborator selects a configured destination and schedules the received audience for activation.
 
-## Activate new audiences {#activate-new-audiences}
+Sending and activating are separate actions. Sending gives your collaborator access to an audience. The receiving collaborator then selects a destination and manually activates the received audience.
 
-To start activating audiences, navigate to the **[!UICONTROL Activate]** tab in your project workspace. 
+The sections and actions available to you depend on whether your organization is sending or receiving audiences in the project. The **[!UICONTROL Activate]** tab contains the following sections:
 
->[!IMPORTANT]
->
->**Before** you can activate an audience, your collaborator **must** configure a destination. When you activate an audience, it is automatically sent to your collaborator's configured destination. If no destination is set up, you cannot activate audiences.
->
->![The Activate workspace when the collaborator has no destination configured.](/help/assets/collaborate/activate/no-destination-configured.png)
+| Section | Description |
+|---|---|
+| **[!UICONTROL Sent audiences to [collaborator]]** | Audiences that you have sent to your collaborator. |
+| **[!UICONTROL Received audiences]** | Audiences that your collaborator has sent to you and that are available for activation. |
+| **[!UICONTROL Activated audiences]** | Received audiences that you have activated to a destination. |
 
-Select the add icon (![Add icon.](/help/assets/icons/plus.png)), or the **[!UICONTROL Activate audience]** option if no previous audiences have been sent for activation.
+![The project-level Activate tab with summary counts at the top and expanded Sent audiences, Received audiences, and Activated audiences sections. Each section displays status counts and a table of audience details.](/help/assets/collaborate/activate/activate-dashboard.png)
 
-![The Activate workspace in a project with no audiences added.](/help/assets/collaborate/activate/activate-new-audiences.png)
+## Prerequisites {#prerequisites}
 
-The activate audiences workflow opens, where you can select the audience that you want to send to your collaborator. Use the dropdown to select an audience, or search for a specific audience. To see more information about the audiences before making your select, select **[!UICONTROL Browse audiences]**
+Before you send or activate audiences, ensure that:
+
+- Audiences are sourced and available for sending. For more information, see [Source and manage audiences](../setup/onboard-audiences.md).
+- At least one destination is configured if you need to activate received audiences. For more information, see the [destinations overview](../destinations/overview.md).
+
+## Send audiences {#send-audiences}
+
+Send an audience to give your collaborator access to it. After you send the audience, it appears in your **[!UICONTROL Sent audiences to [collaborator]]** section and in your collaborator's **[!UICONTROL Received audiences]** section.
+
+Navigate to **[!UICONTROL Collaborate]**, open a project, and then select the **[!UICONTROL Activate]** tab.
+
+In the **[!UICONTROL Sent audiences to [collaborator]]** section, select the add icon (![Add icon.](/help/assets/icons/plus.png)). If no audiences have been sent, select **[!UICONTROL Send audience]** from the empty display instead.
+
+![The project-level Activate tab when no audiences have been sent. The empty display message explains that you have not sent an audience and displays a Send audience button.](/help/assets/collaborate/activate/activate-new-audiences.png)
+
+The **[!UICONTROL Send audiences]** workflow opens. Use the audience selector to find an audience, or select **[!UICONTROL Browse audiences]** to compare the available audiences.
 
 >[!IMPORTANT]
 >
 >Only audiences with greater than 1000 overlapping identities are available for activation. If audience overlaps are near the 1000 identity threshold, activation may fail.
 
-![The Audience activation workflow with the dropdown and Browse audiences options highlighted.](/help/assets/collaborate/activate/audience-activation.png)
+![The Send audiences workflow with an audience selector and a Browse audiences button. The workflow allows the sender to choose an audience before configuring match keys and access settings.](/help/assets/collaborate/activate/audience-activation.png)
 
-In the **[!UICONTROL Browse audiences]**, you can see the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for each audience.
+In the **[!UICONTROL Browse audiences]** dialog, review the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for each audience.
 
-![The Browse audiences dialog showing the available audiences.](/help/assets/collaborate/activate/browse-audiences.png)
+![The Browse audiences dialog listing available audiences with their identity count, overlapping identity count, and overlap percentage.](/help/assets/collaborate/activate/browse-audiences.png)
 
 >[!IMPORTANT]
 >
->When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
+>If an audience uses multiple match keys, every selected match key must meet the required overlap threshold. Use the [Discover tab](./discover.md) to confirm that the audience meets the overlap requirements before sending it.
 
-Select the audience that you want to activate in campaigns, and then select **[!UICONTROL Save]**. The audience is now, displayed and you can see the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for the selected audience.
+Select the audience that you want to send, and then select **[!UICONTROL Save]**.
 
-![The Audience activation workflow with the selected audience displayed.](/help/assets/collaborate/activate/audience-selected.png)
+The selected audience appears in the workflow with its identity and overlap information.
+
+![The Send audiences workflow with a selected audience showing its identity count, overlapping identity count, overlap percentage, match keys, and Edit match keys option.](/help/assets/collaborate/activate/audience-selected.png)
 
 ### Edit match keys {#edit-match-keys}
 
-Next, you can edit the audience's match keys by selecting **[!UICONTROL Edit match keys]** within the select audience. These options are inherited from your match key selections when the connection between collaborators was initially set up. You can remove match keys that were selected if they don't apply to a specific campaign, but you cannot add new match keys.
+Use the match keys configured for the collaborator connection, or remove any match keys that do not apply to the audience.
 
-![The Audience activation workflow with the Edit match keys option highlighted.](/help/assets/collaborate/activate/edit-match-keys.png)
+Select **[!UICONTROL Edit match keys]** in the selected audience.
 
-The **[!UICONTROL Edit match keys]** dialog opens, where you can toggle off the match keys that you don't want to use. Select **[!UICONTROL Save]** to save your changes.
+![The selected audience in the Send audiences workflow with the Edit match keys option highlighted.](/help/assets/collaborate/activate/edit-match-keys.png)
+
+The **[!UICONTROL Edit match keys]** dialog appears. Turn off any match keys that you do not want to use, and then select **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->At least one match key must be selected. In the current release, the only match keys available is **[!UICONTROL Hashed email]**, so you cannot remove this match key.
+>At least one match key must remain selected.
 
-![The Edit match keys dialog in the Audiece activation workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![The Edit match keys dialog with toggle controls for the match keys available through the collaborator connection and a Save button.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
-### Set audience refresh frequency {#set-audience-refresh-frequency}
+### Configure audience access {#configure-audience-access}
 
-Finally, set the desired frequency and date range for the audience to refresh. In the current release, the only supported frequency option is **[!UICONTROL Once]**. The **[!UICONTROL Once]** frequency means the audiences are activated a single time and are not refreshed. The **[!UICONTROL Date]** option is auto-populated with the current date.
+Configure how the audience is sent and how long your collaborator can access it.
 
-![The Audience activation workflow with the Frequency section highlighted.](/help/assets/collaborate/activate/audience-frequency.png)
+Use the **[!UICONTROL Access duration]** control to select one of the following options:
 
-When satisfied with your selections, select **[!UICONTROL Activate]** to complete the workflow.
+- **[!UICONTROL Send now (one-time)]**: Send the audience once. The receiving collaborator can activate it once.
+- **[!UICONTROL Schedule recurring audience send]**: Refresh the audience during a specified access period. Use the **[!UICONTROL Date range]** control to select the start and end dates.
 
-## Activate dashboard {#activate-dashboard}
+![The Access duration step in the Send audiences workflow with options to send the audience once or schedule a recurring audience send. The recurring option displays date controls for defining the access period.](/help/assets/collaborate/activate/activation-frequency.png)
 
-In the **[!UICONTROL Activate]** tab, you can view all audiences sent to your collaborator, as well as all audiences your collaborator has activated to your destination.
+When the audience and access settings are complete, select **[!UICONTROL Send]**.
 
-![The Activate dashboard showing the Sent audiences and Activated audiences sections.](/help/assets/collaborate/activate/activate-dashboard.png)
+The audience appears in your **[!UICONTROL Sent audiences to [collaborator]]** section. Your collaborator can review it in their **[!UICONTROL Received audiences]** section.
 
 ## View sent audiences {#view-sent-audiences}
 
-In the **[!UICONTROL Sent audiences to]** collaborator section, all the audiences you've sent will be listed. Currently, audiences are automatically sent to your collaborator's configured destination after you've sent them. In your collaborator's view, these audiences are displayed in the **[!UICONTROL Activated audiences]** section.
+Use the **[!UICONTROL Sent audiences to [collaborator]]** section to review audiences that you have sent and monitor their current access status.
 
-Within each sent audience, you can see the following metrics:
+Each sent audience displays the following information:
 
-| Metric | Description |
-|---------|----------|
-| **[!UICONTROL Name]** | The name of the audience. |
-| **[!UICONTROL Status]** | The status of the sent audience. |
+| Column | Description |
+|---|---|
+| **[!UICONTROL Audience name]** | The name of the sent audience. |
+| **[!UICONTROL Status]** | The current access status of the audience. |
 | **[!UICONTROL Identity count]** | The number of identities in the audience. |
-| **[!UICONTROL Overlapping identities]** | The number of overlapping identities between this audience and the total population of profiles across the collaborator's inventory. |
-| **[!UICONTROL Created]** | The date when the audience was initially sent. |
-| **[!UICONTROL Last sent]** | The date when the audience was last sent to your collaborator. |
-| **[!UICONTROL Match keys]** | Indicates the match key used for the audience. |
+| **[!UICONTROL Overlapping identities]** | The number of identities that overlap with your collaborator's inventory. |
+| **[!UICONTROL Created]** | The date and time when the audience was first sent. |
+| **[!UICONTROL Last sent]** | The date and time when audience data was most recently sent to your collaborator. |
+| **[!UICONTROL Access duration]** | The access setting configured when the audience was sent. |
+| **[!UICONTROL Match keys]** | The match keys used when sending the audience. |
 
-## View activated audiences {#view-activated-audiences}
+### Delete a sent audience {#delete-sent-audience}
 
-In the **[!UICONTROL Activated audiences]** section, you can see all the audiences that have been activated to your destination.
+Delete a sent audience to remove it from the sent-audiences list and revoke your collaborator's access.
 
-Within each activated audience, you can see the following metrics:
+Select the delete icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to [collaborator]]** section.
 
-| Metric | Description |
-|---------|----------|
-| **[!UICONTROL Name]** | The name of the audience. |
-| **[!UICONTROL Status]** | The status of the activated audience. |
-| **[!UICONTROL Identity count]** | The number of identities that were activated, based off the overlapping identities when your collaborator sent the audience. |
-| **[!UICONTROL Created]** | The date when the audience was activated. |
-| **[!UICONTROL Last refreshed]** | The date when the audience was last refreshed, based on the refresh schedule chosen during activation. |
-| **[!UICONTROL Destination]** | The destination where the audience was activated to. |
-| **[!UICONTROL Match keys]** | Indicates the match key used for the audience. |
+![The Sent audiences section with the delete icon displayed next to an audience row.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-## Delete sent audiences {#delete-sent-audiences}
+A confirmation dialog appears. Select **[!UICONTROL Delete]** to confirm.
 
-You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and it will no longer be activated to your collaborator's destination.
+![The sent-audience deletion confirmation dialog explaining that the audience will be removed and the collaborator will lose access, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
-To delete a sent audience, select the **[!UICONTROL Delete]** icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to]** section.
+The audience is removed from the section, and your collaborator loses access to it.
 
-![The Delete option in the Sent audiences to section.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+## View received audiences {#received-audiences}
 
-A confirmation dialog opens, asking you to confirm the deletion. Select **[!UICONTROL Delete]** to confirm.
+Use the **[!UICONTROL Received audiences]** section to review audiences that your collaborator has sent to you. A received audience must be manually activated before its data is sent to a destination.
 
-![The Delete confirmation dialog.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+Each received audience displays the following information:
+
+| Column | Description |
+|---|---|
+| **[!UICONTROL Audience name]** | The name of the received audience. |
+| **[!UICONTROL Status]** | The current access status of the audience. |
+| **[!UICONTROL Identity count]** | The number of identities in the audience. |
+| **[!UICONTROL Overlapping identities]** | The number of identities that overlap with your inventory. |
+| **[!UICONTROL Last dataflow run]** | The date and time of the most recent dataflow run for the audience. |
+| **[!UICONTROL Access duration]** | The access setting configured by the collaborator who sent the audience. |
+| **[!UICONTROL Match keys]** | The match keys used for the audience. |
+
+![The Received audiences section with active and expired audience counts. Each audience row shows its name, status, identity information, last dataflow run, access duration, match keys, and an add icon used to begin activation.](/help/assets/collaborate/activate/received-audiences-section.png)
+
+### Activate a received audience {#activate-received-audience}
+
+Activate a received audience to send its data to one of your configured destinations.
+
+In the **[!UICONTROL Received audiences]** section, select the add icon (![Add icon.](/help/assets/icons/plus.png)) next to the audience that you want to activate.
+
+The **[!UICONTROL Activate audience]** dialog appears.
+
+Use **[!UICONTROL Destination]** to select the destination that receives the audience data. If the destination list is empty, configure a destination before continuing. For instructions, see the [destinations overview](../destinations/overview.md).
+
+Use **[!UICONTROL Date]** to select the date when the activation runs, and then select **[!UICONTROL Activate]**.
+
+![The Activate audience dialog opened from a received audience. The dialog contains a Destination dropdown for selecting a configured destination, a Date field with a calendar control, and Cancel and Activate buttons.](/help/assets/collaborate/activate/activate-received-audience.png)
+
+The dialog closes and the activation appears in the **[!UICONTROL Activated audiences]** section. The received audience remains available in the **[!UICONTROL Received audiences]** section while its access remains active.
+
+## View activated audiences {#activated-audiences}
+
+Use the **[!UICONTROL Activated audiences]** section to confirm which received audiences have been activated and review their destination and delivery status.
+
+Each activated audience displays the following information:
+
+| Column | Description |
+|---|---|
+| **[!UICONTROL Audience name]** | The name of the activated audience. |
+| **[!UICONTROL Status]** | The current activation status. |
+| **[!UICONTROL Activated count]** | The number of identities activated to the destination. |
+| **[!UICONTROL Last refreshed]** | The date and time when the activated audience was most recently refreshed. |
+| **[!UICONTROL Destination]** | The destination that receives the audience data. |
+| **[!UICONTROL Frequency]** | The activation frequency. Manual activations display **[!UICONTROL Once]**. |
+| **[!UICONTROL Date]** | The date when the activation runs. |
+| **[!UICONTROL Match keys]** | The match keys included in the activated audience. |
+
+![The Activated audiences section with active, archived, and paused activation counts. Each row shows the audience name, status, activated count, last refreshed date, destination, frequency, activation date, match keys, and a delete icon.](/help/assets/collaborate/activate/activated-audiences-section.png)
+
+### Delete an activated audience {#delete-activated-audience}
+
+Delete an activated audience to remove the activation from the **[!UICONTROL Activated audiences]** section.
+
+Select the delete icon (![Delete icon.](/help/assets/icons/delete.png)) next to the activated audience.
+
+A confirmation dialog appears. Select **[!UICONTROL Delete]** to confirm.
+
+![The activated-audience deletion confirmation dialog explaining that the audience will be removed from the activated-audiences list and can be activated again later, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png)
+
+The activation is removed from the list. You can activate the received audience again while its access remains active.
 
 ## Next steps {#next-steps}
 
-After activating audiences and running campaigns, work with the Adobe enablement and engineering team to upload measurement data and view the corresponding [measurement reports](/help/guide/collaborate/measure.md).
+After sending or activating audiences, monitor their status in the **[!UICONTROL Sent audiences to [collaborator]]** and **[!UICONTROL Activated audiences]** sections. When campaigns are complete, work with the Adobe enablement and engineering team to upload measurement data and view the corresponding [measurement reports](./measure.md).
