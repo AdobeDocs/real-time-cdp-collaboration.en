@@ -27,9 +27,21 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-**Last update**: July 2026.
+**Last update**: August 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## August 2026 {#august-2026}
+
+Real-Time CDP Collaboration now supports [!DNL Amazon Marketing Cloud] (AMC) measurement reporting in the **[!UICONTROL Measure]** workspace.
+
+**New or updated features**
+
+| Feature | Description |
+| ------- | ----------- |
+| [!DNL AMC] measurement reporting | You can now create [!DNL AMC] measurement reports, including **Campaign Summary** and **Attribution** from the **[!UICONTROL Measure]** tab in an [!DNL AMC] project. For more information, see [Create Amazon Marketing Cloud measurement reports](../collaborate/advertising-platforms/amc-measure.md). |
+
+{style="table-layout:auto"}
 
 ## July 2026 {#july-2026}
 
