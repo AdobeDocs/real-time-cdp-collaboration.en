@@ -49,6 +49,10 @@ To begin using the **[!UICONTROL Discover]** tab within your project, you should
 
 Once these prerequisites are met, you can start exploring and comparing overlaps between you and your collaborator's audiences.
 
+>[!IMPORTANT]
+>
+>Audience comparisons with fewer than 1,000 overlapping identities does not return results.
+
 >[!NOTE]
 >
 >This **[!UICONTROL Discover]** workspace is not relevant for collaborations with advertising platforms. Currently, Amazon Marketing Cloud is the only available advertising platform in Real-Time CDP Collaboration. For more information about the [!DNL AMC] **[!UICONTROL Discover]** workspace, read the [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md) guide.
@@ -83,6 +87,8 @@ Once these prerequisites are met, you can start exploring and comparing overlaps
 Use the compare audiences section to get rich information about the overlap between your and your collaborator's audiences. To change the audience selection, use the dropdown selector at the top of the **[!UICONTROL Compare audiences]** section. You can select one or all of your audiences and one or all of your collaborator's audiences to compare against each other. 
 
 ![The Discover workspace with the audience selector highlighted in the Compare audiences section.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 In the compare audiences section, you can see the following metrics, which are based on the match keys that you and your collaborator agreed on for the project:
 
