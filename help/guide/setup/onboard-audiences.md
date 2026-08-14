@@ -170,7 +170,7 @@ To begin mapping fields, select the empty source field next to the target field.
 
 ![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Some profile attributes are modeled inside a list, which is an array of objects (shown as `Object[]` in the dialog). This is common when a key identifier or attribute lives inside a repeating record, such as an account number or vehicle identifier stored under a list of accounts or vehicles. For example, a profile can contain a list of `devices`, where each device has its own fields, such as `Device ID`.
+Some profile attributes are modeled inside a list, which is an array of objects (shown as `Object[]` in the dialog). Key identifiers or attributes often live inside these repeating records, such as an account number or vehicle identifier.
 
 Under the **[!UICONTROL Profile attributes]** option, expand the list field in the **[!UICONTROL Select source field]** dialog, then select the nested field you want to map to a match key. For example, expand `devices` and select `Device ID`. The nested field then populates the source field for that mapping row, and you map it to a target field the same way as any other source field.
 
