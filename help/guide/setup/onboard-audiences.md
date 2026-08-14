@@ -170,7 +170,23 @@ To begin mapping fields, select the empty source field next to the target field.
 
 ![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-To handle sourcing a non-hashed field to a hashed target field, use the **[!UICONTROL Apply transformation]** option. For example, to add a second email field, select the **[!UICONTROL Add field]** option to to add a new row, then select **[!UICONTROL Hashed email]** for the target field. Select a non-hashed email source field, and then select **[!UICONTROL Apply transformation]**.
+Some profile attributes are modeled inside a list, which is an array of objects (shown as `Object[]` in the dialog). This is common when a key identifier or attribute lives inside a repeating record, such as an account number or vehicle identifier stored under a list of accounts or vehicles. For example, a profile can contain a list of `devices`, where each device has its own fields, such as `Device ID`.
+
+Under the **[!UICONTROL Profile attributes]** option, expand the list field in the **[!UICONTROL Select source field]** dialog, then select the nested field you want to map to a match key. For example, expand `devices` and select `Device ID`. The nested field then populates the source field for that mapping row, and you map it to a target field the same way as any other source field.
+
+If a profile has multiple values in the nested field, Collaboration matches and counts each value individually. You don't need to flatten or restructure your data beforehand.
+
+![The Select source field dialog with the devices list expanded and the Device ID field selected for mapping.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>Selecting a field nested inside a list has the following limitations:
+>
+>* You can select nested fields for match keys only. Selecting a nested field as an attribute isn't supported.
+>* You can select one nested field per list at a time.
+>* Lists of simple values, rather than lists of objects, appear in the dialog but you can't select them.
+
+To handle sourcing a non-hashed field to a hashed target field, use the **[!UICONTROL Apply transformation]** option. For example, to add a second email field, select the **[!UICONTROL Add field]** option to add a new row, then select **[!UICONTROL Hashed email]** for the target field. Select a non-hashed email source field, and then select **[!UICONTROL Apply transformation]**.
 
 ![The Add audiences workspace with the email source fields mapped to the target field, with Apply transformation toggled on for one.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
