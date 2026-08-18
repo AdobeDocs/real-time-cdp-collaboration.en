@@ -107,11 +107,11 @@ Understand which medium is driving impressions for your creative. This can help 
 
 ### Cumulative conversions {#cumulative-conversions}
 
-This view provides a detailed breakdown of the conversion events you choose to measure in a tabular format. The table includes:
+This view provides a detailed breakdown of the conversion events you choose to measure in a tabular format. Results are calculated at the **Campaign ID** level. The table includes:
 
 * **Conversion event**: Name of each conversion event you are tracking.
-* **Conversion count**: Total count of conversions that occurred for each event.
-* **Estimated revenue**: Estimated value attributed to each conversion event.
+* **Conversion count**: Total count of conversions that occurred for each event, across all placements associated with the Campaign ID.
+* **Conversion value(s)**: Value attributed to each conversion event, across all placements associated with the Campaign ID.
 
 Review this table to evaluate the effectiveness of your campaign in driving the desired actions.
 
@@ -122,6 +122,16 @@ Review this table to evaluate the effectiveness of your campaign in driving the 
 This chart provides a day-by-day breakdown of conversions for each event set up when you create an Attribution report. Use this view to uncover daily patterns, identify periods of high or low conversion activity, and compare how different conversion events perform across your campaign timeline.
 
 ![Conversions by day.](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+### Conversions by placement {#conversions-by-placement}
+
+This table provides a **Placement ID-level breakdown** of the conversion events selected for the Attribution report. A single Campaign ID can include multiple Placement IDs, so use this view to see how conversions break down within a campaign. For each selected conversion event, the table shows the conversions attributed to each placement and the corresponding conversion value. The table includes:
+
+* **Placement name or ID**: The identifier for the placement where the creative ran.
+* **Conversion count**: The count of conversions attributed to that placement, for each conversion event selected when the report was created. A placement can display up to three conversion events, matching the maximum number of conversion events allowed per report.
+* **Conversion value**: The value attributed to each conversion event, for that specific placement.
+
+![Conversions by placement.](/help/assets/collaborate/measure/conversions-by-placement.png)
 
 ## Create measurement report {#create-measurement-report}
 
