@@ -108,6 +108,8 @@ Choose the source field that you want, followed by **[!UICONTROL Select]**.
 
 ![The Select source field dialog with the GAID option selected.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
+Under the **[!UICONTROL Profile attributes]** option, some source fields are modeled inside a list, which is an array of objects. You can expand these list fields and select a field nested inside them to map to a match key. For more information, see the [map fields](./onboard-audiences.md#map-fields) guide.
+
 In the **[!UICONTROL Match keys]** dialog, use the dropdown menu to map the new source field to a target field. All available target fields are the match keys configured for your Collaborator account. If you don't see the target field you need, [edit your account's match keys](./onboard-account.md#edit-match-keys) to add it.
 
 Use the **[!UICONTROL Apply transformation]** option if you want to source a non-hashed field to a hashed target field, for example, when mapping a plain text email source field to the **[!UICONTROL Hashed email]** target field.
