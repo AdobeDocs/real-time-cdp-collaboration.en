@@ -110,8 +110,8 @@ Understand which medium is driving impressions for your creative. This can help 
 This view provides a detailed breakdown of the conversion events you choose to measure in a tabular format. Results are calculated at the **Campaign ID** level. The table includes:
 
 * **Conversion event**: Name of each conversion event you are tracking.
-* **Conversion count**: Total count of conversions that occurred for each event, across all placements associated with the Campaign ID.
-* **Conversion value(s)**: Value attributed to each conversion event, across all placements associated with the Campaign ID.
+* **Conversion count**: Total count of conversions that occurred for each event, for the Campaign ID.
+* **Conversion value(s)**: Value attributed to each conversion event, for the Campaign ID.
 
 Review this table to evaluate the effectiveness of your campaign in driving the desired actions.
 
