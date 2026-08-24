@@ -36,6 +36,14 @@ This glossary provides definitions for key terms identified in the Adobe Real-Ti
 
 ## A
 
+### Activate (to a collaborator)
+
+Refers to the action of sending an audience to another collaborator within a shared project. When you activate an audience to a collaborator, it is sent to that collaborator's pre-configured destination, where it becomes available for use in campaigns. For instructions, see [Activate audiences](/help/guide/collaborate/activate.md). Not to be confused with **Activate (to a destination)**.
+
+### Activate (to a destination)
+
+Refers to the destination that an activated audience lands in, such as a cloud storage platform or Adobe Experience Platform, and to the workspace where destinations are configured, browsed, and monitored. Audiences still reach a destination through the [Activate audiences](/help/guide/collaborate/activate.md) action within a project; this workspace governs which destinations are available and how they're set up. For instructions, see [Destinations overview](/help/guide/destinations/overview.md). Not to be confused with **Activate (to a collaborator)**.
+
 ### Advertiser
 
 Any entity that will spend marketing budget to reach audiences across publishers or other brand partners to achieve goals of brand awareness, prospecting, re-engagement, and conversions.

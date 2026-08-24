@@ -27,19 +27,33 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-**Last update**: July 2026.
+**Last update**: August 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
 
+## August 2026 {#august-2026}
+
+Real-Time CDP Collaboration now supports [!DNL Amazon Marketing Cloud] (AMC) measurement reporting, allowing you to measure Amazon Ads campaign performance from within an [!DNL AMC] project.
+
+**New or updated features**
+
+| Feature | Description |
+| ------- | ----------- |
+| [!DNL AMC] measurement reporting | Measure the performance of your Amazon Ads campaigns using [!DNL AMC] data directly in Collaboration. From the [!UICONTROL Measure] tab in an [!DNL AMC] project, you can create **Campaign Summary** and **Attribution** reports to evaluate campaign performance and understand conversion attribution. For more information, see [Create Amazon Marketing Cloud measurement reports](../collaborate/advertising-platforms/amc-measure.md). |
+
+{style="table-layout:auto"}
+
 ## July 2026 {#july-2026}
 
-Real-Time CDP Collaboration now supports additional self-service audience sourcing options.
+Real-Time CDP Collaboration now supports additional self-service audience sourcing options, along with easier activation and destination setup workflows.
 
 **New or updated features**
 
 | Feature | Description |
 | ------- | ----------- |
 | Self-service audience sourcing from [!DNL Databricks Delta Share] and Adobe Audience Manager | You can now source first-party audiences directly from your [!DNL Databricks Delta Share] or bring eligible Adobe Audience Manager segments into Collaboration. For setup instructions, see the following guides: <ul><li>[Configure [!DNL Databricks Delta Share] for audience sourcing](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configure Adobe Audience Manager for audience sourcing](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Manual activation of received audiences | You can now manually activate audiences received from a collaborator to a configured destination and choose when the activation runs. This gives recipients more control over audience delivery. See [Activate audiences](../collaborate/activate.md) for step-by-step instructions. |
+| Self-service cloud storage destinations | You can now configure and manage supported cloud storage destinations directly from the Activation workspace and use them to activate received audiences. See [Configure and manage cloud storage destinations](../destinations/manage-destinations.md) for setup instructions. |
 
 {style="table-layout:auto"}
 
@@ -124,7 +138,7 @@ Real-Time CDP Collaboration is now available to customers in **Canada**. It is a
 Real-time CDP Collaboration now supports brand-to-brand collaboration. Collaborators can now form connections, regardless of whether they are an advertiser or publisher. This allows for more flexible collaboration opportunities and enables brands to leverage each other's data and insights. To learn more about the differences between brand-to-brand collaboration and advertiser-to-publisher collaboration, read the [collaboration patterns](../overview/collaboration-patterns.md) guide.
 
 * Collaborators can now connect to each other using [private connection invites](../connect/establishing-connections.md#private-connection-invites). Share your account's unique connect code with a collaborator who can then use it to connect with you directly. This is a core feature of brand-to-brand collaboration, allowing collaborators to establish connections beyond advertisers exploring the **[!UICONTROL Discover collaborators]** directory.
-* [Self-serve destinations](../setup/manage-destinations.md) are now available to both advertisers and publishers.
+* [Self-serve destinations](../destinations/overview.md) are now available to both advertisers and publishers.
 * Audience activation is now available for both collaborators in a connection, regardless of their [account role](../overview/roles.md). Audience activation settings are configured while [establishing connections](../connect/establishing-connections.md#configure-connection-settings), allowing you to specify which collaborator can activate audiences. To learn more about audience activation, read the [activate audiences](../collaborate/activate.md) guide.
 * The **[!UICONTROL Activate]** use case has been reconfigured to support brand-to-brand collaboration. The **[!UICONTROL Activate]** tab within a project now displays the audiences that have been sent to your collaborator, and the audiences activated to your destination by your collaborator. To learn more, read the [activate audiences](../collaborate/activate.md) guide. <br> ![The Activate dashboard with the Audiences sent to and Audiences activated sections.](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
 * Audience index scores are now available in the **[!UICONTROL Discover]** tab of a project. The audience index score is a measure of how well an audience matches your collaborator's audience. This score is calculated based on on underlying audience counts & overlaps. To learn more about audience index scores, read the [audience index score](../collaborate/discover.md#audience-index-score) guide.
@@ -132,7 +146,7 @@ Real-time CDP Collaboration now supports brand-to-brand collaboration. Collabora
 ## May 2025 {#may-2025}
 
 * Real-Time CDP Collaboration is now available to customers in **Australia** and **New Zealand**. It is automatically available to Real-Time CDP Prime and Ultimate customers in these regions.
-* Real-Time CDP Collaboration now offers [self-serve destinations](../setup/manage-destinations.md) through the **[!UICONTROL My destinations]** tab in the **[!UICONTROL Setup]** section. Destinations allow you to activate audiences in third-party platforms, such as advertising networks or data management platforms, to reach your customers across various channels. Currently, only Adobe Experience Platform destinations are supported. If you are interested in configuring a different destination, please contact your Adobe representative. To learn more about destinations, read the [destinations overview](../destinations/overview.md) guide.
+* Real-Time CDP Collaboration now offers [self-serve destinations](../destinations/overview.md) through the **[!UICONTROL My destinations]** tab in the **[!UICONTROL Setup]** section. Destinations allow you to activate audiences in third-party platforms, such as advertising networks or data management platforms, to reach your customers across various channels. Currently, only Adobe Experience Platform destinations are supported. If you are interested in configuring a different destination, please contact your Adobe representative. To learn more about destinations, read the [destinations overview](../destinations/overview.md) guide.
   * Destinations also adds support to view Collaboration audiences in the [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
 * You can now edit the audience refresh frequency for existing data connections in Collaboration. Currently, you can choose to refresh your audiences daily or every two to six days. To learn more about how to edit the audience refresh frequency, read the [manage data connections](../setup/manage-data-connection.md#scheduling) guide.
 * Credit splits between collaborators are now set for each use case selected within the connection. You can set different credit consumption rules for each use case to better control how your credits are used. To learn more about about the credit split funtionality, read the [connection settings](../connect/establishing-connections.md#connection-settings) guide. To learn more about how credits are consumed, read the [credit activity types](../setup/my-activity.md#types-of-activities) guide. <br> ![Connection settings screen showing the credit split functionality.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
