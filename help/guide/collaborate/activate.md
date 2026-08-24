@@ -57,6 +57,10 @@ In the **[!UICONTROL Sent audiences to [collaborator]]** section, select the add
 
 The **[!UICONTROL Send audiences]** workflow opens. Use the audience selector to find an audience, or select **[!UICONTROL Browse audiences]** to compare the available audiences.
 
+>[!IMPORTANT]
+>
+>Only audiences with greater than 1000 overlapping identities are available for activation. If audience overlaps are near the 1000 identity threshold, activation may fail.
+
 ![The Send audiences workflow with an audience selector and a Browse audiences button. The workflow allows the sender to choose an audience before configuring match keys and access settings.](/help/assets/collaborate/activate/audience-activation.png)
 
 In the **[!UICONTROL Browse audiences]** dialog, review the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for each audience.

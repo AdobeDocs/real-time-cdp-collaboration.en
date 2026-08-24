@@ -27,19 +27,33 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-**Last update**: July 2026.
+**Last update**: August 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
 
+## August 2026 {#august-2026}
+
+Real-Time CDP Collaboration now supports [!DNL Amazon Marketing Cloud] (AMC) measurement reporting, allowing you to measure Amazon Ads campaign performance from within an [!DNL AMC] project.
+
+**New or updated features**
+
+| Feature | Description |
+| ------- | ----------- |
+| [!DNL AMC] measurement reporting | Measure the performance of your Amazon Ads campaigns using [!DNL AMC] data directly in Collaboration. From the [!UICONTROL Measure] tab in an [!DNL AMC] project, you can create **Campaign Summary** and **Attribution** reports to evaluate campaign performance and understand conversion attribution. For more information, see [Create Amazon Marketing Cloud measurement reports](../collaborate/advertising-platforms/amc-measure.md). |
+
+{style="table-layout:auto"}
+
 ## July 2026 {#july-2026}
 
-Real-Time CDP Collaboration now supports additional self-service audience sourcing options.
+Real-Time CDP Collaboration now supports additional self-service audience sourcing options, along with easier activation and destination setup workflows.
 
 **New or updated features**
 
 | Feature | Description |
 | ------- | ----------- |
 | Self-service audience sourcing from [!DNL Databricks Delta Share] and Adobe Audience Manager | You can now source first-party audiences directly from your [!DNL Databricks Delta Share] or bring eligible Adobe Audience Manager segments into Collaboration. For setup instructions, see the following guides: <ul><li>[Configure [!DNL Databricks Delta Share] for audience sourcing](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configure Adobe Audience Manager for audience sourcing](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Manual activation of received audiences | You can now manually activate audiences received from a collaborator to a configured destination and choose when the activation runs. This gives recipients more control over audience delivery. See [Activate audiences](../collaborate/activate.md) for step-by-step instructions. |
+| Self-service cloud storage destinations | You can now configure and manage supported cloud storage destinations directly from the Activation workspace and use them to activate received audiences. See [Configure and manage cloud storage destinations](../destinations/manage-destinations.md) for setup instructions. |
 
 {style="table-layout:auto"}
 
