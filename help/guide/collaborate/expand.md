@@ -104,8 +104,7 @@ Enable one match key for the expansion audience. You can't enable more than one.
 
 Use the **[!UICONTROL Audience reach]** dropdown to choose how closely the expansion audience resembles your seed audience: **[!UICONTROL Tightest]**, **[!UICONTROL Tighter]**, **[!UICONTROL Balanced]**, **[!UICONTROL Broader]**, or **[!UICONTROL Broadest]**. Each option shows a short description and directional guidance, such as closer to your seed audience or wider reach, instead of a percentage or size estimate. Collaboration doesn't show the underlying population size, or a way to calculate it, to protect your collaborator's audience data.
 
-<!-- Audience reach is documented as a qualitative Tightest-Broadest dropdown, per the PRD. Verify against the actual build, as the PRD's earlier numeric target-size input description conflicts with this.
- -->
+<!-- Audience reach is documented as a qualitative Tightest-Broadest dropdown, per the PRD. Verify against the actual build, as the PRD's earlier numeric target-size input description conflicts with this.-->
 
 ![The Audience reach dropdown expanded, showing the Tightest through Broadest options with their directional descriptions.](/help/assets/collaborate/expand/select-audience-reach.png){zoomable="yes"}
 
