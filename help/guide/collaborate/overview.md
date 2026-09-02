@@ -32,6 +32,7 @@ The project overview displays the use cases selected during the connection setup
 | Campaign measurement | This use case grants access to the [Measure](/help/guide/collaborate/measure.md) section and all available functionality. |
 | Audience discovery | This use case grants access to the [Discover](/help/guide/collaborate/discover.md) section and all available functionality. |
 | Audience activation | This use case grants access to the [Activate](/help/guide/collaborate/activate.md) section and all available functionality. |
+| Lookalike Models (Beta) | This use case grants access to the [Expand](/help/guide/collaborate/expand.md) section and all available functionality. |
 
 ## Collaborating with advertising platforms {#collaborating-with-advertising-platforms}
 
