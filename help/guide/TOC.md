@@ -52,7 +52,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Manage projects](./collaborate/manage-projects.md)
   * Collaborator connections {#collaborator-connections}
     * [Discover](./collaborate/discover.md)
-    * [Expand](./collaborate/expand.md)
+    * {hide-from-toc} [Expand](./collaborate/expand.md)
     * [Activate](./collaborate/activate.md)
     * [Measure](./collaborate/measure.md)
   * Advertising platform connections {#ad-platform-connections}

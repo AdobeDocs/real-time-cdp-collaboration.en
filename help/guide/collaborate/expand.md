@@ -1,22 +1,17 @@
 ---
-title: Create lookalike audiences in Expand
-description: Learn how to create lookalike (expansion) audiences from a seed audience using a collaborator's audience population in Adobe Real-Time CDP Collaboration.
+title: Create expansion audiences in Expand
+description: Learn how to create expansion audiences from a seed audience using a collaborator's audience population in Adobe Real-Time CDP Collaboration.
 ---
-# Create lookalike audiences in Expand
+# Create expansion audiences in Expand
 
->[!IMPORTANT]
->
->The **[!UICONTROL Expand]** tab is only available if the **Lookalike Models** use case is enabled [during the connection setup process](../connect/establishing-connections.md#connection-settings). For more information about connection use cases, see [Manage projects](./manage-projects.md#project-use-cases).
-<!-- setup-side use case is labeled "Lookalike Model(s)- exact capitalization/pluralization still unconfirmed against build. Verify against the UI before publishing. -->
-
-Use the **[!UICONTROL Expand]** tab within a project to create a lookalike audience, also called an expansion audience, from one of your audiences. Collaboration uses your collaborator's audience population to find profiles that resemble your seed audience, helping you reach new prospects without exposing your collaborator's underlying audience data. The resulting expansion audience is sent to your collaborator for activation.
+Use the **[!UICONTROL Expand]** tab within a project to create an expansion audience from one of your audiences. Collaboration uses your collaborator's audience population to find profiles that resemble your seed audience, helping you reach new prospects without exposing your collaborator's underlying audience data. The resulting expansion audience is sent to your collaborator for activation.
 
 ## Prerequisites {#prerequisites}
 
 Before you can use the **[!UICONTROL Expand]** tab, you should have:
 
 * [Sourced](/help/guide/setup/onboard-audiences.md) at least one audience to use as a seed audience
-* [Connected](/help/guide/connect/establishing-connections.md) with a collaborator with the **Lookalike Models** use case enabled
+* [Connected](/help/guide/connect/establishing-connections.md) with a collaborator
 * [Created a project](/help/guide/collaborate/manage-projects.md) with that collaborator
 * If you are receiving an expansion audience, a [destination](/help/guide/destinations/overview.md) configured to receive activated audiences
 
@@ -55,7 +50,7 @@ An expansion audience moves through the following statuses:
 
 | Status | Description |
 |---|---|
-| **[!UICONTROL Processing]** | The lookalike model is still generating the expansion audience. |
+| **[!UICONTROL Processing]** | The expansion model is still generating the expansion audience. |
 | **[!UICONTROL Draft]** | The model has finished, and the expansion audience is ready for you to review and send to your collaborator. |
 | **[!UICONTROL Active]** | You've sent the expansion audience to your collaborator. |
 
