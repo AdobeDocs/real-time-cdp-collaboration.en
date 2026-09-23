@@ -18,7 +18,7 @@ topic_v2:
 ---
 # Activate audiences
 
-Use the **[!UICONTROL Activate]** tab within a project to send audiences to your collaborator, review audiences received from your collaborator, and activate received audiences for delivery to a configured destination. Activation can be created automatically when the audience is sent or manually by the receiving collaborator. To configure and manage destinations from the top-level **[!UICONTROL Activation]** workspace, see the [destinations overview](../destinations/overview.md).
+Use the **[!UICONTROL Activate]** tab within a project to send audiences to your collaborator, review audiences received from your collaborator, and activate received audiences for delivery to a configured destination. Activation can be created automatically when the audience is received or manually by the receiving collaborator. To configure and manage destinations from the top-level **[!UICONTROL Activation]** workspace, see the [destinations overview](../destinations/overview.md).
 
 >[!IMPORTANT]
 >
