@@ -36,7 +36,7 @@ The sections and actions available to you depend on whether your organization is
 | **[!UICONTROL Received audiences]** | Audiences that your collaborator has sent to you and that are available for activation. |
 | **[!UICONTROL Activated audiences]** | Received audiences that you have activated to a destination. |
 
-![The project-level Activate tab with summary counts at the top and expanded Sent audiences, Received audiences, and Activated audiences sections. Each section displays status counts and a table of audience details.](/help/assets/collaborate/activate/activate-dashboard.png)
+![The project-level Activate tab with summary counts at the top and expanded Sent audiences, Received audiences, and Activated audiences sections. Each section displays status counts and a table of audience details.](/help/assets/collaborate/activate/activate-dashboard.png){zoomable="yes"}
 
 ## Prerequisites {#prerequisites}
 
@@ -53,7 +53,7 @@ Navigate to **[!UICONTROL Collaborate]**, open a project, and then select the **
 
 In the **[!UICONTROL Sent audiences to [collaborator]]** section, select the add icon (![Add icon.](/help/assets/icons/plus.png)). If no audiences have been sent, select **[!UICONTROL Send audience]** from the empty display instead.
 
-![The project-level Activate tab when no audiences have been sent. The empty display message explains that you have not sent an audience and displays a Send audience button.](/help/assets/collaborate/activate/activate-new-audiences.png)
+![The project-level Activate tab when no audiences have been sent. The empty display message explains that you have not sent an audience and displays a Send audience button.](/help/assets/collaborate/activate/activate-new-audiences.png){zoomable="yes"}
 
 The **[!UICONTROL Send audiences]** workflow opens. Use the audience selector to find an audience, or select **[!UICONTROL Browse audiences]** to compare the available audiences.
 
@@ -61,11 +61,11 @@ The **[!UICONTROL Send audiences]** workflow opens. Use the audience selector to
 >
 >Only audiences with greater than 1000 overlapping identities are available for activation. If audience overlaps are near the 1000 identity threshold, activation may fail.
 
-![The Send audiences workflow with an audience selector and a Browse audiences button. The workflow allows the sender to choose an audience before configuring match keys and access settings.](/help/assets/collaborate/activate/audience-activation.png)
+![The Send audiences workflow with an audience selector and a Browse audiences button. The workflow allows the sender to choose an audience before configuring match keys and access settings.](/help/assets/collaborate/activate/audience-activation.png){zoomable="yes"}
 
 In the **[!UICONTROL Browse audiences]** dialog, review the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for each audience.
 
-![The Browse audiences dialog listing available audiences with their identity count, overlapping identity count, and overlap percentage.](/help/assets/collaborate/activate/browse-audiences.png)
+![The Browse audiences dialog listing available audiences with their identity count, overlapping identity count, and overlap percentage.](/help/assets/collaborate/activate/browse-audiences.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Select the audience that you want to send, and then select **[!UICONTROL Save]**
 
 The selected audience appears in the workflow with its identity and overlap information.
 
-![The Send audiences workflow with a selected audience showing its identity count, overlapping identity count, overlap percentage, match keys, and Edit match keys option.](/help/assets/collaborate/activate/audience-selected.png)
+![The Send audiences workflow with a selected audience showing its identity count, overlapping identity count, overlap percentage, match keys, and Edit match keys option.](/help/assets/collaborate/activate/audience-selected.png){zoomable="yes"}
 
 ### Edit match keys {#edit-match-keys}
 
@@ -83,7 +83,7 @@ Use the match keys configured for the collaborator connection, or remove any mat
 
 Select **[!UICONTROL Edit match keys]** in the selected audience.
 
-![The selected audience in the Send audiences workflow with the Edit match keys option highlighted.](/help/assets/collaborate/activate/edit-match-keys.png)
+![The selected audience in the Send audiences workflow with the Edit match keys option highlighted.](/help/assets/collaborate/activate/edit-match-keys.png){zoomable="yes"}
 
 The **[!UICONTROL Edit match keys]** dialog appears. Turn off any match keys that you do not want to use, and then select **[!UICONTROL Save]**.
 
@@ -91,7 +91,7 @@ The **[!UICONTROL Edit match keys]** dialog appears. Turn off any match keys tha
 >
 >At least one match key must remain selected.
 
-![The Edit match keys dialog with toggle controls for the match keys available through the collaborator connection and a Save button.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![The Edit match keys dialog with toggle controls for the match keys available through the collaborator connection and a Save button.](/help/assets/collaborate/activate/edit-match-keys-selection.png){zoomable="yes"}
 
 ### Configure audience access {#configure-audience-access}
 
@@ -131,11 +131,11 @@ Delete a sent audience to remove it from the sent-audiences list and revoke your
 
 Select the delete icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to [collaborator]]** section.
 
-![The Sent audiences section with the delete icon displayed next to an audience row.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+![The Sent audiences section with the delete icon displayed next to an audience row.](/help/assets/collaborate/activate/delete-sent-audiences.png){zoomable="yes"}
 
 A confirmation dialog appears. Select **[!UICONTROL Delete]** to confirm.
 
-![The sent-audience deletion confirmation dialog explaining that the audience will be removed and the collaborator will lose access, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+![The sent-audience deletion confirmation dialog explaining that the audience will be removed and the collaborator will lose access, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png){zoomable="yes"}
 
 The audience is removed from the section, and your collaborator loses access to it.
 
@@ -155,7 +155,7 @@ Each received audience displays the following information:
 | **[!UICONTROL Access duration]** | The access setting configured by the collaborator who sent the audience. |
 | **[!UICONTROL Match keys]** | The match keys used for the audience. |
 
-![The Received audiences section with active and expired audience counts. Each audience row shows its name, status, identity information, last dataflow run, access duration, match keys, and an add icon used to begin activation.](/help/assets/collaborate/activate/received-audiences-section.png)
+![The Received audiences section with active and expired audience counts. Each audience row shows its name, status, identity information, last dataflow run, access duration, match keys, and an add icon used to begin activation.](/help/assets/collaborate/activate/received-audiences-section.png){zoomable="yes"}
 
 ### Activate a received audience {#activate-received-audience}
 
@@ -169,7 +169,7 @@ Use **[!UICONTROL Destination]** to select the destination that receives the aud
 
 Use **[!UICONTROL Date]** to select the date when the activation runs, and then select **[!UICONTROL Activate]**.
 
-![The Activate audience dialog opened from a received audience. The dialog contains a Destination dropdown for selecting a configured destination, a Date field with a calendar control, and Cancel and Activate buttons.](/help/assets/collaborate/activate/activate-received-audience.png)
+![The Activate audience dialog opened from a received audience. The dialog contains a Destination dropdown for selecting a configured destination, a Date field with a calendar control, and Cancel and Activate buttons.](/help/assets/collaborate/activate/activate-received-audience.png){zoomable="yes"}
 
 The dialog closes and the activation appears in the **[!UICONTROL Activated audiences]** section. The received audience remains available in the **[!UICONTROL Received audiences]** section while its access remains active.
 
@@ -190,7 +190,7 @@ Each activated audience displays the following information:
 | **[!UICONTROL Date]** | The date when the activation runs. |
 | **[!UICONTROL Match keys]** | The match keys included in the activated audience. |
 
-![The Activated audiences section with active, archived, and paused activation counts. Each row shows the audience name, status, activated count, last refreshed date, destination, frequency, activation date, match keys, and a delete icon.](/help/assets/collaborate/activate/activated-audiences-section.png)
+![The Activated audiences section with active, archived, and paused activation counts. Each row shows the audience name, status, activated count, last refreshed date, destination, frequency, activation date, match keys, and a delete icon.](/help/assets/collaborate/activate/activated-audiences-section.png){zoomable="yes"}
 
 ### Delete an activated audience {#delete-activated-audience}
 
@@ -200,7 +200,7 @@ Select the delete icon (![Delete icon.](/help/assets/icons/delete.png)) next to 
 
 A confirmation dialog appears. Select **[!UICONTROL Delete]** to confirm.
 
-![The activated-audience deletion confirmation dialog explaining that the audience will be removed from the activated-audiences list and can be activated again later, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png)
+![The activated-audience deletion confirmation dialog explaining that the audience will be removed from the activated-audiences list and can be activated again later, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png){zoomable="yes"}
 
 The activation is removed from the list. You can activate the received audience again while its access remains active.
 
