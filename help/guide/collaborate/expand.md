@@ -101,8 +101,6 @@ Use the **[!UICONTROL Seed audience]** radio buttons to choose whether your orig
 
 Once all fields are complete, select **[!UICONTROL Generate expansion audience]**. A confirmation message confirms that Collaboration is creating the expansion audience, and that you can track its progress on the **[!UICONTROL Expand]** page.
 
-<!-- Confirm the model's processing time / add guidance on how long users should expect to wait before the status changes to Draft. -->
-
 ## Review and send an expansion audience {#review-send-expansion-audience}
 
 Once an expansion audience's status updates to **[!UICONTROL Draft]**, select its name from the **[!UICONTROL Expansion audiences]** table to open it.
@@ -131,9 +129,8 @@ When you're ready, select **[!UICONTROL Send to partner]** to send the expansion
 When you send an expansion audience, Collaboration delivers it to your collaborator according to the activation setting configured for the connection:
 
 * If **automatic activation** is enabled, Collaboration activates the expansion audience automatically to your collaborator's configured destination, and it appears in their [Activate tab](./activate.md#activated-audiences).
-* If **manual activation** is enabled, the expansion audience appears in your collaborator's [Received audiences](./activate.md#received-audiences) section of the **[!UICONTROL Activate]** tab, and your collaborator must manually activate it.
-
-<!-- Remove the manual-activation bullet above if it isn't supported at launch. -->
+<!-- Beta release: automatic activation is the only available activation setting. Uncomment the manual activation guidance below when manual activation is introduced with the GA release. -->
+<!-- * If **manual activation** is enabled, the expansion audience appears in your collaborator's [Received audiences](./activate.md#received-audiences) section of the **[!UICONTROL Activate]** tab, and your collaborator must manually activate it. -->
 
 ## Next steps
 
