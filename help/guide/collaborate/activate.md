@@ -135,7 +135,7 @@ Select the delete icon (![Delete icon.](/help/assets/icons/delete.png)) next to 
 
 A confirmation dialog appears. Select **[!UICONTROL Delete]** to confirm.
 
-![The sent-audience deletion confirmation dialog explaining that the audience will be removed and the collaborator will lose access, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png){zoomable="yes"}
+![The sent-audience deletion confirmation dialog explaining that the audience will be removed and the collaborator will lose access, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
 The audience is removed from the section, and your collaborator loses access to it.
 
@@ -200,7 +200,7 @@ Select the delete icon (![Delete icon.](/help/assets/icons/delete.png)) next to 
 
 A confirmation dialog appears. Select **[!UICONTROL Delete]** to confirm.
 
-![The activated-audience deletion confirmation dialog explaining that the audience will be removed from the activated-audiences list and can be activated again later, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png){zoomable="yes"}
+![The activated-audience deletion confirmation dialog explaining that the audience will be removed from the activated-audiences list and can be activated again later, with Cancel and Delete buttons.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png)
 
 The activation is removed from the list. You can activate the received audience again while its access remains active.
 
