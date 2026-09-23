@@ -19,28 +19,19 @@ Before you can use the **[!UICONTROL Expand]** tab, you should have:
 
 Navigate to **[!UICONTROL Collaborate]** > **[!UICONTROL My projects]**, open a project, and select the **[!UICONTROL Expand]** tab.
 
-The **[!UICONTROL Expand]** page shows an overview of the expansion audiences you've generated with this collaborator, and the option to create a new one.
+The **[!UICONTROL Expand]** page shows the expansion audiences created for this collaborator and the option to create a new one.
 
-![The Expand tab overview showing summary counts and the Expansion audiences table.](/help/assets/collaborate/expand/expand-overview.png){zoomable="yes"}
+![The Expand tab showing the Expansion audiences table with the Name, Status, Model size, Audience reach, and Last updated columns.](/help/assets/collaborate/expand/expand-overview.png){zoomable="yes"}
 
-
-The overview section displays:
-
-| Metric | Description |
-|---|---|
-| **[!UICONTROL Total expanded audiences]** | The total number of expansion audiences generated with this collaborator in the project. |
-| **[!UICONTROL Extended reach]** | The combined audience size across all expansion audiences generated with this collaborator in the project. |
-
-{style="table-layout:auto"}
-
-Below the overview, the **[!UICONTROL Expansion audiences]** table lists every expansion audience created in the project:
+The **[!UICONTROL Expansion audiences]** table lists every expansion audience created in the project:
 
 | Column | Description |
 |---|---|
-| **[!UICONTROL Audience name]** | The name of the expansion audience. Defaults to **Expansion Audience** plus the seed audience name, until edited. |
-| **[!UICONTROL Audience size]** | The size of the generated expansion audience. Not available until the model finishes processing. |
-| **[!UICONTROL Created]** | The date and time the expansion audience was requested. |
+| **[!UICONTROL Name]** | The name of the expansion audience. Defaults to the seed audience name until edited. |
 | **[!UICONTROL Status]** | The current status of the expansion audience. See [expansion audience status](#expansion-audience-status) for details. |
+| **[!UICONTROL Model size]** | The size of the generated expansion audience. Not available until the model finishes processing. |
+| **[!UICONTROL Audience reach]** | The audience reach setting used for the expansion audience. |
+| **[!UICONTROL Last updated]** | The date and time the expansion audience was last updated. |
 
 {style="table-layout:auto"}
 
@@ -64,17 +55,16 @@ An expansion audience moves through the following statuses:
 
 To create a new expansion audience, select the add icon (![Add icon.](/help/assets/icons/plus.png)) on the **[!UICONTROL Expand]** page, then select **[!UICONTROL Create an expanded audience]**.
 
-![The Expand tab with the add icon and Create an expanded audience option highlighted.](/help/assets/collaborate/expand/create-expansion-audience-entry.png){zoomable="yes"}
 
 The **[!UICONTROL Generate an expansion audience]** dialog appears. Complete every field to generate the expansion audience.
 
-![The Generate an expansion audience dialog with all required fields displayed.](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}
+![The Generate audience expansion dialog with the Seed audience, Audience reach, Match key, and Seed audience members fields.](/help/assets/collaborate/expand/generate-expansion-audience-dialog.png){zoomable="yes"}
 
 ### Select your seed audience {#select-seed-audience}
 
 Select one of your own audiences from the **[!UICONTROL Select your seed audience]** dropdown. Collaboration uses this audience as the basis for finding similar profiles in your collaborator's population.
 
-![The Select your seed audience dropdown with a seed audience selected.](/help/assets/collaborate/expand/select-seed-audience.png){zoomable="yes"}
+![The Seed audience field in the Generate audience expansion dialog.](/help/assets/collaborate/expand/select-seed-audience.png){zoomable="yes"}
 
 ### Select a match key {#select-match-key}
 
@@ -93,21 +83,19 @@ Enable one match key for the expansion audience. You can't enable more than one.
 >
 >If your seed audience doesn't include a given match key, that option appears disabled and can't be selected.
 
-![The match key section with Person IDs and Device IDs toggles, one match key enabled and unavailable options greyed out.](/help/assets/collaborate/expand/select-match-key.png){zoomable="yes"}
+![The Match key section in the Generate audience expansion dialog with the available match key options.](/help/assets/collaborate/expand/select-match-key.png){zoomable="yes"}
 
 ### Select your audience reach {#select-audience-reach}
 
-Use the **[!UICONTROL Audience reach]** dropdown to choose how closely the expansion audience resembles your seed audience: **[!UICONTROL Tightest]**, **[!UICONTROL Tighter]**, **[!UICONTROL Balanced]**, **[!UICONTROL Broader]**, or **[!UICONTROL Broadest]**. Each option shows a short description and directional guidance, such as closer to your seed audience or wider reach, instead of a percentage or size estimate. Collaboration doesn't show the underlying population size, or a way to calculate it, to protect your collaborator's audience data.
+Use the **[!UICONTROL Audience reach]** dropdown to balance similarity to your seed audience with overall reach. Select **[!UICONTROL Balanced]** for  a middle ground between similarity to your seed audience and overall reach.
 
-<!-- Audience reach is documented as a qualitative Tightest-Broadest dropdown, per the PRD. Verify against the actual build, as the PRD's earlier numeric target-size input description conflicts with this.-->
-
-![The Audience reach dropdown expanded, showing the Tightest through Broadest options with their directional descriptions.](/help/assets/collaborate/expand/select-audience-reach.png){zoomable="yes"}
+![The Audience reach field in the Generate audience expansion dialog with the Balanced option selected and the description text below it.](/help/assets/collaborate/expand/select-audience-reach.png){zoomable="yes"}
 
 ### Include or exclude your seed audience {#include-exclude-seed-audience}
 
 Use the **[!UICONTROL Seed audience]** radio buttons to choose whether your original seed audience is included in or excluded from the final expansion audience.
 
-![The Seed audience section with the Include and Exclude radio buttons.](/help/assets/collaborate/expand/include-exclude-seed-audience.png){zoomable="yes"}
+![The Seed audience members field in the Generate audience expansion dialog with the Yes and No radio buttons.](/help/assets/collaborate/expand/include-exclude-seed-audience.png){zoomable="yes"}
 
 ### Generate the expansion audience {#generate-expansion-audience}
 
@@ -119,7 +107,7 @@ Once all fields are complete, select **[!UICONTROL Generate expansion audience]*
 
 Once an expansion audience's status updates to **[!UICONTROL Draft]**, select its name from the **[!UICONTROL Expansion audiences]** table to open it.
 
-![The expansion audience detail view with the editable name, audience sizes, and Send to partner option.](/help/assets/collaborate/expand/expansion-audience-detail.png){zoomable="yes"}
+![The Expansion Audience A detail page showing the audience metadata, model size, seed audience size, and Send button.](/help/assets/collaborate/expand/expansion-audience-detail.png){zoomable="yes"}
 
 From this view, you can:
 
