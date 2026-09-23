@@ -2,7 +2,7 @@
 title: Create expansion audiences in Expand
 description: Learn how to create expansion audiences from a seed audience using a collaborator's audience population in Adobe Real-Time CDP Collaboration.
 ---
-# Create expansion audiences in Expand
+# (Beta) Create expansion audiences in Expand
 
 Use the **[!UICONTROL Expand]** tab within a project to create an expansion audience from one of your audiences. Collaboration uses your collaborator's audience population to find profiles that resemble your seed audience, helping you reach new prospects without exposing your collaborator's underlying audience data. The resulting expansion audience is sent to your collaborator for activation.
 
