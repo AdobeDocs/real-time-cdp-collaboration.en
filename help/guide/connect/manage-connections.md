@@ -42,7 +42,7 @@ In the connection settings workspace, go to **[!UICONTROL Activation control]** 
 
 After you save the destination, the collaborator who sends an audience chooses its activation schedule. Your destination appears as a read-only selection in their sending workflow. When the audience is received, Collaboration creates the activation for you according to that schedule. In other words, the receiver chooses the destination, the sender chooses the schedule, and Collaboration creates the activation.
 
-Changing the auto-activation destination affects only audiences shared in the future. To disable auto-activation for future shares, clear the destination and save the change. Changing or clearing the destination does not alter shares that were created previously.
+Changes to the connection-level auto-activation destination apply only to future shares. Existing auto-created activation modules are not changed and retain their original destination. To disable auto-activation for future shares, clear the destination and save the change.
 
 ## Delete connection {#delete-connection}
 

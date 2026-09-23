@@ -26,7 +26,7 @@ Use the **[!UICONTROL Activate]** tab within a project to send audiences to your
 
 Use the [Discover tab](./discover.md) to identify the audiences that best match your campaign, then send them to your collaborator.
 
-If the receiver configured an auto-activation destination in the connection settings, the sender selects an activation schedule while sending the audience. The destination is read-only for the sender, and Collaboration automatically creates the activation for the receiver when the audience is received. The receiver can also use the separate manual workflow to activate the received audience to another destination. For connection setup instructions, see [Configure an auto-activation destination](../connect/manage-connections.md#configure-auto-activation-destination).
+If the receiver configured an auto-activation destination in the connection settings, the sender selects an activation schedule while sending the audience. The destination is read-only for the sender, and Collaboration automatically creates the activation for the receiver when the audience is received. For a received audience with a recurring auto-activation, the receiver can also use the separate manual workflow to create an additional activation for that audience to a different destination. The recurring auto-activation continues independently. For connection setup instructions, see [Configure an auto-activation destination](../connect/manage-connections.md#configure-auto-activation-destination).
 
 If the receiver did not configure an auto-activation destination, sending and activating remain separate actions. Sending gives the receiver access to an audience, and the receiver selects a destination and schedule when manually activating it.
 
@@ -176,7 +176,7 @@ Each received audience displays the following information:
 
 ### Manually activate a received audience {#activate-received-audience}
 
-Manually activate a received audience to send its data to one of your configured destinations. Manual activation is independent of auto-activation. If an auto-activation already exists, you can create a separate manual activation for the same received audience and select another destination.
+Manually activate a received audience to send its data to one of your configured destinations.
 
 In the **[!UICONTROL Received audiences]** section, select the add icon (![Add icon.](/help/assets/icons/plus.png)) next to the audience that you want to activate.
 
@@ -186,7 +186,13 @@ Use **[!UICONTROL Destination]** to select the destination that receives the aud
 
 Configure the **[!UICONTROL Frequency]** and the available schedule controls to choose when and how often the activation runs. Then select **[!UICONTROL Activate]**.
 
-![The Activate audience dialog for manually activating Northstar Fall Campaign Customers. Northstar Audience Exports is selected as the destination, and a daily schedule, start time, and date range are configured.](/help/assets/collaborate/activate/manually-activate-received-audience.png){zoomable="yes"}
+The following example shows the manual activation workflow with **[!UICONTROL Northstar Audience Exports]** selected as the destination.
+
+![An example of the manual Activate audience dialog for Northstar Fall Campaign Customers, with Northstar Audience Exports selected and a daily schedule, start time, and date range configured.](/help/assets/collaborate/activate/manually-activate-received-audience.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>For a received audience with a recurring auto-activation, you can manually create an additional activation for that audience to a different destination. The recurring auto-activation continues independently.
 
 The dialog closes and the activation appears in the **[!UICONTROL Activated audiences]** section. The received audience remains available in the **[!UICONTROL Received audiences]** section while its access remains active.
 
