@@ -26,7 +26,7 @@ Use the **[!UICONTROL Activate]** tab within a project to send audiences to your
 
 Use the [Discover tab](./discover.md) to identify the audiences that best match your campaign, then send them to your collaborator.
 
-If the receiver configured an auto-activation destination in the connection settings, the sender selects an activation schedule while sending the audience. The destination is read-only for the sender, and Collaboration automatically creates the activation for the receiver when the audience is received. For a received audience with a recurring auto-activation, the receiver can also use the separate manual workflow to create an additional activation for that audience to a different destination. The recurring auto-activation continues independently. For connection setup instructions, see [Configure an auto-activation destination](../connect/manage-connections.md#configure-auto-activation-destination).
+If the receiver configures an auto-activation destination in the connection settings, the sender selects an activation schedule when sending the audience. The destination is read-only for the sender. When the audience is received, Collaboration automatically creates the activation for the receiver using the configured destination and schedule. For connection setup instructions, see [Configure an auto-activation destination](../connect/manage-connections.md#configure-auto-activation-destination).
 
 If the receiver did not configure an auto-activation destination, sending and activating remain separate actions. Sending gives the receiver access to an audience, and the receiver selects a destination and schedule when manually activating it.
 
