@@ -158,7 +158,7 @@ The audience is removed from the section, and your collaborator loses access to 
 
 ## View received audiences {#received-audiences}
 
-Use the **[!UICONTROL Received audiences]** section to review audiences that your collaborator has sent to you. If an auto-activation destination was configured before the audience was sent, Collaboration automatically creates the activation when the audience is received. Otherwise, you can manually activate the audience.
+Use the [!UICONTROL Received audiences] section to review audiences that your collaborator has sent to you. If an auto-activation destination was configured before the audience was sent, Collaboration automatically creates an activation when the audience is received. For recurring auto-activations, you can also create an additional manual activation to a different destination. See [Manually activate a received audience](#activate-received-audience) for details. If no auto-activation destination was configured, activate the audience manually.
 
 Each received audience displays the following information:
 
