@@ -33,6 +33,9 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
   * {hide-from-toc} [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
+  * Source advertising exposures (ad logs) {#source-adlogs}
+    * [Configure GCS for advertising exposure sourcing](./setup/configure-gcs-adlog-sourcing.md)
+    * [Configure Azure storage for advertising exposure sourcing](./setup/configure-azure-adlog-sourcing.md)
   * [Manage measurement data connection](./setup/manage-measurement-data-connection.md)
   * [Audit logs](./setup/audit-logs.md)
   * Real-Time CDP Collaboration Starter setup {#starter-setup}
