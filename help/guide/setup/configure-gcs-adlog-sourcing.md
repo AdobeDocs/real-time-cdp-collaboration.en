@@ -21,7 +21,7 @@ Governance and data-handling rules for ad logs sourced from [!DNL Google Cloud S
 
 ## Prerequisites {#prerequisites}
 
-Complete all items in this section before starting the configuration workflow.
+Complete all items in this section before starting the configuration workflow. Before following this guide, you must have completed [account onboarding and setup](./onboard-account.md).
 
 ### GCS access and permissions {#gcs-access-permissions}
 
@@ -36,7 +36,9 @@ Your ad log files must conform to the [ad log schema](#ad-log-schema) before sou
 * **File format:** CSV only.
 * **Canonical column headers:** Files must use the canonical column headers defined in the [ad log schema](#ad-log-schema). This version does not support per-column remapping or automated schema mapping.
 * **Required fields:** All required fields must be present, along with at least one match key.
+* **Match key hashing:** Match key hash values must be lowercase hexadecimal SHA-256. Multiple values within a single identity field are pipe-delimited (`|`).
 * **Column consistency:** Every file at your configured path must share an identical column layout.
+* **Subfolders:** Files must sit directly at the specified path. Collaboration does not traverse subfolders.
 
 ## Connect ad logs in the wizard {#connect-adlogs}
 
@@ -64,25 +66,23 @@ Use the following steps to connect your GCS ad logs from within Collaboration.
 
 6. In the **[!UICONTROL Name and description]** step, provide a **[!UICONTROL Data connection name]** (required) and an optional **[!UICONTROL Description]** for the data connection.
 
-   <!-- ![Placeholder: screenshot of the Name and description step, showing the Data connection name and Description fields.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-name-description.png){zoomable="yes"} -->
+   ![The Name and description step, showing the Data connection name and Description fields.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-name-description.png){zoomable="yes"}
 
 7. In the **[!UICONTROL Map fields]** step, preview the detected columns to confirm the wizard read the right files, then review the [ad log schema](#ad-log-schema) — every field Measurement understands, which fields are required versus optional, and which detected columns are recognized as identity/match keys. This step is read-only validation — the system confirms the required headers are present and blocks you if a required field is missing. There is no per-column remapping in this version.
 
-   ![Placeholder: screenshot of the Map fields step showing the preview of detected columns and the ad log schema review.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-map-fields.png){zoomable="yes"}
+   ![The Map fields step showing the preview of detected columns and the ad log schema review.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-map-fields.png){zoomable="yes"}
 
 8. In the **[!UICONTROL Review]** step, review and finish. The connection appears in the measurement data area with its status, which remains **pending** until the first measurement report run sources data.
-
-   <!-- ![Placeholder: screenshot of the Review step showing a summary of the GCS ad log connection details, with the Complete option highlighted.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-review-connection.png){zoomable="yes"} -->
 
 ## How ad log sourcing works {#how-it-works}
 
 Ad log sourcing from [!DNL Google Cloud Storage] mirrors the high-level flow used for audience sourcing:
 
 1. **Cloud storage connection** — you configure read-only access to a bucket that holds your ad logs.
-1. **Schema review and validation** — the system validates your files against the ad log schema (folder, file, and required-header checks; read-only).
-1. **Field mapping** — source identity fields are automatically mapped to canonical fields based on the canonical column names. There is no manual remapping.
-1. **Ingestion and normalization** — events are normalized to one row per exposure (or accepted aggregates). Ingestion is triggered ad hoc by the measurement report run date.
-1. **Measurement readiness** — sketches and indexes are built to support downstream queries and attribution. Adobe deletes sourced data after 7 days (TTL).
+2. **Schema review and validation** — the system validates your files against the ad log schema (folder, file, and required-header checks; read-only).
+3. **Field mapping** — source identity fields are automatically mapped to canonical fields based on the canonical column names. There is no manual remapping.
+4. **Ingestion and normalization** — events are normalized to one row per exposure (or accepted aggregates). Ingestion is triggered ad hoc by the measurement report run date.
+5. **Measurement readiness** — sketches and indexes are built to support downstream queries and attribution. Adobe deletes sourced data after 7 days (TTL).
 
 ### Ad log schema (canonical format — CSV) {#ad-log-schema}
 
@@ -160,8 +160,6 @@ Be aware of the following constraints when configuring and using [!DNL Google Cl
 ## Set up [!DNL Google Cloud Storage] permissions {#setup-gcs-permissions}
 
 To allow Adobe to read from your GCS bucket, create a custom IAM role with the following permissions:
-
-![Placeholder: screenshot of the Google Cloud Console screen where you grant the Adobe Google Service Account access to your bucket.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-iam-role-assignment.png){zoomable="yes"}
 
 | Permission | Purpose |
 | ------------- | --------------- |

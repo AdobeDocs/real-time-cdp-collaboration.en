@@ -21,11 +21,11 @@ Governance and data-handling rules for ad logs sourced from [!DNL Azure] match t
 
 ## Prerequisites {#prerequisites}
 
-Complete all items in this section before starting the configuration workflow.
+Complete all items in this section before starting the configuration workflow. Before following this guide, you must have completed [account onboarding and setup](./onboard-account.md).
 
 ### [!DNL Azure] access and permissions {#azure-access-and-permissions}
 
-You or your [!DNL Azure] administrator must be able to assign the **[!DNL Storage Blob Data Reader]** role on your storage account during the wizard's **[!UICONTROL Consent]** step. See [Set up Azure permissions](#set-up-azure-permissions).
+You or your [!DNL Azure] administrator must be able to assign the **[!DNL Storage Blob Data Reader]** role on your storage account during the wizard's **[!UICONTROL Consent]** step. See [Connect ad logs in the wizard](#connect-adlogs).
 
 Cloud storage ad log sourcing availability varies by region. If sourcing is not yet enabled in your region, confirm with your Adobe account representative.
 
@@ -36,11 +36,9 @@ Your ad log files must conform to the [ad log schema](#ad-log-schema) before sou
 * **File format:** CSV only.
 * **Canonical column headers:** Files must use the canonical column headers defined in the [ad log schema](#ad-log-schema). This version does not support per-column remapping or automated schema mapping.
 * **Required fields:** All required fields must be present, along with at least one match key.
+* **Match key hashing:** Match key hash values must be lowercase hexadecimal SHA-256. Multiple values within a single identity field are pipe-delimited (`|`).
 * **Column consistency:** Every file at your configured path must share an identical column layout.
-
-## Set up [!DNL Azure] permissions {#set-up-azure-permissions}
-
-During the wizard's **[!UICONTROL Consent]** step, Collaboration provides a consent URL and identifies the Adobe application requesting access. Assign the **[!DNL Storage Blob Data Reader]** role to that application on your storage account before selecting **[!UICONTROL Next]** to verify access. For details, see [Connect ad logs in the wizard](#connect-adlogs).
+* **Subfolders:** Files must sit directly at the specified path. Collaboration does not traverse subfolders.
 
 ## Connect ad logs in the wizard {#connect-adlogs}
 
@@ -89,10 +87,10 @@ Use the following steps to connect your Azure ad logs from within Collaboration.
 Ad log sourcing from [!DNL Azure] mirrors the high-level flow used for audience sourcing:
 
 1. **Cloud storage connection** — you configure read-only access to a storage account or container that holds your ad logs.
-1. **Schema review and validation** — the system validates your files against the ad log schema (folder, file, and required-header checks; read-only).
-1. **Field mapping** — source identity fields are automatically mapped to canonical fields based on the canonical column names. There is no manual remapping.
-1. **Ingestion and normalization** — events are normalized to one row per exposure (or accepted aggregates). Ingestion is triggered ad hoc by the measurement report run date.
-1. **Measurement readiness** — sketches and indexes are built to support downstream queries and attribution. Adobe deletes sourced data after 7 days (TTL).
+2. **Schema review and validation** — the system validates your files against the ad log schema (folder, file, and required-header checks; read-only).
+3. **Field mapping** — source identity fields are automatically mapped to canonical fields based on the canonical column names. There is no manual remapping.
+4. **Ingestion and normalization** — events are normalized to one row per exposure (or accepted aggregates). Ingestion is triggered ad hoc by the measurement report run date.
+5. **Measurement readiness** — sketches and indexes are built to support downstream queries and attribution. Adobe deletes sourced data after 7 days (TTL).
 
 ### Ad log schema (canonical format — CSV) {#ad-log-schema}
 
