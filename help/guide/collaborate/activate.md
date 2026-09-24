@@ -104,7 +104,7 @@ Use the **[!UICONTROL Access duration]** control to select one of the following 
 
 - **[!UICONTROL Send now (one-time)]**: Send the audience once. The receiving collaborator can activate it once.
 - **[!UICONTROL Schedule recurring audience send]**: Refresh the audience during a specified access period. Use the **[!UICONTROL Date range]** control to select the start and end dates.
-<!-- Need to update the image below -->
+
 ![The Access duration step in the Send audiences workflow with options to send the audience once or schedule a recurring audience send. The recurring option displays date controls for defining the access period.](/help/assets/collaborate/activate/activation-frequency.png)
 
 ### Choose an auto-activation schedule {#auto-activation-schedule}

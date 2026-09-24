@@ -40,7 +40,7 @@ In the connection settings workspace, go to **[!UICONTROL Activation control]** 
 
 >[!NOTE]
 >
->Auto-activation is destination-agnostic.
+>Auto-activation is available for all destinations.
 
 ![The Activation control dialog with Northstar Audience Exports selected as the auto-activation destination and the Save button highlighted.](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
 
