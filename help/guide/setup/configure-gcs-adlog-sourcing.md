@@ -56,7 +56,7 @@ Use the following steps to connect your GCS ad logs from within Collaboration.
 
    ![The Add measurement data workflow showing the data connection selection step, with Add a new data connection selected.](../../assets/setup/gcs-adlog-sourcing/add-new-data-connection.png){zoomable="yes"}
 
-4. Select the data source for your new data connection: **[!UICONTROL Google Cloud Storage]**. Select **[!UICONTROL Next]**.
+4. Choose the data source for your new data connection: **[!UICONTROL Google Cloud Storage]**. Select **[!UICONTROL Next]**.
 
    ![The Add measurement data workflow showing the data source selection step, with Google Cloud Storage, Azure Blob Storage, and Azure Data Lake Storage Gen 2 options and Google Cloud Storage selected.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-source-selection.png){zoomable="yes"}
 
@@ -64,7 +64,7 @@ Use the following steps to connect your GCS ad logs from within Collaboration.
 
    ![The Add data connection wizard on the Connect Google Cloud Storage step, showing required Bucket and Path fields.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-connection-details.png){zoomable="yes"}
 
-6. In the **[!UICONTROL Name and description]** step, provide a **[!UICONTROL Data connection name]** (required) and an optional **[!UICONTROL Description]** for the data connection.
+6. In the **[!UICONTROL Name and description]** step, provide a required **[!UICONTROL Data connection name]** and an optional **[!UICONTROL Description]** for the data connection.
 
    ![The Name and description step, showing the Data connection name and Description fields.](../../assets/setup/gcs-adlog-sourcing/gcs-adlog-name-description.png){zoomable="yes"}
 
