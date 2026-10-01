@@ -45,6 +45,8 @@ The sections and actions available to you depend on whether your organization is
 Before you send or activate audiences, ensure that:
 
 - Audiences are sourced and available for sending. For more information, see [Source and manage audiences](../setup/onboard-audiences.md).
+- Audiences meet the minimum 1,000-identity overlap threshold required for sending and activation.
+- Audiences are configured with the required match keys when using multi match-key audiences.
 - At least one destination is configured if you need to activate received audiences. For more information, see the [destinations overview](../destinations/overview.md).
 - For auto-activation, the receiver owns an active destination and selected it as the connection's [auto-activation destination](../connect/manage-connections.md#configure-auto-activation-destination).
 
@@ -117,7 +119,7 @@ If your collaborator configured an auto-activation destination for the connectio
 
 ![The Send audiences workflow with Auto-Activate enabled and the Frequency menu showing immediate, future one-time, and recurring activation options.](/help/assets/collaborate/activate/choose-auto-activation-schedule.png){zoomable="yes"}
 
-For a recurring activation, configure the activation schedule, start time, and date range. Recurring activation is one option, not a requirement for auto-activation; immediate and future one-time schedules also support auto-activation.
+For a recurring activation, configure the activation schedule, start time, and date range. Auto-activation supports immediate, future one-time, or recurring schedules; recurring is not required.
 
 ![The Send audiences workflow configured with a daily recurring activation schedule, start time, and date range.](/help/assets/collaborate/activate/configure-recurring-auto-activation.png){zoomable="yes"}
 
@@ -158,7 +160,7 @@ The audience is removed from the section, and your collaborator loses access to 
 
 ## View received audiences {#received-audiences}
 
-Use the [!UICONTROL Received audiences] section to review audiences that your collaborator has sent to you. If an auto-activation destination was configured before the audience was sent, Collaboration automatically creates an activation when the audience is received. For recurring auto-activations, you can also create an additional manual activation to a different destination. See [Manually activate a received audience](#activate-received-audience) for details. If no auto-activation destination was configured, activate the audience manually.
+Use the **[!UICONTROL Received audiences]** section to review audiences that your collaborator has sent to you. If an auto-activation destination was configured before the audience was sent, Collaboration automatically creates an activation when the audience is received. For recurring auto-activations, you can also create an additional manual activation to a different destination. See [Manually activate a received audience](#activate-received-audience) for details. If no auto-activation destination was configured, activate the audience manually.
 
 Each received audience displays the following information:
 
