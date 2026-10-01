@@ -1,6 +1,6 @@
 ---
 title: Manage connections
-description: Learn how to manage your connections in Real-Time CDP Collaboration.
+description: Learn how to manage connections and configure auto-activation in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
@@ -31,6 +31,22 @@ The connection overview workspace appears, displaying details about the connecti
 The connection settings workspace appears, displaying the connection details between you and your collaborator. Here, you can view all the settings selected during the connection process, the current status of the connection, the connection owner, and the contact information for your collaborator. For information on specific connection settings, see the [connection settings](/help/guide/connect/establishing-connections.md#connection-settings) guide.
 
 ![The connection settings workspace displaying connection details.](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### Configure an auto-activation destination {#configure-auto-activation-destination}
+
+As the receiving collaborator, you can select a destination that Collaboration uses to automatically activate audiences sent to you through the connection. Before you begin, make sure that you own at least one active destination. For instructions on configuring destinations, see the [destinations overview](../destinations/overview.md).
+
+In the connection settings workspace, go to **[!UICONTROL Activation control]** and select **[!UICONTROL EDIT]**. Next, choose  an **[!UICONTROL Auto-activation destination]** from the dropdown and select **[!UICONTROL Save]** to confirm.
+
+>[!NOTE]
+>
+>Auto-activation is available for all destinations.
+
+![The Activation control dialog with Northstar Audience Exports selected as the auto-activation destination and the Save button highlighted.](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+After you save the destination, the collaborator who sends an audience chooses its activation schedule. Your destination appears as a read-only selection in their sending workflow. When the audience is received, Collaboration creates the activation for you according to that schedule. In other words, the receiver chooses the destination, the sender chooses the schedule, and Collaboration creates the activation.
+
+Changes to the auto-activation destination apply only to audiences shared after the change. Existing auto-created activations continue to use their original destination. To turn off auto-activation for future shares, clear the auto-activation destination and save your changes.
 
 ## Delete connection {#delete-connection}
 
