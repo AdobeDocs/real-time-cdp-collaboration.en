@@ -26,9 +26,9 @@ Use the **[!UICONTROL Activate]** tab within a project to send audiences to your
 
 Use the [Discover tab](./discover.md) to identify the audiences that best match your campaign, then send them to your collaborator.
 
-If the receiver configures an auto-activation destination in the connection settings, the sender selects an activation schedule when sending the audience. The destination is read-only for the sender. When the audience is received, Collaboration automatically creates the activation for the receiver using the configured destination and schedule. For connection setup instructions, see [Configure an auto-activation destination](../connect/manage-connections.md#configure-auto-activation-destination).
+If the receiver configures an auto-activation destination in the connection settings, the sender selects an activation schedule when sending the audience. The destination is read-only for the sender. When the audience is received, the audience is automatically activated to the receiver's configured destination on the sender's activation schedule. For connection setup instructions, see [Configure an auto-activation destination](../connect/manage-connections.md#configure-auto-activation-destination).
 
-If the receiver did not configure an auto-activation destination, sending and activating remain separate actions. Sending gives the receiver access to an audience, and the receiver selects a destination and schedule when manually activating it.
+If the receiver did not configure an auto-activation destination, sending and activating remain separate actions. Sending gives the receiver access to an audience, and the receiver selects a destination and schedule when manually activating it. Only preconfigured destinations can be selected for activation within a project. For destination configuration instructions, see [Manage destinations](../destinations/manage-destinations.md).
 
 The sections and actions available to you depend on whether your organization is sending or receiving audiences in the project. The **[!UICONTROL Activate]** tab contains the following sections:
 
