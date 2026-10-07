@@ -2,6 +2,9 @@
 title: Destination connection requirements
 description: Review the connection information required to configure supported destinations in Real-Time CDP Collaboration.
 audience: admin, publisher
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Destination connection requirements
 

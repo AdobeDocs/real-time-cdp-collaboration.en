@@ -4,6 +4,9 @@ description: Learn how Adobe Real-Time CDP Collaboration Starter helps you to ex
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Adobe Real-Time CDP Collaboration [!DNL Starter] Overview
 
