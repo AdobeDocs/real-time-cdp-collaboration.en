@@ -34,9 +34,11 @@ The connection settings workspace appears, displaying the connection details bet
 
 ### Configure an auto-activation destination {#configure-auto-activation-destination}
 
-As the receiving collaborator, you can select a destination that Collaboration uses to automatically activate audiences sent to you through the connection. Before you begin, make sure that you own at least one active destination. For instructions on configuring destinations, see the [destinations overview](../destinations/overview.md).
+As the receiving collaborator, you can select a destination that Collaboration uses to automatically activate audiences sent to you through the connection. If you don't configure an auto-activation destination, you must activate received audiences manually.
 
-In the connection settings workspace, go to **[!UICONTROL Activation control]** and select **[!UICONTROL EDIT]**. Next, choose  an **[!UICONTROL Auto-activation destination]** from the dropdown and select **[!UICONTROL Save]** to confirm.
+Before you begin, make sure that you own at least one active destination. For instructions on configuring destinations, see the [destinations overview](../destinations/overview.md).
+
+In the connection settings workspace, go to **[!UICONTROL Activation control]** and select **[!UICONTROL EDIT]**. Next, choose an **[!UICONTROL Auto-activation destination]** from the dropdown and select **[!UICONTROL Save]** to confirm.
 
 >[!NOTE]
 >
