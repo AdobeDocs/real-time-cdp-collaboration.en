@@ -11,12 +11,14 @@ Use the **[!UICONTROL Expand]** tab within a project to create an expansion audi
 
 ## Prerequisites {#prerequisites}
 
-Before you can use the **[!UICONTROL Expand]** tab, you should have:
+Before you use the **[!UICONTROL Expand]** tab, complete these prerequisites:
 
-* [Sourced](/help/guide/setup/onboard-audiences.md) at least one audience to use as a seed audience
-* [Connected](/help/guide/connect/establishing-connections.md) with a collaborator
-* [Created a project](/help/guide/collaborate/manage-projects.md) with that collaborator
-* If you are receiving an expansion audience, a [destination](/help/guide/destinations/overview.md) configured to receive activated audiences
+* [Source at least one audience](/help/guide/setup/onboard-audiences.md) to use as a seed audience.
+* [Connect with a collaborator](/help/guide/connect/establishing-connections.md).
+* [Create a project](/help/guide/collaborate/manage-projects.md) with that collaborator.
+* If you receive expansion audiences, [configure an auto-activation destination](/help/guide/connect/manage-connections.md#configure-auto-activation-destination) for the connection. You must own an active destination before configuring auto-activation.
+
+For details on sending audiences and activating received audiences, see [Activate audiences](/help/guide/collaborate/activate.md).
 
 ## Expand overview {#expand-overview}
 
