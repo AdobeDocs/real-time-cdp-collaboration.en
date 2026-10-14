@@ -1,6 +1,9 @@
 ---
 title: Create expansion audiences in Expand
 description: Learn how to create expansion audiences from a seed audience using a collaborator's audience population in Adobe Real-Time CDP Collaboration.
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # (Beta) Create expansion audiences in Expand
 

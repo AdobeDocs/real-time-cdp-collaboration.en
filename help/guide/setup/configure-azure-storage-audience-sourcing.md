@@ -3,6 +3,9 @@ title: Source audiences from [!DNL Azure] storage in Real-Time CDP Collaboration
 description: Source first-party audience data from Azure Blob Storage or Azure Data Lake Storage Gen2 into Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; audience sourcing; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Source audiences from Azure storage
 

@@ -319,7 +319,7 @@ Next, select **[!UICONTROL Accept]** to proceed with the connection. The connect
 
 ## Invite a non-licensed collaborator (Starter) {#invite-non-licensed-collaborator} 
 
-Follow the steps below to invite your non-licensed partner to join Real-Time CDP Collaboration [!DNL Starter]. Invitations are sent directly to the collaborator’s email address and must be accepted before a connection can be established. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
+Follow the steps below to invite your non-licensed partner to join Real-Time CDP Collaboration [!DNL Starter]. Invitations are sent directly to the collaborator's email address and must be accepted before a connection can be established. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
 
 Before initiating the invitation process, collect the following information from your collaborator:
 

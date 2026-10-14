@@ -2,6 +2,9 @@
 title: Sources overview
 description: Learn about source connectors in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Sources overview
 

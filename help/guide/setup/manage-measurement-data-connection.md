@@ -4,6 +4,9 @@ description: Learn how to manage measurement data connections, including details
 audience: administrator, data engineer
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 # Manage measurement data connections
 

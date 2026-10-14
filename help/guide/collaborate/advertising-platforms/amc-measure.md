@@ -5,6 +5,9 @@ audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, measurement reports, campaign summary, attribution, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
+    internal-label: Real-Time Customer Data Platform Collaboration
 ---
 
 # Create [!DNL Amazon Marketing Cloud] measurement reports {#amc-measurement-reports}

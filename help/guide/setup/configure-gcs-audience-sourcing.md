@@ -3,6 +3,9 @@ title: Configure [!DNL Google Cloud Storage] for Audience Sourcing
 description: Learn how to connect a [!DNL Google Cloud Storage] bucket as a self-service audience source in Real-Time CDP Collaboration, including prerequisites, authentication, field mapping, scheduling, and validation.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 ---
 
 # Configure [!DNL Google Cloud Storage] for audience sourcing
