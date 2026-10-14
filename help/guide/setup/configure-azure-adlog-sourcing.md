@@ -35,7 +35,7 @@ Your ad log files must conform to the [ad log schema](#ad-log-schema) before sou
 * **File format:** CSV only.
 * **Canonical column headers:** Files must use the canonical column headers defined in the [ad log schema](#ad-log-schema). This version does not support per-column remapping or automated schema mapping.
 * **Required fields:** All required fields must be present, along with at least one match key.
-* **Match key hashing:** Match key hash values must be lowercase hexadecimal SHA-256. Multiple values within a single identity field are pipe-delimited (`|`).
+* **Match key hashing:** Match key hash values must be lowercase hexadecimal SHA-256.
 * **Column consistency:** Every file at your configured path must share an identical column layout.
 * **Subfolders:** Files must sit directly at the specified path. Collaboration does not traverse subfolders.
 
@@ -92,18 +92,18 @@ Ad log sourcing from [!DNL Azure] mirrors the high-level flow used for audience 
 
 ### Ad log schema (canonical CSV format) {#ad-log-schema}
 
-Required fields must be present, and at least one field marked **Join Key (one-of required)** in the following table must also be present. Multiple values in a single identity field are pipe-delimited (`|`). Match key hash values are lowercase hexadecimal SHA-256.
+Required fields must be present, and at least one field marked **Join Key (one-of required)** in the following table must also be present. Match key hash values are lowercase hexadecimal SHA-256.
 
 | Field | Data Type | Required | Description |
 | --- | --- | --- | --- |
 | `EVENT_DATETIME` | String (ISO 8601) | Required | Timestamp of the event |
 | `EVENT_ID` | String | Optional | Unique ID for the event |
 | `EVENT_TYPE` | String (enum) | Required | Type of event. One of `{impression, click}` |
-| `HASHED_EMAIL_SHA_256` | String (64-char hex) | Join Key (one-of required) | Lowercase hex SHA-256 of email; multiple values pipe-delimited |
-| `HASHED_IPV4_SHA_256` | String (64-char hex) | Join Key (one-of required) | Lowercase hex SHA-256 of IPv4; multiple values pipe-delimited |
-| `DEVICE_ID` | String (64-char hex) | Join Key (one-of required) | Device advertising ID; multiple values pipe-delimited |
+| `HASHED_EMAIL_SHA_256` | String (64-char hex) | Join Key (one-of required) | Lowercase hex SHA-256 of email |
+| `HASHED_IPV4_SHA_256` | String (64-char hex) | Join Key (one-of required) | Lowercase hex SHA-256 of IPv4 |
+| `DEVICE_ID` | String (64-char hex) | Join Key (one-of required) | Device advertising ID |
 | `DEVICE_ID_TYPE` | String (enum) | Optional | One of `{idfa, gaid, aaid, rida, afai, msai, vida, lgudid, tifa}` |
-| `ECID` | String (64-char hex) | Join Key (one-of required) | Demdex-based ECID; multiple values pipe-delimited |
+| `ECID` | String (64-char hex) | Join Key (one-of required) | Demdex-based ECID |
 | `CUSTOM_ID` | String | Optional | Publisher/partner persistent ID (for example, PPID, RampID, Core ID) |
 | `ADVERTISER_ID` | String | Required | Unique identifier for the advertiser |
 | `ADVERTISER_NAME` | String | Optional | Advertiser/brand name |
