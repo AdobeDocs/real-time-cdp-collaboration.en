@@ -9,7 +9,7 @@ badgelimitedavailability: label="Limited Availability" type="Informative" url="h
 
 Connect your [!DNL Google Cloud Storage] (GCS) bucket to Adobe Real-Time CDP Collaboration to source advertising exposure (ad log) data for measurement.
 
-The Measurement module in Real-Time CDP Collaboration connects advertiser conversion data with publisher ad exposure logs to deliver privacy-centric campaign reporting. This adds a self-serve, no-code path for advertisers and publishers. You can bring the ad exposure (impression) logs you already keep in [!DNL Google Cloud Storage] into Measurement for attribution, without an Adobe Experience Platform dependency and without Adobe-assisted (white-glove) setup. You connect a bucket, confirm the detected data matches the ad log schema Measurement expects, and finish in minutes.
+The Measurement module in Real-Time CDP Collaboration connects advertiser conversion data with publisher ad exposure logs to deliver privacy-centric campaign reporting. This adds a self-serve, no-code path for advertisers and publishers. You can bring the ad exposure (impression) logs you already keep in [!DNL Google Cloud Storage] into Measurement for attribution, without an Adobe Experience Platform dependency. You connect a bucket, confirm the detected data matches the ad log schema Measurement expects, and finish in minutes.
 
 Data is not pulled at connection time. Sourcing is triggered when you run a measurement report. To minimize storage, Adobe automatically deletes sourced ad logs after a 7-day retention period.
 
@@ -17,7 +17,7 @@ Governance and data-handling rules for ad logs sourced from [!DNL Google Cloud S
 
 >[!NOTE]
 >
->This guide covers sourcing advertiser and publisher **ad logs** (advertising exposures) from cloud storage. Sourcing conversion data from cloud storage is not currently supported.
+>This guide covers sourcing advertiser and publisher **ad logs** (advertising exposures) from cloud storage. Sourcing conversion data from cloud storage is coming soon.
 
 ## Prerequisites {#prerequisites}
 
@@ -27,7 +27,6 @@ Complete all items in this section before starting the configuration workflow. B
 
 You or your [!DNL Google Cloud] administrator must grant Adobe read-only access to your GCS bucket before starting the wizard. For step-by-step instructions, see [Set up Google Cloud Storage permissions](#setup-gcs-permissions).
 
-Cloud storage ad log sourcing availability varies by region. If sourcing is not yet enabled in your region, confirm with your Adobe account representative.
 
 ### Prepare your ad log data {#prepare-adlog-data}
 
@@ -81,8 +80,7 @@ Ad log sourcing from [!DNL Google Cloud Storage] mirrors the high-level flow use
 1. **Cloud storage connection:** you configure read-only access to a bucket that holds your ad logs.
 2. **Schema review and validation:** the system validates your files against the ad log schema (folder, file, and required-header checks; read-only).
 3. **Field mapping:** source identity fields are automatically mapped to canonical fields based on the canonical column names. There is no manual remapping.
-4. **Ingestion and normalization:** events are normalized to one row per exposure (or accepted aggregates). Ingestion is triggered ad hoc by the measurement report run date.
-5. **Measurement readiness:** sketches and indexes are built to support downstream queries and attribution. Adobe deletes sourced data after 7 days.
+4. **Ingestion and normalization:** events are normalized to one row per exposure. Ad log sourcing starts when you run a measurement report.
 
 ### Ad log schema (canonical CSV format) {#ad-log-schema}
 
@@ -137,15 +135,16 @@ Validation failures prevent you from proceeding. The system does **not** validat
 
 Be aware of the following constraints when configuring and using [!DNL Google Cloud Storage] ad log sourcing:
 
-* **Ad logs only:** This connection sources advertiser or publisher ad logs (advertising exposures). Conversion data is not supported.
+* **Ad logs only:** This connection sources advertiser or publisher ad logs (advertising exposures). Conversion data is not supported yet.
 * **Supported sources:** [!DNL Google Cloud Storage] and [!DNL Azure Data Lake Storage] or [!DNL Azure Blob Storage].
 * **File format:** CSV only.
-* **Canonical headers required:** There is no per-column remapping and no intelligent/automated mapping. Your files must use the canonical column names.
+* **Canonical headers required:** There is no per-column remapping and no intelligent/automated mapping in this version. Your files must use the canonical column names.
 * **No value/type validation:** Only required column headers are validated. Initially, there may be no data rows.
 * **No editing a connection after creation:** Any change, including changing the active match keys, requires creating a new connection.
 * **One layout per path:** All files at the path must share one identical column layout. Mixed layouts can cause partial sourcing failures.
 * **Subfolders not traversed:** Files must sit directly at the specified path.
-* **No schedule or look-back at setup:** Sourcing is ad hoc at report run time. Look-back is set when the report is configured.
+* **No schedule or look-back at setup:** Ad log sourcing starts when you run a measurement report. Set the look-back period when you configure the report.
+* **One ad log data connection:** Configure only one ad log data connection at a time. Measurement reports automatically use the configured connection.
 
 ## Troubleshooting {#troubleshooting}
 
@@ -173,7 +172,7 @@ Grant this custom role to the Adobe Google Service Account for your region (NA, 
 
 ## Upgrade or migration considerations {#upgrade-migration}
 
-* Customers previously onboarded via Experience Platform or Adobe-assisted (white-glove) setup can move to the self-serve cloud storage path. Existing measurement reports and flows are unchanged.
+* Customers previously onboarded via Experience Platform or Adobe-assisted setup can move to the self-serve cloud storage path. Existing measurement reports and flows are unchanged.
 * Match keys present in ad log files must be enabled for the Collaboration account, as with audience sourcing.
 * Governance and data-handling rules match data sourced from Experience Platform.
 
