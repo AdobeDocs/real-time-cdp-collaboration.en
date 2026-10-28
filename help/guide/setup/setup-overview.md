@@ -26,5 +26,6 @@ Use the functionality in the setup section to:
 * [Configure and manage your account](/help/guide/setup/onboard-account.md)
 * [Source and manage audiences](/help/guide/setup/onboard-audiences.md)
 * [Manage data connections](/help/guide/setup/manage-data-connection.md)
+* [Set up and manage identity resolution](/help/guide/setup/identity-resolution.md)
 * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
 * [View audit logs](/help/guide/setup/audit-logs.md)
