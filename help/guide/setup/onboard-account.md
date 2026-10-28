@@ -96,6 +96,8 @@ The following table displays the supported match keys in Collaboration:
 | [!DNL Hashed phone] | [!DNL IDFA] | |
 | [!DNL CRM ID] | [!DNL GAID] | |
 | [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+| [!DNL Name] | | |
+| [!DNL Postal address] | | |
 
 {style="table-layout:auto"}
 
@@ -124,7 +126,11 @@ People IDs are directly connected to an individual profile. Currently supported 
 * **[!UICONTROL Hashed phone]**
 * **[!UICONTROL CRM IDs]**
 * **[!UICONTROL Loyalty IDs]**
+* **[!UICONTROL Name]**: Supports First name, Last name, and Full name.
+* **[!UICONTROL Postal address]**: Supports Street address, City, State, Zip code, and Country.
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
+
+To use Name and Postal address for Core ID identity resolution, enable both at the account level and [map your audience fields](./onboard-audiences.md#map-fields) to at least one subcomponent of each. Name and Postal address values are not hashed.
 
 ##### Device IDs
 
