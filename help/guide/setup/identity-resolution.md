@@ -11,7 +11,7 @@ product_v2:
 
 {{limited-availability-release-note}}
 
-Identity resolution matches identifiers in your audience data to Epsilon Core IDs, which you can use as match keys with supported collaborators. This guide explains how to configure and manage identity resolution in Real-Time CDP Collaboration. The workflow uses identifiers in your audience data to resolve them to Epsilon Core IDs. This guide explains how to set up identity resolution and manage the configuration afterward.
+Identity resolution matches identifiers in your audience data to Epsilon Core IDs, which you can use as match keys with supported collaborators. This guide explains how to configure and manage identity resolution in Real-Time CDP Collaboration.
 
 ## Prerequisites {#prerequisites}
 
@@ -25,7 +25,7 @@ Before you begin, make sure you have:
 
 >[!NOTE]
 >
->Enabling a match key at the account level does not map your audience fields to that key. Name and Postal address values are not hashed.
+>Enable match keys at the account level, map audience source fields to those keys, then choose which mapped keys to use in the identity resolution wizard. Name and Postal address values are not hashed.
 
 ## Configure identity resolution {#configure-identity-resolution}
 
@@ -41,7 +41,7 @@ Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]** to ope
 
 Before opening the wizard, Collaboration checks for a data connection and compatible match keys. If a requirement is missing, follow the action in the dialog:
 
-* * **[!UICONTROL Data connection required]:** Select **[!UICONTROL Set up data connection]** to configure an audience data connection. See [Source and manage audiences](./source-overview.md).
+* **[!UICONTROL Data connection required]:** Select **[!UICONTROL Set up data connection]** to configure an audience data connection. See [Source and manage audiences](./source-overview.md).
 * **[!UICONTROL Match key required]:** Select **[!UICONTROL Edit match keys]** to enable a supported key. See [Edit match keys](./onboard-account.md#edit-match-keys).
 
 If both are missing, the data connection dialog appears first. After fixing the prerequisites, return to **[!UICONTROL Identity resolution]** and select **[!UICONTROL Setup]** again.
@@ -51,8 +51,6 @@ Accounts outside the supported region show **[!UICONTROL Not available in your r
 <!-- [UNVERIFIED: The available prerequisite-dialog screenshots show TransUnion and Acxiom. Use Core ID-specific captures if including those dialogs.] -->
 
 ### Authenticate with Epsilon {#authenticate-with-epsilon}
-
-Enter the customer number provided by Epsilon to associate the configuration with your Epsilon account.
 
 In the **[!UICONTROL Authenticate]** step, enter your number in **[!UICONTROL Epsilon customer number]** to associate the configuration with your Epsilon account. Select **[!UICONTROL Next]** to continue.
 
