@@ -64,9 +64,9 @@ Check the number with your Epsilon representative if you are unsure it is correc
 
 Select the audience data connections to use for identity resolution. All audiences within each selected connection, including those added later, are included. You cannot select individual audiences.
 
-Under **[!UICONTROL Data source(s)]**, review the cards in **[!UICONTROL Audience sources]** and select the checkbox for each connection you want to include. You must select at least one connection. Select **[!UICONTROL Next]** to continue.
-
 If a connection is missing, [set up the audience data connection](./source-overview.md) before continuing.
+
+Under **[!UICONTROL Data source(s)]**, review the cards in **[!UICONTROL Audience sources]** and select the checkbox for each connection you want to include. You must select at least one connection. Select **[!UICONTROL Next]** to continue.
 
 ![Audience source cards showing selected and unselected data connections.](../../assets/setup/identity-resolution/select-audience-data-connections.png){zoomable="yes"}
 
@@ -130,21 +130,15 @@ You cannot edit a Core ID configuration after setup. To change the Epsilon custo
 
 To delete an existing Core ID configuration, navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]** and select **[!UICONTROL Delete]** on the configured **[!UICONTROL Epsilon Core ID]** card. Review the confirmation dialog, then select **[!UICONTROL Delete]** to confirm.
 
-Deleting the configuration **PLACEHOLDER**. You must set it up again to use Core ID identity resolution with this account.
+Deleting the configuration **PLACEHOLDER**. You must [set it up again](#configure-identity-resolution) to use Core ID identity resolution with this account.
 
 <!-- [UNVERIFIED: Does deletion affect previously resolved identifiers, future processing, or both? Confirm before publication.] -->
 
 ## Troubleshoot setup issues {#troubleshoot}
 
-If you cannot start Core ID setup, check the following:
+If you encounter a missing data connection or match key, follow the instructions under [Select an identity provider](#select-identity-provider). For other setup issues, check the following:
 
-* **Data connection required:** [Set up an audience data connection](./source-overview.md) with supported match keys, then try again.
-* **Match key required:** [Enable supported account match keys](./onboard-account.md#edit-match-keys) and [map the source fields](./onboard-audiences.md#map-fields). Name and Postal address must be used together to meet Core ID's name-and-address requirement.
 * **Not available in your region:** Core ID is available only to US-provisioned Collaboration accounts in this release.
 * **Epsilon customer number unavailable:** Request it from your Epsilon representative.
 
 <!-- [UNVERIFIED: Confirm final dialog labels and remediation navigation using the release UI. Demo dialogs use other identity providers.] -->
-
-## Next steps {#next-steps}
-
-For related setup tasks, see [Manage data connections](./manage-data-connection.md), [Edit account match keys](./onboard-account.md#edit-match-keys), and [Map audience fields](./onboard-audiences.md#map-fields).
