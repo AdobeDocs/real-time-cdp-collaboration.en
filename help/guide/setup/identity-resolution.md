@@ -11,7 +11,7 @@ product_v2:
 
 {{limited-availability-release-note}}
 
-To use Epsilon Core IDs as match keys with supported collaborators, configure identity resolution for your audience data connections in Adobe Real-Time CDP Collaboration. The workflow uses identifiers in your audience data to resolve them to Epsilon Core IDs. This guide explains how to set up identity resolution and manage the configuration afterward.
+Identity resolution matches identifiers in your audience data to Epsilon Core IDs, which you can use as match keys with supported collaborators. This guide explains how to configure and manage identity resolution in Real-Time CDP Collaboration. The workflow uses identifiers in your audience data to resolve them to Epsilon Core IDs. This guide explains how to set up identity resolution and manage the configuration afterward.
 
 ## Prerequisites {#prerequisites}
 
@@ -33,9 +33,7 @@ In **[!UICONTROL Setup]**, select Epsilon Core ID and complete the authenticatio
 
 ### Select an identity provider {#select-identity-provider}
 
-1. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]**. The identity provider catalog appears.
-2. Find the **[!UICONTROL Epsilon Core ID]** card and review its region and accepted match keys.
-3. Select **[!UICONTROL Setup]**.
+Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]** to open the identity provider catalog. Locate the **[!UICONTROL Epsilon Core ID]** card and review its supported region and match keys. Select **[!UICONTROL Setup]** to begin.
 
 ![Identity provider catalog with the Epsilon Core ID card and its Setup action.](../../assets/setup/identity-resolution/select-an-identity-provider.png){zoomable="yes"}
 
@@ -43,8 +41,8 @@ In **[!UICONTROL Setup]**, select Epsilon Core ID and complete the authenticatio
 
 Before opening the wizard, Collaboration checks for a data connection and compatible match keys. If a requirement is missing, follow the action in the dialog:
 
-* **[!UICONTROL Data connection required]:** Select **[!UICONTROL Set up data connection]**. See [Source and manage audiences](./source-overview.md).
-* **[!UICONTROL Match key required]:** Select **[!UICONTROL Edit match keys]**. See [Edit match keys](./onboard-account.md#edit-match-keys).
+* * **[!UICONTROL Data connection required]:** Select **[!UICONTROL Set up data connection]** to configure an audience data connection. See [Source and manage audiences](./source-overview.md).
+* **[!UICONTROL Match key required]:** Select **[!UICONTROL Edit match keys]** to enable a supported key. See [Edit match keys](./onboard-account.md#edit-match-keys).
 
 If both are missing, the data connection dialog appears first. After fixing the prerequisites, return to **[!UICONTROL Identity resolution]** and select **[!UICONTROL Setup]** again.
 
@@ -56,8 +54,7 @@ Accounts outside the supported region show **[!UICONTROL Not available in your r
 
 Enter the customer number provided by Epsilon to associate the configuration with your Epsilon account.
 
-1. In **[!UICONTROL Authenticate]**, enter your number in **[!UICONTROL Epsilon customer number]**.
-2. Select **[!UICONTROL Next]**.
+In the **[!UICONTROL Authenticate]** step, enter your number in **[!UICONTROL Epsilon customer number]** to associate the configuration with your Epsilon account. Select **[!UICONTROL Next]** to continue.
 
 ![Authenticate step with the required Epsilon customer number field.](../../assets/setup/identity-resolution/epsilon-core-id-authenticate.png){zoomable="yes"}
 
@@ -65,25 +62,21 @@ Check the number with your Epsilon representative if you are unsure it is correc
 
 ### Select data connections {#select-data-connections}
 
-Select the audience data connections whose identifiers you want to resolve. Identity resolution applies to all audiences within each selected connection, including audiences added to that connection later.
+Select the audience data connections to use for identity resolution. All audiences within each selected connection, including those added later, are included. You cannot select individual audiences.
 
-1. In **[!UICONTROL Data source(s)]**, review the cards under **[!UICONTROL Audience sources]**.
-2. Select the checkbox on each connection you want to include. Select at least one.
-3. Select **[!UICONTROL Next]**.
+Under **[!UICONTROL Data source(s)]**, review the cards in **[!UICONTROL Audience sources]** and select the checkbox for each connection you want to include. You must select at least one connection. Select **[!UICONTROL Next]** to continue.
+
+If a connection is missing, [set up the audience data connection](./source-overview.md) before continuing.
 
 ![Audience source cards showing selected and unselected data connections.](../../assets/setup/identity-resolution/select-audience-data-connections.png){zoomable="yes"}
 
-<!-- [UNVERIFIED: This supplied image was manually altered to remove measurement sources. Replace it with an authentic audience-only release capture.] -->
-
-You cannot select individual audiences within a connection. If a needed connection is missing, [set up the audience data connection](./source-overview.md) before continuing.
+<!-- [UNVERIFIED: Replace the manually altered screenshot with an authentic release capture.] -->
 
 ### Configure match keys {#configure-match-keys}
 
-Choose which available match keys to use for each selected connection. Disabled keys are excluded from identity resolution for that connection; these selections do not change your account-level match keys or field mappings.
+Choose which available match keys to use for each selected connection. Disabled keys are excluded from identity resolution for that connection. These selections do not change your account-level match keys or field mappings.
 
-1. In **[!UICONTROL Match keys]**, review the keys shown for each connection.
-2. Turn off any keys you do not want to use. Leave at least one eligible key enabled for each connection.
-3. Select **[!UICONTROL Next]**.
+Under **[!UICONTROL Match keys]**, review the available keys for each connection and turn off any you do not want to use. Leave at least one eligible match key enabled per connection, then select **[!UICONTROL Next]** to continue.
 
 ![Match keys step showing identifier toggles for a selected audience connection.](../../assets/setup/identity-resolution/per-connection-match-key-toggles.png){zoomable="yes"}
 
@@ -93,23 +86,19 @@ Core ID accepts hashed email, hashed phone, or the combination of Name and Posta
 
 ### Set an identity resolution schedule {#set-schedule}
 
-Choose the date range for identity resolution. Runs follow the schedule of the underlying audience data connection; this wizard does not set a separate frequency.
+Choose the date range for identity resolution. Runs follow the schedule of the underlying audience data connection; you cannot set a separate frequency in the wizard.
 
-1. In **[!UICONTROL Schedule]**, select the calendar control for **[!UICONTROL Date range]**.
-2. Choose the start and end dates.
-3. Select **[!UICONTROL Next]**.
+Under **[!UICONTROL Schedule]**, select the calendar control for **[!UICONTROL Date range]** and choose the start and end dates. Select **[!UICONTROL Next]** to continue.
 
 ![Schedule step with a date range for Epsilon Core ID identity resolution.](../../assets/setup/identity-resolution/schedule-identity-resolution-job.png){zoomable="yes"}
 
-<!-- [UNVERIFIED: Replace this prototype screenshot: it shows a scheduling-hold control that Product did not confirm for launch. Also confirm whether "Continue until I cancel the job" is available and what happens when a date range ends.] -->
+<!-- [UNVERIFIED: Replace this prototype screenshot. It mentions an API token, measurement sources, and a scheduling hold inconsistent with the confirmed launch workflow.] -->
 
 ### Review and confirm the configuration {#review-and-confirm}
 
-Review your selections carefully. After setup, you cannot edit the configuration; changes require deletion and setup again.
+Review your authentication details, selected audience data connections, match keys, and schedule under **[!UICONTROL Review]**. To make changes, select **[!UICONTROL Edit]** beside the relevant section.
 
-1. In **[!UICONTROL Review]**, check the authentication, audience data connections, match keys, and schedule.
-2. To correct anything, select **[!UICONTROL Edit]** beside the relevant section and make your changes.
-3. Select **[!UICONTROL Confirm and schedule]**.
+Once you've confirmed your selections, select **[!UICONTROL Confirm and schedule]**. You cannot edit the configuration after setup; changes require deleting it and setting it up again.
 
 ![Review step showing the authentication, data sources, match keys, and schedule summary.](../../assets/setup/identity-resolution/review-and-confirm.png){zoomable="yes"}
 
@@ -139,11 +128,7 @@ You cannot edit a Core ID configuration after setup. To change the Epsilon custo
 
 ### Delete an identity resolution configuration {#delete-configuration}
 
-To delete an existing Core ID configuration:
-
-1. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]**.
-2. On the configured **[!UICONTROL Epsilon Core ID]** card, select **[!UICONTROL Delete]**.
-3. Review the confirmation dialog, then select **[!UICONTROL Delete]** to confirm.
+To delete an existing Core ID configuration, navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]** and select **[!UICONTROL Delete]** on the configured **[!UICONTROL Epsilon Core ID]** card. Review the confirmation dialog, then select **[!UICONTROL Delete]** to confirm.
 
 Deleting the configuration **PLACEHOLDER**. You must set it up again to use Core ID identity resolution with this account.
 
