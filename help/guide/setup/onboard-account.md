@@ -152,6 +152,7 @@ When selecting **[!UICONTROL AdFixus ID]**, you will need to provide the corresp
 After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
 ![The Set up account workspace with the Match keys section displayed.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+<!-- validate and poss update image -->
 
 ## Edit account {#edit-account}
 
@@ -186,6 +187,7 @@ The **[!UICONTROL Match keys]** dialog appears. Toggle on any match keys, or upd
 >At this time, match keys cannot be removed once added to your account.
 
 ![The Match keys dialog with the Save option highlighted.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+<!-- validate and poss update image -->
 
 A success dialog confirms that your account's match keys are updated successfully.
 
