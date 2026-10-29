@@ -72,7 +72,7 @@ If the connection you want isn't listed, [set up the audience data connection](.
 
 Under **[!UICONTROL Data source(s)]**, select the checkbox for each connection you want to include in **[!UICONTROL Audience sources]**. You must select at least one connection. Select **[!UICONTROL Next]** to continue.
 
-![Audience source cards showing selected and unselected data connections.](../../assets/setup/identity-resolution/select-audience-data-connections.png){zoomable="yes"}
+![Audience source cards showing selected and unselected data connections.](../../assets/setup/identity-resolution/source-selection.png){zoomable="yes"}
 
 ### Configure match keys {#configure-match-keys}
 
