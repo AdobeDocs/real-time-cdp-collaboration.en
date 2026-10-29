@@ -144,7 +144,9 @@ Next, provide a name and a description for your data connection. This informatio
 >abstract="Select attributes from the union schema for the Profile class in Experience Platform. This view displays attributes that are present in the union schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
-Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys).
+Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys).square
+
+To use **[!UICONTROL Name]** and **[!UICONTROL Postal address]** for [!DNL Epsilon Core ID] identity resolution, map at least one subcomponent of each match key. Name supports First name, Last name, or Full name; Postal address supports Street address, City, State, Zip code, or Country. These values are not hashed. For more information, see [Set up and manage identity resolution](./identity-resolution.md).
 
 If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the [!DNL Demdex ID] is automatically extracted and mapped from ECID and you do not have to take any action. To learn more about [!DNL Demdex IDs], see the [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support) guide.
 
