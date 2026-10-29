@@ -1,5 +1,5 @@
 ---
-title: Set up and manage identity resolution with [!DNL Epsilon Core ID]
+title: Set up and manage identity resolution
 description: Learn how to configure and manage Epsilon Core ID identity resolution for audience data connections in Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
@@ -7,11 +7,11 @@ product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
 ---
-# Set up and manage identity resolution with [!DNL Epsilon Core ID]
+# Set up and manage identity resolution
 
 {{limited-availability-release-note}}
 
-Use [!DNL Epsilon Core ID] identity resolution to match audience identities with supported collaborators without building and maintaining custom partner integrations. Real-Time CDP Collaboration provides a centralized workflow to configure and manage identity resolution, including selecting data connections, configuring match keys, and scheduling processing.
+Your organization and its collaborators may use different identifiers for the same customer. [!DNL Epsilon Core ID] identity resolution matches identifiers in your audience data to Epsilon Core IDs, helping you identify shared customers when working with supported collaborators. Real-Time CDP Collaboration lets you configure and manage this process without building custom integrations for individual partners.
 
 >[!AVAILABILITY]
 >
@@ -22,23 +22,23 @@ Use [!DNL Epsilon Core ID] identity resolution to match audience identities with
 Before you begin, make sure you have:
 
 * **Account-management permissions.** You must have **[!UICONTROL Manage Account]** and **[!UICONTROL Manage Collaboration Instances]** permissions.
-* **At least one audience data connection.** [Set up audience sourcing](./source-overview.md) if needed. Only audience data connections are supported for Core ID identity resolution.
-* **Supported match keys.** The selected data connection must have hashed email, hashed phone, or both Name and Postal address enabled and mapped. For the Name and Postal address option, map at least one subcomponent of each key. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+* **At least one audience data connection.** You need an existing audience data connection to configure identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
+* **Supported match keys.** Your audience data connection must have hashed email, hashed phone, or both Name and Postal address enabled and mapped. If using Name and Postal address, map at least one field under each key. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
 * **Your Epsilon customer number.** Obtain this from your Epsilon account representative.
 
 >[!NOTE]
 >
->Enable match keys at the account level, map audience source fields to those keys, then select which mapped keys to use during identity resolution setup. Name and Postal address values are not hashed.
+>Match keys must first be enabled at the account level and mapped to fields in your audience data. During identity resolution setup, you can then choose which available match keys to use. Name and Postal address values are not hashed.
 
 ## Configure identity resolution {#configure-identity-resolution}
 
-Configure identity resolution to use Epsilon Core IDs as a common match key with supported collaborators. You can choose which audience data connections and match keys to include and define the date range for identity resolution.
+Choose which audience data connections and match keys to use when matching your customer identities to Epsilon Core IDs. You'll also set the date range for identity resolution and review your selections before confirming the configuration.
 
-To begin, navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]** to view the available identity providers.
+To begin, select **[!UICONTROL Setup]** in the left navigation followed by the **[!UICONTROL Identity resolution]** tab to view the available identity providers.
 
 ### Select an identity provider {#select-identity-provider}
 
-Locate the **[!UICONTROL Epsilon Core ID]** card and review its supported region and match keys. Select **[!UICONTROL Setup]** to begin configuring identity resolution.
+Locate the **[!UICONTROL Epsilon Core ID]** card and review its supported region and match keys. Select **[!UICONTROL Setup]** to begin.
 
 ![Identity provider catalog with the Epsilon Core ID card and its Setup action.](../../assets/setup/identity-resolution/select-an-identity-provider.png){zoomable="yes"}
 
