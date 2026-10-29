@@ -116,7 +116,7 @@ On the configured **[!UICONTROL Epsilon Core ID]** card, select **[!UICONTROL Vi
 
 Check that the Epsilon customer number, match keys, date range, and audience data connections match your intended setup. The details page also shows the configuration's status and creation and update information.
 
-![Epsilon Core ID details page with configuration status, match keys, schedule, and associated audience connection.](../../assets/setup/identity-resolution/epsilon-core-id-view-details-staging.png){zoomable="yes"}
+![Epsilon Core ID details page with configuration status, match keys, schedule, and associated audience connection.](../../assets/setup/identity-resolution/view-connection-details.png){zoomable="yes"}
 
 <!-- [UNVERIFIED: Confirm the action label; the PRD says "View details," while Product says "View." Replace the staging screenshot to remove internal details. Active describes configuration status, not necessarily successful job processing; confirm whether run status is available.] -->
 
