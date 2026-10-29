@@ -11,7 +11,7 @@ product_v2:
 
 {{limited-availability-release-note}}
 
-Identity resolution helps you identify customers you have in common with collaborators, even when your organizations use different identifiers. Real-Time CDP Collaboration lets you configure and manage identity resolution with supported identity providers without building custom integrations for each partner.
+Identity resolution helps you identify customers you have in common with collaborators, even when your organizations use different identifiers. Configure and manage identity resolution with supported identity providers in Real-Time CDP Collaboration, without building custom integrations for each partner.
 
 >[!NOTE]
 >
@@ -19,15 +19,15 @@ Identity resolution helps you identify customers you have in common with collabo
 
 >[!AVAILABILITY]
 >
->Epsilon Core ID and UID2 identity resolution are only available for Real-Time CDP Collaboration accounts provisioned in the United States.
+>At launch, only [!DNL Epsilon Core ID] is available for configuration. Epsilon Core ID identity resolution is only available for Real-Time CDP Collaboration accounts provisioned in the United States.
 
 ## Prerequisites {#prerequisites}
 
 Before you begin, make sure you have:
 
 * **Account-management permissions.** You must have **[!UICONTROL Manage Account]** and **[!UICONTROL Manage Collaboration Instances]** permissions.
-* **At least one audience data connection.** You need an existing audience data connection to configure Epsilon Core ID identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
-* **Supported match keys for Epsilon Core ID.** Your audience data connection must have hashed email, hashed phone, or both Name and Postal address enabled and mapped. If using Name and Postal address, map at least one field under each key. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+* **At least one audience data connection.** You need an existing audience data connection to configure identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
+* **Supported match keys.** Your audience data connection must have match keys supported by your identity provider enabled and mapped. For Epsilon Core ID, these include hashed email, hashed phone, or both Name and Postal address. If using Name and Postal address, map at least one field under each key. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
 * **Your Epsilon customer number.** Obtain this from your Epsilon account representative.
 
 >[!NOTE]
@@ -42,7 +42,7 @@ To begin, select **[!UICONTROL Setup]** in the left navigation followed by the *
 
 ### Select an identity provider {#select-identity-provider}
 
-Locate the **[!UICONTROL Epsilon Core ID]** card and review its supported region and match keys. Select **[!UICONTROL Setup]** to begin.
+Locate the card for your identity provider and review its supported region and match keys. Select **[!UICONTROL Setup]** to begin.
 
 ![Identity provider catalog with the Epsilon Core ID card and its Setup action.](../../assets/setup/identity-resolution/select-an-identity-provider.png){zoomable="yes"}
 
@@ -57,7 +57,7 @@ If both are missing, the data connection dialog appears first. After fixing the 
 
 In the **[!UICONTROL Authenticate]** step, provide the information required by your identity provider. For Epsilon Core ID, enter your customer number in **[!UICONTROL Epsilon customer number]**. Select **[!UICONTROL Next]** to continue.
 
-![Authenticate step showing the Epsilon customer number field.](../../assets/setup/identity-resolution/epsilon-core-id-authenticate.png){zoomable="yes"}
+![Authenticate step showing the Epsilon customer number field.](../../assets/setup/identity-resolution/authenticate.png){zoomable="yes"}
 
 If you are unsure of your Epsilon customer number, contact your Epsilon representative. The customer number format is not validated during setup.
 
