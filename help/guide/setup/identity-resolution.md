@@ -27,12 +27,13 @@ Before you begin, make sure you have:
 
 * **Account-management permissions.** You must have **[!UICONTROL Manage Account]** and **[!UICONTROL Manage Collaboration Instances]** permissions.
 * **At least one audience data connection.** You need an existing audience data connection to configure identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
-* **Supported match keys.** Your audience data connection must have match keys supported by your identity provider enabled and mapped. For Epsilon Core ID, these include hashed email, hashed phone, or both Name and Postal address. If using Name and Postal address, map at least one field under each key. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
-* **Your Epsilon customer number.** Obtain this from your Epsilon account representative.
+* **Supported match keys.** Your audience data connection must have match keys supported by your identity provider enabled at the account level and mapped to fields in your audience data. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+
+During identity resolution setup, you can choose which available match keys to use.
 
 >[!NOTE]
 >
->Match keys must first be enabled at the account level and mapped to fields in your audience data. During identity resolution setup, you can then choose which available match keys to use. Name and Postal address values are not hashed.
+>For Epsilon Core ID, you need your Epsilon customer number, available from your Epsilon account representative. Supported match keys include hashed email, hashed phone, or the combination of Name and Postal address. If using Name and Postal address, map at least one field under each key. Name and Postal address values are not hashed.
 
 ## Configure identity resolution {#configure-identity-resolution}
 
@@ -63,7 +64,9 @@ If you are unsure of your Epsilon customer number, contact your Epsilon represen
 
 ### Select data connections {#select-data-connections}
 
-Next, choose which audience data connections you want to use for identity resolution. This determines which audience data will be used to match your customer identities with your identity provider. All audiences within each selected connection, including those added later, are included. You cannot select individual audiences.
+Next, choose which audience data connections you want to use for identity resolution. This determines which audience data will be used to match your customer identities with your identity provider.
+
+For Epsilon Core ID, all audiences within each selected connection, including those added later, are included. You cannot select individual audiences.
 
 If the connection you want isn't listed, [set up the audience data connection](./source-overview.md) before continuing.
 
@@ -79,7 +82,7 @@ Review the available keys for each connection and turn off any you don't want to
 
 ![Match keys step showing identifier toggles for a selected audience connection.](../../assets/setup/identity-resolution/per-connection-match-key-toggles.png){zoomable="yes"}
 
-Core ID accepts hashed email, hashed phone, or the combination of Name and Postal address. If a key is missing, check the [account match keys](./onboard-account.md#edit-match-keys) and [audience field mappings](./onboard-audiences.md#map-fields).
+For Epsilon Core ID, supported match keys include hashed email, hashed phone, or the combination of Name and Postal address. If a key is missing, check the [account match keys](./onboard-account.md#edit-match-keys) and [audience field mappings](./onboard-audiences.md#map-fields).
 
 ### Set an identity resolution schedule {#set-schedule}
 
