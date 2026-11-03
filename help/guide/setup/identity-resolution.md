@@ -56,17 +56,17 @@ If both are missing, the data connection dialog appears first. After fixing the 
 
 ### Authenticate with your identity provider {#authenticate-with-provider}
 
-In the **[!UICONTROL Authenticate]** step, provide the information required by your identity provider. For Epsilon Core ID, enter your customer number in **[!UICONTROL Epsilon customer number]**. Select **[!UICONTROL Next]** to continue.
+In the **[!UICONTROL Authenticate]** step, provide the information required by your identity provider. For Epsilon Core ID, enter the customer number provided by your Epsilon representative in the **[!UICONTROL Epsilon customer number]** field. Select **[!UICONTROL Next]** to continue.
 
 ![Authenticate step showing the Epsilon customer number field.](../../assets/setup/identity-resolution/authenticate.png){zoomable="yes"}
 
-If you are unsure of your Epsilon customer number, contact your Epsilon representative. The customer number format is not validated during setup.
+The customer number format is not validated during setup.
 
 ### Select data connections {#select-data-connections}
 
 Next, choose which audience data connections you want to use for identity resolution. This determines which audience data will be used to match your customer identities with your identity provider.
 
-For Epsilon Core ID, all audiences within each selected connection, including those added later, are included. You cannot select individual audiences.
+For Epsilon Core ID, identity resolution applies to all audiences within a selected data connection. Any new audiences later added to that connection are also automatically included in identity resolution. You cannot select individual audiences.
 
 If the connection you want isn't listed, [set up the audience data connection](./source-overview.md) before continuing.
 
@@ -126,7 +126,7 @@ You cannot edit a Core ID configuration after setup. To change the Epsilon custo
 
 To delete a configuration, navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity resolution]** and select **[!UICONTROL Delete]** on your configured identity provider's card. Review the confirmation dialog, then select **[!UICONTROL Delete]** to confirm.
 
-Deleting the configuration **PLACEHOLDER**. If you want to use this identity provider again, you'll need to [set up a new configuration](#configure-identity-resolution).
+If you want to use this identity provider again, you'll need to [set up a new configuration](#configure-identity-resolution).
 
 <!-- [UNVERIFIED: Does deletion affect previously resolved identifiers, future processing, or both? Confirm before publication.] -->
 

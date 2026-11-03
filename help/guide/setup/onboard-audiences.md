@@ -150,12 +150,12 @@ Next you'll select source fields to map to target fields in Collaboration. Avail
 
 To use **[!UICONTROL Name]** and **[!UICONTROL Postal address]** for identity resolution, map at least one subcomponent under both fields:
 
-* **[!UICONTROL Name]:** First name, Last name, or Full name.
-* **[!UICONTROL Postal address]:** Street address, City, State, Zip code, or Country.
+* **[!UICONTROL Name]:** [!UICONTROL First name], [!UICONTROL Last name], or [!UICONTROL Full name].
+* **[!UICONTROL Postal address]:** [!UICONTROL Street address], [!UICONTROL City,] [!UICONTROL State], [!UICONTROL Zip code], or [!UICONTROL Country].
 
-When Adobe Experience Platform is the data source, Collaboration automatically maps available profile attributes from the selected sandbox to the Name and Postal address subcomponents. Review the suggested mappings and correct any missing or incorrectly mapped fields.
+When Adobe Experience Platform is the data source, Collaboration automatically maps available profile attributes from the selected sandbox to the [!UICONTROL Name] and [!UICONTROL Postal address] subcomponents. Review the suggested mappings and correct any missing or incorrectly mapped fields.
 
-You do not need to map every subcomponent. To exclude a subcomponent for which you do not have data, delete its mapping row. Name and Postal address values are not hashed.
+You do not need to map every subcomponent. To exclude a subcomponent for which you do not have data, delete its mapping row. [!UICONTROL Name] and [!UICONTROL Postal address] values are not hashed.
 
 For more information about using these fields, see [Set up and manage identity resolution](./identity-resolution.md).
 
