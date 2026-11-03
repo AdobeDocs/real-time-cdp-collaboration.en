@@ -125,7 +125,7 @@ Next, provide a name and a description for your data connection. This informatio
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Target fields"
->abstract="Target fields are the match keys chosen during the account setup. By default, all your chosen match keys are available."
+>abstract="Target fields identify how mapped source data is used in Collaboration. Account-level match keys are available by default. Name and Postal address fields used for identity resolution are available during data connection setup and do not require account-level enablement."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -144,9 +144,20 @@ Next, provide a name and a description for your data connection. This informatio
 >abstract="Select attributes from the union schema for the Profile class in Experience Platform. This view displays attributes that are present in the union schema and belong to the XDM Individual Profile class."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Union schema in Experience Platform"
 
-Next you'll select source fields to map to target fields in Collaboration. Available target fields will be based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys).square
+Next you'll select source fields to map to target fields in Collaboration. Available target fields are based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys). [!UICONTROL Name] and [!UICONTROL Postal address] fields used for identity resolution are available during data connection setup and do not need to be enabled at the account level.
 
-To use **[!UICONTROL Name]** and **[!UICONTROL Postal address]** for [!DNL Epsilon Core ID] identity resolution, map at least one subcomponent of each match key. Name supports First name, Last name, or Full name; Postal address supports Street address, City, State, Zip code, or Country. These values are not hashed. For more information, see [Set up and manage identity resolution](./identity-resolution.md).
+#### Map Name and Postal address fields for Core ID {#map-name-postal-address}
+
+To use **[!UICONTROL Name]** and **[!UICONTROL Postal address]** for identity resolution, map at least one subcomponent under both fields:
+
+* **[!UICONTROL Name]:** First name, Last name, or Full name.
+* **[!UICONTROL Postal address]:** Street address, City, State, Zip code, or Country.
+
+When Adobe Experience Platform is the data source, Collaboration automatically maps available profile attributes from the selected sandbox to the Name and Postal address subcomponents. Review the suggested mappings and correct any missing or incorrectly mapped fields.
+
+You do not need to map every subcomponent. To exclude a subcomponent for which you do not have data, delete its mapping row. Name and Postal address values are not hashed.
+
+For more information about using these fields, see [Set up and manage identity resolution](./identity-resolution.md).
 
 If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the [!DNL Demdex ID] is automatically extracted and mapped from ECID and you do not have to take any action. To learn more about [!DNL Demdex IDs], see the [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support) guide.
 
@@ -160,11 +171,11 @@ If you selected [!DNL Demdex ID (ECID)] as a match key during account setup, the
 
 **[!UICONTROL Source fields]** are identity namespaces and attributes from Experience Platform. These include both [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"} and [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"} identity namespaces. They also include profile attributes that are present in the [union schema](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"} and belong to the XDM Individual Profile class.
 
- Source fields get mapped to the target fields defined in Collaboration.
+Source fields are mapped to target fields defined in Collaboration.
 
-**[!UICONTROL Target fields]** indicate how the identities are referred to in Collaboration. Target fields are the match keys chosen during the account setup. By default, all your chosen match keys are available.
+**[!UICONTROL Target fields]** indicate how mapped source data is used in Collaboration. Most target fields are match keys selected during account setup. **[!UICONTROL Name]** and **[!UICONTROL Postal address]** fields for identity resolution are provided during data connection setup and do not require account-level enablement.
 
-Use the **[!UICONTROL Apply transformation]** option when you are sourcing *non-hashed* fields to hashed fields. Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
+Use the **[!UICONTROL Apply transformation]** option when you are sourcing non-hashed fields to hashed fields. Collaboration applies SHA256 hashing to transform the fields. [!UICONTROL Name] and [!UICONTROL Postal address] values are not hashed.
 
 >[!ENDSHADEBOX]
 

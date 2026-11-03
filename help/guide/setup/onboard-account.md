@@ -16,7 +16,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Configure and manage your account 
+# Configure and manage your account
 
 {{limited-availability-release-note}}
 
@@ -96,10 +96,12 @@ The following table displays the supported match keys in Collaboration:
 | [!DNL Hashed phone] | [!DNL IDFA] | |
 | [!DNL CRM ID] | [!DNL GAID] | |
 | [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
-| [!DNL Name] | | |
-| [!DNL Postal address] | | |
 
 {style="table-layout:auto"}
+
+>[!NOTE]
+>
+>Name and Postal address fields used for [!DNL Epsilon Core ID] identity resolution are not configured as account-level match keys. Map these fields when setting up an audience data connection. For more information, see [Map fields](./onboard-audiences.md#map-fields).
 
 >[!IMPORTANT]
 >
@@ -126,11 +128,6 @@ People IDs are directly connected to an individual profile. Currently supported 
 * **[!UICONTROL Hashed phone]**
 * **[!UICONTROL CRM IDs]**
 * **[!UICONTROL Loyalty IDs]**
-* **[!UICONTROL Name]**: Supports First name, Last name, and Full name.
-* **[!UICONTROL Postal address]**: Supports Street address, City, State, Zip code, and Country.
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
-
-To use Name and Postal address for Core ID identity resolution, enable both at the account level and [map your audience fields](./onboard-audiences.md#map-fields) to at least one subcomponent of each. Name and Postal address values are not hashed.
 
 ##### Device IDs
 
@@ -158,7 +155,6 @@ When selecting **[!UICONTROL AdFixus ID]**, you will need to provide the corresp
 After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
 ![The Set up account workspace with the Match keys section displayed.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
-<!-- validate and poss update image -->
 
 ## Edit account {#edit-account}
 
@@ -193,7 +189,6 @@ The **[!UICONTROL Match keys]** dialog appears. Toggle on any match keys, or upd
 >At this time, match keys cannot be removed once added to your account.
 
 ![The Match keys dialog with the Save option highlighted.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
-<!-- validate and poss update image -->
 
 A success dialog confirms that your account's match keys are updated successfully.
 

@@ -27,13 +27,13 @@ Before you begin, make sure you have:
 
 * **Account-management permissions.** You must have **[!UICONTROL Manage Account]** and **[!UICONTROL Manage Collaboration Instances]** permissions.
 * **At least one audience data connection.** You need an existing audience data connection to configure identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
-* **Supported match keys.** Your audience data connection must have match keys supported by your identity provider enabled at the account level and mapped to fields in your audience data. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+* **Supported match keys and fields.** Each audience data connection must contain data supported by your identity provider. If using account-level match keys, such as hashed email or hashed phone, enable them for your account and map them to your audience data. Name and Postal address fields are mapped during audience data connection setup and do not require account-level enablement. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
 
-During identity resolution setup, you can choose which available match keys to use.
+During identity resolution setup, you can choose which available identifiers to use.
 
 >[!NOTE]
 >
->For Epsilon Core ID, you need your Epsilon customer number, available from your Epsilon account representative. Supported match keys include hashed email, hashed phone, or the combination of Name and Postal address. If using Name and Postal address, map at least one field under each key. Name and Postal address values are not hashed.
+>For Epsilon Core ID, you need your Epsilon customer number, available from your Epsilon account representative. You can use hashed email, hashed phone, or Name together with Postal address for identity resolution. If using Name and Postal address, map at least one field under each. Name and Postal address values are not hashed.
 
 ## Configure identity resolution {#configure-identity-resolution}
 
@@ -82,7 +82,7 @@ Review the available keys for each connection and turn off any you don't want to
 
 ![Match keys step showing identifier toggles for a selected audience connection.](../../assets/setup/identity-resolution/per-connection-match-key-toggles.png){zoomable="yes"}
 
-For Epsilon Core ID, supported match keys include hashed email, hashed phone, or the combination of Name and Postal address. If a key is missing, check the [account match keys](./onboard-account.md#edit-match-keys) and [audience field mappings](./onboard-audiences.md#map-fields).
+If an expected option is missing, check the [account match keys](./onboard-account.md#edit-match-keys) and [audience field mappings](./onboard-audiences.md#map-fields).
 
 ### Set an identity resolution schedule {#set-schedule}
 
@@ -138,5 +138,3 @@ For Epsilon Core ID, check the following:
 
 * **Not available in your region:** Epsilon Core ID is available only for Collaboration accounts provisioned in the United States.
 * **Epsilon customer number unavailable:** Contact your Epsilon representative to obtain your customer number.
-
-<!-- [UNVERIFIED: Confirm final dialog labels and remediation navigation using the release UI. Demo dialogs use other identity providers.] -->
