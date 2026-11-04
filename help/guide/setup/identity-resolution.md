@@ -27,9 +27,9 @@ Before you begin, make sure you have:
 
 * **Account-management permissions.** You must have **[!UICONTROL Manage Account]** and **[!UICONTROL Manage Collaboration Instances]** permissions.
 * **At least one audience data connection.** You need an existing audience data connection to configure identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
-* **Supported match keys and fields.** Each audience data connection must contain data supported by your identity provider. If using account-level match keys, such as hashed email or hashed phone, enable them for your account and map them to your audience data. Name and Postal address fields are mapped during audience data connection setup and do not require account-level enablement. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+* **Supported match keys and fields.** Each audience data connection you intend to use for identity resolution must contain fields supported by your identity provider. If using account-level match keys, such as hashed email or hashed phone, enable them for your account and map them to your audience data. Name and Postal address fields are mapped during audience data connection setup and do not require account-level enablement. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
 
-During identity resolution setup, you can choose which available identifiers to use.
+Identity resolution uses the supported identifiers mapped in your selected audience data connections. Make sure the required fields are mapped before beginning setup.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ During identity resolution setup, you can choose which available identifiers to 
 
 ## Configure identity resolution {#configure-identity-resolution}
 
-Select an identity provider to begin configuring identity resolution. In this [!DNL Epsilon Core ID] example, you'll choose audience data connections and match keys, set a date range, and review your selections before confirming the configuration.
+Select an identity provider to begin configuring identity resolution. In this [!DNL Epsilon Core ID] example, you'll authenticate with the provider, select audience data connections, set a date range, and review your configuration before confirming.
 
 To begin, select **[!UICONTROL Setup]** in the left navigation followed by the **[!UICONTROL Identity resolution]** tab to view the available identity providers.
 
@@ -64,7 +64,7 @@ The customer number format is not validated during setup.
 
 ### Select data connections {#select-data-connections}
 
-Next, choose which audience data connections you want to use for identity resolution. This determines which audience data will be used to match your customer identities with your identity provider.
+Next, choose which audience data connections you want to use for identity resolution. This determines which audience data will be used to match your customer identities with your identity provider. Identity resolution automatically uses the supported identifiers mapped in each selected connection.
 
 For Epsilon Core ID, identity resolution applies to all audiences within a selected data connection. Any new audiences later added to that connection are also automatically included in identity resolution. You cannot select individual audiences.
 
@@ -74,19 +74,9 @@ Under **[!UICONTROL Data source(s)]**, select the checkbox for each connection y
 
 ![Audience source cards showing selected and unselected data connections.](../../assets/setup/identity-resolution/source-selection.png){zoomable="yes"}
 
-### Configure match keys {#configure-match-keys}
-
-In the **[!UICONTROL Match keys]** step, choose which match keys to use for identity resolution for each selected connection. Turning off a key excludes it from identity resolution for that connection without changing your account-level match keys or field mappings.
-
-Review the available keys for each connection and turn off any you don't want to use. Leave at least one eligible match key enabled per connection, then select **[!UICONTROL Next]** to continue.
-
-![Match keys step showing identifier toggles for a selected audience connection.](../../assets/setup/identity-resolution/per-connection-match-key-toggles.png){zoomable="yes"}
-
-If an expected option is missing, check the [account match keys](./onboard-account.md#edit-match-keys) and [audience field mappings](./onboard-audiences.md#map-fields).
-
 ### Set an identity resolution schedule {#set-schedule}
 
-Choose the start and end dates for identity resolution. Identity resolution follows the schedule of your audience data connection, so you cannot set a separate refresh frequency.
+Choose the start and end dates for identity resolution. Identity resolution follows the refresh schedule of the selected audience data connections, so you cannot configure a separate refresh frequency.
 
 In the **[!UICONTROL Schedule]** step, select the calendar control under **[!UICONTROL Date range]** and choose your dates. Select **[!UICONTROL Next]** to continue.
 
@@ -94,11 +84,11 @@ In the **[!UICONTROL Schedule]** step, select the calendar control under **[!UIC
 
 ### Review and confirm the configuration {#review-and-confirm}
 
-In the **[!UICONTROL Review]** step, check your authentication details, selected audience data connections, match keys, and schedule. To make changes, select **[!UICONTROL Edit]** beside the relevant section.
+In the **[!UICONTROL Review]** step, check your authentication details, selected audience data connections, and schedule. To make changes, select **[!UICONTROL Edit]** beside the relevant section.
 
 You cannot edit the configuration after setup. To make changes later, you must delete it and set it up again. Once you're satisfied with your selections, select **[!UICONTROL Confirm and schedule]**.
 
-![Review step showing the authentication, data sources, match keys, and schedule summary.](../../assets/setup/identity-resolution/review-and-confirm.png){zoomable="yes"}
+![Review step showing the authentication, data sources, and schedule summary.](../../assets/setup/identity-resolution/review-and-confirm.png){zoomable="yes"}
 
 A confirmation dialog indicates that identity resolution has been configured successfully. The first identity resolution run starts **PLACEHOLDER**.
 
@@ -118,7 +108,7 @@ Verify the authentication details, selected audience data connections, match key
 
 ### Change an existing configuration {#edit-configuration}
 
-You cannot edit a Core ID configuration after setup. To change the Epsilon customer number, selected connections, match keys, or date range, [delete the configuration](#delete-configuration) and complete the [setup workflow](#configure-identity-resolution) again.
+You cannot edit a Core ID configuration after setup. To change the Epsilon customer number, selected data connections, or date range, [delete the configuration](#delete-configuration) and complete the [setup workflow](#configure-identity-resolution) again.
 
 <!-- Question: Do other providers have the same limitation? -->
 
