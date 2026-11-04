@@ -56,11 +56,11 @@ If both are missing, the data connection dialog appears first. After fixing the 
 
 ### Authenticate with your identity provider {#authenticate-with-provider}
 
-In the **[!UICONTROL Authenticate]** step, provide the information required by your identity provider. For Epsilon Core ID, enter the customer number provided by your Epsilon representative in the **[!UICONTROL Epsilon account number]** field. Select **[!UICONTROL Next]** to continue.
+In the **[!UICONTROL Authenticate]** step, provide the information required by your identity provider. For Epsilon Core ID, enter the account number provided by your Epsilon representative in the **[!UICONTROL Epsilon account number]** field. Select **[!UICONTROL Next]** to continue.
 
 ![Authenticate step showing the Epsilon account number field.](../../assets/setup/identity-resolution/authenticate.png){zoomable="yes"}
 
-The customer number format is not validated during setup.
+The account number format is not validated during setup.
 
 ### Select data connections {#select-data-connections}
 
@@ -127,4 +127,4 @@ If you cannot begin setup because a data connection or match key is missing, fol
 For Epsilon Core ID, check the following:
 
 * **Not available in your region:** Epsilon Core ID is available only for Collaboration accounts provisioned in the United States.
-* **Epsilon account number unavailable:** Contact your Epsilon representative to obtain your customer number.
+* **Epsilon account number unavailable:** Contact your Epsilon representative to obtain your account number.
