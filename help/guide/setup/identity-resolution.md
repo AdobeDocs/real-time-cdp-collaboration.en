@@ -33,7 +33,7 @@ Identity resolution uses the supported identifiers mapped in your selected audie
 
 >[!NOTE]
 >
->For Epsilon Core ID, you need your Epsilon customer number, available from your Epsilon account representative. You can use hashed email, hashed phone, or Name together with Postal address for identity resolution. If using Name and Postal address, map at least one field under each. Name and Postal address values are not hashed.
+>For Epsilon Core ID, you need your Epsilon account number, available from your Epsilon account representative. You can use hashed email, hashed phone, or Name together with Postal address for identity resolution. If using Name and Postal address, map at least one field under each. Name and Postal address values are not hashed.
 
 ## Configure identity resolution {#configure-identity-resolution}
 
@@ -56,9 +56,9 @@ If both are missing, the data connection dialog appears first. After fixing the 
 
 ### Authenticate with your identity provider {#authenticate-with-provider}
 
-In the **[!UICONTROL Authenticate]** step, provide the information required by your identity provider. For Epsilon Core ID, enter the customer number provided by your Epsilon representative in the **[!UICONTROL Epsilon customer number]** field. Select **[!UICONTROL Next]** to continue.
+In the **[!UICONTROL Authenticate]** step, provide the information required by your identity provider. For Epsilon Core ID, enter the customer number provided by your Epsilon representative in the **[!UICONTROL Epsilon account number]** field. Select **[!UICONTROL Next]** to continue.
 
-![Authenticate step showing the Epsilon customer number field.](../../assets/setup/identity-resolution/authenticate.png){zoomable="yes"}
+![Authenticate step showing the Epsilon account number field.](../../assets/setup/identity-resolution/authenticate.png){zoomable="yes"}
 
 The customer number format is not validated during setup.
 
@@ -90,7 +90,7 @@ You cannot edit the configuration after setup. To make changes later, you must d
 
 ![Review step showing the authentication, data sources, and schedule summary.](../../assets/setup/identity-resolution/review-and-confirm.png){zoomable="yes"}
 
-A confirmation dialog indicates that identity resolution has been configured successfully. The first identity resolution run starts **PLACEHOLDER**.
+A confirmation dialog indicates that identity resolution has been configured successfully.
 
 <!-- [Question: Does the first identity resolution run happen immediately after setup, or at the next scheduled audience data connection refresh?] -->
 
@@ -108,7 +108,7 @@ Verify the authentication details, selected audience data connections, match key
 
 ### Change an existing configuration {#edit-configuration}
 
-You cannot edit a Core ID configuration after setup. To change the Epsilon customer number, selected data connections, or date range, [delete the configuration](#delete-configuration) and complete the [setup workflow](#configure-identity-resolution) again.
+You cannot edit a Core ID configuration after setup. To change the Epsilon account number, selected data connections, or date range, [delete the configuration](#delete-configuration) and complete the [setup workflow](#configure-identity-resolution) again.
 
 <!-- Question: Do other providers have the same limitation? -->
 
@@ -127,4 +127,4 @@ If you cannot begin setup because a data connection or match key is missing, fol
 For Epsilon Core ID, check the following:
 
 * **Not available in your region:** Epsilon Core ID is available only for Collaboration accounts provisioned in the United States.
-* **Epsilon customer number unavailable:** Contact your Epsilon representative to obtain your customer number.
+* **Epsilon account number unavailable:** Contact your Epsilon representative to obtain your customer number.
