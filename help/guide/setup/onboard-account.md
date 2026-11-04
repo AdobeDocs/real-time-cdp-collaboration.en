@@ -148,13 +148,9 @@ Partner IDs are identifiers provided by external partners for audience reconcili
 >
 >Adobe's integration with [!DNL AdFixus] maps the unique [!UICONTROL AdFixus IDs] for each account to a common Adobe-encoded format. These mappings are used to identify overlaps between collaborators. When activating audiences using **[!UICONTROL AdFixus ID]**, the original IDs are used. The Adobe-encoded format never leaves Collaboration.
 
-When selecting **[!UICONTROL AdFixus ID]**, you will need to provide the corresponding ID from your external partner in the **[!UICONTROL Account credentials]** section. This option will only be available *after* toggling on **[!UICONTROL AdFixus ID]**. Enter your AdFixus ID into the **[!UICONTROL Account ID]** field, being sure to double check the value for accuracy.
+When selecting **[!UICONTROL AdFixus ID]**, you will need to provide the corresponding ID from your external partner in the **[!UICONTROL Account credentials]** section. This option will only be available *after* toggling on **[!UICONTROL AdFixus ID]**. Enter your AdFixus ID into the **[!UICONTROL Account ID]** field, being sure to double check the value for accuracy. After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
 ![The Match keys dialog with AdFixus ID toggled on and the Account credentials section highlighted.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
-
-![The Set up account workspace with the Match keys section displayed.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Edit account {#edit-account}
 
