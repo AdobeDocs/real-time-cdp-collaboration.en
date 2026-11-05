@@ -146,12 +146,12 @@ Next, provide a name and a description for your data connection. This informatio
 
 Next you'll select source fields to map to target fields in Collaboration. Available target fields are based on the match keys you selected during [account setup](./onboard-account.md#set-up-match-keys). [!UICONTROL Name] and [!UICONTROL Postal address] fields used for identity resolution are available during data connection setup and do not need to be enabled at the account level.
 
-#### Map Name and Postal address fields for Core ID {#map-name-postal-address}
+#### Map Name and Postal address fields for Epsilon Core ID {#map-name-postal-address}
 
 To use **[!UICONTROL Name]** and **[!UICONTROL Postal address]** for identity resolution, map at least one subcomponent under both fields:
 
 * **[!UICONTROL Name]:** [!UICONTROL First name], [!UICONTROL Last name], or [!UICONTROL Full name].
-* **[!UICONTROL Postal address]:** [!UICONTROL Street address], [!UICONTROL City,] [!UICONTROL State], [!UICONTROL Zip code], or [!UICONTROL Country].
+* **[!UICONTROL Postal address]:** [!UICONTROL Street address], [!UICONTROL City], [!UICONTROL State], [!UICONTROL Zip code], or [!UICONTROL Country].
 
 When Adobe Experience Platform is the data source, Collaboration automatically maps available profile attributes from the selected sandbox to the [!UICONTROL Name] and [!UICONTROL Postal address] subcomponents. Review the suggested mappings and correct any missing or incorrectly mapped fields.
 
