@@ -34,7 +34,7 @@ Before you begin, make sure you have:
   If using Name and Postal address, map at least one field from each group:
 
   * **Name:** First name, Last name, or Full name.
-  * **Postal address:** Street address, City, Postal code, State, or Country.
+  * **Postal address:** Street address, City, Zip code, State, or Country.
 
   Name and Postal address values are not hashed. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
 * **Epsilon account number.** Obtain your Epsilon account number from your Epsilon account representative.
