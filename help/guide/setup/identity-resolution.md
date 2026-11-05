@@ -27,16 +27,16 @@ Before you begin, make sure you have:
 
 * **Account-management permissions.** You must have **[!UICONTROL Manage Account]** and **[!UICONTROL Manage Collaboration Instances]** permissions.
 * **At least one audience data connection.** You need an existing audience data connection to configure identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
-* **Supported match keys and fields.** Each audience data connection you intend to use for identity resolution must contain fields supported by your identity provider. For Epsilon Core ID, you can use hashed email, hashed phone, or Name combined with Postal address.
+* **Supported match keys and fields.** Each audience data connection you intend to use for identity resolution must contain fields supported by your identity provider. For Epsilon Core ID, you can use hashed email, hashed phone, or name combined with postal address.
 
-  Account-level match keys, such as hashed email and hashed phone, must be enabled for your account and mapped to your audience data. Name and Postal address fields are mapped during audience data connection setup and do not require account-level enablement.
+  Account-level match keys, such as hashed email and hashed phone, must be enabled for your account and mapped to your audience data. Name and postal address fields are mapped during audience data connection setup and do not require account-level enablement.
 
-  If using Name and Postal address, map at least one field from each group:
+  If using name and postal address, map at least one field from each group:
 
-  * **Name:** First name, Last name, or Full name.
-  * **Postal address:** Street address, City, Zip code, State, or Country.
+  * **Name:** First name, last name, or full name.
+  * **Postal address:** Street address, city, zip code, state, or country.
 
-  Name and Postal address values are not hashed. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+  Name and postal address values are not hashed. For instructions on enabling account-level match keys, such as hashed email and hashed phone, see [Edit match keys](./onboard-account.md#edit-match-keys). To map supported match keys or name and postal address fields to your audience data, see [Map fields](./onboard-audiences.md#map-fields).
 * **Epsilon account number.** Obtain your Epsilon account number from your Epsilon account representative.
 
 ## Configure identity resolution {#configure-identity-resolution}
