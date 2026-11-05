@@ -1,7 +1,7 @@
 ---
 title: Set up and manage identity resolution
 description: Learn how to configure and manage identity resolution in Real-Time CDP Collaboration.
-audience: admin, publisher, advertiser
+audience: admin, publisher, advertiser, agency
 badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
@@ -27,13 +27,17 @@ Before you begin, make sure you have:
 
 * **Account-management permissions.** You must have **[!UICONTROL Manage Account]** and **[!UICONTROL Manage Collaboration Instances]** permissions.
 * **At least one audience data connection.** You need an existing audience data connection to configure identity resolution. [Set up audience sourcing](./source-overview.md) if needed. Measurement data connections are not supported.
-* **Supported match keys and fields.** Each audience data connection you intend to use for identity resolution must contain fields supported by your identity provider. If using account-level match keys, such as hashed email or hashed phone, enable them for your account and map them to your audience data. Name and Postal address fields are mapped during audience data connection setup and do not require account-level enablement. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+* **Supported match keys and fields.** Each audience data connection you intend to use for identity resolution must contain fields supported by your identity provider. For Epsilon Core ID, you can use hashed email, hashed phone, or Name combined with Postal address.
 
-Identity resolution uses the supported identifiers mapped in your selected audience data connections. Make sure the required fields are mapped before beginning setup.
+  Account-level match keys, such as hashed email and hashed phone, must be enabled for your account and mapped to your audience data. Name and Postal address fields are mapped during audience data connection setup and do not require account-level enablement.
 
->[!NOTE]
->
->For Epsilon Core ID, you need your Epsilon account number, available from your Epsilon account representative. You can use hashed email, hashed phone, or Name together with Postal address for identity resolution. If using Name and Postal address, map at least one field under each. Name and Postal address values are not hashed.
+  If using Name and Postal address, map at least one field from each group:
+
+  * **Name:** First name, Last name, or Full name.
+  * **Postal address:** Street address, City, Postal code, State, or Country.
+
+  Name and Postal address values are not hashed. See [account match keys](./onboard-account.md#edit-match-keys) and [audience field mapping](./onboard-audiences.md#map-fields).
+* **Epsilon account number.** Obtain your Epsilon account number from your Epsilon account representative.
 
 ## Configure identity resolution {#configure-identity-resolution}
 
@@ -49,7 +53,7 @@ Locate the card for your identity provider and review its supported region and m
 
 Before starting the configuration workflow, Collaboration checks for a data connection and compatible match keys. If a requirement is missing, a dialog appears to guide the process. Follow the action in the dialog:
 
-* **[!UICONTROL Data connection required]:** Select **[!UICONTROL Set up data connection]** to configure an audience data connection. See [Source and manage audiences](./source-overview.md).
+* **[!UICONTROL Data connection required]:** Select **[!UICONTROL Set up data connection]** to configure an audience data connection. See [Connect a source](./source-overview.md#connect-a-source).
 * **[!UICONTROL Match key required]:** Select **[!UICONTROL Edit match keys]** to enable a supported key. See [Edit match keys](./onboard-account.md#edit-match-keys).
 
 If both are missing, the data connection dialog appears first. After fixing the prerequisites, return to **[!UICONTROL Identity resolution]** and select **[!UICONTROL Setup]** again.
@@ -60,13 +64,12 @@ In the **[!UICONTROL Authenticate]** step, provide the information required by y
 
 ![Authenticate step showing the Epsilon account number field.](../../assets/setup/identity-resolution/authenticate.png){zoomable="yes"}
 
-The account number format is not validated during setup.
-
 ### Select data connections {#select-data-connections}
 
 Next, choose which audience data connections you want to use for identity resolution. This determines which audience data will be used to match your customer identities with your identity provider. Identity resolution automatically uses the supported identifiers mapped in each selected connection.
+Next, choose which audience data connections you want to use for identity resolution. The selected connections determine which audience data and mapped fields are available for identity resolution.
 
-For Epsilon Core ID, identity resolution applies to all audiences within a selected data connection. Any new audiences later added to that connection are also automatically included in identity resolution. You cannot select individual audiences.
+Identity resolution applies to all audiences within each selected data connection, including any audiences added later. You cannot select individual audiences at this time.
 
 If the connection you want isn't listed, [set up the audience data connection](./source-overview.md) before continuing.
 
@@ -76,7 +79,7 @@ Under **[!UICONTROL Data source(s)]**, select the checkbox for each connection y
 
 ### Set an identity resolution schedule {#set-schedule}
 
-Choose the start and end dates for identity resolution. Identity resolution follows the refresh schedule of the selected audience data connections, so you cannot configure a separate refresh frequency.
+Choose the start and end dates to define the period during which Adobe refreshes partner IDs. The refresh frequency is determined by the selected audience data connections, so you cannot configure a separate refresh frequency for identity resolution.
 
 In the **[!UICONTROL Schedule]** step, select the calendar control under **[!UICONTROL Date range]** and choose your dates. Select **[!UICONTROL Next]** to continue.
 
@@ -102,7 +105,7 @@ After confirming your setup, you're automatically returned to the **[!UICONTROL 
 
 To review your configuration, select **[!UICONTROL View details]** on your configured identity provider's card.
 
-Verify the authentication details, selected audience data connections, match keys, and date range. You can also view the configuration status and creation and update information.
+Review the authentication details, selected audience data connections, and date range. You can also view the match keys displayed in the configuration details, along with the configuration status and creation and update information.
 
 ![Identity resolution configuration details showing status, match keys, schedule, and associated audience connection.](../../assets/setup/identity-resolution/view-connection-details.png){zoomable="yes"}
 
