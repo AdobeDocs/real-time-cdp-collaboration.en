@@ -15,11 +15,7 @@ Identity resolution helps you identify customers you have in common with collabo
 
 >[!NOTE]
 >
->The steps and screenshots in this guide use [!DNL Epsilon Core ID] as an example. Requirements and available options may differ depending on your identity provider.
-
->[!AVAILABILITY]
->
->At launch, only [!DNL Epsilon Core ID] is available for configuration. Epsilon Core ID identity resolution is only available for Real-Time CDP Collaboration accounts provisioned in the United States.
+>Currently, only Epsilon Core ID is available for configuration, and only for Real-Time CDP Collaboration accounts provisioned in the United States. The steps and screenshots in this guide use Epsilon Core ID.
 
 ## Prerequisites {#prerequisites}
 
