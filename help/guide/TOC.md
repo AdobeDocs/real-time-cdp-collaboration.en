@@ -30,6 +30,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
     * [Configure Databricks Delta Share for Audience Sourcing](./setup/configure-databricks-audience-sourcing.md)
     * [Configure Adobe Audience Manager for audience sourcing](./setup/configure-aam-audience-sourcing.md)
   * [Manage data connections](./setup/manage-data-connection.md)
+  * [Set up and manage identity resolution](./setup/identity-resolution.md)
   * [Track your credit consumption activity](/help/guide/setup/my-activity.md)
   * {hide-from-toc} [Identity crosswalks](./setup/identity-crosswalk.md)
   * [Add and manage measurement data](./setup/onboard-measurement-data.md)
