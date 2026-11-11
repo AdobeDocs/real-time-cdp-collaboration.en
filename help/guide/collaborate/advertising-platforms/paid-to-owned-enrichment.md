@@ -135,7 +135,8 @@ After delivery, ask your [!DNL Adobe Real-Time CDP] administrator or technical s
 
 The export delivers a CSV file to your configured [!DNL Amazon S3] destination.
 
-<!-- Before publication, replace this placeholder with the engineering-confirmed output specification:
+<!-- 
+TODO: replace this placeholder with the engineering-confirmed output specification:
 * Required hashing and normalization for each identifier, including whether email requires SHA-256 after trimming and lowercasing.
 * Exact CSV headers, the file naming pattern, and the delivery bucket and path.
 * Each identifier column in the delivered file and the identity namespace to map that column to during ingestion.
