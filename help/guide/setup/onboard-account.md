@@ -16,7 +16,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Configure and manage your account 
+# Configure and manage your account
 
 {{limited-availability-release-note}}
 
@@ -99,6 +99,10 @@ The following table displays the supported match keys in Collaboration:
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>Name and Postal address fields used for [!DNL Epsilon Core ID] identity resolution are not configured as account-level match keys. Map these fields when setting up an audience data connection. For more information, see [Map fields](./onboard-audiences.md#map-fields).
+
 >[!IMPORTANT]
 >
 >The match keys that you select during the account setup will determine the available match keys within your connections. While you can [remove unwanted match keys](../connect/establishing-connections.md#connection-settings) during the connection setup, match keys cannot be added after a connection has been established. It is important that you select **all** match keys that you plan to use in future campaigns during the account setup.
@@ -124,7 +128,6 @@ People IDs are directly connected to an individual profile. Currently supported 
 * **[!UICONTROL Hashed phone]**
 * **[!UICONTROL CRM IDs]**
 * **[!UICONTROL Loyalty IDs]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### Device IDs
 
@@ -145,13 +148,9 @@ Partner IDs are identifiers provided by external partners for audience reconcili
 >
 >Adobe's integration with [!DNL AdFixus] maps the unique [!UICONTROL AdFixus IDs] for each account to a common Adobe-encoded format. These mappings are used to identify overlaps between collaborators. When activating audiences using **[!UICONTROL AdFixus ID]**, the original IDs are used. The Adobe-encoded format never leaves Collaboration.
 
-When selecting **[!UICONTROL AdFixus ID]**, you will need to provide the corresponding ID from your external partner in the **[!UICONTROL Account credentials]** section. This option will only be available *after* toggling on **[!UICONTROL AdFixus ID]**. Enter your AdFixus ID into the **[!UICONTROL Account ID]** field, being sure to double check the value for accuracy.
+When selecting **[!UICONTROL AdFixus ID]**, you will need to provide the corresponding ID from your external partner in the **[!UICONTROL Account credentials]** section. This option will only be available *after* toggling on **[!UICONTROL AdFixus ID]**. Enter your AdFixus ID into the **[!UICONTROL Account ID]** field, being sure to double check the value for accuracy. After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
 
 ![The Match keys dialog with AdFixus ID toggled on and the Account credentials section highlighted.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-After you've selected all desired match keys, select **[!UICONTROL Complete]** to finish the account setup workflow.
-
-![The Set up account workspace with the Match keys section displayed.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Edit account {#edit-account}
 
