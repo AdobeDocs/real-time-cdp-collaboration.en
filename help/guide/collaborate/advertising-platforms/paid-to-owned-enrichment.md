@@ -3,9 +3,7 @@ title: Enrich profiles with paid media signals from [!DNL The Trade Desk] (Alpha
 description: Learn how to export paid-media enrichment attributes, ingest the delivered CSV, and update first-party profiles for audience building and personalization.
 audience: advertiser
 hide: true
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-    internal-label: Real-Time Customer Data Platform
+badge: Alpha
 ---
 
 # The Trade Desk profile enrichment (Alpha)
@@ -82,9 +80,9 @@ Export enrichment attributes from your project:
 1. Select the attributes you want to use for enrichment.
    ![The [!UICONTROL Enrich] page groups selectable signals by category and displays coverage values.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 1. Select the [!DNL Amazon S3] export destination configured for enrichment output. To configure a destination, see [Configure and manage cloud storage destinations](/help/guide/destinations/manage-destinations.md).
-   ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"}
+   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
 1. Review the selected attributes and destination, then select **[!UICONTROL Export Attributes]**.
-   ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"}
+   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
 
 Submitting an export starts delivery if your destination is configured correctly. Verify successful file delivery outside [!DNL Adobe Real-Time CDP Collaboration].
 
@@ -137,7 +135,12 @@ After delivery, ask your [!DNL Adobe Real-Time CDP] administrator or technical s
 
 The export delivers a CSV file to your configured [!DNL Amazon S3] destination.
 
-<!-- TODO: Confirm with engineering and document the required identifier hashing and normalization, including whether email requires SHA-256 after trimming and lowercasing; CSV headers; file naming and delivery location; identifier columns in the delivered file; and the identity namespaces to map those columns to. -->
+<!-- Before publication, replace this placeholder with the engineering-confirmed output specification:
+* Required hashing and normalization for each identifier, including whether email requires SHA-256 after trimming and lowercasing.
+* Exact CSV headers, the file naming pattern, and the delivery bucket and path.
+* Each identifier column in the delivered file and the identity namespace to map that column to during ingestion.
+Do not treat example formats or supported input match keys as confirmed output requirements.
+-->
 
 Verify the export separately from profile updates:
 
