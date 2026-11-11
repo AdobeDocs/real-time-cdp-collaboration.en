@@ -62,7 +62,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration enables seamless and s
   * Advertising platform connections {#ad-platform-connections}
     * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
     * [Create AMC measurement reports](./collaborate/advertising-platforms/amc-measure.md)
-    * {hide-from-toc} [The Trade Desk profile enrichment (Alpha)](../collaborate/advertising-platforms/trade-desk-profile-enrichment.md)
+    * {hide-from-toc} [The Trade Desk profile enrichment (Alpha)](./collaborate/advertising-platforms/trade-desk-profile-enrichment.md)
 * Destinations {#destinations}
   * [Overview](/help/guide/destinations/overview.md)
   * [Configure and manage cloud storage destinations](./destinations/manage-destinations.md)
