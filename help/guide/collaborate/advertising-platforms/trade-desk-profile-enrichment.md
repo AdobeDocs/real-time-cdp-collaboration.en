@@ -26,7 +26,7 @@ Before you begin, work with your administrator, media team, and data team to ens
 
 ### Authorize the source feed {#authorize-source-feed}
 
-Complete the access letter provided by [!DNL The Trade Desk] to authorize [!DNL The Trade Desk] to send REDS logs directly to Adobe.
+To authorize REDS log delivery directly to Adobe, complete the access letter provided by [!DNL The Trade Desk].
 
 [!DNL The Trade Desk] provisions the source feed, and Adobe configures access and ingestion. Before you create a project, confirm that the connection is active and the feed is ready.
 
@@ -54,7 +54,7 @@ After the connection is active, open **[!UICONTROL Connection settings]** and go
 
 ![The active connection settings show [!UICONTROL Advertiser info] and the [!UICONTROL Edit] control.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
 
- To save your advertiser information, enter the ID and partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. You can find your Partner ID under **[!UICONTROL Seat Identifiers]** in your [!DNL The Trade Desk] account.
+To save your advertiser information, enter the ID and partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. Your Partner ID appears under **[!UICONTROL Seat Identifiers]** in your [!DNL The Trade Desk] account.
 
 ![The Advertiser info dialog has required Partner ID and Partner name fields and a [!UICONTROL Save] control.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
 
@@ -127,7 +127,7 @@ Identity matching, source-signal availability, and ingestion affect profile upda
 
 ### Workflow scope {#workflow-scope}
 
-Use the curated catalog to enrich data from [!DNL The Trade Desk]. You cannot export raw logs or create custom attribute expressions. Other demand-side platform (DSP) and supply-side platform (SSP) integrations are not supported.
+To enrich data from [!DNL The Trade Desk], use the curated catalog. You cannot export raw logs or create custom attribute expressions. Other demand-side platform (DSP) and supply-side platform (SSP) integrations are not supported.
 
 This workflow does not support enrichment opportunity discovery, audience overlap analysis, or attribution and incrementality measurement.
 
@@ -154,11 +154,11 @@ Verify the export separately from profile updates:
 1. Ingest the file using the confirmed identity and schema mappings for the target sandbox and dataset.
 1. Review ingestion results and verify that a sample of expected profiles contains the enrichment attributes.
 
-Exporting a file does not confirm that ingestion updated profiles. Ingest each later export separately to update profiles.
+Exporting a file does not confirm that ingestion updated profiles. To update profiles, ingest each later export separately.
 
 ## Troubleshoot enrichment {#troubleshoot-enrichment}
 
-Use these checks to troubleshoot source data, export, and ingestion issues:
+To troubleshoot source data, export, and ingestion issues, use the following checks:
 
 | Issue | What to check |
 | --- | --- |
