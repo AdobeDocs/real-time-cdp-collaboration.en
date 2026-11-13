@@ -10,7 +10,7 @@ badge: Alpha
 
 Use the Raw Event Data Stream (REDS) impression log data feed from [!DNL The Trade Desk] to export enrichment attributes and paid media context to your first-party profiles.
 
-After the CSV file arrives in your [!DNL Amazon S3] export destination, ingest it into [!DNL Adobe Real-Time CDP]. In this release, exporting the file does not automatically update profiles or activate experiences. Automated profile enrichment back to [!DNL Adobe Real-Time CDP] will be a feature in a subsequent release.
+After the CSV file arrives in your [!DNL Amazon S3] export destination, ingest it into [!DNL Adobe Real-Time CDP]. In this release, exporting the file does not automatically update profiles or activate experiences. Automated profile enrichment in [!DNL Adobe Real-Time CDP] is planned for a subsequent release.
 
 Ad exposure adds context to customer profiles. It does not confirm engagement, purchase intent, or long-term interests.
 
@@ -26,7 +26,7 @@ Before you begin, work with your administrator, media team, and data team to ens
 
 ### Authorize the source feed {#authorize-source-feed}
 
-Complete the access letter provided by [!DNL The Trade Desk] to authorize [!DNL The Trade Desk] to send REDS logs directly to Adobe.
+To authorize REDS log delivery directly to Adobe, complete the access letter provided by [!DNL The Trade Desk].
 
 [!DNL The Trade Desk] provisions the source feed, and Adobe configures access and ingestion. Before you create a project, confirm that the connection is active and the feed is ready.
 
@@ -42,49 +42,53 @@ Complete the access letter in the connection dialog and save your Partner ID. Wa
 
 ### Connect with the partner {#connect-partner}
 
-Connect to [!DNL The Trade Desk] and add your advertiser information:
+To connect with [!DNL The Trade Desk], open **[!UICONTROL Discover collaborators]** in **[!UICONTROL Connect]** and search for the partner.
 
-1. In **[!UICONTROL Connect]**, open **[!UICONTROL Discover collaborators]**.
-1. Search for [!DNL The Trade Desk].
-   ![The collaborator catalog lists [!DNL The Trade Desk] and its [!UICONTROL Connect] option.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. Select **[!UICONTROL Connect]** for [!DNL The Trade Desk] and follow the instructions in the connection dialog.
-   ![The connection dialog explains REDS authorization and Partner ID setup for [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. After the connection is active, open **[!UICONTROL Connection settings]**. In **[!UICONTROL Advertiser info]**, select **[!UICONTROL Edit]** to update existing information or **[!UICONTROL Add]** to enter new information.
-   ![The active connection settings show [!UICONTROL Advertiser info] and the [!UICONTROL Edit] control.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. Enter your Partner ID and partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. Find your Partner ID in your [!DNL The Trade Desk] account under **[!UICONTROL Seat Identifiers]**.
-   ![The Advertiser info dialog has required Partner ID and Partner name fields and a [!UICONTROL Save] control.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![The collaborator catalog lists [!DNL The Trade Desk] and its [!UICONTROL Connect] option.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-After the connection is active and you save the advertiser information, wait for confirmation that Adobe has received your REDS logs. Then create a project.
+Select **[!UICONTROL Connect]** for [!DNL The Trade Desk] and follow the instructions in the connection dialog.
+
+![The connection dialog explains REDS authorization and Partner ID setup for [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
+
+After the connection is active, open **[!UICONTROL Connection settings]** and go to **[!UICONTROL Advertiser info]**. To update existing information, select **[!UICONTROL Edit]**. To enter new information, select **[!UICONTROL Add]**.
+
+![The active connection settings show [!UICONTROL Advertiser info] and the [!UICONTROL Edit] control.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+To save your advertiser information, enter the ID and partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. Your Partner ID appears under **[!UICONTROL Seat Identifiers]** in your [!DNL The Trade Desk] account.
+
+![The Advertiser info dialog has required Partner ID and Partner name fields and a [!UICONTROL Save] control.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+After you save the advertiser information, wait for Adobe to confirm receipt of your REDS logs before creating a project.
 
 ### Create a project {#create-project}
 
-Create a project for the connection:
+To create a project, go to **[!UICONTROL Collaborate]** and select **[!UICONTROL My Projects]**, then **[!UICONTROL Create a project]** or the add icon (![Add a project.](/help/assets/icons/plus.png)).
 
-1. In **[!UICONTROL Collaborate]**, select **[!UICONTROL My Projects]**.
-1. Select **[!UICONTROL Create a project]** or the add icon (![Add a project.](/help/assets/icons/plus.png)).
-1. In **[!UICONTROL Create project]**, select [!DNL The Trade Desk] from **[!UICONTROL Collaborator]**.
-   ![The [!UICONTROL Create project] form lists [!DNL The Trade Desk] and includes project name, description, and image fields.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. Enter a **[!UICONTROL Project name]** and **[!UICONTROL Description]**, then choose an image to identify the project.
-1. Select **[!UICONTROL Create]**.
+In **[!UICONTROL Create project]**, select [!DNL The Trade Desk] from **[!UICONTROL Collaborator]**.
+
+![The [!UICONTROL Create project] form lists [!DNL The Trade Desk] and includes project name, description, and image fields.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+To identify the project, enter a **[!UICONTROL Project name]** and **[!UICONTROL Description]**, then select an image. When the project details are complete, select **[!UICONTROL Create]**.
 
 For general project management, see the [Create and manage projects guide](/help/guide/collaborate/manage-projects.md).
 
 ## Select and export attributes {#select-export-attributes}
 
-Export enrichment attributes from your project:
+To select enrichment attributes for export, open the project and select **[!UICONTROL Enrich]**. To understand signal availability, review coverage values for each attribute before selecting the attributes you want to use.
+
+![The [!UICONTROL Enrich] page groups selectable signals by category and displays coverage values.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. Open the project and select **[!UICONTROL Enrich]**.
-1. Review coverage values for each attribute to understand signal availability.
-1. Select the attributes you want to use for enrichment.
-   ![The [!UICONTROL Enrich] page groups selectable signals by category and displays coverage values.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. Select the [!DNL Amazon S3] export destination configured for enrichment output. To configure a destination, see [Configure and manage cloud storage destinations](/help/guide/destinations/manage-destinations.md).
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. Review the selected attributes and destination, then select **[!UICONTROL Export Attributes]**.
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+Select the [!DNL Amazon S3] export destination configured for enrichment output. If you need to configure a destination, see [Configure and manage cloud storage destinations](/help/guide/destinations/manage-destinations.md).
 
-Submitting an export starts delivery if your destination is configured correctly. Verify successful file delivery outside [!DNL Adobe Real-Time CDP Collaboration].
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
+
+Review the selected attributes and destination, then select **[!UICONTROL Export Attributes]**.
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+Submitting an export starts delivery if your destination is configured correctly. After you submit the export, verify successful file delivery outside [!DNL Adobe Real-Time CDP Collaboration].
 
 Adobe processes enrichment attributes when you create a project and then weekly. Each run uses the last 90 days of available [!DNL The Trade Desk] data. Each export includes your selected attributes from the most recent completed run. To export refreshed attributes, request another export after a later run completes.
 
@@ -117,13 +121,13 @@ Geography signals describe advertising context rather than a verified home or cu
 
 ### Attribute coverage {#attribute-coverage}
 
-Coverage describes how often processed records include an attribute value. For yes/no signals, such as **[!UICONTROL CTV exposed]**, coverage counts records with a true value. Coverage does not indicate identity match rates or the proportion of first-party profiles that will receive an attribute.
+Coverage describes how often processed records include an attribute value. For yes/no signals, such as **[!UICONTROL CTV exposed]**, coverage counts records with a true value. Coverage does not indicate identity match rates or the proportion of first-party profiles that receive an attribute.
 
 Identity matching, source-signal availability, and ingestion affect profile updates. Coverage does not confirm export completion or profile updates.
 
 ### Workflow scope {#workflow-scope}
 
-Use the curated catalog to enrich data from [!DNL The Trade Desk]. You cannot export raw logs or create custom attribute expressions. Other demand-side platform (DSP) and supply-side platform (SSP) integrations are not supported.
+To enrich data from [!DNL The Trade Desk], use the curated catalog. You cannot export raw logs or create custom attribute expressions. Other demand-side platform (DSP) and supply-side platform (SSP) integrations are not supported.
 
 This workflow does not support enrichment opportunity discovery, audience overlap analysis, or attribution and incrementality measurement.
 
@@ -150,11 +154,11 @@ Verify the export separately from profile updates:
 1. Ingest the file using the confirmed identity and schema mappings for the target sandbox and dataset.
 1. Review ingestion results and verify that a sample of expected profiles contains the enrichment attributes.
 
-Exporting a file does not confirm that ingestion updated profiles. Ingest each later export separately to update profiles.
+Exporting a file does not confirm that ingestion updated profiles. To update profiles, ingest each later export separately.
 
 ## Troubleshoot enrichment {#troubleshoot-enrichment}
 
-Use these checks to troubleshoot source data, export, and ingestion issues:
+To troubleshoot source data, export, and ingestion issues, use the following checks:
 
 | Issue | What to check |
 | --- | --- |
