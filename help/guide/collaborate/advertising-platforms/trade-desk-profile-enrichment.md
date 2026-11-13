@@ -10,7 +10,7 @@ badge: Alpha
 
 Use the Raw Event Data Stream (REDS) impression log data feed from [!DNL The Trade Desk] to export enrichment attributes and paid media context to your first-party profiles.
 
-After the CSV file arrives in your [!DNL Amazon S3] export destination, ingest it into [!DNL Adobe Real-Time CDP]. In this release, exporting the file does not automatically update profiles or activate experiences. Automated profile enrichment back to [!DNL Adobe Real-Time CDP] will be a feature in a subsequent release.
+After the CSV file arrives in your [!DNL Amazon S3] export destination, ingest it into [!DNL Adobe Real-Time CDP]. In this release, exporting the file does not automatically update profiles or activate experiences. Automated profile enrichment in [!DNL Adobe Real-Time CDP] is planned for a subsequent release.
 
 Ad exposure adds context to customer profiles. It does not confirm engagement, purchase intent, or long-term interests.
 
@@ -50,11 +50,11 @@ Select **[!UICONTROL Connect]** for [!DNL The Trade Desk] and follow the instruc
 
 ![The connection dialog explains REDS authorization and Partner ID setup for [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
 
-After the connection is active, open **[!UICONTROL Connection settings]** and go to **[!UICONTROL Advertiser info]**. Select **[!UICONTROL Edit]** to update existing information or **[!UICONTROL Add]** to enter new information.
+After the connection is active, open **[!UICONTROL Connection settings]** and go to **[!UICONTROL Advertiser info]**. To update existing information, select **[!UICONTROL Edit]**. To enter new information, select **[!UICONTROL Add]**.
 
 ![The active connection settings show [!UICONTROL Advertiser info] and the [!UICONTROL Edit] control.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
 
-Enter the ID and your partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. You can find your Partner ID under **[!UICONTROL Seat Identifiers]** in your [!DNL The Trade Desk] account. 
+ To save your advertiser information, enter the ID and partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. You can find your Partner ID under **[!UICONTROL Seat Identifiers]** in your [!DNL The Trade Desk] account.
 
 ![The Advertiser info dialog has required Partner ID and Partner name fields and a [!UICONTROL Save] control.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
 
@@ -68,13 +68,13 @@ In **[!UICONTROL Create project]**, select [!DNL The Trade Desk] from **[!UICONT
 
 ![The [!UICONTROL Create project] form lists [!DNL The Trade Desk] and includes project name, description, and image fields.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
 
-Enter a **[!UICONTROL Project name]** and **[!UICONTROL Description]**, then select an image to identify the project. When the project details are complete, select **[!UICONTROL Create]**.
+To identify the project, enter a **[!UICONTROL Project name]** and **[!UICONTROL Description]**, then select an image. When the project details are complete, select **[!UICONTROL Create]**.
 
 For general project management, see the [Create and manage projects guide](/help/guide/collaborate/manage-projects.md).
 
 ## Select and export attributes {#select-export-attributes}
 
-To select enrichment attributes for export, open the project and select **[!UICONTROL Enrich]**. Review coverage values for each attribute to understand signal availability before selecting the attributes you want to use.
+To select enrichment attributes for export, open the project and select **[!UICONTROL Enrich]**. To understand signal availability, review coverage values for each attribute before selecting the attributes you want to use.
 
 ![The [!UICONTROL Enrich] page groups selectable signals by category and displays coverage values.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
@@ -90,7 +90,7 @@ Review the selected attributes and destination, then select **[!UICONTROL Export
 
 Submitting an export starts delivery if your destination is configured correctly. After you submit the export, verify successful file delivery outside [!DNL Adobe Real-Time CDP Collaboration].
 
-Adobe processes enrichment attributes when you create a project and then weekly. Each run uses the last 90 days of available [!DNL The Trade Desk] data. Each export includes your selected attributes from the most recent completed run, so request another export after a later run completes for refreshed attributes.
+Adobe processes enrichment attributes when you create a project and then weekly. Each run uses the last 90 days of available [!DNL The Trade Desk] data. Each export includes your selected attributes from the most recent completed run. To export refreshed attributes, request another export after a later run completes.
 
 ### Available enrichment signals {#available-signals}
 
@@ -121,7 +121,7 @@ Geography signals describe advertising context rather than a verified home or cu
 
 ### Attribute coverage {#attribute-coverage}
 
-Coverage describes how often processed records include an attribute value. For yes/no signals, such as **[!UICONTROL CTV exposed]**, coverage counts records with a true value. Coverage does not indicate identity match rates or the proportion of first-party profiles that will receive an attribute.
+Coverage describes how often processed records include an attribute value. For yes/no signals, such as **[!UICONTROL CTV exposed]**, coverage counts records with a true value. Coverage does not indicate identity match rates or the proportion of first-party profiles that receive an attribute.
 
 Identity matching, source-signal availability, and ingestion affect profile updates. Coverage does not confirm export completion or profile updates.
 
