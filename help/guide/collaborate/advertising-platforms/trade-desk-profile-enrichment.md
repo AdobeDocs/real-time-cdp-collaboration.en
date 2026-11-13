@@ -42,51 +42,55 @@ Complete the access letter in the connection dialog and save your Partner ID. Wa
 
 ### Connect with the partner {#connect-partner}
 
-Connect to [!DNL The Trade Desk] and add your advertiser information:
+To connect with [!DNL The Trade Desk], open **[!UICONTROL Discover collaborators]** in **[!UICONTROL Connect]** and search for the partner.
 
-1. In **[!UICONTROL Connect]**, open **[!UICONTROL Discover collaborators]**.
-1. Search for [!DNL The Trade Desk].
-   ![The collaborator catalog lists [!DNL The Trade Desk] and its [!UICONTROL Connect] option.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. Select **[!UICONTROL Connect]** for [!DNL The Trade Desk] and follow the instructions in the connection dialog.
-   ![The connection dialog explains REDS authorization and Partner ID setup for [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. After the connection is active, open **[!UICONTROL Connection settings]**. In **[!UICONTROL Advertiser info]**, select **[!UICONTROL Edit]** to update existing information or **[!UICONTROL Add]** to enter new information.
-   ![The active connection settings show [!UICONTROL Advertiser info] and the [!UICONTROL Edit] control.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. Enter your Partner ID and partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. Find your Partner ID in your [!DNL The Trade Desk] account under **[!UICONTROL Seat Identifiers]**.
-   ![The Advertiser info dialog has required Partner ID and Partner name fields and a [!UICONTROL Save] control.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![The collaborator catalog lists [!DNL The Trade Desk] and its [!UICONTROL Connect] option.](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-After the connection is active and you save the advertiser information, wait for confirmation that Adobe has received your REDS logs. Then create a project.
+Select **[!UICONTROL Connect]** for [!DNL The Trade Desk] and follow the instructions in the connection dialog.
+
+![The connection dialog explains REDS authorization and Partner ID setup for [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
+
+After the connection is active, open **[!UICONTROL Connection settings]** and go to **[!UICONTROL Advertiser info]**. Select **[!UICONTROL Edit]** to update existing information or **[!UICONTROL Add]** to enter new information.
+
+![The active connection settings show [!UICONTROL Advertiser info] and the [!UICONTROL Edit] control.](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+Enter the ID and your partner name in **[!UICONTROL Partner ID]** and **[!UICONTROL Partner name]**, then select **[!UICONTROL Save]**. You can find your Partner ID under **[!UICONTROL Seat Identifiers]** in your [!DNL The Trade Desk] account. 
+
+![The Advertiser info dialog has required Partner ID and Partner name fields and a [!UICONTROL Save] control.](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+After you save the advertiser information, wait for Adobe to confirm receipt of your REDS logs before creating a project.
 
 ### Create a project {#create-project}
 
-Create a project for the connection:
+To create a project, go to **[!UICONTROL Collaborate]** and select **[!UICONTROL My Projects]**, then **[!UICONTROL Create a project]** or the add icon (![Add a project.](/help/assets/icons/plus.png)).
 
-1. In **[!UICONTROL Collaborate]**, select **[!UICONTROL My Projects]**.
-1. Select **[!UICONTROL Create a project]** or the add icon (![Add a project.](/help/assets/icons/plus.png)).
-1. In **[!UICONTROL Create project]**, select [!DNL The Trade Desk] from **[!UICONTROL Collaborator]**.
-   ![The [!UICONTROL Create project] form lists [!DNL The Trade Desk] and includes project name, description, and image fields.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. Enter a **[!UICONTROL Project name]** and **[!UICONTROL Description]**, then choose an image to identify the project.
-1. Select **[!UICONTROL Create]**.
+In **[!UICONTROL Create project]**, select [!DNL The Trade Desk] from **[!UICONTROL Collaborator]**.
+
+![The [!UICONTROL Create project] form lists [!DNL The Trade Desk] and includes project name, description, and image fields.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+Enter a **[!UICONTROL Project name]** and **[!UICONTROL Description]**, then select an image to identify the project. When the project details are complete, select **[!UICONTROL Create]**.
 
 For general project management, see the [Create and manage projects guide](/help/guide/collaborate/manage-projects.md).
 
 ## Select and export attributes {#select-export-attributes}
 
-Export enrichment attributes from your project:
+To select enrichment attributes for export, open the project and select **[!UICONTROL Enrich]**. Review coverage values for each attribute to understand signal availability before selecting the attributes you want to use.
+
+![The [!UICONTROL Enrich] page groups selectable signals by category and displays coverage values.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. Open the project and select **[!UICONTROL Enrich]**.
-1. Review coverage values for each attribute to understand signal availability.
-1. Select the attributes you want to use for enrichment.
-   ![The [!UICONTROL Enrich] page groups selectable signals by category and displays coverage values.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. Select the [!DNL Amazon S3] export destination configured for enrichment output. To configure a destination, see [Configure and manage cloud storage destinations](/help/guide/destinations/manage-destinations.md).
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. Review the selected attributes and destination, then select **[!UICONTROL Export Attributes]**.
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+Select the [!DNL Amazon S3] export destination configured for enrichment output. If you need to configure a destination, see [Configure and manage cloud storage destinations](/help/guide/destinations/manage-destinations.md).
 
-Submitting an export starts delivery if your destination is configured correctly. Verify successful file delivery outside [!DNL Adobe Real-Time CDP Collaboration].
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
 
-Adobe processes enrichment attributes when you create a project and then weekly. Each run uses the last 90 days of available [!DNL The Trade Desk] data. Each export includes your selected attributes from the most recent completed run. To export refreshed attributes, request another export after a later run completes.
+Review the selected attributes and destination, then select **[!UICONTROL Export Attributes]**.
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+Submitting an export starts delivery if your destination is configured correctly. After you submit the export, verify successful file delivery outside [!DNL Adobe Real-Time CDP Collaboration].
+
+Adobe processes enrichment attributes when you create a project and then weekly. Each run uses the last 90 days of available [!DNL The Trade Desk] data. Each export includes your selected attributes from the most recent completed run, so request another export after a later run completes for refreshed attributes.
 
 ### Available enrichment signals {#available-signals}
 
