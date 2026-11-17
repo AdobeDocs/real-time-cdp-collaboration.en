@@ -1,8 +1,8 @@
 ---
 title: Configure [!DNL Databricks Delta Share] for Audience Sourcing
-description: Learn how to configure and connect [!DNL Databricks Delta Share] for audience sourcing in Real-Time CDP Collaboration.
+description: Learn how to configure and connect [!DNL Databricks Delta Share] for audience sourcing in Real-Time CDP Collaboration, including history sharing.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
@@ -18,11 +18,11 @@ This guide explains how to prepare prerequisites, connect your [!DNL Delta Share
 
 Audiences sourced from [!DNL Databricks] follow the same governance and data handling rules as audiences sourced from Adobe Experience Platform and other supported cloud sources.
 
-Other available sourcing methods include [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Google Cloud Storage](./configure-gcs-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md), [Azure storage](./configure-azure-storage-audience-sourcing.md), and [CSV file upload](./upload-csv-audience-sourcing.md). To learn more about all available sources in Collaboration, see [Sources overview](./source-overview.md).
+Other available sourcing methods include [Experience Platform](/help/guide/setup/onboard-audiences.md), [Amazon S3](/help/guide/setup/configure-aws-s3-audience-sourcing.md), [Google Cloud Storage](/help/guide/setup/configure-gcs-audience-sourcing.md), [Snowflake](/help/guide/setup/configure-snowflake-audience-sourcing.md), [Azure storage](/help/guide/setup/configure-azure-storage-audience-sourcing.md), and [CSV file upload](/help/guide/setup/upload-csv-audience-sourcing.md). To learn more about all available sources in Collaboration, see [Sources overview](/help/guide/setup/source-overview.md).
 
 ## Prerequisites {#prerequisites}
 
-Complete the prerequisites in this section before you start the configuration workflow. Missing prerequisites are a common reason that setup fails or audiences do not appear after sourcing. Before you follow this guide, complete [account onboarding and setup](./onboard-account.md).
+Complete the prerequisites in this section before you start the configuration workflow. Missing prerequisites are a common reason that setup fails or audiences do not appear after sourcing. Before you follow this guide, complete [account onboarding and setup](/help/guide/setup/onboard-account.md).
 
 Some tasks in this guide require help from a [!DNL Databricks] administrator. If you do not administer [!DNL Databricks] for your organization, work with the appropriate administrator before you begin.
 
@@ -45,8 +45,9 @@ Structure your audience tables so that Collaboration can discover audiences and 
 * **Supported match keys:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID`, and other match keys enabled for your Collaboration account.
 * **Hashing requirements:** All match key values must be trimmed, lowercased, and SHA256-hashed before they are stored in [!DNL Databricks]. Collaboration does not hash or normalize data before ingestion.
 * **Column consistency:** The membership table must expose stable column names that Collaboration can map to your enabled match keys.
+* **History sharing (recommended):** Include history when you add audience tables to the share. History sharing lets Collaboration read large tables in parallel using the same table version. Without history, sourcing still completes correctly but uses a slower single-query read. For more information, see [Enable history sharing](#enable-history-sharing).
 
-All match keys present in your membership table must also be enabled for your Collaboration account. To add or enable match keys, see [Set up match keys](./onboard-account.md#set-up-match-keys).
+All match keys present in your membership table must also be enabled for your Collaboration account. To add or enable match keys, see [Set up match keys](/help/guide/setup/onboard-account.md#set-up-match-keys).
 
 ### Values required before you begin {#required-values}
 
@@ -56,9 +57,9 @@ Have the following values ready before starting the configuration wizard.
 | Value | Description |
 | ----- | ----------- |
 | Provider name | The provider identifier that Adobe uses in Unity Catalog to access your [!DNL Delta Share]. Your [!DNL Databricks] administrator or Adobe onboarding contact can provide this value. This value is not the same as your [!DNL Databricks] workspace URL. |
-| Share name                | The name of the [!DNL Delta Share] published to Adobe.  |
-| Schema                    | The schema within the share that contains your audience tables. |
-| Membership table          | The table name within the schema that holds audience membership rows (one row per profile in an audience). |
+| Share name | The name of the [!DNL Delta Share] published to Adobe. |
+| Schema | The schema within the share that contains your audience tables. |
+| Membership table | The table name within the schema that holds audience membership rows (one row per profile in an audience). |
 | Metadata table (optional) | The table name within the schema that lists audiences (one row per audience), if you use a metadata-driven audience catalog. |
 
 {style="table-layout:auto"}
@@ -102,17 +103,17 @@ Collaboration validates the share and mounts it in Adobe's workspace. This step 
 | **[!UICONTROL Provider name]** | The Unity Catalog provider name Adobe uses to consume your share. See [Values required before you begin](#required-values). |
 | **[!UICONTROL Share name]** | The name of the [!DNL Delta Share] published to Adobe. |
 | **[!UICONTROL Schema]** | The schema within the share that contains your audience tables. |
-| **[!UICONTROL Data table]** |  The table name within the schema that holds audience membership rows (one row per profile in an audience). |
-| **[!UICONTROL Metadata table]** | The table that lists audiences (one row per audience).  |
+| **[!UICONTROL Membership table]** | The table name within the schema that holds audience membership rows (one row per profile in an audience). |
+| **[!UICONTROL Metadata table]** | The table that lists audiences (one row per audience). |
 
 
-![The Add audience workflow showing the Databricks connect-share form with provider name, share name, schema, data table, and metadata table fields, and the Next button available.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![The Add audience workflow showing the Databricks connect-share form with provider name, share name, schema, membership table, and metadata table fields, and the Next button available.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 If the share cannot be found or the schema is not yet visible, an error message appears. Verify the values with your [!DNL Databricks] administrator and try again.
 
 ### Confirm consent and data use acknowledgment {#confirm-consent}
 
-Before proceeding, confirm that you have applied any opt-outs required by law to the audience data you send to Collaboration. If you are unsure whether your data meets this requirement, review the [governance policy and enforcement actions](./onboard-audiences.md#governance-policy-and-enforcement-actions) guide before proceeding. Select the confirmation checkbox and then select **[!UICONTROL OK]** to proceed.
+Before proceeding, confirm that you have applied any opt-outs required by law to the audience data you send to Collaboration. If you are unsure whether your data meets this requirement, review the [governance policy and enforcement actions](/help/guide/setup/onboard-audiences.md#governance-policy-and-enforcement-actions) guide before proceeding. Select the confirmation checkbox and then select **[!UICONTROL OK]** to proceed.
 
 ![The consent opt-out acknowledgment dialog requiring confirmation before proceeding.](../../assets/setup/aws-audience-sourcing/consent-optout-acknowledgment.png)
 
@@ -177,7 +178,7 @@ While Collaboration is retrieving your audience data, a banner at the top of the
 
 >[!TIP]
 >
->Audience sourcing time varies based on the size of your membership table and whether you use a metadata table for audience discovery. Larger datasets may take longer to appear in the **[!UICONTROL My audiences]** workspace.
+>Audience sourcing time depends on membership table size, metadata-driven audience discovery, and history sharing. Large tables shared without history use a slower single-query read. Cross-cloud shares also use a single-query read, even with history enabled. For more information, see [Enable history sharing](#enable-history-sharing). Larger datasets may take longer to appear in **[!UICONTROL My audiences]**.
 
 ### View sourced audience details {#view-audience-details}
 
@@ -194,7 +195,7 @@ The detail view displays the audience's status, source, and data connection name
 
 ![Individual audience detail view showing Status: Active, the source system, and data connection name at the top, with four panels below: Identities, Categories, Connection access, and Metadata visibility.](../../assets/setup/databricks-audience-sourcing/databricks-audience-detail-view.png)
 
-Review these settings before using the audience in a collaboration project. To update categories, connection access, or metadata visibility, see [View and manage individual audiences](./onboard-audiences.md#view-individual-audiences).
+Review these settings before using the audience in a collaboration project. To update categories, connection access, or metadata visibility, see [View and manage individual audiences](/help/guide/setup/onboard-audiences.md#view-individual-audiences).
 
 ### Edit audience settings {#edit-audience-settings}
 
@@ -215,8 +216,10 @@ Be aware of the following constraints when configuring and using [!DNL Databrick
 * **Native sharing only:** The UI supports native Databricks-to-Databricks [!DNL Delta Sharing] only. Bearer-token and OIDC authentication flows are not available in the configuration wizard.
 * **No in-wizard table browser:** You must enter table names manually. Collaboration validates table names when you preview tables; it does not list all tables in your share automatically.
 * **Metadata table row limit:** When you use a metadata table for audience discovery, Collaboration imports up to 100,000 audience rows from that table. Contact Adobe support if your catalog exceeds this limit.
-* **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. You can add match keys to an existing connection, but you cannot disable or delete them. To change the active match keys, you must [delete the data connection](./manage-data-connection.md#delete-data-connection) and create a new one.
+* **Match key constraints:** Once a match key is enabled for a data connection, it cannot be removed. You can add match keys to an existing connection, but you cannot disable or delete them. To change the active match keys, you must [delete the data connection](/help/guide/setup/manage-data-connection.md#delete-data-connection) and create a new one.
 * **Membership table required:** Even when you use a metadata table for audience discovery, you must specify a membership table. Collaboration reads identity rows from the membership table during ingestion.
+* **History sharing recommended for large tables:** Tables shared without history are read with a single sequential query. Results remain correct, but sourcing large tables can take much longer. See [Enable history sharing](#enable-history-sharing).
+* **Cross-cloud shares:** When your [!DNL Databricks] provider and the Adobe workspace are on different clouds, sourcing uses a single-query read, even with history. For example, the single-query read applies when your provider uses [!DNL Azure] and the Adobe workspace uses AWS. No action is required on your side.
 
 ## Troubleshooting {#troubleshooting}
 
@@ -242,10 +245,26 @@ Use this section to resolve issues that occur during or after configuration. For
 
 **Audiences are not appearing or sourcing is taking longer than expected**
 
+* Confirm your tables are shared with history. Run `SHOW ALL IN SHARE <share_name>;` and check that `history_sharing` is `ENABLED`. If history sharing is disabled, re-add the table with `WITH HISTORY`. For more information, see [Enable history sharing](#enable-history-sharing).
 * Sourcing time scales with data volume. Extended processing time is expected for large membership tables.
 * If audiences have not appeared within 24 hours, check the **[!UICONTROL My data connections]** tab for error indicators on the connection.
 * Verify that your membership table structure and field mappings match the requirements in [Prepare your audience data](#prepare-audience-data).
 * If the issue persists, contact Adobe customer support and provide the data connection name and table details.
+
+**Enabling history sharing fails**
+
+If your workspace rejects the `ALTER TABLE` command, remove the table from the share and add the table with history. Replace `<share_name>`, `<catalog>`, `<schema>`, and `<table>` with your share name and table identifiers.
+
+>[!IMPORTANT]
+>
+> Do not remove and re-add a table while an Adobe sourcing run is in progress.
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+After re-adding the table, [verify that history sharing is enabled](#enable-history-sharing).
 
 **The data connection shows a failed status after initially succeeding**
 
@@ -269,16 +288,50 @@ Prepare the following in your [!DNL Databricks] workspace:
 * A [!DNL Delta Share] containing the schema and tables Collaboration will read.
 * A membership table with one row per profile-audience pair and columns for **`AUDIENCE_ID`** and match keys.
 * An optional metadata table if you plan to use metadata-driven audience discovery.
+* History sharing enabled for each table in the share (recommended).
 
 ### Publish the share {#publish}
 
 Follow your organization's [!DNL Databricks Delta Sharing] procedures to grant Adobe's consumer account access to the share. Exact steps depend on your [!DNL Databricks] deployment and governance model. In general:
 
 1. In Unity Catalog, create or identify the share that contains your audience schema and tables.
-2. Add the schema (or individual tables) to the share.
+2. Add the schema or individual tables to the share, with history sharing enabled for each table (recommended). For more information, see [Enable history sharing](#enable-history-sharing).
 3. Grant the share to Adobe's [!DNL Databricks] consumer account using native Databricks-to-Databricks sharing.
 4. Confirm with your Adobe contact that the share is visible on the consumer side and note the provider name and share name for the Collaboration configuration wizard.
-5. For [!DNL Databricks] product documentation on [!DNL Delta Sharing], see the [Databricks Delta Sharing documentation](https://docs.databricks.com/aws/en/delta-sharing).
+
+>[!NOTE]
+>
+> For product instructions, see the [Databricks Delta Sharing documentation](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}.
+
+### Enable history sharing {#enable-history-sharing}
+
+Share each audience table with history so Collaboration can read large tables in parallel using the same table version. This prevents missing or duplicated rows if you update the table during sourcing. Without history, sourcing remains correct but uses a slower single-query read.
+
+Cross-cloud shares use the single-query read even with history enabled. For more information, see [Known limitations](#known-limitations).
+
+History sharing exposes earlier versions of the tables you share with Adobe, not other tables. Enabling history for an already-shared table requires no additional share grant.
+
+Use the following SQL commands in your [!DNL Databricks] workspace. Replace `<share_name>`, `<catalog>`, `<schema>`, and `<table>` with your share name and table identifiers.
+
+To add a table with history, run:
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+To enable history sharing for a table already in the share, run:
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+To verify history sharing, run:
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+Confirm that `history_sharing` is `ENABLED` for each audience table, including the metadata table if you use one. History sharing takes effect on the next sourcing run.
 
 ### Collect [!DNL Databricks] details for Collaboration {#collect-databricks-details}
 
@@ -287,11 +340,11 @@ After you publish the share, make sure you have the provider name, share name, s
 Gather the details below before starting the Collaboration configuration wizard.
 
 | Field | Description | Example |
-| ------| ----------- | ------- |
-| Provider name  | Provider identifier in Adobe's Unity Catalog metastore (from Adobe onboarding) | `your_org_provider`       |
-| Share name    | Name of the published [!DNL Delta Share]   | `audience_share_prod`     |
-| Schema | Schema  | `collaboration_audiences` |
-| Membership table  | Table with profile-audience membership rows  | `audience_members`        |
+| ------ | ----------- | ------- |
+| Provider name | Provider identifier in Adobe's Unity Catalog metastore (from Adobe onboarding) | `your_org_provider` |
+| Share name | Name of the published [!DNL Delta Share] | `audience_share_prod` |
+| Schema | Schema within the share that contains your audience tables. | `collaboration_audiences` |
+| Membership table | Table with profile-audience membership rows | `audience_members` |
 | Metadata table (optional) | Table listing audiences (one row per audience) | `audience_catalog` |
 
 {style="table-layout:auto"}
@@ -302,16 +355,16 @@ You have configured [!DNL Databricks Delta Share] as a data source in Collaborat
 
 From here, you can:
 
-* [Create and manage collaboration projects](../collaborate/manage-projects.md)
-* [Activate audiences within a project](../collaborate/activate.md)
-* [Review overlaps and measure performance](../collaborate/measure.md)
-* [Manage audience settings and visibility](./onboard-audiences.md#view-individual-audiences)
-* [View and manage data connections](./manage-data-connection.md)
+* [Create and manage collaboration projects](/help/guide/collaborate/manage-projects.md)
+* [Activate audiences within a project](/help/guide/collaborate/activate.md)
+* [Review overlaps and measure performance](/help/guide/collaborate/measure.md)
+* [Manage audience settings and visibility](/help/guide/setup/onboard-audiences.md#view-individual-audiences)
+* [View and manage data connections](/help/guide/setup/manage-data-connection.md)
 
 For other audience sourcing methods, see:
 
-* [Configure [!DNL Google Cloud Storage] for audience sourcing](./configure-gcs-audience-sourcing.md)
-* [Configure [!DNL Amazon S3] for audience sourcing](./configure-aws-s3-audience-sourcing.md)
-* [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md)
-* [Source audiences from Experience Platform](./onboard-audiences.md)
-* [Upload a CSV file for audience sourcing](./upload-csv-audience-sourcing.md)
+* [Configure [!DNL Google Cloud Storage] for audience sourcing](/help/guide/setup/configure-gcs-audience-sourcing.md)
+* [Configure [!DNL Amazon S3] for audience sourcing](/help/guide/setup/configure-aws-s3-audience-sourcing.md)
+* [Configure [!DNL Snowflake] for audience sourcing](/help/guide/setup/configure-snowflake-audience-sourcing.md)
+* [Source audiences from Experience Platform](/help/guide/setup/onboard-audiences.md)
+* [Upload a CSV file for audience sourcing](/help/guide/setup/upload-csv-audience-sourcing.md)
