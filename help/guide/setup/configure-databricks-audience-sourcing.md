@@ -239,8 +239,8 @@ Use this section to resolve issues that occur during or after configuration. For
 
 **Field mapping validation blocks progress**
 
-* Confirm your membership table includes a column mappable to **`AUDIENCE_ID`**.
-* Ensure at least two identity fields are fully mapped (source and target).
+* Confirm your membership table includes an `AUDIENCE_ID` column and at least one supported match key column.
+* Confirm that at least one supported match key has both a source and target field mapped.
 * Use **[!UICONTROL Preview source data]** to verify column names match your enabled match keys.
 
 **Audiences are not appearing or sourcing is taking longer than expected**
