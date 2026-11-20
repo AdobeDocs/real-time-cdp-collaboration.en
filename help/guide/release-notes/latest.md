@@ -2,7 +2,7 @@
 title: Latest Real-Time CDP Collaboration Release Notes
 description: Follow the latest releases for Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -27,9 +27,32 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-**Last update**: August 2026.
+**Last update**: Novemeber 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
+
+## November 2026 {#november-2026}
+
+You can now add paid media context from [!DNL The Trade Desk] to first-party profiles and improve sourcing performance for large [!DNL Databricks] audience tables.
+
+| Feature | Description |
+| ------- | ----------- |
+| [!DNL The Trade Desk] profile enrichment (Alpha) | You can now add paid media context from [!DNL The Trade Desk] to first-party profiles for audience building and personalization. For more information, see [The Trade Desk profile enrichment](/help/guide/collaborate/advertising-platforms/trade-desk-profile-enrichment.md). |
+| History sharing for [!DNL Databricks] audience sourcing | You can now improve audience sourcing performance for large [!DNL Databricks] tables by enabling history sharing. History sharing gives Adobe access to previous versions of the tables you share, enabling Collaboration to read data in parallel. Cross-cloud shares continue to use single-query reads, even with history sharing enabled. For more information, see [Enable history sharing](/help/guide/setup/configure-databricks-audience-sourcing.md#enable-history-sharing). |
+
+{style="table-layout:auto"}
+
+## October 2026 {#october-2026}
+
+You can now manage identity resolution, create expansion audiences, and use self-service ad log sourcing in Real-Time CDP Collaboration.
+
+| Feature | Description |
+| ------- | ----------- |
+| Epsilon Core ID identity resolution | You can now identify people you have in common with collaborators, even when your organizations use different identifiers. Use Epsilon Core ID to resolve identities across eligible audience data connections without building custom integrations for each partner. This capability is available only for Collaboration accounts provisioned in the United States. For more information, see [Set up and manage identity resolution](/help/guide/setup/identity-resolution.md). |
+| Self-service ad log sourcing | You can now measure campaign performance using advertising exposure (ad log) data stored in [!DNL Google Cloud Storage], [!DNL Azure Blob Storage], or [!DNL Azure Data Lake Storage Gen2], allowing you to connect your storage directly to Collaboration without first sourcing the ad logs through Adobe Experience Platform. For more information, see [Google Cloud Storage setup](/help/guide/setup/configure-gcs-adlog-sourcing.md) and [Azure storage setup](/help/guide/setup/configure-azure-adlog-sourcing.md). |
+| [!BADGE Beta]{type=Informative} Audience expansion | You can now expand your reach to new prospects who resemble your seed audience. Find similar profiles within a collaborator population without exposing the underlying audience data. For more information, see [Create expansion audiences](/help/guide/collaborate/expand.md). |
+
+{style="table-layout:auto"}
 
 ## August 2026 {#august-2026}
 
@@ -39,6 +62,7 @@ Real-Time CDP Collaboration now supports [!DNL Amazon Marketing Cloud] (AMC) mea
 
 | Feature | Description |
 | ------- | ----------- |
+| Additional data-use labels for [!UICONTROL Data Collaboration] | You can now apply data-use restrictions during audience sourcing to keep labeled sensitive and regulated health data out of Collaboration. The **[!UICONTROL Data Collaboration]** marketing action now supports S1, S2, PSPD, and RHD data usage labels. Existing C4, C5, and C9 label support remains unchanged. For more information, see [Audience sourcing governance](/help/guide/setup/onboard-audiences.md#governance-policy-and-enforcement-actions). |
 | [!DNL AMC] measurement reporting | Measure the performance of your Amazon Ads campaigns using [!DNL AMC] data directly in Collaboration. From the **[!UICONTROL Measure]** tab in an [!DNL AMC] project, you can create **Campaign Summary** and **Attribution** reports to evaluate campaign performance and understand conversion attribution. For more information, see [Create Amazon Marketing Cloud measurement reports](../collaborate/advertising-platforms/amc-measure.md). |
 | Match key mapping for nested profile attributes | You can now map match keys to fields nested inside list-based profile fields, such as a device ID within a `devices` array, without flattening or restructuring your data beforehand. Collaboration matches and counts each value in the nested field individually. Nested fields are currently supported for match keys only, not as profile attributes. For more information, see [map fields](../setup/onboard-audiences.md#map-fields). |
 | Placement-level conversion reporting | Attribution reports now include a **conversions by placement** table, showing conversion count and conversion value for each Placement ID within a Campaign ID. This gives you separate results for campaigns with multiple placements. The former **[!UICONTROL Estimated revenue]** metric label has been updated to **[!UICONTROL Conversion value]** for clarity. For more information, see [conversions by placement](../collaborate/measure.md#conversions-by-placement). |
@@ -132,12 +156,12 @@ Real-Time CDP Collaboration is now available to customers in **Canada**. It is a
 >
 >When activating audiences where multiple match keys are used, if one (or more) match key has no overlaps, no audience counts, or falls below threshold, the entire activation will fail. Ensure your audiences have sufficient overlap and meet the minimum threshold of 1000 IDs across all match keys before activating.
 
-* The Adobe Experience Platform destination now supports activating audiences with multiple match keys. Additionally, you can now used a linked key when configuring your destination's mapping to specify which match key is sent during activation. To learn more, read the [Experience Platform destination](../destinations/experience-platform.md#linked-keys) guide.
+* The Adobe Experience Platform destination now supports activating audiences with multiple match keys. Additionally, you can now use a linked key when configuring your destination's mapping to specify which match key is sent during activation. To learn more, read the [Experience Platform destination](../destinations/experience-platform.md#linked-keys) guide.
 * Collaborators can now edit multiple audiences at once. You can now edit audience metadata, connection access, names, descriptions, and categories for multiple audiences using the bulk edit tool. To learn more about editing audiences, read the [manage audiences](../setup/onboard-audiences.md#edit-audiences) guide.
   
 ## July 2025 {#july-2025}
 
-Real-time CDP Collaboration now supports brand-to-brand collaboration. Collaborators can now form connections, regardless of whether they are an advertiser or publisher. This allows for more flexible collaboration opportunities and enables brands to leverage each other's data and insights. To learn more about the differences between brand-to-brand collaboration and advertiser-to-publisher collaboration, read the [collaboration patterns](../overview/collaboration-patterns.md) guide.
+Real-Time CDP Collaboration now supports brand-to-brand collaboration. Collaborators can now form connections, regardless of whether they are an advertiser or publisher. This allows for more flexible collaboration opportunities and enables brands to leverage each other's data and insights. To learn more about the differences between brand-to-brand collaboration and advertiser-to-publisher collaboration, read the [collaboration patterns](../overview/collaboration-patterns.md) guide.
 
 * Collaborators can now connect to each other using [private connection invites](../connect/establishing-connections.md#private-connection-invites). Share your account's unique connect code with a collaborator who can then use it to connect with you directly. This is a core feature of brand-to-brand collaboration, allowing collaborators to establish connections beyond advertisers exploring the **[!UICONTROL Discover collaborators]** directory.
 * [Self-serve destinations](../destinations/overview.md) are now available to both advertisers and publishers.
