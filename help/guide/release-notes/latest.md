@@ -27,7 +27,7 @@ topic_v2:
 
 {{limited-availability-release-note}}
 
-**Last update**: Novemeber 2026.
+**Last update**: November 2026.
 
 These release notes cover the functionality released in Adobe Real-Time CDP Collaboration. Collaboration releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. These release notes get updated often, so be sure to check them regularly.
 
